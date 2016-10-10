@@ -5,6 +5,7 @@
 ## Network
 >openrc networkmanager-openrc
 >openrc syslog-ng-openrc
+>openrc networkmanager-consolekit
 
 ## Libraries for Sound/Audio/Video
 >multilib manjaro-alsa
@@ -13,7 +14,6 @@
 noto-fonts  # default font
 #noto-fonts-cjk  # big package, ~76 mb compressed
 noto-fonts-emoji
-ttf-oxygen  # used for monospaced
 cantarell-fonts
 
 ## Package management
@@ -45,7 +45,6 @@ kwin
 kwrited
 milou
 oxygen
-oxygen-cursors
 plasma-desktop
 plasma-nm
 plasma-pa
@@ -73,7 +72,8 @@ kate
 kwrite
 
 ## Applications
-kcm-msm
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
 manjaro-welcome
 partitionmanager
 qpdfview
@@ -82,4 +82,4 @@ yakuake
 
 ## Settings package
 manjaro-kde-minimal-settings
-manjaro-firefox-settings
+manjaro-browser-settings

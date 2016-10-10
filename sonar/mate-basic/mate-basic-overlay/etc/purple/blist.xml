@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<purple version='1.0'>
+	<blist>
+		<group name='Chats'>
+			<setting name='collapsed' type='bool'>0</setting>
+			<chat proto='prpl-irc' account='sonar-user@irc.netwirc.tk'>
+				<alias>sonar help channel</alias>
+				<component name='channel'>#sonar</component>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+				<setting name='gtk-autojoin' type='bool'>1</setting>
+			</chat>
+			<chat proto='prpl-irc' account='sonar-user@irc.netwirc.tk'>
+				<alias>talking arch channel</alias>
+				<component name='channel'>#talkingarch</component>
+				<setting name='gtk-autojoin' type='bool'>1</setting>
+			</chat>
+		</group>
+	</blist>
+	<privacy>
+		<account proto='prpl-irc' name='sonar-user@irc.netwirc.tk' mode='1'/>
+	</privacy>
+</purple>

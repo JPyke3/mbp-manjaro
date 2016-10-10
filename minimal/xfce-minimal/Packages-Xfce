@@ -47,7 +47,7 @@ gparted
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 light-locker
-manjaro-settings-manager
+manjaro-settings-manager-notifier
 manjaro-welcome
 midori
 mousepad
@@ -63,18 +63,11 @@ xorg-xkill
 >systemd netctl
 >systemd networkmanager
 >openrc networkmanager-openrc
+>openrc networkmanager-consolekit
 networkmanager-dispatcher-ntpd
 >systemd openresolv
 >i686 blueman
 
 ## Artwork
-#faenza-green-icon-theme
-#maia-xfce-icon-theme
-menda-circle-icon-theme
-menda-themes
-#xfce-theme-greenbird
-manjaro-artwork
-xcursor-menda
->i686 xfce-theme-greenbird
 >systemd plymouth-theme-manjaro-elegant
 manjaro-backgrounds
