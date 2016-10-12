@@ -1,0 +1,124 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+## gnome package group, minus epiphany, because we'll use firefox
+adwaita-icon-theme
+baobab
+dconf-editor
+empathy
+eog
+#epiphany
+evince
+gedit
+gdm
+gnome-backgrounds
+gnome-calculator
+#gnome-contacts
+gnome-control-center
+gnome-desktop
+#gnome-dictionary
+gnome-disk-utility
+gnome-font-viewer
+gnome-keyring
+gnome-screenshot
+gnome-session
+gnome-settings-daemon
+gnome-shell
+gnome-shell-extensions
+gnome-system-log
+gnome-system-monitor
+gnome-terminal
+gnome-themes-standard
+gnome-user-docs
+gnome-user-share
+grilo-plugins
+gucharmap
+mousetweaks
+mutter
+nautilus
+sushi
+totem
+lollypop
+tracker
+vino
+xdg-user-dirs-gtk
+yelp
+nautilus-admin
+nautilus-empty-file
+
+## Gnome Main Packages
+#gnome-extra
+gnome-tweak-tool
+gufw # firewall
+manjaro-settings-manager
+#gdm3setup
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+
+## Applications
+firefox
+manjaro-browser-settings
+manjaro-gnome-settings
+gksu
+gparted
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+manjaro-welcome
+isousb
+#open-fuse-iso
+#gnome-shell-extension now set in desktop settings
+
+## Network
+netctl
+networkmanager
+networkmanager-dispatcher-ntpd
+openresolv
+#blueman
+
+## Artwork
+manjaro-artwork
+>systemd plymouth-theme-manjaro-gnome
+vertex-maia-icon-theme
+vertex-maia-themes
+gnome-wallpapers
+
+## Packages for Sound and Audio
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer0.10-bad-plugins
+gstreamer0.10-base-plugins
+gstreamer0.10-good-plugins
+gstreamer0.10-ugly-plugins
+#flashplugin
+#libdvdcss
+manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Package management
+pamac
+polkit-gnome
+
+## Games
+#steam-manjaro
+
+## Java
+#jre8-openjdk
+#jre8-openjdk-headless
+#icedtea-web
+
+## Printing
+#manjaro-printer
+
+## Office
+#libreoffice-still
