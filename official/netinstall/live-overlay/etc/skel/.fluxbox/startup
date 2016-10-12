@@ -1,0 +1,5 @@
+feh --bg-scale /usr/share/backgrounds/andromeda.png &
+nm-applet &
+sudo -E calamares -d &
+
+exec fluxbox
