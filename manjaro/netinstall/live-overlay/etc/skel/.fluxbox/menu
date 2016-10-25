@@ -1,0 +1,10 @@
+[begin] (Manjaro Linux Netinstall)
+[encoding] {UTF-8}
+      [exec] (Install Manjaro Linux [Debug Mode]) {sudo -E calamares -d}
+      [exec] (Terminal) {xterm}
+      [separator]
+      [restart] (Restart)
+      [exit] (Exit)
+[end]
+[endencoding]
+[end]

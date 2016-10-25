@@ -1,0 +1,10 @@
+[app] (name=calamares)
+  [Fullscreen]  {yes}
+  [Deco]        {NONE}
+  [Close]       {yes}
+[end]
+[app] (name=xterm) (class=XTerm)
+  [Dimensions]	{50% 60%}
+  [Position]	(UPPERLEFT)	{5% 10%}
+  [Close]		{yes}
+[end]
