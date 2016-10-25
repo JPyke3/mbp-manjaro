@@ -14,6 +14,9 @@ network-manager-applet
 sonar-mate-panel-layout
 dconf-editor
 sonar-mate-settings
+sonar-sound-theme
+sonar-common
+sonar-backgrounds
 
 ## Xorg Input Drivers
 xf86-input-acecad

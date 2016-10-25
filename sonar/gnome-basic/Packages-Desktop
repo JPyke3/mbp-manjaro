@@ -1,0 +1,194 @@
+## gnome package group, minus epiphany, because we'll use firefox
+adwaita-icon-theme
+baobab
+dconf-editor
+empathy
+eog
+#epiphany
+evince
+gedit
+gdm
+gnome-backgrounds
+gnome-calculator
+#gnome-contacts
+gnome-control-center
+gnome-desktop
+#gnome-dictionary
+gnome-disk-utility
+gnome-font-viewer
+gnome-keyring
+gnome-screenshot
+gnome-session
+gnome-settings-daemon
+gnome-shell
+gnome-shell-extensions
+gnome-system-log
+gnome-system-monitor
+gnome-terminal
+gnome-themes-standard
+gnome-user-docs
+gnome-user-share
+grilo-plugins
+gucharmap
+mousetweaks
+mutter
+nautilus
+sushi
+totem
+lollypop
+tracker
+vino
+xdg-user-dirs-gtk
+yelp
+nautilus-admin
+nautilus-empty-file
+
+## Gnome Main Packages
+#gnome-extra
+gnome-tweak-tool
+gufw # firewall
+manjaro-settings-manager
+#gdm3setup
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+
+## Applications
+firefox
+#manjaro-browser-settings
+sonar-mate-settings
+gksu
+gparted
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+manjaro-welcome
+isousb
+#open-fuse-iso
+#gnome-shell-extension now set in desktop settings
+
+## Network
+netctl
+networkmanager
+networkmanager-dispatcher-ntpd
+openresolv
+#blueman
+
+## Artwork
+manjaro-artwork
+>systemd plymouth-theme-sonar-elegant
+vertex-maia-icon-theme
+vertex-maia-themes
+gnome-wallpapers
+sonar-sound-theme
+sonar-common
+sonar-backgrounds
+
+## Packages for Sound and Audio
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer0.10-bad-plugins
+gstreamer0.10-base-plugins
+gstreamer0.10-good-plugins
+gstreamer0.10-ugly-plugins
+#flashplugin
+#libdvdcss
+manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Package management
+pamac
+polkit-gnome
+
+
+## Xorg Input Drivers
+xf86-input-acecad
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-joystick
+xf86-input-keyboard
+xf86-input-mouse
+xf86-input-libinput
+xf86-input-void
+
+## Xorg Server and Graphics
+xorg-server
+xorg-server-utils
+xorg-twm
+xorg-utils
+xorg-xinit
+mesa-demos
+>multilib lib32-mesa-demos
+
+## Desktop Utils
+xdg-user-dirs
+xdg-utils
+xdg-su
+numlockx
+
+## Fonts
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+ttf-droid
+
+## Applications
+inxi
+dmidecode # for inxi -m output
+powertop
+
+## Sound
+alsa-firmware
+>openrc alsa-utils-openrc
+>systemd alsa-utils
+
+## Network
+mobile-broadband-provider-info
+modemmanager
+>systemd networkmanager
+>openrc networkmanager-consolekit
+>openrc networkmanager-openrc
+>openrc avahi-openrc
+>systemd avahi
+nss-mdns
+>systemd ntp
+>openrc ntp-openrc
+>systemd openssh
+>openrc openssh-openrc
+
+## Misc
+>openrc consolekit-openrc
+>openrc displaymanager-openrc
+>openrc pm-utils
+>openrc cgmanager-openrc
+manjaro-hotfixes
+#accessibility packages
+>systemd espeakup
+>openrc espeakup-openrc
+orca
+>systemd brltty
+>openrc brltty-openrc
+eviacam
+open-dyslexic-fonts
+caribou
+ibus
+ibus-table
+ibus-table-extraphrase
+mousetweaks
+#alteraeon sound pack
+tintin-alteraeon
+python-yaml
+vorbis-tools
+ocrdesktop
+mumble
