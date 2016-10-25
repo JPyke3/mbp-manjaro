@@ -116,10 +116,9 @@ iso-profiles
 * Contains root image packages
 * ideally no xorg
 
-######* Packages-Custom
-* Contains the custom image packages
+######* Packages-Desktop
+* Contains the desktop image packages
 * desktop environment packages go here
-* this file is joined at build time with shared/Packages-Desktop to pull in shared desktop packages
 
 ######* Packages-Mhwd
 * Contains the MHWD driver packages repo
