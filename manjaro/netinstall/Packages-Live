@@ -1,112 +1,75 @@
-### General Packages
-## Mandatory
->x86_64 efitools
->x86_64 manjaro-efi-utils
-#squashfs-tools
+calamares-dev
+feh
+fluxbox-theme-vertex-maia
+KERNEL-broadcom-wl
+KERNEL-r8168
+KERNEL-rt3562sta
+KERNEL-virtualbox-guest-modules
+manjaro-hotfixes
+manjaro-live-skel
+>manjaro manjaro-syslinux-theme
 mkinitcpio-nfs-utils
 nbd
->manjaro manjaro-syslinux-theme
->sonar sonar-syslinux-theme
->sonar sonar-calamares-branding
-
->openrc manjaro-live-openrc
->systemd manjaro-live-systemd
-manjaro-live-skel		# live skel
-# calamares				# new GUI installer of manjaro
-calamares-dev			# new GUI installer of manjaro - kpmcore
-# calamares-exp			# new GUI installer of manjaro - experimental version
-
->systemd sddm
->openrc sddm-consolekit
-fluxbox-theme-vertex-maia
-feh
-sddm-andromeda-qt-theme
-qt5ct
-xterm
-
->openrc networkmanager-openrc
->openrc networkmanager-consolekit
->systemd networkmanager
 network-manager-applet
-xcursor-breeze
-sudo
-
-## Misc
+>openrc cgmanager-openrc
 >openrc consolekit-openrc
 >openrc displaymanager-openrc
+>openrc manjaro-live-openrc
+>openrc networkmanager-consolekit
+>openrc networkmanager-openrc
 >openrc pm-utils
->openrc cgmanager-openrc
-manjaro-hotfixes
-
+>openrc sddm-consolekit
+open-vm-tools
+qt5ct
+sddm-andromeda-qt-theme
+>sonar sonar-calamares-branding
+>sonar sonar-syslinux-theme
+>systemd manjaro-live-systemd
+>systemd networkmanager
+>systemd sddm
+virtualbox-guest-utils
+>x86_64 efitools
+>x86_64 manjaro-efi-utils
+xcursor-breeze
+xf86-input-acecad
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-joystick
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-vmmouse
+xf86-input-void
+xf86-video-amdgpu
+xf86-video-apm
+xf86-video-ark
+xf86-video-ati
+xf86-video-chips
+xf86-video-dummy
+xf86-video-fbdev
+xf86-video-glint
+xf86-video-i128
+xf86-video-i740
+xf86-video-intel
+xf86-video-mach64
+xf86-video-neomagic
+xf86-video-nouveau
+xf86-video-nv
+xf86-video-openchrome
+xf86-video-r128
+xf86-video-rendition
+xf86-video-s3
+xf86-video-s3virge
+xf86-video-savage
+xf86-video-siliconmotion
+xf86-video-sis
+xf86-video-sisusb
+xf86-video-tdfx
+xf86-video-trident
+xf86-video-tseng
+xf86-video-vesa
+xf86-video-vmware
+xf86-video-voodoo
 xorg-server
 xorg-xinit
-
-#xf86-input-acecad
-#xf86-input-elographics
-#xf86-input-evdev
-#xf86-input-joystick
-#xf86-input-keyboard
-#xf86-input-mouse
-xf86-input-libinput
-#xf86-input-void
-
-### Driver set for fast live-session bootup (optional)
-## Xorg Drivers
-#xf86-video-apm
-#xf86-video-ark
-#xf86-video-ati
-#xf86-video-amdgpu # only works with kernels 4.2+
-#xf86-video-chips
-#xf86-video-dummy
-#xf86-video-fbdev
-#xf86-video-glint
-#xf86-video-i128
-#xf86-video-i740
-#xf86-video-intel
-#xf86-video-mach64
-#xf86-video-neomagic
-#xf86-video-nouveau
-#xf86-video-nv
-#xf86-video-openchrome
-#xf86-video-r128
-#xf86-video-rendition
-#xf86-video-s3
-#xf86-video-s3virge
-#xf86-video-savage
-#xf86-video-siliconmotion
-#xf86-video-sis
-#xf86-video-sisusb
-#xf86-video-tdfx
-#xf86-video-trident
-#xf86-video-tseng
-xf86-video-vesa
-#xf86-video-vmware
-#xf86-video-voodoo
-
-## Network Support
-KERNEL-broadcom-wl
-KERNEL-rt3562sta
-KERNEL-r8168
-
-## Virtualbox Drivers
-virtualbox-guest-utils
-KERNEL-virtualbox-guest-modules
-#KERNEL-ndiswrapper
-
-## VMWare Support
-open-vm-tools
-#xf86-input-vmmouse
-#vdpau drivers
-#mesa-vdpau
-#libva-intel-driver
-#libva-mesa-driver
-#libva-vdpau-driver
-#opencl-mesa
-#>multilib lib32-mesa  # Optional dependency for mhwd
-
-## Bumblebee Support
-#>systemd bumblebee
-#>openrc bumblebee-openrc
-#primus
-#>multilib lib32-primus
-#KERNEL-bbswitch
+xterm

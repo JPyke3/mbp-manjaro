@@ -1,25 +1,35 @@
-## Mandatory
->x86_64 efitools
->x86_64 manjaro-efi-utils
-squashfs-tools
+calamares-dev
+KERNEL-broadcom-wl
+KERNEL-ndiswrapper
+KERNEL-r8168
+KERNEL-rt3562sta
+KERNEL-virtualbox-guest-modules
+manjaro-live-skel
+>manjaro manjaro-syslinux-theme
 mkinitcpio-nfs-utils
 nbd
->manjaro manjaro-syslinux-theme
->sonar sonar-syslinux-theme
->sonar sonar-calamares-branding
-
 >openrc manjaro-live-openrc
+open-vm-tools
+>sonar sonar-calamares-branding
+>sonar sonar-syslinux-theme
+squashfs-tools
 >systemd manjaro-live-systemd
-manjaro-live-skel
-# calamares
-calamares-dev
-# calamares-exp
-
-## Xorg Video Drivers
+virtualbox-guest-utils
+>x86_64 efitools
+>x86_64 manjaro-efi-utils
+xf86-input-acecad
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-joystick
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-vmmouse
+xf86-input-void
+xf86-video-amdgpu
 xf86-video-apm
 xf86-video-ark
 xf86-video-ati
-xf86-video-amdgpu # only works with kernels 4.2+
 xf86-video-chips
 xf86-video-dummy
 xf86-video-fbdev
@@ -46,42 +56,3 @@ xf86-video-tseng
 xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
-
-## Xorg Input Drivers
-xf86-input-acecad
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-joystick
-xf86-input-keyboard
-xf86-input-mouse
-xf86-input-libinput
-xf86-input-void
-
-## Network Support
-KERNEL-broadcom-wl
-KERNEL-rt3562sta
-KERNEL-r8168
-KERNEL-ndiswrapper
-
-## Virtualbox Drivers
-virtualbox-guest-utils
-KERNEL-virtualbox-guest-modules
-
-
-## VMWare Support
-open-vm-tools
-xf86-input-vmmouse
-#vdpau drivers
-#mesa-vdpau
-#libva-intel-driver
-#libva-mesa-driver
-#libva-vdpau-driver
-#opencl-mesa
-#>multilib lib32-mesa  # Optional dependency for mhwd
-
-## Bumblebee Support
-#>systemd bumblebee
-#>openrc bumblebee-openrc
-#primus
-#>multilib lib32-primus
-#KERNEL-bbswitch

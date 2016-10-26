@@ -1,19 +1,19 @@
-## gnome package group, minus epiphany, because we'll use firefox
 adwaita-icon-theme
+alsa-firmware
 baobab
 dconf-editor
+dmidecode
 empathy
 eog
-#epiphany
 evince
-gedit
+firefox
 gdm
+gedit
+gksu
 gnome-backgrounds
 gnome-calculator
-#gnome-contacts
 gnome-control-center
 gnome-desktop
-#gnome-dictionary
 gnome-disk-utility
 gnome-font-viewer
 gnome-keyring
@@ -26,64 +26,12 @@ gnome-system-log
 gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
+gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
-grilo-plugins
-gucharmap
-mousetweaks
-mutter
-nautilus
-sushi
-totem
-lollypop
-tracker
-vino
-xdg-user-dirs-gtk
-yelp
-nautilus-admin
-nautilus-empty-file
-
-## Gnome Main Packages
-#gnome-extra
-gnome-tweak-tool
-gufw # firewall
-manjaro-settings-manager
-#gdm3setup
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-
-## Applications
-firefox
-manjaro-browser-settings
-manjaro-gnome-settings
-gksu
-gparted
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-smb
-manjaro-welcome
-isousb
-#open-fuse-iso
-#gnome-shell-extension now set in desktop settings
-
-## Network
-netctl
-networkmanager
-networkmanager-dispatcher-ntpd
-openresolv
-#blueman
-
-## Artwork
-manjaro-artwork
->systemd plymouth-theme-manjaro-gnome
-vertex-maia-icon-theme
-vertex-maia-themes
 gnome-wallpapers
-
-## Packages for Sound and Audio
+gparted
+grilo-plugins
 gst-libav
 gst-plugins-bad
 gst-plugins-base
@@ -93,80 +41,93 @@ gstreamer0.10-bad-plugins
 gstreamer0.10-base-plugins
 gstreamer0.10-good-plugins
 gstreamer0.10-ugly-plugins
-#flashplugin
-#libdvdcss
+gucharmap
+gufw
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+inxi
+isousb
+lollypop
 manjaro-alsa
+manjaro-artwork
+manjaro-browser-settings
+manjaro-gnome-settings
+manjaro-hotfixes
 manjaro-pulse
+manjaro-settings-manager
+manjaro-welcome
+mesa-demos
+mobile-broadband-provider-info
+modemmanager
+mousetweaks
+>multilib lib32-mesa-demos
+mutter
+nautilus
+nautilus-admin
+nautilus-empty-file
+netctl
+networkmanager-dispatcher-ntpd
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns
+numlockx
+>openrc alsa-utils-openrc
+>openrc avahi-openrc
+>openrc cgmanager-openrc
+>openrc consolekit-openrc
+>openrc displaymanager-openrc
+>openrc networkmanager-consolekit
+>openrc networkmanager-openrc
+>openrc ntp-openrc
+>openrc openssh-openrc
+>openrc pm-utils
+>openrc sddm-consolekit
+>openrc syslog-ng-openrc
+openresolv
+pamac
+polkit-gnome
+powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-
-## Package management
-pamac
-polkit-gnome
-
-
-## Xorg Input Drivers
+sushi
+>systemd alsa-utils
+>systemd avahi
+>systemd networkmanager
+>systemd ntp
+>systemd openssh
+>systemd plymouth-theme-manjaro-gnome
+terminus-font
+totem
+tracker
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+vertex-maia-icon-theme
+vertex-maia-themes
+vino
+xdg-su
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
 xf86-input-acecad
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
-xf86-input-mouse
 xf86-input-libinput
+xf86-input-mouse
 xf86-input-void
-
-## Xorg Server and Graphics
 xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
-mesa-demos
->multilib lib32-mesa-demos
-
-## Desktop Utils
-xdg-user-dirs
-xdg-utils
-xdg-su
-numlockx
-
-## Fonts
-terminus-font
-ttf-bitstream-vera
-ttf-dejavu
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-ttf-droid
-
-## Applications
-inxi
-dmidecode # for inxi -m output
-powertop
-
-## Sound
-alsa-firmware
->openrc alsa-utils-openrc
->systemd alsa-utils
-
-## Network
-mobile-broadband-provider-info
-modemmanager
->systemd networkmanager
->openrc networkmanager-consolekit
->openrc networkmanager-openrc
->openrc avahi-openrc
->systemd avahi
-nss-mdns
->systemd ntp
->openrc ntp-openrc
->systemd openssh
->openrc openssh-openrc
-
-## Misc
->openrc consolekit-openrc
->openrc displaymanager-openrc
->openrc pm-utils
->openrc cgmanager-openrc
-manjaro-hotfixes
+yelp
