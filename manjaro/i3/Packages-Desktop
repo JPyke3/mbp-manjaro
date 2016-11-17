@@ -1,0 +1,135 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+## i3 Packages
+accountsservice
+artwork-i3
+bmenu
+downgrade
+ffmpeg
+ffmpegthumbnailer
+flashplugin
+gconf # fix qt-theme
+gnome-keyring # fix wlan segfault
+gufw # firewall
+>openrc ufw-openrc
+hexchat
+htop
+lightdm-gtk-greeter-settings
+lm_sensors
+lxappearance
+manjaro-i3-settings
+manjaro-settings-manager-notifier
+mlocate
+morc_menu
+p7zip
+polkit-gnome
+ranger
+screenfetch
+>openrc timeset
+>openrc ntp-openrc
+qt5ct
+qt5-styleplugins
+tree
+vi
+vim
+wmutils
+xarchiver
+xautolock
+xdotool
+xfce4-power-manager
+xcursor-chameleon-pearl
+xcursor-maia
+xorg-xkill
+xorg-xprop
+
+## Applications
+arandr
+clipit
+dfc
+epdfview
+gcolor2
+gimp
+gksu
+gnome-vfs
+gparted
+gvfs # trash support and mounting volumes
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp # for mounting Samsung phones
+gvfs-smb
+isousb
+libgpod # iPhone/Pod connectivity
+manjaro-browser-settings
+manjaro-features
+manjaro-welcome
+# eventually add upower-pm-utils; it seems to depend on DE features; take what works default is upower
+# >openrc upower-pm-utils
+upower
+moc
+mousepad
+ncdu
+palemoon-bin
+perl-file-mimeinfo
+pcmanfm
+poppler-data # CKJ support for pdf
+open-fuse-iso
+sbxkb
+speedtest-cli
+transmission-gtk
+viewnior
+vlc-nightly
+w3m
+xfburn
+xterm
+
+## Network
+blueman
+>openrc bluez-openrc
+>systemd netctl
+>systemd networkmanager
+>openrc networkmanager-openrc
+>openrc networkmanager-consolekit
+network-manager-applet
+networkmanager-dispatcher-ntpd
+>systemd networkmanager-openconnect
+networkmanager-openvpn
+>systemd openssh
+>openrc openssh-openrc
+>openrc openvpn-openrc
+>systemd networkmanager-pptp
+networkmanager-vpnc
+>systemd openresolv
+>systemd syslog-ng
+json-c			# for syslog-ng
+>openrc syslog-ng-openrc
+
+## Audio Packages
+>openrc alsa-utils-openrc
+>systemd alsa-utils
+alsa-plugins
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer0.10-bad-plugins
+gstreamer0.10-base-plugins
+gstreamer0.10-good-plugins
+gstreamer0.10-ugly-plugins
+flac
+libdvdcss
+manjaro-alsa
+volumeicon
+
+## Package management
+pamac
+yaourt
+
+## Printing
+manjaro-printer
+>openrc cups-openrc
+
+## AUR Access
+base-devel

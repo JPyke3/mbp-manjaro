@@ -1,0 +1,122 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+## deepin packages
+deepin-calendar
+deepin-file-manager
+deepin-gtk-theme
+deepin-social-sharing
+deepin-image-viewer
+
+## deepin-extra packages
+deepin-movie
+deepin-screenshot
+deepin-terminal
+# workaround launcher-bug https://github.com/linuxdeepin/dde-launcher/issues/5
+gnome-terminal
+
+## other deepin Packages
+baobab
+chromium
+dconf-editor
+downgrade
+evince
+gedit
+poppler-data # CKJ support for pdf
+evolution
+galculator
+gimp
+gksu
+gnome-system-monitor
+gnome-vfs
+gparted
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp # for mounting Samsung phones
+gvfs-smb
+hexchat
+htop
+isousb
+libimobiledevice
+libreoffice-still
+manjaro-browser-settings
+manjaro-deepin-settings
+manjaro-documentation
+manjaro-features
+manjaro-settings-manager-notifier
+manjaro-welcome
+mlocate
+polkit-gnome
+qt5ct
+qt5-styleplugins
+screenfetch
+smplayer
+sushi
+gufw # firewall
+transmission-gtk
+xarchiver
+xfburn
+
+## Network
+netctl
+networkmanager
+networkmanager-dispatcher-ntpd
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+openresolv
+syslog-ng
+
+## Packages for Sound and Audio
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer0.10-bad-plugins
+gstreamer0.10-base-plugins
+gstreamer0.10-good-plugins
+gstreamer0.10-ugly-plugins
+libdvdcss
+manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Package management
+pamac
+yaourt
+
+## Artwork
+adwaita-manjaro-themes
+plymouth-theme-manjaro-deepin-circle
+
+## Games
+deepin-game
+#steam-manjaro
+
+## Java
+jre8-openjdk
+jre8-openjdk-headless
+icedtea-web
+
+## Printing / Scanning
+manjaro-printer
+xsane
+xsane-gimp
+
+## AUR Access
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+libtool
+m4
+make
+patch

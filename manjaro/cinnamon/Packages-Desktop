@@ -1,0 +1,132 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+## Cinnamon
+baobab
+blueberry
+dconf-editor
+evince
+poppler-data # CKJ support for pdf
+ffmpegthumbnailer
+gimp
+gksu
+manjaro-cinnamon-settings
+manjaro-browser-settings
+nemo-fileroller # archiver
+nemo-preview
+nemo-python
+nemo-share
+pragha # musicplayer
+qt5ct
+qt5-styleplugins
+screenfetch
+transmission-gtk
+xdg-user-dirs-gtk
+
+## java
+jre8-openjdk
+icedtea-web
+jre8-openjdk-headless
+
+## GNOME related stuff
+gnome-system-log
+eog
+eog-plugins
+gedit
+gnome-disk-utility
+gnome-keyring
+gnome-screenshot
+gnome-system-monitor
+gnome-terminal
+gnome-vfs
+icon-naming-utils
+mousetweaks
+python2-gnomecanvas
+python2-gnomevfs
+python2-libgnome
+
+# needed
+python-ptyprocess
+python2-ptyprocess
+
+## Network
+netctl
+net-tools
+networkmanager-dispatcher-ntpd
+openresolv
+openvpn
+
+## Internet
+firefox
+thunderbird
+
+## Extra
+npapi-vlc
+pidgin-libnotify
+vlc-nightly
+
+## Artwork
+cinnamon-wallpapers
+flattr-icon-theme
+plymouth-theme-manjaro-cinnamon
+xcursor-chameleon-pearl-deepin
+
+## Other Applications
+exfat-utils
+fuse-exfat
+galculator
+gcolor2
+gparted
+gvfs-afc
+gvfs-google
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+hexchat
+isousb
+libgsf
+lightdm-gtk-greeter-settings
+manjaro-documentation
+manjaro-features
+manjaro-settings-manager-notifier
+manjaro-welcome
+mugshot
+nss
+numlockx
+openssh
+p7zip
+parcellite
+pavucontrol
+udiskie
+udisks
+
+## Package management
+pamac
+yaourt
+
+## Packages for Sound and Audio
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer0.10-bad-plugins
+gstreamer0.10-base-plugins
+gstreamer0.10-good-plugins
+gstreamer0.10-ugly-plugins
+libdvdcss
+manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-gconf
+pulseaudio-zeroconf
+
+## Office
+libreoffice-still
+manjaro-printer
+system-config-printer
+
+## AUR Access
+base-devel
