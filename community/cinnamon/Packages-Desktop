@@ -1,7 +1,3 @@
-######################################################
-### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
-######################################################
-
 ## Cinnamon
 baobab
 blueberry
@@ -92,7 +88,7 @@ lightdm-gtk-greeter-settings
 manjaro-documentation
 manjaro-features
 manjaro-settings-manager-notifier
-manjaro-welcome
+manjaro-welcome-dev
 mugshot
 nss
 numlockx

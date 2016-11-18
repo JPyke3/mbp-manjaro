@@ -64,7 +64,7 @@ gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
-manjaro-welcome
+manjaro-welcome-dev
 isousb
 #open-fuse-iso
 #gnome-shell-extension now set in desktop settings
