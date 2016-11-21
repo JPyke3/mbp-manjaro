@@ -81,6 +81,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 hexchat
+htop
 inxi
 isousb
 libgsf
@@ -146,6 +147,7 @@ xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
+xorg-xkill
 mesa-demos
 >multilib lib32-mesa-demos
 
