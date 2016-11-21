@@ -56,7 +56,7 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+i exec exec sudo -E calamares
+bindsym $mod+i exec sudo -E calamares
 bindsym $mod+F2 exec palemoon
 bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
