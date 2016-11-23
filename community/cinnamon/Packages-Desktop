@@ -1,167 +1,144 @@
-## Cinnamon
+alsa-firmware
+alsa-utils
+avahi
 baobab
+base-devel
 blueberry
-dconf-editor
-evince
-poppler-data # CKJ support for pdf
-ffmpegthumbnailer
-gimp
-gksu
-manjaro-cinnamon-settings
-manjaro-browser-settings
-nemo-fileroller # archiver
-nemo-preview
-nemo-python
-nemo-share
-pragha # musicplayer
-qt5ct
-qt5-styleplugins
-screenfetch
-transmission-gtk
-xdg-user-dirs-gtk
-
-## java
-jre8-openjdk
-icedtea-web
-jre8-openjdk-headless
-
-## GNOME related stuff
-gnome-system-log
-eog
-eog-plugins
-gedit
-gnome-disk-utility
-gnome-keyring
-gnome-screenshot
-gnome-system-monitor
-gnome-terminal
-gnome-vfs
-icon-naming-utils
-mousetweaks
-python2-gnomecanvas
-python2-gnomevfs
-python2-libgnome
-
-# needed
-python-ptyprocess
-python2-ptyprocess
-
-## Network
-netctl
-net-tools
-networkmanager-dispatcher-ntpd
-openresolv
-openvpn
-
-## Internet
-firefox
-thunderbird
-
-## Extra
-npapi-vlc
-pidgin-libnotify
-vlc-nightly
-
-## Artwork
 cinnamon-wallpapers
-flattr-icon-theme
-plymouth-theme-manjaro-cinnamon
-xcursor-chameleon-pearl-deepin
-
-## Other Applications
-dmidecode # for inxi -m output
+dconf-editor
+dmidecode
 exfat-utils
+ffmpegthumbnailer
+firefox
+flattr-icon-theme
 fuse-exfat
 galculator
 gcolor2
+gimp
+gksu
+gnome-disk-utility
+gnome-keyring
+gnome-screenshot
+gnome-system-log
+gnome-system-monitor
+gnome-terminal
+gnome-vfs
 gparted
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer
+gstreamer0.10-bad-plugins
+gstreamer0.10-base-plugins
+gstreamer0.10-good-plugins
+gstreamer0.10-ugly-plugins
 gvfs-afc
 gvfs-google
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 hexchat
-htop
+icedtea-web
+icon-naming-utils
 inxi
 isousb
+jre8-openjdk
+jre8-openjdk-headless
+libdvdcss
 libgsf
+libreoffice-fresh
 lightdm-gtk-greeter-settings
+manjaro-alsa
+manjaro-browser-settings
+manjaro-cinnamon-settings
 manjaro-documentation
 manjaro-features
+manjaro-hotfixes
+manjaro-printer
+manjaro-pulse
 manjaro-settings-manager-notifier
 manjaro-welcome
+mesa-demos
+mobile-broadband-provider-info
+modemmanager
+mousetweaks
 mugshot
+>multilib lib32-mesa-demos
+nemo-fileroller # archiver
+nemo-preview
+nemo-python
+nemo-share
+netctl
+net-tools
+networkmanager
+networkmanager-dispatcher-ntpd
+npapi-vlc
 nss
+nss-mdns
+ntp
 numlockx
+numlockx
+openresolv
 openssh
+openssh
+openvpn
 p7zip
+pamac
 parcellite
 pavucontrol
+pidgin-libnotify
+pix
+plymouth-theme-manjaro-cinnamon
 powertop
-udiskie
-udisks
-
-## Package management
-pamac
-yaourt
-
-## Packages for Sound and Audio
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gstreamer0.10-bad-plugins
-gstreamer0.10-base-plugins
-gstreamer0.10-good-plugins
-gstreamer0.10-ugly-plugins
-libdvdcss
-manjaro-alsa
-manjaro-pulse
+pragha # musicplayer
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-gconf
 pulseaudio-zeroconf
-
-## Office
-libreoffice-still
-manjaro-printer
+python2-gnomecanvas
+python2-gnomevfs
+python2-libgnome
+python2-ptyprocess
+python-ptyprocess
+qt5ct
+qt5-styleplugins
+screenfetch
 system-config-printer
-
-## AUR Access
-base-devel
-
-## Xorg Input Drivers
+terminus-font
+thunderbird
+transmission-gtk
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+udiskie
+udisks
+vlc-nightly
+xcursor-chameleon-pearl-deepin
+xdg-su
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+xed
 xf86-input-acecad
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
-xf86-input-mouse
 xf86-input-libinput
+xf86-input-mouse
 xf86-input-void
-
-## Xorg Server and Graphics
 xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
-xorg-xkill
-mesa-demos
->multilib lib32-mesa-demos
+xplayer
+xreader
+xviewer-plugins
+yaourt
 
-## Desktop Utils
-xdg-user-dirs
-xdg-utils
-xdg-su
-numlockx
-
-## Fonts
-terminus-font
-ttf-bitstream-vera
-ttf-dejavu
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-ttf-droid
