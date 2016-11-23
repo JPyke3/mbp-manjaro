@@ -1,113 +1,29 @@
-## i3 Packages
 accountsservice
-artwork-i3
-bmenu
-dmidecode # for inxi -m output
-downgrade
-ffmpeg
-ffmpegthumbnailer
-flashplugin
-gconf # fix qt-theme
-gnome-keyring # fix wlan segfault
-gufw # firewall
->openrc ufw-openrc
-hexchat
-htop
-inxi
-lightdm-gtk-greeter-settings
-lm_sensors
-lxappearance
-manjaro-i3-settings
-manjaro-settings-manager-notifier
-mlocate
-morc_menu
-p7zip
-polkit-gnome
-powertop
-ranger
-screenfetch
->openrc timeset
->openrc ntp-openrc
-qt5ct
-qt5-styleplugins
-tree
-vi
-vim
-wmutils
-xarchiver
-xautolock
-xdotool
-xfce4-power-manager
-xcursor-chameleon-pearl
-xcursor-maia
-xorg-xkill
-xorg-xprop
-
-## Applications
+alsa-firmware
+alsa-plugins
+alsa-utils
 arandr
+artwork-i3
+avahi
+base-devel
+blueman
+bmenu
 clipit
 dfc
+dmidecode
+downgrade
 epdfview
+ffmpeg
+ffmpegthumbnailer
+flac
+flashplugin
 gcolor2
+gconf
 gimp
 gksu
+gnome-keyring
 gnome-vfs
 gparted
-gvfs # trash support and mounting volumes
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp # for mounting Samsung phones
-gvfs-smb
-isousb
-libgpod # iPhone/Pod connectivity
-manjaro-browser-settings
-manjaro-features
-manjaro-welcome
-# eventually add upower-pm-utils; it seems to depend on DE features; take what works default is upower
-# >openrc upower-pm-utils
-upower
-moc
-mousepad
-ncdu
-palemoon-bin
-perl-file-mimeinfo
-pcmanfm
-poppler-data # CKJ support for pdf
-open-fuse-iso
-sbxkb
-speedtest-cli
-transmission-gtk
-viewnior
-vlc-nightly
-w3m
-xfburn
-xterm
-
-## Network
-blueman
->openrc bluez-openrc
->systemd netctl
->systemd networkmanager
->openrc networkmanager-openrc
->openrc networkmanager-consolekit
-network-manager-applet
-networkmanager-dispatcher-ntpd
->systemd networkmanager-openconnect
-networkmanager-openvpn
->systemd openssh
->openrc openssh-openrc
->openrc openvpn-openrc
->systemd networkmanager-pptp
-networkmanager-vpnc
->systemd openresolv
->systemd syslog-ng
-json-c			# for syslog-ng
->openrc syslog-ng-openrc
-
-## Audio Packages
->openrc alsa-utils-openrc
->systemd alsa-utils
-alsa-plugins
 gst-libav
 gst-plugins-bad
 gst-plugins-base
@@ -117,52 +33,108 @@ gstreamer0.10-bad-plugins
 gstreamer0.10-base-plugins
 gstreamer0.10-good-plugins
 gstreamer0.10-ugly-plugins
-flac
+gufw
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+hexchat
+htop
+inxi
+isousb
+json-c
 libdvdcss
+libgpod
+lightdm-gtk-greeter-settings
+lm_sensors
+lxappearance
 manjaro-alsa
-volumeicon
-
-## Package management
-pamac
-yaourt
-
-## Printing
+manjaro-browser-settings
+manjaro-features
+manjaro-hotfixes
+manjaro-i3-settings
 manjaro-printer
->openrc cups-openrc
-
-## AUR Access
-base-devel
-
-## Xorg Input Drivers
+manjaro-settings-manager-notifier
+manjaro-welcome
+mesa-demos
+mlocate
+mobile-broadband-provider-info
+moc
+modemmanager
+morc_menu
+mousepad
+>multilib lib32-mesa-demos
+ncdu
+netctl
+networkmanager
+network-manager-applet
+networkmanager-dispatcher-ntpd
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns
+ntp
+open-fuse-iso
+openresolv
+openssh
+p7zip
+palemoon-bin
+pamac
+pcmanfm
+perl-file-mimeinfo
+polkit-gnome
+poppler-data
+powertop
+qt5ct
+qt5-styleplugins
+ranger
+sbxkb
+screenfetch
+speedtest-cli
+syslog-ng
+terminus-font
+transmission-gtk
+tree
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+upower
+vi
+viewnior
+vim
+vlc-nightly
+volumeicon
+w3m
+wmutils
+xarchiver
+xautolock
+xcursor-chameleon-pearl
+xcursor-maia
+xdg-su
+xdg-user-dirs
+xdg-utils
+xdotool
 xf86-input-acecad
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
-xf86-input-mouse
 xf86-input-libinput
+xf86-input-mouse
 xf86-input-void
-
-## Xorg Server and Graphics
+xfburn
+xfce4-power-manager
 xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
-mesa-demos
->multilib lib32-mesa-demos
-
-## Desktop Utils
-xdg-user-dirs
-xdg-utils
-xdg-su
-numlockx
-
-## Fonts
-terminus-font
-ttf-bitstream-vera
-ttf-dejavu
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-ttf-droid
+xorg-xkill
+xorg-xprop
+xterm
+yaourt
