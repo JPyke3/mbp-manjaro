@@ -44,9 +44,9 @@ iso-profiles
 # netinstall="false"
 
 # the default url for the netinstall.yaml
-# netgroups="https://raw.githubusercontent.com/manjaro/manjaro-tools-iso-profiles/master/shared/netinstall"
+# netgroups="https://raw.githubusercontent.com/manjaro/calamares-netgroups/master"
 
-# configure calamares to use chrootcfg instead of unpackfs
+# configure calamares to use chrootcfg instead of unpackfs; default: unpackfs
 # chrootcfg="false"
 
 # use geoip
@@ -69,7 +69,7 @@ iso-profiles
 # addgroups="video,power,disk,storage,optical,network,lp,scanner,wheel"
 
 # the same workgroup name if samba is used
-# smb_workgroup=""
+# smb_workgroup="Manjaro"
 
 ################# live-session #################
 
