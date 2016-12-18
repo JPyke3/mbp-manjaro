@@ -1,143 +1,74 @@
-#abiword
 accountsservice
-#adobe-source-sans-pro-fonts
 alsa-firmware
-autoconf
-automake
-binutils
-bison
-blueman
-cantarell-fonts
-catfish # needed for desktop search
-dmidecode # for inxi -m output
-engrampa-thunar-plugin
-#evince
-fakeroot
-ffmpegthumbnailer
-firefox
-flashplugin
-flex
-galculator-gtk2
-gcc
-gconf # fix qt-theme
-gimp
-git
+dmidecode
+gconf
 gksu
-gnome-keyring # fix wlan segfault
+gnome-keyring
 gnome-vfs
-#gnumeric
 gparted
 gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gstreamer0.10-bad-plugins
-gstreamer0.10-base-plugins
-gstreamer0.10-good-plugins
-gstreamer0.10-ugly-plugins
-guayadeque
-gufw # firewall
 gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-smb
-hexchat
-icedtea-web
+>i686 blueman
+>i686 parole
+>i686 pulseaudio-bluetooth
+>i686 sylpheed
+>i686 xnoise
 inxi
-jre8-openjdk
-jre8-openjdk-headless
-libdvdcss
-libgsf       # support ODF and
-libopenraw   # RAW thumbnailing
-libreoffice-still
-libtool
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 light-locker
-m4
-make
-manjaro-alsa
 manjaro-backgrounds
-manjaro-browser-settings
-manjaro-documentation## Xorg Input Drivers
 manjaro-hotfixes
-manjaro-printer
-manjaro-pulse
 manjaro-settings-manager-notifier
 manjaro-welcome
-manjaro-xfce-settings
+manjaro-xfce-minimal-settings
 menulibre
 mesa-demos
-#midori
-mlocate
+midori
 mobile-broadband-provider-info
 modemmanager
 mousepad
 mugshot
->multilib gcc-multilib
 >multilib lib32-mesa-demos
-netctl
-networkmanager
+>multilib manjaro-alsa
 network-manager-applet
 networkmanager-dispatcher-ntpd
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-nss-mdns # NSS support for mDNS (optdepend for avahi)
+nss-mdns
+numlockx
 open-fuse-iso
 >openrc alsa-utils-openrc
 >openrc avahi-openrc
 >openrc cgmanager-openrc
 >openrc consolekit-openrc
 >openrc displaymanager-openrc
+>openrc networkmanager-consolekit
+>openrc networkmanager-openrc
 >openrc ntp-openrc
+>openrc openssh-openrc
 >openrc pm-utils
-openresolv
-openssh
-orage
-p7zip
-pa-applet
 pamac
-#parole
-patch
-pavucontrol
-pidgin
-#plank
-poppler-data  # CKJ support for pdf
-poppler-glib
 powertop
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
 qpdfview
-qpdfview-djvu-plugin
-qpdfview-ps-plugin
-qt4
-#raktpdf
-#samba
-steam-manjaro
-subversion
 >systemd alsa-utils
 >systemd avahi
+>systemd manjaro-pulse
+>systemd netctl
+>systemd networkmanager
 >systemd ntp
+>systemd openresolv
+>systemd openssh
+>systemd pa-applet
+>systemd pavucontrol
 >systemd plymouth-theme-manjaro-elegant
+>systemd pulseaudio-ctl
+>systemd pulseaudio-zeroconf
 terminus-font
-thunar-archive-plugin
-thunar-media-tags-plugin
-#thunar-shares-plugin-manjaro
-thunderbird
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
-viewnior
-vlc
-#vlc-nightly
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 xdg-su
@@ -151,44 +82,24 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xfburn
-xfce4
-#xfce4-artwork
+xfce4-appfinder
 xfce4-battery-plugin
 xfce4-clipman-plugin
-xfce4-cpufreq-plugin
-xfce4-cpugraph-plugin
-#xfce4-datetime-plugin
-xfce4-dict
-xfce4-diskperf-plugin
-xfce4-fsguard-plugin
-xfce4-genmon-plugin
-xfce4-mailwatch-plugin
-xfce4-mount-plugin
-xfce4-mpc-plugin
-xfce4-netload-plugin
-xfce4-notes-plugin
 xfce4-notifyd
+xfce4-panel
+xfce4-power-manager
 xfce4-screenshooter
-xfce4-sensors-plugin
-xfce4-smartbookmark-plugin
-xfce4-systemload-plugin
+xfce4-session
+xfce4-settings
 xfce4-taskmanager
-xfce4-time-out-plugin
-xfce4-timer-plugin
-xfce4-verve-plugin
-xfce4-wavelan-plugin
-xfce4-weather-plugin
+xfce4-terminal
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
-#xnoise
+xfdesktop
+xfwm4
 xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
 xorg-xkill
-#xscreensaver
-yaourt
-yelp
-
