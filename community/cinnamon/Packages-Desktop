@@ -55,11 +55,11 @@ manjaro-browser-settings
 manjaro-cinnamon-settings
 manjaro-documentation
 manjaro-features
+manjaro-hello
 manjaro-hotfixes
 manjaro-printer
 manjaro-pulse
 manjaro-settings-manager-notifier
-manjaro-welcome
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
@@ -71,17 +71,13 @@ nemo-preview
 nemo-python
 nemo-share
 netctl
-net-tools
-networkmanager
 networkmanager-dispatcher-ntpd
 npapi-vlc
 nss
 nss-mdns
 ntp
 numlockx
-numlockx
 openresolv
-openssh
 openssh
 openvpn
 p7zip
@@ -141,4 +137,3 @@ xplayer
 xreader
 xviewer-plugins
 yaourt
-
