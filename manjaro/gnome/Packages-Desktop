@@ -3,13 +3,13 @@ alsa-firmware
 baobab
 dconf-editor
 dmidecode
-empathy
+#empathy
+hexchat
 eog
 evince
 firefox
 gdm
 gedit
-gksu
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
@@ -49,7 +49,7 @@ gvfs-mtp
 gvfs-smb
 inxi
 isousb
-lollypop
+#lollypop
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
@@ -57,7 +57,7 @@ manjaro-gnome-settings
 manjaro-hotfixes
 manjaro-pulse
 manjaro-settings-manager
-manjaro-welcome
+manjaro-hello
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
@@ -111,7 +111,9 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 vertex-maia-icon-theme
-vertex-maia-themes
+#vertex-maia-themes
+arc-themes-maia
+firefox-arc-maia-settings
 vino
 xdg-su
 xdg-user-dirs
