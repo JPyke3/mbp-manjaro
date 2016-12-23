@@ -49,7 +49,7 @@ gvfs-mtp
 gvfs-smb
 inxi
 isousb
-lollypop
+#lollypop
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
@@ -57,7 +57,7 @@ manjaro-gnome-settings
 manjaro-hotfixes
 manjaro-pulse
 manjaro-settings-manager
-manjaro-welcome
+manjaro-hello
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
@@ -110,7 +110,7 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
-#vertex-maia-icon-theme
+vertex-maia-icon-theme
 #vertex-maia-themes
 arc-themes-maia
 firefox-arc-maia-settings
