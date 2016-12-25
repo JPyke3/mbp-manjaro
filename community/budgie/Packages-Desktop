@@ -1,0 +1,143 @@
+adwaita-icon-theme
+alsa-firmware
+baobab
+dconf-editor
+dmidecode
+hexchat
+eog
+lightdm
+lightdm-webkit2-greeter-manjaro
+budgie-desktop
+baobab
+dconf-editor
+hexchat
+evince
+gnome-calculator
+gnome-control-center
+gnome-disk-utility
+gnome-font-viewer
+gnome-keyring
+gnome-settings-daemon
+gnome-system-log
+gnome-system-monitor
+gnome-terminal
+gnome-screensaver
+gnome-tweak-tool
+grilo-plugins
+gucharmap
+mousetweaks
+nautilus
+nautilus-empty-file
+file-roller
+sushi
+vino
+gedit
+firefox
+gparted
+grilo-plugins
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer0.10-bad-plugins
+gstreamer0.10-base-plugins
+gstreamer0.10-good-plugins
+gstreamer0.10-ugly-plugins
+gucharmap
+gufw
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+inxi
+isousb
+mc # Midnight Commander
+pacli
+mhwd-tui
+lollypop
+manjaro-alsa
+manjaro-artwork
+manjaro-browser-settings
+manjaro-gnome-settings
+manjaro-hotfixes
+manjaro-pulse
+manjaro-settings-manager
+manjaro-hello
+mesa-demos
+mobile-broadband-provider-info
+modemmanager
+mousetweaks
+>multilib lib32-mesa-demos
+mutter
+nautilus
+nautilus-admin
+nautilus-empty-file
+netctl
+networkmanager-dispatcher-ntpd
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns
+numlockx
+>openrc alsa-utils-openrc
+>openrc avahi-openrc
+>openrc cgmanager-openrc
+>openrc consolekit-openrc
+>openrc displaymanager-openrc
+>openrc networkmanager-consolekit
+>openrc networkmanager-openrc
+>openrc ntp-openrc
+>openrc openssh-openrc
+>openrc pm-utils
+>openrc sddm-consolekit
+>openrc syslog-ng-openrc
+openresolv
+pamac
+polkit-gnome
+powertop
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+sushi
+>systemd alsa-utils
+>systemd avahi
+>systemd networkmanager
+>systemd ntp
+>systemd openssh
+>systemd plymouth-theme-manjaro-gnome
+terminus-font
+totem
+tracker
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+vertex-maia-icon-theme
+#vertex-maia-themes
+arc-themes-maia
+firefox-arc-maia-settings
+budgie-wallpapers
+moka-icon-theme
+vino
+xdg-su
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+xf86-input-acecad
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-joystick
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xorg-server
+xorg-server-utils
+xorg-twm
+xorg-utils
+xorg-xinit
+yelp
