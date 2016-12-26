@@ -5,36 +5,36 @@ dconf-editor
 dmidecode
 hexchat
 eog
-lightdm
-lightdm-webkit2-greeter-manjaro
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
-budgie-desktop
-baobab
-dconf-editor
-hexchat
 evince
-gnome-calculator
-gnome-control-center
-gnome-disk-utility
-gnome-font-viewer
-gnome-keyring
-gnome-settings-daemon
-gnome-system-log
-gnome-system-monitor
-gnome-terminal
-gnome-screensaver
-gnome-tweak-tool
-grilo-plugins
-gucharmap
-mousetweaks
-nautilus
-nautilus-empty-file
-file-roller
-sushi
-vino
-gedit
 firefox
+maia-wallpaper
+mate-wallpapers
+mate-icon-theme
+mate-themes
+maia-wallpaper
+plymouth-theme-manjaro-elegant
+xcursor-breeze
+mate-gtk3
+#mate-extra-gtk3
+galculator
+marco-gtk3
+mate-menu
+mate-control-center-gtk3
+mate-desktop-gtk3
+mate-terminal
+mate-utils-gtk3
+mate-tweak
+mate-notification-daemon
+mate-media-gtk3
+mate-user-guide
+gnome-disk-utility
+manjaro-documentation
+manjaro-mate-settings
+gtk3-print-backends
+mate-gtk3-manjaro
+mc # Midnight Commander
+pacli
+mhwd-tui
 gparted
 grilo-plugins
 gst-libav
@@ -54,10 +54,7 @@ gvfs-mtp
 gvfs-smb
 inxi
 isousb
-mc # Midnight Commander
-pacli
-mhwd-tui
-lollypop
+#lollypop
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
@@ -69,12 +66,7 @@ manjaro-hello
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
-mousetweaks
 >multilib lib32-mesa-demos
-mutter
-nautilus
-nautilus-admin
-nautilus-empty-file
 netctl
 networkmanager-dispatcher-ntpd
 networkmanager-openconnect
@@ -97,21 +89,17 @@ numlockx
 >openrc syslog-ng-openrc
 openresolv
 pamac
-polkit-gnome
 powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-sushi
 >systemd alsa-utils
 >systemd avahi
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
->systemd plymouth-theme-manjaro-fancy-budgie
+>systemd plymouth-theme-manjaro-gnome
 terminus-font
-totem
-tracker
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -122,8 +110,6 @@ vertex-maia-icon-theme
 #vertex-maia-themes
 arc-themes-maia
 firefox-arc-maia-settings
-budgie-wallpapers
-moka-icon-theme
 vino
 xdg-su
 xdg-user-dirs
