@@ -10,6 +10,7 @@ lightdm-webkit2-greeter-manjaro
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 budgie-desktop
+manjaro-budgie-settings
 baobab
 dconf-editor
 hexchat
@@ -61,7 +62,6 @@ lollypop
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
-manjaro-gnome-settings
 manjaro-hotfixes
 manjaro-pulse
 manjaro-settings-manager
