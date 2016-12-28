@@ -7,12 +7,13 @@ hexchat
 eog
 evince
 firefox
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
 maia-wallpaper
 mate-wallpapers
 mate-icon-theme
-mate-themes
-maia-wallpaper
-plymouth-theme-manjaro-elegant
+#mate-themes
 xcursor-breeze
 mate-gtk3
 #mate-extra-gtk3
@@ -27,6 +28,7 @@ mate-tweak
 mate-notification-daemon
 mate-media-gtk3
 mate-user-guide
+pluma-gtk3
 gnome-disk-utility
 manjaro-documentation
 manjaro-mate-settings
@@ -58,7 +60,7 @@ isousb
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
-manjaro-gnome-settings
+manjaro-mate-settings
 manjaro-hotfixes
 manjaro-pulse
 manjaro-settings-manager
@@ -98,7 +100,7 @@ pulseaudio-zeroconf
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
->systemd plymouth-theme-manjaro-gnome
+>systemd plymouth-theme-manjaro-elegant
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu
