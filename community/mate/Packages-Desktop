@@ -19,6 +19,7 @@ mate-gtk3
 #mate-extra-gtk3
 galculator
 marco-gtk3
+brisk-menu # not yet enabled by default
 mate-menu
 mate-control-center-gtk3
 mate-desktop-gtk3
