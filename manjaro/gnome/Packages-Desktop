@@ -48,7 +48,10 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 inxi
-isousb
+imagewriter
+pacli
+mc
+mhwd-tui
 #lollypop
 manjaro-alsa
 manjaro-artwork

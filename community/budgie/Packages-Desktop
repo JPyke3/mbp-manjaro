@@ -54,11 +54,11 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 inxi
-isousb
+imagewriter
 mc # Midnight Commander
 pacli
 mhwd-tui
-lollypop
+#lollypop
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
