@@ -19,7 +19,7 @@ mate-gtk3
 #mate-extra-gtk3
 galculator
 marco-gtk3
-brisk-menu # not yet enabled by default
+brisk-menu 
 mate-notification-theme-slate
 mate-menu
 mate-control-center-gtk3
@@ -57,7 +57,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 inxi
-isousb
+imagewriter
 #lollypop
 manjaro-alsa
 manjaro-artwork
@@ -72,6 +72,7 @@ mobile-broadband-provider-info
 modemmanager
 >multilib lib32-mesa-demos
 netctl
+network-manager-applet
 networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
@@ -110,10 +111,12 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
-vertex-maia-icon-theme
+arc-maia-icon-theme
+moka-icon-theme
 #vertex-maia-themes
 arc-themes-maia
 firefox-arc-maia-settings
+manjaro-mate-panel-layout
 vino
 xdg-su
 xdg-user-dirs
