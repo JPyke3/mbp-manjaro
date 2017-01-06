@@ -8,6 +8,7 @@ eog
 evince
 firefox
 lightdm
+lightdm-webkit2-greeter-manjaro
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 maia-wallpaper
@@ -26,7 +27,7 @@ mate-control-center-gtk3
 mate-desktop-gtk3
 mate-terminal
 mate-utils-gtk3
-mate-tweak
+#mate-tweak
 mate-notification-daemon
 mate-media-gtk3
 mate-user-guide
