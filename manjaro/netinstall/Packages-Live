@@ -27,6 +27,7 @@ sddm-andromeda-qt-theme
 >systemd manjaro-live-systemd
 >systemd networkmanager
 >systemd sddm
+>x86_64 manjaro-efi-utils
 virtualbox-guest-utils
 xcursor-breeze
 xf86-input-acecad
