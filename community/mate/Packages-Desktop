@@ -8,6 +8,7 @@ eog
 evince
 firefox
 lightdm
+lightdm-webkit2-greeter-manjaro
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 maia-wallpaper
@@ -19,13 +20,14 @@ mate-gtk3
 #mate-extra-gtk3
 galculator
 marco-gtk3
-brisk-menu # not yet enabled by default
+brisk-menu 
+mate-notification-theme-slate
 mate-menu
 mate-control-center-gtk3
 mate-desktop-gtk3
 mate-terminal
 mate-utils-gtk3
-mate-tweak
+#mate-tweak
 mate-notification-daemon
 mate-media-gtk3
 mate-user-guide
@@ -56,7 +58,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 inxi
-isousb
+imagewriter
 #lollypop
 manjaro-alsa
 manjaro-artwork
@@ -71,6 +73,7 @@ mobile-broadband-provider-info
 modemmanager
 >multilib lib32-mesa-demos
 netctl
+network-manager-applet
 networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
@@ -109,10 +112,12 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
-vertex-maia-icon-theme
+arc-maia-icon-theme
+moka-icon-theme
 #vertex-maia-themes
 arc-themes-maia
 firefox-arc-maia-settings
+manjaro-mate-panel-layout
 vino
 xdg-su
 xdg-user-dirs

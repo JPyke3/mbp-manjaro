@@ -14,9 +14,8 @@ open-vm-tools
 >sonar sonar-syslinux-theme
 squashfs-tools
 >systemd manjaro-live-systemd
-virtualbox-guest-utils
->x86_64 efitools
 >x86_64 manjaro-efi-utils
+virtualbox-guest-utils
 xf86-input-acecad
 xf86-input-elographics
 xf86-input-evdev
