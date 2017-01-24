@@ -31,10 +31,6 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
-gstreamer0.10-bad-plugins
-gstreamer0.10-base-plugins
-gstreamer0.10-good-plugins
-gstreamer0.10-ugly-plugins
 gvfs-afc
 gvfs-google
 gvfs-gphoto2
@@ -112,7 +108,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 udiskie
-vlc-nightly
 xcursor-chameleon-pearl-deepin
 xdg-su
 xdg-user-dirs
