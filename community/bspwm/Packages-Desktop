@@ -21,8 +21,6 @@ downgrade
 dunst
 feh
 file-roller
-fish
-fisherman
 gedit
 gnome-disk-utility
 gufw
@@ -60,6 +58,7 @@ spacefm
 speedtest-cli
 st-manjaro
 sxhkd
+terminus-font
 thermald
 tmux
 udevil
