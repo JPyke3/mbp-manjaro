@@ -59,6 +59,7 @@ octopi-notifier-frameworks
 >openrc sddm-consolekit
 >openrc syslog-ng-openrc
 oxygen
+oxygen-icons
 partitionmanager
 plasma5-themes-maia
 plasma-desktop
