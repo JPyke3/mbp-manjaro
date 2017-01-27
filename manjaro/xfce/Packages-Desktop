@@ -4,7 +4,6 @@ dmidecode
 gconf
 gksu
 gnome-keyring
-gnome-vfs
 gparted
 gst-libav
 gvfs
