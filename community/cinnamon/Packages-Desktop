@@ -8,7 +8,6 @@ cinnamon-sounds
 cinnamon-wallpapers
 dconf-editor
 dmidecode
-exfat-utils
 ffmpegthumbnailer
 firefox
 flattr-icon-theme
@@ -23,7 +22,6 @@ gnome-screenshot
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
-gnome-vfs
 gparted
 gst-libav
 gst-plugins-bad
@@ -69,7 +67,6 @@ nemo-share
 netctl
 networkmanager-dispatcher-ntpd
 npapi-vlc
-nss
 nss-mdns
 ntp
 numlockx
@@ -89,9 +86,6 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-gconf
 pulseaudio-zeroconf
-python2-gnomecanvas
-python2-gnomevfs
-python2-libgnome
 python2-ptyprocess
 python-ptyprocess
 qt5ct
