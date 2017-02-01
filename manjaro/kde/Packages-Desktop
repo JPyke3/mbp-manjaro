@@ -33,7 +33,7 @@ manjaro-hotfixes
 manjaro-kde-minimal-settings
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
-manjaro-welcome
+manjaro-hello
 mesa-demos
 milou
 mobile-broadband-provider-info
@@ -59,6 +59,7 @@ octopi-notifier-frameworks
 >openrc sddm-consolekit
 >openrc syslog-ng-openrc
 oxygen
+oxygen-icons
 partitionmanager
 plasma5-themes-maia
 plasma-desktop
@@ -70,7 +71,7 @@ powertop
 qpdfview
 qupzilla
 sddm-kcm
-sddm-maia-theme
+sddm-breath-theme
 >systemd alsa-utils
 >systemd avahi
 >systemd networkmanager
@@ -90,10 +91,8 @@ user-manager
 xdg-su
 xdg-user-dirs
 xdg-utils
-xf86-input-acecad
 xf86-input-elographics
 xf86-input-evdev
-xf86-input-joystick
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse

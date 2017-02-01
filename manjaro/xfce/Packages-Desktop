@@ -4,7 +4,6 @@ dmidecode
 gconf
 gksu
 gnome-keyring
-gnome-vfs
 gparted
 gst-libav
 gvfs
@@ -20,7 +19,7 @@ light-locker
 manjaro-backgrounds
 manjaro-hotfixes
 manjaro-settings-manager-notifier
-manjaro-welcome
+manjaro-hello
 manjaro-xfce-minimal-settings
 menulibre
 mesa-demos
@@ -74,10 +73,8 @@ xcursor-vanilla-dmz-aa
 xdg-su
 xdg-user-dirs
 xdg-utils
-xf86-input-acecad
 xf86-input-elographics
 xf86-input-evdev
-xf86-input-joystick
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
