@@ -1,0 +1,105 @@
+alsa-firmware
+ark
+bluedevil
+breeze
+breeze-gtk
+cantarell-fonts
+dmidecode
+dolphin
+drkonqi
+gnome-icon-theme
+gnome-themes-standard
+gtk-theme-breath
+inxi
+kate
+kde-gtk-config
+kdeplasma-addons
+kgamma5
+khelpcenter
+kinfocenter
+kmenuedit
+konsole
+kscreen
+kscreenlocker
+ksshaskpass
+ksysguard
+kwallet-pam
+kwayland-integration
+kwin
+kwrite
+kwrited
+manjaro-browser-settings
+manjaro-hotfixes
+manjaro-kde-minimal-settings
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
+manjaro-hello
+mesa-demos
+milou
+mobile-broadband-provider-info
+modemmanager
+>multilib lib32-mesa-demos
+>multilib manjaro-alsa
+noto-fonts
+noto-fonts-emoji
+nss-mdns
+numlockx
+octopi
+octopi-notifier-frameworks
+okular
+>openrc alsa-utils-openrc
+>openrc avahi-openrc
+>openrc cgmanager-openrc
+>openrc consolekit-openrc
+>openrc displaymanager-openrc
+>openrc networkmanager-consolekit
+>openrc networkmanager-openrc
+>openrc ntp-openrc
+>openrc openssh-openrc
+>openrc pm-utils
+>openrc sddm-consolekit
+>openrc syslog-ng-openrc
+oxygen
+oxygen-icons
+partitionmanager
+plasma5-themes-breath
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-workspace
+powerdevil
+powertop
+qupzilla
+sddm-kcm
+sddm-breath-theme
+>systemd alsa-utils
+>systemd avahi
+>systemd networkmanager
+>systemd ntp
+>systemd openssh
+>systemd plymouth-theme-manjaro-elegant
+>systemd sddm
+systemsettings
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+user-manager
+xdg-su
+xdg-user-dirs
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xorg-server
+xorg-server-utils
+xorg-twm
+xorg-utils
+xorg-xinit
+yakuake
