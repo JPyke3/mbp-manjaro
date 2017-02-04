@@ -40,7 +40,7 @@ libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
 manjaro-pulse
-phonon-qt4-gstreamer
+>extra phonon-qt4-gstreamer
 phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
@@ -83,20 +83,20 @@ svn
 yaourt
 
 ## Fonts
-cantarell-fonts
+>extra cantarell-fonts
 noto-fonts  # default font
 # noto-fonts-cjk  # big package, ~76 mb compressed
-noto-fonts-emoji
-terminus-font
-ttf-bitstream-vera
-ttf-dejavu
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-ttf-droid
+>extra noto-fonts-emoji
+>extra terminus-font
+>extra ttf-bitstream-vera
+>extra ttf-dejavu
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
 
 ## Games
-steam-manjaro
+>extra steam-manjaro
 
 ## Package management
 octopi
@@ -105,26 +105,26 @@ octopi-cachecleaner
 octopi-repoeditor
 
 ## Java
-jdk8-openjdk
-jre8-openjdk-headless
-jre8-openjdk
-icedtea-web
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
+>extra icedtea-web
 
 ## Printing
-cups
-cups-pdf
-cups-pk-helper
-ghostscript
-gsfonts
-hplip
-splix
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra hplip
+>extra splix
 
 ## Optional dependencies for hplip
-pyqt5-common # For hplip
-python-pillow # For hplip
-python-pip # For hplip
-python-pyqt5  # For hplip gui
-python-reportlab # For hplip
+>extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
+>extra python-pyqt5  # For hplip gui
+>extra python-reportlab # For hplip
 
 ## Display manager
 >systemd sddm
@@ -151,48 +151,48 @@ plasma-desktop
 plasma-nm
 plasma-pa
 plasma-workspace
-plasma-workspace-wallpapers
+>extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
 user-manager
 
 ## Themes QT/GTK/SDDM
 breeze
-breeze-kde4
+>extra breeze-kde4
 breeze-gtk
 gnome-icon-theme
 gnome-themes-standard 
 gtk-theme-breath
-gtk-theme-maia
-oxygen
-oxygen-kde4
+>extra gtk-theme-maia
+>extra oxygen
+>extra oxygen-kde4
 oxygen-icons
 plasma5-themes-breath  # Default
-plasma5-themes-maia
+>extra plasma5-themes-maia
 sddm-breath-theme  # Default
-sddm-maia-theme
+>extra sddm-maia-theme
 >systemd plymouth-theme-manjaro-elegant
 
 ## Better systray/notifications support
-sni-qt  # A Qt plugin that enables tray icons in qt4 applications
->multilib lib32-sni-qt
+>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
+#>multilib lib32-sni-qt
 
 ## KDE Applications
 ark
-digikam
+>extra digikam
 dolphin
 dolphin-plugins
 filelight
-k3b
+>extra k3b
 kate
 kcalc
 keditbookmarks
 kfind
 kdeconnect
 okular
-kdenetwork-kget
+>extra kdenetwork-kget
 kdenetwork-filesharing
-kdenlive
+>extra kdenlive
 kde-servicemenus-rootactions
 khelpcenter
 kio-extras
@@ -204,7 +204,7 @@ kwalletmanager
 kwrite
 gwenview
 partitionmanager
-print-manager
+>extra print-manager
 skanlite
 spectacle
 
@@ -215,7 +215,7 @@ unzip  # ZIP format support
 zip    # ZIP compression support 
 
 ## Optional dependency for digikam
-kipi-plugins  # more tools and plugins
+>extra kipi-plugins  # more tools and plugins
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -227,12 +227,12 @@ kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for k3b
-cdparanoia    # for cd ripping support
-cdrdao        # for disk-at-once (DAO) mode support
-dvd+rw-tools  # for dvd burning support
-emovix        # for bootable multimedia cd/dvd support
-transcode     # for advanced mpeg conversion support
-vcdimager     # for vcd burning support
+>extra cdparanoia    # for cd ripping support
+>extra cdrdao        # for disk-at-once (DAO) mode support
+>extra dvd+rw-tools  # for dvd burning support
+>extra emovix        # for bootable multimedia cd/dvd support
+>extra transcode     # for advanced mpeg conversion support
+>extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -241,39 +241,40 @@ kaccounts-providers
 sshfs  # remote filesystem browser 
 
 ## Optional dependencies for kdenlive
-cdrtools         # for creation of DVD ISO images
-dvdauthor        # for creation of DVD
-dvgrab           # for firewire capture
-recordmydesktop  # for screen capture
-xine-ui          # for DVD preview
-movit            # for GPU video processing
+>extra cdrtools         # for creation of DVD ISO images
+>extra dvdauthor        # for creation of DVD
+>extra dvgrab           # for firewire capture
+>extra recordmydesktop  # for screen capture
+>extra xine-ui          # for DVD preview
+>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Optional dependencies for print-manager
-system-config-printer  # auto-detect the printer driver
-python-pysmbc          # SMB browser support
+>extra system-config-printer  # auto-detect the printer driver
+>extra python-pysmbc          # SMB browser support
 
 ## Applications
 cantata
 dmidecode # for inxi -m output
 htop
 imagewriter
-inkscape
+>extra inkscape
 inxi
-krita
-firefox-kde
-flashplugin
-libreoffice-still
+>extra krita
+>extra firefox-kde
+>basic qupzilla
+>extra flashplugin
+>extra libreoffice-still
 manjaro-hello
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
-qbittorrent
+>extra qbittorrent
 screenfetch
 >systemd systemd-kcm
-thunderbird-kde
+>extra thunderbird-kde
 vlc
 yakuake
 
@@ -285,7 +286,8 @@ perl-uri  # dynamic playlist
 manjaro-documentation
 
 ## Settings packages
-manjaro-kde-settings
+>extra manjaro-kde-settings
+>basic manjaro-kde-minimal-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
