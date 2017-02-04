@@ -1,7 +1,3 @@
-######################################################
-### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
-######################################################
-
 ## Network
 >systemd avahi
 >openrc avahi-openrc
