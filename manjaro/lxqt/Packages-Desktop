@@ -3,7 +3,7 @@ alsa-firmware
 compton
 dmidecode
 >extra lximage-qt
->basic manjaro-lxqt-settings
+>extra manjaro-lxqt-settings
 >extra qupzilla
 >extra vlc
 gvfs
