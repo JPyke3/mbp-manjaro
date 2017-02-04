@@ -52,9 +52,6 @@ iso-profiles
 # use geoip
 # geoip="true"
 
-# unset defaults to given value
-# plymouth_theme=manjaro-elegant
-
 # unset defaults to given values
 # names must match systemd service names
 # enable_systemd=('bluetooth' 'cronie' 'ModemManager' 'NetworkManager' 'org.cups.cupsd' 'tlp' 'tlp-sleep')

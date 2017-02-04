@@ -28,7 +28,6 @@ gconf
 gimp
 gksu
 gnome-keyring
-gnome-vfs
 gparted
 groff
 gst-libav
@@ -113,6 +112,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 upower
+vertex-maia-themes
 vi
 vibrancy-colors
 viewnior
