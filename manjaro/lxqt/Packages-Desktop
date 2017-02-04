@@ -1,6 +1,11 @@
 alsa-firmware
+>basic manjaro-lxqt-minimal-settings
 compton
 dmidecode
+>extra lximage-qt
+>basic manjaro-lxqt-settings
+>extra qupzilla
+>extra vlc
 gvfs
 inxi
 kwrite
@@ -19,12 +24,10 @@ lxqt-runner
 lxqt-session
 lxqt-sudo
 manjaro-hotfixes
-manjaro-lxqt-minimal-settings
 mobile-broadband-provider-info
 modemmanager
 network-manager-applet
 nss-mdns
-numlockx
 obconf-qt
 openbox
 >openrc alsa-utils-openrc
