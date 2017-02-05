@@ -7,7 +7,7 @@
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
-networkmanager-vpnc 
+networkmanager-vpnc
 networkmanager-dispatcher-ntpd
 nss-mdns # NSS support for mDNS (optdepend for avahi)
 >systemd ntp
@@ -75,7 +75,7 @@ pkg-config
 # Extra packages for AUR support
 >extra git
 >extra patchutils
->extra svn
+>extra subversion
 yaourt
 
 ## Fonts
@@ -158,7 +158,7 @@ breeze
 >extra breeze-kde4
 breeze-gtk
 gnome-icon-theme
-gnome-themes-standard 
+gnome-themes-standard
 gtk-theme-breath
 >extra gtk-theme-maia
 >extra oxygen
@@ -209,7 +209,7 @@ spectacle
 p7zip  # 7Z format support
 unrar  # RAR format support
 unzip  # ZIP format support
-zip    # ZIP compression support 
+zip    # ZIP compression support
 
 ## Optional dependency for digikam
 >extra kipi-plugins  # more tools and plugins
@@ -235,7 +235,7 @@ qt5-imageformats  # support for tiff, webp, and more image formats
 kaccounts-providers
 
 ## Optional dependencies for kdeconnect
-sshfs  # remote filesystem browser 
+sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
 >extra cdrtools         # for creation of DVD ISO images
