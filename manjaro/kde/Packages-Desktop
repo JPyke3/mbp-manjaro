@@ -73,19 +73,20 @@ patch
 pkg-config
 >multilib lib32-flex
 # Extra packages for AUR support
-git
-patchutils
-svn
+>extra git
+>extra patchutils
+>extra svn
 yaourt
 
 ## Fonts
->extra cantarell-fonts
-noto-fonts  # default font
-# noto-fonts-cjk  # big package, ~76 mb compressed
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
+noto-fonts               # default font
+# noto-fonts-cjk         # big package, ~76 mb compressed
 >extra noto-fonts-emoji
 >extra terminus-font
 >extra ttf-bitstream-vera
->extra ttf-dejavu
+# ttf-dejavu             # Installed as gnome-themes-standard dependency
+# ttf-hack               # Installed as plasma-integration dependency
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
@@ -162,7 +163,7 @@ gtk-theme-breath
 >extra gtk-theme-maia
 >extra oxygen
 >extra oxygen-kde4
-oxygen-icons
+>extra oxygen-icons
 plasma5-themes-breath  # Default
 >extra plasma5-themes-maia
 sddm-breath-theme  # Default
@@ -178,11 +179,11 @@ ark
 >extra digikam
 dolphin
 dolphin-plugins
-filelight
+>extra filelight
 >extra k3b
 kate
 kcalc
-keditbookmarks
+>extra keditbookmarks
 kfind
 kdeconnect
 okular
@@ -192,7 +193,7 @@ kdenetwork-filesharing
 kde-servicemenus-rootactions
 khelpcenter
 kio-extras
-kleopatra
+>extra kleopatra
 konsole
 konversation
 ksystemlog
@@ -201,7 +202,7 @@ kwrite
 gwenview
 partitionmanager
 >extra print-manager
-skanlite
+>extra skanlite
 spectacle
 
 ## Optional dependencies for ark
@@ -252,7 +253,7 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 >extra python-pysmbc          # SMB browser support
 
 ## Applications
-cantata
+>extra cantata
 dmidecode # for inxi -m output
 htop
 imagewriter
@@ -271,12 +272,12 @@ powertop
 screenfetch
 >systemd systemd-kcm
 >extra thunderbird-kde
-vlc
+vlc-nightly
 yakuake
 
 ## Optional dependencis for cantata
-mpd       # playback
-perl-uri  # dynamic playlist
+>extra mpd       # playback
+>extra perl-uri  # dynamic playlist
 
 ## Documentation
 manjaro-documentation
