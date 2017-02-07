@@ -1,20 +1,20 @@
-alsa-firmware
-alsa-utils
-avahi
-baobab
-base-devel
+>extra alsa-firmware
+>extra alsa-utils
+>extra avahi
+>extra baobab
+>extra base-devel
 blueberry
 cinnamon-sounds
-cinnamon-wallpapers
+>extra cinnamon-wallpapers
 dconf-editor
 dmidecode
-ffmpegthumbnailer
+>extra ffmpegthumbnailer
 firefox
-flattr-icon-theme
+>extra flattr-icon-theme
 fuse-exfat
 galculator
-gcolor2
-gimp
+>extra gcolor2
+>extra gimp
 gksu
 gnome-disk-utility
 gnome-keyring
@@ -22,7 +22,7 @@ gnome-screenshot
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
-gparted
+>extra gparted
 gst-libav
 gst-plugins-bad
 gst-plugins-base
@@ -34,31 +34,32 @@ gvfs-google
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
-hexchat
-icedtea-web
+>base htop
+>extra hexchat
+>extra icedtea-web
 icon-naming-utils
 inxi
-isousb
-jre8-openjdk
-jre8-openjdk-headless
+>extra isousb
+>extra jre8-openjdk
+>extra jre8-openjdk-headless
 libdvdcss
 libgsf
-libreoffice-fresh
+>extra libreoffice-fresh
 lightdm-gtk-greeter-settings
 manjaro-alsa
 manjaro-browser-settings
 manjaro-cinnamon-settings
-manjaro-documentation
+>extra manjaro-documentation
 manjaro-hello
 manjaro-hotfixes
-manjaro-printer
+>extra manjaro-printer
 manjaro-pulse
 manjaro-settings-manager-notifier
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
 mousetweaks
-mugshot
+>extra mugshot
 >multilib lib32-mesa-demos
 nemo-fileroller
 nemo-preview
@@ -66,22 +67,24 @@ nemo-python
 nemo-share
 netctl
 networkmanager-dispatcher-ntpd
-npapi-vlc
+>extra npapi-vlc
 nss-mdns
 ntp
 numlockx
 openresolv
 openssh
-openvpn
-p7zip
+>extra openvpn
+>extra p7zip
 pamac
-parcellite
+>extra parcellite
 pavucontrol
-pidgin-libnotify
-pix
-plymouth-theme-manjaro-cinnamon
-powertop
-pragha
+>extra pidgin-libnotify
+>extra pix
+>systemd plymouth-legacy
+>systemd plymouth-theme-manjaro-cinnamon
+poppler-data
+>extra powertop
+>extra pragha
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-gconf
@@ -91,10 +94,10 @@ python-ptyprocess
 qt5ct
 qt5-styleplugins
 screenfetch
-system-config-printer
+>extra system-config-printer
 terminus-font
-thunderbird
-transmission-gtk
+>extra thunderbird
+>extra transmission-gtk
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -102,12 +105,12 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 udiskie
-xcursor-chameleon-pearl-deepin
+>extra xcursor-chameleon-pearl-deepin
 xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
-xed
+>extra xed
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
@@ -119,7 +122,7 @@ xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
-xplayer
-xreader
-xviewer-plugins
-yaourt
+>extra xplayer
+>extra xreader
+>extra xviewer-plugins
+>extra yaourt
