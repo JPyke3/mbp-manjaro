@@ -1,20 +1,20 @@
 alsa-firmware
-manjaro-lxqt-minimal-settings
-#>basic manjaro-lxqt-basic-settings
+>basic manjaro-lxqt-basic-settings
 compton
 dmidecode
 >extra lximage-qt
-#>extra manjaro-lxqt-extra-settings
->extra manjaro-lxqt-settings
+>extra manjaro-lxqt-extra-settings
 >extra octopi
 >extra octopi-notifier-qt5
 >extra octopi-cachecleaner
 >extra octopi-repoeditor
+>extra plymouth-theme-manjaro-elegant
 >extra qupzilla
 >extra vlc
+>extra qpdfview
 gvfs
 inxi
-kwrite
+juffed-qt5
 lxqt-about
 lxqt-admin
 lxqt-common
