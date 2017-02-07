@@ -100,6 +100,7 @@ pulseaudio-zeroconf
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
+>systemd plymouth-legacy
 >systemd plymouth-theme-manjaro-elegant
 terminus-font
 ttf-bitstream-vera

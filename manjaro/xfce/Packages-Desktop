@@ -58,6 +58,7 @@ qpdfview
 >systemd openssh
 >systemd pa-applet
 >systemd pavucontrol
+>systemd plymouth-legacy
 >systemd plymouth-theme-manjaro-elegant
 >systemd pulseaudio-ctl
 >systemd pulseaudio-zeroconf

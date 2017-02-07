@@ -105,6 +105,7 @@ sushi
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
+>systemd plymouth-legacy
 >systemd plymouth-theme-manjaro-fancy-budgie
 terminus-font
 totem

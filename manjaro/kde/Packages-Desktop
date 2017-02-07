@@ -168,6 +168,7 @@ plasma5-themes-breath  # Default
 >extra plasma5-themes-maia
 sddm-breath-theme  # Default
 >extra sddm-maia-theme
+>systemd plymouth-legacy
 >systemd plymouth-theme-manjaro-elegant
 
 ## Better systray/notifications support
