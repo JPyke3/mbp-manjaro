@@ -79,7 +79,8 @@ parcellite
 pavucontrol
 pidgin-libnotify
 pix
-plymouth-theme-manjaro-cinnamon
+>systemd plymouth-legacy
+>systemd plymouth-theme-manjaro-cinnamon
 powertop
 pragha
 pulseaudio-bluetooth
