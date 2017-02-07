@@ -1,24 +1,140 @@
+## Network
+>systemd avahi
+>openrc avahi-openrc
+>systemd networkmanager
+>openrc networkmanager-openrc
+>openrc networkmanager-consolekit
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+networkmanager-dispatcher-ntpd
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+>systemd ntp
+>openrc ntp-openrc
+mobile-broadband-provider-info
+modemmanager
+>systemd openresolv
+openssh
+samba
+
+## Libraries for Sound/Audio/Video
 alsa-firmware
-ark
+>systemd alsa-utils
+>openrc alsa-utils-openrc
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libcanberra
+>multilib lib32-libcanberra
+libcanberra-pulse
+>multilib lib32-libcanberra-pulse
+libcanberra-gstreamer
+libdvdcss
+manjaro-alsa
+manjaro-pulse
+>extra phonon-qt4-gstreamer
+phonon-qt5-gstreamer
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+kamera
+mtpfs
+udiskie
+udisks2
+
+## AUR Support/Development
+# Missing base-devel packages
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+>multilib gcc-multilib
+libtool
+m4
+make
+patch
+pkg-config
+>multilib lib32-flex
+# Extra packages for AUR support
+>extra git
+>extra patchutils
+>extra subversion
+yaourt
+
+## Fonts
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
+noto-fonts               # default font
+# noto-fonts-cjk         # big package, ~76 mb compressed
+>extra noto-fonts-emoji
+>extra terminus-font
+>extra ttf-bitstream-vera
+# ttf-dejavu             # Installed as gnome-themes-standard dependency
+# ttf-hack               # Installed as plasma-integration dependency
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Games
+>extra steam-manjaro
+
+## Package management
+octopi
+octopi-notifier-frameworks
+octopi-cachecleaner
+octopi-repoeditor
+
+## Java
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
+>extra icedtea-web
+
+## Printing
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra hplip
+>extra splix
+
+## Optional dependencies for hplip
+>extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
+>extra python-pyqt5  # For hplip gui
+>extra python-reportlab # For hplip
+
+## Display manager
+>systemd sddm
+>openrc sddm-consolekit
+sddm-kcm
+
+## Plasma5
 bluedevil
-breeze
-breeze-gtk
-cantarell-fonts
-dmidecode
-dolphin
-drkonqi
-gnome-icon-theme
-gnome-themes-standard
-gtk-theme-maia
-inxi
-kate
 kde-gtk-config
 kdeplasma-addons
 kgamma5
-khelpcenter
 kinfocenter
 kmenuedit
-konsole
 kscreen
 kscreenlocker
 ksshaskpass
@@ -26,80 +142,178 @@ ksysguard
 kwallet-pam
 kwayland-integration
 kwin
-kwrite
 kwrited
-manjaro-browser-settings
-manjaro-hotfixes
-manjaro-kde-minimal-settings
-manjaro-settings-manager-kcm
-manjaro-settings-manager-knotifier
-manjaro-hello
-mesa-demos
 milou
-mobile-broadband-provider-info
-modemmanager
->multilib lib32-mesa-demos
->multilib manjaro-alsa
-noto-fonts
-noto-fonts-emoji
-nss-mdns
-numlockx
-octopi
-octopi-notifier-frameworks
->openrc alsa-utils-openrc
->openrc avahi-openrc
->openrc cgmanager-openrc
->openrc consolekit-openrc
->openrc displaymanager-openrc
->openrc networkmanager-consolekit
->openrc networkmanager-openrc
->openrc ntp-openrc
->openrc openssh-openrc
->openrc pm-utils
->openrc sddm-consolekit
->openrc syslog-ng-openrc
-oxygen
-oxygen-icons
-partitionmanager
-plasma5-themes-maia
 plasma-desktop
 plasma-nm
 plasma-pa
 plasma-workspace
+>extra plasma-workspace-wallpapers
 powerdevil
-powertop
-qpdfview
-qupzilla
-sddm-kcm
-sddm-breath-theme
->systemd alsa-utils
->systemd avahi
->systemd networkmanager
->systemd ntp
->systemd openssh
->systemd plymouth-theme-manjaro-elegant
->systemd sddm
 systemsettings
-terminus-font
-ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
 user-manager
-xdg-su
-xdg-user-dirs
-xdg-utils
+
+## Themes QT/GTK/SDDM
+breeze
+>extra breeze-kde4
+breeze-gtk
+gnome-icon-theme
+gnome-themes-standard
+gtk-theme-breath
+>extra gtk-theme-maia
+>extra oxygen
+>extra oxygen-kde4
+>extra oxygen-icons
+plasma5-themes-breath  # Default
+>extra plasma5-themes-maia
+sddm-breath-theme  # Default
+>extra sddm-maia-theme
+>systemd plymouth-legacy
+>systemd plymouth-theme-manjaro-elegant
+
+## Better systray/notifications support
+>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
+#>multilib lib32-sni-qt
+
+## KDE Applications
+ark
+>extra digikam
+dolphin
+dolphin-plugins
+>extra filelight
+>extra k3b
+kate
+kcalc
+>extra keditbookmarks
+kfind
+kdeconnect
+okular
+>extra kdenetwork-kget
+kdenetwork-filesharing
+>extra kdenlive
+kde-servicemenus-rootactions
+khelpcenter
+kio-extras
+>extra kleopatra
+konsole
+konversation
+ksystemlog
+kwalletmanager
+kwrite
+gwenview
+partitionmanager
+>extra print-manager
+>extra skanlite
+spectacle
+
+## Optional dependencies for ark
+p7zip  # 7Z format support
+unrar  # RAR format support
+unzip  # ZIP format support
+zip    # ZIP compression support
+
+## Optional dependency for digikam
+>extra kipi-plugins  # more tools and plugins
+
+## Optional dependencies for dolphin
+kdegraphics-thumbnailers  # PDF and PS thumbnails
+ffmpegthumbs              # video thumbnails
+ruby                      # installing new service menus with GHNS
+
+## Optional dependencies for gwenview
+kimageformats     # support for dds, xcf, exr, psd, and more image formats
+qt5-imageformats  # support for tiff, webp, and more image formats
+
+## Optional dependencies for k3b
+>extra cdparanoia    # for cd ripping support
+>extra cdrdao        # for disk-at-once (DAO) mode support
+>extra dvd+rw-tools  # for dvd burning support
+>extra emovix        # for bootable multimedia cd/dvd support
+>extra transcode     # for advanced mpeg conversion support
+>extra vcdimager     # for vcd burning support
+
+## Optional dependencies for kaccounts-integration
+kaccounts-providers
+
+## Optional dependencies for kdeconnect
+sshfs  # remote filesystem browser
+
+## Optional dependencies for kdenlive
+>extra cdrtools         # for creation of DVD ISO images
+>extra dvdauthor        # for creation of DVD
+>extra dvgrab           # for firewire capture
+>extra recordmydesktop  # for screen capture
+>extra xine-ui          # for DVD preview
+>extra movit            # for GPU video processing
+
+## Optional dependencies for okular
+poppler-data  # encoding data to display PDF documents containing CJK characters
+
+## Optional dependencies for print-manager
+>extra system-config-printer  # auto-detect the printer driver
+>extra python-pysmbc          # SMB browser support
+
+## Applications
+>extra cantata
+dmidecode # for inxi -m output
+htop
+imagewriter
+>extra inkscape
+inxi
+>extra krita
+>extra firefox-kde
+>basic qupzilla
+>extra flashplugin
+>extra libreoffice-still
+manjaro-hello
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
+powertop
+>extra qbittorrent
+screenfetch
+>systemd systemd-kcm
+>extra thunderbird-kde
+vlc-nightly
+yakuake
+
+## Optional dependencis for cantata
+>extra mpd       # playback
+>extra perl-uri  # dynamic playlist
+
+## Documentation
+manjaro-documentation
+
+## Settings packages
+>extra manjaro-kde-settings
+>basic manjaro-kde-minimal-settings
+manjaro-browser-settings
+
+## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
+
+## Xorg Server and Graphics
 xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
-yakuake
+mesa-demos
+>multilib lib32-mesa-demos
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-user-dirs
+xdg-utils
+xdg-su
+
+## Misc
+>openrc consolekit-openrc
+>openrc displaymanager-openrc
+>openrc pm-utils
+>openrc cgmanager-openrc
+manjaro-hotfixes

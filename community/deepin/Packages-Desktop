@@ -32,7 +32,6 @@ gimp
 gksu
 gnome-system-monitor
 gnome-terminal
-gnome-vfs
 gparted
 gst-libav
 gst-plugins-bad
@@ -84,7 +83,8 @@ ntp
 openresolv
 pamac
 patch
-plymouth-theme-manjaro-deepin-circle
+>systemd plymouth-legacy
+>systemd plymouth-theme-manjaro-deepin-circle
 polkit-gnome
 poppler-data
 powertop

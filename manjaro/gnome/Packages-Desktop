@@ -5,7 +5,7 @@ dconf-editor
 dmidecode
 #empathy
 hexchat
-eog
+gthumb
 evince
 firefox
 gdm
@@ -99,7 +99,8 @@ sushi
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
->systemd plymouth-theme-manjaro-gnome
+>systemd plymouth-legacy
+>systemd plymouth-theme-manjaro-gnome-17.0
 terminus-font
 totem
 tracker
@@ -109,8 +110,8 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
-vertex-maia-icon-theme
-#vertex-maia-themes
+arc-maia-icon-theme
+moka-icon-theme
 arc-themes-maia
 firefox-arc-maia-settings
 vino
@@ -130,3 +131,4 @@ xorg-twm
 xorg-utils
 xorg-xinit
 yelp
+>extra libreoffice-fresh
