@@ -48,7 +48,6 @@ imagewriter
 pacli
 mc
 mhwd-tui
-#lollypop
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
@@ -132,3 +131,32 @@ xorg-utils
 xorg-xinit
 yelp
 >extra libreoffice-fresh
+>extra thunderbird
+>extra lollypop
+>extra empathy
+>extra uget
+>extra transmission-gtk
+>extra brasero
+>extra manjaro-documentation
+>extra jre8-openjdk
+>extra jre8-openjdk-headless
+>extra icedtea-web
+>extra flashplugin
+>extra libdvdcss
+>extra steam-manjaro
+>extra manjaro-printer
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extar gcc
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra subversion
+>extar yaourt
+
