@@ -55,6 +55,7 @@ manjaro-hotfixes
 manjaro-pulse
 manjaro-settings-manager-notifier
 >extra mesa-demos
+>base midori
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
@@ -109,7 +110,7 @@ xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
->extra xed
+xed
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
