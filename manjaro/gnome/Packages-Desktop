@@ -111,7 +111,6 @@ ttf-indic-otf
 ttf-liberation
 arc-maia-icon-theme
 moka-icon-theme
-arc-themes-maia
 firefox-arc-maia-settings
 vino
 xdg-su
@@ -151,12 +150,12 @@ yelp
 >extra bison
 >extra fakeroot
 >extra flex
->extar gcc
+>extra gcc
 >extra >multilib gcc-multilib
 >extra libtool
 >extra m4
 >extra make
 >extra patch
 >extra subversion
->extar yaourt
+>extra yaourt
 
