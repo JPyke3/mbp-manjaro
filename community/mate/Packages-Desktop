@@ -4,8 +4,9 @@ baobab
 dconf-editor
 dmidecode
 hexchat
-eog
-evince
+eom-gtk3
+atril-gtk3
+engrampa
 firefox
 lightdm
 lightdm-webkit2-greeter-manjaro
@@ -14,7 +15,7 @@ lightdm-gtk-greeter-settings
 maia-wallpaper
 mate-wallpapers
 mate-icon-theme
-#mate-themes
+>extra mate-themes
 xcursor-breeze
 mate-gtk3
 #mate-extra-gtk3
@@ -27,13 +28,12 @@ mate-control-center-gtk3
 mate-desktop-gtk3
 mate-terminal
 mate-utils-gtk3
-#mate-tweak
 mate-notification-daemon
 mate-media-gtk3
 mate-user-guide
 pluma-gtk3
 gnome-disk-utility
-manjaro-documentation
+>extra manjaro-documentation
 manjaro-mate-settings
 gtk3-print-backends
 mate-gtk3-manjaro
@@ -55,7 +55,6 @@ gvfs-mtp
 gvfs-smb
 inxi
 imagewriter
-#lollypop
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
@@ -101,7 +100,7 @@ pulseaudio-zeroconf
 >systemd ntp
 >systemd openssh
 >systemd plymouth-legacy
->systemd plymouth-theme-manjaro-elegant
+plymouth-theme-manjaro-elegant
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu
@@ -111,7 +110,6 @@ ttf-indic-otf
 ttf-liberation
 arc-maia-icon-theme
 moka-icon-theme
-#vertex-maia-themes
 arc-themes-maia
 firefox-arc-maia-settings
 manjaro-mate-panel-layout
@@ -132,3 +130,34 @@ xorg-twm
 xorg-utils
 xorg-xinit
 yelp
+>extra libreoffice-fresh
+>extra thunderbird
+>extra lollypop
+>extra vlc-nightly
+>extra empathy
+>extra uget
+>extra transmission-gtk
+>extra brasero
+>extra manjaro-documentation
+>extra jre8-openjdk
+>extra jre8-openjdk-headless
+>extra icedtea-web
+>extra flashplugin
+>extra libdvdcss
+>extra steam-manjaro
+>extra manjaro-printer
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra subversion
+>extra yaourt
+
