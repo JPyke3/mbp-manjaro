@@ -15,7 +15,8 @@ nss-mdns # NSS support for mDNS (optdepend for avahi)
 mobile-broadband-provider-info
 modemmanager
 >systemd openresolv
-openssh
+>systemd openssh
+>openrc openssh-openrc
 samba
 
 ## Libraries for Sound/Audio/Video
@@ -173,7 +174,6 @@ sddm-breath-theme  # Default
 
 ## Better systray/notifications support
 >extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
-#>multilib lib32-sni-qt
 
 ## KDE Applications
 ark
