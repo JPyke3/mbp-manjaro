@@ -1,103 +1,276 @@
-accountsservice
-alsa-firmware
-dmidecode
-gconf
-gksu
-gnome-keyring
-gparted
-gst-libav
-gvfs
->i686 blueman
->i686 parole
->i686 pulseaudio-bluetooth
->i686 sylpheed
->i686 xnoise
-inxi
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
-light-locker
-manjaro-backgrounds
-manjaro-hotfixes
-manjaro-settings-manager-notifier
-manjaro-hello
-manjaro-xfce-minimal-settings
-menulibre
-mesa-demos
-midori
+## Network
+>systemd avahi
+>openrc avahi-openrc
+>systemd networkmanager
+>openrc networkmanager-openrc
+>openrc networkmanager-consolekit
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+networkmanager-dispatcher-ntpd
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+>systemd ntp
+>openrc ntp-openrc
 mobile-broadband-provider-info
 modemmanager
-mousepad
-mugshot
->multilib lib32-mesa-demos
->multilib manjaro-alsa
-network-manager-applet
-networkmanager-dispatcher-ntpd
-nss-mdns
-numlockx
-open-fuse-iso
->openrc alsa-utils-openrc
->openrc avahi-openrc
->openrc cgmanager-openrc
->openrc consolekit-openrc
->openrc displaymanager-openrc
->openrc networkmanager-consolekit
->openrc networkmanager-openrc
->openrc ntp-openrc
->openrc openssh-openrc
->openrc pm-utils
-pamac
-powertop
-qpdfview
->systemd alsa-utils
->systemd avahi
->systemd manjaro-pulse
->systemd netctl
->systemd networkmanager
->systemd ntp
 >systemd openresolv
 >systemd openssh
->systemd pa-applet
->systemd pavucontrol
->systemd plymouth-legacy
->systemd plymouth-theme-manjaro-elegant
+>openrc openssh-openrc
+samba
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+>systemd alsa-utils
+>openrc alsa-utils-openrc
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libdvdcss
+>multilib manjaro-alsa
+>systemd manjaro-pulse
+>systemd pulseaudio-bluetooth
 >systemd pulseaudio-ctl
 >systemd pulseaudio-zeroconf
-terminus-font
-ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
+
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+
+## AUR Support/Development
+# Missing base-devel packages
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+>multilib gcc-multilib
+libtool
+m4
+make
+patch
+pkg-config
+>multilib lib32-flex
+# Extra packages for AUR support
+>extra git
+>extra patchutils
+>extra subversion
+yaourt
+
+## Fonts
+cantarell-fonts
+# noto-fonts               # default font
+# noto-fonts-cjk         # big package, ~76 mb compressed
+# >extra noto-fonts-emoji
+>extra terminus-font
+>extra ttf-bitstream-vera
+# ttf-dejavu             # Installed as gnome-themes-standard dependency
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Games
+>extra steam-manjaro
+
+## Package management
+pamac
+
+## Java
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
+>extra icedtea-web
+
+## Printing
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra hplip
+>extra splix
+
+## Optional dependencies for hplip
+>extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
+>extra python-pyqt5  # For hplip gui
+>extra python-reportlab # For hplip
+
+## Display manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+accountsservice  # Enhanced user accounts handling
+
+## XFCE Group
+exo
+garcon
+gtk-xfce-engine
+thunar
+thunar-volman
+tumbler
+xfce4-appfinder
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
+xfce4-terminal
+xfconf
+xfdesktop
+xfwm4
+xfwm4-themes
+
+## XFCE Extras
+blueman
+ffmpegthumbnailer  # tumbler - for video thumbnails
+freetype2          # tumbler - for font thumbnails
+gconf              # fix qt-theme
+gksu
+gnome-keyring      # fix wlan segfault
+libgsf             # tumbler - for ODF thumbnails
+libopenraw         # tumbler - for RAW thumbnails
+light-locker
+network-manager-applet
+menulibre
+orage
+poppler-glib       # tumbler - for PDF thumbnails
+thunar-archive-plugin
+thunar-media-tags-plugin
+# >extra xfce4-artwork
+xfce4-battery-plugin
+xfce4-clipman-plugin
+>extra xfce4-cpufreq-plugin
+>extra xfce4-cpugraph-plugin
+# xfce4-datetime-plugin
+>extra xfce4-dict
+>extra xfce4-diskperf-plugin
+>extra xfce4-fsguard-plugin
+>extra xfce4-genmon-plugin
+>extra xfce4-mailwatch-plugin
+>extra xfce4-mount-plugin
+>extra xfce4-mpc-plugin
+>extra xfce4-netload-plugin
+>extra xfce4-notes-plugin
+xfce4-notifyd
+xfce4-screenshooter
+>extra xfce4-sensors-plugin
+>extra xfce4-smartbookmark-plugin
+>extra xfce4-systemload-plugin
+xfce4-taskmanager
+>extra xfce4-time-out-plugin
+>extra xfce4-timer-plugin
+>extra xfce4-verve-plugin
+>extra xfce4-wavelan-plugin
+>extra xfce4-weather-plugin
+xfce4-whiskermenu-plugin
+xfce4-xkb-plugin
+>systemd pa-applet
+>systemd pavucontrol
+
+## Themes QT/GTK/SDDM
+>extra manjaro-backgrounds
+gnome-icon-theme
+gnome-themes-standard
+gtk-theme-breath
+>systemd plymouth-legacy
+>systemd plymouth-theme-manjaro-elegant
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
-xdg-su
-xdg-user-dirs
-xdg-utils
+
+## Applications
+>extra catfish
+dmidecode # optional dependency inxi
+engrampa
+engrampa-thunar-plugin
+>extra firefox
+>extra flashplugin
+>extra galculator-gtk2
+>extra gimp
+gparted
+gufw
+>extra guayadeque
+>extra hexchat
+htop
+qpdfview
+>extra qpdfview-djvu-plugin
+>extra qpdfview-ps-plugin
+inxi
+>extra libreoffice-still
+manjaro-hello
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+>basic midori
+>extra mlocate
+mousepad
+mugshot
+parole # media player
+>extra pidgin
+powertop
+>extra poppler-data  # CKJ support for pdf
+>basic sylpheed # mail client
+>extra thunderbird
+# vlc-nightly
+>extra viewnior
+>extra xfburn
+>extra yelp
+
+# Optional dependencies engrampa
+p7zip  # 7Z and ARJ archive support
+unace  # ACE archive support
+unrar  # RAR archive support 
+
+## Documentation
+manjaro-documentation
+
+## Settings packages
+>extra manjaro-xfce-settings
+>basic manjaro-xfce-minimal-settings
+manjaro-browser-settings
+
+## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xfce4-appfinder
-xfce4-battery-plugin
-xfce4-clipman-plugin
-xfce4-notifyd
-xfce4-panel
-xfce4-power-manager
-xfce4-screenshooter
-xfce4-session
-xfce4-settings
-xfce4-taskmanager
-xfce4-terminal
-xfce4-whiskermenu-plugin
-xfce4-xkb-plugin
-xfdesktop
-xfwm4
+
+## Xorg Server and Graphics
+numlockx
+mesa-demos
+>multilib lib32-mesa-demos
 xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
 xorg-xkill
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-user-dirs
+xdg-utils
+xdg-su
+
+## Misc
+>openrc consolekit-openrc
+>openrc displaymanager-openrc
+>openrc pm-utils
+>openrc cgmanager-openrc
+manjaro-hotfixes
