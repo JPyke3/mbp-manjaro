@@ -106,7 +106,6 @@ octopi-repoeditor
 >extra jdk8-openjdk
 >extra jre8-openjdk-headless
 >extra jre8-openjdk
->extra icedtea-web
 
 ## Printing
 >extra cups
