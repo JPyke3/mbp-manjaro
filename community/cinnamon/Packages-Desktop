@@ -98,6 +98,7 @@ screenfetch
 terminus-font
 >extra thunderbird
 >extra transmission-gtk
+tree
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -105,6 +106,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 >extra udiskie
+vi
 >extra xcursor-chameleon-pearl-deepin
 xdg-su
 xdg-user-dirs
