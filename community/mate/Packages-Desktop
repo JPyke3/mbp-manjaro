@@ -9,7 +9,7 @@ atril-gtk3
 engrampa
 firefox
 lightdm
-lightdm-webkit2-greeter-manjaro
+#lightdm-webkit2-greeter-manjaro
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 maia-wallpaper
