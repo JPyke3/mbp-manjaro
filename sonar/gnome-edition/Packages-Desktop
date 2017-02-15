@@ -1,19 +1,20 @@
-## gnome package group, minus epiphany, because we'll use firefox
 adwaita-icon-theme
+alsa-firmware
 baobab
 dconf-editor
-empathy
-eog
-#epiphany
+dmidecode
+#empathy
+hexchat
+gthumb
 evince
-gedit
+firefox
 gdm
+fprintd
+gedit
 gnome-backgrounds
 gnome-calculator
-#gnome-contacts
 gnome-control-center
 gnome-desktop
-#gnome-dictionary
 gnome-disk-utility
 gnome-font-viewer
 gnome-keyring
@@ -26,8 +27,30 @@ gnome-system-log
 gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
+gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
+gnome-wallpapers
+gnome-dictionary
+gnome-disk-utility
+>extra gnome-icon-theme
+>extra gnome-icon-theme-extras
+>extra gnome-icon-theme-symbolic
+gedit-code-assistance
+gnome-calendar
+gnome-clocks
+gnome-code-assistance
+gnome-color-manager
+gnome-devel-docs
+gnome-documents
+gnome-getting-started-docs
+gnome-logs
+gnome-maps
+gnome-music
+gnome-nettool
+gnome-photos
+gnome-tweak-tool
+nautilus-sendto
 grilo-plugins
 gucharmap
 mousetweaks
@@ -35,154 +58,203 @@ mutter
 nautilus
 sushi
 totem
-lollypop
 tracker
-vino
 xdg-user-dirs-gtk
 yelp
-nautilus-admin
-nautilus-empty-file
-
-## Gnome Main Packages
-#gnome-extra
-gnome-tweak-tool
-gufw # firewall
-manjaro-settings-manager
-#gdm3setup
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-
-## Applications
-firefox
-#manjaro-browser-settings
-sonar-mate-settings
-gksu
-gparted
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-smb
-manjaro-welcome
-isousb
-#open-fuse-iso
-#gnome-shell-extension now set in desktop settings
-
-## Network
-netctl
-networkmanager
-networkmanager-dispatcher-ntpd
-openresolv
-#blueman
-
-## Artwork
-manjaro-artwork
->systemd plymouth-theme-sonar-elegant
-vertex-maia-icon-theme
-vertex-maia-themes
-gnome-wallpapers
-sonar-sound-theme
-sonar-common
+#our desktop settings
+sonar-gnome-settings
+#our installer branding
+sonar-calamares-branding
 sonar-backgrounds
-
-## Packages for Sound and Audio
+gparted
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-#flashplugin
-#libdvdcss
+gucharmap
+gufw
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+gvfs-google
+gvfs-goa
+inxi
+imagewriter
+pacli
+mc
+mhwd-tui
 manjaro-alsa
+manjaro-artwork
+manjaro-browser-settings
+manjaro-hotfixes
 manjaro-pulse
+manjaro-settings-manager-notifier
+manjaro-hello
+mesa-demos
+mobile-broadband-provider-info
+modemmanager
+mousetweaks
+>multilib lib32-mesa-demos
+mutter
+nautilus
+nautilus-admin
+nautilus-empty-file
+netctl
+networkmanager-dispatcher-ntpd
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns
+numlockx
+>openrc alsa-utils-openrc
+>openrc avahi-openrc
+>openrc cgmanager-openrc
+>openrc consolekit-openrc
+>openrc displaymanager-openrc
+>openrc networkmanager-consolekit
+>openrc networkmanager-openrc
+>openrc ntp-openrc
+>openrc openssh-openrc
+>openrc pm-utils
+>openrc sddm-consolekit
+>openrc syslog-ng-openrc
+openresolv
+pamac
+polkit-gnome
+powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-
-## Package management
-pamac
-polkit-gnome
-
-
-## Xorg Input Drivers
+sushi
+>systemd alsa-utils
+>systemd avahi
+>systemd networkmanager
+>systemd ntp
+>systemd openssh
+>systemd plymouth-legacy
+>systemd plymouth-theme-sonar-elegant
+terminus-font
+totem
+tracker
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+arc-maia-icon-theme
+moka-icon-theme
+#firefox-arc-maia-settings
+vino
+xdg-su
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-mouse
 xf86-input-libinput
+xf86-input-mouse
 xf86-input-void
-
-## Xorg Server and Graphics
 xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
-mesa-demos
->multilib lib32-mesa-demos
+yelp
+>extra libreoffice-fresh
+>extra thunderbird
+>extra lollypop
+>extra empathy
+>extra uget
+>extra transmission-gtk
+>extra brasero
+>extra manjaro-documentation
+>extra jre8-openjdk
+>extra jre8-openjdk-headless
+>extra flashplugin
+>extra libdvdcss
+>extra steam-manjaro
+>extra manjaro-printer
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra subversion
+>extra yaourt
 
-## Desktop Utils
-xdg-user-dirs
-xdg-utils
-xdg-su
-numlockx
 
-## Fonts
-terminus-font
-ttf-bitstream-vera
-ttf-dejavu
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-ttf-droid
+>extra gedit-plugins
+>extra seahorse-nautilus 
+>extra simple-scan
+>extra nautilus-share
+>extra vinagre
+>extra x2goserver
+>extra mes-maia
+>extra rss-glx
+sound-theme-freedesktop
+sonar-sound-theme
+bash-completion
+xcursor-simpleandsoft
+xcursor-vanilla-dmz-aa
+xcursor-chameleon-pearl
+xcursor-breeze
+xcursor-maia
+>extra bluez-firmware
+>extra bluez-plugins
+extra >bluez-hid2hci
+>extra bluez-utils
+#accessibility
+qt-at-spi
+ibus-qt
 
-## Applications
-inxi
-dmidecode # for inxi -m output
-powertop
-
-## Sound
-alsa-firmware
->openrc alsa-utils-openrc
->systemd alsa-utils
-
-## Network
-mobile-broadband-provider-info
-modemmanager
->systemd networkmanager
->openrc networkmanager-consolekit
->openrc networkmanager-openrc
->openrc avahi-openrc
->systemd avahi
-nss-mdns
->systemd ntp
->openrc ntp-openrc
->systemd openssh
->openrc openssh-openrc
-
-## Misc
->openrc consolekit-openrc
->openrc displaymanager-openrc
->openrc pm-utils
->openrc cgmanager-openrc
-manjaro-hotfixes
-#accessibility packages
->systemd espeakup
->openrc espeakup-openrc
-orca
->systemd brltty
->openrc brltty-openrc
-eviacam
-open-dyslexic-fonts
-caribou
-ibus
-ibus-table
-ibus-table-extraphrase
-mousetweaks
+#media player and audio converter
+>extra audacious #standard media player
+>extra audacious-plugins #additional plugins for audacious
+>extra soundconverter #audio and video file converter using gstreamer
+>extra transmageddon #video file converter
+>extra handbrake #dvd and bd ripper
+>extra asunder #lightweight cd ripper with cddb support
+>extra audacity #open source audio editor
+>extra pitivi #open source video editor
+>extra shotwell #open source photo manager
+>extra #extra addons for brasero
+>extra libwmf #windows meta file (wmf) image format support for disc covers
+>extra dvdbackup #dvd backup support
+>extra dvdauthor #create video dvd's, picture cd's and bd's
+>extra openjpeg2 #jpeg image support for disc covers
+#video player
+>extra vlc
+#instant messenging software
+>extra pidgin
+#additional protocol support
+>extra purple-facebook #facebook support
+>extra purple-hangouts-hg #google hangouts
+>extra purple-skypeweb #cloud skype support
+>extra prpltwtr #twitter support
+>extra pidgin-otr #off the record, encrypted and anonymous communication support
+>extra telegram-purple #telegram support
+#additional plugins for pidgin
+>extra purple-plugin-pack
+#youtube viewer and downloader
+>extra youtube-viewer #for playing and watching individual videos
+>extra youtube-dl #for downloading individual videos and playlists
+#command line applications
+>extra fsarchiver #filesystem recovery
+>extra surfraw #search multiple sites from the command line
+>extra finch #command line pidgin
+>extra ffmpeg #audio and video converter and manipulator
 #alteraeon sound pack
-tintin-alteraeon
-python-yaml
-vorbis-tools
-ocrdesktop
-mumble
+>extra tintin-alteraeon
+
