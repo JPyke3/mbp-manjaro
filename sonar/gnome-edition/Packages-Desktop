@@ -213,7 +213,7 @@ xcursor-breeze
 xcursor-maia
 >extra bluez-firmware
 >extra bluez-plugins
-extra >bluez-hid2hci
+>extra >bluez-hid2hci
 >extra bluez-utils
 #accessibility
 qt-at-spi
