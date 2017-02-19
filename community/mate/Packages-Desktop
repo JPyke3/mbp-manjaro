@@ -38,7 +38,7 @@ manjaro-mate-settings
 gtk3-print-backends
 mate-gtk3-manjaro
 mc # Midnight Commander
-pacli
+pacui
 mhwd-tui
 gparted
 grilo-plugins

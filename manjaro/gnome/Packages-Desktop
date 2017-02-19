@@ -42,10 +42,11 @@ gufw
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
+gvfs-google
 gvfs-smb
 inxi
 imagewriter
-pacli
+pacui
 mc
 mhwd-tui
 manjaro-alsa
