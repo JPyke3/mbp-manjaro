@@ -1,10 +1,1 @@
-calamares-dev
-manjaro-architect
-manjaro-live-skel
-manjaro-syslinux-theme
-mkinitcpio-nfs-utils
-nbd
->openrc manjaro-live-openrc
-squashfs-tools
->systemd manjaro-live-systemd
->x86_64 manjaro-efi-utils
+../../shared/Packages-Live
