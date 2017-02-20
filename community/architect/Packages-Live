@@ -1,0 +1,28 @@
+KERNEL-broadcom-wl
+KERNEL-ndiswrapper
+KERNEL-r8168
+KERNEL-rt3562sta
+KERNEL-virtualbox-guest-modules
+manjaro-architect-launcher
+manjaro-hotfixes
+manjaro-syslinux-theme
+mkinitcpio-nfs-utils
+nbd
+>openrc cgmanager-openrc
+>openrc consolekit-openrc
+>openrc manjaro-live-openrc
+>openrc networkmanager-consolekit
+>openrc networkmanager-openrc
+>openrc pm-utils
+open-vm-tools
+>systemd manjaro-live-systemd
+>systemd networkmanager
+>x86_64 manjaro-efi-utils
+virtualbox-guest-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-vmmouse
+xf86-input-void
