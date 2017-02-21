@@ -20,14 +20,6 @@ iso-profiles
 # use extra packages as defined in pkglist to activate a full profile
 # extra="false"
 
-################ torrent ################
-
-# the torrent tracker urls, comma separated
-# tracker_url='udp://mirror.strits.dk:6969'
-
-# Piece size, 2^n
-# piece_size=21
-
 ################ install ################
 
 # default displaymanager: none
@@ -84,6 +76,10 @@ iso-profiles
 
 # unset defaults to given value
 # password="manjaro"
+
+# the login shell
+# defaults to bash
+# login_shell=/bin/bash
 
 # unset defaults to given values
 # names must match systemd service names
