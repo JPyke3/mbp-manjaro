@@ -49,6 +49,7 @@ openbox
 >openrc pm-utils
 >openrc sddm-consolekit
 >openrc syslog-ng-openrc
+>openrc json-c
 pcmanfm-qt
 powertop
 qterminal
