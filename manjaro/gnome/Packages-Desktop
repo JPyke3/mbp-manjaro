@@ -99,8 +99,8 @@ sushi
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
->systemd plymouth-legacy
->systemd plymouth-theme-manjaro-gnome-17.0
+#>systemd plymouth-legacy
+#>systemd plymouth-theme-manjaro-gnome-17.0
 terminus-font
 totem
 tracker

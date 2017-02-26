@@ -134,8 +134,8 @@ sushi
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
->systemd plymouth-legacy
->systemd plymouth-theme-sonar-elegant
+#>systemd plymouth-legacy
+#>systemd plymouth-theme-sonar-elegant
 terminus-font
 totem
 tracker
