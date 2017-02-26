@@ -1,18 +1,22 @@
 accountsservice
 alsa-firmware
 alsa-plugins
-alsa-utils
+>systemd alsa-utils
+>openrc alsa-utils-openrc
 arandr
 artwork-i3
 autoconf
 automake
-avahi
+>systemd avahi
 binutils
 bison
 blueman
 bmenu
+>openrc cgmanager-openrc
 clipit
+>openrc consolekit-openrc
 dfc
+>openrc displaymanager-openrc
 dmidecode
 downgrade
 epdfview
@@ -23,6 +27,7 @@ flac
 flashplugin
 flex
 gcc
+>multilib gcc-multilib
 gcolor2
 gconf
 gimp
@@ -56,7 +61,7 @@ lxappearance
 lxinput
 m4
 make
-manjaro-alsa
+>multilib manjaro-alsa
 manjaro-browser-settings
 manjaro-hello
 manjaro-hotfixes
@@ -70,10 +75,13 @@ moc
 modemmanager
 morc_menu
 mousepad
+>multilib lib32-flex
 >multilib lib32-mesa-demos
 ncdu
 netctl
-networkmanager
+>systemd networkmanager
+>openrc networkmanager-openrc
+>openrc networkmanager-consolekit
 network-manager-applet
 networkmanager-dispatcher-ntpd
 networkmanager-openconnect
@@ -81,10 +89,12 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
-ntp
+>systemd ntp
+>openrc ntp-openrc
 open-fuse-iso
-openresolv
-openssh
+>systemd openresolv
+>systemd openssh
+>openrc openssh-openrc
 p7zip
 palemoon-bin
 pamac
@@ -92,6 +102,7 @@ patch
 pcmanfm
 perl-file-mimeinfo
 pkg-config
+>openrc pm-utils
 polkit-gnome
 poppler-data
 powertop
