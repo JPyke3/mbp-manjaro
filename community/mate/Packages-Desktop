@@ -9,13 +9,11 @@ atril-gtk3
 engrampa
 firefox
 lightdm
-#lightdm-webkit2-greeter-manjaro
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 breath-wallpaper
 mate-wallpapers
 mate-icon-theme
->extra mate-themes
 xcursor-breeze
 mate-gtk3
 #mate-extra-gtk3
@@ -33,7 +31,6 @@ mate-media-gtk3
 mate-user-guide
 pluma-gtk3
 gnome-disk-utility
->extra manjaro-documentation
 manjaro-mate-settings
 gtk3-print-backends
 mate-gtk3-manjaro
@@ -99,8 +96,8 @@ pulseaudio-zeroconf
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
->systemd plymouth-legacy
-plymouth-theme-manjaro-elegant
+#>systemd plymouth-legacy
+#plymouth-theme-manjaro-elegant
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu
@@ -130,6 +127,8 @@ xorg-twm
 xorg-utils
 xorg-xinit
 yelp
+>extra manjaro-documentation
+>extra mate-themes
 >extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
