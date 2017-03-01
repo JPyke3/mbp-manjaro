@@ -113,6 +113,7 @@ octopi-repoeditor
 >extra cups-pk-helper
 >extra ghostscript
 >extra gsfonts
+gtk3-print-backends
 >extra hplip
 >extra splix
 
