@@ -101,6 +101,7 @@ pamac
 >extra cups-pk-helper
 >extra ghostscript
 >extra gsfonts
+>extra gtk3-print-backends
 >extra hplip
 >extra splix
 
@@ -187,8 +188,8 @@ xfce4-xkb-plugin
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
->systemd plymouth-legacy
->systemd plymouth-theme-manjaro-elegant
+#>systemd plymouth-legacy
+#>systemd plymouth-theme-manjaro-elegant
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 
