@@ -1,30 +1,35 @@
 adwaita-maia-gtk3
+alsa-firmware
+alsa-plugins
 atool
+>basic midori
 bc
 bmenu
 brandr
 breeze-maia-icon-themes
 bspwm-manjaro
 bspwm-ruler
-bspwm-ruler
 bspwm-scripts
 bspwm-wallpapers
-clonezilla
-compton
-console-solarized
 dash
 dconf
-delayed-hibernation
 desktop-file-utils
 dfc
 downgrade
 dunst
+>extra clonezilla
+>extra compton
+>extra gnome-disk-utility
+>extra gufw
+>extra gvfs
+>extra lightfirefox
+>extra lxappearance-gtk3
+>extra moc
+>extra mpv
+>extra tree
 feh
 file-roller
 gedit
-gnome-disk-utility
-gufw
-gvfs
 hibernator
 htop
 i3lock
@@ -32,23 +37,23 @@ inxi
 lemonpanel
 libdnet
 libnotify
-lightfirefox
 limepanel
-lxappearance-gtk3
-manjaro-alsa
+manjaro-architect
 manjaro-bspwm-settings
 manjaro-zsh-config
-mesa-demos
 mhwd-chroot
 mhwd-tui
-moc
 morc_menu
-mpv
+>multilib manjaro-alsa
 mygtkmenui
 ncdu
-networkmanager
 networkmanager-dispatcher-ntpd
-openresolv
+>openrc alsa-utils-openrc
+>openrc cgmanager-openrc
+>openrc displaymanager-openrc
+>openrc networkmanager-consolekit
+>openrc networkmanager-openrc
+>openrc pm-utils
 pacli
 perl-file-mimeinfo
 poppler
@@ -59,6 +64,12 @@ spacefm
 speedtest-cli
 st-manjaro
 sxhkd
+>systemd alsa-utils
+>systemd console-solarized
+>systemd delayed-hibernation
+>systemd networkmanager
+>systemd openresolv
+>systemd xlogin
 terminus-font
 thermald
 tmux
@@ -73,7 +84,6 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xlogin
 xorg-server
 xorg-server-utils
 xorg-xinit
@@ -83,4 +93,3 @@ zathura-pdf-poppler
 zenity
 zsh
 zsh-completions
-zsh-history-substring-search
