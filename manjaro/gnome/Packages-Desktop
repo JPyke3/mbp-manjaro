@@ -120,6 +120,7 @@ xorg-twm
 xorg-utils
 xorg-xinit
 yelp
+>extra gtk3-print-backends
 >extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
