@@ -143,6 +143,7 @@ ksysguard
 kwallet-pam
 kwayland-integration
 kwin
+qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 kwrited
 milou
 plasma-desktop
