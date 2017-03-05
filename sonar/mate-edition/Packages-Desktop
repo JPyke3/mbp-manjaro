@@ -8,6 +8,7 @@ mate-desktop-gtk3
 plymouth-theme-sonar-elegant
 maia-wallpaper
 manjaro-artwork
+>extra gtk3-print-backends
 mate-tweak
 mate-screensaver-gtk3
 network-manager-applet

@@ -127,6 +127,7 @@ xorg-twm
 xorg-utils
 xorg-xinit
 yelp
+>extra gtk3-print-backends
 >extra manjaro-documentation
 >extra mate-themes
 >extra libreoffice-fresh

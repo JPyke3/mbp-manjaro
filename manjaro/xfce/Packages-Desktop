@@ -69,11 +69,10 @@ pkg-config
 >extra git
 >extra patchutils
 >extra subversion
-yaourt
 
 ## Fonts
 cantarell-fonts
-# noto-fonts               # default font
+# noto-fonts             # default font
 # noto-fonts-cjk         # big package, ~76 mb compressed
 # >extra noto-fonts-emoji
 >extra terminus-font

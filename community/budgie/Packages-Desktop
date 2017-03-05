@@ -80,18 +80,6 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 numlockx
->openrc alsa-utils-openrc
->openrc avahi-openrc
->openrc cgmanager-openrc
->openrc consolekit-openrc
->openrc displaymanager-openrc
->openrc networkmanager-consolekit
->openrc networkmanager-openrc
->openrc ntp-openrc
->openrc openssh-openrc
->openrc pm-utils
->openrc sddm-consolekit
->openrc syslog-ng-openrc
 openresolv
 pamac
 polkit-gnome
@@ -139,3 +127,4 @@ xorg-twm
 xorg-utils
 xorg-xinit
 yelp
+>extra gtk3-print-backends
