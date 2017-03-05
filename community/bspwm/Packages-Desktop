@@ -48,6 +48,7 @@ morc_menu
 mygtkmenui
 ncdu
 networkmanager-dispatcher-ntpd
+>openrc acpid-openrc
 >openrc alsa-utils-openrc
 >openrc cgmanager-openrc
 >openrc displaymanager-openrc
@@ -65,7 +66,7 @@ speedtest-cli
 st-manjaro
 sxhkd
 >systemd alsa-utils
->systemd console-solarized
+>systemd maia-console
 >systemd delayed-hibernation
 >systemd networkmanager
 >systemd openresolv
