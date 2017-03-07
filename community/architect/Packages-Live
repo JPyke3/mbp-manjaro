@@ -19,6 +19,7 @@ open-vm-tools
 >systemd manjaro-live-systemd
 >systemd networkmanager
 >x86_64 manjaro-efi-utils
+terminus-font
 virtualbox-guest-utils
 xf86-input-elographics
 xf86-input-evdev
