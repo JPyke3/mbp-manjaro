@@ -60,7 +60,7 @@ lm_sensors
 lxappearance
 lxinput
 m4
-maia-console
+>systemd maia-console
 make
 >multilib manjaro-alsa
 manjaro-browser-settings
