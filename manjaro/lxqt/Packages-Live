@@ -43,7 +43,6 @@ xf86-video-vmware
 xf86-video-voodoo
 
 ## system rescue utilities
-#manjaro-tools-base
-#partitionmanager
-#imagewriter
-#qupzilla
+manjaro-tools-base
+partitionmanager
+imagewriter
