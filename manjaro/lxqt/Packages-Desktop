@@ -5,8 +5,6 @@ compton-conf
 dmidecode
 >extra lximage-qt
 >extra manjaro-lxqt-extra-settings
->extra octopi
->extra octopi-notifier-qt5
 >extra octopi-cachecleaner
 >extra octopi-repoeditor
 >extra vlc
@@ -52,6 +50,8 @@ openbox
 pcmanfm-qt
 powertop
 qterminal
+octopi
+octopi-notifier-qt5
 qupzilla
 sddm-qt-manjaro-theme
 >systemd alsa-utils
