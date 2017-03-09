@@ -19,7 +19,7 @@ mate-gtk3
 #mate-extra-gtk3
 galculator
 marco-gtk3
-brisk-menu 
+brisk-menu
 mate-notification-theme-slate
 mate-menu
 mate-control-center-gtk3
@@ -96,8 +96,6 @@ pulseaudio-zeroconf
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
-#>systemd plymouth-legacy
-#plymouth-theme-manjaro-elegant
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu

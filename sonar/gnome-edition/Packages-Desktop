@@ -122,8 +122,6 @@ sushi
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
-#>systemd plymouth-legacy
-#>systemd plymouth-theme-sonar-elegant
 terminus-font
 totem
 tracker
@@ -187,7 +185,7 @@ libyaml
 
 
 >extra gedit-plugins
->extra seahorse-nautilus 
+>extra seahorse-nautilus
 >extra simple-scan
 >extra nautilus-share
 >extra vinagre

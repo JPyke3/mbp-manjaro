@@ -187,8 +187,6 @@ xfce4-xkb-plugin
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
-#>systemd plymouth-legacy
-#>systemd plymouth-theme-manjaro-elegant
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 
@@ -232,7 +230,7 @@ powertop
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
-unrar  # RAR archive support 
+unrar  # RAR archive support
 
 ## Documentation
 manjaro-documentation

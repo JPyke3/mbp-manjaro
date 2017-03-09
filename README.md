@@ -14,9 +14,6 @@ iso-profiles
 # use pxe
 # pxe_boot="true"
 
-# use core packages as defined in pkglist to use in basic profile
-# basic="false"
-
 # use extra packages as defined in pkglist to activate a full profile
 # extra="false"
 
@@ -32,17 +29,11 @@ iso-profiles
 # nonfree xorg drivers
 # nonfree_mhwd="true"
 
-# use plymouth
-# plymouth_boot="true"
-
 # possible values: grub;systemd-boot
 # efi_boot_loader="grub"
 
 # configure calamares for netinstall
 # netinstall="false"
-
-# the default url for the netinstall.yaml
-# netgroups="https://raw.githubusercontent.com/manjaro/calamares-netgroups/master"
 
 # configure calamares to use chrootcfg instead of unpackfs; default: unpackfs
 # chrootcfg="false"
