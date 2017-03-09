@@ -14,9 +14,6 @@ iso-profiles
 # use pxe
 # pxe_boot="true"
 
-# use core packages as defined in pkglist to use in basic profile
-# basic="false"
-
 # use extra packages as defined in pkglist to activate a full profile
 # extra="false"
 
