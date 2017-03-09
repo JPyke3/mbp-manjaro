@@ -32,9 +32,6 @@ iso-profiles
 # nonfree xorg drivers
 # nonfree_mhwd="true"
 
-# use plymouth
-# plymouth_boot="true"
-
 # possible values: grub;systemd-boot
 # efi_boot_loader="grub"
 

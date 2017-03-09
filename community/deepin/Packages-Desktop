@@ -82,8 +82,6 @@ ntp
 openresolv
 pamac
 patch
->systemd plymouth-legacy
->systemd plymouth-theme-manjaro-deepin-circle
 polkit-gnome
 poppler-data
 powertop

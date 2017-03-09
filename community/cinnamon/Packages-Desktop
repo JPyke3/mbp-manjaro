@@ -79,8 +79,6 @@ pamac
 pavucontrol
 >extra pidgin-libnotify
 >extra pix
->systemd plymouth-legacy
->systemd plymouth-theme-manjaro-cinnamon
 >extra poppler-data
 >extra powertop
 >extra pragha
