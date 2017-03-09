@@ -11,12 +11,10 @@ firefox
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
-breath-wallpaper
 mate-wallpapers
 mate-icon-theme
 xcursor-breeze
 mate-gtk3
-#mate-extra-gtk3
 galculator
 marco-gtk3
 brisk-menu
