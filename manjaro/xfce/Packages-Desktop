@@ -216,13 +216,13 @@ manjaro-settings-manager-notifier
 >extra mlocate
 mousepad
 mugshot
-parole # media player
+>basic parole # media player
 >extra pidgin
 powertop
 >extra poppler-data  # CKJ support for pdf
 >basic sylpheed # mail client
 >extra thunderbird
-# vlc-nightly
+>extra vlc-nightly
 >extra viewnior
 >extra xfburn
 >extra yelp
