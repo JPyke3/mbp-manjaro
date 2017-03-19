@@ -55,7 +55,6 @@ imagewriter
 mc # Midnight Commander
 pacui
 mhwd-tui
-#lollypop
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
@@ -103,8 +102,8 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
-vertex-maia-icon-theme
-#vertex-maia-themes
+arc-maia-icon-theme
+moka-icon-theme
 arc-themes-maia
 firefox-arc-maia-settings
 budgie-wallpapers
@@ -126,4 +125,40 @@ xorg-twm
 xorg-utils
 xorg-xinit
 yelp
+
+#extra depends for file-roller
+>extra p7zip
+>extra unrar
+>extra unace
+>extra lrzip
 >extra gtk3-print-backends
+>extra libreoffice-fresh
+>extra thunderbird
+>extra lollypop
+>extra empathy
+>extra uget
+>extra transmission-gtk
+>extra brasero
+>extra manjaro-documentation
+>extra jre8-openjdk
+>extra jre8-openjdk-headless
+>extra flashplugin
+>extra libdvdcss
+>extra steam-manjaro
+>extra manjaro-printer
+#AUR complete support ( base devel + yaourt )
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra subversion
+>extra yaourt
+
