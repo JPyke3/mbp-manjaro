@@ -1,9 +1,8 @@
 ## Network
 >systemd avahi
 >openrc avahi-openrc
->systemd networkmanager
+networkmanager
 >openrc networkmanager-openrc
->openrc networkmanager-consolekit
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -244,15 +243,19 @@ manjaro-browser-settings
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
+>systemd xdg-user-dirs
+>systemd xorg-server
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
 numlockx
 mesa-demos
 >multilib lib32-mesa-demos
-xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
@@ -261,13 +264,14 @@ xorg-xkill
 
 ## Desktop Utils
 perl-file-mimeinfo
-xdg-user-dirs
 xdg-utils
 xdg-su
 
 ## Misc
->openrc consolekit-openrc
->openrc displaymanager-openrc
->openrc pm-utils
->openrc cgmanager-openrc
 manjaro-hotfixes
+>openrc elogind-openrc
+>openrc displaymanager-openrc
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+

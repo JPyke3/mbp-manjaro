@@ -50,11 +50,8 @@ ncdu
 networkmanager-dispatcher-ntpd
 >openrc acpid-openrc
 >openrc alsa-utils-openrc
->openrc cgmanager-openrc
 >openrc displaymanager-openrc
->openrc networkmanager-consolekit
 >openrc networkmanager-openrc
->openrc pm-utils
 pacli
 perl-file-mimeinfo
 poppler
@@ -68,7 +65,7 @@ sxhkd
 >systemd alsa-utils
 >systemd maia-console
 >systemd delayed-hibernation
->systemd networkmanager
+networkmanager
 >systemd openresolv
 >systemd xlogin
 terminus-font
@@ -77,15 +74,14 @@ tmux
 udevil
 xcursor-breeze
 xdg-su
-xdg-user-dirs
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
-xorg-server
 xorg-server-utils
 xorg-xinit
 xorg-xprop
@@ -94,3 +90,10 @@ zathura-pdf-poppler
 zenity
 zsh
 zsh-completions
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server

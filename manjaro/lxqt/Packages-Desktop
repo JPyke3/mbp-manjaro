@@ -35,18 +35,20 @@ obconf-qt
 openbox
 >openrc alsa-utils-openrc
 >openrc avahi-openrc
->openrc cgmanager-openrc
->openrc consolekit-openrc
+>openrc elogind-openrc
 >openrc cronjobs
 >openrc displaymanager-openrc
->openrc networkmanager-consolekit
 >openrc networkmanager-openrc
 >openrc ntp-openrc
 >openrc openssh-openrc
->openrc pm-utils
->openrc sddm-consolekit
+>openrc sddm-elogind
 >openrc syslog-ng-openrc
 >openrc json-c
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
 pcmanfm-qt
 powertop
 qterminal
@@ -57,11 +59,13 @@ qupzilla
 sddm-qt-manjaro-theme
 >systemd alsa-utils
 >systemd avahi
->systemd networkmanager
+networkmanager
 >systemd ntp
 >systemd openssh
 >systemd sddm
 >systemd syslog-ng
+>systemd xdg-user-dirs
+>systemd xorg-server
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu
@@ -71,9 +75,7 @@ ttf-indic-otf
 ttf-liberation
 xarchiver
 xdg-su
-xdg-user-dirs
 xdg-utils
-xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils

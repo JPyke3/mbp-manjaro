@@ -11,21 +11,18 @@ manjaro-live-skel
 mkinitcpio-nfs-utils
 nbd
 network-manager-applet
->openrc cgmanager-openrc
->openrc consolekit-openrc
+>openrc elogind-openrc
 >openrc displaymanager-openrc
 >openrc manjaro-live-openrc
->openrc networkmanager-consolekit
 >openrc networkmanager-openrc
->openrc pm-utils
->openrc sddm-consolekit
+>openrc sddm-elogind
 open-vm-tools
 qt5ct
 sddm-andromeda-qt-theme
 >sonar sonar-calamares-branding
 >sonar sonar-syslinux-theme
 >systemd manjaro-live-systemd
->systemd networkmanager
+networkmanager
 >systemd sddm
 >x86_64 manjaro-efi-utils
 virtualbox-guest-utils
@@ -33,7 +30,8 @@ xcursor-breeze
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-vmmouse
 xf86-input-void

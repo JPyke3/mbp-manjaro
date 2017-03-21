@@ -48,7 +48,7 @@ iso-profiles
 
 # unset defaults to given values,
 # names must match openrc service names
-# enable_openrc=('acpid' 'bluetooth' 'consolekit' 'cronie' 'cupsd' 'dbus' 'syslog-ng' 'NetworkManager')
+# enable_openrc=('acpid' 'bluetooth' 'elogind' 'cronie' 'cupsd' 'dbus' 'syslog-ng' 'NetworkManager')
 # disable_openrc=()
 
 # unset defaults to given values

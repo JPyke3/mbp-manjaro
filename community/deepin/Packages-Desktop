@@ -104,16 +104,15 @@ ttf-indic-otf
 ttf-liberation
 xarchiver
 xdg-su
-xdg-user-dirs
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
 xfburn
-xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
@@ -121,3 +120,10 @@ xorg-xinit
 xsane
 xsane-gimp
 yaourt
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server

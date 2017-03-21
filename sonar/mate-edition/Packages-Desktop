@@ -23,12 +23,12 @@ xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-mouse
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-synaptics #synaptic mice
 xf86-input-void
 
 ## Xorg Server and Graphics
-xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
@@ -37,7 +37,6 @@ mesa-demos
 >multilib lib32-mesa-demos
 
 ## Desktop Utils
-xdg-user-dirs
 xdg-utils
 xdg-su
 numlockx
@@ -65,8 +64,7 @@ alsa-firmware
 ## Network
 mobile-broadband-provider-info
 modemmanager
->systemd networkmanager
->openrc networkmanager-consolekit
+networkmanager
 >openrc networkmanager-openrc
 >openrc avahi-openrc
 >systemd avahi
@@ -77,11 +75,16 @@ nss-mdns
 >openrc openssh-openrc
 
 ## Misc
->openrc consolekit-openrc
+>openrc elogind-openrc
 >openrc displaymanager-openrc
->openrc pm-utils
->openrc cgmanager-openrc
 manjaro-hotfixes
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server
 
 #accessibility packages
 >systemd espeakup

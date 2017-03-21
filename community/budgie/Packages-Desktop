@@ -88,9 +88,11 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 sushi
+>systemd xdg-user-dirs
+>systemd xorg-server
 >systemd alsa-utils
 >systemd avahi
->systemd networkmanager
+networkmanager
 >systemd ntp
 >systemd openssh
 terminus-font
@@ -110,16 +112,14 @@ budgie-wallpapers
 moka-icon-theme
 vino
 xdg-su
-xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xorg-server
 xorg-server-utils
 xorg-twm
 xorg-utils
@@ -132,6 +132,23 @@ yelp
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
+>openrc alsa-utils-openrc
+>openrc avahi-openrc
+>openrc elogind-openrc
+>openrc cronjobs
+>openrc displaymanager-openrc
+>openrc networkmanager-openrc
+>openrc ntp-openrc
+>openrc openssh-openrc
+>openrc sddm-elogind
+>openrc syslog-ng-openrc
+>openrc json-c
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>openrc xf86-input-libinput-nosystemd
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
 >extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
@@ -161,4 +178,3 @@ yelp
 >extra patch
 >extra subversion
 >extra yaourt
-
