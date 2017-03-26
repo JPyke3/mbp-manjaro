@@ -76,6 +76,7 @@ nss-mdns
 
 ## Misc
 >openrc elogind-openrc
+>openrc openrc-settingsd
 >openrc displaymanager-openrc
 manjaro-hotfixes
 >openrc accountsservice-elogind

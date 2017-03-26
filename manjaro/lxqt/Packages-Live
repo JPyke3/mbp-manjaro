@@ -9,8 +9,8 @@ KERNEL-r8168
 KERNEL-rt3562sta
 KERNEL-virtualbox-guest-modules
 
->manjaro manjaro-syslinux-theme
->sonar sonar-syslinux-theme
+#>manjaro manjaro-syslinux-theme
+#>sonar sonar-syslinux-theme
 
 manjaro-live-skel
 >openrc manjaro-live-openrc

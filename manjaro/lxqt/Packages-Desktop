@@ -36,6 +36,7 @@ openbox
 >openrc alsa-utils-openrc
 >openrc avahi-openrc
 >openrc elogind-openrc
+>openrc openrc-settingsd
 >openrc cronjobs
 >openrc displaymanager-openrc
 >openrc networkmanager-openrc
