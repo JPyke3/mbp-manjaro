@@ -83,7 +83,7 @@ yaourt
 noto-fonts               # default font
 # noto-fonts-cjk         # big package, ~76 mb compressed
 >extra noto-fonts-emoji
->extra terminus-font
+terminus-font
 >extra ttf-bitstream-vera
 # ttf-dejavu             # Installed as gnome-themes-standard dependency
 # ttf-hack               # Installed as plasma-integration dependency
