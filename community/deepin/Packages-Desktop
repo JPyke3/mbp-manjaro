@@ -1,4 +1,3 @@
-adwaita-manjaro-themes
 alsa-firmware
 alsa-utils
 autoconf
@@ -16,6 +15,7 @@ deepin-help
 deepin-image-viewer
 deepin-movie
 deepin-music
+deepin-screen-recorder
 deepin-screenshot
 deepin-social-sharing
 deepin-terminal
@@ -31,7 +31,6 @@ gedit
 gimp
 gksu
 gnome-system-monitor
-gnome-terminal
 gparted
 gst-libav
 gst-plugins-bad
@@ -88,10 +87,7 @@ powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-qt5ct
-qt5-styleplugins
 screenfetch
-smplayer
 sushi
 syslog-ng
 terminus-font
