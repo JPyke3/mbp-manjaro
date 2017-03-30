@@ -27,6 +27,7 @@ mate-utils
 mate-notification-daemon
 mate-media
 mate-user-guide
+mate-system-monitor
 pluma
 gnome-disk-utility
 gnome-keyring
@@ -122,6 +123,7 @@ yelp
 >extra gtk3-print-backends
 >extra manjaro-documentation
 >extra mate-themes
+>extra mate-tweak
 >extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
