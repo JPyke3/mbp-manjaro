@@ -1,7 +1,6 @@
 
 calamares
 #calamares-dev
->sonar sonar-calamares-branding
 
 KERNEL-broadcom-wl
 KERNEL-ndiswrapper
@@ -10,9 +9,6 @@ KERNEL-rt3562sta
 KERNEL-virtualbox-guest-modules
 
 >manjaro grub-theme-live
-
-#>sonar sonar-syslinux-theme
-
 manjaro-live-skel
 >openrc manjaro-live-openrc
 >systemd manjaro-live-systemd
@@ -21,7 +17,6 @@ mkinitcpio-nfs-utils
 nbd
 open-vm-tools
 squashfs-tools
->x86_64 manjaro-efi-utils
 virtualbox-guest-utils
 
 xf86-input-elographics

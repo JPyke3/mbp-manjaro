@@ -15,7 +15,6 @@ nbd
 open-vm-tools
 >systemd manjaro-live-systemd
 networkmanager
->x86_64 manjaro-efi-utils
 terminus-font
 virtualbox-guest-utils
 xf86-input-elographics
