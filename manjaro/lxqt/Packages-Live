@@ -8,7 +8,7 @@ KERNEL-r8168
 KERNEL-rt3562sta
 KERNEL-virtualbox-guest-modules
 
->manjaro grub-theme-live
+>manjaro grub-theme-live-manjaro
 manjaro-live-skel
 >openrc manjaro-live-openrc
 >systemd manjaro-live-systemd
