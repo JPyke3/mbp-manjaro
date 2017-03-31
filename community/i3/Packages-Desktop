@@ -24,7 +24,7 @@ fakeroot
 ffmpeg
 ffmpegthumbnailer
 flac
-flashplugin
+# >extra flashplugin
 flex
 gcc
 >multilib gcc-multilib

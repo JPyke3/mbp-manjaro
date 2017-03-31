@@ -261,7 +261,7 @@ inxi
 >extra krita
 >extra firefox-kde
 >basic qupzilla
->extra flashplugin
+# >extra flashplugin
 >extra libreoffice-still
 manjaro-hello
 manjaro-settings-manager-kcm

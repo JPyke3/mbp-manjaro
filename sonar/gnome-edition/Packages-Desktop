@@ -164,7 +164,7 @@ libyaml
 >extra manjaro-documentation
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
->extra flashplugin
+# >extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer

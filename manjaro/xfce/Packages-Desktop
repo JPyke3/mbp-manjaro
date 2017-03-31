@@ -195,7 +195,7 @@ dmidecode # optional dependency inxi
 engrampa
 engrampa-thunar-plugin
 >extra firefox
->extra flashplugin
+# >extra flashplugin
 >extra galculator-gtk2
 >extra gimp
 gparted
