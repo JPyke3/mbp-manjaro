@@ -50,6 +50,8 @@ openbox
 >openrc accountsservice-elogind
 >openrc upower-nosystemd
 >openrc udisks2-elogind
+>openrc media-player-info-nosystemd
+>openrc libpulse-nosystemd
 pcmanfm-qt
 powertop
 qterminal
