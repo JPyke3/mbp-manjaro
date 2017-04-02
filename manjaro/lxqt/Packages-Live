@@ -41,5 +41,5 @@ xf86-video-voodoo
 
 ## system rescue utilities
 manjaro-tools-base
-partitionmanager
+gparted
 imagewriter
