@@ -84,6 +84,8 @@ lxterminal
 pcmanfm
 
 ## Essential stuff for good LXDE experience
+xfce4-power-manager
+light-locker
 cantarell-fonts
 pamac
 obconf
@@ -110,9 +112,6 @@ qt5-styleplugins
 ## More Themes QT/GTK/SDDM
 gnome-icon-theme
 gnome-themes-standard
-gtk-theme-breath
-xcursor-simpleandsoft
-xcursor-vanilla-dmz-aa
 
 ## Applications
 manjaro-hello
