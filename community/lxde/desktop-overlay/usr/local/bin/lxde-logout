@@ -1,0 +1,2 @@
+#!/bin/sh
+lxsession-logout --banner "/usr/share/lxde/images/manjaro-banner.png" --side=top
