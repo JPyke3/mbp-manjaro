@@ -101,13 +101,7 @@ network-manager-applet
 menulibre
 >systemd pavucontrol
 
-## manjaro-lxde-settings
-manjaro-base-skel
-arc-maia-icon-theme
-vertex-maia-themes
-breath-wallpaper
-qt5ct
-qt5-styleplugins
+manjaro-lxde-settings
 
 ## More Themes QT/GTK/SDDM
 gnome-icon-theme
