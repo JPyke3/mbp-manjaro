@@ -101,7 +101,7 @@ network-manager-applet
 menulibre
 >systemd pavucontrol
 
-## manjaro-lxde-settings
+manjaro-lxde-settings
 manjaro-base-skel
 arc-maia-icon-theme
 vertex-maia-themes
