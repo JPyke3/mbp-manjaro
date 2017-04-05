@@ -161,20 +161,13 @@ manjaro-hotfixes
 >extra jre8-openjdk
 
 ## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
+>extra manjaro-printer
 >extra gtk3-print-backends
->extra hplip
->extra splix
 
 ## Optional dependencies for hplip
 >extra pyqt5-common # For hplip
 >extra python-pillow # For hplip
 >extra python-pip # For hplip
->extra python-pyqt5  # For hplip gui
 >extra python-reportlab # For hplip
 
 ## Games
