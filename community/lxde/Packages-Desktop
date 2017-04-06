@@ -102,6 +102,7 @@ menulibre
 manjaro-lxde-settings
 gnome-icon-theme
 gnome-themes-standard
+poppler-data   #CKJ support for pdf
 
 ## Basic Applications
 manjaro-hello
@@ -114,6 +115,8 @@ dmidecode # optional dependency inxi
 leafpad
 scrot
 firefox
+hexchat
+epdfview
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -160,8 +163,6 @@ manjaro-hotfixes
 ## Printing
 >extra manjaro-printer
 >extra gtk3-print-backends
-
-## Optional dependencies for hplip
 >extra pyqt5-common # For hplip
 >extra python-pillow # For hplip
 >extra python-pip # For hplip
@@ -188,12 +189,9 @@ manjaro-hotfixes
 >extra transmission-gtk
 >extra galculator-gtk2
 >extra gimp
->extra hexchat
->extra epdfview
 >extra libreoffice-fresh
 >extra mlocate
 >extra pidgin
->extra poppler-data   #CKJ support for pdf
 >extra vlc-nightly
 >extra thunderbird
 >extra gpicview
