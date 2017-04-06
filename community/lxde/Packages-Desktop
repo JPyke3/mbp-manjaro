@@ -99,14 +99,11 @@ libopenraw         # tumbler - for RAW thumbnails
 network-manager-applet
 menulibre
 >systemd pavucontrol
-
 manjaro-lxde-settings
-
-## More Themes QT/GTK/SDDM
 gnome-icon-theme
 gnome-themes-standard
 
-## Applications
+## Basic Applications
 manjaro-hello
 manjaro-settings-manager
 manjaro-settings-manager-notifier
@@ -116,6 +113,7 @@ inxi
 dmidecode # optional dependency inxi
 leafpad
 scrot
+firefox
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -188,7 +186,6 @@ manjaro-hotfixes
 >extra guvcview
 >extra gnome-disk-utility
 >extra transmission-gtk
->extra firefox
 >extra galculator-gtk2
 >extra gimp
 >extra hexchat
