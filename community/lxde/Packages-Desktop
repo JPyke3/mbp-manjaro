@@ -59,10 +59,9 @@ make
 patch
 pkg-config
 >multilib lib32-flex
-# Extra packages for AUR support
->extra git
->extra patchutils
->extra subversion
+git
+patchutils
+subversion
 
 ## Display manager
 lightdm
