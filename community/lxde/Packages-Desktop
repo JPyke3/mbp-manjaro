@@ -117,6 +117,7 @@ scrot
 firefox
 hexchat
 epdfview
+gpicview
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -198,6 +199,5 @@ manjaro-hotfixes
 >extra pidgin
 >extra vlc-nightly
 >extra thunderbird
->extra gpicview
 >extra xfburn
 >extra yelp
