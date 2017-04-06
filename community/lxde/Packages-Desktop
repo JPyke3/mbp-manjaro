@@ -118,7 +118,6 @@ hexchat
 epdfview
 gpicview
 galculator-gtk2
-menulibre
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -203,3 +202,4 @@ manjaro-hotfixes
 >extra thunderbird
 >extra xfburn
 >extra yelp
+>extra menulibre
