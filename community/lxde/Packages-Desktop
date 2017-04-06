@@ -118,6 +118,7 @@ firefox
 hexchat
 epdfview
 gpicview
+galculator-gtk2
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -192,7 +193,6 @@ manjaro-hotfixes
 >extra guvcview
 >extra gnome-disk-utility
 >extra transmission-gtk
->extra galculator-gtk2
 >extra gimp
 >extra libreoffice-fresh
 >extra mlocate
