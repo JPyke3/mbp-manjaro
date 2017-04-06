@@ -155,6 +155,8 @@ xdg-su
 ## Misc
 manjaro-hotfixes
 
+##### EXTRA - TO BE INCLUDED IN NETGROUPS #####
+
 ## Java
 >extra jdk8-openjdk
 >extra jre8-openjdk-headless
@@ -179,8 +181,10 @@ manjaro-hotfixes
 >extra ttf-liberation
 >extra ttf-droid
 
-## Extra Applications
+## Extra Themes/Artwork
 >extra manjaro-wallpapers-17.0
+
+## Extra Applications
 >extra gufw
 >extra powertop
 >extra htop
