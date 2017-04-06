@@ -163,16 +163,13 @@ manjaro-hotfixes
 >extra jre8-openjdk-headless
 >extra jre8-openjdk
 
-## Printing
+## Printing Support
 >extra manjaro-printer
 >extra gtk3-print-backends
 >extra pyqt5-common # For hplip
 >extra python-pillow # For hplip
 >extra python-pip # For hplip
 >extra python-reportlab # For hplip
-
-## Games
->extra steam-manjaro
 
 ## Extra Fonts
 >extra terminus-font
@@ -189,6 +186,9 @@ manjaro-hotfixes
 >extra powertop
 >extra htop
 >extra mlocate
+
+## Games
+>extra steam-manjaro
 
 ## Extra Applications
 >extra gufw
