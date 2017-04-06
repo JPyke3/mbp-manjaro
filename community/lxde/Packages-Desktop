@@ -97,7 +97,6 @@ gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
 network-manager-applet
-menulibre
 >systemd pavucontrol
 manjaro-lxde-settings
 gnome-icon-theme
@@ -119,6 +118,7 @@ hexchat
 epdfview
 gpicview
 galculator-gtk2
+menulibre
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -186,16 +186,18 @@ manjaro-hotfixes
 ## Extra Themes/Artwork
 >extra manjaro-wallpapers-17.0
 
-## Extra Applications
->extra gufw
+## Extra Cli Applications
 >extra powertop
 >extra htop
+>extra mlocate
+
+## Extra Applications
+>extra gufw
 >extra guvcview
 >extra gnome-disk-utility
 >extra transmission-gtk
 >extra gimp
 >extra libreoffice-fresh
->extra mlocate
 >extra pidgin
 >extra vlc-nightly
 >extra thunderbird
