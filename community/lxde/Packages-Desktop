@@ -59,10 +59,9 @@ make
 patch
 pkg-config
 >multilib lib32-flex
-# Extra packages for AUR support
->extra git
->extra patchutils
->extra subversion
+git
+patchutils
+subversion
 
 ## Display manager
 lightdm
@@ -98,16 +97,13 @@ gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
 network-manager-applet
-menulibre
 >systemd pavucontrol
-
 manjaro-lxde-settings
-
-## More Themes QT/GTK/SDDM
 gnome-icon-theme
 gnome-themes-standard
+poppler-data   #CKJ support for pdf
 
-## Applications
+## Basic Applications
 manjaro-hello
 manjaro-settings-manager
 manjaro-settings-manager-notifier
@@ -117,6 +113,11 @@ inxi
 dmidecode # optional dependency inxi
 leafpad
 scrot
+firefox
+hexchat
+epdfview
+gpicview
+galculator-gtk2
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -155,23 +156,20 @@ xdg-su
 ## Misc
 manjaro-hotfixes
 
+##### EXTRA - TO BE INCLUDED IN NETGROUPS #####
+
 ## Java
 >extra jdk8-openjdk
 >extra jre8-openjdk-headless
 >extra jre8-openjdk
 
-## Printing
+## Printing Support
 >extra manjaro-printer
 >extra gtk3-print-backends
-
-## Optional dependencies for hplip
 >extra pyqt5-common # For hplip
 >extra python-pillow # For hplip
 >extra python-pip # For hplip
 >extra python-reportlab # For hplip
-
-## Games
->extra steam-manjaro
 
 ## Extra Fonts
 >extra terminus-font
@@ -181,25 +179,27 @@ manjaro-hotfixes
 >extra ttf-liberation
 >extra ttf-droid
 
-## Extra Applications
+## Extra Themes/Artwork
 >extra manjaro-wallpapers-17.0
->extra gufw
+
+## Extra Cli Applications
 >extra powertop
 >extra htop
+>extra mlocate
+
+## Games
+>extra steam-manjaro
+
+## Extra Applications
+>extra gufw
 >extra guvcview
 >extra gnome-disk-utility
 >extra transmission-gtk
->extra firefox
->extra galculator-gtk2
 >extra gimp
->extra hexchat
->extra epdfview
 >extra libreoffice-fresh
->extra mlocate
 >extra pidgin
->extra poppler-data   #CKJ support for pdf
 >extra vlc-nightly
 >extra thunderbird
->extra gpicview
 >extra xfburn
 >extra yelp
+>extra menulibre
