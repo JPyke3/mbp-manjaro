@@ -28,6 +28,7 @@ mate-notification-daemon
 mate-media
 mate-user-guide
 mate-system-monitor
+mate-power-manager
 pluma
 gnome-disk-utility
 gnome-keyring
