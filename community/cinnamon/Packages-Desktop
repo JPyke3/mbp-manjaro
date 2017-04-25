@@ -18,7 +18,7 @@ dmidecode
 gksu
 >extra gnome-disk-utility
 gnome-keyring
-gnome-screenshot
+>extra gnome-screenshot
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
