@@ -385,7 +385,7 @@ client.unfocused        $i3_color9  $i3_color9  $i3_color4  $i3_color10
 client.urgent           $i3_color13 $i3_color12 $i3_color4  $i3_color14
 client.placeholder      $i3_color15 $i3_color17 $i3_color16 $i3_color15 $i3_color17
 
-client.background       #2B2C2B
+client.background       $i3_background
 
 #############################
 ### settings for i3-gaps: ###
