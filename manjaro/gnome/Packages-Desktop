@@ -9,6 +9,8 @@ gthumb
 evince
 firefox
 gdm
+#lightdm
+#lightdm-gtk-greeter
 gedit
 gnome-backgrounds
 gnome-calculator
@@ -31,6 +33,7 @@ gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
 gnome-wallpapers
+gnome-initial-setup
 file-roller
 gparted
 grilo-plugins
@@ -42,7 +45,7 @@ gst-plugins-ugly
 gucharmap
 gufw
 gvfs-afc
-gvfs-gphoto2
+gvfs #-gphoto2
 gvfs-mtp
 gvfs-google
 gvfs-smb
@@ -137,7 +140,7 @@ yelp
 >extra manjaro-documentation
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
-# >extra flashplugin
+>extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer

@@ -4,7 +4,7 @@ baobab
 dconf-editor
 dmidecode
 hexchat
-eog
+gthumb
 lightdm
 lightdm-webkit2-greeter-manjaro
 lightdm-gtk-greeter
@@ -19,12 +19,14 @@ gnome-calculator
 gnome-control-center
 gnome-disk-utility
 gnome-font-viewer
+gnome-themes-standard
 gnome-keyring
 gnome-settings-daemon
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
 gnome-screensaver
+gnome-wallpapers
 gnome-screenshot
 gnome-tweak-tool
 grilo-plugins
