@@ -2,7 +2,6 @@ adwaita-maia-gtk3
 alsa-firmware
 alsa-plugins
 atool
->basic midori
 bc
 bmenu
 brandr
@@ -17,12 +16,13 @@ desktop-file-utils
 dfc
 downgrade
 dunst
+dunstify
 >extra clonezilla
 >extra compton
 >extra gnome-disk-utility
 >extra gufw
 >extra gvfs
->extra palemoon
+>extra epiphany
 >extra lxappearance-gtk3
 >extra moc
 >extra mpv
@@ -41,7 +41,7 @@ limepanel
 manjaro-architect
 manjaro-bspwm-settings
 manjaro-zsh-config
-mhwd-chroot
+>extra mhwd-chroot
 mhwd-tui
 morc_menu
 >multilib manjaro-alsa
@@ -54,12 +54,12 @@ networkmanager-dispatcher-ntpd
 >openrc networkmanager-openrc
 pacli
 perl-file-mimeinfo
-poppler
+>extra poppler
 ps_mem
-ranger
+>extra ranger
 rootmenu
 spacefm
-speedtest-cli
+>extra speedtest-cli
 st-manjaro
 sxhkd
 >systemd alsa-utils
