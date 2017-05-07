@@ -8,9 +8,9 @@ hexchat
 gthumb
 evince
 firefox
-gdm
-#lightdm
-#lightdm-gtk-greeter
+#gdm
+lightdm
+lightdm-slick-greeter
 gedit
 gnome-backgrounds
 gnome-calculator
