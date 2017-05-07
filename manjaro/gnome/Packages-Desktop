@@ -58,7 +58,7 @@ manjaro-alsa
 manjaro-artwork
 manjaro-wallpapers-17.0
 manjaro-browser-settings
-manjaro-gnome-settings
+manjaro-gnome-settings-dev
 manjaro-hotfixes
 manjaro-pulse
 manjaro-settings-manager-notifier
@@ -117,9 +117,7 @@ xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-server
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 yelp
 

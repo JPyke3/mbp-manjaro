@@ -300,9 +300,7 @@ xf86-input-void
 >systemd xorg-server
 >openrc xdg-user-dirs-nosystemd
 >openrc xorg-server-nosystemd
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 mesa-demos
 >multilib lib32-mesa-demos

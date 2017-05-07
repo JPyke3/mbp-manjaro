@@ -256,9 +256,7 @@ xf86-input-void
 numlockx
 mesa-demos
 >multilib lib32-mesa-demos
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 xorg-xkill
 
