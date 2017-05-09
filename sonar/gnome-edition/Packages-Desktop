@@ -146,9 +146,7 @@ xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-server
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 yelp
 orca
