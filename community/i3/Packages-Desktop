@@ -146,9 +146,7 @@ xf86-input-mouse
 xf86-input-void
 xfburn
 xfce4-power-manager
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 xorg-xkill
 xorg-xprop

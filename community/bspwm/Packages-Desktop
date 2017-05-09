@@ -82,7 +82,6 @@ xf86-input-keyboard
 >openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
-xorg-server-utils
 xorg-xinit
 xorg-xprop
 yaourt

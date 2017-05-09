@@ -116,9 +116,7 @@ xf86-input-keyboard
 >openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 yelp
 >extra gtk3-print-backends

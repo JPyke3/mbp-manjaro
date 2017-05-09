@@ -112,9 +112,7 @@ xf86-input-keyboard
 xf86-input-mouse
 xf86-input-void
 >extra xfburn
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 >extra xsane
 >extra xsane-gimp
