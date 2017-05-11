@@ -58,10 +58,10 @@ manjaro-alsa
 manjaro-artwork
 manjaro-wallpapers-17.0
 manjaro-browser-settings
+manjaro-settings-manager-notifier
 manjaro-gnome-settings-dev
 manjaro-hotfixes
 manjaro-pulse
-manjaro-settings-manager-notifier
 manjaro-hello
 mesa-demos
 mobile-broadband-provider-info
@@ -122,6 +122,7 @@ xorg-xinit
 yelp
 
 #extra depends for file-roller
+gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace
