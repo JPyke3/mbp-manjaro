@@ -8,7 +8,9 @@ hexchat
 gthumb
 evince
 firefox
-gdm
+#gdm
+lightdm
+lightdm-slick-greeter
 gedit
 gnome-backgrounds
 gnome-calculator
@@ -31,6 +33,7 @@ gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
 gnome-wallpapers
+#gnome-initial-setup
 file-roller
 gparted
 grilo-plugins
@@ -42,7 +45,7 @@ gst-plugins-ugly
 gucharmap
 gufw
 gvfs-afc
-gvfs-gphoto2
+gvfs #-gphoto2
 gvfs-mtp
 gvfs-google
 gvfs-smb
@@ -55,10 +58,10 @@ manjaro-alsa
 manjaro-artwork
 manjaro-wallpapers-17.0
 manjaro-browser-settings
+manjaro-settings-manager-notifier
 manjaro-gnome-settings
 manjaro-hotfixes
 manjaro-pulse
-manjaro-settings-manager-notifier
 manjaro-hello
 mesa-demos
 mobile-broadband-provider-info
@@ -90,8 +93,6 @@ sushi
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
-#>systemd plymouth-legacy
-#>systemd plymouth-theme-manjaro-gnome-17.0
 terminus-font
 totem
 tracker
@@ -116,18 +117,16 @@ xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-server
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 yelp
 
 #extra depends for file-roller
+gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace
 >extra lrzip
-
 >extra gtk3-print-backends
 >extra libreoffice-fresh
 #>extra thunderbird

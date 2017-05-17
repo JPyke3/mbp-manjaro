@@ -7,6 +7,7 @@ avahi
 cinnamon-sounds
 >extra cinnamon-wallpapers
 >extra dconf-editor
+>openrc displaymanager-openrc
 dmidecode
 >extra ffmpegthumbnailer
 >extra firefox
@@ -17,7 +18,7 @@ dmidecode
 gksu
 >extra gnome-disk-utility
 gnome-keyring
-gnome-screenshot
+>extra gnome-screenshot
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
@@ -79,8 +80,6 @@ pamac
 pavucontrol
 >extra pidgin-libnotify
 >extra pix
->systemd plymouth-legacy
->systemd plymouth-theme-manjaro-cinnamon
 >extra poppler-data
 >extra powertop
 >extra pragha
@@ -108,22 +107,26 @@ ttf-liberation
 vi
 >extra xcursor-chameleon-pearl-deepin
 xdg-su
-xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xed
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
-xorg-server
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 >extra xplayer
 >extra xreader
 >extra xviewer-plugins
 >extra yaourt
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server

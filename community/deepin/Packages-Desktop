@@ -1,44 +1,44 @@
-adwaita-manjaro-themes
 alsa-firmware
 alsa-utils
-autoconf
-automake
+>extra autoconf
+>extra automake
 avahi
-baobab
-binutils
-bison
-chromium
-dconf-editor
+>extra baobab
+>extra binutils
+>extra bison
+>extra chromium
+>extra dconf-editor
 deepin-calendar
 deepin-file-manager
 deepin-gtk-theme
-deepin-help
-deepin-image-viewer
-deepin-movie
-deepin-music
-deepin-screenshot
-deepin-social-sharing
+>extra deepin-help
+>extra deepin-image-viewer
+>extra deepin-movie
+>extra deepin-music
+>extra deepin-screen-recorder
+>extra deepin-screenshot
+>extra deepin-social-sharing
 deepin-terminal
 dmidecode
-downgrade
-evince
-evolution
-fakeroot
-flex
-galculator
-gcc
+>extra downgrade
+>extra evince
+>extra evolution
+>extra fakeroot
+>extra file-roller
+>extra flex
+>extra galculator
+>extra gcc
 gedit
-gimp
+>extra gimp
 gksu
-gnome-system-monitor
-gnome-terminal
-gparted
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gstreamer
+>extra gnome-system-monitor
+>extra gparted
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra gstreamer
 gufw
 gvfs-afc
 gvfs-gphoto2
@@ -47,22 +47,22 @@ gvfs-smb
 hexchat
 htop
 inxi
-isousb
-jre8-openjdk
-jre8-openjdk-headless
-libdvdcss
-libimobiledevice
-libreoffice-fresh
-libtool
-m4
-make
+>extra isousb
+>extra jre8-openjdk
+>extra jre8-openjdk-headless
+>extra libdvdcss
+>extra libimobiledevice
+>extra libreoffice-fresh
+>extra libtool
+>extra m4
+>extra make
 manjaro-alsa
 manjaro-browser-settings
 manjaro-deepin-settings
-manjaro-documentation
+>extra manjaro-documentation
 manjaro-hello
 manjaro-hotfixes
-manjaro-printer
+>extra manjaro-printer
 manjaro-pulse
 manjaro-settings-manager-notifier
 mesa-demos
@@ -81,45 +81,46 @@ nss-mdns
 ntp
 openresolv
 pamac
-patch
->systemd plymouth-legacy
->systemd plymouth-theme-manjaro-deepin-circle
+>extra patch
 polkit-gnome
-poppler-data
-powertop
-pulseaudio-bluetooth
+>extra poppler-data
+>extra powertop
+>extra pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-qt5ct
-qt5-styleplugins
 screenfetch
-smplayer
-sushi
+>extra sushi
 syslog-ng
 terminus-font
-transmission-gtk
-ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-xarchiver
+>extra transmission-gtk
+>extra ttf-bitstream-vera
+>extra ttf-dejavu
+>extra ttf-droid
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra vertex-maia-themes
+>extra xarchiver
+>extra xcursor-breeze
 xdg-su
-xdg-user-dirs
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
-xfburn
-xorg-server
-xorg-server-utils
+>extra xfburn
 xorg-twm
-xorg-utils
 xorg-xinit
-xsane
-xsane-gimp
-yaourt
+>extra xsane
+>extra xsane-gimp
+>extra yaourt
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server

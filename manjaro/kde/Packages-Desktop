@@ -1,9 +1,8 @@
 ## Network
 >systemd avahi
 >openrc avahi-openrc
->systemd networkmanager
+networkmanager
 >openrc networkmanager-openrc
->openrc networkmanager-consolekit
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -84,7 +83,7 @@ yaourt
 noto-fonts               # default font
 # noto-fonts-cjk         # big package, ~76 mb compressed
 >extra noto-fonts-emoji
->extra terminus-font
+terminus-font
 >extra ttf-bitstream-vera
 # ttf-dejavu             # Installed as gnome-themes-standard dependency
 # ttf-hack               # Installed as plasma-integration dependency
@@ -126,7 +125,7 @@ octopi-repoeditor
 
 ## Display manager
 >systemd sddm
->openrc sddm-consolekit
+>openrc sddm-elogind
 sddm-kcm
 
 ## Plasma5
@@ -170,8 +169,6 @@ plasma5-themes-breath  # Default
 >extra plasma5-themes-maia
 sddm-breath-theme  # Default
 >extra sddm-maia-theme
->systemd plymouth-legacy
->systemd plymouth-theme-manjaro-elegant
 
 ## Better systray/notifications support
 >extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
@@ -264,7 +261,7 @@ inxi
 >extra krita
 >extra firefox-kde
 >basic qupzilla
->extra flashplugin
+# >extra flashplugin
 >extra libreoffice-still
 manjaro-hello
 manjaro-settings-manager-kcm
@@ -293,28 +290,31 @@ manjaro-browser-settings
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
-xorg-server
-xorg-server-utils
+>systemd xdg-user-dirs
+>systemd xorg-server
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
 xorg-twm
-xorg-utils
 xorg-xinit
 mesa-demos
 >multilib lib32-mesa-demos
 
 ## Desktop Utils
 perl-file-mimeinfo
-xdg-user-dirs
 xdg-utils
 xdg-su
 
 ## Misc
->openrc consolekit-openrc
->openrc displaymanager-openrc
->openrc pm-utils
->openrc cgmanager-openrc
 manjaro-hotfixes
+>openrc elogind-openrc
+>openrc openrc-settingsd
+>openrc displaymanager-openrc
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind

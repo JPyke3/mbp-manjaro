@@ -12,9 +12,9 @@ binutils
 bison
 blueman
 bmenu
->openrc cgmanager-openrc
 clipit
->openrc consolekit-openrc
+>openrc elogind-openrc
+>openrc openrc-settingsd
 dfc
 >openrc displaymanager-openrc
 dmidecode
@@ -24,7 +24,7 @@ fakeroot
 ffmpeg
 ffmpegthumbnailer
 flac
-flashplugin
+# >extra flashplugin
 flex
 gcc
 >multilib gcc-multilib
@@ -60,7 +60,7 @@ lm_sensors
 lxappearance
 lxinput
 m4
-maia-console
+>systemd maia-console
 make
 >multilib manjaro-alsa
 manjaro-browser-settings
@@ -79,10 +79,9 @@ mousepad
 >multilib lib32-flex
 >multilib lib32-mesa-demos
 ncdu
-netctl
->systemd networkmanager
+>systemd netctl
+networkmanager
 >openrc networkmanager-openrc
->openrc networkmanager-consolekit
 network-manager-applet
 networkmanager-dispatcher-ntpd
 networkmanager-openconnect
@@ -103,7 +102,6 @@ patch
 pcmanfm
 perl-file-mimeinfo
 pkg-config
->openrc pm-utils
 polkit-gnome
 poppler-data
 powertop
@@ -124,7 +122,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 upower
-vertex-maia-themes
 vi
 vibrancy-colors
 viewnior
@@ -138,23 +135,27 @@ xautolock
 xcursor-chameleon-pearl
 xcursor-maia
 xdg-su
-xdg-user-dirs
 xdg-utils
 xdotool
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
 xfburn
 xfce4-power-manager
-xorg-server
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 xorg-xkill
 xorg-xprop
 xterm
 yaourt
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>systemd xdg-user-dirs
+>systemd xorg-server

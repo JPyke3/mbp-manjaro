@@ -122,8 +122,6 @@ sushi
 >systemd networkmanager
 >systemd ntp
 >systemd openssh
-#>systemd plymouth-legacy
-#>systemd plymouth-theme-sonar-elegant
 terminus-font
 totem
 tracker
@@ -148,9 +146,7 @@ xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-server
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 yelp
 orca
@@ -166,7 +162,7 @@ libyaml
 >extra manjaro-documentation
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
->extra flashplugin
+# >extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
@@ -187,7 +183,7 @@ libyaml
 
 
 >extra gedit-plugins
->extra seahorse-nautilus 
+>extra seahorse-nautilus
 >extra simple-scan
 >extra nautilus-share
 >extra vinagre
@@ -235,7 +231,7 @@ ibus-qt
 >extra purple-skypeweb #cloud skype support
 >extra prpltwtr #twitter support
 >extra pidgin-otr #off the record, encrypted and anonymous communication support
->extra telegram-purple #telegram support
+#>extra telegram-purple #telegram support
 #additional plugins for pidgin
 >extra purple-plugin-pack
 #youtube viewer and downloader

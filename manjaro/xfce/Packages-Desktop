@@ -1,9 +1,8 @@
 ## Network
 >systemd avahi
 >openrc avahi-openrc
->systemd networkmanager
+networkmanager
 >openrc networkmanager-openrc
->openrc networkmanager-consolekit
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -75,7 +74,7 @@ cantarell-fonts
 # noto-fonts             # default font
 # noto-fonts-cjk         # big package, ~76 mb compressed
 # >extra noto-fonts-emoji
->extra terminus-font
+terminus-font
 >extra ttf-bitstream-vera
 # ttf-dejavu             # Installed as gnome-themes-standard dependency
 >extra ttf-inconsolata
@@ -187,8 +186,6 @@ xfce4-xkb-plugin
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
-#>systemd plymouth-legacy
-#>systemd plymouth-theme-manjaro-elegant
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 
@@ -198,7 +195,7 @@ dmidecode # optional dependency inxi
 engrampa
 engrampa-thunar-plugin
 >extra firefox
->extra flashplugin
+# >extra flashplugin
 >extra galculator-gtk2
 >extra gimp
 gparted
@@ -218,13 +215,13 @@ manjaro-settings-manager-notifier
 >extra mlocate
 mousepad
 mugshot
-parole # media player
+>basic parole # media player
 >extra pidgin
 powertop
 >extra poppler-data  # CKJ support for pdf
 >basic sylpheed # mail client
 >extra thunderbird
-# vlc-nightly
+>extra vlc-nightly
 >extra viewnior
 >extra xfburn
 >extra yelp
@@ -232,7 +229,7 @@ powertop
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
-unrar  # RAR archive support 
+unrar  # RAR archive support
 
 ## Documentation
 manjaro-documentation
@@ -246,30 +243,34 @@ manjaro-browser-settings
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
+>systemd xdg-user-dirs
+>systemd xorg-server
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
 numlockx
 mesa-demos
 >multilib lib32-mesa-demos
-xorg-server
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 xorg-xkill
 
 ## Desktop Utils
 perl-file-mimeinfo
-xdg-user-dirs
 xdg-utils
 xdg-su
 
 ## Misc
->openrc consolekit-openrc
->openrc displaymanager-openrc
->openrc pm-utils
->openrc cgmanager-openrc
 manjaro-hotfixes
+>openrc elogind-openrc
+>openrc openrc-settingsd
+>openrc displaymanager-openrc
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+

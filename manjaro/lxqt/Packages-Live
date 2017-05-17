@@ -1,7 +1,6 @@
 
-#calamares
-calamares-dev
->sonar sonar-calamares-branding
+calamares
+#calamares-dev
 
 KERNEL-broadcom-wl
 KERNEL-ndiswrapper
@@ -9,9 +8,7 @@ KERNEL-r8168
 KERNEL-rt3562sta
 KERNEL-virtualbox-guest-modules
 
->manjaro manjaro-syslinux-theme
->sonar sonar-syslinux-theme
-
+>manjaro grub-theme-live-manjaro
 manjaro-live-skel
 >openrc manjaro-live-openrc
 >systemd manjaro-live-systemd
@@ -20,13 +17,13 @@ mkinitcpio-nfs-utils
 nbd
 open-vm-tools
 squashfs-tools
->x86_64 manjaro-efi-utils
 virtualbox-guest-utils
 
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-vmmouse
 xf86-input-void
@@ -43,7 +40,7 @@ xf86-video-vmware
 xf86-video-voodoo
 
 ## system rescue utilities
-#manjaro-tools-base
-#partitionmanager
-#imagewriter
-#qupzilla
+manjaro-tools-base
+>systemd gparted
+>openrc partitionmanager
+imagewriter

@@ -6,24 +6,23 @@ KERNEL-virtualbox-guest-modules
 maia-console
 manjaro-architect-launcher
 manjaro-hotfixes
-manjaro-syslinux-theme
 mkinitcpio-nfs-utils
 nbd
->openrc cgmanager-openrc
->openrc consolekit-openrc
+>openrc elogind-openrc
+>openrc openrc-settingsd
 >openrc manjaro-live-openrc
->openrc networkmanager-consolekit
 >openrc networkmanager-openrc
->openrc pm-utils
 open-vm-tools
 >systemd manjaro-live-systemd
->systemd networkmanager
->x86_64 manjaro-efi-utils
+networkmanager
+terminus-font
 virtualbox-guest-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-vmmouse
 xf86-input-void
+>manjaro grub-theme-live-manjaro

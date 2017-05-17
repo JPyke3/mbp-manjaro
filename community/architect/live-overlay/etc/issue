@@ -5,7 +5,7 @@ Manjaro Live ISO (\l) - \s-\r \m
                  \e[0m# Welcome to Manjaro #
 
 
-              \e[32m██████████████████  ████████
+              \e[34m██████████████████  ████████
               ██████████████████  ████████
               ██████████████████  ████████
               ██████████████████  ████████
@@ -23,8 +23,8 @@ Manjaro Live ISO (\l) - \s-\r \m
 
                          login:
 
-                   \e[32muser\e[0m     \e[1m\e[36mmanjaro\e[0m
-                   \e[32mpassword\e[0m \e[1m\e[36mmanjaro\e[0m
+                   \e[34muser\e[0m     \e[1m\e[36mmanjaro\e[0m
+                   \e[34mpassword\e[0m \e[1m\e[36mmanjaro\e[0m
 
           To launch the installer type: \e[1m\e[36msetup\e[0m
 

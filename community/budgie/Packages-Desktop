@@ -4,7 +4,7 @@ baobab
 dconf-editor
 dmidecode
 hexchat
-eog
+gthumb
 lightdm
 lightdm-webkit2-greeter-manjaro
 lightdm-gtk-greeter
@@ -19,12 +19,15 @@ gnome-calculator
 gnome-control-center
 gnome-disk-utility
 gnome-font-viewer
+gnome-themes-standard
 gnome-keyring
 gnome-settings-daemon
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
 gnome-screensaver
+gnome-wallpapers
+gnome-screenshot
 gnome-tweak-tool
 grilo-plugins
 gucharmap
@@ -54,7 +57,6 @@ imagewriter
 mc # Midnight Commander
 pacui
 mhwd-tui
-#lollypop
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
@@ -88,13 +90,13 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 sushi
+>systemd xdg-user-dirs
+>systemd xorg-server
 >systemd alsa-utils
 >systemd avahi
->systemd networkmanager
+networkmanager
 >systemd ntp
 >systemd openssh
->systemd plymouth-legacy
->systemd plymouth-theme-manjaro-fancy-budgie
 terminus-font
 totem
 tracker
@@ -104,27 +106,76 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
-vertex-maia-icon-theme
-#vertex-maia-themes
+arc-maia-icon-theme
+moka-icon-theme
 arc-themes-maia
 firefox-arc-maia-settings
 budgie-wallpapers
 moka-icon-theme
 vino
 xdg-su
-xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
-xf86-input-libinput
+>systemd xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xorg-server
-xorg-server-utils
 xorg-twm
-xorg-utils
 xorg-xinit
 yelp
+
+#extra depends for file-roller
+>extra p7zip
+>extra unrar
+>extra unace
+>extra lrzip
 >extra gtk3-print-backends
+>openrc alsa-utils-openrc
+>openrc avahi-openrc
+>openrc elogind-openrc
+>openrc openrc-settingsd
+>openrc cronjobs
+>openrc displaymanager-openrc
+>openrc networkmanager-openrc
+>openrc ntp-openrc
+>openrc openssh-openrc
+>openrc sddm-elogind
+>openrc syslog-ng-openrc
+>openrc json-c
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>openrc xf86-input-libinput-nosystemd
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+>extra libreoffice-fresh
+>extra thunderbird
+>extra lollypop
+>extra empathy
+>extra uget
+>extra transmission-gtk
+>extra brasero
+>extra manjaro-documentation
+>extra jre8-openjdk
+>extra jre8-openjdk-headless
+# >extra flashplugin
+>extra libdvdcss
+>extra steam-manjaro
+>extra manjaro-printer
+#AUR complete support ( base devel + yaourt )
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra subversion
+>extra yaourt
