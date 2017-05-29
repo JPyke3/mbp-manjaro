@@ -1,0 +1,2 @@
+#!/bin/sh
+grep -q "^AutomaticLoginEnable=True" /etc/gdm/custom.conf || pkill -KILL -u gdm
