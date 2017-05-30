@@ -84,6 +84,7 @@ lxterminal
 pcmanfm
 
 ## Essential stuff for good LXDE experience
+manjaro-lxde-xfce4-notifyd
 xfce4-power-manager
 light-locker
 cantarell-fonts

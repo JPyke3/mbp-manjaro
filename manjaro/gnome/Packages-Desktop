@@ -8,9 +8,9 @@ hexchat
 gthumb
 evince
 firefox
-#gdm
-lightdm
-lightdm-slick-greeter
+gdm
+#lightdm
+#lightdm-slick-greeter
 gedit
 gnome-backgrounds
 gnome-calculator
@@ -25,6 +25,7 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
+gnome-shell-extension-manjaro-update
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
@@ -33,6 +34,7 @@ gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
 gnome-wallpapers
+#gnome-screensaver #if use lightdm we need a screensaver 
 #gnome-initial-setup
 file-roller
 gparted
