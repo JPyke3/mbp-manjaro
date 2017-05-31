@@ -28,6 +28,8 @@ dmidecode
 >extra flex
 >extra galculator
 >extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
 gedit
 >extra gimp
 gksu

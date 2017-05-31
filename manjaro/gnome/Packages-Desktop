@@ -153,6 +153,7 @@ gnome-getting-started-docs
 >extra fakeroot
 >extra flex
 >extra gcc
+>extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
 >extra libtool
 >extra m4

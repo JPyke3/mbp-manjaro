@@ -27,6 +27,7 @@ flac
 # >extra flashplugin
 flex
 gcc
+>multilib gcc-libs-multilib
 >multilib gcc-multilib
 gcolor2
 gconf
