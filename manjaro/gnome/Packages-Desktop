@@ -9,6 +9,8 @@ gthumb
 evince
 firefox
 gdm
+gdm3setup
+gdm3setup-utils
 #lightdm
 #lightdm-slick-greeter
 gedit
