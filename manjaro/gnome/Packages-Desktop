@@ -9,8 +9,7 @@ gthumb
 evince
 firefox
 gdm
-gdm3setup
-gdm3setup-utils
+#>extra gdm3setup
 #lightdm
 #lightdm-slick-greeter
 gedit
@@ -126,7 +125,7 @@ xorg-xinit
 yelp
 
 #extra depends for file-roller
-gnome-getting-started-docs
+>extra gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace
@@ -148,19 +147,20 @@ gnome-getting-started-docs
 >extra steam-manjaro
 >extra manjaro-printer
 #AUR complete support ( base devel + yaourt )
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra subversion
->extra yaourt
+#>extra autoconf
+#>extra automake
+#>extra binutils
+#>extra bison
+#>extra fakeroot
+#>extra flex
+#>extra gcc
+#>extra >multilib gcc-libs-multilib
+#>extra >multilib gcc-multilib
+#>extra libtool
+#>extra m4
+#>extra make
+#>extra patch
+#>extra subversion
+#>extra yaourt
+manjaro-aur-support #introduce for testing in community
 
