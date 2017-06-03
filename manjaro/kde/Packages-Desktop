@@ -319,3 +319,8 @@ manjaro-hotfixes
 >openrc accountsservice-elogind
 >openrc upower-nosystemd
 >openrc udisks2-elogind
+
+## Flatpak support
+>extra flatpak
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-kde
