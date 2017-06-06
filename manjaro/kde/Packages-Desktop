@@ -242,7 +242,7 @@ sshfs  # remote filesystem browser
 >extra dvdauthor        # for creation of DVD
 >extra dvgrab           # for firewire capture
 >extra recordmydesktop  # for screen capture
->extra xine-ui          # for DVD preview
+#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
 >extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
