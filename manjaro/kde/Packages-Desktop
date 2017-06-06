@@ -208,8 +208,6 @@ spectacle
 ## Optional dependencies for ark
 p7zip  # 7Z format support
 unrar  # RAR format support
-unzip  # ZIP format support
-zip    # ZIP compression support
 
 ## Optional dependency for digikam
 >extra kipi-plugins  # more tools and plugins
