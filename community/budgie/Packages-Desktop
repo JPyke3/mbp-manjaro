@@ -165,18 +165,19 @@ yelp
 >extra steam-manjaro
 >extra manjaro-printer
 #AUR complete support ( base devel + yaourt )
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra subversion
->extra yaourt
+#>extra autoconf
+#>extra automake
+#>extra binutils
+#>extra bison
+#>extra fakeroot
+#>extra flex
+#>extra gcc
+#>extra >multilib gcc-libs-multilib
+#>extra >multilib gcc-multilib
+#>extra libtool
+#>extra m4
+#>extra make
+#>extra patch
+#>extra subversion
+#>extra yaourt
+manjaro-aur-support

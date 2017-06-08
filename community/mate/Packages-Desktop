@@ -138,21 +138,23 @@ yelp
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra subversion
->extra yaourt
+#>extra autoconf
+#>extra automake
+#>extra binutils
+#>extra bison
+#>extra fakeroot
+#>extra flex
+#>extra gcc
+#>extra >multilib gcc-libs-multilib
+#>extra >multilib gcc-multilib
+#>extra libtool
+#>extra m4
+#>extra make
+#>extra patch
+#>extra subversion
+#>extra yaourt
+manjaro-aur-support
+
 
 >openrc accountsservice-elogind
 >openrc upower-nosystemd
