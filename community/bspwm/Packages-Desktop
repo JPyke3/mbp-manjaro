@@ -22,7 +22,7 @@ dunstify
 >extra gnome-disk-utility
 >extra gufw
 >extra gvfs
->extra epiphany
+>extra chromium
 >extra lxappearance-gtk3
 >extra moc
 >extra mpv
