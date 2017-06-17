@@ -26,9 +26,9 @@ gnome-system-log
 gnome-system-monitor
 gnome-terminal
 gnome-screensaver
-gnome-wallpapers
 gnome-screenshot
 gnome-tweak-tool
+>extra gnome-backgrounds
 grilo-plugins
 gucharmap
 mousetweaks
