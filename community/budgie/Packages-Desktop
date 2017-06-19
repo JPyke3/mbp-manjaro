@@ -6,9 +6,9 @@ dmidecode
 hexchat
 gthumb
 lightdm
-lightdm-webkit2-greeter-manjaro
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+lightdm
+lightdm-slick-greeter
+lightdm-settings
 budgie-desktop
 manjaro-budgie-settings
 baobab

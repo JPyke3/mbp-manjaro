@@ -8,8 +8,8 @@ atril
 engrampa
 firefox
 lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+lightdm-slick-greeter
+lightdm-settings
 mate-wallpapers
 manjaro-wallpapers-17.0
 mate-icon-theme
