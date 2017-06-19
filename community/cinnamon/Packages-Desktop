@@ -10,6 +10,7 @@ cinnamon-sounds
 >openrc displaymanager-openrc
 dmidecode
 >extra ffmpegthumbnailer
+>extra ff-theme-util
 >extra firefox
 >extra flattr-icon-theme
 >extra galculator

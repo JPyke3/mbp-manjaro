@@ -6,6 +6,7 @@ avahi
 >extra baobab
 >extra binutils
 >extra bison
+>extra ff-theme-util
 >extra firefox
 >extra dconf-editor
 deepin-calendar
