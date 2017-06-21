@@ -47,7 +47,7 @@ inxi
 >extra libdvdcss
 >extra libgsf
 >extra libreoffice-fresh
-#lightdm-gtk-greeter-settings
+lightdm-settings
 lightdm-slick-greeter
 manjaro-alsa
 manjaro-browser-settings
