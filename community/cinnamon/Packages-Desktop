@@ -31,6 +31,8 @@ gnome-terminal
 >extra gst-plugins-ugly
 >extra gstreamer
 gvfs-afc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
 gvfs-google
 gvfs-gphoto2
 gvfs-mtp
