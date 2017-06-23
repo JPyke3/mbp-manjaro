@@ -9,6 +9,7 @@ cinnamon-sounds
 >extra dconf-editor
 >openrc displaymanager-openrc
 dmidecode
+>openrc elogind-openrc
 >extra ffmpegthumbnailer
 >extra ff-theme-util
 >extra firefox
@@ -71,6 +72,7 @@ manjaro-settings-manager-notifier
 >extra nemo-share
 netctl
 networkmanager-dispatcher-ntpd
+>openrc networkmanager-openrc
 >extra npapi-vlc
 nss-mdns
 ntp
