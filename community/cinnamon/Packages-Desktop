@@ -111,6 +111,7 @@ ttf-indic-otf
 ttf-liberation
 >extra udiskie
 vi
+>extra vlc-nightly
 >extra xcursor-chameleon-pearl-deepin
 xdg-su
 xdg-user-dirs-gtk
