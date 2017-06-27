@@ -98,6 +98,7 @@ powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+>extra simple-scan
 sushi
 >systemd alsa-utils
 >systemd avahi
