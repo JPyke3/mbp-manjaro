@@ -103,7 +103,7 @@ ttf-liberation
 arc-maia-icon-theme
 moka-icon-theme
 arc-themes-maia
-firefox-arc-maia-settings
+#firefox-arc-maia-settings #removed since the upstream not solve issue : https://github.com/horst3180/arc-firefox-theme/issues/123
 manjaro-mate-panel-layout
 vino
 xdg-su
