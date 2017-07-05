@@ -115,7 +115,7 @@ ttf-indic-otf
 ttf-liberation
 arc-maia-icon-theme
 moka-icon-theme
-firefox-arc-maia-settings
+#firefox-arc-maia-settings #disable theming since upstream no adjust the theme
 vino
 xdg-su
 xdg-user-dirs
@@ -152,7 +152,7 @@ yelp
 >extra jre8-openjdk-headless
 >extra flashplugin
 >extra libdvdcss
->extra steam-manjaro
+>extra firefsteam-manjaro
 >extra manjaro-printer
 #AUR complete support ( base devel + yaourt )
 #>extra autoconf
