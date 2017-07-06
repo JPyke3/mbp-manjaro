@@ -6,9 +6,8 @@ dmidecode
 hexchat
 gthumb
 lightdm
-lightdm-webkit2-greeter-manjaro
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+lightdm-slick-greeter
+lightdm-settings
 budgie-desktop
 manjaro-budgie-settings
 baobab
@@ -17,6 +16,7 @@ hexchat
 evince
 gnome-calculator
 gnome-control-center
+gnome-calendar
 gnome-disk-utility
 gnome-font-viewer
 gnome-themes-standard
@@ -26,9 +26,9 @@ gnome-system-log
 gnome-system-monitor
 gnome-terminal
 gnome-screensaver
-gnome-wallpapers
 gnome-screenshot
 gnome-tweak-tool
+>extra gnome-backgrounds
 grilo-plugins
 gucharmap
 mousetweaks
@@ -108,8 +108,9 @@ ttf-indic-otf
 ttf-liberation
 arc-maia-icon-theme
 moka-icon-theme
-arc-themes-maia
-firefox-arc-maia-settings
+#arc-themes-maia
+#firefox-arc-maia-settings
+ff-theme-util
 budgie-wallpapers
 moka-icon-theme
 vino
@@ -165,17 +166,19 @@ yelp
 >extra steam-manjaro
 >extra manjaro-printer
 #AUR complete support ( base devel + yaourt )
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra subversion
->extra yaourt
+#>extra autoconf
+#>extra automake
+#>extra binutils
+#>extra bison
+#>extra fakeroot
+#>extra flex
+#>extra gcc
+#>extra >multilib gcc-libs-multilib
+#>extra >multilib gcc-multilib
+#>extra libtool
+#>extra m4
+#>extra make
+#>extra patch
+#>extra subversion
+#>extra yaourt
+manjaro-aur-support

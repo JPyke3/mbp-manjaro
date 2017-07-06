@@ -9,7 +9,9 @@ cinnamon-sounds
 >extra dconf-editor
 >openrc displaymanager-openrc
 dmidecode
+>openrc elogind-openrc
 >extra ffmpegthumbnailer
+>extra ff-theme-util
 >extra firefox
 >extra flattr-icon-theme
 >extra galculator
@@ -30,6 +32,8 @@ gnome-terminal
 >extra gst-plugins-ugly
 >extra gstreamer
 gvfs-afc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
 gvfs-google
 gvfs-gphoto2
 gvfs-mtp
@@ -44,7 +48,8 @@ inxi
 >extra libdvdcss
 >extra libgsf
 >extra libreoffice-fresh
-lightdm-gtk-greeter-settings
+lightdm-settings
+lightdm-slick-greeter
 manjaro-alsa
 manjaro-browser-settings
 manjaro-cinnamon-settings
@@ -67,6 +72,7 @@ manjaro-settings-manager-notifier
 >extra nemo-share
 netctl
 networkmanager-dispatcher-ntpd
+>openrc networkmanager-openrc
 >extra npapi-vlc
 nss-mdns
 ntp
@@ -105,6 +111,7 @@ ttf-indic-otf
 ttf-liberation
 >extra udiskie
 vi
+>extra vlc-nightly
 >extra xcursor-chameleon-pearl-deepin
 xdg-su
 xdg-user-dirs-gtk

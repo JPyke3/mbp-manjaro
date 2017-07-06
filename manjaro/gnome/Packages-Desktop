@@ -9,6 +9,7 @@ gthumb
 evince
 firefox
 gdm
+#>extra gdm3setup
 #lightdm
 #lightdm-slick-greeter
 gedit
@@ -36,6 +37,14 @@ gnome-user-share
 gnome-wallpapers
 #gnome-screensaver #if use lightdm we need a screensaver 
 #gnome-initial-setup
+>extra gnome-calendar
+>extra bijiben
+>extra gnome-characters
+>extra gnome-clocks
+>extra gnome-weather
+>extra gnome-maps
+>extra gnome-todo
+>extra seahorse
 file-roller
 gparted
 grilo-plugins
@@ -106,7 +115,7 @@ ttf-indic-otf
 ttf-liberation
 arc-maia-icon-theme
 moka-icon-theme
-firefox-arc-maia-settings
+#firefox-arc-maia-settings #disable theming since upstream no adjust the theme
 vino
 xdg-su
 xdg-user-dirs
@@ -124,7 +133,7 @@ xorg-xinit
 yelp
 
 #extra depends for file-roller
-gnome-getting-started-docs
+>extra gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace
@@ -143,21 +152,23 @@ gnome-getting-started-docs
 >extra jre8-openjdk-headless
 >extra flashplugin
 >extra libdvdcss
->extra steam-manjaro
+>extra firefsteam-manjaro
 >extra manjaro-printer
 #AUR complete support ( base devel + yaourt )
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra subversion
->extra yaourt
+#>extra autoconf
+#>extra automake
+#>extra binutils
+#>extra bison
+#>extra fakeroot
+#>extra flex
+#>extra gcc
+#>extra >multilib gcc-libs-multilib
+#>extra >multilib gcc-multilib
+#>extra libtool
+#>extra m4
+#>extra make
+#>extra patch
+#>extra subversion
+#>extra yaourt
+manjaro-aur-support #introduce for testing in community
 

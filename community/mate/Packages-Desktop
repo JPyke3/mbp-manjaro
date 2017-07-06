@@ -8,8 +8,8 @@ atril
 engrampa
 firefox
 lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+lightdm-slick-greeter
+lightdm-settings
 mate-wallpapers
 manjaro-wallpapers-17.0
 mate-icon-theme
@@ -21,6 +21,7 @@ brisk-menu
 mate-notification-theme-slate
 mate-menu
 mate-control-center
+mate-calc
 mate-desktop
 mate-terminal
 mate-utils
@@ -103,7 +104,7 @@ ttf-liberation
 arc-maia-icon-theme
 moka-icon-theme
 arc-themes-maia
-firefox-arc-maia-settings
+#firefox-arc-maia-settings #removed since the upstream not solve issue : https://github.com/horst3180/arc-firefox-theme/issues/123
 manjaro-mate-panel-layout
 vino
 xdg-su
@@ -138,20 +139,23 @@ yelp
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra subversion
->extra yaourt
+#>extra autoconf
+#>extra automake
+#>extra binutils
+#>extra bison
+#>extra fakeroot
+#>extra flex
+#>extra gcc
+#>extra >multilib gcc-libs-multilib
+#>extra >multilib gcc-multilib
+#>extra libtool
+#>extra m4
+#>extra make
+#>extra patch
+#>extra subversion
+#>extra yaourt
+manjaro-aur-support
+
 
 >openrc accountsservice-elogind
 >openrc upower-nosystemd

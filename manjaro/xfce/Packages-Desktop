@@ -57,6 +57,7 @@ bison
 fakeroot
 flex
 gcc
+>multilib gcc-libs-multilib
 >multilib gcc-multilib
 libtool
 m4
@@ -195,12 +196,13 @@ dmidecode # optional dependency inxi
 engrampa
 engrampa-thunar-plugin
 >extra firefox
+>extra ff-theme-util
 # >extra flashplugin
 >extra galculator-gtk2
 >extra gimp
 gparted
 gufw
->extra guayadeque
+>extra audacious
 >extra hexchat
 htop
 qpdfview

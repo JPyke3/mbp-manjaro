@@ -65,6 +65,7 @@ bison
 fakeroot
 flex
 gcc
+>multilib gcc-libs-multilib
 >multilib gcc-multilib
 libtool
 m4
@@ -101,11 +102,6 @@ octopi-notifier-frameworks
 octopi-cachecleaner
 octopi-repoeditor
 
-## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
-
 ## Printing
 >extra cups
 >extra cups-pdf
@@ -117,11 +113,11 @@ octopi-repoeditor
 >extra splix
 
 ## Optional dependencies for hplip
->extra pyqt5-common # For hplip
->extra python-pillow # For hplip
->extra python-pip # For hplip
->extra python-pyqt5  # For hplip gui
->extra python-reportlab # For hplip
+>extra pyqt5-common
+>extra python-pillow
+>extra python-pip
+>extra python-pyqt5
+>extra python-reportlab
 
 ## Display manager
 >systemd sddm
@@ -161,21 +157,18 @@ breeze-gtk
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
->extra gtk-theme-maia
 >extra oxygen
 >extra oxygen-kde4
 >extra oxygen-icons
 plasma5-themes-breath  # Default
->extra plasma5-themes-maia
 sddm-breath-theme  # Default
->extra sddm-maia-theme
 
 ## Better systray/notifications support
 >extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 
 ## KDE Applications
 ark
->extra digikam
+#>extra digikam
 dolphin
 dolphin-plugins
 >extra filelight
@@ -207,11 +200,10 @@ spectacle
 ## Optional dependencies for ark
 p7zip  # 7Z format support
 unrar  # RAR format support
-unzip  # ZIP format support
-zip    # ZIP compression support
 
 ## Optional dependency for digikam
->extra kipi-plugins  # more tools and plugins
+#>extra kipi-plugins  # export to various online services
+#>extra hugin         # panorama tool
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -241,7 +233,7 @@ sshfs  # remote filesystem browser
 >extra dvdauthor        # for creation of DVD
 >extra dvgrab           # for firewire capture
 >extra recordmydesktop  # for screen capture
->extra xine-ui          # for DVD preview
+#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
 >extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
@@ -261,7 +253,6 @@ inxi
 >extra krita
 >extra firefox-kde
 >basic qupzilla
-# >extra flashplugin
 >extra libreoffice-still
 manjaro-hello
 manjaro-settings-manager-kcm
@@ -277,6 +268,10 @@ yakuake
 ## Optional dependencis for cantata
 >extra mpd       # playback
 >extra perl-uri  # dynamic playlist
+
+## Optional dependencies for libreoffice
+>extra jre8-openjdk
+>extra jdk8-openjdk
 
 ## Documentation
 manjaro-documentation
@@ -318,3 +313,8 @@ manjaro-hotfixes
 >openrc accountsservice-elogind
 >openrc upower-nosystemd
 >openrc udisks2-elogind
+
+## Flatpak support
+>extra flatpak
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-kde
