@@ -53,6 +53,7 @@ networkmanager-dispatcher-ntpd
 >openrc displaymanager-openrc
 >openrc networkmanager-openrc
 pacli
+pacui
 perl-file-mimeinfo
 >extra poppler
 ps_mem
@@ -84,6 +85,7 @@ xf86-input-mouse
 xf86-input-void
 xorg-xinit
 xorg-xprop
+xorg-xsetroot
 yaourt
 zathura-pdf-poppler
 zenity
