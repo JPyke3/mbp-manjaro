@@ -234,7 +234,7 @@ unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-manjaro-documentation
+manjaro-documentation-en
 
 ## Settings packages
 >extra manjaro-xfce-settings
@@ -275,4 +275,6 @@ manjaro-hotfixes
 >openrc accountsservice-elogind
 >openrc upower-nosystemd
 >openrc udisks2-elogind
+
+vibrancy-colors
 

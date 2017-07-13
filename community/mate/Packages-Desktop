@@ -120,7 +120,7 @@ xorg-twm
 xorg-xinit
 yelp
 >extra gtk3-print-backends
->extra manjaro-documentation
+>extra manjaro-documentation-en
 >extra mate-themes
 >extra mate-tweak
 >extra libreoffice-fresh
@@ -131,7 +131,6 @@ yelp
 >extra uget
 >extra transmission-gtk
 >extra brasero
->extra manjaro-documentation
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 # >extra flashplugin
