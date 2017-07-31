@@ -119,6 +119,8 @@ xf86-input-void
 xorg-twm
 xorg-xinit
 yelp
+caja-open-terminal
+>extra caja-wallpaper
 >extra gtk3-print-backends
 >extra manjaro-documentation-en
 >extra mate-themes
