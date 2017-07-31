@@ -128,7 +128,7 @@ unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-manjaro-documentation
+manjaro-documentation-en
 
 ## Xorg Input Drivers
 xf86-input-synaptics

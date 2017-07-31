@@ -98,6 +98,7 @@ powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+>extra simple-scan
 sushi
 >systemd alsa-utils
 >systemd avahi
@@ -147,12 +148,12 @@ yelp
 >extra uget
 >extra transmission-gtk
 >extra brasero
->extra manjaro-documentation
+>extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 >extra flashplugin
 >extra libdvdcss
->extra firefsteam-manjaro
+>extra steam-manjaro
 >extra manjaro-printer
 #AUR complete support ( base devel + yaourt )
 #>extra autoconf
