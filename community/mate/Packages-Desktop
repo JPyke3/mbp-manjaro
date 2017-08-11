@@ -119,10 +119,13 @@ xf86-input-void
 xorg-twm
 xorg-xinit
 yelp
+caja-open-terminal
+>extra caja-wallpaper
 >extra gtk3-print-backends
->extra manjaro-documentation
+>extra manjaro-documentation-en
 >extra mate-themes
 >extra mate-tweak
+>extra mate-screensaver
 >extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
@@ -131,7 +134,6 @@ yelp
 >extra uget
 >extra transmission-gtk
 >extra brasero
->extra manjaro-documentation
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 # >extra flashplugin
