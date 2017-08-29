@@ -111,6 +111,7 @@ manjaro-hello
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 engrampa
+gnome-disk-utility
 gparted
 inxi
 dmidecode # optional dependency inxi
@@ -185,6 +186,8 @@ manjaro-hotfixes
 
 ## Extra Themes/Artwork
 >extra manjaro-wallpapers-17.0
+>extra breath-wallpaper
+>extra vertex-maia-themes
 
 ## Extra Cli Applications
 >extra pacui
@@ -199,7 +202,6 @@ manjaro-hotfixes
 ## Extra Applications
 >extra gufw
 >extra guvcview
->extra gnome-disk-utility
 >extra transmission-gtk
 >extra gimp
 >extra libreoffice-fresh
