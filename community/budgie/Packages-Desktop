@@ -10,6 +10,7 @@ lightdm-slick-greeter
 lightdm-settings
 budgie-desktop
 manjaro-budgie-settings
+manjaro-icons
 baobab
 dconf-editor
 hexchat
@@ -111,7 +112,6 @@ moka-icon-theme
 #firefox-arc-maia-settings
 ff-theme-util
 budgie-wallpapers
-moka-icon-theme
 vino
 xdg-su
 xdg-user-dirs-gtk
