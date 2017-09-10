@@ -17,6 +17,7 @@ modemmanager
 >systemd openssh
 >openrc openssh-openrc
 samba
+usb_modeswitch
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
