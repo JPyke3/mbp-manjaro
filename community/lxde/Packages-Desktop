@@ -13,6 +13,7 @@ modemmanager
 >systemd openresolv
 >systemd openssh
 samba
+usb_modeswitch
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
