@@ -25,16 +25,16 @@ gnome-system-log
 gnome-system-monitor
 gnome-terminal
 >extra gparted
+>extra gprename
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra gstreamer
-gvfs-afc
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
-gvfs-google
+gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb

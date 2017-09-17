@@ -114,6 +114,7 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
+>systemd usb_modeswitch
 arc-maia-icon-theme
 moka-icon-theme
 #firefox-arc-maia-settings #disable theming since upstream no adjust the theme

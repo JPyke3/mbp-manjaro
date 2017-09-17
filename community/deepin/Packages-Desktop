@@ -17,7 +17,7 @@ deepin-gtk-theme
 >extra deepin-music
 >extra deepin-screen-recorder
 >extra deepin-screenshot
-#>extra deepin-system-monitor
+>extra deepin-system-monitor
 deepin-terminal
 dmidecode
 >extra downgrade
@@ -34,7 +34,7 @@ gedit
 >extra gimp
 gksu
 >extra gparted
->extra gnome-system-monitor
+#>extra gnome-system-monitor
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
