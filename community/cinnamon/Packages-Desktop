@@ -7,7 +7,6 @@ avahi
 cinnamon-sounds
 >extra cinnamon-wallpapers
 >extra dconf-editor
->openrc displaymanager-openrc
 dmidecode
 >openrc elogind-openrc
 >extra ffmpegthumbnailer
@@ -66,6 +65,7 @@ manjaro-settings-manager-notifier
 >extra mousetweaks
 >extra mugshot
 >multilib lib32-mesa-demos
+>extra nemo-bulk-rename
 >extra nemo-fileroller
 >extra nemo-preview
 >extra nemo-python

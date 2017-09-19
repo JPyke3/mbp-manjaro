@@ -63,6 +63,7 @@ manjaro-hello
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
+>systemd usb_modeswitch
 >multilib lib32-mesa-demos
 netctl
 network-manager-applet

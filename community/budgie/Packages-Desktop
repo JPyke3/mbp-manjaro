@@ -94,6 +94,7 @@ sushi
 >systemd xorg-server
 >systemd alsa-utils
 >systemd avahi
+>systemd usb_modeswitch
 networkmanager
 >systemd ntp
 >systemd openssh

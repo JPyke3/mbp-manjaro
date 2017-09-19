@@ -3,7 +3,6 @@ alsa-firmware
 baobab
 dconf-editor
 dmidecode
-#empathy
 hexchat
 gthumb
 evince
@@ -146,6 +145,7 @@ yelp
 >extra evolution
 >extra lollypop
 >extra empathy
+>extra telepathy-accounts-signon
 >extra uget
 >extra transmission-gtk
 >extra brasero
