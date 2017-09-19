@@ -81,6 +81,7 @@ xf86-input-mouse
 xf86-input-void
 xfce4-notifyd-gtk3
 xlogin
+xorg-xbacklight
 xorg-server
 xorg-xinit
 xorg-xprop
