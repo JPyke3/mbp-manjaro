@@ -25,6 +25,7 @@ feh
 file-roller
 gedit
 gnome-disk-utility
+gtk3-classic
 gufw
 gvfs
 hibernator
@@ -52,7 +53,7 @@ networkmanager
 networkmanager-dispatcher-ntpd
 networkmanager-dmenu
 openresolv
-pacaur
+yaourt
 pacui
 pavucontrol
 perl-file-mimeinfo
