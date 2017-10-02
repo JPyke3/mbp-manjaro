@@ -180,7 +180,7 @@ xfce4-taskmanager
 >extra xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
->systemd pa-applet
+>systemd xfce4-pulseaudio-plugin
 >systemd pavucontrol
 
 ## Themes QT/GTK/SDDM
