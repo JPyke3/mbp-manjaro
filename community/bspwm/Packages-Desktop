@@ -15,6 +15,7 @@ chromium
 clonezilla
 compton
 dash
+dbus-x11
 dconf
 delayed-hibernation
 desktop-file-utils
