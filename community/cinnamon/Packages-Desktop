@@ -72,7 +72,11 @@ manjaro-settings-manager-notifier
 >extra nemo-share
 netctl
 networkmanager-dispatcher-ntpd
+networkmanager-openconnect
 >openrc networkmanager-openrc
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
 >extra npapi-vlc
 nss-mdns
 ntp
