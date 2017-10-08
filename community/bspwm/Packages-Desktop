@@ -53,6 +53,10 @@ ncdu
 networkmanager
 networkmanager-dispatcher-ntpd
 networkmanager-dmenu
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
 openresolv
 pacaur
 pacui
