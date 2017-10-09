@@ -8,7 +8,6 @@ cinnamon-sounds
 >extra cinnamon-wallpapers
 >extra dconf-editor
 dmidecode
->openrc elogind-openrc
 >extra ffmpegthumbnailer
 >extra ff-theme-util
 >extra firefox
@@ -73,7 +72,6 @@ manjaro-settings-manager-notifier
 netctl
 networkmanager-dispatcher-ntpd
 networkmanager-openconnect
->openrc networkmanager-openrc
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
@@ -124,8 +122,7 @@ xed
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-twm
@@ -134,10 +131,5 @@ xorg-xinit
 >extra xreader
 >extra xviewer-plugins
 >extra yaourt
->openrc accountsservice-elogind
->openrc upower-nosystemd
->openrc udisks2-elogind
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
->systemd xdg-user-dirs
->systemd xorg-server
+xdg-user-dirs
+xorg-server

@@ -63,7 +63,7 @@ manjaro-hello
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
->systemd usb_modeswitch
+usb_modeswitch
 >multilib lib32-mesa-demos
 netctl
 network-manager-applet
@@ -74,27 +74,17 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 numlockx
->openrc alsa-utils-openrc
->openrc avahi-openrc
->openrc elogind-openrc
->openrc openrc-settingsd
->openrc displaymanager-openrc
->openrc networkmanager-openrc
->openrc ntp-openrc
->openrc openssh-openrc
->openrc sddm-elogind
->openrc syslog-ng-openrc
 openresolv
 pamac
 powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
->systemd alsa-utils
->systemd avahi
+alsa-utils
+avahi
 networkmanager
->systemd ntp
->systemd openssh
+ntp
+openssh
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu
@@ -114,8 +104,7 @@ xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-twm
@@ -159,11 +148,5 @@ caja-open-terminal
 #>extra yaourt
 manjaro-aur-support
 
-
->openrc accountsservice-elogind
->openrc upower-nosystemd
->openrc udisks2-elogind
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
->systemd xdg-user-dirs
->systemd xorg-server
+xdg-user-dirs
+xorg-server
