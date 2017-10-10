@@ -15,6 +15,7 @@ chromium
 clonezilla
 compton
 dash
+dbus-x11
 dconf
 delayed-hibernation
 desktop-file-utils
@@ -52,6 +53,10 @@ ncdu
 networkmanager
 networkmanager-dispatcher-ntpd
 networkmanager-dmenu
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
 openresolv
 yaourt
 pacui
@@ -82,6 +87,7 @@ xf86-input-mouse
 xf86-input-void
 xfce4-notifyd-gtk3
 xlogin
+xorg-xbacklight
 xorg-server
 xorg-xinit
 xorg-xprop

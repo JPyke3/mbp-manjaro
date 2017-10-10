@@ -1,22 +1,18 @@
 accountsservice
 alsa-firmware
 alsa-plugins
->systemd alsa-utils
->openrc alsa-utils-openrc
+alsa-utils
 arandr
 artwork-i3
 autoconf
 automake
->systemd avahi
+avahi
 binutils
 bison
 blueman
 bmenu
 clipit
->openrc elogind-openrc
->openrc openrc-settingsd
 dfc
->openrc displaymanager-openrc
 dmidecode
 downgrade
 epdfview
@@ -61,7 +57,7 @@ lm_sensors
 lxappearance
 lxinput
 m4
->systemd maia-console
+maia-console
 make
 >multilib manjaro-alsa
 manjaro-browser-settings
@@ -70,6 +66,7 @@ manjaro-hotfixes
 manjaro-i3-settings
 manjaro-printer
 manjaro-settings-manager-notifier
+markdown_previewer
 mesa-demos
 mlocate
 mobile-broadband-provider-info
@@ -80,9 +77,8 @@ mousepad
 >multilib lib32-flex
 >multilib lib32-mesa-demos
 ncdu
->systemd netctl
+netctl
 networkmanager
->openrc networkmanager-openrc
 network-manager-applet
 networkmanager-dispatcher-ntpd
 networkmanager-openconnect
@@ -90,12 +86,10 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
->systemd ntp
->openrc ntp-openrc
+ntp
 open-fuse-iso
->systemd openresolv
->systemd openssh
->openrc openssh-openrc
+openresolv
+openssh
 p7zip
 palemoon-bin
 pamac
@@ -141,8 +135,7 @@ xdotool
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xfburn
@@ -153,10 +146,5 @@ xorg-xkill
 xorg-xprop
 xterm
 yaourt
->openrc accountsservice-elogind
->openrc upower-nosystemd
->openrc udisks2-elogind
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
->systemd xdg-user-dirs
->systemd xorg-server
+xdg-user-dirs
+xorg-server

@@ -3,12 +3,12 @@ alsa-firmware
 baobab
 dconf-editor
 dmidecode
-#empathy
 hexchat
 gthumb
 evince
 firefox
 gdm
+manjaro-gnome-maia-theme
 #>extra gdm3setup
 #lightdm
 #lightdm-slick-greeter
@@ -114,6 +114,7 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
+>systemd usb_modeswitch
 arc-maia-icon-theme
 moka-icon-theme
 #firefox-arc-maia-settings #disable theming since upstream no adjust the theme
@@ -145,6 +146,7 @@ yelp
 >extra evolution
 >extra lollypop
 >extra empathy
+>extra telepathy-accounts-signon
 >extra uget
 >extra transmission-gtk
 >extra brasero

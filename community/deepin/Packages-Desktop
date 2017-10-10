@@ -17,7 +17,7 @@ deepin-gtk-theme
 >extra deepin-music
 >extra deepin-screen-recorder
 >extra deepin-screenshot
-#>extra deepin-system-monitor
+>extra deepin-system-monitor
 deepin-terminal
 dmidecode
 >extra downgrade
@@ -34,7 +34,7 @@ gedit
 >extra gimp
 gksu
 >extra gparted
->extra gnome-system-monitor
+#>extra gnome-system-monitor
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
@@ -109,8 +109,7 @@ xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 >extra xfburn
@@ -119,10 +118,5 @@ xorg-xinit
 >extra xsane
 >extra xsane-gimp
 >extra yaourt
->openrc accountsservice-elogind
->openrc upower-nosystemd
->openrc udisks2-elogind
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
->systemd xdg-user-dirs
->systemd xorg-server
+xdg-user-dirs
+xorg-server
