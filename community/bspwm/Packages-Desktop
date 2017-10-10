@@ -58,7 +58,7 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 openresolv
-yaourt
+pacaur
 pacui
 pavucontrol
 perl-file-mimeinfo
