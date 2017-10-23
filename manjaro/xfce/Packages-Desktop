@@ -202,8 +202,6 @@ gufw
 >extra hexchat
 htop
 qpdfview
->extra qpdfview-djvu-plugin
->extra qpdfview-ps-plugin
 inxi
 >extra libreoffice-still
 manjaro-hello
