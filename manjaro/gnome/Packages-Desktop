@@ -8,11 +8,9 @@ gthumb
 evince
 firefox
 gdm
-manjaro-gnome-maia-theme
-#>extra gdm3setup
-#lightdm
-#lightdm-slick-greeter
-gedit
+manjaro-gnome-maia-theme #branding theme for GDM and Dash to Dock
+gedit 
+gtksourceview-pkgbuild #highlight for PKGBUILD
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
@@ -56,15 +54,17 @@ gst-plugins-ugly
 gucharmap
 gufw
 gvfs-afc
-gvfs #-gphoto2
+gvfs
 gvfs-mtp
 gvfs-google
 gvfs-smb
 inxi
 imagewriter
+#cli tool#
 pacui
 mc
 mhwd-tui
+########
 manjaro-alsa
 manjaro-artwork
 manjaro-wallpapers-17.0
@@ -116,7 +116,7 @@ ttf-indic-otf
 ttf-liberation
 >systemd usb_modeswitch
 arc-maia-icon-theme
-moka-icon-theme
+kvantum-manjaro #support for qt5 theming match with adapta
 #firefox-arc-maia-settings #disable theming since upstream no adjust the theme
 vino
 xdg-su
@@ -142,7 +142,6 @@ yelp
 >extra lrzip
 >extra gtk3-print-backends
 >extra libreoffice-fresh
-#>extra thunderbird
 >extra evolution
 >extra lollypop
 >extra empathy
@@ -157,6 +156,7 @@ yelp
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
+
 #AUR complete support ( base devel + yaourt )
 #>extra autoconf
 #>extra automake
