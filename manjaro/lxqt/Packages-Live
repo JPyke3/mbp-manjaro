@@ -10,8 +10,7 @@ KERNEL-virtualbox-guest-modules
 
 >manjaro grub-theme-live-manjaro
 manjaro-live-skel
->openrc manjaro-live-openrc
->systemd manjaro-live-systemd
+manjaro-live-systemd
 
 mkinitcpio-nfs-utils
 nbd
@@ -22,8 +21,7 @@ virtualbox-guest-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-vmmouse
 xf86-input-void
@@ -41,6 +39,5 @@ xf86-video-voodoo
 
 ## system rescue utilities
 manjaro-tools-base
->systemd gparted
->openrc partitionmanager
+gparted
 imagewriter
