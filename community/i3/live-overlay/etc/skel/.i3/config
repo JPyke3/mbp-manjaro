@@ -362,17 +362,16 @@ bar {
 	strip_workspace_numbers yes
 
 	colors {
-#       background $transparent
         background $i3_background
         statusline $i3_text
         separator  $i3_separator
 
-#                                  border  backgr. text
-        focused_workspace   $i3_color1  $i3_color4  $i3_text
-        active_workspace    $i3_color2  $i3_color3  $i3_color5
-        inactive_workspace  $i3_color2  $i3_color3  $i3_color6
-        binding_mode        $i3_color4  $i3_color4  $i3_text
-        urgent_workspace    $i3_color4  $i3_color5  $i3_color7
+#                            border      backgr.         text
+        focused_workspace    $i3_color1  $i3_color4      $i3_text
+        active_workspace     $i3_color2  $i3_color3      $i3_color5
+        inactive_workspace   $i3_color2  $i3_color3      $i3_color6
+        binding_mode         $i3_color8  $i3_background  $i3_text
+        urgent_workspace     $i3_color4  $i3_color5      $i3_color7
     }
 }
 

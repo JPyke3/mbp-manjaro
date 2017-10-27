@@ -142,6 +142,7 @@ xf86-input-void
 xfburn
 xfce4-power-manager
 xorg-twm
+xorg-xhost
 xorg-xinit
 xorg-xkill
 xorg-xprop

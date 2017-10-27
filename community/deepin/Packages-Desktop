@@ -120,4 +120,5 @@ xorg-xinit
 >extra xsane-gimp
 >extra yaourt
 xdg-user-dirs
+xorg-xhost
 xorg-server

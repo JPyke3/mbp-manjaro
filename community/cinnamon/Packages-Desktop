@@ -133,3 +133,5 @@ xorg-xinit
 >extra yaourt
 xdg-user-dirs
 xorg-server
+xorg-xhost
+xorg-xkill
