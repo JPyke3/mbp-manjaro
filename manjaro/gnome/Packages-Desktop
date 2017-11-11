@@ -19,6 +19,7 @@ gnome-disk-utility
 gnome-font-viewer
 gnome-keyring
 >extra gnome-online-accounts
+>extra gnome-contacts
 gnome-screenshot
 gnome-session
 gnome-settings-daemon
@@ -51,7 +52,6 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-gucharmap
 gufw
 gvfs-afc
 gvfs
