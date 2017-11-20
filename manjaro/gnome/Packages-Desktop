@@ -8,7 +8,8 @@ gthumb
 evince
 firefox
 gdm
-manjaro-gnome-maia-theme #branding theme for GDM and Dash to Dock
+manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
+manjaro-gnome-maia-theme #branding theme for GDM 
 gedit 
 gtksourceview-pkgbuild #highlight for PKGBUILD
 gnome-backgrounds
