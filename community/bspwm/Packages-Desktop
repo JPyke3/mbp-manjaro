@@ -21,6 +21,7 @@ delayed-hibernation
 desktop-file-utils
 dfc
 downgrade
+dunst
 dunstify
 feh
 file-roller
@@ -86,7 +87,6 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xfce4-notifyd-gtk3
 xlogin
 xorg-xbacklight
 xorg-server
