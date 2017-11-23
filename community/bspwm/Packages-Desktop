@@ -27,6 +27,7 @@ file-roller
 gedit
 gnome-disk-utility
 gtk3-classic
+gtk2-compatibility
 gufw
 gvfs
 hibernator
@@ -68,6 +69,8 @@ poppler
 ps_mem
 pulseaudio-ctl
 ranger
+rofi
+rofi-scripts
 rootmenu
 spacefm
 speedtest-cli
