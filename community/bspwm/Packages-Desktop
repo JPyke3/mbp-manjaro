@@ -21,7 +21,6 @@ delayed-hibernation
 desktop-file-utils
 dfc
 downgrade
-dunst
 dunstify
 feh
 file-roller
@@ -45,6 +44,7 @@ manjaro-browser-settings
 manjaro-bspwm-settings
 manjaro-pulse
 manjaro-zsh-config
+mate-notification-daemon
 mhwd-tui
 moc
 morc_menu
