@@ -33,25 +33,6 @@ network-manager-applet
 nss-mdns
 obconf-qt
 openbox
->openrc alsa-utils-openrc
->openrc avahi-openrc
->openrc elogind-openrc
->openrc openrc-settingsd
->openrc cronjobs
->openrc displaymanager-openrc
->openrc networkmanager-openrc
->openrc ntp-openrc
->openrc openssh-openrc
->openrc sddm-elogind
->openrc syslog-ng-openrc
->openrc json-c
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
->openrc accountsservice-elogind
->openrc upower-nosystemd
->openrc udisks2-elogind
->openrc media-player-info-nosystemd
->openrc libpulse-nosystemd
 pcmanfm-qt
 powertop
 qterminal
@@ -60,15 +41,15 @@ octopi
 octopi-notifier-qt5
 qupzilla
 sddm-qt-manjaro-theme
->systemd alsa-utils
->systemd avahi
+alsa-utils
+avahi
 networkmanager
->systemd ntp
->systemd openssh
->systemd sddm
->systemd syslog-ng
->systemd xdg-user-dirs
->systemd xorg-server
+ntp
+openssh
+sddm
+syslog-ng
+xdg-user-dirs
+xorg-server
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu
@@ -76,6 +57,7 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
+usb_modeswitch
 xarchiver
 xdg-su
 xdg-utils

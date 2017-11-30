@@ -10,6 +10,7 @@ lightdm-slick-greeter
 lightdm-settings
 budgie-desktop
 manjaro-budgie-settings
+manjaro-icons
 baobab
 dconf-editor
 hexchat
@@ -27,7 +28,6 @@ gnome-system-monitor
 gnome-terminal
 gnome-screensaver
 gnome-screenshot
-gnome-tweak-tool
 >extra gnome-backgrounds
 grilo-plugins
 gucharmap
@@ -90,13 +90,14 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 sushi
->systemd xdg-user-dirs
->systemd xorg-server
->systemd alsa-utils
->systemd avahi
+xdg-user-dirs
+xorg-server
+alsa-utils
+avahi
+usb_modeswitch
 networkmanager
->systemd ntp
->systemd openssh
+ntp
+openssh
 terminus-font
 totem
 tracker
@@ -112,7 +113,6 @@ moka-icon-theme
 #firefox-arc-maia-settings
 ff-theme-util
 budgie-wallpapers
-moka-icon-theme
 vino
 xdg-su
 xdg-user-dirs-gtk
@@ -120,7 +120,7 @@ xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-twm
@@ -133,24 +133,6 @@ yelp
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->openrc alsa-utils-openrc
->openrc avahi-openrc
->openrc elogind-openrc
->openrc openrc-settingsd
->openrc cronjobs
->openrc displaymanager-openrc
->openrc networkmanager-openrc
->openrc ntp-openrc
->openrc openssh-openrc
->openrc sddm-elogind
->openrc syslog-ng-openrc
->openrc json-c
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
->openrc xf86-input-libinput-nosystemd
->openrc accountsservice-elogind
->openrc upower-nosystemd
->openrc udisks2-elogind
 >extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop

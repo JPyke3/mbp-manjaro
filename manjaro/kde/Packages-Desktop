@@ -1,27 +1,23 @@
 ## Network
->systemd avahi
->openrc avahi-openrc
+avahi
 networkmanager
->openrc networkmanager-openrc
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 networkmanager-dispatcher-ntpd
 nss-mdns # NSS support for mDNS (optdepend for avahi)
->systemd ntp
->openrc ntp-openrc
+ntp
 mobile-broadband-provider-info
 modemmanager
->systemd openresolv
->systemd openssh
->openrc openssh-openrc
+openresolv
+openssh
 samba
+usb_modeswitch
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
->systemd alsa-utils
->openrc alsa-utils-openrc
+alsa-utils
 ffmpeg
 gst-libav
 gst-plugins-bad
@@ -120,8 +116,7 @@ octopi-repoeditor
 >extra python-reportlab
 
 ## Display manager
->systemd sddm
->openrc sddm-elogind
+sddm
 sddm-kcm
 
 ## Plasma5
@@ -260,7 +255,7 @@ manjaro-settings-manager-knotifier
 powertop
 >extra qbittorrent
 screenfetch
->systemd systemd-kcm
+systemd-kcm
 >extra thunderbird-kde
 vlc-nightly
 yakuake
@@ -285,16 +280,13 @@ manjaro-browser-settings
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
->systemd xdg-user-dirs
->systemd xorg-server
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
+xdg-user-dirs
+xorg-server
 xorg-twm
 xorg-xinit
 mesa-demos
@@ -307,12 +299,6 @@ xdg-su
 
 ## Misc
 manjaro-hotfixes
->openrc elogind-openrc
->openrc openrc-settingsd
->openrc displaymanager-openrc
->openrc accountsservice-elogind
->openrc upower-nosystemd
->openrc udisks2-elogind
 
 ## Flatpak support
 >extra flatpak

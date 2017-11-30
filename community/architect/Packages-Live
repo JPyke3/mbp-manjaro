@@ -8,20 +8,15 @@ manjaro-architect-launcher
 manjaro-hotfixes
 mkinitcpio-nfs-utils
 nbd
->openrc elogind-openrc
->openrc openrc-settingsd
->openrc manjaro-live-openrc
->openrc networkmanager-openrc
 open-vm-tools
->systemd manjaro-live-systemd
+manjaro-live-systemd
 networkmanager
 terminus-font
 virtualbox-guest-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-vmmouse
 xf86-input-void

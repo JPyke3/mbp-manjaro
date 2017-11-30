@@ -1,22 +1,23 @@
 ## Network
->systemd avahi
->systemd networkmanager
+avahi
+networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 networkmanager-dispatcher-ntpd
 nss-mdns # NSS support for mDNS (optdepend for avahi)
->systemd ntp
+ntp
 mobile-broadband-provider-info
 modemmanager
->systemd openresolv
->systemd openssh
+openresolv
+openssh
 samba
+usb_modeswitch
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
->systemd alsa-utils
+alsa-utils
 ffmpeg
 gst-libav
 gst-plugins-bad
@@ -25,10 +26,10 @@ gst-plugins-good
 gst-plugins-ugly
 libdvdcss
 >multilib manjaro-alsa
->systemd manjaro-pulse
->systemd pulseaudio-bluetooth
->systemd pulseaudio-ctl
->systemd pulseaudio-zeroconf
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
 
 ## Connect Packages
 android-tools
@@ -100,7 +101,7 @@ gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
 network-manager-applet
->systemd pavucontrol
+pavucontrol
 manjaro-lxde-settings
 gnome-icon-theme
 gnome-themes-standard
@@ -111,6 +112,7 @@ manjaro-hello
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 engrampa
+gnome-disk-utility
 gparted
 inxi
 dmidecode # optional dependency inxi
@@ -188,24 +190,17 @@ manjaro-hotfixes
 
 ## Extra Cli Applications
 >extra pacui
->extra mhwd-tui
 >extra powertop
 >extra htop
 >extra mlocate
 
-## Games
->extra steam-manjaro
-
 ## Extra Applications
 >extra gufw
 >extra guvcview
->extra gnome-disk-utility
 >extra transmission-gtk
 >extra gimp
 >extra libreoffice-fresh
->extra pidgin
 >extra vlc-nightly
 >extra thunderbird
 >extra xfburn
 >extra yelp
->extra menulibre

@@ -7,9 +7,7 @@ avahi
 cinnamon-sounds
 >extra cinnamon-wallpapers
 >extra dconf-editor
->openrc displaymanager-openrc
 dmidecode
->openrc elogind-openrc
 >extra ffmpegthumbnailer
 >extra ff-theme-util
 >extra firefox
@@ -25,16 +23,16 @@ gnome-system-log
 gnome-system-monitor
 gnome-terminal
 >extra gparted
+>extra gprename
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra gstreamer
-gvfs-afc
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
-gvfs-google
+gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
@@ -66,13 +64,17 @@ manjaro-settings-manager-notifier
 >extra mousetweaks
 >extra mugshot
 >multilib lib32-mesa-demos
+>extra nemo-bulk-rename
 >extra nemo-fileroller
 >extra nemo-preview
 >extra nemo-python
 >extra nemo-share
 netctl
 networkmanager-dispatcher-ntpd
->openrc networkmanager-openrc
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
 >extra npapi-vlc
 nss-mdns
 ntp
@@ -120,8 +122,7 @@ xed
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-twm
@@ -130,10 +131,5 @@ xorg-xinit
 >extra xreader
 >extra xviewer-plugins
 >extra yaourt
->openrc accountsservice-elogind
->openrc upower-nosystemd
->openrc udisks2-elogind
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
->systemd xdg-user-dirs
->systemd xorg-server
+xdg-user-dirs
+xorg-server
