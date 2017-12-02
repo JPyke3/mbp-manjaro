@@ -246,7 +246,7 @@ imagewriter
 >extra inkscape
 inxi
 >extra krita
->extra firefox-kde
+>extra firefox
 >basic qupzilla
 >extra libreoffice-still
 manjaro-hello
@@ -256,7 +256,7 @@ powertop
 >extra qbittorrent
 screenfetch
 systemd-kcm
->extra thunderbird-kde
+>extra thunderbird
 vlc-nightly
 yakuake
 
