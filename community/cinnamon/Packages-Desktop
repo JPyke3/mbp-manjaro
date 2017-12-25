@@ -10,7 +10,6 @@ cinnamon-sounds
 >extra dconf-editor
 dmidecode
 >extra ffmpegthumbnailer
->extra ff-theme-util
 >extra firefox
 >extra galculator
 >extra gcolor2
