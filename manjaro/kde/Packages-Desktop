@@ -174,7 +174,7 @@ kcalc
 kfind
 kdeconnect
 okular
->extra kdenetwork-kget
+>extra kget
 kdenetwork-filesharing
 >extra kdenlive
 kde-servicemenus-rootactions
