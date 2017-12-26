@@ -55,7 +55,7 @@ gvfs-smb
 inxi
 imagewriter
 mc # Midnight Commander
-pacui
+#pacui
 mhwd-tui
 manjaro-alsa
 manjaro-artwork

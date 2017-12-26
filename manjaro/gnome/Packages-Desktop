@@ -62,7 +62,7 @@ gvfs-smb
 inxi
 imagewriter
 #cli tool#
-pacui
+#pacui
 mc
 mhwd-tui
 ########
