@@ -6,7 +6,8 @@ dmidecode
 hexchat
 gthumb
 evince
-firefox
+epiphany
+>extra firefox
 gdm
 manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
 manjaro-gnome-maia-theme #branding theme for GDM 
