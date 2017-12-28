@@ -3,5 +3,6 @@
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
-export QT_QPA_PLATFORMTHEME="qt5ct"
-export EDITOR=/usr/bin/nano
+
+QT_QPA_PLATFORMTHEME="qt5ct"
+EDITOR=/usr/bin/nano
