@@ -6,7 +6,7 @@ dmidecode
 hexchat
 gthumb
 evince
-epiphany
+>basic epiphany
 >extra firefox
 gdm
 manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
@@ -135,6 +135,8 @@ xorg-server
 xorg-twm
 xorg-xinit
 yelp
+
+ms-office-online
 
 #extra depends for file-roller
 >extra gnome-getting-started-docs
