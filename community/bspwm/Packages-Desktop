@@ -27,6 +27,7 @@ file-roller
 gedit
 gnome-disk-utility
 gtk3-classic
+gtk2-compatibility
 gufw
 gvfs
 hibernator
@@ -40,9 +41,11 @@ limepanel
 lxappearance-gtk3
 maia-console
 manjaro-architect
+manjaro-browser-settings
 manjaro-bspwm-settings
 manjaro-pulse
 manjaro-zsh-config
+mate-notification-daemon
 mhwd-tui
 moc
 morc_menu
@@ -67,6 +70,7 @@ ps_mem
 pulseaudio-ctl
 ranger
 rofi
+rofi-scripts
 rootmenu
 spacefm
 speedtest-cli
@@ -87,7 +91,6 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xfce4-notifyd-gtk3
 xlogin
 xorg-xbacklight
 xorg-server

@@ -9,12 +9,14 @@ avahi
 >extra firefox
 >extra dconf-editor
 deepin-calendar
+>extra deepin-calculator
 deepin-file-manager
 deepin-gtk-theme
 >extra deepin-help
 >extra deepin-image-viewer
 >extra deepin-movie
 >extra deepin-music
+>extra deepin-picker
 >extra deepin-screen-recorder
 >extra deepin-screenshot
 >extra deepin-system-monitor
@@ -119,4 +121,5 @@ xorg-xinit
 >extra xsane-gimp
 >extra yaourt
 xdg-user-dirs
+xorg-xhost
 xorg-server

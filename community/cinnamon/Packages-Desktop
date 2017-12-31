@@ -1,3 +1,4 @@
+adapta-maia-theme
 alsa-firmware
 alsa-utils
 avahi
@@ -9,9 +10,7 @@ cinnamon-sounds
 >extra dconf-editor
 dmidecode
 >extra ffmpegthumbnailer
->extra ff-theme-util
 >extra firefox
->extra flattr-icon-theme
 >extra galculator
 >extra gcolor2
 >extra gimp
@@ -22,6 +21,7 @@ gnome-keyring
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
+gnome-themes-standard
 >extra gparted
 >extra gprename
 >extra gst-libav
@@ -133,3 +133,5 @@ xorg-xinit
 >extra yaourt
 xdg-user-dirs
 xorg-server
+xorg-xhost
+xorg-xkill

@@ -192,7 +192,6 @@ dmidecode # optional dependency inxi
 engrampa
 engrampa-thunar-plugin
 >extra firefox
->extra ff-theme-util
 # >extra flashplugin
 >extra galculator-gtk2
 >extra gimp
@@ -202,10 +201,9 @@ gufw
 >extra hexchat
 htop
 qpdfview
->extra qpdfview-djvu-plugin
->extra qpdfview-ps-plugin
 inxi
 >extra libreoffice-still
+ms-office-online
 manjaro-hello
 manjaro-settings-manager
 manjaro-settings-manager-notifier

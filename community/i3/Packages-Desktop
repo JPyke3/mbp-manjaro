@@ -17,7 +17,6 @@ dmidecode
 downgrade
 epdfview
 fakeroot
-ff-theme-util
 ffmpeg
 ffmpegthumbnailer
 flac
@@ -38,6 +37,7 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
+gtksourceview-pkgbuild
 gufw
 gvfs
 gvfs-afc
@@ -141,6 +141,7 @@ xf86-input-void
 xfburn
 xfce4-power-manager
 xorg-twm
+xorg-xhost
 xorg-xinit
 xorg-xkill
 xorg-xprop

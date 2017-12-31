@@ -73,7 +73,7 @@ pkg-config
 >extra git
 >extra patchutils
 >extra subversion
-yaourt
+#yaourt
 
 ## Fonts
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
@@ -174,13 +174,13 @@ kcalc
 kfind
 kdeconnect
 okular
->extra kdenetwork-kget
+>extra kget
 kdenetwork-filesharing
->extra kdenlive
+#>extra kdenlive
 kde-servicemenus-rootactions
 khelpcenter
 kio-extras
->extra kleopatra
+#>extra kleopatra
 konsole
 konversation
 ksystemlog
@@ -224,12 +224,12 @@ kaccounts-providers
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
->extra cdrtools         # for creation of DVD ISO images
->extra dvdauthor        # for creation of DVD
->extra dvgrab           # for firewire capture
->extra recordmydesktop  # for screen capture
+#>extra cdrtools         # for creation of DVD ISO images
+#>extra dvdauthor        # for creation of DVD
+#>extra dvgrab           # for firewire capture
+#>extra recordmydesktop  # for screen capture
 #>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
->extra movit            # for GPU video processing
+#>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
@@ -246,8 +246,9 @@ imagewriter
 >extra inkscape
 inxi
 >extra krita
->extra firefox-kde
+>extra firefox
 >basic qupzilla
+ms-office-online
 >extra libreoffice-still
 manjaro-hello
 manjaro-settings-manager-kcm
@@ -256,7 +257,7 @@ powertop
 >extra qbittorrent
 screenfetch
 systemd-kcm
->extra thunderbird-kde
+>extra thunderbird
 vlc-nightly
 yakuake
 
