@@ -6,13 +6,13 @@ dmidecode
 hexchat
 gthumb
 evince
-firefox
+>basic epiphany
+>extra firefox
 gdm
-manjaro-gnome-maia-theme
-#>extra gdm3setup
-#lightdm
-#lightdm-slick-greeter
-gedit
+manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
+manjaro-gnome-maia-theme #branding theme for GDM 
+gedit 
+gtksourceview-pkgbuild #highlight for PKGBUILD
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
@@ -21,6 +21,7 @@ gnome-disk-utility
 gnome-font-viewer
 gnome-keyring
 >extra gnome-online-accounts
+>extra gnome-contacts
 gnome-screenshot
 gnome-session
 gnome-settings-daemon
@@ -53,18 +54,19 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-gucharmap
 gufw
 gvfs-afc
-gvfs #-gphoto2
+gvfs
 gvfs-mtp
 gvfs-google
 gvfs-smb
 inxi
 imagewriter
-pacui
+#cli tool#
+#pacui
 mc
 mhwd-tui
+########
 manjaro-alsa
 manjaro-artwork
 manjaro-wallpapers-17.0
@@ -116,7 +118,7 @@ ttf-indic-otf
 ttf-liberation
 >systemd usb_modeswitch
 arc-maia-icon-theme
-moka-icon-theme
+kvantum-manjaro #support for qt5 theming match with adapta
 #firefox-arc-maia-settings #disable theming since upstream no adjust the theme
 vino
 xdg-su
@@ -134,6 +136,8 @@ xorg-twm
 xorg-xinit
 yelp
 
+ms-office-online
+
 #extra depends for file-roller
 >extra gnome-getting-started-docs
 >extra p7zip
@@ -142,7 +146,6 @@ yelp
 >extra lrzip
 >extra gtk3-print-backends
 >extra libreoffice-fresh
-#>extra thunderbird
 >extra evolution
 >extra lollypop
 >extra empathy
@@ -153,10 +156,11 @@ yelp
 >extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
->extra flashplugin
+#>extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
+
 #AUR complete support ( base devel + yaourt )
 #>extra autoconf
 #>extra automake

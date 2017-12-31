@@ -5,6 +5,5 @@ manjaro-architect-launcher
 mkinitcpio-nfs-utils
 nbd
 grub-theme-live-manjaro
->openrc manjaro-live-openrc
 squashfs-tools
->systemd manjaro-live-systemd
+manjaro-live-systemd

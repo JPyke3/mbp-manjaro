@@ -35,7 +35,7 @@ gnome-disk-utility
 gnome-keyring
 manjaro-mate-settings
 mc # Midnight Commander
-pacui
+#pacui
 mhwd-tui
 gparted
 grilo-plugins
