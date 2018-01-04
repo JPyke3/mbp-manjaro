@@ -1,3 +1,4 @@
+dbus-x11
 adwaita-maia-gtk3
 alsa-firmware
 alsa-plugins
@@ -28,6 +29,7 @@ gedit
 gnome-disk-utility
 gtk3-classic
 gtk2-compatibility
+gtk-theme-breath
 gufw
 gvfs
 hibernator
@@ -81,6 +83,7 @@ terminus-font
 thermald
 tree
 udevil
+w3m
 xcursor-breeze
 xdg-su
 xdg-user-dirs
