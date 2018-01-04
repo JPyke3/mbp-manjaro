@@ -1,4 +1,3 @@
-dbus-x11
 adwaita-maia-gtk3
 alsa-firmware
 alsa-plugins
@@ -43,7 +42,7 @@ limepanel
 lxappearance-gtk3
 maia-console
 manjaro-architect
-manjaro-browser-settings
+manjaro-browser-settings-native
 manjaro-bspwm-settings
 manjaro-pulse
 manjaro-zsh-config
