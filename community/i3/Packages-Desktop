@@ -37,6 +37,7 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
+gtk3-classic
 gtksourceview-pkgbuild
 gufw
 gvfs
