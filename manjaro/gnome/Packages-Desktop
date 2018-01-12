@@ -160,6 +160,7 @@ ms-office-online
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
+>extra blueman
 
 #AUR complete support ( base devel + yaourt )
 #>extra autoconf
