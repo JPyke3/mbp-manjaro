@@ -54,7 +54,8 @@ kvantum-manjaro
 libdvdcss
 libgpod
 libtool
-lightdm-gtk-greeter-settings
+lightdm-settings
+lightdm-slick-greeter
 lm_sensors
 lxappearance
 lxinput
