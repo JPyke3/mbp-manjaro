@@ -1,0 +1,233 @@
+## Network
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+networkmanager-dispatcher-ntpd
+ntp
+mobile-broadband-provider-info
+modemmanager
+openresolv
+openssh
+samba
+manjaro-settings-samba
+usb_modeswitch
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+ffmpeg
+grilo-plugins
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libdvdcss
+>multilib manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Connect Packages
+kdeconnect
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+#gvfs-nfs
+gvfs-smb
+#gvfs-google
+mtpfs
+udiskie
+udisks2
+
+## AUR Support/Development
+# Missing base-devel packages
+#autoconf
+#automake
+#binutils
+#bison
+#fakeroot
+#flex
+#gcc
+#>multilib gcc-libs-multilib
+#>multilib gcc-multilib
+#libtool
+#m4
+#make
+#patch
+#pkg-config
+#>multilib lib32-flex
+
+# Extra packages for AUR support
+#>extra git
+#>extra patchutils
+#extra subversion
+
+## Fonts
+noto-fonts
+ttf-roboto
+
+## Games
+>extra steam-manjaro # needed for the workspaces
+pingus
+gnome-mahjongg
+aisleriot
+
+## Package management
+pamac
+
+## Java
+#>extra jdk8-openjdk
+#>extra jre8-openjdk-headless
+#>extra jre8-openjdk
+
+## Printing
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra splix
+>extra manjaro-printer
+
+## Optional dependencies for hplip
+>extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
+>extra python-pyqt5  # For hplip gui
+>extra python-reportlab # For hplip
+
+## Display manager
+lightdm
+lightdm-slick-greeter
+accountsservice  # Enhanced user accounts handling
+
+# bluetooth
+bluez-cups
+bluez-firmware
+bluez-hid2hci
+bluez-plugins
+
+# improve responsiveness 
+preload
+irqbalance
+tracker
+
+# WebDad desktop
+manjaro-webdad-settings
+webdad-speech
+webdad-webapps
+jade-dashboard
+cairo-dock
+jwm
+compton
+hyper
+cairo-dock-plug-ins
+zeitgeist            # needed for cairo-dock events
+pa-applet
+blueman
+dunst
+dex
+feh
+polkit-gnome
+manjaro-hello
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+network-manager-applet
+pavucontrol
+gnome-keyring      # fix wlan segfault
+nautilus
+nautilus-empty-file
+nautilus-sendto
+nautilus-share
+nautilus-admin
+#seahorse
+#seahorse-nautilus
+sushi
+file-roller
+timeshift
+
+## Themes QT/GTK/SDDM
+paper-icon-theme-git
+xcursor-breeze
+
+## Applications
+kodi      # needed for the workspaces
+lxrandr-gtk3
+gthumb
+>extra simple-scan
+imagewriter
+dmidecode # optional dependency inxi
+gedit
+nano
+chromium
+gparted
+geary
+gufw
+#>extra hexchat
+evince
+inxi
+>extra libreoffice-fresh
+>extra vlc-nightly
+ms-office-online
+riot-desktop
+atom
+
+# Compression
+p7zip  # 7Z and ARJ archive support
+unace  # ACE archive support
+unrar  # RAR archive support
+>extra lrzip
+
+## Documentation
+manjaro-documentation-en
+
+## Settings packages
+manjaro-browser-settings-native
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xf86-input-wacom
+xf86-input-synaptics
+
+## Xorg Server and Graphics
+xdg-user-dirs
+xorg-server
+xorg-xinit
+xorg-xkill
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+xdg-su
+
+## Misc
+manjaro-hotfixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

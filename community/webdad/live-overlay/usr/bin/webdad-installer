@@ -1,0 +1,49 @@
+#!/bin/bash
+
+notify-send -i /usr/share/icons/hicolor/scalable/apps/calamares.svg "Loading Installer and disabling running software during installation." &
+
+if pgrep -x "steam" > /dev/null; 
+then     pkill steam; 
+fi &
+
+if pgrep -x "kodi" > /dev/null; 
+then     pkill kodi; 
+fi &
+
+if pgrep -x "$JADE_BROWSER" > /dev/null; 
+then     pkill $JADE_BROWSER; 
+fi &
+
+if pgrep -x "$JADE_TERMINAL" > /dev/null; 
+then     pkill $JADE_TERMINAL; 
+fi &
+
+if pgrep -x "pa-applet" > /dev/null; 
+then     pkill pa-applet; 
+fi &
+
+if pgrep -x "kdeconnect-indicator" > /dev/null; 
+then     pkill kdeconnect-indicator; 
+fi &
+
+if pgrep -x "jade-dashboard" > /dev/null; 
+then     pkill jade-dashboard; 
+fi &
+
+if pgrep -x "cairo-dock" > /dev/null; 
+then     pkill cairo-dock; 
+fi &
+
+if pgrep -x "msm_notifier" > /dev/null; 
+then     pkill msm_notifier; 
+fi &
+
+if pgrep -x "blueman-applet" > /dev/null; 
+then     pkill cairo-dock; 
+fi &
+
+if pgrep -x "pamac-tray" > /dev/null; 
+then     pkill pamac-tray; 
+fi &
+
+calamares_polkit %f
