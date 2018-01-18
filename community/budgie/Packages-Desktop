@@ -142,6 +142,8 @@ yelp
 >extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
+>extra timeshift
+>extra kernel-alive
 # >extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
