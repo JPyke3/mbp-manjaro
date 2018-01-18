@@ -92,6 +92,7 @@ polkit-gnome
 >extra pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+>extra redshift
 screenfetch
 >extra sushi
 syslog-ng
