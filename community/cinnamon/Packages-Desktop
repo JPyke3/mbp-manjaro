@@ -1,19 +1,28 @@
 adapta-maia-theme
 alsa-firmware
 alsa-utils
+autoconf
+automake
 avahi
 >extra baobab
->extra base-devel
+binutils
+bison
 >extra blueberry
 cinnamon-sounds
 >extra cinnamon-wallpapers
 >extra dconf-editor
 dmidecode
+fakeroot
 >extra ffmpegthumbnailer
 >extra firefox
+flex
 >extra galculator
+gcc
+>multilib gcc-libs-multilib
+>multilib gcc-multilib
 >extra gcolor2
 >extra gimp
+>extra git
 gksu
 >extra gnome-disk-utility
 gnome-keyring
@@ -30,8 +39,6 @@ gnome-themes-standard
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra gstreamer
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
@@ -43,11 +50,15 @@ inxi
 >extra isousb
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
+>multilib lib32-flex
+libtool
 >extra libdvdcss
 >extra libgsf
 >extra libreoffice-fresh
 lightdm-settings
 lightdm-slick-greeter
+m4
+make
 manjaro-alsa
 manjaro-browser-settings
 manjaro-cinnamon-settings
@@ -75,7 +86,6 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
->extra npapi-vlc
 nss-mdns
 ntp
 numlockx
@@ -85,9 +95,12 @@ openssh
 >extra p7zip
 pamac
 >extra parcellite
+patch
+>extra patchutils
 pavucontrol
 >extra pidgin-libnotify
 >extra pix
+pkg-config
 >extra poppler-data
 >extra powertop
 >extra pragha
@@ -100,6 +113,7 @@ python-ptyprocess
 qt5ct
 qt5-styleplugins
 screenfetch
+>extra subversion
 >extra system-config-printer
 terminus-font
 >extra thunderbird
