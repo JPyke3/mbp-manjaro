@@ -27,6 +27,7 @@ gcc
 gcolor2
 gconf
 gimp
+git
 gksu
 gnome-keyring
 gparted
@@ -51,6 +52,7 @@ inxi
 isousb
 json-c
 kvantum-manjaro
+>multilib lib32-flex
 libdvdcss
 libgpod
 libtool
@@ -97,6 +99,7 @@ p7zip
 palemoon-bin
 pamac
 patch
+patchutils
 pcmanfm
 perl-file-mimeinfo
 pkg-config
@@ -109,6 +112,7 @@ ranger
 sbxkb
 screenfetch
 speedtest-cli
+subversion
 syslog-ng
 terminus-font
 transmission-gtk
