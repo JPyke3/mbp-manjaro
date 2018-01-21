@@ -29,6 +29,7 @@ gnome-disk-utility
 gtk3-classic
 gtk2-compatibility
 gtk-theme-breath
+grub-theme-manjaro-dev
 gufw
 gvfs
 hibernator
@@ -101,6 +102,5 @@ xorg-xinit
 xorg-xprop
 xorg-xsetroot
 zathura-pdf-poppler
-zenity
 zensu
 zsh-completions
