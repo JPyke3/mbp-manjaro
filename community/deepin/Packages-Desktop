@@ -6,6 +6,7 @@ avahi
 >extra baobab
 binutils
 bison
+>extra brasero
 fakeroot
 >extra firefox
 flex
@@ -119,7 +120,6 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
->extra xfburn
 xorg-twm
 xorg-xinit
 >extra xsane
