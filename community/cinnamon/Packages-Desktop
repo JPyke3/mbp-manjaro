@@ -50,6 +50,7 @@ inxi
 >extra isousb
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
+kvantum-manjaro
 >multilib lib32-flex
 libtool
 >extra libdvdcss
@@ -126,6 +127,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 >extra udiskie
+>extra vertex-maia-themes
 vi
 >extra vlc-nightly
 >extra xcursor-chameleon-pearl-deepin
