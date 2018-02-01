@@ -41,6 +41,7 @@ libdnet
 libnotify
 limepanel
 lxappearance-gtk3
+lxsession-gtk3
 maia-console
 manjaro-architect
 manjaro-browser-settings-native
@@ -55,6 +56,7 @@ mpv
 >multilib manjaro-alsa
 mygtkmenui
 ncdu
+nerd-fonts-terminus
 networkmanager
 networkmanager-dispatcher-ntpd
 networkmanager-dmenu
