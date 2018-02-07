@@ -82,6 +82,7 @@ mousepad
 >multilib lib32-flex
 >multilib lib32-mesa-demos
 ncdu
+nerd-fonts-terminus
 netctl
 networkmanager
 network-manager-applet
