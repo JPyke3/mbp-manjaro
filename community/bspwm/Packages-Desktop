@@ -1,4 +1,4 @@
-adwaita-maia-gtk3
+>extra adwaita-maia-gtk3
 alsa-firmware
 alsa-plugins
 alsa-utils
@@ -11,63 +11,68 @@ bspwm-manjaro
 bspwm-ruler
 bspwm-scripts
 bspwm-wallpapers
-chromium
+>extra chromium
+>basic elinks
 clonezilla
-compton
+>extra compton
 dash
 dbus-x11
-dconf
+>extra dconf
 delayed-hibernation
 desktop-file-utils
 dfc
 downgrade
 dunstify
 feh
-file-roller
-gedit
-gnome-disk-utility
-gtk3-classic
-gtk2-compatibility
+>extra file-roller
+>extra gedit
+>basic micro-manjaro
+>extra gnome-disk-utility
+>extra gtk3-classic
+>extra gtk2-compatibility
 gtk-theme-breath
 grub-theme-manjaro-dev
-ufw
-gvfs
+>extra gufw
+>basic ufw
+>extra gvfs
 hibernator
 htop
-i3lock
+>extra i3lock
 inxi
-lemonpanel
 libdnet
 libnotify
 limepanel
-lxappearance-gtk3
+>extra lxappearance-gtk3
 lxsession-gtk3
 maia-console
 manjaro-architect
-manjaro-browser-settings-native
-manjaro-bspwm-settings
-manjaro-pulse
+>extra manjaro-browser-settings-native
+>extra manjaro-bspwm-settings
+>basic manajro-bspwm-settings-minimal
+>extra manjaro-pulse
+>basic manjaro-alsa
 manjaro-zsh-config
-mate-notification-daemon
+>extra mate-notification-daemon
+>basic dunst
 mhwd-tui
 moc
-morc_menu
+>extra morc_menu
 mpv
 >multilib manjaro-alsa
 mygtkmenui
 ncdu
 nerd-fonts-terminus
 networkmanager
-networkmanager-dispatcher-ntpd
+>extra networkmanager-dispatcher-ntpd
 networkmanager-dmenu
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 openresolv
-pacaur
+yay
 pacui
-pavucontrol
+>extra pavucontrol
 perl-file-mimeinfo
 poppler
 ps_mem
@@ -76,9 +81,8 @@ ranger
 rofi
 rofi-scripts
 rootmenu
-spacefm
+>extra spacefm
 speedtest-cli
-st-manjaro
 sterminal
 sxhkd
 terminus-font
