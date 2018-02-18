@@ -48,7 +48,7 @@ maia-console
 manjaro-architect
 >extra manjaro-browser-settings-native
 >extra manjaro-bspwm-settings
->basic manjro-bspwm-settings-minimal
+>basic manjaro-bspwm-settings-minimal
 >extra manjaro-pulse
 >basic manjaro-alsa
 manjaro-zsh-config
@@ -107,6 +107,6 @@ xorg-server
 xorg-xinit
 xorg-xprop
 xorg-xsetroot
-zathura-pdf-poppler
+>extra zathura-pdf-poppler
 zensu
 zsh-completions
