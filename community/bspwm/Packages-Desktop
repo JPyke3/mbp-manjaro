@@ -12,7 +12,7 @@ bspwm-ruler
 bspwm-scripts
 bspwm-wallpapers
 >extra chromium
->basic elinks
+>basic links
 clonezilla
 >extra compton
 dash
@@ -43,7 +43,7 @@ libdnet
 libnotify
 limepanel
 >extra lxappearance-gtk3
-lxsession-gtk3
+>extra lxsession-gtk3
 maia-console
 manjaro-architect
 >extra manjaro-browser-settings-native
@@ -59,7 +59,7 @@ moc
 >extra morc_menu
 mpv
 >multilib manjaro-alsa
-mygtkmenui
+>extra mygtkmenui
 ncdu
 nerd-fonts-terminus
 networkmanager
