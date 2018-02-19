@@ -1,0 +1,139 @@
+# Applications
+eom
+vlc-nightly
+transmission-gtk
+thunar-gtk3
+thunar-archive-plugin-gtk3
+thunar-media-tags-plugin
+thunar-shares-plugin-manjaro
+thunar-volman-gtk3
+mousepad
+sterminal
+pavucontrol
+chromium
+gnome-disk-utility
+gufw
+>extra libreoffice-fresh
+>extra gparted
+>extra gimp
+
+# Desktop
+alsa-firmware
+alsa-plugins
+alsa-utils
+bspwm-manjaro
+bspwm-ruler
+bspwm-scripts
+bspwm-wallpapers
+compton
+compton-conf
+dbus-x11
+dunstify
+desktop-file-utils
+feh
+gnome-keyring
+gksu
+gtk3-classic
+gvfs
+light
+lightdm-slick-greeter
+light-locker
+lightdm-settings
+manjaro-hello
+manjaro-settings-manager
+mate-control-center
+mate-tweak
+manjaro-mate-panel-layout
+mate-polkit
+mate-applets
+mate-notification-daemon
+mate-session-manager
+mate-power-manager
+mate-netbook
+mate-menus
+manjaro-bspwm-mate-settings
+manjaro-browser-settings-native
+mygtkmenui
+mozo
+network-manager-applet
+pa-applet
+pamac
+pulseaudio-ctl
+rofi-scripts
+rootmenu
+sxhkd
+terminus-font
+thermald
+xcape
+xdg-su
+xdg-user-dirs
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xorg-server
+xorg-xinit
+xorg-xprop
+xorg-xsetroot
+xdg-user-dirs-gtk
+
+
+# Terminal
+dash
+atool
+bc
+bmenu
+brandr
+links
+clonezilla
+dconf
+delayed-hibernation
+dfc
+downgrade
+hibernator
+htop
+inxi
+libdnet
+limepanel
+maia-console
+manjaro-architect
+manjaro-zsh-config
+moc
+ncdu
+nerd-fonts-terminus
+yay
+pacui
+perl-file-mimeinfo
+poppler
+ps_mem
+ranger
+speedtest-cli
+tree
+w3m
+
+# Printing, drivers and networking
+>extra manjaro-printer
+>extra gtk3-print-backends
+>extra avahi
+>extra manjaro-settings-samba
+>extra blueman
+networkmanager
+networkmanager-dispatcher-ntpd
+networkmanager-dmenu
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+openresolv
+manjaro-pulse
+
+# Themes
+xcursor-breeze
+adwaita-maia-gtk3
+breeze-maia-icon-themes
+gtk-theme-breath
+kvantum-manjaro
+qt5ct

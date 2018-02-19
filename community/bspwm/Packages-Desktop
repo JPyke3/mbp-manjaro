@@ -76,7 +76,7 @@ pacui
 perl-file-mimeinfo
 poppler
 ps_mem
-pulseaudio-ctl
+>extra pulseaudio-ctl
 ranger
 rofi
 rofi-scripts
