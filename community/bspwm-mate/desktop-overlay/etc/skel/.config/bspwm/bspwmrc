@@ -51,6 +51,7 @@ bspc rule -a gcolor2 state=floating center=true
 bspc rule -a lxappearance state=floating center=true
 bspc rule -a gmrun state=floating center=true
 bspc rule -a lxterminal state=floating center=true sticky=true
+bspc rule -a manjaro-hello state=floating center=true
 #bspc rule -a urxvt state=floating center=true
 bspc rule -a viewnior state=floating center=true
 bspc rule -a file-roller state=floating center=true
