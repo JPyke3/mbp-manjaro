@@ -16,7 +16,8 @@ gufw
 >extra libreoffice-fresh
 >extra gparted
 >extra gimp
-
+>extra thunderbird
+xreader
 # Desktop
 alsa-firmware
 alsa-plugins
