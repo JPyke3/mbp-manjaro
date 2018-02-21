@@ -1,23 +1,31 @@
 # Applications
-eom
+#thunar-gtk3
+#thunar-archive-plugin-gtk3
+#thunar-media-tags-plugin
+#thunar-shares-plugin-manjaro
+#thunar-volman-gtk3
+#tumbler
+#ffmpegthumbnailer
+#mousepad
+#xreader
+#eom
+eog
+evince
+nautilus-typeahead
+gedit
+gedit-plugins
+gedit-code-assistance
+gnome-disk-utility
 vlc-nightly
 transmission-gtk
-thunar-gtk3
-thunar-archive-plugin-gtk3
-thunar-media-tags-plugin
-thunar-shares-plugin-manjaro
-thunar-volman-gtk3
-mousepad
 sterminal
 pavucontrol
 chromium
-gnome-disk-utility
 gufw
 >extra libreoffice-fresh
 >extra gparted
 >extra gimp
 >extra thunderbird
-xreader
 # Desktop
 alsa-firmware
 alsa-plugins
@@ -66,8 +74,6 @@ rootmenu
 sxhkd
 terminus-font
 thermald
-tumbler
-ffmpegthumbnailer
 xcape
 xdg-su
 xdg-user-dirs
