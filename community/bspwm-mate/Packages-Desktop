@@ -22,6 +22,7 @@ sterminal
 pavucontrol
 chromium
 gufw
+gnome-screenshot
 >extra libreoffice-fresh
 >extra gparted
 >extra gimp
@@ -39,15 +40,27 @@ compton-conf
 dbus-x11
 dunstify
 desktop-file-utils
+dconf-editor
 feh
 gnome-keyring
 gksu
 gtk3-classic
+android-tools
+android-udev
 gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
 light
 lightdm-slick-greeter
 light-locker
 lightdm-settings
+accountsservice
 libgsf
 manjaro-hello
 manjaro-settings-manager
@@ -74,6 +87,7 @@ rootmenu
 sxhkd
 terminus-font
 thermald
+volnoti
 xcape
 xdg-su
 xdg-user-dirs
@@ -125,7 +139,14 @@ tree
 w3m
 
 # Printing, drivers and networking
->extra manjaro-printer
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra splix
 >extra gtk3-print-backends
 >extra avahi
 >extra manjaro-settings-samba
