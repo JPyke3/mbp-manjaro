@@ -102,7 +102,7 @@ xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xlogin
-xorg-xbacklight
+light
 xorg-server
 xorg-xinit
 xorg-xprop
