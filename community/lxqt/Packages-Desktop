@@ -43,7 +43,6 @@ sddm-qt-manjaro-theme
 alsa-utils
 avahi
 networkmanager
-networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
