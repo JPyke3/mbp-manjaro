@@ -82,7 +82,6 @@ manjaro-settings-manager-notifier
 >extra nemo-python
 >extra nemo-share
 netctl
-networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp

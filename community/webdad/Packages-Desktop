@@ -4,7 +4,6 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
-networkmanager-dispatcher-ntpd
 ntp
 mobile-broadband-provider-info
 modemmanager

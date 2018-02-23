@@ -86,7 +86,6 @@ ncdu
 netctl
 networkmanager
 network-manager-applet
-networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp

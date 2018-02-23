@@ -152,7 +152,6 @@ w3m
 >extra manjaro-settings-samba
 >extra blueman
 networkmanager
-networkmanager-dispatcher-ntpd
 networkmanager-dmenu
 networkmanager-openconnect
 networkmanager-openvpn
