@@ -10,10 +10,11 @@ firefox
 lightdm
 lightdm-slick-greeter
 lightdm-settings
-grub-theme-manjaro-dev
+grub-theme-manjaro
 mate-wallpapers
 manjaro-wallpapers-17.0
 mate-icon-theme
+papirus-maia-icon-theme
 xcursor-breeze
 mate
 marco
@@ -36,7 +37,7 @@ gnome-disk-utility
 gnome-keyring
 manjaro-mate-settings
 mc # Midnight Commander
-#pacui
+pacui
 mhwd-tui
 gparted
 grilo-plugins
@@ -68,7 +69,6 @@ usb_modeswitch
 >multilib lib32-mesa-demos
 netctl
 network-manager-applet
-networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -93,10 +93,6 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
-arc-maia-icon-theme
-moka-icon-theme
-arc-themes-maia
-#firefox-arc-maia-settings						#removed since the upstream not solve issue : https://github.com/horst3180/arc-firefox-theme/issues/123
 manjaro-mate-panel-layout
 vino
 xdg-su
@@ -135,6 +131,11 @@ caja-open-terminal
 >extra steam-manjaro
 >extra manjaro-printer
 >extra blueman
+>extra vala-panel-appmenu-mate
+>extra mate-applet-dock
+>extra mate-applets
+>extra mate-menu
+>extra plank
 #>extra autoconf
 #>extra automake
 #>extra binutils

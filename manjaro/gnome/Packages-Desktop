@@ -36,6 +36,7 @@ gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
 gnome-wallpapers
+papirus-maia-icon-theme
 #gnome-screensaver #if use lightdm we need a screensaver 
 #gnome-initial-setup
 >extra gnome-calendar
@@ -86,7 +87,6 @@ nautilus
 nautilus-admin
 nautilus-empty-file
 netctl
-networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp

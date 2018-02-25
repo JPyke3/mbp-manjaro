@@ -8,9 +8,10 @@ gthumb
 lightdm
 lightdm-slick-greeter
 lightdm-settings
-grub-theme-manjaro-dev
+grub-theme-manjaro
 budgie-desktop
 manjaro-budgie-settings
+papirus-maia-icon-theme
 manjaro-icons
 baobab
 dconf-editor
@@ -76,7 +77,6 @@ nautilus-admin
 nautilus-empty-file
 netctl
 network-manager-applet
-networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -108,10 +108,6 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
-arc-maia-icon-theme
-moka-icon-theme
-#arc-themes-maia
-#firefox-arc-maia-settings
 budgie-wallpapers
 vino
 xdg-su
