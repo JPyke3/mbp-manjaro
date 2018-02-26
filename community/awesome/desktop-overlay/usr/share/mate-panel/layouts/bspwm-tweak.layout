@@ -1,0 +1,62 @@
+[Toplevel top]
+orientation=top
+expand=true
+size=25
+
+[Object workspaceswitcherapplet]
+locked=false
+position=1674
+panel-right-stick=false
+toplevel-id=top
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+object-type=applet
+
+[Object notificationarea]
+locked=false
+position=1739
+panel-right-stick=false
+toplevel-id=top
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+object-type=applet
+
+[Object logout]
+action-type=logout
+locked=false
+position=26
+panel-right-stick=true
+toplevel-id=top
+object-type=action
+
+[Object launcher]
+locked=false
+position=263
+launcher-location=bspc-zen.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object menu-bar]
+locked=false
+position=0
+panel-right-stick=false
+toplevel-id=top
+applet-iid=
+object-type=menu-bar
+
+[Object matewindowpicker]
+locked=false
+position=219
+panel-right-stick=false
+toplevel-id=top
+applet-iid=MateWindowPickerFactory::MateWindowPicker
+object-type=applet
+
+[Object clockapplet]
+locked=false
+position=1852
+panel-right-stick=false
+toplevel-id=top
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
+
