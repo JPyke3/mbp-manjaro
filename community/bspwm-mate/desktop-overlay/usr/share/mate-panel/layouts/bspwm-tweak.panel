@@ -1,6 +1,6 @@
 [general]
 default-layout='bspwm-tweak'
-object-id-list=['workspaceswitcherapplet', 'notificationarea', 'clockapplet', 'commandapplet', 'logout', 'windowmenuapplet', 'launcher', 'object-0', 'object-1']
+object-id-list=['workspaceswitcherapplet', 'notificationarea', 'logout', 'launcher', 'object-0', 'object-2', 'object-1']
 toplevel-id-list=['top']
 
 [toplevels/top]
@@ -9,45 +9,20 @@ orientation='top'
 screen=0
 size=25
 
-[objects/commandapplet]
-applet-iid='CommandAppletFactory::CommandApplet'
-locked=false
-toplevel-id='top'
-position=252
-object-type='applet'
-panel-right-stick=false
-
-[objects/commandapplet/prefs]
-width=70
-command='xtitle'
-
-[objects/windowmenuapplet]
-applet-iid='WnckletFactory::WindowMenuApplet'
-locked=false
-toplevel-id='top'
-position=229
-object-type='applet'
-panel-right-stick=false
-
 [objects/workspaceswitcherapplet]
 applet-iid='WnckletFactory::WorkspaceSwitcherApplet'
 locked=false
 toplevel-id='top'
-position=1440
+position=1674
 object-type='applet'
 panel-right-stick=false
 
-[objects/clockapplet]
-applet-iid='ClockAppletFactory::ClockApplet'
-locked=false
-toplevel-id='top'
-position=164
-object-type='applet'
-panel-right-stick=true
+[objects/workspaceswitcherapplet/prefs]
+num-rows=2
 
 [objects/clockapplet/prefs]
-format='24-hour'
-custom-format=''
+show-temperature=true
+show-weather=true
 
 [objects/object-0]
 toplevel-id='top'
@@ -59,15 +34,23 @@ panel-right-stick=false
 applet-iid='NotificationAreaAppletFactory::NotificationArea'
 locked=false
 toplevel-id='top'
-position=223
+position=1739
 object-type='applet'
-panel-right-stick=true
+panel-right-stick=false
 
 [objects/object-1]
+applet-iid='ClockAppletFactory::ClockApplet'
 toplevel-id='top'
-position=219
-object-type='separator'
+position=1852
+object-type='applet'
 panel-right-stick=false
+
+[objects/object-1/prefs]
+show-temperature=false
+show-date=false
+format='24-hour'
+custom-format=''
+show-weather=false
 
 [objects/logout]
 locked=false
@@ -85,3 +68,13 @@ position=263
 object-type='launcher'
 panel-right-stick=false
 toplevel-id='top'
+
+[objects/object-2]
+applet-iid='MateWindowPickerFactory::MateWindowPicker'
+toplevel-id='top'
+position=219
+object-type='applet'
+panel-right-stick=false
+
+[objects/object-2/prefs]
+show-all-windows=false

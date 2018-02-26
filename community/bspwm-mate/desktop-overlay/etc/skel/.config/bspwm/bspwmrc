@@ -41,10 +41,10 @@ bspc config split_ratio         0.52
 #bspc monitor -d One Two Three Four Five Six Seven Eight Nine Ten
 #bspc monitor -d I II III IV V VI VII VIII IX X
 #bspc monitor -d • • • • • • • • • •
-#bspc monitor -d I II III IV V VI
+bspc monitor -d I II III IV V VI
 
 ###This creates and names desktops for multiple monitors.
-workspaces_multimonitor &
+#workspaces_multimonitor &
 
 bspc rule -a screenkey --unmanage
 bspc rule -a gcolor2 state=floating center=true

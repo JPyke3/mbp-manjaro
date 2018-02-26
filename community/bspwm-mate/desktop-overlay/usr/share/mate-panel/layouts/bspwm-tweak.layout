@@ -5,7 +5,7 @@ size=25
 
 [Object workspaceswitcherapplet]
 locked=false
-position=1440
+position=1674
 panel-right-stick=false
 toplevel-id=top
 applet-iid=WnckletFactory::WorkspaceSwitcherApplet
@@ -13,26 +13,10 @@ object-type=applet
 
 [Object notificationarea]
 locked=false
-position=223
-panel-right-stick=true
-toplevel-id=top
-applet-iid=NotificationAreaAppletFactory::NotificationArea
-object-type=applet
-
-[Object clockapplet]
-locked=false
-position=164
-panel-right-stick=true
-toplevel-id=top
-applet-iid=ClockAppletFactory::ClockApplet
-object-type=applet
-
-[Object commandapplet]
-locked=false
-position=252
+position=1739
 panel-right-stick=false
 toplevel-id=top
-applet-iid=CommandAppletFactory::CommandApplet
+applet-iid=NotificationAreaAppletFactory::NotificationArea
 object-type=applet
 
 [Object logout]
@@ -42,14 +26,6 @@ position=26
 panel-right-stick=true
 toplevel-id=top
 object-type=action
-
-[Object windowmenuapplet]
-locked=false
-position=229
-panel-right-stick=false
-toplevel-id=top
-applet-iid=WnckletFactory::WindowMenuApplet
-object-type=applet
 
 [Object launcher]
 locked=false
@@ -68,10 +44,19 @@ toplevel-id=top
 applet-iid=
 object-type=menu-bar
 
-[Object separator]
+[Object matewindowpicker]
 locked=false
 position=219
 panel-right-stick=false
 toplevel-id=top
-object-type=separator
+applet-iid=MateWindowPickerFactory::MateWindowPicker
+object-type=applet
+
+[Object clockapplet]
+locked=false
+position=1852
+panel-right-stick=false
+toplevel-id=top
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
 
