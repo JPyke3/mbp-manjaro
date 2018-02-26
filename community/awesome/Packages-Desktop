@@ -1,4 +1,4 @@
->extra adwaita-maia-gtk3
+adwaita-maia-gtk3
 alsa-firmware
 alsa-plugins
 alsa-utils
@@ -7,10 +7,6 @@ bc
 bmenu
 brandr
 breeze-maia-icon-themes
-bspwm-manjaro
-bspwm-ruler
-bspwm-scripts
-bspwm-wallpapers
 chromium
 links
 clonezilla
@@ -31,7 +27,6 @@ gedit-code-assistance
 micro-manjaro
 gnome-disk-utility
 gtk3-classic
-gtk2-compatibility
 gtk-theme-breath
 grub-theme-manjaro-dev
 gufw
@@ -42,8 +37,6 @@ light-locker
 lightdm-slick-greeter
 inxi
 libdnet
-libnotify
-limepanel
 lxappearance-gtk3
 lxsession-gtk3
 maia-console
@@ -79,11 +72,9 @@ rootmenu
 pcmanfm-gtk3
 speedtest-cli
 sterminal
-sxhkd
 terminus-font
 thermald
 tree
-udevil
 w3m
 xcape
 xcursor-breeze
@@ -103,7 +94,7 @@ xorg-xinit
 xorg-xprop
 xorg-xsetroot
 zathura-pdf-poppler
-zensu
+gksu
 zsh-completions
 
 gvfs
