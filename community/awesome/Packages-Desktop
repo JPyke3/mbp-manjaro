@@ -69,7 +69,13 @@ ranger
 rofi
 rofi-scripts
 rootmenu
-pcmanfm-gtk3
+thunar-gtk3
+thunar-archive-plugin-gtk3
+thunar-media-tags-plugin
+thunar-shares-plugin-manjaro
+thunar-volman-gtk3
+tumbler
+ffmpegthumbnailer
 speedtest-cli
 sterminal
 terminus-font
@@ -116,3 +122,7 @@ gtk-theme-breath
 kvantum-manjaro
 qt5ct
 manjaro-backgrounds
+pa-applet
+nm-applet
+manjaro-wallpapers-17.0
+vlc-nightly
