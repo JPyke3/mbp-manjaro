@@ -21,9 +21,7 @@ downgrade
 dunstify
 feh
 file-roller
-gedit
-gedit-plugins
-gedit-code-assistance
+mousepad
 micro-manjaro
 gnome-disk-utility
 gtk3-classic
@@ -76,7 +74,7 @@ thunar-volman-gtk3
 tumbler
 ffmpegthumbnailer
 speedtest-cli
-sterminal
+st-manjaro
 terminus-font
 thermald
 tree
@@ -128,3 +126,5 @@ rxvt-unicode
 lemonpanel
 xfce4-notifyd
 libnotify
+pa-applet
+xfce4-power-manager-gtk3
