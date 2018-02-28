@@ -45,7 +45,6 @@ manjaro-browser-settings-native
 manjaro-awesome-settings
 manjaro-pulse
 manjaro-zsh-config
-mate-notification-daemon
 mhwd-tui
 moc
 mpv
@@ -122,7 +121,10 @@ gtk-theme-breath
 kvantum-manjaro
 qt5ct
 manjaro-backgrounds
-pa-applet
 network-manager-applet
 manjaro-wallpapers-17.0
 vlc-nightly
+rxvt-unicode
+lemonpanel
+xfce4-notifyd
+libnotify
