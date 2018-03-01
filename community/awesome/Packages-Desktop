@@ -128,7 +128,10 @@ xfce4-notifyd
 libnotify
 pa-applet
 xfce4-power-manager-gtk3
+xfce4-settings-gtk3
+compton-conf
 
+>extra manjaro-settings-manager
 >extra libreoffice-fresh
 >extra gparted
 >extra gimp
