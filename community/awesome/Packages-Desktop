@@ -45,7 +45,7 @@ manjaro-pulse
 manjaro-zsh-config
 mhwd-tui
 moc
-mpv
+>basic mpv
 ncdu
 nerd-fonts-terminus
 networkmanager
@@ -121,7 +121,7 @@ qt5ct
 manjaro-backgrounds
 network-manager-applet
 manjaro-wallpapers-17.0
-vlc-nightly
+>extra vlc-nightly
 rxvt-unicode
 lemonpanel
 xfce4-notifyd
