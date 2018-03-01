@@ -35,8 +35,8 @@ light-locker
 lightdm-slick-greeter
 inxi
 libdnet
-lxappearance-gtk3
-lxsession-gtk3
+>basic lxappearance-gtk3
+mate-polkit
 maia-console
 manjaro-architect
 manjaro-browser-settings-native
@@ -128,8 +128,8 @@ xfce4-notifyd
 libnotify
 pa-applet
 xfce4-power-manager-gtk3
-xfce4-settings-gtk3
-compton-conf
+>extra xfce4-settings-gtk3
+>extra compton-conf
 
 >extra manjaro-settings-manager
 >extra libreoffice-fresh
