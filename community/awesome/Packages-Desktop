@@ -128,3 +128,32 @@ xfce4-notifyd
 libnotify
 pa-applet
 xfce4-power-manager-gtk3
+
+>extra libreoffice-fresh
+>extra gparted
+>extra gimp
+>extra thunderbird
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra splix
+>extra gtk3-print-backends
+>extra avahi
+>extra manjaro-settings-samba
+>extra blueman
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra splix
+>extra gtk3-print-backends
+>extra avahi
+>extra manjaro-settings-samba
+>extra blueman
