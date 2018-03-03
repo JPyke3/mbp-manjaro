@@ -136,6 +136,7 @@ caja-open-terminal
 >extra mate-applets
 >extra mate-menu
 >extra plank
+>extra ffmpegthumbnailer
 #>extra autoconf
 #>extra automake
 #>extra binutils
