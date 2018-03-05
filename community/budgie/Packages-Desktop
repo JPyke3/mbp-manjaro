@@ -146,6 +146,7 @@ yelp
 >extra steam-manjaro
 >extra manjaro-printer
 >extra blueman
+>extra ffmpegthumbnailer
 #AUR complete support ( base devel + yaourt )
 #>extra autoconf
 #>extra automake

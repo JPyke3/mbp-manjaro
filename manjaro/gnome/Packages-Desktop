@@ -118,7 +118,6 @@ ttf-indic-otf
 ttf-liberation
 >systemd usb_modeswitch
 arc-maia-icon-theme
-kvantum-manjaro #support for qt5 theming match with adapta
 #firefox-arc-maia-settings #disable theming since upstream no adjust the theme
 vino
 xdg-su
@@ -161,6 +160,7 @@ ms-office-online
 >extra steam-manjaro
 >extra manjaro-printer
 >extra blueman
+>extra ffmpegthumbnailer
 
 #AUR complete support ( base devel + yaourt )
 #>extra autoconf
