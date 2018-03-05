@@ -74,7 +74,7 @@ thunar-volman-gtk3
 tumbler
 ffmpegthumbnailer
 speedtest-cli
-st-manjaro
+sterminal
 terminus-font
 thermald
 tree
@@ -121,15 +121,16 @@ qt5ct
 manjaro-backgrounds
 network-manager-applet
 manjaro-wallpapers-17.0
->extra vlc-nightly
 lemonpanel
 xfce4-notifyd
 libnotify
 pa-applet
 xfce4-power-manager-gtk3
->extra xfce4-settings-gtk3
->extra compton-conf
+gnome-keyring
 
+>extra compton-conf
+>extra xfce4-settings-gtk3
+>extra vlc-nightly
 >extra manjaro-settings-manager
 >extra libreoffice-fresh
 >extra gparted
@@ -152,10 +153,10 @@ xfce4-power-manager-gtk3
 >extra cups-pk-helper
 >extra ghostscript
 >extra gsfonts
->extra gtk3-print-backends
 >extra hplip
 >extra splix
 >extra gtk3-print-backends
 >extra avahi
 >extra manjaro-settings-samba
 >extra blueman
+
