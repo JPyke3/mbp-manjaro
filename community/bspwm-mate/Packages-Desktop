@@ -103,6 +103,8 @@ xorg-xinit
 xorg-xprop
 xorg-xsetroot
 xdg-user-dirs-gtk
+py-corners
+skippy-xd
 
 
 # Terminal
