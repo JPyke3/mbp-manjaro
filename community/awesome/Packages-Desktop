@@ -129,7 +129,7 @@ xfce4-power-manager-gtk3
 gnome-keyring
 rxvt-unicode
 rxvt-unicode-terminfo
-
+highlight
 
 >extra compton-conf
 >extra xfce4-settings-gtk3
