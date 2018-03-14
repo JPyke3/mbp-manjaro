@@ -5,6 +5,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+networkmanager-dispatcher-ntpd
 nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
@@ -85,7 +86,6 @@ lxterminal
 pcmanfm
 
 ## Essential stuff for good LXDE experience
-manjaro-lxde-xfce4-notifyd
 xfce4-power-manager
 light-locker
 cantarell-fonts
@@ -97,14 +97,28 @@ freetype2          # tumbler - for font thumbnails
 gconf              # fix qt-theme
 gksu
 gnome-keyring      # fix wlan segfault
+gtk3-classic
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
 network-manager-applet
 pavucontrol
+manjaro-lxde-logout-banner
 manjaro-lxde-settings
+manjaro-lxde-xfce4-notifyd
+manjaro-lxde-xfce4-volumed-pulse
+poppler-data   #CKJ support for pdf
+qt5ct
+qt5-styleplugins
+
+# theming
 gnome-icon-theme
 gnome-themes-standard
-poppler-data   #CKJ support for pdf
+#arc-maia-icon-theme
+adapta-maia-theme
+#arc-themes-breath
+#gtk-theme-breath
+vibrancy-colors
+
 
 ## Basic Applications
 manjaro-hello
@@ -119,6 +133,7 @@ leafpad
 scrot
 firefox
 hexchat
+
 epdfview
 gpicview
 galculator-gtk2
