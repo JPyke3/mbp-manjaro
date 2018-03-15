@@ -17,6 +17,7 @@ bash-completion
 gamin
 gksu
 gnome-icon-theme
+gnome-keyring
 gvfs
 gvfs-afc
 gvfs-smb
