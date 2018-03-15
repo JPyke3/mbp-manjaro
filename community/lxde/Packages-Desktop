@@ -103,7 +103,7 @@ libopenraw         # tumbler - for RAW thumbnails
 network-manager-applet
 pavucontrol
 manjaro-lxde-logout-banner
-manjaro-lxde-settings
+manjaro-lxde-dev-settings
 manjaro-lxde-xfce4-notifyd
 manjaro-lxde-xfce4-volumed-pulse
 poppler-data   #CKJ support for pdf
@@ -113,12 +113,6 @@ qt5-styleplugins
 # theming
 gnome-icon-theme
 gnome-themes-standard
-#arc-maia-icon-theme
-adapta-maia-theme
-#arc-themes-breath
-#gtk-theme-breath
-vibrancy-colors
-
 
 ## Basic Applications
 manjaro-hello
