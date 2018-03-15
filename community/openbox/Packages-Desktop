@@ -1,4 +1,3 @@
-## architect installer
 ## xorg
 xorg-server
 xorg-server-common
@@ -9,7 +8,6 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
-openbox
 
 ## toolkit
 gtk3-classic
@@ -39,24 +37,19 @@ networkmanager
 networkmanager-dmenu
 
 ## browser
->basic midori
->extra firefox
+chromium
 
 ## filemanager
->basic pcmanfm-gtk3
->extra thunar-gtk3
->extra thunar-archive-plugin-gtk3
->extra thunar-volman-gtk3
+thunar-gtk3
+thunar-archive-plugin-gtk3
+thunar-volman-gtk3
 
 ## archive utility
->basic xarchiver
->extra file-roller
+xarchiver
 
 ## package manager
->basic pacui
+pacui
 >extra pamac
->extra yaourt
->extra base-devel
 
 ## audio & codec
 alsa-firmware
@@ -73,82 +66,75 @@ pulseaudio
 pulseaudio-alsa
 
 ## desktop and settings
-arandr
-exo-gtk3
-lxappearance-gtk3
-lxappearance-obconf-gtk3
-lxhotkey-gtk3
-lxinput-gtk3
-lxsession-gtk3
-oblogout-manjaro
-xfce4-settings-gtk3
+arandr                      # monitor layout
+exo-gtk3                    # open with default programs
+lxappearance-gtk3           # openbox appearance manager
+lxappearance-obconf-gtk3    # obconf plugin
+lxhotkey-gtk3               # openbox hotkey manager
+lxinput-gtk3                # input manager
+lxsession-gtk3              # session manager
+oblogout-manjaro            # logout script
+xfce4-settings-gtk3         # common settings
 
 ## package builds for openbox profile
-kickshaw                 # menu editor
-ob-autostart             # auto start
-obmenu-generator         # dynamic menu generator
-openbox-scripts          # essential scripts - archlabs borrow
-opensnap                 # snap windows
-polybar                  # status bar
-trayer                   # system tray
-#ttf-fantasque-sans-mono
-ttf-icomoon-icons        # icons used in polybar
-ttf-material-icons       # icons used in polybar
->extra nerd-fonts-complete
-ttf-polybar-icons        # icons used in polybar
+kickshaw                    # menu editor
+ob-autostart                # auto start
+obmenu-generator            # dynamic menu generator
+opensnap                    # snap windows
+polybar                     # status bar
+trayer                      # system tray
 
 ## theming
 manjaro-openbox-settings
 manjaro-zsh-config
 
 ## media players
-audacious-gtk3
-audacious-plugins-gtk3
-libmpdclient
-mpd
-mpv
-pamixer
-pavucontrol
-playerctl
+audacious-gtk3              # musicplayer
+audacious-plugins-gtk3      # musicplayer plugins
+mpd                         # mediaplayer
+mpv                         # mediaplayer
+pamixer                     # mixer control
+pavucontrol                 # sound control
+playerctl                   # player control
+volumeicon                  # volume control
 
 ## nice system
-conky
-dunst
-i3lock
-nitrogen
-rofi                 # nice dmenu replacement
-scrot                # screen capture
-skippy-xd            # window
+compton                     # compositing
+conky                       #
+dunst                       # messages
+i3lock                      # lock
+nitrogen                    # wallpaper
+rofi                        # nice dmenu replacement
+scrot                       # screen capture
+skippy-xd                   # window swicher
 
 ## utilities
-epdfview
-galculator
-geany
-geany-plugins
-gnome-disk-utility
-gparted
-gpicview-gtk3
-gsimplecal
-htop
-imagemagick          # required by i3lock-fancy
-jgmenu               # system menu
-jsoncpp              # required by various apps
-numlockx
-ps_mem
-sxhkd                # hotkeys
-termite              # terminal emulator
-termite-terminfo     #
-volumeicon
-wireless_tools       # required by polybar
-wmctrl               # required by polybar
-xcape                # required by openbox-scripts
-xdotool              # required by polybar
-zenity               # required by openbox-scripts
+epdfview                    # pdf
+galculator                  # calculator
+geany                       # geany
+geany-plugins               # geany plugins
+gnome-disk-utility          # disks
+gparted                     # partition tool
+gpicview-gtk3               # image viewer
+gsimplecal                  # calendar
+htop                        # process monitor
+imagemagick                 # image converter used by i3lock-fancy script
+jgmenu                      # system menu
+jsoncpp                     # required by various apps
+numlockx                    # numlock
+ps_mem                      # memory monitor
+sxhkd                       # hotkeys
+termite                     # terminal emulator
+termite-terminfo            # terminal
+wireless_tools              # required by polybar
+wmctrl                      # required by polybar
+xcape                       # required by openbox-scripts
+xdotool                     # required by polybar
+zenity                      # required by openbox-scripts
 
 ## extra profile packages
 >extra openbox-themes
 >extra redshift
->extra yaourt-gui-manjaro
 
 ## printing
 >extra colord
