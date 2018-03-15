@@ -84,7 +84,6 @@ oblogout-manjaro
 xfce4-settings-gtk3
 
 ## package builds for openbox profile
-i3lock-fancy             # screen lock
 kickshaw                 # menu editor
 ob-autostart             # auto start
 obmenu-generator         # dynamic menu generator
@@ -115,6 +114,7 @@ playerctl
 ## nice system
 conky
 dunst
+i3lock
 nitrogen
 rofi                 # nice dmenu replacement
 scrot                # screen capture
