@@ -82,7 +82,7 @@ ob-autostart                # auto start
 obmenu-generator            # dynamic menu generator
 opensnap                    # snap windows
 polybar                     # status bar
-trayer                      # system tray
+trayer-srg                  # system tray
 
 ## theming
 manjaro-openbox-settings
