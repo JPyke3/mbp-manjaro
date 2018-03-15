@@ -1,0 +1,156 @@
+## architect installer
+## xorg
+xorg-server
+xorg-server-common
+xorg-xbacklight
+xorg-xinit
+xorg-xkill
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-synaptics
+openbox
+
+## toolkit
+gtk3-classic
+
+## nice programs
+bash-completion
+gamin
+gksu
+gnome-icon-theme
+gvfs
+gvfs-afc
+gvfs-smb
+polkit
+poppler
+python2-xdg
+ttf-dejavu
+ttf-roboto
+xdg-user-dirs
+xdg-utils
+
+## display manager
+lightdm
+lightdm-gtk-greeter
+
+## network
+networkmanager
+networkmanager-dmenu
+
+## browser
+>basic midori
+>extra firefox
+
+## filemanager
+>basic pcmanfm-gtk3
+>extra thunar-gtk3
+>extra thunar-archive-plugin-gtk3
+>extra thunar-volman-gtk3
+
+## archive utility
+>basic xarchiver
+>extra file-roller
+
+## package manager
+>basic pacui
+>extra pamac
+>extra yaourt
+>extra base-devel
+
+## audio & codec
+alsa-firmware
+alsa-plugins
+alsa-lib
+ffmpeg2.8
+gst-libav
+gst-plugins-base
+gst-plugins-good
+gstreamer
+libmad
+libmatroska
+pulseaudio
+pulseaudio-alsa
+
+## desktop and settings
+arandr
+exo-gtk3
+lxappearance-gtk3
+lxappearance-obconf-gtk3
+lxhotkey-gtk3
+lxinput-gtk3
+lxsession-gtk3
+oblogout-manjaro
+xfce4-settings-gtk3
+
+## package builds for openbox profile
+i3lock-fancy             # screen lock
+kickshaw                 # menu editor
+ob-autostart             # auto start
+obmenu-generator         # dynamic menu generator
+openbox-scripts          # essential scripts - archlabs borrow
+opensnap                 # snap windows
+polybar                  # status bar
+trayer                   # system tray
+#ttf-fantasque-sans-mono
+ttf-icomoon-icons        # icons used in polybar
+ttf-material-icons       # icons used in polybar
+>extra nerd-fonts-complete
+ttf-polybar-icons        # icons used in polybar
+
+## theming
+manjaro-openbox-settings
+manjaro-zsh-config
+
+## media players
+audacious-gtk3
+audacious-plugins-gtk3
+libmpdclient
+mpd
+mpv
+pamixer
+pavucontrol
+playerctl
+
+## nice system
+conky
+dunst
+nitrogen
+rofi                 # nice dmenu replacement
+scrot                # screen capture
+skippy-xd            # window
+
+## utilities
+epdfview
+galculator
+geany
+geany-plugins
+gnome-disk-utility
+gparted
+gpicview-gtk3
+gsimplecal
+htop
+imagemagick          # required by i3lock-fancy
+jgmenu               # system menu
+jsoncpp              # required by various apps
+numlockx
+ps_mem
+sxhkd                # hotkeys
+termite              # terminal emulator
+termite-terminfo     #
+volumeicon
+wireless_tools       # required by polybar
+wmctrl               # required by polybar
+xcape                # required by openbox-scripts
+xdotool              # required by polybar
+zenity               # required by openbox-scripts
+
+## extra profile packages
+>extra openbox-themes
+>extra redshift
+>extra yaourt-gui-manjaro
+
+## printing
+>extra colord
+>extra rest
+>extra manjaro-printer
