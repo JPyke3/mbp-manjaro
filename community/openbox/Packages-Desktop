@@ -89,7 +89,6 @@ lxinput-gtk3                # input manager
 lxsession-gtk3              # session manager
 xfce4-settings-gtk3         # common settings
 
-## required for functionality
 ## package builds for openbox profile
 kickshaw                    # menu editor
 ob-autostart                # auto start
@@ -97,6 +96,7 @@ obmenu-generator            # dynamic menu generator
 opensnap                    # snap windows
 polybar                     # status bar
 trayer-srg                  # system tray
+oblogout-manjaro
 
 ## theming
 manjaro-openbox-settings
