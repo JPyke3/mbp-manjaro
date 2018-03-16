@@ -26,6 +26,7 @@ poppler
 python2-xdg
 ttf-dejavu
 ttf-roboto
+ttf-ubuntu-font-family
 xdg-user-dirs
 xdg-utils
 
@@ -46,11 +47,13 @@ thunar-archive-plugin-gtk3
 thunar-volman-gtk3
 
 ## archive utility
-xarchiver
+file-roller
+
+## mail
+sylpheed
 
 ## package manager
 pacui
->extra pamac
 
 ## audio & codec
 alsa-firmware
@@ -66,6 +69,16 @@ libmatroska
 pulseaudio
 pulseaudio-alsa
 
+## media players
+audacious-gtk3              # musicplayer
+audacious-plugins-gtk3      # musicplayer plugins
+mpd                         # mediaplayer
+mpv                         # mediaplayer
+pamixer                     # mixer control
+pavucontrol                 # sound control
+playerctl                   # player control
+volumeicon                  # volume control
+
 ## desktop and settings
 arandr                      # monitor layout
 exo-gtk3                    # open with default programs
@@ -76,6 +89,7 @@ lxinput-gtk3                # input manager
 lxsession-gtk3              # session manager
 xfce4-settings-gtk3         # common settings
 
+## required for functionality
 ## package builds for openbox profile
 kickshaw                    # menu editor
 ob-autostart                # auto start
@@ -88,21 +102,10 @@ trayer-srg                  # system tray
 manjaro-openbox-settings
 manjaro-zsh-config
 
-## media players
-audacious-gtk3              # musicplayer
-audacious-plugins-gtk3      # musicplayer plugins
-mpd                         # mediaplayer
-mpv                         # mediaplayer
-pamixer                     # mixer control
-pavucontrol                 # sound control
-playerctl                   # player control
-volumeicon                  # volume control
-
 ## nice system
 compton                     # compositing
 conky                       #
 dunst                       # messages
-i3lock                      # lock
 nitrogen                    # wallpaper
 rofi                        # nice dmenu replacement
 scrot                       # screen capture
@@ -128,15 +131,6 @@ termite                     # terminal emulator
 termite-terminfo            # terminal
 wireless_tools              # required by polybar
 wmctrl                      # required by polybar
-xcape                       # required by openbox-scripts
+xcape                       # required by scripts
 xdotool                     # required by polybar
-zenity                      # required by openbox-scripts
-
-## extra profile packages
-#>extra openbox-themes
-#>extra redshift
-
-## printing
-#>extra colord
-#>extra rest
-#>extra manjaro-printer
+zenity                      # required by scripts
