@@ -124,6 +124,7 @@ htop                        # process monitor
 imagemagick                 # image converter used by i3lock-fancy script
 jgmenu                      # system menu
 jsoncpp                     # required by various apps
+manjaro-settings-manager    # tool
 numlockx                    # numlock
 ps_mem                      # memory monitor
 sxhkd                       # hotkeys
