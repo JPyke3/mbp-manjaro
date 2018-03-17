@@ -2,11 +2,6 @@
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/  file:///usr/share/openbox/menu.xsd">
   <menu id="root-menu" label="Openbox 3">
     <separator label="Manjaro Openbox"/>
-<?xml version="1.0" encoding="UTF-8"?>
-
-<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/  file:///usr/share/openbox/menu.xsd">
-  <menu id="root-menu" label="Openbox 3">
-    <separator label="Manjaro Openbox"/>
     <item label="Architect Installer">
       <action name="Execute">
         <command>exo-open --launch TerminalEmulator -e /usr/bin/setup</command>

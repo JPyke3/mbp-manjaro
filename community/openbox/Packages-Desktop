@@ -21,33 +21,35 @@ gnome-keyring
 gvfs
 gvfs-afc
 gvfs-smb
+inxi
 polkit
 poppler
 python2-xdg
-ttf-dejavu
-ttf-roboto
-ttf-ubuntu-font-family
 xdg-user-dirs
 xdg-utils
 
 ## display manager
 lightdm
-lightdm-gtk-greeter
+lightdm-slick-greeter
 
 ## network
 networkmanager
 networkmanager-dmenu
+networkmanager-openconnect
+networkmanager-pptp
+networkmanager-vpnc
 
 ## browser
-chromium
+>basic midori
+>extra chromium
 
 ## terminal
-termite                     # terminal emulator
-termite-terminfo            # terminal
 lxterminal-gtk3
 
-## filemanagers
-pcmanfm-gtk3
+## filemanager
+thunar-gtk3
+thunar-archive-plugin
+thunar-volman
 xarchiver
 
 ## mail
@@ -55,11 +57,14 @@ sylpheed
 
 ## package manager
 pacui
+>extra pamac
 
 ## audio & codec
+>basic manjaro-alsa
+>extra manjaro-pulse
 alsa-firmware
 alsa-plugins
-alsa-lib
+alsa-utils
 ffmpeg2.8
 gst-libav
 gst-plugins-base
@@ -67,8 +72,6 @@ gst-plugins-good
 gstreamer
 libmad
 libmatroska
-pulseaudio
-pulseaudio-alsa
 
 ## media players
 lxmusic-gtk3                # musicplayer
@@ -95,12 +98,12 @@ obkey-gtk3                  # openbox hotkey manager
 obmenu-generator            # dynamic menu generator
 opensnap                    # snap windows
 polybar                     # status bar
-trayer-srg                  # system tray
 
 ## theming
 manjaro-openbox-settings
 manjaro-zsh-config
 ttf-font-logos
+ttf-roboto
 
 ## nice system
 compton                     # compositing
@@ -123,7 +126,8 @@ gparted                     # partition tool
 gpicview-gtk3               # image viewer
 gsimplecal                  # calendar
 htop                        # process monitor
-imagemagick                 # image converter used by i3lock-fancy script
+imagemagick                 # image converter
+inxi                        # sysinfo
 jgmenu                      # system menu
 jsoncpp                     # required by various apps
 numlockx                    # numlock
