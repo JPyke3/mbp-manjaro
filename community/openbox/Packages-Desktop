@@ -40,8 +40,7 @@ networkmanager-pptp
 networkmanager-vpnc
 
 ## browser
->basic midori
->extra chromium
+chromium
 
 ## terminal
 lxterminal-gtk3
@@ -57,30 +56,7 @@ sylpheed
 
 ## package manager
 pacui
->extra pamac
-
-## audio & codec
->basic manjaro-alsa
->extra manjaro-pulse
-alsa-firmware
-alsa-plugins
-alsa-utils
-ffmpeg2.8
-gst-libav
-gst-plugins-base
-gst-plugins-good
-gstreamer
-libmad
-libmatroska
-
-## media players
-lxmusic-gtk3                # musicplayer
-mpd                         # mediaplayer
-mpv                         # mediaplayer
-pamixer                     # mixer control
-pavucontrol                 # sound control
-playerctl                   # player control
-volumeicon                  # volume control
+pamac
 
 ## desktop and settings
 arandr                      # monitor layout
@@ -132,9 +108,28 @@ jgmenu                      # system menu
 jsoncpp                     # required by various apps
 numlockx                    # numlock
 ps_mem                      # memory monitor
-sxhkd                       # hotkeys
 wireless_tools              # required by polybar
 wmctrl                      # required by polybar
 xcape                       # required by scripts
 xdotool                     # required by polybar
 zenity                      # required by scripts
+
+## media, audio & codec
+>extra manjaro-pulse
+>extra alsa-firmware
+>extra alsa-plugins
+>extra alsa-utils
+>extra ffmpeg2.8
+>extra gst-libav
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gstreamer
+>extra libmad
+>extra libmatroska
+>extra lxmusic-gtk3                # musicplayer
+>extra mpd                         # mediaplayer
+>extra mpv                         # mediaplayer
+>extra pamixer                     # mixer control
+>extra pavucontrol                 # sound control
+>extra playerctl                   # player control
+>extra volumeicon                  # volume control
