@@ -2,9 +2,14 @@
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/  file:///usr/share/openbox/menu.xsd">
   <menu id="root-menu" label="Openbox 3">
     <separator label="Manjaro Openbox"/>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/  file:///usr/share/openbox/menu.xsd">
+  <menu id="root-menu" label="Openbox 3">
+    <separator label="Manjaro Openbox"/>
     <item label="Architect Installer">
       <action name="Execute">
-        <command>setup</command>
+        <command>exo-open --launch TerminalEmulator -e /usr/bin/setup</command>
       </action>
     </item>
     <item label="Calamares Installer">
@@ -12,6 +17,7 @@
         <command>sudo calamares</command>
       </action>
     </item>
+    <separator></separator>
     <item label="Terminal">
       <action name="Execute">
         <command>exo-open --launch TerminalEmulator</command>
@@ -29,7 +35,7 @@
     </item>
     <item label="Text Editor">
       <action name="Execute">
-        <command>geany</command>
+        <command>l3afpad</command>
       </action>
     </item>
     <separator/>
@@ -75,7 +81,7 @@
     <menu id="multimedia" label="Multimedia">
       <item label="Music Player">
         <action name="Execute">
-          <command>audacious</command>
+          <command>lxmusic</command>
         </action>
       </item>
       <item label="Video Player">
@@ -101,7 +107,7 @@
         </item>
         <item label="Keybind Editor">
           <action name="Execute">
-            <command>lxkey</command>
+            <command>obkey</command>
           </action>
         </item>
         <item label="Autostart Editor">
@@ -171,7 +177,7 @@
       </item>
       <item label="Screen Layout">
         <action name="Execute">
-          <command>arandr</command>
+          <command>lxrandr</command>
         </action>
       </item>
     </menu>
@@ -195,9 +201,15 @@
     <menu execute="manjaro-help-pipemenu" id="help" label="Help and Info"/>
     <menu execute="manjaro-kb-pipemenu" id="keybinds" label="Keybinds"/>
     <separator/>
+    <item label="Switch Menu">
+      <action name="Execute">
+        <command>switchmenu -dynamic</command>
+      </action>"
+    </item>
+    <separator/>
     <item label="Lock Screen">
       <action name="Execute">
-        <command>lock -p</command>
+        <command>lock -- scrot</command>
       </action>
     </item>
     <item label="Exit Openbox">
@@ -207,5 +219,3 @@
     </item>
   </menu>
 </openbox_menu>
-<!-- vim:sw=2
--->
