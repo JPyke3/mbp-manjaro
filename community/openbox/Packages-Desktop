@@ -80,11 +80,10 @@ playerctl                   # player control
 volumeicon                  # volume control
 
 ## desktop and settings
-lxrandr-gtk3                # monitor layout
+arandr                      # monitor layout
 exo-gtk3                    # open with default programs
 lxappearance-gtk3           # openbox appearance manager
 lxappearance-obconf-gtk3    # obconf plugin
-lxhotkey-gtk3               # openbox hotkey manager
 lxinput-gtk3                # input manager
 lxsession-gtk3              # session manager
 lxterminal-gtk3
@@ -92,6 +91,7 @@ lxterminal-gtk3
 ## package builds for openbox profile
 kickshaw                    # menu editor
 ob-autostart                # auto start
+obkey-gtk3                  # openbox hotkey manager
 obmenu-generator            # dynamic menu generator
 opensnap                    # snap windows
 polybar                     # status bar
