@@ -45,13 +45,14 @@ networkmanager-vpnc
 
 ## terminal
 termite
-lxterminal-gtk3
+>extra lxterminal-gtk3
 
 ## filemanager
-thunar-gtk3
-thunar-archive-plugin
-thunar-volman-gtk3
-file-roller
+>basic pcmanfm-gtk3
+>extra thunar-gtk3
+>extra thunar-archive-plugin
+>extra thunar-volman-gtk3
+>extra file-roller
 xarchiver
 
 ## mail
@@ -62,8 +63,8 @@ pacui
 >extra pamac
 
 ## desktop and settings
-lxrandr-gtk3                # monitor layout
-arandr                      # monitor layout
+>extra lxrandr-gtk3         # monitor layout
+>basic arandr               # monitor layout
 exo-gtk3                    # open with default programs
 lxappearance-gtk3           # openbox appearance manager
 lxappearance-obconf-gtk3    # obconf plugin
@@ -93,6 +94,7 @@ scrot                       # screen capture
 skippy-xd                   # window swicher
 
 ## utilities
+bind-tools                  # 
 >extra gucharmap            # char map
 epdfview                    # pdf
 galculator                  # calculator
@@ -107,6 +109,8 @@ imagemagick                 # image converter
 inxi                        # sysinfo
 jgmenu                      # system menu
 jsoncpp                     # required by various apps
+net-tools                   #
+nmap                        #
 numlockx                    # numlock
 ps_mem                      # memory monitor
 wireless_tools              # required by polybar
