@@ -4,7 +4,7 @@
     <separator label="Manjaro Openbox"/>
     <item label="Architect Installer">
       <action name="Execute">
-        <command>exo-open --launch TerminalEmulator -e /usr/bin/setup</command>
+        <command>termite -e /usr/bin/setup</command>
       </action>
     </item>
     <item label="Calamares Installer">
