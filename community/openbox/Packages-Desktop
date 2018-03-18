@@ -49,7 +49,7 @@ lxterminal-gtk3
 thunar-gtk3
 thunar-archive-plugin
 thunar-volman
-xarchiver
+file-roller
 
 ## mail
 sylpheed
@@ -76,8 +76,10 @@ opensnap                    # snap windows
 polybar                     # status bar
 
 ## theming
+#>basic manjaro-openbox-settings-minimal
 manjaro-openbox-settings
 manjaro-zsh-config
+ttf-dejavu
 ttf-font-logos
 ttf-roboto
 
