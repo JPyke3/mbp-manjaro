@@ -9,9 +9,6 @@ xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
 
-## toolkit
-gtk3-classic
-
 ## nice programs
 bash-completion
 gamin
@@ -27,6 +24,9 @@ poppler
 python2-xdg
 xdg-user-dirs
 xdg-utils
+
+## toolkit
+gtk3-classic
 
 ## display manager
 lightdm
@@ -48,7 +48,7 @@ termite
 >extra lxterminal-gtk3
 
 ## filemanager
->basic pcmanfm-gtk3
+pcmanfm-gtk3
 >extra thunar-gtk3
 >extra thunar-archive-plugin
 >extra thunar-volman-gtk3
@@ -56,7 +56,7 @@ termite
 xarchiver
 
 ## mail
->extra sylpheed
+sylpheed
 
 ## package manager
 pacui
@@ -75,13 +75,15 @@ ob-autostart                # auto start
 obkey-gtk3                  # openbox hotkey manager
 obmenu-generator            # dynamic menu generator
 opensnap                    # snap windows
-polybar                     # status bar
+>extra polybar              # status bar
+tint2                       # status bar
+>extra trayer-srg           # sys tray
 
 ## theming
 manjaro-openbox-settings
 manjaro-zsh-config
 ttf-dejavu
-ttf-font-logos
+>extra ttf-font-logos
 ttf-roboto
 
 ## net tools
@@ -91,19 +93,20 @@ nmap                        #
 
 ## utilities 1
 compton                     # compositing
-conky                       #
-dunst                       # messages
-jgmenu                      # system menu
-jsoncpp                     # required by various apps
+>extra conky                #
+>extra dunst                # messages
+i3lock
+>extra jgmenu               # system menu
+>extra jsoncpp              # required by various apps
 nitrogen                    # wallpaper
 rofi                        # nice dmenu replacement
 scrot                       # screen capture
 skippy-xd                   # window swicher
-wireless_tools              # required by polybar
-wmctrl                      # required by polybar
-xcape                       # required by scripts
-xdotool                     # required by polybar
-zenity                      # required by scripts
+>extra wireless_tools       # polybar helper
+>extra wmctrl               # polybar helper
+xcape                       # hotkey
+>extra xdotool              # used by polybar
+>extra zenity               # bar-dock-config
 
 ## utilities 2
 >extra gucharmap            # char map
