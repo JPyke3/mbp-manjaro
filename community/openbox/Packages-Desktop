@@ -64,7 +64,7 @@ pacui
 
 ## desktop and settings
 >extra lxrandr-gtk3         # monitor layout
->basic arandr               # monitor layout
+arandr                      # monitor layout
 exo-gtk3                    # open with default programs
 lxappearance-gtk3           # openbox appearance manager
 lxappearance-obconf-gtk3    # obconf plugin
@@ -84,17 +84,28 @@ ttf-dejavu
 ttf-font-logos
 ttf-roboto
 
-## nice system
+## net tools
+bind-tools                  # 
+net-tools                   #
+nmap                        #
+
+## utilities 1
 compton                     # compositing
 conky                       #
 dunst                       # messages
+jgmenu                      # system menu
+jsoncpp                     # required by various apps
 nitrogen                    # wallpaper
 rofi                        # nice dmenu replacement
 scrot                       # screen capture
 skippy-xd                   # window swicher
+wireless_tools              # required by polybar
+wmctrl                      # required by polybar
+xcape                       # required by scripts
+xdotool                     # required by polybar
+zenity                      # required by scripts
 
-## utilities
-bind-tools                  # 
+## utilities 2
 >extra gucharmap            # char map
 epdfview                    # pdf
 galculator                  # calculator
@@ -107,17 +118,10 @@ gsimplecal                  # calendar
 htop                        # process monitor
 imagemagick                 # image converter
 inxi                        # sysinfo
-jgmenu                      # system menu
-jsoncpp                     # required by various apps
-net-tools                   #
-nmap                        #
+>extra neofetch             #
 numlockx                    # numlock
 ps_mem                      # memory monitor
-wireless_tools              # required by polybar
-wmctrl                      # required by polybar
-xcape                       # required by scripts
-xdotool                     # required by polybar
-zenity                      # required by scripts
+>extra screenfetch          # screen capture
 
 ## media, audio & codec
 >extra manjaro-pulse
