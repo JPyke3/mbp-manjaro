@@ -80,7 +80,8 @@ tint2                       # status bar
 >extra trayer-srg           # sys tray
 
 ## theming
-manjaro-openbox-settings
+>basic manjaro-openbox-basic-settings
+>extra manjaro-openbox-settings
 manjaro-zsh-config
 ttf-dejavu
 >extra ttf-font-logos
