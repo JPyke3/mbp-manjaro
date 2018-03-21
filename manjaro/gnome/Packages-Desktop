@@ -64,7 +64,7 @@ gvfs-smb
 inxi
 imagewriter
 #cli tool#
-#pacui
+pacui
 mc
 mhwd-tui
 ########
@@ -161,6 +161,8 @@ ms-office-online
 >extra manjaro-printer
 >extra blueman
 >extra ffmpegthumbnailer
+>extra timeshift
+>extra kernel-alive
 
 #AUR complete support ( base devel + yaourt )
 #>extra autoconf
