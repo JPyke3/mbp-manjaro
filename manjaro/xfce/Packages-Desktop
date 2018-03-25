@@ -217,7 +217,7 @@ powertop
 >extra poppler-data  # CKJ support for pdf
 >basic sylpheed # mail client
 >extra thunderbird
->extra vlc-nightly
+>extra vlc
 >extra viewnior
 >extra xfburn
 >extra yelp

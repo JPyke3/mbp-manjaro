@@ -257,7 +257,7 @@ powertop
 screenfetch
 systemd-kcm
 >extra thunderbird
-vlc-nightly
+vlc
 yakuake
 
 ## Optional dependencis for cantata
