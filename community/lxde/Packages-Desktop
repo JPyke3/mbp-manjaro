@@ -113,6 +113,7 @@ qt5-styleplugins
 # theming
 gnome-icon-theme
 gnome-themes-standard
+ttf-dejavu
 
 ## Basic Applications
 manjaro-hello
