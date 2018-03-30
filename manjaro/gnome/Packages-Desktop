@@ -133,6 +133,7 @@ xf86-input-void
 xorg-server
 xorg-twm
 xorg-xinit
+>extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 yelp
 
 ms-office-online
