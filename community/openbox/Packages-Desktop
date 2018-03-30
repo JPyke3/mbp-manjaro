@@ -116,7 +116,7 @@ gpicview-gtk3               # image viewer
 gsimplecal                  # calendar
 htop                        # process monitor
 imagemagick                 # image converter
-inxi                        # sysinfo
+#inxi                        # sysinfo
 l3afpad                     # simple gui editor
 numlockx                    # numlock
 ps_mem                      # memory monitor
