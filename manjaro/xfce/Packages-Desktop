@@ -127,7 +127,7 @@ xfce4-panel-gtk3
 xfce4-power-manager-gtk3
 xfce4-session-gtk3
 xfce4-settings-gtk3
-xfce4-terminal-gtk3
+xfce4-terminal
 xfconf-gtk3
 xfdesktop-gtk3
 xfwm4-gtk3
@@ -234,8 +234,8 @@ unrar  # RAR archive support
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-xfce-settings
->basic manjaro-xfce-minimal-settings
+>extra manjaro-xfce-gtk3-settings
+>basic manjaro-xfce-gtk3-minimal-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
