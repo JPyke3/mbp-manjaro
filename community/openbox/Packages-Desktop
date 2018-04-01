@@ -82,6 +82,7 @@ manjaro-zsh-config
 ttf-dejavu
 ttf-roboto
 adobe-source-code-pro-fonts
+ttf-font-logos
 
 ## net tools
 bind-tools                  #
