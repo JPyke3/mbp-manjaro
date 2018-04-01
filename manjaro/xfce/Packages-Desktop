@@ -112,23 +112,25 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 accountsservice  # Enhanced user accounts handling
 
+## GTK3
+gtk3-classic
+>multilib lib32-gtk3-classic
+
 ## XFCE Group
-exo
-garcon
-gtk-xfce-engine
-thunar
+exo-gtk3
+garcon-gtk3
+thunar-gtk3
 thunar-volman
 tumbler
-xfce4-appfinder
-xfce4-panel
-xfce4-power-manager
-xfce4-session
-xfce4-settings
+xfce4-appfinder-gtk3
+xfce4-panel-gtk3
+xfce4-power-manager-gtk3
+xfce4-session-gtk3
+xfce4-settings-gtk3
 xfce4-terminal
-xfconf
-xfdesktop
-xfwm4
-xfwm4-themes
+xfconf-gtk3
+xfdesktop-gtk3
+xfwm4-gtk3
 
 ## XFCE Extras
 blueman
@@ -145,6 +147,7 @@ menulibre
 orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
+file-roller
 thunar-media-tags-plugin
 # >extra xfce4-artwork
 xfce4-battery-plugin
@@ -161,7 +164,7 @@ xfce4-clipman-plugin
 >extra xfce4-mpc-plugin
 >extra xfce4-netload-plugin
 >extra xfce4-notes-plugin
-xfce4-notifyd
+xfce4-notifyd-gtk3
 xfce4-screenshooter
 >extra xfce4-sensors-plugin
 >extra xfce4-smartbookmark-plugin
@@ -172,7 +175,7 @@ xfce4-taskmanager
 >extra xfce4-verve-plugin
 >extra xfce4-wavelan-plugin
 >extra xfce4-weather-plugin
-xfce4-whiskermenu-plugin
+xfce4-whiskermenu-plugin-gtk3
 xfce4-xkb-plugin
 xfce4-pulseaudio-plugin
 pavucontrol
@@ -231,8 +234,8 @@ unrar  # RAR archive support
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-xfce-settings
->basic manjaro-xfce-minimal-settings
+>extra manjaro-xfce-gtk3-settings
+>basic manjaro-xfce-gtk3-minimal-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers

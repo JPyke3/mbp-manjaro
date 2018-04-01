@@ -45,7 +45,7 @@ networkmanager-vpnc
 
 ## terminal
 termite
->extra lxterminal-gtk3
+>extra lxterminal
 
 ## filemanager
 thunar-gtk3
