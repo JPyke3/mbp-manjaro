@@ -7,7 +7,7 @@ xorg-xkill
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
-xf86-input-synaptics
+#xf86-input-synaptics
 
 ## nice programs
 bash-completion
@@ -25,8 +25,9 @@ python2-xdg
 xdg-user-dirs
 xdg-utils
 
-## toolkit
+## theming
 gtk3-classic
+manjaro-openbox-settings
 
 ## display manager
 lightdm
@@ -35,30 +36,31 @@ lightdm-slick-greeter
 ## network
 networkmanager
 networkmanager-dmenu
-networkmanager-openconnect
-networkmanager-pptp
-networkmanager-vpnc
 
 ## browser
->basic midori
+midori
 >extra chromium
+>extra fireefox
 
 ## terminal
 termite
 >extra lxterminal
 
 ## filemanager
-thunar-gtk3
-thunar-archive-plugin
-thunar-volman-gtk3
-file-roller
+xarchiver
+pcmanfm-gtk3
+>extra thunar-gtk3
+>extra thunar-archive-plugin
+>extra thunar-volman-gtk3
+>extra file-roller
 
 ## mail
 sylpheed
+>extra thunderbird
 
 ## package manager
 pacui
-pamac
+>extra pamac
 
 ## desktop and settings
 arandr                      # monitor layout
@@ -67,80 +69,46 @@ lxappearance-gtk3           # openbox appearance manager
 lxappearance-obconf-gtk3    # obconf plugin
 lxinput-gtk3                # input manager
 lxsession-gtk3              # session manager
-kickshaw                    # menu editor
-ob-autostart                # auto start
-obkey-gtk3                  # openbox hotkey manager
-obmenu-generator            # dynamic menu generator
-opensnap                    # snap windows
-polybar                     # status bar
-tint2                       # status bar
-trayer-srg                  # sys tray
-
-## theming
-manjaro-openbox-settings
-manjaro-zsh-config
-ttf-dejavu
-ttf-roboto
-adobe-source-code-pro-fonts
-ttf-font-logos
 
 ## net tools
 bind-tools                  #
 net-tools                   #
 nmap                        #
 
-## utilities 1
-compton                     # compositing
-conky                       #
-dunst                       # messages
-i3lock
-jgmenu                      # system menu
-jsoncpp                     # required by various apps
-nitrogen                    # wallpaper
-rofi                        # nice dmenu replacement
-scrot                       # screen capture
-skippy-xd                   # window swicher
-wireless_tools              # polybar helper
-wmctrl                      # polybar helper
-xcape                       # hotkey
-xdotool                     # used by polybar
-zenity                      # bar-dock-config
-
-## utilities 2
+## utilities
 epdfview                    # pdf
 galculator                  # calculator
 geany                       # geany
 geany-plugins               # geany plugins
-gnome-disk-utility          # disks
+>extra gnome-disk-utility   # disks
 gparted                     # partition tool
 gpicview-gtk3               # image viewer
 gsimplecal                  # calendar
 htop                        # process monitor
-imagemagick                 # image converter
-#inxi                        # sysinfo
+inxi                        # sysinfo
 l3afpad                     # simple gui editor
 numlockx                    # numlock
 ps_mem                      # memory monitor
 
+## bluetooth
+>extra blueman
+
 ## media, audio & codec
+ffmpeg2.8
+gst-libav
+gst-plugins-base
+gst-plugins-good
+gstreamer
+manjaro-alsa
+mpv                         # mediaplayer
+playerctl                   # player control
+volumeicon                  # volume control
 >extra manjaro-pulse
->extra alsa-firmware
->extra alsa-plugins
->extra alsa-utils
->extra ffmpeg2.8
->extra gst-libav
->extra gst-plugins-base
->extra gst-plugins-good
->extra gstreamer
 >extra libmad
 >extra libmatroska
->extra lxmusic-gtk3         # musicplayer
->extra mpd                  # mediaplayer
->extra mpv                  # mediaplayer
 >extra pamixer              # mixer control
 >extra pavucontrol          # sound control
->extra playerctl            # player control
->extra volumeicon           # volume control
+>extra pulseaudio-bluetooth
 
 ## printer
 >extra manjaro-printer
