@@ -40,7 +40,7 @@ networkmanager-dmenu
 ## browser
 midori
 >extra chromium
->extra fireefox
+>extra firefox
 
 ## terminal
 termite
@@ -99,15 +99,14 @@ gst-libav
 gst-plugins-base
 gst-plugins-good
 gstreamer
-manjaro-alsa
+libmad
+libmatroska
+manjaro-pulse
 mpv                         # mediaplayer
+pavucontrol                 # sound control
 playerctl                   # player control
+pnmixer                     # mixer control
 volumeicon                  # volume control
->extra manjaro-pulse
->extra libmad
->extra libmatroska
->extra pamixer              # mixer control
->extra pavucontrol          # sound control
 >extra pulseaudio-bluetooth
 
 ## printer
