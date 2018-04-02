@@ -105,7 +105,7 @@ manjaro-pulse
 mpv                         # mediaplayer
 pavucontrol                 # sound control
 playerctl                   # player control
-pnmixer                     # mixer control
+pamixer                     # mixer control
 volumeicon                  # volume control
 >extra pulseaudio-bluetooth
 
