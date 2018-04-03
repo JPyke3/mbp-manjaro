@@ -25,6 +25,9 @@ python2-xdg
 xdg-user-dirs
 xdg-utils
 
+## manjaro
+manjaro-settings-manager
+
 ## theming
 gtk3-classic
 manjaro-openbox-settings
