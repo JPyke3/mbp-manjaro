@@ -38,6 +38,7 @@ networkmanager
 networkmanager-dmenu
 
 ## browser
+lynx
 midori
 >extra chromium
 >extra firefox
@@ -47,8 +48,10 @@ termite
 >extra lxterminal
 
 ## filemanager
-xarchiver
+mc
 pcmanfm-gtk3
+ranger
+xarchiver
 >extra thunar-gtk3
 >extra thunar-archive-plugin
 >extra thunar-volman-gtk3
@@ -94,6 +97,8 @@ ps_mem                      # memory monitor
 >extra blueman
 
 ## media, audio & codec
+audacious-gtk3
+audacious-plugins-gtk3
 ffmpeg2.8
 gst-libav
 gst-plugins-base
