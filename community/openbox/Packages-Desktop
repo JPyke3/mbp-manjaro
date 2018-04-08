@@ -42,30 +42,23 @@ networkmanager-dmenu
 ## browser
 lynx
 chromium
->extra firefox
 
 ## terminal
 termite
->extra lxterminal
+lxterminal
 
 ## filemanager
 mc
 pcmanfm-gtk3
 ranger
 xarchiver
->extra thunar-gtk3
->extra thunar-archive-plugin
->extra thunar-volman-gtk3
->extra tumbler
->extra file-roller
 
 ## mail
 sylpheed
->extra thunderbird
 
 ## package manager
 pacui
->extra pamac
+pamac
 
 ## desktop and settings
 arandr                      # monitor layout
@@ -83,20 +76,14 @@ nmap                        #
 ## utilities
 epdfview                    # pdf
 galculator                  # calculator
-geany                       # geany
-geany-plugins               # geany plugins
->extra gnome-disk-utility   # disks
 gparted                     # partition tool
 gpicview-gtk3               # image viewer
 gsimplecal                  # calendar
 htop                        # process monitor
 inxi                        # sysinfo
-l3afpad                     # simple gui editor
 numlockx                    # numlock
 ps_mem                      # memory monitor
-
-## bluetooth
->extra blueman
+scite                       # multi-purpose text editor
 
 ## media, audio & codec
 audacious-gtk3
@@ -114,7 +101,3 @@ pavucontrol                 # sound control
 playerctl                   # player control
 pamixer                     # mixer control
 volumeicon                  # volume control
->extra pulseaudio-bluetooth
-
-## printer
->extra manjaro-printer
