@@ -7,7 +7,6 @@ xorg-xkill
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
-xf86-input-synaptics
 
 ## nice programs
 bash-completion
@@ -25,8 +24,12 @@ python2-xdg
 xdg-user-dirs
 xdg-utils
 
-## toolkit
+## manjaro
+manjaro-settings-manager
+
+## theming
 gtk3-classic
+manjaro-openbox-settings
 
 ## display manager
 lightdm
@@ -35,24 +38,19 @@ lightdm-slick-greeter
 ## network
 networkmanager
 networkmanager-dmenu
-networkmanager-openconnect
-networkmanager-pptp
-networkmanager-vpnc
 
 ## browser
->basic midori
->extra chromium
+lynx
+chromium
 
 ## terminal
 termite
->extra lxterminal-gtk3
+lxterminal
 
 ## filemanager
+mc
 pcmanfm-gtk3
->extra thunar-gtk3
->extra thunar-archive-plugin
->extra thunar-volman-gtk3
->extra file-roller
+ranger
 xarchiver
 
 ## mail
@@ -60,90 +58,46 @@ sylpheed
 
 ## package manager
 pacui
->extra pamac
+pamac
 
 ## desktop and settings
->extra lxrandr-gtk3         # monitor layout
 arandr                      # monitor layout
 exo-gtk3                    # open with default programs
 lxappearance-gtk3           # openbox appearance manager
 lxappearance-obconf-gtk3    # obconf plugin
 lxinput-gtk3                # input manager
 lxsession-gtk3              # session manager
-kickshaw                    # menu editor
-ob-autostart                # auto start
-obkey-gtk3                  # openbox hotkey manager
-obmenu-generator            # dynamic menu generator
-opensnap                    # snap windows
->extra polybar              # status bar
-tint2                       # status bar
->extra trayer-srg           # sys tray
-
-## theming
->basic manjaro-openbox-basic-settings
->extra manjaro-openbox-settings
-manjaro-zsh-config
-ttf-dejavu
->extra ttf-font-logos
-ttf-roboto
 
 ## net tools
-bind-tools                  # 
+bind-tools                  #
 net-tools                   #
 nmap                        #
 
-## utilities 1
-compton                     # compositing
->extra conky                #
->extra dunst                # messages
-i3lock
->extra jgmenu               # system menu
->extra jsoncpp              # required by various apps
-nitrogen                    # wallpaper
-rofi                        # nice dmenu replacement
-scrot                       # screen capture
-skippy-xd                   # window swicher
->extra wireless_tools       # polybar helper
->extra wmctrl               # polybar helper
-xcape                       # hotkey
->extra xdotool              # used by polybar
-zenity                      # bar-dock-config
-
-## utilities 2
->extra gucharmap            # char map
+## utilities
 epdfview                    # pdf
 galculator                  # calculator
->extra geany                # geany
->extra geany-plugins        # geany plugins
->extra gnome-disk-utility   # disks
 gparted                     # partition tool
 gpicview-gtk3               # image viewer
 gsimplecal                  # calendar
 htop                        # process monitor
-imagemagick                 # image converter
 inxi                        # sysinfo
-l3afpad                     # simple gui editor
->extra neofetch             #
 numlockx                    # numlock
 ps_mem                      # memory monitor
->extra screenfetch          # screen capture
+scite                       # multi-purpose text editor
 
 ## media, audio & codec
->extra manjaro-pulse
->extra alsa-firmware
->extra alsa-plugins
->extra alsa-utils
->extra ffmpeg2.8
->extra gst-libav
->extra gst-plugins-base
->extra gst-plugins-good
->extra gstreamer
->extra libmad
->extra libmatroska
->extra lxmusic-gtk3         # musicplayer
->extra mpd                  # mediaplayer
->extra mpv                  # mediaplayer
->extra pamixer              # mixer control
->extra pavucontrol          # sound control
->extra playerctl            # player control
->extra volumeicon           # volume control
+audacious-gtk3
+audacious-plugins-gtk3
+ffmpeg2.8
+gst-libav
+gst-plugins-base
+gst-plugins-good
+gstreamer
+libmad
+libmatroska
+manjaro-pulse
+mpv                         # mediaplayer
+pavucontrol                 # sound control
+playerctl                   # player control
+pamixer                     # mixer control
+volumeicon                  # volume control
