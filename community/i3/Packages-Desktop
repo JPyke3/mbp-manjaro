@@ -9,37 +9,38 @@ automake
 avahi
 binutils
 bison
-blueman
+>extra blueman
 bmenu
 cantarell-fonts
 clipit
 dfc
 dmidecode
 downgrade
-epdfview
+>extra epdfview
 fakeroot
-ffmpeg
-ffmpegthumbnailer
-flac
+>extra ffmpeg
+>extra ffmpegthumbnailer
+>extra flac
 flex
 gcc
 >multilib gcc-libs-multilib
 >multilib gcc-multilib
-gcolor2
+>extra gcolor2
 gconf
-gimp
-git
+>extra gimp
+>extra git
 gksu
 gnome-keyring
-gparted
+>extra gparted
 groff
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gstreamer
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra gstreamer
 gtk3-classic
+>multilib lib32-gtk3-classic
 gtksourceview-pkgbuild
 gufw
 gvfs
@@ -47,17 +48,17 @@ gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
-hexchat
+>extra hexchat
 htop
 inxi
-isousb
+>extra isousb
 json-c
 kvantum-manjaro
 >multilib lib32-flex
 libdvdcss
 libgpod
 libtool
-lightdm-settings
+>extra lightdm-settings
 lightdm-slick-greeter
 lm_sensors
 lxappearance
@@ -70,9 +71,9 @@ manjaro-browser-settings
 manjaro-hello
 manjaro-hotfixes
 manjaro-i3-settings
-manjaro-printer
+>extra manjaro-printer
 manjaro-settings-manager-notifier
-markdown_previewer
+>extra markdown_previewer
 mesa-demos
 mlocate
 mobile-broadband-provider-info
@@ -95,7 +96,7 @@ ntp
 open-fuse-iso
 openresolv
 openssh
-p7zip
+>extra p7zip
 palemoon-bin
 pamac
 patch
@@ -104,38 +105,38 @@ pcmanfm
 perl-file-mimeinfo
 pkg-config
 polkit-gnome
-poppler-data
+>extra poppler-data
 powertop
 qt5ct
 qt5-styleplugins
 ranger
-sbxkb
+>extra sbxkb
 screenfetch
 speedtest-cli
 subversion
 syslog-ng
 terminus-font
-transmission-gtk
+>extra transmission-gtk
 tree
-ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
+>extra ttf-bitstream-vera
+>extra ttf-dejavu
+>extra ttf-droid
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
 upower
-vertex-maia-themes
+>extra vertex-maia-themes
 vi
 viewnior
 vim
-vlc-nightly
+>extra vlc-nightly
 volumeicon
 w3m
 wmutils
-xarchiver
+>extra xarchiver
 xautolock
-xcursor-chameleon-pearl
-xcursor-maia
+>extra xcursor-chameleon-pearl
+>extra xcursor-maia
 xdg-su
 xdg-utils
 xdotool
@@ -145,7 +146,7 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xfburn
+>extra xfburn
 xfce4-power-manager
 xorg-twm
 xorg-xhost
