@@ -49,7 +49,7 @@ lxterminal
 
 ## filemanager
 mc
-spacefm
+pcmanfm
 ranger
 engrampa
 
@@ -65,6 +65,8 @@ arandr                      # monitor layout
 exo-gtk3                    # open with default programs
 lxappearance-gtk3           # openbox appearance manager
 lxappearance-obconf-gtk3    # obconf plugin
+lxinput-gtk3
+lxmenu-data
 lxsession-gtk3
 
 ## net tools
