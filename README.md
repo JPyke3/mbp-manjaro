@@ -11,6 +11,9 @@ iso-profiles
 # use multilib packages; x86_64 only
 # multilib="true"
 
+# use extra packages as defined in pkglist to activate a full profile
+# extra="false"
+
 ################ install ################
 
 # default displaymanager: none
