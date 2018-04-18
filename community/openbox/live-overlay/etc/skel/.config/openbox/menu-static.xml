@@ -21,7 +21,7 @@
 	</item>
 	<item label="Archive Manager">
 		<action name="Execute">
-			<command>engrampa</command>
+			<command>file-roller</command>
 		</action>
 	</item>
 	<item label="PDF Viewer">
@@ -129,16 +129,6 @@
 		</action>
 	</item>
 	<separator/>
-	<item label="Audio Settings">
-		<action name="Execute">
-			<command>pavucontrol</command>
-		</action>
-	</item>
-	<item label="Screen Layout">
-		<action name="Execute">
-			<command>arandr</command>
-		</action>
-	</item>
 </menu>
 <menu id="system-settings" label="System Settings">
 	<item label="Pamac">
@@ -153,7 +143,17 @@
 	</item>
 	<item label="Root File Manager">
 		<action name="Execute">
-			<command>gksu pcmanfm</command>
+			<command>gksu thunar</command>
+		</action>
+	</item>
+	<item label="Audio Settings">
+		<action name="Execute">
+			<command>pavucontrol</command>
+		</action>
+	</item>
+	<item label="Screen Layout">
+		<action name="Execute">
+			<command>arandr</command>
 		</action>
 	</item>
 	<item label="GParted">
@@ -166,15 +166,17 @@
 			<command>exo-preferred-applications</command>
 		</action>
 	</item>
-	<item label="Keyboard and Mouse">
+	<item label="System Settings">
 		<action name="Execute">
-			<command>lxinput</command>
+			<command>xfce4-settings-manager</command>
 		</action>
 	</item>
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
 	<separator label="Manjaro Openbox"/>
+	<menu id="installer"/>
+	<separator/>
 	<item label="Terminal">
 		<action name="Execute">
 			<command>exo-open --launch TerminalEmulator</command>
@@ -196,9 +198,9 @@
 		</action>
 	</item>
 	<separator/>
-	<menu id="accessories"/>
-	<menu id="screenshot"/>
 	<menu id="applications" label="Applications" execute="/usr/bin/openbox-menu lxde-applications.menu"/>
+	<menu id="accessories"/>	
+	<menu id="screenshot"/>
 	<separator/>
 	<menu id="pipe-placesmenu" label="Places" execute="manjaro-places-pipemenu --recent ~/"/>
 	<separator/>

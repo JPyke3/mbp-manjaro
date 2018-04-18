@@ -11,6 +11,9 @@ sleep 1; manjaro-polybar-session &
 # Openbox autostart
 sleep 1; ob-autostart -d &
 
+# Required for xfce settings to work
+xfsettingsd &
+
 # PolicyKit authentication
 lxpolkit &
 
