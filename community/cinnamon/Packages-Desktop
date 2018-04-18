@@ -62,7 +62,7 @@ m4
 make
 manjaro-alsa
 manjaro-browser-settings
-manjaro-cinnamon-settings
+manjaro-cinnamon-settings-dev
 >extra manjaro-documentation-en
 manjaro-hello
 manjaro-hotfixes

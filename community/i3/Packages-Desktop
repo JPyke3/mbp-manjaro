@@ -70,7 +70,7 @@ make
 manjaro-browser-settings
 manjaro-hello
 manjaro-hotfixes
-manjaro-i3-settings
+manjaro-i3-settings-dev
 >extra manjaro-printer
 manjaro-settings-manager-notifier
 >extra markdown_previewer
