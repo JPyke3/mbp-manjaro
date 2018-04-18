@@ -150,7 +150,7 @@ sublime-text-dev            # multi-purpose text editor
 ## media, audio & codec
 audacious-gtk3
 audacious-plugins-gtk3
-manjaro-pulseaudio
+manjaro-pulse
 mpv                         # mediaplayer
 pamixer
 playerctl                   # player control
