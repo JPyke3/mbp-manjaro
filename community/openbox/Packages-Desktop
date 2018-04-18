@@ -4,20 +4,20 @@ xorg-server-common
 xorg-xbacklight
 xorg-xinit
 xorg-xkill
+xorg-xprop
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 
-## nice programs
+## system programs
 bash-completion
 gamin
 gksu
-gnome-icon-theme
 gnome-keyring
 gvfs
 gvfs-afc
+gvfs-mtp
 gvfs-smb
-inxi
 polkit
 poppler
 python2-xdg
@@ -27,78 +27,131 @@ xdg-utils
 ## manjaro
 manjaro-settings-manager
 
-## theming
-gtk3-classic
-manjaro-openbox-settings
-
-## display manager
-lightdm
-lightdm-slick-greeter
-
-## network
-networkmanager
-networkmanager-dmenu
-
-## browser
-lynx
-chromium
-
-## terminal
-termite
-lxterminal
-
-## filemanager
-mc
-pcmanfm
-ranger
-engrampa
-
-## mail
-sylpheed
-
-## package manager
-pacui
-pamac
+## window manager and helpers
+compton
+conky
+dunst
+i3lock
+imagemagick
+jsoncpp
+kickshaw
+libmpdclient
+lxmenu-data
+nitrogen
+ob-autostart
+obkey-gtk3
+obmenu-generator
+openbox
+openbox-menu            
+polybar
+rofi
+skippy-xd
+scrot
+tint2
+wireless_tools
+wmctrl
+xcape
+xdotool
+zenity
 
 ## desktop and settings
 arandr                      # monitor layout
 exo-gtk3                    # open with default programs
 lxappearance-gtk3           # openbox appearance manager
 lxappearance-obconf-gtk3    # obconf plugin
-lxinput-gtk3
-lxmenu-data
-lxsession-gtk3
+lxsession-gtk3              # session manager
+xfce4-settings-gtk3
+
+## package manager
+pacui
+pamac
+
+## display manager
+lightdm
+lightdm-slick-greeter
+
+## terminal
+termite
+xfce4-terminal
+
+## filemanager
+catfish
+file-roller
+mc
+ranger
+thunar-gtk3
+thunar-archive-plugin-gtk3
+thunar-media-tags-plugin
+thunar-volman-gtk3
+tumbler
+
+## network
+networkmanager
+networkmanager-dmenu
 
 ## net tools
 bind-tools                  #
 net-tools                   #
 nmap                        #
 
+## browser
+lynx
+chromium
+
+## mail
+sylpheed
+
+## theming
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+gtk-theme-breath
+gtk3-classic
+hicolor-icon-theme
+manjaro-openbox-grub-theme
+manjaro-openbox-settings
+openbox-themes
+xcursor-breeze
+
+## fonts
+manjaro-openbox-fonts       # handpicked fonts
+ttf-dejavu
+ttf-droid
+ttf-roboto
+
+## iconic fonts
+ttf-font-awesome
+ttf-font-logos
+ttf-icomoon-icons
+ttf-material-icons
+ttf-polybar-icons
+
 ## utilities
+android-file-transfer
+android-tools
+android-udev
 epdfview                    # pdf
 galculator                  # calculator
+gcolor2                     # colorpicker
 gparted                     # partition tool
 gpicview-gtk3               # image viewer
 gsimplecal                  # calendar
-htop                        # process monitor
-inxi                        # sysinfo
+htop
+inxi
 numlockx                    # numlock
-ps_mem                      # memory monitor
-scite                       # multi-purpose text editor
+p7zip
+ps_mem
+screenfetch
+sublime-text-dev            # multi-purpose text editor
 
 ## media, audio & codec
 audacious-gtk3
 audacious-plugins-gtk3
-ffmpeg2.8
-gst-libav
-gst-plugins-base
-gst-plugins-good
-gstreamer
-libmad
-libmatroska
-manjaro-pulse
+manjaro-pulseaudio
 mpv                         # mediaplayer
-pavucontrol                 # sound control
+pamixer
 playerctl                   # player control
-pamixer                     # mixer control
+pavucontrol
 volumeicon                  # volume control
