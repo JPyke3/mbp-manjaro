@@ -9,18 +9,27 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 
-## system programs
+## system requirements
+adwaita-icon-theme          # system icons
 bash-completion
 gamin
 gksu
+gnome-icon-theme            # gnome icons
+gnome-icon-theme-extras     # -
+gnome-icon-theme-symbolic   # -
 gnome-keyring
-gvfs
-gvfs-afc
-gvfs-mtp
-gvfs-smb
-polkit
-poppler
+gnome-themes-extra          # extra gnome theming
+gtk3-classic                # toolkit
+gvfs                        # gnome virtual filesystem
+gvfs-afc                    # apple
+gvfs-mtp                    # android
+gvfs-smb                    # windows network shares
+polkit                      # policy
+poppler                     
 python2-xdg
+ttf-dejavu                  # ttf fonts
+ttf-droid                   # -
+ttf-roboto                  # -
 xdg-user-dirs
 xdg-utils
 
@@ -28,31 +37,31 @@ xdg-utils
 manjaro-settings-manager
 
 ## window manager and helpers
-compton
-conky
-dunst
-i3lock
-imagemagick
-jsoncpp
-kickshaw
-libmpdclient
-lxmenu-data
-nitrogen
-ob-autostart
-obkey-gtk3
-obmenu-generator
-openbox
-openbox-menu            
-polybar
-rofi
-skippy-xd
-scrot
-tint2
-wireless_tools
-wmctrl
-xcape
-xdotool
-zenity
+compton                     # transparency
+conky                       # info on screen
+dunst                       # messages
+i3lock                      # lockscreen
+imagemagick                 # image manipulation
+jsoncpp                     # polybar reading configs
+kickshaw                    # openbox menu editor
+libmpdclient                # polybar media controlling
+lxmenu-data                 # openbox-menu data
+nitrogen                    # wallpaper management
+ob-autostart                # openbox autostart
+obkey-gtk3                  # openbox keypress editor
+obmenu-generator            # openbox menu generator
+openbox                     # window manager
+openbox-menu                # dynamic menu generator
+polybar                     # next generation bar/launcher
+rofi                        # menu selector
+skippy-xd                   # expose style window switcher
+scrot                       # screen capture
+tint2                       # old school bar/launcher
+wireless_tools              # tools used by polybar
+wmctrl                      # controlling window manager
+xcape                       # shortcut keys define
+xdotool                     # simulate shortcut keys
+zenity                      # window for communication with user
 
 ## desktop and settings
 arandr                      # monitor layout
@@ -63,31 +72,31 @@ lxsession-gtk3              # session manager
 xfce4-settings-gtk3
 
 ## package manager
-pacui
-pamac
+pacui                       # console systemtool pacman/yaourt wrapper
+pamac                       # graphic systemtool pacman/yaourt wrapper
 
 ## display manager
-lightdm
-lightdm-slick-greeter
+lightdm                     # display manager
+lightdm-slick-greeter       # greeter
 
 ## terminal
-termite
-xfce4-terminal
+termite                     # nonsense terminal
+xfce4-terminal              # xfce terminal
 
 ## filemanager
-catfish
-file-roller
-mc
-ranger
-thunar-gtk3
-thunar-archive-plugin-gtk3
-thunar-media-tags-plugin
-thunar-volman-gtk3
-tumbler
+catfish                     # filesearch utility
+file-roller                 # archive manager utility
+mc                          # norton commander clone file manager
+ranger                      # highspeed console file manager
+thunar-gtk3                 # well reputed file manager
+thunar-archive-plugin-gtk3  # plugin for archives
+thunar-media-tags-plugin    # plugin for media
+thunar-volman-gtk3          # plugin for removable media
+tumbler                     # thumbnail generator
 
 ## network
-networkmanager
-networkmanager-dmenu
+networkmanager              # network manger including nmtui
+networkmanager-dmenu        # 
 
 ## net tools
 bind-tools                  #
@@ -95,35 +104,25 @@ net-tools                   #
 nmap                        #
 
 ## browser
-lynx
-chromium
+lynx                        # text based browser used by ranger and mc
+chromium                    # opensource browser
 
 ## mail
-sylpheed
+sylpheed                    # slim and fast mail client
 
 ## theming
-adwaita-icon-theme
-gnome-icon-theme
-gnome-icon-theme-extras
-gnome-icon-theme-symbolic
-gnome-themes-extra
 gtk-theme-breath
-gtk3-classic
 hicolor-icon-theme
 manjaro-openbox-grub-theme
 manjaro-openbox-settings
 manjaro-wallpapers-18.0
 manjaro-zsh-config
 openbox-themes
+vibrancy-colors
 xcursor-breeze
 
-## fonts
+## theming iconic fonts
 manjaro-openbox-fonts       # handpicked fonts
-ttf-dejavu
-ttf-droid
-ttf-roboto
-
-## iconic fonts
 ttf-font-awesome
 ttf-font-logos
 ttf-icomoon-icons
@@ -131,22 +130,23 @@ ttf-material-icons
 ttf-polybar-icons
 
 ## utilities
-android-file-transfer
-android-tools
-android-udev
+android-file-transfer       # android file
+android-tools               # adb and fastboot
+android-udev                # rules for attaching android devices to usb
 epdfview                    # pdf
 galculator                  # calculator
 gcolor2                     # colorpicker
 gparted                     # partition tool
 gpicview-gtk3               # image viewer
 gsimplecal                  # calendar
-htop
-inxi
+htop                        # process monitor used by polybar
+inxi                        # human readable sysinfo
 numlockx                    # numlock
-p7zip
-ps_mem
-screenfetch
-sublime-text-dev            # multi-purpose text editor
+p7zip                       # archive manager for 7zip
+ps_mem                      # process view
+screenfetch                 # show off your system
+sublime-text-dev            # multi-purpose text editor 
+                            # proprietary preview - no timelimit - occacional nag screen
 
 ## media, audio & codec
 audacious-gtk3
