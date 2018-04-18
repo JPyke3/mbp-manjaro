@@ -121,7 +121,7 @@ openbox-themes
 vibrancy-colors
 xcursor-breeze
 
-## theming iconic fonts
+## iconic fonts used by theming
 manjaro-openbox-fonts       # handpicked fonts
 ttf-font-awesome
 ttf-font-logos
