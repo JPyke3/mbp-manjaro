@@ -99,7 +99,6 @@ openssh
 >extra p7zip
 palemoon-bin
 pamac
-papirus-maia-icon-theme # move to settings depends with 18.0
 patch
 patchutils
 pcmanfm
