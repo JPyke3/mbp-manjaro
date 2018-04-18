@@ -1,3 +1,4 @@
+>extra adapta-maia-theme
 alsa-firmware
 alsa-utils
 autoconf
@@ -109,7 +110,6 @@ terminus-font
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
->extra adapta-maia-theme
 >extra xarchiver
 >extra xcursor-breeze
 xdg-su

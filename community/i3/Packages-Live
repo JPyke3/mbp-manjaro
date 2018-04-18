@@ -1,9 +1,1 @@
-calamares
-manjaro-live-skel
-manjaro-architect
-manjaro-architect-launcher
-mkinitcpio-nfs-utils
-nbd
-grub-theme-live-manjaro
-squashfs-tools
-manjaro-live-systemd
+../../shared/Packages-Live-Xorg

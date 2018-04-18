@@ -10,7 +10,7 @@ evince
 >extra firefox
 gdm
 manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
-manjaro-gnome-maia-theme #branding theme for GDM 
+manjaro-gdm-18.0-theme-dev #branding theme for GDM: 18.0 development 
 gedit 
 gtksourceview-pkgbuild #highlight for PKGBUILD
 gnome-backgrounds
@@ -117,8 +117,8 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 >systemd usb_modeswitch
-arc-maia-icon-theme
-#firefox-arc-maia-settings #disable theming since upstream no adjust the theme
+# arc-maia-icon-theme
+# firefox-arc-maia-settings #disable theming since upstream no adjust the theme
 vino
 xdg-su
 xdg-user-dirs

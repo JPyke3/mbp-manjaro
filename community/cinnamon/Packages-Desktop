@@ -94,6 +94,7 @@ openssh
 >extra openvpn
 >extra p7zip
 pamac
+papirus-maia-icon-theme # move to settings depends with 18.0
 >extra parcellite
 patch
 >extra patchutils
