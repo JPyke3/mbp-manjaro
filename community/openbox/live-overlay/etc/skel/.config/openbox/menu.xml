@@ -9,7 +9,7 @@
 	</item>
 	<item label="Architect Installer">
 		<action name="Execute">
-			<command>sudo setup</command>
+			<command>termite -e "sudo setup"</command>
 		</action>
 	</item>	
 </menu>
