@@ -51,7 +51,6 @@ ob-autostart                # openbox autostart
 obkey-gtk3                  # openbox keypress editor
 obmenu-generator            # openbox menu generator
 openbox                     # window manager
-openbox-menu                # dynamic menu generator
 polybar                     # next generation bar/launcher
 rofi                        # menu selector
 skippy-xd                   # expose style window switcher
