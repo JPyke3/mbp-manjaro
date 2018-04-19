@@ -26,6 +26,7 @@ deepin-gtk-theme
 >extra deepin-screenshot
 >extra deepin-system-monitor
 deepin-terminal
+>extra deluge
 dmidecode
 >extra downgrade
 >extra evince
@@ -103,7 +104,6 @@ screenfetch
 >extra sushi
 syslog-ng
 terminus-font
->extra transmission-gtk
 >extra ttf-bitstream-vera
 >extra ttf-dejavu
 >extra ttf-droid

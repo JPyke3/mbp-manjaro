@@ -11,6 +11,7 @@ bison
 cinnamon-sounds
 >extra cinnamon-wallpapers
 >extra dconf-editor
+>extra deluge
 dmidecode
 fakeroot
 >extra ffmpegthumbnailer
@@ -117,7 +118,6 @@ screenfetch
 >extra system-config-printer
 terminus-font
 >extra thunderbird
->extra transmission-gtk
 tree
 ttf-bitstream-vera
 ttf-dejavu

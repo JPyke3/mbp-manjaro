@@ -13,6 +13,7 @@ bison
 bmenu
 cantarell-fonts
 clipit
+>extra deluge
 dfc
 dmidecode
 downgrade
@@ -116,7 +117,6 @@ speedtest-cli
 subversion
 syslog-ng
 terminus-font
->extra transmission-gtk
 tree
 >extra ttf-bitstream-vera
 >extra ttf-dejavu
