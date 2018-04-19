@@ -3,7 +3,7 @@ feh
 fluxbox-theme-vertex-maia
 KERNEL-broadcom-wl
 KERNEL-r8168
-KERNEL-rt3562sta
+#KERNEL-rt3562sta
 KERNEL-virtualbox-guest-modules
 manjaro-hotfixes
 manjaro-live-skel

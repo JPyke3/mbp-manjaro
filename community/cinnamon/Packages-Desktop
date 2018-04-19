@@ -62,7 +62,7 @@ m4
 make
 manjaro-alsa
 manjaro-browser-settings
-manjaro-cinnamon-settings
+manjaro-cinnamon-settings-dev
 >extra manjaro-documentation-en
 manjaro-hello
 manjaro-hotfixes
@@ -94,7 +94,6 @@ openssh
 >extra openvpn
 >extra p7zip
 pamac
-papirus-maia-icon-theme # move to settings depends with 18.0
 >extra parcellite
 patch
 >extra patchutils
