@@ -154,4 +154,3 @@ mpv                         # mediaplayer
 pamixer
 playerctl                   # player control
 pavucontrol
-volumeicon                  # volume control
