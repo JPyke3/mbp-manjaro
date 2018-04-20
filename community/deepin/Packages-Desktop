@@ -98,6 +98,7 @@ polkit-gnome
 >extra pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+>extra pygtk # needed for deluge
 >extra redshift
 screenfetch
 >extra subversion
