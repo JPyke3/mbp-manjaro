@@ -112,8 +112,9 @@ sylpheed                    # slim and fast mail client
 ## theming
 gtk-theme-breath
 hicolor-icon-theme
+manjaro-base-skel
+manjaro-openbox-common
 manjaro-openbox-grub-theme
-manjaro-openbox-settings
 manjaro-wallpapers-18.0
 manjaro-zsh-config
 openbox-themes
@@ -148,8 +149,6 @@ sublime-text-dev            # multi-purpose text editor
                             # proprietary preview - no timelimit - occacional nag screen
 
 ## media, audio & codec
-audacious-gtk3
-audacious-plugins-gtk3
 manjaro-pulse
 mpv                         # mediaplayer
 pamixer
