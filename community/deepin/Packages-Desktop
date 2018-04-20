@@ -26,6 +26,7 @@ deepin-gtk-theme
 >extra deepin-screenshot
 >extra deepin-system-monitor
 deepin-terminal
+>extra deluge
 dmidecode
 >extra downgrade
 >extra evince
@@ -97,13 +98,13 @@ polkit-gnome
 >extra pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+>extra pygtk # needed for deluge
 >extra redshift
 screenfetch
 >extra subversion
 >extra sushi
 syslog-ng
 terminus-font
->extra transmission-gtk
 >extra ttf-bitstream-vera
 >extra ttf-dejavu
 >extra ttf-droid

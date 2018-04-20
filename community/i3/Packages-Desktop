@@ -13,6 +13,7 @@ bison
 bmenu
 cantarell-fonts
 clipit
+>extra deluge
 dfc
 dmidecode
 downgrade
@@ -107,6 +108,7 @@ pkg-config
 polkit-gnome
 >extra poppler-data
 powertop
+>extra pygtk # needed for deluge
 qt5ct
 qt5-styleplugins
 ranger
@@ -116,7 +118,6 @@ speedtest-cli
 subversion
 syslog-ng
 terminus-font
->extra transmission-gtk
 tree
 >extra ttf-bitstream-vera
 >extra ttf-dejavu
