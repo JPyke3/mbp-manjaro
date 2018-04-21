@@ -3,8 +3,38 @@
 plasma-desktop
 dolphin
 konsole
+>extra kwrite
+
+## plasma - extra packages
+>extra kde-servicemenus-rootactions
+>extra plasma-pa
+>extra kde-gtk-config
+>extra breeze-gtk
+>extra systemd-kcm
+>extra plasma-wayland-session
+>extra xdg-user-dirs
+>extra ark
+# optional dependencies of ark:
+>extra p7zip
+>extra unrar
 
 ## display manager
 sddm
+>extra sddm-kcm
 
+## package manager
+>extra octopi
+>extra octopi-notifier-frameworks
+>extra octopi-cachecleaner
+>extra octopi-repoeditor
+>extra pacmanlogviewer
 
+## AUR support
+>extra base-devel
+>extra git
+>extra yaourt
+
+## manjaro settings manager
+>extra manjaro-settings-manager
+>extra manjaro-settings-manager-kcm
+>extra manjaro-settings-manager-knotifier

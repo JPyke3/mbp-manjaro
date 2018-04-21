@@ -20,5 +20,5 @@ memtest86+
 efibootmgr
 intel-ucode
 
-## network: please enable the following systemd services in profile.conf file:
+## network: please enable the following systemd services in profile.conf file both for live and installed systems:
 #  'systemd-resolved' 'systemd-networkd'
