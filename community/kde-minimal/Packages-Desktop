@@ -1,4 +1,11 @@
 
+## xorg
+xorg-server
+
+## display manager
+sddm
+>extra sddm-kcm
+
 ## plasma
 plasma-desktop
 dolphin
@@ -17,10 +24,6 @@ konsole
 # optional dependencies of ark:
 >extra p7zip
 >extra unrar
-
-## display manager
-sddm
->extra sddm-kcm
 
 ## package manager
 >extra octopi
