@@ -1,0 +1,8 @@
+[Match]
+Name=en*
+
+[Network]
+DHCP=yes
+
+[DHCP]
+RouteMetric=10

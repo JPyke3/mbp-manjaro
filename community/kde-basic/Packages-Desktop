@@ -1,0 +1,40 @@
+
+## plasma
+plasma-desktop
+dolphin
+konsole
+kwrite
+
+## plasma - extra packages
+kde-servicemenus-rootactions
+plasma-pa
+kde-gtk-config
+breeze-gtk
+systemd-kcm
+plasma-wayland-session
+xdg-user-dirs
+ark
+# optional dependencies of ark:
+p7zip
+unrar
+
+## display manager
+sddm
+sddm-kcm
+
+## package manager
+octopi
+octopi-notifier-frameworks
+# octopi-cachecleaner
+# octopi-repoeditor
+# pacmanlogviewer
+
+## AUR support
+base-devel
+git
+yaourt
+
+## manjaro settings manager
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
+
