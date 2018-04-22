@@ -6,17 +6,11 @@ base
 manjaro-system
 mhwd
 sudo
-
-## required packages
-systemd-sysvcompat
-licenses
 KERNEL
-# KERNEL-r8168
 
 ## boot loader
 grub
 os-prober
-memtest86+
 efibootmgr
 intel-ucode
 
