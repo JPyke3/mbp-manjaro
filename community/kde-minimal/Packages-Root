@@ -1,0 +1,24 @@
+
+## base system
+base
+
+## manjaro base system
+manjaro-system
+mhwd
+sudo
+
+## required packages
+systemd-sysvcompat
+licenses
+KERNEL
+# KERNEL-r8168
+
+## boot loader
+grub
+os-prober
+memtest86+
+efibootmgr
+intel-ucode
+
+## network: please enable the following systemd services in profile.conf file both for live and installed systems:
+#  'systemd-resolved' 'systemd-networkd'
