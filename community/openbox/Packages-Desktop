@@ -37,7 +37,7 @@ xdg-utils
 manjaro-settings-manager
 
 ## window manager and helpers
-compton                     # transparency
+compton                     # compositor
 conky                       # info on screen
 dunst                       # messages
 i3lock                      # lockscreen
@@ -48,6 +48,7 @@ libmpdclient                # polybar media controlling
 lxmenu-data                 # openbox-menu data
 nitrogen                    # wallpaper management
 ob-autostart                # openbox autostart
+obconf                      # openbox config
 obkey-gtk3                  # openbox keypress editor
 obmenu-generator            # openbox menu generator
 openbox                     # window manager
@@ -83,10 +84,10 @@ termite                     # nonsense terminal
 xfce4-terminal              # xfce terminal
 
 ## filemanager
-catfish                     # filesearch utility
-file-roller                 # archive manager utility
-mc                          # norton commander clone file manager
-ranger                      # highspeed console file manager
+catfish                     # filesearch
+file-roller                 # archive manager
+mc                          # norton commander clone
+ranger                      # alternative
 thunar-gtk3                 # well reputed file manager
 thunar-archive-plugin-gtk3  # plugin for archives
 thunar-media-tags-plugin    # plugin for media

@@ -64,11 +64,16 @@
 </menu>
 <menu id="preferences" label="Preferences">
 	<menu id="obConfig" label="Openbox">
-		<item label="Settings Editor">
+		<item label="Lx Appearance Editor">
 			<action name="Execute">
 				<command>lxappearance</command>
 			</action>
 		</item>
+		<item label="ObConf Appearance Editor">
+			<action name="Execute">
+				<command>obconf</command>
+			</action>
+		</item>		
 		<item label="Menu Editor">
 			<action name="Execute">
 				<command>kickshaw</command>
@@ -84,7 +89,12 @@
 				<command>ob-autostart</command>
 			</action>
 		</item>
-		<separator/>
+		<item label="Edit autostart">
+			<action name="Execute">
+				<command>exo-open ~/.config/openbox/autostart</command>
+			</action>
+		</item>
+		<separator label="Configuration files"/>
 		<item label="Edit menu.xml">
 			<action name="Execute">
 				<command>exo-open ~/.config/openbox/menu.xml</command>
@@ -93,11 +103,6 @@
 		<item label="Edit rc.xml">
 			<action name="Execute">
 				<command>exo-open ~/.config/openbox/rc.xml</command>
-			</action>
-		</item>
-		<item label="Edit autostart">
-			<action name="Execute">
-				<command>exo-open ~/.config/openbox/autostart</command>
 			</action>
 		</item>
 		<separator/>
@@ -192,12 +197,16 @@
 			<command>exo-open --launch WebBrowser</command>
 		</action>
 	</item>
+	<item label="Mail Reader">
+		<action name="Execute">
+			<command>exo-open --launch MailReader</command>
+		</action>
+	</item>
 	<item label="Text Editor">
 		<action name="Execute">
 			<command>subl3</command>
 		</action>
-	</item>
-	<separator/>
+	</item>	<separator/>
 	<menu id="applications" label="Applications" execute="/usr/bin/obmenu-generator -S ~/.config/obmenu-generator/applications.pl"/>
 	<menu id="accessories"/>	
 	<menu id="screenshot"/>
