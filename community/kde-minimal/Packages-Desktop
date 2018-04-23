@@ -23,11 +23,12 @@ konsole
 >extra ark
 # optional dependencies of ark:
 >extra p7zip
->extra unrar
+>extra unarchiver
 
 ## package manager
 >extra octopi
 >extra octopi-notifier-frameworks
+# optional dependencies of octopi:
 >extra octopi-cachecleaner
 >extra octopi-repoeditor
 >extra pacmanlogviewer

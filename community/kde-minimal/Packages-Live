@@ -5,6 +5,8 @@ manjaro-live-systemd
 grub-theme-live-manjaro
 nbd
 mkinitcpio-nfs-utils
+systemd-sysvcompat
+licenses
 
 ## GUI installer
 calamares
@@ -12,6 +14,7 @@ squashfs-tools
 xdg-user-dirs
 
 ## system repair tools for chroot, partitioning, internet research, iso writer, SMART tool, ...
+memtest86+
 manjaro-tools-base
 falkon
 imagewriter
