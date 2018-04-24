@@ -25,7 +25,7 @@ gvfs-afc                    # apple
 gvfs-mtp                    # android
 gvfs-smb                    # windows network shares
 polkit                      # policy
-poppler                     
+poppler
 python2-xdg
 ttf-dejavu                  # ttf fonts
 ttf-droid                   # -
