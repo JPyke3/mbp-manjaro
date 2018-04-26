@@ -149,6 +149,11 @@ screenfetch                 # show off your system
 sublime-text-dev            # multi-purpose text editor 
                             # proprietary preview - no timelimit - occacional nag screen
 
+## disk utilities
+clonezilla
+fsarchiver
+testdisk
+
 ## media, audio & codec
 manjaro-pulse
 mpv                         # mediaplayer
