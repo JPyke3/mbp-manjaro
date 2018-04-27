@@ -121,7 +121,6 @@ syslog-ng
 terminus-font
 tree
 >extra ttf-bitstream-vera
->extra ttf-dejavu
 >extra ttf-droid
 >extra ttf-inconsolata
 >extra ttf-indic-otf
