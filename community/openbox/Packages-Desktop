@@ -14,148 +14,17 @@ bash-completion
 gamin
 gksu
 gtk3-classic                # toolkit
-gvfs                        # gnome virtual filesystem
-gvfs-afc                    # apple
-gvfs-mtp                    # android
-gvfs-smb                    # windows network shares
 polkit                      # policy
 poppler
 python2-xdg
 xdg-user-dirs
 xdg-utils
 
-## manjaro
-manjaro-settings-manager
-
-## window manager and helpers
-compton                     # compositor
-conky                       # info on screen
-dunst                       # messages
-i3lock                      # lockscreen
-imagemagick                 # image manipulation
-jsoncpp                     # polybar reading configs
-kickshaw                    # openbox menu editor
-libmpdclient                # polybar media controlling
-lxmenu-data                 # openbox-menu data
-nitrogen                    # wallpaper management
-ob-autostart                # openbox autostart
-obconf                      # openbox config
-obkey-gtk3                  # openbox keypress editor
-obmenu-generator            # openbox menu generator
-openbox                     # window manager
-polybar                     # next generation bar/launcher
-rofi                        # menu selector
-skippy-xd                   # expose style window switcher
-scrot                       # screen capture
-stalonetray                 # system tray
-tint2                       # old school bar/launcher
-wireless_tools              # tools used by polybar
-wmctrl                      # controlling window manager
-xcape                       # shortcut keys define
-xdotool                     # simulate shortcut keys
-zenity                      # window for communication with user
-
-## desktop and settings
-arandr                      # monitor layout
-exo-gtk3                    # open with default programs
-lxappearance-gtk3           # openbox appearance manager
-lxappearance-obconf-gtk3    # obconf plugin
-lxsession-gtk3              # session manager
-
-## package manager
-pacui                       # console systemtool pacman/yaourt wrapper
-pamac                       # graphic systemtool pacman/yaourt wrapper
-
-## display manager
-lightdm                     # display manager
-lightdm-slick-greeter       # greeter
-
-## terminal
-termite                     # nonsense terminal
-guake						# dropdown terminal
-
-## filemanager
-catfish                     # filesearch
-file-roller                 # archive manager
-mc                          # norton commander clone
-ranger                      # alternative
-thunar-gtk3                 # well reputed file manager
-thunar-archive-plugin-gtk3  # plugin for archives
-thunar-media-tags-plugin    # plugin for media
-thunar-volman-gtk3          # plugin for removable media
-tumbler                     # thumbnail generator
-
-## network
-networkmanager              # network manger including nmtui
-networkmanager-dmenu        # 
-
-## net tools
-bind-tools                  #
-net-tools                   #
-nmap                        #
-
-## browser
-lynx                        # text based browser used by ranger and mc
-chromium                    # opensource browser
-
-## mail
-sylpheed                    # slim and fast mail client
-
-## theming
-adwaita-icon-theme          # system icons
-gnome-icon-theme            # gnome icons
-gnome-icon-theme-extras     # -
-gnome-icon-theme-symbolic   # -
-gnome-keyring
-gnome-themes-extra          # extra gnome theming
-gtk-theme-breath
-hicolor-icon-theme
 manjaro-base-skel
 manjaro-openbox-common
+manjaro-openbox-fonts
 manjaro-openbox-grub-theme
+manjaro-settings-manager
 manjaro-zsh-config
-openbox-themes
-ttf-dejavu                  # ttf fonts
-ttf-droid                   # -
-ttf-roboto                  # -
-vibrancy-colors
-xcursor-breeze
-
-## iconic fonts used by theming
-manjaro-openbox-fonts       # handpicked fonts
-ttf-font-awesome
-ttf-font-logos
-ttf-icomoon-icons
-ttf-material-icons
-ttf-polybar-icons
-
-## utilities
-android-file-transfer       # android file
-android-tools               # adb and fastboot
-android-udev                # rules for attaching android devices to usb
-epdfview                    # pdf
-galculator                  # calculator
-gcolor2                     # colorpicker
-gparted                     # partition tool
-gpicview-gtk3               # image viewer
-gsimplecal                  # calendar
-htop                        # process monitor used by polybar
-inxi                        # human readable sysinfo
-numlockx                    # numlock
-p7zip                       # archive manager for 7zip
-ps_mem                      # process view
-screenfetch                 # show off your system
-sublime-text-dev            # multi-purpose text editor 
-                            # proprietary preview - no timelimit - occacional nag screen
-
-## disk utilities
-clonezilla
-fsarchiver
-testdisk
-
-## media, audio & codec
-manjaro-pulse
-mpv                         # mediaplayer
-pamixer
-playerctl                   # player control
-pavucontrol
+manjaro-openbox-base
+>extra manjaro-openbox-extra
