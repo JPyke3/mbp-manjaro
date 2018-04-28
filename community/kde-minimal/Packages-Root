@@ -6,6 +6,10 @@ base
 manjaro-system
 mhwd
 sudo
+
+## required packages
+systemd-sysvcompat
+licenses
 KERNEL
 
 ## boot loader
