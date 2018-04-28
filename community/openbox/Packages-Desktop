@@ -81,7 +81,7 @@ lightdm-slick-greeter       # greeter
 
 ## terminal
 termite                     # nonsense terminal
-xfce4-terminal              # xfce terminal
+guake						# dropdown terminal
 
 ## filemanager
 catfish                     # filesearch
@@ -116,7 +116,6 @@ hicolor-icon-theme
 manjaro-base-skel
 manjaro-openbox-common
 manjaro-openbox-grub-theme
-manjaro-wallpapers-18.0
 manjaro-zsh-config
 openbox-themes
 vibrancy-colors
