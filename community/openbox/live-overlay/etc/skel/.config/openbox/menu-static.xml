@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <openbox_menu>
-<menu id="installer" label="Installation">
-	<item label="Calamares Installer">
-		<action name="Execute">
-			<command>sudo calamares</command>
-		</action>
-	</item>
-	<item label="Architect Installer">
-		<action name="Execute">
-			<command>termite -e "sudo setup"</command>
-		</action>
-	</item>	
-</menu>
 <menu id="accessories" label="Accessories">
 	<item label="Calculator">
 		<action name="Execute">
@@ -64,19 +52,19 @@
 </menu>
 <menu id="preferences" label="Preferences">
 	<menu id="obConfig" label="Openbox">
-		<item label="Settings Editor">
+		<item label="LX Appearance Configuration">
 			<action name="Execute">
 				<command>lxappearance</command>
 			</action>
 		</item>
+		<item label="ObConf Appearance Configuration">
+			<action name="Execute">
+				<command>obconf</command>
+			</action>
+		</item>		
 		<item label="Menu Editor">
 			<action name="Execute">
 				<command>kickshaw</command>
-			</action>
-		</item>
-		<item label="Keybind Editor">
-			<action name="Execute">
-				<command>obkey</command>
 			</action>
 		</item>
 		<item label="Autostart Editor">
@@ -84,20 +72,25 @@
 				<command>ob-autostart</command>
 			</action>
 		</item>
-		<separator/>
-		<item label="Edit menu.xml">
+		<item label="Keybind Editor">
+			<action name="Execute">
+				<command>obkey</command>
+			</action>
+		</item>
+		<separator label="Configuration files"/>
+		<item label="Open autostart">
+			<action name="Execute">
+				<command>exo-open ~/.config/openbox/autostart</command>
+			</action>
+		</item>
+		<item label="Open menu.xml">
 			<action name="Execute">
 				<command>exo-open ~/.config/openbox/menu.xml</command>
 			</action>
 		</item>
-		<item label="Edit rc.xml">
+		<item label="Open rc.xml">
 			<action name="Execute">
 				<command>exo-open ~/.config/openbox/rc.xml</command>
-			</action>
-		</item>
-		<item label="Edit autostart">
-			<action name="Execute">
-				<command>exo-open ~/.config/openbox/autostart</command>
 			</action>
 		</item>
 		<separator/>
@@ -172,11 +165,23 @@
 		</action>
 	</item>
 </menu>
+<menu id="installer" label="Installation">
+	<item label="Calamares Installer">
+		<action name="Execute">
+			<command>sudo calamares</command>
+		</action>
+	</item>
+	<item label="Architect Installer">
+		<action name="Execute">
+			<command>termite -e "sudo setup"</command>
+		</action>
+	</item>	
+</menu>
 
 <menu id="root-menu" label="Openbox 3">
 	<separator label="Manjaro Openbox"/>
 	<menu id="installer"/>
-	<separator/>
+	<separator/>	
 	<item label="Terminal">
 		<action name="Execute">
 			<command>exo-open --launch TerminalEmulator</command>
@@ -192,12 +197,16 @@
 			<command>exo-open --launch WebBrowser</command>
 		</action>
 	</item>
+	<item label="Mail Reader">
+		<action name="Execute">
+			<command>exo-open --launch MailReader</command>
+		</action>
+	</item>
 	<item label="Text Editor">
 		<action name="Execute">
 			<command>subl3</command>
 		</action>
-	</item>
-	<separator/>
+	</item>	<separator/>
 	<menu id="applications" label="Applications" execute="/usr/bin/obmenu-generator -S ~/.config/obmenu-generator/applications.pl"/>
 	<menu id="accessories"/>	
 	<menu id="screenshot"/>

@@ -3,7 +3,7 @@ alsa-firmware
 alsa-plugins
 alsa-utils
 arandr
-artwork-i3
+>extra artwork-i3
 autoconf
 automake
 avahi
@@ -51,6 +51,7 @@ gvfs-mtp
 gvfs-smb
 >extra hexchat
 htop
+i3-default-artwork
 inxi
 >extra isousb
 json-c
@@ -120,7 +121,6 @@ syslog-ng
 terminus-font
 tree
 >extra ttf-bitstream-vera
->extra ttf-dejavu
 >extra ttf-droid
 >extra ttf-inconsolata
 >extra ttf-indic-otf
