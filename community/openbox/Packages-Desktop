@@ -10,15 +10,9 @@ xf86-input-libinput
 xf86-input-mouse
 
 ## system requirements
-adwaita-icon-theme          # system icons
 bash-completion
 gamin
 gksu
-gnome-icon-theme            # gnome icons
-gnome-icon-theme-extras     # -
-gnome-icon-theme-symbolic   # -
-gnome-keyring
-gnome-themes-extra          # extra gnome theming
 gtk3-classic                # toolkit
 gvfs                        # gnome virtual filesystem
 gvfs-afc                    # apple
@@ -27,9 +21,6 @@ gvfs-smb                    # windows network shares
 polkit                      # policy
 poppler
 python2-xdg
-ttf-dejavu                  # ttf fonts
-ttf-droid                   # -
-ttf-roboto                  # -
 xdg-user-dirs
 xdg-utils
 
@@ -111,6 +102,12 @@ chromium                    # opensource browser
 sylpheed                    # slim and fast mail client
 
 ## theming
+adwaita-icon-theme          # system icons
+gnome-icon-theme            # gnome icons
+gnome-icon-theme-extras     # -
+gnome-icon-theme-symbolic   # -
+gnome-keyring
+gnome-themes-extra          # extra gnome theming
 gtk-theme-breath
 hicolor-icon-theme
 manjaro-base-skel
@@ -118,6 +115,9 @@ manjaro-openbox-common
 manjaro-openbox-grub-theme
 manjaro-zsh-config
 openbox-themes
+ttf-dejavu                  # ttf fonts
+ttf-droid                   # -
+ttf-roboto                  # -
 vibrancy-colors
 xcursor-breeze
 
