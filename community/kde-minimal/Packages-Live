@@ -5,8 +5,6 @@ manjaro-live-systemd
 grub-theme-live-manjaro
 nbd
 mkinitcpio-nfs-utils
-systemd-sysvcompat
-licenses
 
 ## GUI installer
 calamares
