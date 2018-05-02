@@ -1,0 +1,215 @@
+## Network
+avahi
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+networkmanager-dispatcher-ntpd
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+ntp
+mobile-broadband-provider-info
+modemmanager
+openresolv
+openssh
+samba
+usb_modeswitch
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libdvdcss
+>multilib manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+
+## AUR Support/Development
+# Missing base-devel packages
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+>multilib gcc-libs-multilib
+>multilib gcc-multilib
+libtool
+m4
+make
+patch
+pkg-config
+>multilib lib32-flex
+git
+patchutils
+subversion
+yaourt
+
+## Display manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+accountsservice  # Enhanced user accounts handling
+
+## LXDE Group
+lxappearance-obconf
+lxde-common
+lxhotkey
+lxinput
+lxlauncher
+lxpanel
+lxrandr
+lxsession
+lxtask
+lxterminal
+pcmanfm
+
+## Essential stuff for good LXDE experience
+xfce4-power-manager
+light-locker
+cantarell-fonts
+pamac
+obconf
+blueman
+ffmpegthumbnailer  # tumbler - for video thumbnails
+freetype2          # tumbler - for font thumbnails
+gconf              # fix qt-theme
+gksu
+gnome-keyring      # fix wlan segfault
+gtk3-classic
+libgsf             # tumbler - for ODF thumbnails
+libopenraw         # tumbler - for RAW thumbnails
+network-manager-applet
+pavucontrol
+manjaro-lxde-logout-banner
+manjaro-lxde-settings
+manjaro-lxde-xfce4-notifyd
+manjaro-lxde-xfce4-volumed-pulse
+poppler-data   #CKJ support for pdf
+qt5ct
+qt5-styleplugins
+
+# theming
+gnome-icon-theme
+gnome-themes-standard
+ttf-dejavu
+
+## Basic Applications
+manjaro-hello
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+engrampa
+gnome-disk-utility
+gparted
+inxi
+dmidecode # optional dependency inxi
+leafpad
+scrot
+firefox
+hexchat
+
+epdfview
+gpicview
+galculator-gtk2
+
+# Optional dependencies engrampa
+p7zip  # 7Z and ARJ archive support
+unace  # ACE archive support
+unrar  # RAR archive support
+
+## Documentation
+manjaro-documentation-en
+
+## Xorg Input Drivers
+xf86-input-synaptics
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+
+## Xorg Server and Graphics
+numlockx
+mesa-demos
+>multilib lib32-mesa-demos
+xorg-server
+xorg-twm
+xorg-xinit
+xorg-xkill
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-user-dirs
+xdg-utils
+xdg-su
+
+## Misc
+manjaro-hotfixes
+
+##### EXTRA - TO BE INCLUDED IN NETGROUPS #####
+
+## Java
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
+
+## Printing Support
+>extra manjaro-printer
+>extra gtk3-print-backends
+>extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
+>extra python-reportlab # For hplip
+
+## Scanner Support
+>extra simple-scan
+
+## Extra Fonts
+>extra terminus-font
+>extra ttf-bitstream-vera
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Extra Themes/Artwork
+>extra manjaro-wallpapers-17.0
+
+## Extra Cli Applications
+>extra pacui
+>extra powertop
+>extra htop
+>extra mlocate
+
+## Extra Applications
+>extra gufw
+>extra guvcview
+>extra transmission-gtk
+>extra gimp
+>extra libreoffice-fresh
+>extra vlc-nightly
+>extra thunderbird
+>extra xfburn
+>extra yelp
