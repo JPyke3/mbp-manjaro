@@ -14,6 +14,7 @@ budgie-desktop
 manjaro-budgie-settings
 papirus-maia-icon-theme
 manjaro-icons
+libappindicator-gtk3
 baobab
 dconf-editor
 hexchat
