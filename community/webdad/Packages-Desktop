@@ -4,6 +4,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+networkmanager-dispatcher-ntpd
 ntp
 mobile-broadband-provider-info
 modemmanager
@@ -73,7 +74,7 @@ noto-fonts
 ttf-roboto
 
 ## Games
->extra steam-manjaro # needed for the workspaces
+>extra steam-manjaro 
 pingus
 gnome-mahjongg
 aisleriot
@@ -106,7 +107,7 @@ pamac
 
 ## Display manager
 lightdm
-lightdm-slick-greeter
+lightdm-webkit2-greeter-manjaro
 accountsservice  # Enhanced user accounts handling
 
 # bluetooth
@@ -118,16 +119,15 @@ bluez-plugins
 # improve responsiveness 
 preload
 irqbalance
-tracker
 
 # WebDad desktop
+jade-desktop-mode
 manjaro-webdad-settings
 webdad-speech
 webdad-webapps
 jade-dashboard
 cairo-dock
-jwm
-compton
+kwin
 hyper
 cairo-dock-plug-ins
 zeitgeist            # needed for cairo-dock events
@@ -135,11 +135,12 @@ pa-applet
 blueman
 dunst
 dex
-feh
 polkit-gnome
 manjaro-hello
 manjaro-settings-manager
+#manjaro-settings-manager-kcm
 manjaro-settings-manager-notifier
+#systemsettings
 network-manager-applet
 pavucontrol
 gnome-keyring      # fix wlan segfault
@@ -154,16 +155,11 @@ sushi
 file-roller
 timeshift
 
-## Themes QT/GTK/SDDM
-paper-icon-theme-git
-xcursor-breeze
-
 ## Applications
-kodi      # needed for the workspaces
 lxrandr-gtk3
 gthumb
 >extra simple-scan
-imagewriter
+etcher
 dmidecode # optional dependency inxi
 gedit
 nano
@@ -177,7 +173,6 @@ inxi
 >extra libreoffice-fresh
 >extra vlc-nightly
 ms-office-online
-riot-desktop
 atom
 
 # Compression
@@ -199,7 +194,7 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xf86-input-wacom
+#xf86-input-wacom
 xf86-input-synaptics
 
 ## Xorg Server and Graphics
