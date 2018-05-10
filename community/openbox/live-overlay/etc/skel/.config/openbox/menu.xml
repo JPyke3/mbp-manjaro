@@ -13,7 +13,7 @@
 		</action>
 	</item>
 </menu>
-<menu id="commonUtilities" label="Utilities">
+<menu id="common-utilities" label="Utilities">
 	<item label="Calculator">
 		<action name="Execute">
 			<command>galculator</command>
@@ -35,12 +35,7 @@
 		</action>
 	</item>
 </menu>
-<menu id="diskUtilities" label="Disk Utilities">
-	<item label="Testdisk">
-		<action name="Execute">
-			<command>termite -e "sudo testdisk"</command>
-		</action>
-	</item>
+<menu id="disk-utilities" label="Disk Utilities">
 	<item label="Clonezilla">
 		<action name="Execute">
 			<command>termite -e "sudo clonezilla"</command>
@@ -48,11 +43,16 @@
 	</item>
 	<item label="GParted">
 		<action name="Execute">
-			<command>gparted</command>
+			<command>zensu gparted</command>
 		</action>
 	</item>
+    <item label="Testdisk">
+        <action name="Execute">
+            <command>termite -e "sudo testdisk"</command>
+        </action>
+    </item>
 </menu>
-<menu id="networkUtilities" label="Network Utilities">
+<menu id="network-utilities" label="Network Utilities">
 	<item label="Zen Map">
 		<action name="Execute">
 			<command>zensu zenmap"</command>
@@ -60,11 +60,6 @@
 	</item>
 </menu>
 <menu id="screenshot" label="Screenshot">
-	<item label="Screenshot Now">
-		<action name="Execute">
-			<command>scrot &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
-		</action>
-	</item>
 	<item label="Screenshot in 5">
 		<action name="Execute">
 			<command>scrot -d 5 &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
@@ -75,7 +70,7 @@
 			<command>scrot -d 10 &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
 		</action>
 	</item>
-	<item label="Screenshot With Selection">
+	<item label="Screenshot with Selection">
 		<action name="Execute">
 			<command>scrot -s &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
 		</action>
@@ -83,32 +78,32 @@
 </menu>
 <menu id="preferences" label="Preferences">
 	<menu id="obConfig" label="Openbox">
-		<item label="Appearance Configuration">
+        <item label="Autostart Editor">
+            <action name="Execute">
+                <command>ob-autostart</command>
+            </action>
+        </item>
+        <item label="Keybind Editor">
+            <action name="Execute">
+                <command>obkey</command>
+            </action>
+        </item>
+		<item label="LX Appearance">
 			<action name="Execute">
 				<command>lxappearance</command>
 			</action>
 		</item>
+        <item label="Menu Editor">
+            <action name="Execute">
+                <command>kickshaw</command>
+            </action>
+        </item>
 		<item label="Openbox Configuration">
 			<action name="Execute">
 				<command>obconf</command>
 			</action>
 		</item>
-		<item label="Menu Editor">
-			<action name="Execute">
-				<command>kickshaw</command>
-			</action>
-		</item>
-		<item label="Keybind Editor">
-			<action name="Execute">
-				<command>obkey</command>
-			</action>
-		</item>
-		<item label="Autostart Editor">
-			<action name="Execute">
-				<command>ob-autostart</command>
-			</action>
-		</item>
-		<separator/>
+		<separator label="Config Files"/>
 		<item label="Edit menu.xml">
 			<action name="Execute">
 				<command>subl3 ~/.config/openbox/menu.xml</command>
@@ -157,7 +152,7 @@
 <menu id="system-settings" label="System Settings">
 	<item label="Pacui">
 		<action name="Execute">
-			<command>termite "-e pacui"</command>
+			<command>termite -e pacui</command>
 		</action>
 	</item>
 	<item label="Root File Manager">
@@ -181,30 +176,30 @@
 	<separator label="Manjaro Openbox"/>
 	<menu id="installer"/>
 	<separator/>
+    <item label="File Manager">
+        <action name="Execute">
+            <command>thunar</command>
+        </action>
+    </item>
 	<item label="Terminal">
 		<action name="Execute">
 			<command>termite</command>
 		</action>
 	</item>
-	<item label="File Manager">
-		<action name="Execute">
-			<command>pcmanfm</command>
-		</action>
-	</item>
+    <item label="Text Editor">
+        <action name="Execute">
+            <command>subl3</command>
+        </action>
+    </item>
 	<item label="Web Browser">
 		<action name="Execute">
 			<command>basilisk</command>
 		</action>
 	</item>
-	<item label="Text Editor">
-		<action name="Execute">
-			<command>subl3</command>
-		</action>
-	</item>
 	<separator/>
-	<menu id="commonUtilities"/>
-    <menu id="diskUtilities"/>
-    <menu id="networkUtilities"/>
+	<menu id="common-utilities"/>
+    <menu id="disk-utilities"/>
+    <menu id="network-utilities"/>
 	<menu id="screenshot"/>
 	<separator/>
 	<menu id="pipe-placesmenu" label="Places" execute="manjaro-places-pipemenu --recent ~/"/>
