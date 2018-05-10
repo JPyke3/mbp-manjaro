@@ -20,13 +20,15 @@ python2-xdg
 xdg-user-dirs
 xdg-utils
 
+## iso specific
+gparted
+
 ## manjaro
 manjaro-settings-manager
 manjaro-wallpapers-18.0
 
-## core openbox
+## openbox settings
 manjaro-openbox-common
-manjaro-openbox-core
 manjaro-openbox-grub-theme
 manjaro-openbox-scripts
 manjaro-openbox-settings
