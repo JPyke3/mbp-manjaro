@@ -1,16 +1,16 @@
 # compton
-manjaro-compositor --start; sleep 0.5 &
+sleep 1; manjaro-compositor --start &
 
 # enable numlock, commented out for laptop users
-#numlockx; sleep 0.5 &
+#sleep 1; numlockx &
 
 # restore wallpaper
-nitrogen --restore &
-manjaro-polybar-session; sleep 0.5 &
-manjaro-conky-session; sleep 0.5 &
+sleep 0.5; nitrogen --restore &
+sleep 0.5; manjaro-polybar-session &
+manjaro-conky-session &
 
 # Openbox autostart
-ob-autostart -d; sleep 0.5 &
+sleep 1; ob-autostart -d &
 
 # Required for xfce settings to work
 xfsettingsd &

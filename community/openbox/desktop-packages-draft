@@ -1,0 +1,61 @@
+## system requirements
+dmidecode # optional for inxi
+gamin
+gnome-keyring
+gksu
+gtk3-classic
+inxi
+lxsession-gtk3
+polkit
+
+## Common Libs for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+
+# Manjaro
+manjaro-browser-settings
+manjaro-documentation-en
+manjaro-hello
+manjaro-settings-manager
+
+## Openbox minimal
+>basic manjaro-openbox-minimal
+>basic manjaro-openbox-settings-minimal
+
+## Openbox extra
+>extra manjaro-openbox-extra
+>extra manjaro-openbox-extra
+
+## Display Manager
+lightdm
+lightdm-slick-greeter
+accountsservice
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+
+## Xorg Server and Graphics
+xorg-server
+mesa-demos
+>multilib lib32-mesa-demos
+xorg-twm
+xorg-xbackligt
+xorg-xinit
+xorg-xkill
+xorg-xprop
+
+## Desktop Utils
+numlockx
+perl-file-mimeinfo
+python2-xdg
+xdg-user-dirs
+xdg-utils
+xdg-su
+
+## Misc
+manjaro-hotfixes

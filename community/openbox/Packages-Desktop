@@ -10,21 +10,55 @@ xf86-input-libinput
 xf86-input-mouse
 
 ## system requirements
-bash-completion
-gamin
-gksu
+gnome-keyring
 gtk3-classic                # toolkit
+>multilib lib32-gtk3-classic
 polkit                      # policy
 poppler
 python2-xdg
 xdg-user-dirs
 xdg-utils
 
-manjaro-base-skel
-manjaro-openbox-common
-manjaro-openbox-fonts
-manjaro-openbox-grub-theme
+## graphical partitioning
+gparted
+
+## manjaro
+manjaro-openbox-settings
 manjaro-settings-manager
-manjaro-zsh-config
-manjaro-openbox-base
+
+## core openbox
+manjaro-openbox-core
+
+## minimal openbox
+>basic manjaro-openbox-minimal
+>basic manjaro-openbox-minimal-skel
+
+## extra openbox
 >extra manjaro-openbox-extra
+>extra manjaro-openbox-extra-skel
+
+## TODO
+# create a openbox-live-minimal
+# create a openbox-live-extra
+
+## aur support
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+>multilib gcc-libs-multilib
+>multilib gcc-multilib
+git
+libtool
+m4
+make
+patch
+pkg-config
+>multilib lib32-flex
+
+# Extra packages for AUR support
+>extra patchutils
+>extra subversion
