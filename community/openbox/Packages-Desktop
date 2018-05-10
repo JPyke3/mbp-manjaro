@@ -22,6 +22,8 @@ xdg-utils
 
 ## iso specific
 gparted
+jre8-openjdk
+ipscan
 
 ## manjaro
 manjaro-settings-manager
