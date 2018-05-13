@@ -10,7 +10,9 @@ nbd
 squashfs-tools
 clonezilla
 
+######################
 ## openbox specific
+######################
 bind-tools
 fsarchiver
 gparted

@@ -52,18 +52,18 @@ manjaro-guake-config
 >extra ffmpegthumbnailer
 >extra freetype2
 >extra gcolor2
->extra gpicview-gtk3
->extra gsimplecal
+>extra guake
 >extra gufw
 >extra gvfs-smb
 >extra libgsf
 >extra libopenraw
 >extra libreoffice-fresh
 >extra manjaro-pulse
->extra ntp
->extra mlocate
+#>extra networkmanager
+#>extra networkmanager-openvpn
+#>extra networkmanager-pptp
+#>extra nm-connection-editor
 >extra mpv
->extra mtpfs
 >extra pamac
 >extra pamixer
 >extra pavucontrol
@@ -91,13 +91,14 @@ manjaro-guake-config
 #####################
 ## packages minimal
 #####################
-basilisk-bin
+abiword
+chromium
 file-roller
 galculator
 gedit
+gnumeric
 gpicview-gtk3
 gsimplecal
-guake
 gvfs
 gvfs-afc
 gvfs-mtp
@@ -108,7 +109,6 @@ lxappearance-gtk3
 lxappearance-obconf-gtk3
 mintstick
 networkmanager
-networkmanager-dmenu
 p7zip
 pacui
 ps_mem
@@ -117,6 +117,8 @@ screenfetch
 sylpheed
 thunar-gtk3
 unarchiver
+wicd-gtk
+wicd-patched
 
 #####################
 ## packages core

@@ -21,7 +21,7 @@
 	</item>
 	<item label="Archive Manager">
 		<action name="Execute">
-			<command>xarchiver</command>
+			<command>file-roller</command>
 		</action>
 	</item>
 	<item label="PDF Viewer">
@@ -53,9 +53,14 @@
     </item>
 </menu>
 <menu id="network-utilities" label="Network Utilities">
+	<item label="Angry IP Scanner">
+		<action name="Execute">
+			<command>ipscan</command>
+		</action>
+	</item>
 	<item label="Zen Map">
 		<action name="Execute">
-			<command>zensu zenmap"</command>
+			<command>zensu zenmap</command>
 		</action>
 	</item>
 </menu>
@@ -78,19 +83,14 @@
 </menu>
 <menu id="preferences" label="Preferences">
 	<menu id="obConfig" label="Openbox">
-        <item label="Autostart Editor">
-            <action name="Execute">
-                <command>ob-autostart</command>
-            </action>
-        </item>
-        <item label="Keybind Editor">
-            <action name="Execute">
-                <command>obkey</command>
-            </action>
-        </item>
 		<item label="LX Appearance">
 			<action name="Execute">
 				<command>lxappearance</command>
+			</action>
+		</item>
+		<item label="Openbox Configuration">
+			<action name="Execute">
+				<command>obconf</command>
 			</action>
 		</item>
         <item label="Menu Editor">
@@ -98,12 +98,17 @@
                 <command>kickshaw</command>
             </action>
         </item>
-		<item label="Openbox Configuration">
-			<action name="Execute">
-				<command>obconf</command>
-			</action>
-		</item>
-		<separator label="Config Files"/>
+        <item label="Keybind Editor">
+            <action name="Execute">
+                <command>obkey</command>
+            </action>
+        </item>
+        <item label="Autostart Editor">
+            <action name="Execute">
+                <command>ob-autostart</command>
+            </action>
+        </item>
+		<separator/>
 		<item label="Edit menu.xml">
 			<action name="Execute">
 				<command>gedit ~/.config/openbox/menu.xml</command>
@@ -152,7 +157,7 @@
 <menu id="system-settings" label="System Settings">
 	<item label="Pacui">
 		<action name="Execute">
-			<command>termite -e pacui</command>
+			<command>termite --geometry 550x350 -e pacui</command>
 		</action>
 	</item>
 	<item label="Root File Manager">
@@ -165,37 +170,32 @@
 			<command>arandr</command>
 		</action>
 	</item>
-	<item label="GParted">
-		<action name="Execute">
-			<command>zensu gparted</command>
-		</action>
-	</item>
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
 	<separator label="Manjaro Openbox"/>
 	<menu id="installer"/>
 	<separator/>
+    <item label="Terminal">
+        <action name="Execute">
+            <command>termite</command>
+        </action>
+    </item>
+    <item label="Web Browser">
+        <action name="Execute">
+            <command>chromium</command>
+        </action>
+    </item>
     <item label="File Manager">
         <action name="Execute">
             <command>thunar</command>
         </action>
     </item>
-	<item label="Terminal">
-		<action name="Execute">
-			<command>termite</command>
-		</action>
-	</item>
     <item label="Text Editor">
         <action name="Execute">
             <command>gedit</command>
         </action>
     </item>
-	<item label="Web Browser">
-		<action name="Execute">
-			<command>basilisk</command>
-		</action>
-	</item>
 	<separator/>
 	<menu id="common-utilities"/>
     <menu id="disk-utilities"/>
