@@ -103,11 +103,11 @@ testdisk
 
 ## browser
 lynx                        # text based browser used by ranger and mc
-#chromium                    # opensource browser
 basilisk-bin
+#chromium                   # opensource browser
 
 ## mail
-claws-mail                  # slim and fast mail client
+sylpheed                    # slim and fast mail client
 
 ## theming
 manjaro-openbox-common
@@ -121,6 +121,7 @@ manjaro-openbox-theming-theme
 manjaro-wallpapers-18.0
 manjaro-zsh-config
 manjaro-guake-config
+openbox-themes
 
 ## utilities
 android-file-transfer       # android file
@@ -138,7 +139,7 @@ numlockx                    # numlock
 p7zip                       # archive manager for 7zip
 ps_mem                      # process view
 screenfetch                 # show off your system
-sublime-text-dev            # multi-purpose text editor 
+sublime-text-dev            # multi-purpose text editor
                             # proprietary preview - no timelimit - occacional nag screen
 
 ## media, audio & codec
