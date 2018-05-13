@@ -1,6 +1,6 @@
 calamares-git
 >manjaro grub-theme-live-manjaro
->openbox manjaro-openbox-grub-theme
+manjaro-illyria-openbox-grub-theme
 gsmartcontrol
 manjaro-architect
 manjaro-live-skel
@@ -9,6 +9,7 @@ mkinitcpio-nfs-utils
 nbd
 squashfs-tools
 clonezilla
+
 ## openbox specific
 bind-tools
 fsarchiver
