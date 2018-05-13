@@ -1,4 +1,185 @@
+
+## live iso
+#bind-tools
+#clonezilla
+#fsarchiver
+#gparted
+#ipscan
+#jre8-openjdk
+#net-tools
+#nmap
+#testdisk
+
+#####################
+## manjaro
+#####################
+#manjaro-documentation-en
+#manjaro-hello
+
+#####################
+## settings
+#####################
+>basic manjaro-openbox-minimal-skel-dev
+>extra manjaro-openbox-extra-skel-dev
+manjaro-illyria-openbox-grub-theme
+#manjaro-openbox-scripts
+manjaro-openbox-scripts-dev
+manjaro-openbox-settings
+manjaro-openbox-theming-fonts
+manjaro-openbox-theming-icons
+manjaro-openbox-theming-theme
+manjaro-settings-manager
+
+#####################
+## terminal configs
+#####################
+manjaro-zsh-config
+manjaro-guake-config
+
+#####################
+## packages extra
+#####################
+>extra android-tools
+>extra android-udev
+>extra audacious-gtk3
+>extra audacious-plugins-gtk3
+>extra avahi
+>extra chromium
+>extra blueman
+>extra catfish
+>extra sylpheed
+>extra exo-gtk3
+>extra ffmpegthumbnailer
+>extra freetype2
+>extra gcolor2
+>extra gpicview-gtk3
+>extra gsimplecal
+>extra gufw
+>extra gvfs-smb
+>extra libgsf
+>extra libopenraw
+>extra libreoffice-fresh
+>extra manjaro-pulse
+>extra ntp
+>extra mlocate
+>extra mpv
+>extra mtpfs
+>extra pamac
+>extra pamixer
+>extra pavucontrol
+>extra playerctl
+>extra pulseaudio-bluetooth
+>extra pulseaudio-ctl
+>extra pulseaudio-zeroconf
+>extra pamac
+>extra poppler-data
+>extra poppler-glib
+>extra smbclient
+>extra thunar-archive-plugin-gtk3
+>extra thunar-media-tags-plugin
+>extra thunar-volman-gtk3
+>extra tumbler
+>extra udiskie
+>extra udisks2
+>extra ufw
+>extra usb_modeswitch
+>extra vlc-nightly
+>extra volumeicon
+>extra xfburn
+>extra xfce4-settings-gtk3
+
+#####################
+## packages minimal
+#####################
+basilisk-bin
+file-roller
+galculator
+gedit
+gpicview-gtk3
+gsimplecal
+guake
+gvfs
+gvfs-afc
+gvfs-mtp
+htop
+inxi
+lynx
+lxappearance-gtk3
+lxappearance-obconf-gtk3
+mintstick
+networkmanager
+networkmanager-dmenu
+p7zip
+pacui
+ps_mem
+qpdfview
+screenfetch
+sylpheed
+thunar-gtk3
+unarchiver
+
+#####################
+## packages core
+#####################
+arandr
+compton
+conky
+dunst
+guake
+htop
+i3lock
+imagemagick
+jsoncpp
+kickshaw
+libmpdclient
+lightdm
+lightdm-slick-greeter
+lxmenu-data
+lxsession-gtk3
+lynx
+mc
+nitrogen
+numlockx
+ob-autostart
+obconf
+obkey-gtk3
+obmenu-generator
+openbox
+polybar
+ranger
+rofi
+skippy-xd
+scrot
+stalonetray
+termite
+termite-terminfo
+tint2
+update-notifier
+wireless_tools
+wmctrl
+xcape
+xcmenu
+xdotool
+zenity
+zensu
+
+#####################
+## system
+#####################
+bash-completion
+gamin
+gnome-keyring
+gtk3-classic                # toolkit
+polkit                      # policy
+poppler
+python2-xdg
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+
+#####################
 ## xorg
+#####################
 xorg-server
 xorg-server-common
 xorg-xbacklight
@@ -8,137 +189,3 @@ xorg-xprop
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
-
-## system requirements
-bash-completion
-gamin
-#gksu
-zensu
-gnome-keyring
-gtk3-classic                # toolkit
-gvfs                        # gnome virtual filesystem
-gvfs-afc                    # apple
-gvfs-mtp                    # android
-gvfs-smb                    # windows network shares
-polkit                      # policy
-poppler
-python2-xdg
-xdg-user-dirs
-xdg-user-dirs-gtk
-xdg-utils
-
-## manjaro
-manjaro-settings-manager
-
-## window manager and helpers
-compton                     # transparency
-conky                       # info on screen
-dunst                       # messages
-i3lock                      # lockscreen
-imagemagick                 # image manipulation
-jsoncpp                     # polybar reading configs
-kickshaw                    # openbox menu editor
-libmpdclient                # polybar media controlling
-lxmenu-data                 # openbox-menu data
-nitrogen                    # wallpaper management
-ob-autostart                # openbox autostart
-obkey-gtk3                  # openbox keypress editor
-obmenu-generator            # openbox menu generator
-openbox                     # window manager
-polybar                     # next generation bar/launcher
-rofi                        # menu selector
-skippy-xd                   # expose style window switcher
-scrot                       # screen capture
-tint2                       # old school bar/launcher
-wireless_tools              # tools used by polybar
-wmctrl                      # controlling window manager
-xcape                       # shortcut keys define
-xdotool                     # simulate shortcut keys
-zenity                      # window for communication with user
-
-## desktop and settings
-arandr                      # monitor layout
-exo-gtk3                    # open with default programs
-lxappearance-gtk3           # openbox appearance manager
-lxappearance-obconf-gtk3    # obconf plugin
-lxsession-gtk3              # session manager
-obconf
-xfce4-settings-gtk3
-
-## package manager
-pacui                       # console systemtool pacman/yaourt wrapper
-pamac                       # graphic systemtool pacman/yaourt wrapper
-
-## display manager
-lightdm                     # display manager
-lightdm-slick-greeter       # greeter
-
-## terminal
-termite                     # nonsense terminal
-xfce4-terminal              # xfce terminal
-
-## filemanager
-catfish                     # filesearch utility
-file-roller                 # archive manager utility
-mc                          # norton commander clone file manager
-ranger                      # highspeed console file manager
-thunar-gtk3                 # well reputed file manager
-thunar-archive-plugin-gtk3  # plugin for archives
-thunar-media-tags-plugin    # plugin for media
-thunar-volman-gtk3          # plugin for removable media
-tumbler                     # thumbnail generator
-
-## network
-networkmanager              # network manger including nmtui
-networkmanager-dmenu        #
-
-## browser
-lynx                        # text based browser used by ranger and mc
-basilisk-bin
-#chromium                   # opensource browser
-
-## mail
-sylpheed                    # slim and fast mail client
-
-## theming
-manjaro-openbox-common
-manjaro-openbox-extra-skel
-manjaro-openbox-grub-theme
-manjaro-openbox-scripts
-manjaro-openbox-settings
-manjaro-openbox-theming-fonts
-manjaro-openbox-theming-icons
-manjaro-openbox-theming-theme
-manjaro-wallpapers-18.0
-manjaro-zsh-config
-manjaro-guake-config
-openbox-themes
-
-## utilities
-#android-file-transfer       # android file
-android-tools               # adb and fastboot
-android-udev                # rules for attaching android devices to usb
-qpdfview                    # pdf
-galculator                  # calculator
-gcolor2                     # colorpicker
-gparted                     # partition tool
-gpicview-gtk3               # image viewer
-gsimplecal                  # calendar
-htop                        # process monitor used by polybar
-inxi                        # human readable sysinfo
-numlockx                    # numlock
-p7zip                       # archive manager for 7zip
-ps_mem                      # process view
-screenfetch                 # show off your system
-sublime-text-dev            # multi-purpose text editor
-                            # proprietary preview - no timelimit - occacional nag screen
-
-## media, audio & codec
-audacious-gtk3
-audacious-plugins-gtk3
-manjaro-pulse
-mpv                         # mediaplayer
-pamixer
-playerctl                   # player control
-pavucontrol
-volumeicon                  # volume control
