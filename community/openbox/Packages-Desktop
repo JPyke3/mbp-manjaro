@@ -22,13 +22,17 @@ manjaro-wallpapers-18.0
 ## edition theming and settings
 #####################
 manjaro-openbox-grub-theme
+
 # -----> change when released
 #manjaro-openbox-scripts
+
 manjaro-openbox-scripts-dev
 manjaro-openbox-settings
+
 # -----> change when released
 #>basic manjaro-openbox-minimal-skel
 #>extra manjaro-openbox-extra-skel
+
 >basic manjaro-openbox-minimal-skel-dev
 >extra manjaro-openbox-extra-skel-dev
 manjaro-openbox-theming-fonts
@@ -125,7 +129,6 @@ arandr
 compton
 conky
 dunst
-guake
 htop
 i3lock
 imagemagick
