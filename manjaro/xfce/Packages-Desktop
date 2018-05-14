@@ -136,7 +136,6 @@ xfwm4-gtk3
 blueman
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
-gconf              # fix qt-theme
 gksu
 gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
@@ -181,11 +180,9 @@ xfce4-pulseaudio-plugin
 pavucontrol
 
 ## Themes QT/GTK/SDDM
->extra manjaro-wallpapers-17.0
-#breath-wallpaper
+>extra manjaro-wallpapers-18.0
 gnome-icon-theme
 gnome-themes-standard
-gtk-theme-breath
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 
@@ -263,4 +260,3 @@ xdg-su
 
 ## Misc
 manjaro-hotfixes
-vibrancy-icons-teal
