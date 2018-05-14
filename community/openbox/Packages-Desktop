@@ -1,38 +1,39 @@
-
-## live iso
-#bind-tools
-#clonezilla
-#fsarchiver
-#gparted
-#ipscan
-#jre8-openjdk
-#net-tools
-#nmap
-#testdisk
+#####################
+## system tools
+#####################
+bind-tools
+clonezilla
+fsarchiver
+gparted
+ipscan
+jre8-openjdk
+net-tools
+nmap
+testdisk
 
 #####################
 ## manjaro
 #####################
-#manjaro-documentation-en
-#manjaro-hello
+manjaro-documentation-en
+manjaro-hello
 
 #####################
-## settings
+## edition theming and settings
 #####################
->basic manjaro-openbox-minimal-skel-dev
->extra manjaro-openbox-extra-skel-dev
-manjaro-illyria-openbox-grub-theme
+manjaro-openbox-grub-theme
+# -----> change when released
 #manjaro-openbox-scripts
 manjaro-openbox-scripts-dev
 manjaro-openbox-settings
+# -----> change when released
+#>basic manjaro-openbox-minimal-skel
+#>extra manjaro-openbox-extra-skel
+>basic manjaro-openbox-minimal-skel-dev
+>extra manjaro-openbox-extra-skel-dev
 manjaro-openbox-theming-fonts
 manjaro-openbox-theming-icons
 manjaro-openbox-theming-theme
 manjaro-settings-manager
-
-#####################
-## terminal configs
-#####################
 manjaro-zsh-config
 manjaro-guake-config
 
@@ -102,9 +103,7 @@ gsimplecal
 gvfs
 gvfs-afc
 gvfs-mtp
-htop
 inxi
-lynx
 lxappearance-gtk3
 lxappearance-obconf-gtk3
 mintstick
