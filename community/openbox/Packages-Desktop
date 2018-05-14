@@ -134,7 +134,6 @@ libmpdclient
 lightdm
 lightdm-slick-greeter
 lxmenu-data
-lxsession-gtk3
 lynx
 mc
 nitrogen
@@ -188,6 +187,7 @@ gamin
 gnome-keyring
 gtk3-classic                # toolkit
 polkit                      # policy
+polkit-gnome
 poppler
 python2-xdg
 xdg-user-dirs
