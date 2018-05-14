@@ -1,0 +1,30 @@
+## xorg
+xorg-server
+xorg-server-common
+xorg-xbacklight
+xorg-xinit
+xorg-xkill
+xorg-xprop
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+
+## system requirements
+bash-completion
+gamin
+gksu
+gtk3-classic                # toolkit
+polkit                      # policy
+poppler
+python2-xdg
+xdg-user-dirs
+xdg-utils
+
+manjaro-base-skel
+manjaro-openbox-common
+manjaro-openbox-fonts
+manjaro-openbox-grub-theme
+manjaro-settings-manager
+manjaro-zsh-config
+manjaro-openbox-base
+>extra manjaro-openbox-extra

@@ -1,1 +1,23 @@
-../../shared/Packages-Live
+calamares-git
+>manjaro grub-theme-live-manjaro
+manjaro-illyria-openbox-grub-theme
+gsmartcontrol
+manjaro-architect
+manjaro-live-skel
+manjaro-live-systemd
+mkinitcpio-nfs-utils
+nbd
+squashfs-tools
+clonezilla
+
+######################
+## openbox specific
+######################
+bind-tools
+fsarchiver
+gparted
+ipscan
+jre8-openjdk
+net-tools
+nmap
+testdisk

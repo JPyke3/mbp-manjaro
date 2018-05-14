@@ -1,0 +1,143 @@
+# openbox edition
+
+
+## system requirements
+bash-completion
+gamin
+gksu
+gtk3-classic
+mate-polkit
+python2-xdg
+
+
+## Network Common
+networkmanager
+openssh
+
+## Network Minimal
+
+## Network Extra
+>extra avahi
+>extra networkmanager-openconnect
+>extra networkmanager-openvpn
+>extra networkmanager-pptp
+>extra network-manager-vpnc
+>extra ntp
+>extra mobile-broadband-provider-info
+>extra modemmanager
+>extra openresolv
+>extra samba
+>extra usb_modeswitch
+
+## Common Libs for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+
+
+## Thumbnailing
+>extra ffmpegthumbnailer
+>extra freetype2
+>extra libgsf
+>extra libopenraw
+>extra poppler-glilb
+>extra tumbler
+
+## Common Applications
+dmidecode
+gksu
+gnome-keyring
+gpicview
+htop
+inxi
+libgsf
+libopenraw
+manjaro-settings-manager
+qpdfview
+sublime-text-dev
+sylpheed
+termite
+ujh
+## Basic Internet App
+>basic falkon
+
+## Extra Internet App
+>extra chromium
+
+## Extra applications
+>extra audacious-gtk3
+>extra audacious-plugins-gtk3
+>extra blueman
+>extra catfish
+>extra galcuclator
+>extra gparted
+>extra gufw
+>extra libreoffice-fresh
+>extra manjaro-hello
+>extra manjaro-settings-manager-notifier
+>extra mlocate
+>extra poppler-data
+>extra vlc-nightly
+>extra xfburn
+
+## Optional dependencies engrampa
+>extra p7zip  # 7Z and ARJ archive support
+>extra unace  # ACE archive support
+>extra unrar  # RAR archive support
+
+## Documentation
+manjaro-documentation-en
+
+## Common settings
+manjaro-base-skel
+manjaro-browser-settings
+manjaro-openbox-common
+manjaro-openbox-grub-theme
+manjaro-openbox-theming-fonts
+manjaro-openbox-theming-icons
+manjaro-openbox-theming-theme
+manjaro-zsh-config
+
+## Basic settings package
+>basic manjaro-openbox-minimal
+
+## Extra settings package
+>extra manjaro-openbox-extra
+
+## GTK3
+exo-gtk3
+thunar-gtk3
+thunar-archive-plugin-gtk3
+thunar-media-tags-plugin
+thunar-volman-gtk3
+
+## Display Manager
+lightdm
+lightdm-slick-greeter
+accountsservice
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+
+## Xorg Server and Graphics
+xorg-server
+mesa-demos
+>multilib lib32-mesa-demos
+xorg-twm
+xorg-xinit
+xorg-xkill
+xorg-xprop
+
+## Desktop Utils
+numlockx
+perl-file-mimeinfo
+xdg-user-dirs
+xdg-utils
+xdg-su
+
+## Misc
+manjaro-hotfixes

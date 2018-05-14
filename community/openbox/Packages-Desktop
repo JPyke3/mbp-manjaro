@@ -16,6 +16,7 @@ testdisk
 #####################
 manjaro-documentation-en
 manjaro-hello
+manjaro-wallpapers-18.0
 
 #####################
 ## edition theming and settings
@@ -35,7 +36,7 @@ manjaro-openbox-theming-icons
 manjaro-openbox-theming-theme
 manjaro-settings-manager
 manjaro-zsh-config
-manjaro-guake-config
+>extra manjaro-guake-config
 
 #####################
 ## packages extra
@@ -87,7 +88,6 @@ manjaro-guake-config
 >extra vlc-nightly
 >extra volumeicon
 >extra xfburn
->extra xfce4-settings-gtk3
 
 #####################
 ## packages minimal
@@ -104,8 +104,6 @@ gvfs
 gvfs-afc
 gvfs-mtp
 inxi
-lxappearance-gtk3
-lxappearance-obconf-gtk3
 mintstick
 networkmanager
 p7zip
@@ -118,6 +116,7 @@ thunar-gtk3
 unarchiver
 wicd-gtk
 wicd-patched
+xfce4-settings-gtk3
 
 #####################
 ## packages core
@@ -163,6 +162,24 @@ xcmenu
 xdotool
 zenity
 zensu
+
+#####################
+## system icons
+#####################
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
+
+#####################
+## system fonts
+#####################
+ttf-dejavu
+ttf-droid
+ttf-roboto
+
 
 #####################
 ## system
