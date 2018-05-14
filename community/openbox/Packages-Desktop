@@ -1,40 +1,42 @@
-
-## live iso
-#bind-tools
-#clonezilla
-#fsarchiver
-#gparted
-#ipscan
-#jre8-openjdk
-#net-tools
-#nmap
-#testdisk
+#####################
+## system tools
+#####################
+bind-tools
+clonezilla
+fsarchiver
+gparted
+ipscan
+jre8-openjdk
+net-tools
+nmap
+testdisk
 
 #####################
 ## manjaro
 #####################
-#manjaro-documentation-en
-#manjaro-hello
+manjaro-documentation-en
+manjaro-hello
+manjaro-wallpapers-18.0
 
 #####################
-## settings
+## edition theming and settings
 #####################
->basic manjaro-openbox-minimal-skel-dev
->extra manjaro-openbox-extra-skel-dev
-manjaro-illyria-openbox-grub-theme
+manjaro-openbox-grub-theme
+# -----> change when released
 #manjaro-openbox-scripts
 manjaro-openbox-scripts-dev
 manjaro-openbox-settings
+# -----> change when released
+#>basic manjaro-openbox-minimal-skel
+#>extra manjaro-openbox-extra-skel
+>basic manjaro-openbox-minimal-skel-dev
+>extra manjaro-openbox-extra-skel-dev
 manjaro-openbox-theming-fonts
 manjaro-openbox-theming-icons
 manjaro-openbox-theming-theme
 manjaro-settings-manager
-
-#####################
-## terminal configs
-#####################
 manjaro-zsh-config
-manjaro-guake-config
+>extra manjaro-guake-config
 
 #####################
 ## packages extra
@@ -86,7 +88,6 @@ manjaro-guake-config
 >extra vlc-nightly
 >extra volumeicon
 >extra xfburn
->extra xfce4-settings-gtk3
 
 #####################
 ## packages minimal
@@ -102,11 +103,7 @@ gsimplecal
 gvfs
 gvfs-afc
 gvfs-mtp
-htop
 inxi
-lynx
-lxappearance-gtk3
-lxappearance-obconf-gtk3
 mintstick
 networkmanager
 p7zip
@@ -119,6 +116,7 @@ thunar-gtk3
 unarchiver
 wicd-gtk
 wicd-patched
+xfce4-settings-gtk3
 
 #####################
 ## packages core
@@ -127,7 +125,6 @@ arandr
 compton
 conky
 dunst
-guake
 htop
 i3lock
 imagemagick
@@ -164,6 +161,24 @@ xcmenu
 xdotool
 zenity
 zensu
+
+#####################
+## system icons
+#####################
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
+
+#####################
+## system fonts
+#####################
+ttf-dejavu
+ttf-droid
+ttf-roboto
+
 
 #####################
 ## system
