@@ -35,9 +35,9 @@ manjaro-openbox-settings
 
 >basic manjaro-openbox-minimal-skel-dev
 >extra manjaro-openbox-extra-skel-dev
-manjaro-openbox-theming-fonts
-manjaro-openbox-theming-icons
-manjaro-openbox-theming-theme
+manjaro-openbox-theme-fonts
+manjaro-openbox-theme-icons
+manjaro-openbox-theme-18.0
 manjaro-settings-manager
 manjaro-zsh-config
 >extra manjaro-guake-config
