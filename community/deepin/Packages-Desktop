@@ -9,7 +9,7 @@ binutils
 bison
 >extra brasero
 fakeroot
->extra firefox
+firefox
 flex
 >extra dconf-editor
 deepin-calendar
