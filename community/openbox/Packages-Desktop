@@ -54,7 +54,6 @@
 #####################
 bind-tools
 clonezilla
-fsarchiver
 gparted
 ipscan
 jre8-openjdk
