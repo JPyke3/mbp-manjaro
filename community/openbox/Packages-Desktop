@@ -1,4 +1,205 @@
+#####################
+## system tools
+#####################
+bind-tools
+clonezilla
+fsarchiver
+gparted
+ipscan
+jre8-openjdk
+net-tools
+nmap
+testdisk
+
+#####################
+## manjaro
+#####################
+manjaro-documentation-en
+manjaro-hello
+manjaro-wallpapers-18.0
+
+#####################
+## edition theming and settings
+#####################
+manjaro-openbox-grub-theme
+
+# -----> change when released
+#manjaro-openbox-scripts
+
+manjaro-openbox-scripts-dev
+manjaro-openbox-settings
+
+# -----> change when released
+#>basic manjaro-openbox-minimal-skel
+#>extra manjaro-openbox-extra-skel
+
+>basic manjaro-openbox-minimal-skel-dev
+>extra manjaro-openbox-extra-skel-dev
+manjaro-openbox-theme-fonts
+manjaro-openbox-theme-18.0
+manjaro-settings-manager
+manjaro-zsh-config
+>extra manjaro-guake-config
+
+#####################
+## packages extra
+#####################
+>extra android-tools
+>extra android-udev
+>extra audacious-gtk3
+>extra audacious-plugins-gtk3
+>extra avahi
+>extra chromium
+>extra blueman
+>extra catfish
+>extra sylpheed
+>extra exo-gtk3
+>extra ffmpegthumbnailer
+>extra freetype2
+>extra gcolor2
+>extra guake
+>extra gufw
+>extra gvfs-smb
+>extra libgsf
+>extra libopenraw
+>extra libreoffice-fresh
+>extra manjaro-pulse
+#>extra networkmanager
+#>extra networkmanager-openvpn
+#>extra networkmanager-pptp
+#>extra nm-connection-editor
+>extra mpv
+>extra pamac
+>extra pamixer
+>extra pavucontrol
+>extra playerctl
+>extra pulseaudio-bluetooth
+>extra pulseaudio-ctl
+>extra pulseaudio-zeroconf
+>extra pamac
+>extra poppler-data
+>extra poppler-glib
+>extra smbclient
+>extra thunar-archive-plugin-gtk3
+>extra thunar-media-tags-plugin
+>extra thunar-volman-gtk3
+>extra tumbler
+>extra udiskie
+>extra udisks2
+>extra ufw
+>extra usb_modeswitch
+>extra vlc-nightly
+>extra volumeicon
+>extra xfburn
+
+#####################
+## packages minimal
+#####################
+abiword
+chromium
+file-roller
+galculator
+gedit
+gnumeric
+gpicview-gtk3
+gsimplecal
+gvfs
+gvfs-afc
+gvfs-mtp
+inxi
+mintstick
+networkmanager
+p7zip
+pacui
+ps_mem
+qpdfview
+screenfetch
+sylpheed
+thunar-gtk3
+unarchiver
+wicd-gtk
+wicd-patched
+xfce4-settings-gtk3
+
+#####################
+## packages core
+#####################
+arandr
+compton
+conky
+dunst
+htop
+i3lock
+imagemagick
+jsoncpp
+kickshaw
+libmpdclient
+lightdm
+lightdm-slick-greeter
+lxmenu-data
+lynx
+mc
+nitrogen
+numlockx
+ob-autostart
+obconf
+obkey-gtk3
+obmenu-generator
+openbox
+polybar
+ranger
+rofi
+skippy-xd
+scrot
+stalonetray
+termite
+termite-terminfo
+tint2
+update-notifier
+wireless_tools
+wmctrl
+xcape
+xcmenu
+xdotool
+zenity
+zensu
+
+#####################
+## system icons
+#####################
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
+
+#####################
+## system fonts
+#####################
+ttf-dejavu
+ttf-droid
+ttf-roboto
+
+
+#####################
+## system
+#####################
+bash-completion
+gamin
+gnome-keyring
+gtk3-classic                # toolkit
+polkit                      # policy
+polkit-gnome
+poppler
+python2-xdg
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+
+#####################
 ## xorg
+#####################
 xorg-server
 xorg-server-common
 xorg-xbacklight
@@ -8,23 +209,3 @@ xorg-xprop
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
-
-## system requirements
-bash-completion
-gamin
-gksu
-gtk3-classic                # toolkit
-polkit                      # policy
-poppler
-python2-xdg
-xdg-user-dirs
-xdg-utils
-
-manjaro-base-skel
-manjaro-openbox-common
-manjaro-openbox-fonts
-manjaro-openbox-grub-theme
-manjaro-settings-manager
-manjaro-zsh-config
-manjaro-openbox-base
->extra manjaro-openbox-extra

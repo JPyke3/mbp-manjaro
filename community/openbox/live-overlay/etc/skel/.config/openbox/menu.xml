@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <openbox_menu>
-<menu id="accessories" label="Accessories">
+<menu id="installer" label="Installation">
+	<item label="Calamares Installer">
+		<action name="Execute">
+			<command>sudo calamares</command>
+		</action>
+	</item>
+	<item label="Architect Installer">
+		<action name="Execute">
+			<command>termite -e "sudo setup"</command>
+		</action>
+	</item>
+</menu>
+<menu id="common-utilities" label="Utilities">
 	<item label="Calculator">
 		<action name="Execute">
 			<command>galculator</command>
@@ -14,7 +26,7 @@
 	</item>
 	<item label="PDF Viewer">
 		<action name="Execute">
-			<command>epdfview</command>
+			<command>qpdfview</command>
 		</action>
 	</item>
 	<item label="Picture Viewer">
@@ -22,75 +34,94 @@
 			<command>gpicview</command>
 		</action>
 	</item>
-	<item label="File Search">
+</menu>
+<menu id="disk-utilities" label="Disk Utilities">
+	<item label="Clonezilla">
 		<action name="Execute">
-			<command>catfish</command>
+			<command>termite -e "sudo clonezilla"</command>
+		</action>
+	</item>
+	<item label="GParted">
+		<action name="Execute">
+			<command>zensu gparted</command>
+		</action>
+	</item>
+    <item label="Testdisk">
+        <action name="Execute">
+            <command>termite -e "sudo testdisk"</command>
+        </action>
+    </item>
+</menu>
+<menu id="network-utilities" label="Network Utilities">
+	<item label="Angry IP Scanner">
+		<action name="Execute">
+			<command>ipscan</command>
+		</action>
+	</item>
+	<item label="Zen Map">
+		<action name="Execute">
+			<command>zensu zenmap</command>
 		</action>
 	</item>
 </menu>
 <menu id="screenshot" label="Screenshot">
-	<item label="Screenshot Now">
-		<action name="Execute">
-			<command>scrot &apos;screenshot_%Y%m%d-%H%M%S_$wx$h.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
-		</action>
-	</item>
 	<item label="Screenshot in 5">
 		<action name="Execute">
-			<command>scrot -d 5 &apos;screenshot_%Y%m%d-%H%M%S_$wx$h.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
+			<command>scrot -d 5 &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
 		</action>
 	</item>
 	<item label="Screenshot in 10">
 		<action name="Execute">
-			<command>scrot -d 10 &apos;screenshot_%Y%m%d-%H%M%S_$wx$h.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
+			<command>scrot -d 10 &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
 		</action>
 	</item>
-	<item label="Screenshot With Selection">
+	<item label="Screenshot with Selection">
 		<action name="Execute">
-			<command>scrot -s &apos;screenshot_%Y%m%d-%H%M%S_$wx$h.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
+			<command>scrot -s &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
 		</action>
 	</item>
 </menu>
 <menu id="preferences" label="Preferences">
 	<menu id="obConfig" label="Openbox">
-		<item label="LX Appearance Configuration">
+		<item label="LX Appearance">
 			<action name="Execute">
 				<command>lxappearance</command>
 			</action>
 		</item>
-		<item label="ObConf Appearance Configuration">
+		<item label="Openbox Configuration">
 			<action name="Execute">
 				<command>obconf</command>
 			</action>
-		</item>		
-		<item label="Menu Editor">
+		</item>
+        <item label="Menu Editor">
+            <action name="Execute">
+                <command>kickshaw</command>
+            </action>
+        </item>
+        <item label="Keybind Editor">
+            <action name="Execute">
+                <command>obkey</command>
+            </action>
+        </item>
+        <item label="Autostart Editor">
+            <action name="Execute">
+                <command>ob-autostart</command>
+            </action>
+        </item>
+		<separator/>
+		<item label="Edit menu.xml">
 			<action name="Execute">
-				<command>kickshaw</command>
+				<command>gedit ~/.config/openbox/menu.xml</command>
 			</action>
 		</item>
-		<item label="Autostart Editor">
+		<item label="Edit rc.xml">
 			<action name="Execute">
-				<command>ob-autostart</command>
+				<command>gedit ~/.config/openbox/rc.xml</command>
 			</action>
 		</item>
-		<item label="Keybind Editor">
+		<item label="Edit autostart">
 			<action name="Execute">
-				<command>obkey</command>
-			</action>
-		</item>
-		<separator label="Configuration files"/>
-		<item label="Open autostart">
-			<action name="Execute">
-				<command>exo-open ~/.config/openbox/autostart</command>
-			</action>
-		</item>
-		<item label="Open menu.xml">
-			<action name="Execute">
-				<command>exo-open ~/.config/openbox/menu.xml</command>
-			</action>
-		</item>
-		<item label="Open rc.xml">
-			<action name="Execute">
-				<command>exo-open ~/.config/openbox/rc.xml</command>
+				<command>gedit ~/.config/openbox/autostart</command>
 			</action>
 		</item>
 		<separator/>
@@ -124,24 +155,14 @@
 	<separator/>
 </menu>
 <menu id="system-settings" label="System Settings">
-	<item label="Pamac">
-		<action name="Execute">
-			<command>pamac-manager</command>
-		</action>
-	</item>
 	<item label="Pacui">
 		<action name="Execute">
-			<command>pacui</command>
+			<command>termite --geometry 550x350 -e pacui</command>
 		</action>
 	</item>
 	<item label="Root File Manager">
 		<action name="Execute">
-			<command>gksu thunar</command>
-		</action>
-	</item>
-	<item label="Audio Settings">
-		<action name="Execute">
-			<command>pavucontrol</command>
+			<command>zensu thunar</command>
 		</action>
 	</item>
 	<item label="Screen Layout">
@@ -149,66 +170,36 @@
 			<command>arandr</command>
 		</action>
 	</item>
-	<item label="GParted">
-		<action name="Execute">
-			<command>gksu gparted</command>
-		</action>
-	</item>
-	<item label="Preferred Applications">
-		<action name="Execute">
-			<command>exo-preferred-applications</command>
-		</action>
-	</item>
-	<item label="System Settings">
-		<action name="Execute">
-			<command>xfce4-settings-manager</command>
-		</action>
-	</item>
-</menu>
-<menu id="installer" label="Installation">
-	<item label="Calamares Installer">
-		<action name="Execute">
-			<command>sudo calamares</command>
-		</action>
-	</item>
-	<item label="Architect Installer">
-		<action name="Execute">
-			<command>termite -e "sudo setup"</command>
-		</action>
-	</item>	
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
 	<separator label="Manjaro Openbox"/>
 	<menu id="installer"/>
-	<separator/>	
-	<item label="Terminal">
-		<action name="Execute">
-			<command>exo-open --launch TerminalEmulator</command>
-		</action>
-	</item>
-	<item label="File Manager">
-		<action name="Execute">
-			<command>exo-open --launch FileManager</command>
-		</action>
-	</item>
-	<item label="Web Browser">
-		<action name="Execute">
-			<command>exo-open --launch WebBrowser</command>
-		</action>
-	</item>
-	<item label="Mail Reader">
-		<action name="Execute">
-			<command>exo-open --launch MailReader</command>
-		</action>
-	</item>
-	<item label="Text Editor">
-		<action name="Execute">
-			<command>subl3</command>
-		</action>
-	</item>	<separator/>
-	<menu id="applications" label="Applications" execute="/usr/bin/obmenu-generator -S ~/.config/obmenu-generator/applications.pl"/>
-	<menu id="accessories"/>	
+	<separator/>
+    <item label="Terminal">
+        <action name="Execute">
+            <command>termite</command>
+        </action>
+    </item>
+    <item label="Web Browser">
+        <action name="Execute">
+            <command>chromium</command>
+        </action>
+    </item>
+    <item label="File Manager">
+        <action name="Execute">
+            <command>thunar</command>
+        </action>
+    </item>
+    <item label="Text Editor">
+        <action name="Execute">
+            <command>gedit</command>
+        </action>
+    </item>
+	<separator/>
+	<menu id="common-utilities"/>
+    <menu id="disk-utilities"/>
+    <menu id="network-utilities"/>
 	<menu id="screenshot"/>
 	<separator/>
 	<menu id="pipe-placesmenu" label="Places" execute="manjaro-places-pipemenu --recent ~/"/>
