@@ -16,7 +16,6 @@ testdisk
 #####################
 manjaro-documentation-en
 manjaro-hello
-manjaro-wallpapers-18.0
 
 #####################
 ## edition theming and settings
@@ -32,9 +31,9 @@ manjaro-openbox-settings
 # -----> change when released
 #>basic manjaro-openbox-minimal-skel
 #>extra manjaro-openbox-extra-skel
-
 >basic manjaro-openbox-minimal-skel-dev
 >extra manjaro-openbox-extra-skel-dev
+
 manjaro-openbox-theme-fonts
 manjaro-openbox-theme-18.0
 manjaro-settings-manager
