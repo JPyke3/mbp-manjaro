@@ -212,7 +212,7 @@
     </item>
     <item label="Mail Reader">
         <action name="Execute">
-            <command>claws-mail</command>
+            <command>sylpheed</command>
         </action>
     </item>
     <item label="Text Editor">
