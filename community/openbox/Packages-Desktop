@@ -1,4 +1,55 @@
 #####################
+## packages extra
+#####################
+#>extra android-tools
+#>extra android-udev
+#>extra audacious-gtk3
+#>extra audacious-plugins-gtk3
+#>extra avahi
+#>extra chromium
+#>extra blueman
+#>extra catfish
+#>extra sylpheed
+#>extra exo-gtk3
+#>extra ffmpegthumbnailer
+#>extra freetype2
+#>extra gcolor2
+#>extra guake
+#>extra gufw
+#>extra gvfs-smb
+#>extra libgsf
+#>extra libopenraw
+#>extra libreoffice-fresh
+#>extra manjaro-pulse
+##>extra networkmanager
+##>extra networkmanager-openvpn
+##>extra networkmanager-pptp
+##>extra nm-connection-editor
+#>extra mpv
+#>extra pamac
+#>extra pamixer
+#>extra pavucontrol
+#>extra playerctl
+#>extra pulseaudio-bluetooth
+#>extra pulseaudio-ctl
+#>extra pulseaudio-zeroconf
+#>extra pamac
+#>extra poppler-data
+#>extra poppler-glib
+#>extra smbclient
+#>extra thunar-archive-plugin-gtk3
+#>extra thunar-media-tags-plugin
+#>extra thunar-volman-gtk3
+#>extra tumbler
+#>extra udiskie
+#>extra udisks2
+#>extra ufw
+#>extra usb_modeswitch
+#>extra vlc-nightly
+#>extra volumeicon
+#>extra xfburn
+
+#####################
 ## system tools
 #####################
 bind-tools
@@ -24,72 +75,22 @@ manjaro-openbox-grub-theme
 
 # -----> change when released
 #manjaro-openbox-scripts
-
 manjaro-openbox-scripts-dev
+# -----<
 manjaro-openbox-settings
 
 # -----> change when released
 #>basic manjaro-openbox-minimal-skel
 #>extra manjaro-openbox-extra-skel
->basic manjaro-openbox-minimal-skel-dev
->extra manjaro-openbox-extra-skel-dev
 
+manjaro-openbox-minimal-skel-dev
+#>extra manjaro-openbox-extra-skel-dev
+# -----<
 manjaro-openbox-theme-fonts
 manjaro-openbox-theme-18.0
 manjaro-settings-manager
 manjaro-zsh-config
->extra manjaro-guake-config
-
-#####################
-## packages extra
-#####################
->extra android-tools
->extra android-udev
->extra audacious-gtk3
->extra audacious-plugins-gtk3
->extra avahi
->extra chromium
->extra blueman
->extra catfish
->extra sylpheed
->extra exo-gtk3
->extra ffmpegthumbnailer
->extra freetype2
->extra gcolor2
->extra guake
->extra gufw
->extra gvfs-smb
->extra libgsf
->extra libopenraw
->extra libreoffice-fresh
->extra manjaro-pulse
-#>extra networkmanager
-#>extra networkmanager-openvpn
-#>extra networkmanager-pptp
-#>extra nm-connection-editor
->extra mpv
->extra pamac
->extra pamixer
->extra pavucontrol
->extra playerctl
->extra pulseaudio-bluetooth
->extra pulseaudio-ctl
->extra pulseaudio-zeroconf
->extra pamac
->extra poppler-data
->extra poppler-glib
->extra smbclient
->extra thunar-archive-plugin-gtk3
->extra thunar-media-tags-plugin
->extra thunar-volman-gtk3
->extra tumbler
->extra udiskie
->extra udisks2
->extra ufw
->extra usb_modeswitch
->extra vlc-nightly
->extra volumeicon
->extra xfburn
+#>extra manjaro-guake-config
 
 #####################
 ## packages minimal
