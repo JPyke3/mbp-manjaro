@@ -110,6 +110,9 @@ lightdm
 lightdm-webkit2-greeter-manjaro
 accountsservice  # Enhanced user accounts handling
 
+# Themes
+hicolor-icon-theme
+
 # bluetooth
 bluez-cups
 bluez-firmware
@@ -141,6 +144,7 @@ manjaro-settings-manager
 #manjaro-settings-manager-kcm
 manjaro-settings-manager-notifier
 #systemsettings
+#kde-gtk-config
 network-manager-applet
 pavucontrol
 gnome-keyring      # fix wlan segfault
@@ -194,7 +198,7 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-#xf86-input-wacom
+xf86-input-wacom
 xf86-input-synaptics
 
 ## Xorg Server and Graphics
