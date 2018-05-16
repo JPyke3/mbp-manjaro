@@ -1,59 +1,52 @@
 #####################
 ## packages extra
 #####################
-#>extra android-tools
-#>extra android-udev
-#>extra audacious-gtk3
-#>extra audacious-plugins-gtk3
-#>extra avahi
-#>extra chromium
-#>extra blueman
-#>extra catfish
-#>extra sylpheed
-#>extra exo-gtk3
-#>extra ffmpegthumbnailer
-#>extra freetype2
-#>extra gcolor2
-#>extra guake
-#>extra gufw
-#>extra gvfs-smb
-#>extra libgsf
-#>extra libopenraw
-#>extra libreoffice-fresh
-#>extra manjaro-pulse
-##>extra networkmanager
-##>extra networkmanager-openvpn
-##>extra networkmanager-pptp
-##>extra nm-connection-editor
-#>extra mpv
-#>extra pamac
-#>extra pamixer
-#>extra pavucontrol
-#>extra playerctl
-#>extra pulseaudio-bluetooth
-#>extra pulseaudio-ctl
-#>extra pulseaudio-zeroconf
-#>extra pamac
-#>extra poppler-data
-#>extra poppler-glib
-#>extra smbclient
-#>extra thunar-archive-plugin-gtk3
-#>extra thunar-media-tags-plugin
-#>extra thunar-volman-gtk3
-#>extra tumbler
-#>extra udiskie
-#>extra udisks2
-#>extra ufw
-#>extra usb_modeswitch
-#>extra vlc-nightly
-#>extra volumeicon
-#>extra xfburn
+>extra audacious-gtk3
+>extra audacious-plugins-gtk3
+>extra avahi
+>extra chromium
+>extra blueman
+>extra catfish
+>extra exo-gtk3
+>extra ffmpegthumbnailer
+>extra freetype2
+>extra gcolor2
+>extra gstreamer
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra guake
+>extra gvfs-smb
+>extra libgsf
+>extra libopenraw
+>extra manjaro-pulse
+>extra mpv
+>extra pamac
+>extra pamixer
+>extra pavucontrol
+>extra playerctl
+>extra pulseaudio-bluetooth
+>extra pulseaudio-ctl
+>extra pulseaudio-zeroconf
+>extra pamac
+>extra poppler-data
+>extra poppler-glib
+>extra smbclient
+>extra thunar-archive-plugin-gtk3
+>extra thunar-media-tags-plugin
+>extra thunar-volman-gtk3
+>extra tumbler
+>extra udiskie
+>extra udisks2
+>extra usb_modeswitch
+>extra volumeicon
+>extra xfburn
 
 #####################
 ## system tools
 #####################
 bind-tools
-clonezilla
 gparted
 ipscan
 jre8-openjdk
@@ -71,25 +64,15 @@ manjaro-hello
 ## edition theming and settings
 #####################
 manjaro-openbox-grub-theme-18.0
-
-# -----> change when released
-#manjaro-openbox-scripts
-manjaro-openbox-scripts-dev
-# -----<
+manjaro-openbox-scripts
 manjaro-openbox-settings
-
-# -----> change when released
-#>basic manjaro-openbox-minimal-skel
-#>extra manjaro-openbox-extra-skel
-
-manjaro-openbox-minimal-skel-dev
-#>extra manjaro-openbox-extra-skel-dev
-# -----<
+>basic manjaro-openbox-minimal-skel
+>extra manjaro-openbox-extra-skel
 manjaro-openbox-theme-fonts
 manjaro-openbox-theme-18.0
 manjaro-settings-manager
 manjaro-zsh-config
-#>extra manjaro-guake-config
+>extra manjaro-guake-config
 
 #####################
 ## aur support
