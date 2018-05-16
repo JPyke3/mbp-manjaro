@@ -4,10 +4,8 @@
 >extra audacious-gtk3
 >extra audacious-plugins-gtk3
 >extra avahi
->extra chromium
 >extra blueman
 >extra catfish
->extra exo-gtk3
 >extra ffmpegthumbnailer
 >extra freetype2
 >extra gcolor2
@@ -101,6 +99,7 @@ yaourt
 #####################
 abiword
 chromium
+exo-gtk3
 file-roller
 galculator
 gedit
@@ -135,6 +134,7 @@ dunst
 htop
 i3lock
 imagemagick
+jgmenu
 jsoncpp
 kickshaw
 libmpdclient
