@@ -70,7 +70,7 @@ manjaro-hello
 #####################
 ## edition theming and settings
 #####################
-manjaro-openbox-grub-theme
+manjaro-openbox-grub-theme-18.0
 
 # -----> change when released
 #manjaro-openbox-scripts
@@ -90,6 +90,28 @@ manjaro-openbox-theme-18.0
 manjaro-settings-manager
 manjaro-zsh-config
 #>extra manjaro-guake-config
+
+#####################
+## aur support
+#####################
+autoconf
+automake
+binutils
+bison
+flex
+gc
+gcc
+git
+guile
+libatomic_ops
+libmpc
+m4
+make
+package-query
+patch
+pkg-config
+yajl
+yaourt
 
 #####################
 ## packages minimal
