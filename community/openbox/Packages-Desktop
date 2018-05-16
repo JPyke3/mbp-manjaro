@@ -70,7 +70,6 @@ manjaro-openbox-theme-fonts
 manjaro-openbox-theme-18.0
 manjaro-settings-manager
 manjaro-zsh-config
->extra manjaro-guake-config
 
 #####################
 ## aur support
