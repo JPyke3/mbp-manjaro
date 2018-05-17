@@ -70,7 +70,8 @@ mhwd-tui
 ########
 manjaro-alsa
 manjaro-artwork
-manjaro-wallpapers-17.0
+manjaro-wallpapers-18.0
+illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
@@ -164,6 +165,7 @@ ms-office-online
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra kernel-alive
+>extra gnome-shell-extension-gsconnect
 
 #AUR complete support ( base devel + yaourt )
 #>extra autoconf
