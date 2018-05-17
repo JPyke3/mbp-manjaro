@@ -13,6 +13,8 @@ openresolv
 openssh
 samba
 usb_modeswitch
+networkmanager-dispatcher-ntpd
+manjaro-settings-samba
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
