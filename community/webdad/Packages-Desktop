@@ -1,32 +1,38 @@
 ## Network
+avahi
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
-networkmanager-dispatcher-ntpd
+nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
 modemmanager
 openresolv
 openssh
 samba
-manjaro-settings-samba
 usb_modeswitch
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
 alsa-utils
 ffmpeg
-grilo-plugins
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
+libcanberra
+>multilib lib32-libcanberra
+libcanberra-pulse
+>multilib lib32-libcanberra-pulse
+libcanberra-gstreamer
 libdvdcss
->multilib manjaro-alsa
+manjaro-alsa
 manjaro-pulse
+>extra phonon-qt4-gstreamer
+phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
@@ -65,7 +71,7 @@ udisks2
 #>multilib lib32-flex
 
 # Extra packages for AUR support
-#>extra git
+>extra git
 #>extra patchutils
 #extra subversion
 
@@ -111,7 +117,6 @@ lightdm-webkit2-greeter-manjaro
 accountsservice  # Enhanced user accounts handling
 
 # Themes
-hicolor-icon-theme
 
 # bluetooth
 bluez-cups
@@ -123,31 +128,34 @@ bluez-plugins
 preload
 irqbalance
 
+# Settings
+manjaro-settings-manager
+#manjaro-settings-manager-kcm
+manjaro-settings-manager-notifier
+#systemsettings
+#kde-gtk-config
+#kgamma5
+#kinfocenter
+lxrandr-gtk3
+#kscreen
+#kwayland-integration
+#user-manager
+
 # WebDad desktop
 jade-desktop-mode
 manjaro-webdad-settings
 webdad-speech
-webdad-webapps
 jade-dashboard
-cairo-dock
 kwin
-hyper
-cairo-dock-plug-ins
-zeitgeist            # needed for cairo-dock events
 pa-applet
 blueman
 dunst
 dex
 polkit-gnome
 manjaro-hello
-manjaro-settings-manager
-#manjaro-settings-manager-kcm
-manjaro-settings-manager-notifier
-#systemsettings
-#kde-gtk-config
 network-manager-applet
 pavucontrol
-gnome-keyring      # fix wlan segfault
+gnome-keyring      
 nautilus
 nautilus-empty-file
 nautilus-sendto
@@ -157,10 +165,18 @@ nautilus-admin
 #seahorse-nautilus
 sushi
 file-roller
-timeshift
+
+hyper
+#fish
+
+cairo-dock
+cairo-dock-plug-ins
+zeitgeist            # needed for cairo-dock events
+#ruby # cairo-dock plugins
 
 ## Applications
-lxrandr-gtk3
+webdad-webapps
+timeshift
 gthumb
 >extra simple-scan
 etcher
