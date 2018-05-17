@@ -116,7 +116,7 @@
             <command>xfce4-appearance-settings</command>
         </action>
     </item>
-    <item label="Openbox Configuration">
+    <item label="Configuration">
         <action name="Execute">
             <command>obconf</command>
         </action>
