@@ -119,6 +119,7 @@ screenfetch
 >extra system-config-printer
 >extra terminus-font
 >extra thunderbird
+>extra timeshift
 tree
 ttf-bitstream-vera
 >extra ttf-dejavu
