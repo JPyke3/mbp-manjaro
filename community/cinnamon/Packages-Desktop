@@ -24,7 +24,6 @@ flex
 >extra gcolor2
 >extra gimp
 >extra git
-gksu
 >extra gnome-disk-utility
 gnome-keyring
 >extra gnome-screenshot
@@ -152,3 +151,4 @@ xdg-user-dirs
 xorg-server
 xorg-xhost
 xorg-xkill
+zensu

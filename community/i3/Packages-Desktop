@@ -30,7 +30,6 @@ gcc
 gconf
 >extra gimp
 >extra git
-gksu
 gnome-keyring
 >extra gparted
 groff
@@ -158,3 +157,4 @@ xterm
 yaourt
 xdg-user-dirs
 xorg-server
+zensu
