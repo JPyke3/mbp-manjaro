@@ -132,16 +132,18 @@ irqbalance
 
 # Settings
 manjaro-settings-manager
-#manjaro-settings-manager-kcm
+manjaro-settings-manager-kcm
 manjaro-settings-manager-notifier
-#systemsettings
-#kde-gtk-config
-#kgamma5
-#kinfocenter
-lxrandr-gtk3
-#kscreen
+systemsettings
+kde-gtk-config
+kgamma5
+kinfocenter
+kscreen
 #kwayland-integration
-#user-manager
+user-manager
+systemd-kcm
+kcm-wacomtablet
+kcron
 
 # WebDad desktop
 jade-desktop-mode
