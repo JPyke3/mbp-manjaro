@@ -74,7 +74,7 @@ manjaro-wallpapers-18.0
 illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
-manjaro-gnome-assets
+manjaro-gnome-assets-dev
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
@@ -103,11 +103,11 @@ pulseaudio-ctl
 pulseaudio-zeroconf
 >extra simple-scan
 sushi
->systemd alsa-utils
->systemd avahi
->systemd networkmanager
->systemd ntp
->systemd openssh
+alsa-utils
+avahi
+networkmanager
+ntp
+openssh
 terminus-font
 totem
 tracker
@@ -117,7 +117,7 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
->systemd usb_modeswitch
+usb_modeswitch
 # arc-maia-icon-theme
 # firefox-arc-maia-settings #disable theming since upstream no adjust the theme
 vino

@@ -9,6 +9,7 @@ binutils
 bison
 >extra blueberry
 cinnamon-sounds
+cinnamon-translations
 >extra cinnamon-wallpapers
 >extra dconf-editor
 >extra deluge
@@ -24,7 +25,6 @@ flex
 >extra gcolor2
 >extra gimp
 >extra git
-gksu
 >extra gnome-disk-utility
 gnome-keyring
 >extra gnome-screenshot
@@ -119,6 +119,7 @@ screenfetch
 >extra system-config-printer
 >extra terminus-font
 >extra thunderbird
+>extra timeshift
 tree
 ttf-bitstream-vera
 >extra ttf-dejavu
@@ -151,3 +152,4 @@ xdg-user-dirs
 xorg-server
 xorg-xhost
 xorg-xkill
+zensu
