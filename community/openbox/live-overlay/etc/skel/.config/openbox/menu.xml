@@ -15,29 +15,6 @@
     </item>
 </menu>
 
-<menu id="common-utilities" label="Utilities">
-    <item label="Archive Manager">
-        <action name="Execute">
-            <command>file-roller</command>
-        </action>
-    </item>
-    <item label="Calculator">
-        <action name="Execute">
-            <command>galculator</command>
-        </action>
-    </item>
-    <item label="PDF Viewer">
-        <action name="Execute">
-            <command>qpdfview</command>
-        </action>
-    </item>
-    <item label="Picture Viewer">
-        <action name="Execute">
-            <command>gpicview</command>
-        </action>
-    </item>
-</menu>
-
 <menu id="disk-utilities" label="Disk Tools">
     <item label="Clonezilla">
         <action name="Execute">
@@ -61,19 +38,6 @@
     </item>
 </menu>
 
-<menu id="network-utilities" label="Net Tools">
-    <item label="Angry IP Scanner">
-        <action name="Execute">
-            <command>ipscan</command>
-        </action>
-    </item>
-    <item label="Zen Map">
-        <action name="Execute">
-            <command>zensu zenmap</command>
-        </action>
-    </item>
-</menu>
-
 <menu id="screenshot" label="Screenshot">
     <item label="Screenshot in 5">
         <action name="Execute">
@@ -92,8 +56,8 @@
     </item>
 </menu>
 
-<menu id="system-settings" label="System Settings">
-    <item label="Add/Remove Software ">
+<menu id="system-settings" label="System">
+    <item label="CLI Add/Remove Software ">
         <action name="Execute">
             <command>termite --geometry=550x380 -e pacui</command>
         </action>
@@ -221,9 +185,7 @@
         </action>
     </item>
     <separator/>
-    <menu id="common-utilities"/>
     <menu id="disk-utilities"/>
-    <menu id="network-utilities"/>
     <menu id="screenshot"/>
     <menu id="applications" label="Applications" execute="/usr/bin/obmenu-generator -S ~/.config/obmenu-generator/applications.pl"/>
     <separator/>

@@ -480,11 +480,6 @@
         <command>exo-open --launch TerminalEmulator</command>
       </action>
     </keybind>
-    <keybind key="A-F1">
-      <action name="Execute">
-        <command>rofr.sh -r</command>
-      </action>
-    </keybind>
     <keybind key="C-space">
       <action name="Execute">
         <command>rofr.sh -r</command>
@@ -512,6 +507,16 @@
     <keybind key="W-Escape">
       <action name="Execute">
         <command>xkill</command>
+      </action>
+    </keybind>
+    <keybind key="A-F1">
+      <action name="Execute">
+        <command>jgmenu_run</command>
+      </action>
+    </keybind>
+    <keybind key="A-F2">
+      <action name="Execute">
+        <command>rofr.sh -r</command>
       </action>
     </keybind>
     <keybind key="A-F4">
