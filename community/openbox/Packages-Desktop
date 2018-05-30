@@ -46,42 +46,9 @@
 >basic gnumeric
 
 #####################
-## basic utilities
-#####################
-galculator
-gedit
-gpicview-gtk3
-gsimplecal
-qpdfview
-
-#####################
-## internet apps
-#####################
-chromium
-sylpheed
-
-#####################
 ## manjaro
 #####################
 manjaro-documentation-en
-manjaro-settings-manager
-
-#####################
-## edition theming and settings
-#####################
-manjaro-openbox-config
-manjaro-openbox-grub-theme-blue
-manjaro-openbox-scripts
-manjaro-openbox-settings
-manjaro-openbox-theme-fonts
-manjaro-openbox-theme-18.0
-manjaro-zsh-config
-
-#####################
-## display manager and greeter
-#####################
-lightdm
-lightdm-slick-greeter
 
 #####################
 ## aur support
@@ -106,13 +73,49 @@ yajl
 yaourt
 
 #####################
+## basic utilities
+#####################
+galculator
+gedit
+gpicview-gtk3
+gsimplecal
+qpdfview
+
+#####################
+## internet apps
+#####################
+chromium
+sylpheed
+
+#####################
+## edition theming and settings
+#####################
+manjaro-openbox-config
+manjaro-openbox-grub-theme-blue
+manjaro-openbox-scripts
+manjaro-openbox-settings
+manjaro-openbox-theme-fonts
+manjaro-openbox-theme-18.0
+manjaro-zsh-config
+
+#####################
+## display manager and greeter
+#####################
+lightdm
+lightdm-slick-greeter
+
+#####################
 ## system tools
 #####################
+clonezilla
+gparted
 inxi
+manjaro-settings-manager
 mintstick
 pamac
 ps_mem
 screenfetch
+testdisk
 xfce4-settings-gtk3
 
 #####################
@@ -143,13 +146,8 @@ gvfs-smb
 #####################
 arp-scan
 bind-tools
-gparted
-host
-ipscan
-jre8-openjdk
 net-tools
 nmap
-testdisk
 whois
 
 #####################
@@ -160,10 +158,8 @@ networkmanager
 networkmanager-dispatcher-ntpd
 openresolv
 openssh
-wireless-regdb
+ufw
 wireless_tools
-wpa_actiond
-wpa_supplicant
 
 #####################
 ## packages core
