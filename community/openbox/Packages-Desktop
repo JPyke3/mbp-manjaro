@@ -1,75 +1,87 @@
 #####################
 ## packages extra
 #####################
+>extra alsa-firmware
+>extra alsa-utils
+>extra alsa-plugins
 >extra audacious-gtk3
 >extra audacious-plugins-gtk3
 >extra avahi
 >extra blueman
 >extra catfish
+>extra ffmpeg2.8
 >extra ffmpegthumbnailer
 >extra freetype2
 >extra gcolor2
->extra gstreamer
+>extra gimp
+>extra gstlibav
 >extra gst-plugins-bad
 >extra gst-plugins-base
 >extra gst-plugins-good
 >extra gst-plugins-ugly
+>extra gstreamer
 >extra guake
->extra gvfs-smb
 >extra libgsf
+>extra libmad
+>extra libmatroska
 >extra libopenraw
->extra manjaro-pulse
+>extra libreoffice-fresh
 >extra mpv
->extra pamac
+>extra nss-mdns
 >extra pamixer
 >extra pavucontrol
 >extra playerctl
->extra pulseaudio-bluetooth
->extra pulseaudio-ctl
->extra pulseaudio-zeroconf
->extra pamac
+>extra pulseaudio
+>extra pulseaudio-alsa
 >extra poppler-data
 >extra poppler-glib
 >extra smbclient
->extra thunar-archive-plugin-gtk3
->extra thunar-media-tags-plugin
->extra thunar-volman-gtk3
->extra tumbler
->extra udiskie
->extra udisks2
 >extra usb_modeswitch
 >extra volumeicon
->extra xfburn
 
 #####################
-## system tools
+## packages minimal
 #####################
-bind-tools
-gparted
-ipscan
-jre8-openjdk
-net-tools
-nmap
-testdisk
+>basic abiword
+>basic gnumeric
+
+#####################
+## basic utilities
+#####################
+galculator
+gedit
+gpicview-gtk3
+gsimplecal
+qpdfview
+
+#####################
+## internet apps
+#####################
+chromium
+sylpheed
 
 #####################
 ## manjaro
 #####################
 manjaro-documentation-en
-#manjaro-hello
+manjaro-settings-manager
 
 #####################
 ## edition theming and settings
 #####################
+manjaro-openbox-config
 manjaro-openbox-grub-theme-blue
 manjaro-openbox-scripts
 manjaro-openbox-settings
->basic manjaro-openbox-minimal-skel
->extra manjaro-openbox-extra-skel
 manjaro-openbox-theme-fonts
 manjaro-openbox-theme-18.0
-manjaro-settings-manager
 manjaro-zsh-config
+
+#####################
+## display manager and greeter
+#####################
+lightdm
+lightdm-slick-greeter
 
 #####################
 ## aur support
@@ -94,34 +106,64 @@ yajl
 yaourt
 
 #####################
-## packages minimal
+## system tools
 #####################
-abiword
-chromium
-exo-gtk3
+inxi
+mintstick
+pamac
+ps_mem
+screenfetch
+xfce4-settings-gtk3
+
+#####################
+## filemanagers
+#####################
 file-roller
-galculator
-gedit
-gnumeric
-gpicview-gtk3
-gsimplecal
+p7zip
+thunar-archive-plugin-gtk3
+thunar-gtk3
+thunar-media-tags-plugin
+thunar-volman-gtk3
+tumbler
+udiskie
+udisks2
+unarchiver
+
+#####################
+## virtual filesystem
+#####################
 gvfs
 gvfs-afc
 gvfs-mtp
-inxi
-mintstick
+gvfs-nfs
+gvfs-smb
+
+#####################
+## network tools
+#####################
+arp-scan
+bind-tools
+gparted
+host
+ipscan
+jre8-openjdk
+net-tools
+nmap
+testdisk
+whois
+
+#####################
+## network
+#####################
+network-manager-applet
 networkmanager
-p7zip
-pacui
-ps_mem
-qpdfview
-screenfetch
-sylpheed
-thunar-gtk3
-unarchiver
-wicd-gtk
-wicd-patched
-xfce4-settings-gtk3
+networkmanager-dispatcher-ntpd
+openresolv
+openssh
+wireless-regdb
+wireless_tools
+wpa_actiond
+wpa_supplicant
 
 #####################
 ## packages core
@@ -130,6 +172,7 @@ arandr
 compton
 conky
 dunst
+exo-gtk3
 htop
 i3lock
 imagemagick
@@ -137,8 +180,6 @@ jgmenu
 jsoncpp
 kickshaw
 libmpdclient
-lightdm
-lightdm-slick-greeter
 lxmenu-data
 lynx
 mc
@@ -154,12 +195,9 @@ ranger
 rofi
 skippy-xd
 scrot
-stalonetray
 termite
 termite-terminfo
 tint2
-update-notifier
-wireless_tools
 wmctrl
 xcape
 xcmenu
@@ -183,7 +221,6 @@ hicolor-icon-theme
 ttf-dejavu
 ttf-droid
 ttf-roboto
-
 
 #####################
 ## system
