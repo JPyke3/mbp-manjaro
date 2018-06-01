@@ -26,6 +26,7 @@
 >extra libmatroska
 >extra libopenraw
 >extra libreoffice-fresh
+>extra manjaro-settings-manager
 >extra mpv
 >extra nss-mdns
 >extra pamixer
@@ -36,8 +37,17 @@
 >extra poppler-data
 >extra poppler-glib
 >extra smbclient
+>extra thunar-media-tags-plugin
+>extra udiskie
+>extra udisks2
 >extra usb_modeswitch
 >extra volumeicon
+
+#####################
+## extra fonts
+#####################
+>extra noto-fonts
+>extra ttf-droid
 
 #####################
 ## packages minimal
@@ -48,29 +58,29 @@
 #####################
 ## manjaro
 #####################
-manjaro-documentation-en
+>extra manjaro-documentation-en
 
 #####################
 ## aur support
 #####################
-autoconf
-automake
-binutils
-bison
-flex
-gc
-gcc
-git
-guile
-libatomic_ops
-libmpc
-m4
-make
-package-query
-patch
-pkg-config
-yajl
-yaourt
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra flex
+>extra gc
+>extra gcc
+>extra git
+>extra guile
+>extra libatomic_ops
+>extra libmpc
+>extra m4
+>extra make
+>extra package-query
+>extra patch
+>extra pkg-config
+>extra yajl
+>extra yaourt
 
 #####################
 ## basic utilities
@@ -108,9 +118,8 @@ lightdm-slick-greeter
 ## system tools
 #####################
 clonezilla
-gparted
+gnome-disk-utility
 inxi
-manjaro-settings-manager
 mintstick
 pamac
 ps_mem
@@ -125,11 +134,8 @@ file-roller
 p7zip
 thunar-archive-plugin-gtk3
 thunar-gtk3
-thunar-media-tags-plugin
 thunar-volman-gtk3
 tumbler
-udiskie
-udisks2
 unarchiver
 
 #####################
@@ -139,7 +145,6 @@ gvfs
 gvfs-afc
 gvfs-mtp
 gvfs-nfs
-gvfs-smb
 
 #####################
 ## network tools
@@ -199,7 +204,6 @@ xcape
 xcmenu
 xdotool
 zenity
-zensu
 
 #####################
 ## system icons
@@ -215,7 +219,6 @@ hicolor-icon-theme
 ## system fonts
 #####################
 ttf-dejavu
-ttf-droid
 ttf-roboto
 
 #####################
@@ -223,11 +226,11 @@ ttf-roboto
 #####################
 bash-completion
 gamin
+gksu-polkit
 gnome-keyring
-gtk3-classic                # toolkit
-polkit                      # policy
+gtk3-classic
+polkit
 polkit-gnome
-poppler
 python2-xdg
 xdg-user-dirs
 xdg-user-dirs-gtk
