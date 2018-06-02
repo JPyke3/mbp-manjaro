@@ -9,6 +9,7 @@ binutils
 bison
 >extra blueberry
 cinnamon-sounds
+cinnamon-translations
 >extra cinnamon-wallpapers
 >extra dconf-editor
 >extra deluge
@@ -18,19 +19,18 @@ fakeroot
 >extra firefox
 flex
 >extra galculator
-gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
+>extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
 >extra gcolor2
 >extra gimp
 >extra git
-gksu
 >extra gnome-disk-utility
 gnome-keyring
 >extra gnome-screenshot
 gnome-system-log
-gnome-system-monitor
-gnome-terminal-fedora
+>extra gnome-system-monitor
+gnome-terminal
 gnome-themes-standard
 >extra gparted
 >extra gprename
@@ -117,15 +117,16 @@ qt5-styleplugins
 screenfetch
 >extra subversion
 >extra system-config-printer
-terminus-font
+>extra terminus-font
 >extra thunderbird
+>extra timeshift
 tree
 ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
+>extra ttf-dejavu
+>extra ttf-droid
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
 >extra udiskie
 >extra vertex-maia-themes
 vi
@@ -151,3 +152,4 @@ xdg-user-dirs
 xorg-server
 xorg-xhost
 xorg-xkill
+zensu

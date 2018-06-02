@@ -9,7 +9,7 @@ binutils
 bison
 >extra brasero
 fakeroot
->extra firefox
+firefox
 flex
 >extra dconf-editor
 deepin-calendar
@@ -39,7 +39,6 @@ gcc
 gedit
 >extra gimp
 >extra git
-gksu
 >extra gparted
 >extra gst-libav
 >extra gst-plugins-bad
@@ -129,3 +128,4 @@ xorg-xinit
 xdg-user-dirs
 xorg-xhost
 xorg-server
+zensu

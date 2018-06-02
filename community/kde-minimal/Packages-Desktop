@@ -1,5 +1,5 @@
 
-## xorg
+## xorg - should be explicitly installed to prevent user from removing accidentally
 xorg-server
 
 ## display manager
@@ -11,8 +11,6 @@ plasma-desktop
 dolphin
 konsole
 >extra kwrite
-
-## plasma - extra packages
 >extra kde-servicemenus-rootactions
 >extra plasma-pa
 >extra kde-gtk-config
@@ -24,7 +22,7 @@ konsole
 # optional dependencies of ark:
 >extra p7zip
 >extra unarchiver
-# wifi setup for systemd-networkd (recommended reading: https://wiki.archlinux.org/index.php/Systemd-networkd#Wireless_adapter  and  https://wiki.archlinux.org/index.php/WPA_supplicant)
+# wifi setup for systemd-networkd (recommended reading: https://wiki.archlinux.org/index.php/Systemd-networkd#Wireless_adapter  and  https://wiki.archlinux.org/index.php/WPA_supplicant):
 #>extra wpa_supplicant_gui
 
 ## package manager

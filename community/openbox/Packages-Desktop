@@ -1,4 +1,244 @@
+#####################
+## packages extra
+#####################
+>extra alsa-firmware
+>extra alsa-utils
+>extra alsa-plugins
+>extra audacious-gtk3
+>extra audacious-plugins-gtk3
+>extra avahi
+>extra blueman
+>extra catfish
+>extra ffmpeg
+>extra ffmpegthumbnailer
+>extra freetype2
+>extra gcolor2
+>extra gimp
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra gstreamer
+>extra guake
+>extra libgsf
+>extra libmad
+>extra libmatroska
+>extra libopenraw
+>extra libreoffice-fresh
+>extra manjaro-settings-manager
+>extra mpv
+>extra nss-mdns
+>extra pamixer
+>extra pavucontrol
+>extra playerctl
+>extra pulseaudio
+>extra pulseaudio-alsa
+>extra poppler-data
+>extra poppler-glib
+>extra smbclient
+>extra thunar-media-tags-plugin
+>extra udiskie
+>extra udisks2
+>extra usb_modeswitch
+>extra volumeicon
+
+#####################
+## extra fonts
+#####################
+>extra noto-fonts
+>extra ttf-droid
+
+#####################
+## packages minimal
+#####################
+>basic abiword
+>basic gnumeric
+
+#####################
+## manjaro
+#####################
+>extra manjaro-documentation-en
+
+#####################
+## aur support
+#####################
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra flex
+>extra gc
+>extra gcc
+>extra git
+>extra guile
+>extra libatomic_ops
+>extra libmpc
+>extra m4
+>extra make
+>extra package-query
+>extra patch
+>extra pkg-config
+>extra yajl
+>extra yaourt
+
+#####################
+## basic utilities
+#####################
+galculator
+gedit
+gpicview-gtk3
+gsimplecal
+qpdfview
+
+#####################
+## internet apps
+#####################
+chromium
+sylpheed
+
+#####################
+## edition theming and settings
+#####################
+manjaro-openbox-config
+manjaro-openbox-grub-theme-blue
+manjaro-openbox-scripts
+manjaro-openbox-settings
+manjaro-openbox-theme-fonts
+manjaro-openbox-theme-18.0
+manjaro-zsh-config
+
+#####################
+## display manager and greeter
+#####################
+lightdm
+lightdm-slick-greeter
+
+#####################
+## system tools
+#####################
+clonezilla
+gnome-disk-utility
+inxi
+mintstick
+pamac
+ps_mem
+screenfetch
+testdisk
+xfce4-settings-gtk3
+
+#####################
+## filemanagers
+#####################
+file-roller
+p7zip
+thunar-archive-plugin-gtk3
+thunar-gtk3
+thunar-volman-gtk3
+tumbler
+unarchiver
+
+#####################
+## virtual filesystem
+#####################
+gvfs
+gvfs-afc
+gvfs-mtp
+gvfs-nfs
+
+#####################
+## network tools
+#####################
+arp-scan
+bind-tools
+net-tools
+nmap
+whois
+
+#####################
+## network
+#####################
+network-manager-applet
+networkmanager
+networkmanager-dispatcher-ntpd
+openresolv
+openssh
+ufw
+wireless_tools
+
+#####################
+## packages core
+#####################
+arandr
+compton
+conky
+dunst
+exo-gtk3
+htop
+i3lock
+imagemagick
+jgmenu
+jsoncpp
+kickshaw
+libmpdclient
+lxmenu-data
+lynx
+mc
+nitrogen
+numlockx
+ob-autostart
+obconf
+obkey-gtk3
+obmenu-generator
+openbox
+polybar
+ranger
+rofi
+skippy-xd
+scrot
+termite
+termite-terminfo
+tint2
+wmctrl
+xcape
+xcmenu
+xdotool
+zenity
+
+#####################
+## system icons
+#####################
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
+
+#####################
+## system fonts
+#####################
+ttf-dejavu
+ttf-roboto
+
+#####################
+## system
+#####################
+bash-completion
+gamin
+gksu-polkit
+gnome-keyring
+gtk3-classic
+polkit
+polkit-gnome
+python2-xdg
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+
+#####################
 ## xorg
+#####################
 xorg-server
 xorg-server-common
 xorg-xbacklight
@@ -8,23 +248,3 @@ xorg-xprop
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
-
-## system requirements
-bash-completion
-gamin
-gksu
-gtk3-classic                # toolkit
-polkit                      # policy
-poppler
-python2-xdg
-xdg-user-dirs
-xdg-utils
-
-manjaro-base-skel
-manjaro-openbox-common
-manjaro-openbox-fonts
-manjaro-openbox-grub-theme
-manjaro-settings-manager
-manjaro-zsh-config
-manjaro-openbox-base
->extra manjaro-openbox-extra

@@ -1,31 +1,40 @@
 ## Network
+avahi
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
 modemmanager
 openresolv
 openssh
 samba
-manjaro-settings-samba
 usb_modeswitch
+networkmanager-dispatcher-ntpd
+manjaro-settings-samba
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
 alsa-utils
 ffmpeg
-grilo-plugins
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
+libcanberra
+>multilib lib32-libcanberra
+libcanberra-pulse
+>multilib lib32-libcanberra-pulse
+libcanberra-gstreamer
 libdvdcss
->multilib manjaro-alsa
+manjaro-alsa
 manjaro-pulse
+>extra phonon-qt4-gstreamer
+phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
@@ -64,7 +73,7 @@ udisks2
 #>multilib lib32-flex
 
 # Extra packages for AUR support
-#>extra git
+>extra git
 #>extra patchutils
 #extra subversion
 
@@ -73,7 +82,7 @@ noto-fonts
 ttf-roboto
 
 ## Games
->extra steam-manjaro # needed for the workspaces
+>extra steam-manjaro 
 pingus
 gnome-mahjongg
 aisleriot
@@ -106,8 +115,10 @@ pamac
 
 ## Display manager
 lightdm
-lightdm-slick-greeter
+lightdm-webkit2-greeter-manjaro
 accountsservice  # Enhanced user accounts handling
+
+# Themes
 
 # bluetooth
 bluez-cups
@@ -118,31 +129,37 @@ bluez-plugins
 # improve responsiveness 
 preload
 irqbalance
-tracker
+
+# Settings
+manjaro-settings-manager
+manjaro-settings-manager-kcm
+manjaro-settings-manager-notifier
+systemsettings
+kde-gtk-config
+kgamma5
+kinfocenter
+kscreen
+#kwayland-integration
+user-manager
+systemd-kcm
+kcm-wacomtablet
+kcron
 
 # WebDad desktop
+jade-desktop-mode
 manjaro-webdad-settings
 webdad-speech
-webdad-webapps
 jade-dashboard
-cairo-dock
-jwm
-compton
-hyper
-cairo-dock-plug-ins
-zeitgeist            # needed for cairo-dock events
+kwin
 pa-applet
 blueman
 dunst
 dex
-feh
 polkit-gnome
 manjaro-hello
-manjaro-settings-manager
-manjaro-settings-manager-notifier
 network-manager-applet
 pavucontrol
-gnome-keyring      # fix wlan segfault
+gnome-keyring      
 nautilus
 nautilus-empty-file
 nautilus-sendto
@@ -152,18 +169,21 @@ nautilus-admin
 #seahorse-nautilus
 sushi
 file-roller
-timeshift
 
-## Themes QT/GTK/SDDM
-paper-icon-theme-git
-xcursor-breeze
+hyper
+#fish
+
+cairo-dock
+cairo-dock-plug-ins
+zeitgeist            # needed for cairo-dock events
+#ruby # cairo-dock plugins
 
 ## Applications
-kodi      # needed for the workspaces
-lxrandr-gtk3
+webdad-webapps
+timeshift
 gthumb
 >extra simple-scan
-imagewriter
+etcher
 dmidecode # optional dependency inxi
 gedit
 nano
@@ -177,7 +197,6 @@ inxi
 >extra libreoffice-fresh
 >extra vlc-nightly
 ms-office-online
-riot-desktop
 atom
 
 # Compression

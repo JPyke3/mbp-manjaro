@@ -54,6 +54,7 @@ gvfs-mtp
 gvfs-smb
 inxi
 imagewriter
+libappindicator-gtk3
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings

@@ -3,14 +3,10 @@
 base
 
 ## manjaro base system
+KERNEL
 manjaro-system
 mhwd
 sudo
-
-## required packages
-systemd-sysvcompat
-licenses
-KERNEL
 
 ## boot loader
 grub
