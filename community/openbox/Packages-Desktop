@@ -9,12 +9,12 @@
 >extra avahi
 >extra blueman
 >extra catfish
->extra ffmpeg2.8
+>extra ffmpeg
 >extra ffmpegthumbnailer
 >extra freetype2
 >extra gcolor2
 >extra gimp
->extra gstlibav
+>extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
 >extra gst-plugins-good
