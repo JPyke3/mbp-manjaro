@@ -4,70 +4,6 @@
 gtk3-classic
 
 ###################################
-## Java
-###################################
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
-
-###################################
-## Printing Support
-###################################
->extra manjaro-printer
->extra gtk3-print-backends
->extra pyqt5-common # For hplip
->extra python-pillow # For hplip
->extra python-pip # For hplip
->extra python-reportlab # For hplip
-
-###################################
-## Scanner Support
-###################################
->extra simple-scan
-
-###################################
-## Extra Fonts
-###################################
-#>extra terminus-font
-#>extra ttf-bitstream-vera
-#>extra ttf-inconsolata
-#>extra ttf-indic-otf
-#>extra ttf-liberation
-#>extra ttf-droid
-
-##################################
-## Graphic demos
-###################################
-#mesa-demos
-#>multilib lib32-mesa-demos
-
-###################################
-## Extra Themes/Artwork
-###################################
->extra manjaro-wallpapers-18.0
-
-###################################
-## Extra Cli Applications
-###################################
->extra pacui
->extra powertop
->extra htop
->extra mlocate
-
-###################################
-## Extra Applications
-###################################
->extra gufw
->extra guvcview
->extra transmission-gtk
->extra gimp
->extra libreoffice-fresh
->extra vlc-nightly
->extra thunderbird
->extra xfburn
->extra yelp
-
-###################################
 ## Network
 ###################################
 avahi
@@ -191,17 +127,15 @@ lxterminal
 ###################################
 pcmanfm-gtk3
 ffmpegthumbnailer  # tumbler - for video thumbnails
+file-roller
 freetype2          # tumbler - for font thumbnails
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
 
 ###################################
-## Essential stuff for good LXDE experience
+## Misc apps
 ###################################
 blueman
-gconf
-gksu-polkit
-gnome-keyringt
 light-locker
 manjaro-lxde-xfce4-notifyd
 manjaro-lxde-xfce4-volumed-pulse
@@ -218,9 +152,11 @@ xfce4-power-manager
 manjaro-hello
 manjaro-settings-manager
 manjaro-settings-manager-notifier
-engrampa
+gconf
+gksu-polkit
+gnome-keyring
 gnome-disk-utility
-gparted
+htop
 inxi
 dmidecode # optional dependency inxi
 leafpad
@@ -229,8 +165,11 @@ firefox
 #hexchat
 qpdfview
 gpicview-gtk3
-galculator-gtk2
+galculator
+mlocate
 numlockx
+powertop
+ps_mem
 
 ###################################
 # Optional dependencies engrampa
@@ -239,7 +178,7 @@ p7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
 
-###################################
+############7#######################
 ## Documentation
 ###################################
 manjaro-documentation-en
@@ -258,7 +197,7 @@ xdg-su
 manjaro-hotfixes
 
 ###################################
-## Xorg Input Drivers
+## Xorg
 ###################################
 xf86-input-elographics
 xf86-input-evdev
@@ -266,11 +205,61 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-
-###################################
-## Xorg Server and Graphics
-###################################
 xorg-server
 xorg-twm
 xorg-xinit
 xorg-xkill
+
+###################################
+## Extra Themes/Artwork
+###################################
+>extra manjaro-wallpapers-18.0
+
+###################################
+## Java
+###################################
+>extra jre8-openjdk
+
+###################################
+## Printing Support
+###################################
+>extra manjaro-printer
+>extra gtk3-print-backends
+>extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
+>extra python-reportlab # For hplip
+
+###################################
+## Scanner Support
+###################################
+#>extra simple-scan
+
+###################################
+## Extra Fonts
+###################################
+#>extra terminus-font
+#>extra ttf-bitstream-vera
+#>extra ttf-inconsolata
+#>extra ttf-indic-otf
+#>extra ttf-liberation
+#>extra ttf-droid
+
+##################################
+## Graphic demos
+###################################
+#mesa-demos
+#>multilib lib32-mesa-demos
+
+###################################
+## Extra Applications
+###################################
+>extra gufw
+>extra guvcview
+>extra transmission-gtk
+>extra gimp
+>extra libreoffice-fresh
+>extra vlc-nightly
+>extra thunderbird
+>extra xfburn
+>extra yelp
