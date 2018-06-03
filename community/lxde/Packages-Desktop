@@ -1,4 +1,9 @@
 ###################################
+# toolkit
+###################################
+gtk3-classic
+
+###################################
 ## Java
 ###################################
 >extra jdk8-openjdk
@@ -23,12 +28,18 @@
 ###################################
 ## Extra Fonts
 ###################################
->extra terminus-font
->extra ttf-bitstream-vera
->extra ttf-inconsolata
->extra ttf-indic-otf
->extra ttf-liberation
->extra ttf-droid
+#>extra terminus-font
+#>extra ttf-bitstream-vera
+#>extra ttf-inconsolata
+#>extra ttf-indic-otf
+#>extra ttf-liberation
+#>extra ttf-droid
+
+##################################
+## Graphic demos
+###################################
+#mesa-demos
+#>multilib lib32-mesa-demos
 
 ###################################
 ## Extra Themes/Artwork
@@ -60,6 +71,7 @@
 ## Network
 ###################################
 avahi
+network-manager-applet
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
@@ -72,7 +84,7 @@ mobile-broadband-provider-info
 modemmanager
 openresolv
 openssh
-samba
+#samba
 usb_modeswitch
 
 ###################################
@@ -141,8 +153,22 @@ yaourt
 ###################################
 lightdm
 lightdm-gtk-greeter
-lightdm-greeter-settings
+lightdm-settings
 accountsservice  # Enhanced user accounts handling
+
+###################################
+## Theming
+###################################
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-standard
+hicolor-icon-theme
+manjaro-lxde-logout-banner
+manjaro-lxde-settings-dev
+ttf-dejavu
+ttf-roboto
 
 ###################################
 ## LXDE Group
@@ -158,46 +184,33 @@ lxrandr-gtk3
 lxsession-gtk3
 lxtask-gtk3
 lxterminal
+#obconf
+
+###################################
+## Filemanager
+###################################
 pcmanfm-gtk3
+ffmpegthumbnailer  # tumbler - for video thumbnails
+freetype2          # tumbler - for font thumbnails
+libgsf             # tumbler - for ODF thumbnails
+libopenraw         # tumbler - for RAW thumbnails
 
 ###################################
 ## Essential stuff for good LXDE experience
-xfce4-power-manager
 ###################################
-light-locker
-cantarell-fonts
-pamac
-obconf
 blueman
-ffmpegthumbnailer  # tumbler - for video thumbnails
-freetype2          # tumbler - for font thumbnails
-gconf              # fix qt-theme
-gksu
-gnome-keyring      # fix wlan segfault
-gtk3-classic
-libgsf             # tumbler - for ODF thumbnails
-libopenraw         # tumbler - for RAW thumbnails
-network-manager-applet
-pavucontrol
-manjaro-lxde-logout-banner
-manjaro-lxde-settings
+gconf
+gksu-polkit
+gnome-keyringt
+light-locker
 manjaro-lxde-xfce4-notifyd
 manjaro-lxde-xfce4-volumed-pulse
-poppler-data   #CKJ support for pdf
+poppler-data
+pamac
+pavucontrol
 qt5ct
 qt5-styleplugins
-
-###################################
-# theming
-###################################
-gnome-icon-theme
-gnome-themes-standard
-
-###################################
-# fonts
-###################################
-ttf-dejavu
-ttf-roboto
+xfce4-power-manager
 
 ###################################
 ## Basic Applications
@@ -218,7 +231,6 @@ qpdfview
 gpicview-gtk3
 galculator-gtk2
 numlockx
-
 
 ###################################
 # Optional dependencies engrampa
@@ -244,12 +256,6 @@ xdg-su
 ## Misc
 ###################################
 manjaro-hotfixes
-
-###################################
-## Graphic demos
-###################################
-#mesa-demos
-#>multilib lib32-mesa-demos
 
 ###################################
 ## Xorg Input Drivers
