@@ -2,9 +2,6 @@
 #####################
 ## packages extra
 #####################
->extra alsa-firmware
->extra alsa-utils
->extra alsa-plugins
 >extra audacious-gtk3
 >extra audacious-plugins-gtk3
 >extra avahi
@@ -84,6 +81,13 @@
 >extra yaourt
 
 #####################
+## sound support
+#####################
+alsa-firmware
+alsa-utils
+alsa-plugins
+
+#####################
 ## basic utilities
 #####################
 galculator
@@ -138,6 +142,9 @@ thunar-gtk3
 thunar-volman-gtk3
 tumbler
 unarchiver
+lynx
+mc
+ranger
 
 #####################
 ## virtual filesystem
@@ -183,8 +190,6 @@ jsoncpp
 kickshaw
 libmpdclient
 lxmenu-data
-lynx
-mc
 nitrogen
 numlockx
 ob-autostart
@@ -193,7 +198,6 @@ obkey-gtk3
 obmenu-generator
 openbox
 polybar
-ranger
 rofi
 skippy-xd
 scrot
