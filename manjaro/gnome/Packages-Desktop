@@ -10,7 +10,7 @@ evince
 >extra firefox
 gdm
 manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
-manjaro-gdm-18.0-theme-dev #branding theme for GDM: 18.0 development 
+manjaro-gdm-theme #branding theme for GDM: 18.0 
 gedit 
 gtksourceview-pkgbuild #highlight for PKGBUILD
 gnome-backgrounds
@@ -75,6 +75,7 @@ illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
 manjaro-gnome-assets-dev
+grub-theme-manjaro-dev #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
