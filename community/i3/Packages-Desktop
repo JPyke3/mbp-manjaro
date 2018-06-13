@@ -30,9 +30,11 @@ gcc
 gconf
 >extra gimp
 >extra git
+gksu-polkit
 gnome-keyring
 >extra gparted
 groff
+grub-theme-manjaro-dev
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
@@ -69,7 +71,6 @@ maia-console
 make
 >multilib manjaro-alsa
 manjaro-browser-settings
-manjaro-hello
 manjaro-hotfixes
 manjaro-i3-settings-dev
 >extra manjaro-printer
@@ -157,4 +158,3 @@ xterm
 yaourt
 xdg-user-dirs
 xorg-server
-zensu
