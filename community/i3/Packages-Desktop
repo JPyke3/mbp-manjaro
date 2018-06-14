@@ -72,7 +72,7 @@ make
 >multilib manjaro-alsa
 manjaro-browser-settings
 manjaro-hotfixes
-manjaro-i3-settings-dev
+manjaro-i3-settings
 >extra manjaro-printer
 manjaro-settings-manager-notifier
 >extra markdown_previewer
