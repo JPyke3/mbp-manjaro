@@ -10,7 +10,7 @@
     </item>
     <item label="Gparted">
         <action name="Execute">
-            <command>zensu gparted</command>
+            <command>gksu gparted</command>
         </action>
     </item>
     <item label="Testdisk">
@@ -45,6 +45,11 @@
 
 <menu id="preferences" label="Preferences">
     <menu id="openbox-config" label="Openbox">
+        <item label="LXAppearance">
+            <action name="Execute">
+                <command>lxappearance</command>
+            </action>
+        </item>
         <item label="Configuration">
             <action name="Execute">
                 <command>obconf</command>
@@ -121,7 +126,7 @@
         </item>
         <item label="Root File Manager">
             <action name="Execute">
-                <command>zensu thunar</command>
+                <command>gksu thunar</command>
             </action>
         </item>
     </menu>
@@ -171,11 +176,6 @@
     <item label="Web Browser">
         <action name="Execute">
             <command>chromium</command>
-        </action>
-    </item>
-    <item label="Mail Reader">
-        <action name="Execute">
-            <command>sylpheed</command>
         </action>
     </item>
     <item label="Text Editor">
