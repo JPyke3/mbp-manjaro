@@ -1,107 +1,4 @@
 #####################
-## packages extra
-#####################
->extra audacious-gtk3
->extra audacious-plugins-gtk3
->extra avahi
->extra blueman
->extra catfish
->extra ffmpeg
->extra ffmpegthumbnailer
->extra freetype2
->extra gcolor2
->extra gimp
->extra gst-libav
->extra gst-plugins-bad
->extra gst-plugins-base
->extra gst-plugins-good
->extra gst-plugins-ugly
->extra gstreamer
->extra guake
->extra libgsf
->extra libmad
->extra libmatroska
->extra libopenraw
->extra libreoffice-fresh
->extra manjaro-settings-manager
->extra mpv
->extra nss-mdns
->extra pamixer
->extra pavucontrol
->extra playerctl
->extra pulseaudio
->extra pulseaudio-alsa
->extra poppler-data
->extra poppler-glib
->extra smbclient
->extra thunar-media-tags-plugin
->extra udiskie
->extra udisks2
->extra usb_modeswitch
->extra volumeicon
-
-#####################
-## extra fonts
-#####################
->extra noto-fonts
->extra ttf-droid
-
-#####################
-## packages minimal
-#####################
-#>basic abiword
-#>basic gnumeric
-
-#####################
-## manjaro
-#####################
->extra manjaro-documentation-en
-
-#####################
-## aur support
-#####################
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra flex
->extra gc
->extra gcc
->extra git
->extra guile
->extra libatomic_ops
->extra libmpc
->extra m4
->extra make
->extra package-query
->extra patch
->extra pkg-config
->extra yajl
->extra yaourt
-
-#####################
-## sound support
-#####################
->extra alsa-firmware
->extra alsa-utils
->extra alsa-plugins
-
-#####################
-## basic utilities
-#####################
->extra galculator
->extra gedit
->extra gpicview-gtk3
->extra gsimplecal
->extra qpdfview
-
-#####################
-## internet apps
-#####################
->extra chromium
->extra sylpheed
-
-#####################
 ## edition theming and settings
 #####################
 manjaro-openbox-config
@@ -141,48 +38,15 @@ lightdm
 lightdm-slick-greeter
 
 #####################
-## system tools
+## web browser
 #####################
->extra clonezilla
->extra gnome-disk-utility
->extra inxi
->extra mintstick
->extra pamac
->extra ps_mem
->extra screenfetch
->extra testdisk
+lynx
 
 #####################
-## filemanagers
+## filemanager
 #####################
->extra file-roller
->extra p7zip
->extra thunar-archive-plugin-gtk3
->extra thunar-gtk3
->extra thunar-volman-gtk3
->extra tumbler
->extra unarchiver
-lynx
 mc
 ranger
-
-#####################
-## virtual filesystem
-#####################
->extra gvfs
->extra gvfs-afc
->extra gvfs-mtp
->extra gvfs-nfs
-
-#####################
-## network tools
-#####################
->extra arp-scan
->extra bind-tools
->extra net-tools
->extra nmap
->extra whois
->extra traceroute
 
 #####################
 ## network
@@ -192,8 +56,6 @@ networkmanager
 networkmanager-openvpn
 openresolv
 openssh
->extra ufw
->extra wireless_tools
 
 #####################
 ## packages core
@@ -203,17 +65,12 @@ compton
 conky
 dunst
 exo-gtk3
->extra htop
 i3lock
 imagemagick
 jgmenu
->extra jsoncpp
 kickshaw
->extra libmpdclient
->extra lxappearance-gtk3
->extra lxappearance-obconf-gtk3
 lxmenu-data
->extra lxsession-gtk3
+lxsession-gtk3
 nitrogen
 numlockx
 ob-autostart
@@ -230,8 +87,6 @@ termite-terminfo
 tint2
 wmctrl
 xcape
->extra xcmenu
->extra xfce4-settings-gtk3
 xdotool
 zenity
 
