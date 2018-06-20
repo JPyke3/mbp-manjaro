@@ -1,8 +1,8 @@
 #####################
 ## settings manager
 #####################
-lxsettings-gtk3
-lxsettings-obconf-gtk3
+lxappearance-gtk3
+lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
 
