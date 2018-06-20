@@ -90,6 +90,8 @@ tint2
 wireless_tools
 wmctrl
 xcape
+xcb-util-cursor
+xcmenu
 xdotool
 zenity
 
