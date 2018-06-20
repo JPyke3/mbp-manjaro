@@ -108,8 +108,30 @@ manjaro-openbox-config
 manjaro-openbox-grub-theme-blue
 manjaro-openbox-scripts
 manjaro-openbox-settings
-manjaro-openbox-theme-fonts
+
+##-------------------
+## theme meta package
+##-------------------
+# adapta-maia-theme
+# manjaro-openbox-adapta-maia
+# manjaro-openbox-wallpapers-18.0
+# papirus-maia-icon-theme
+# manjaro-wallpapers-18.0
+# xcursor-breeze
+##-------------------
 manjaro-openbox-theme-18.0
+
+##-------------------
+## fonts meta package
+##-------------------
+# manjaro-openbox-fonts
+# ttf-font-awesome
+# ttf-font-logos
+# ttf-icomoon-icons
+# ttf-material-icons
+# ttf-polybar-icons
+##-------------------
+manjaro-openbox-theme-fonts
 manjaro-zsh-config
 
 #####################
@@ -129,7 +151,6 @@ pamac
 ps_mem
 screenfetch
 testdisk
-xfce4-settings-gtk3
 
 #####################
 ## filemanagers
@@ -189,7 +210,10 @@ jgmenu
 jsoncpp
 kickshaw
 libmpdclient
+lxappearance-gtk3
+lxappearance-obconf-gtk3
 lxmenu-data
+lxsession-gtk3
 nitrogen
 numlockx
 ob-autostart
@@ -207,6 +231,7 @@ tint2
 wmctrl
 xcape
 xcmenu
+xfce4-settings-gtk3
 xdotool
 zenity
 
