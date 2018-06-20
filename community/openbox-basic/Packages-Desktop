@@ -46,6 +46,11 @@ lightdm
 lightdm-slick-greeter
 
 #####################
+## text editor
+#####################
+mousepad
+
+#####################
 ## web browser
 #####################
 lynx

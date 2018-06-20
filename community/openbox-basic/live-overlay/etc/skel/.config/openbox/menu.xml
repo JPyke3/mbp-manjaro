@@ -120,24 +120,24 @@
             <command>termite</command>
         </action>
     </item>
+    <item label="Pcman FM">
+        <action name="Execute">
+            <command>pcmanfm</command>
+        </action>
+    </item>
     <item label="Midnight Commander">
         <action name="Execute">
             <command>termite -e mc</command>
         </action>
     </item>
-    <item label="Ranger">
+    <item label="Midori Browser">
         <action name="Execute">
-            <command>termite -e ranger</command>
-        </action>
-    </item>
-    <item label="Web Browser">
-        <action name="Execute">
-            <command>termite -e lynx</command>
+            <command>midori https://manjaro.org</command>
         </action>
     </item>
     <item label="Text Editor">
         <action name="Execute">
-            <command>termite -e nano</command>
+            <command>mousepad</command>
         </action>
     </item>
     <separator/>
