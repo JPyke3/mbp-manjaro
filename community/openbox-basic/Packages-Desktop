@@ -68,7 +68,9 @@ exo-gtk3
 i3lock
 imagemagick
 jgmenu
+jsoncpp
 kickshaw
+libmpdclient
 lxmenu-data
 lxsession-gtk3
 nitrogen
@@ -85,6 +87,7 @@ scrot
 termite
 termite-terminfo
 tint2
+wireless_tools
 wmctrl
 xcape
 xdotool
