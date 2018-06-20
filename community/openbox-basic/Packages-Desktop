@@ -41,11 +41,13 @@ lightdm-slick-greeter
 ## web browser
 #####################
 lynx
+midori
 
 #####################
 ## filemanager
 #####################
 mc
+pcmanfm-gtk3
 ranger
 
 #####################
