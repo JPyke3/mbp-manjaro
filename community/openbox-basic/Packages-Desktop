@@ -1,4 +1,12 @@
 #####################
+## settings manager
+#####################
+lxsettings-gtk3
+lxsettings-obconf-gtk3
+manjaro-settings-manager
+xfce4-settings-gtk3
+
+#####################
 ## edition theming and settings
 #####################
 manjaro-openbox-config
@@ -55,9 +63,9 @@ ranger
 #####################
 network-manager-applet
 networkmanager
+networkmanager-dmenu
 networkmanager-openvpn
 openresolv
-openssh
 
 #####################
 ## packages core
