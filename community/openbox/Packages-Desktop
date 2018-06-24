@@ -76,7 +76,6 @@ pkg-config
 yajl
 
 #---------=> aur helpers
-pikaur
 yay
 
 #---------=> internet apps
