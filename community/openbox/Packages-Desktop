@@ -56,6 +56,9 @@ gvfs-nfs
 #---------=> manjaro
 manjaro-documentation-en
 
+#---------=> package manager
+pamac
+
 #---------=> build support
 autoconf
 automake
@@ -129,6 +132,12 @@ openresolv
 >extra smbclient
 >extra usb_modeswitch
 
+#---------=> disk utilities
+gnome-disk-utility
+clonezilla
+mintstick
+xfburn
+
 #---------=> basic utilities
 freetype2
 galculator
@@ -158,7 +167,8 @@ manjaro-settings-manager
 xfce4-settings-gtk3
 
 #---------=> edition theming and settings
-manjaro-openbox-basic-config
+>basic manjaro-openbox-minimal-config
+>extra manjaro-openbox-config
 manjaro-openbox-grub-theme-blue
 manjaro-openbox-scripts
 manjaro-openbox-settings
