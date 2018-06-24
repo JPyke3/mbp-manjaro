@@ -190,7 +190,6 @@ xcursor-vanilla-dmz-aa
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
-engrampa-thunar-plugin
 >extra firefox
 # >extra flashplugin
 >extra galculator-gtk2
