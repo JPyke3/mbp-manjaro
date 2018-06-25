@@ -8,9 +8,6 @@ avahi
 binutils
 bison
 >extra brasero
-fakeroot
-firefox
-flex
 >extra dconf-editor
 deepin-calendar
 >extra deepin-calculator
@@ -31,7 +28,10 @@ dmidecode
 >extra downgrade
 >extra evince
 >extra evolution
+fakeroot
 >extra file-roller
+firefox
+flex
 >extra galculator
 gcc
 >multilib gcc-libs-multilib
@@ -40,6 +40,7 @@ gedit
 >extra gimp
 >extra git
 >extra gparted
+grub-theme-manjaro-dev
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
