@@ -10,7 +10,7 @@ xfce4-settings-gtk3
 ## edition theming and settings
 #####################
 manjaro-openbox-basic-config
-manjaro-openbox-grub-theme-blue
+manjaro-grub-theme-dev
 manjaro-openbox-scripts
 manjaro-openbox-settings
 
@@ -48,7 +48,7 @@ lightdm-slick-greeter
 #####################
 ## text editor
 #####################
-mousepad
+xed
 
 #####################
 ## web browser

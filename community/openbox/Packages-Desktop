@@ -34,14 +34,12 @@ pulseaudio-alsa
 >extra krita
 
 #---------=> connect packages
+blueman
 gvfs
 gvfs-afc
 gvfs-mtp
 gvfs-nfs
-
->extra blueman
->extra udiskie
->extra udisks2
+udiskie
 
 #---------=> extra fonts
 >extra noto-fonts
@@ -82,29 +80,28 @@ yajl
 yay
 
 #---------=> internet apps
->basic midori
->basic sylpheed
+midori
+sylpheed
 
 >extra chromium
 >extra firefox
 >extra thunderbird
 
 #---------=> text editor
-micro-manjaro
 dash # dependency of micro-manjaro
+micro-manjaro
 vim
->basic mousepad
->extra xed
+xed
 
 #---------=> filemanager
 lynx
 mc
+pcmanfm-gtk3
 ranger
->basic pcmanfm-gtk3
->basic xarchiver
+spacefm
+xarchiver
 
 >extra catfish
->extra file-roller
 >extra ffmpegthumbnailer  # tumbler - for video thumbnails
 >extra freetype2          # tumbler - for font thumbnails
 >extra libgsf             # tumbler - for ODF thumbnails
@@ -119,22 +116,23 @@ ranger
 >extra poppler-glib
 >extra thunar-media-tags-plugin
 
-
 #---------=> network
 network-manager-applet
 networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
 openresolv
+ufw
 
 >extra avahi
+>extra gufw
 >extra nss-mdns
 >extra smbclient
 >extra usb_modeswitch
 
 #---------=> disk utilities
-gnome-disk-utility
 clonezilla
+gnome-disk-utility
 mintstick
 xfburn
 
@@ -142,11 +140,9 @@ xfburn
 freetype2
 galculator
 gcolor2
-gpicview-gtk3
+viewnior
 gsimplecal
 qpdfview
-
->extra guake
 
 #---------=> network utilities
 arp-scan
@@ -154,7 +150,6 @@ bind-tools
 net-tools
 openssh
 traceroute
-ufw
 whois
 
 #-------------------------------------------------
@@ -169,7 +164,7 @@ xfce4-settings-gtk3
 #---------=> edition theming and settings
 >basic manjaro-openbox-minimal-config
 >extra manjaro-openbox-config
-manjaro-openbox-grub-theme-blue
+manjaro-grub-theme-dev
 manjaro-openbox-scripts
 manjaro-openbox-settings
 

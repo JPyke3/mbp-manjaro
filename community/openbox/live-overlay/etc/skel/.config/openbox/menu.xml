@@ -18,11 +18,6 @@
             <command>termite -e "sudo testdisk"</command>
         </action>
     </item>
-    <item label="USB Image Writer">
-        <action name="Execute">
-            <command>mintstick -m iso</command>
-        </action>
-    </item>
 </menu>
 
 <menu id="screenshot" label="Screenshot">
@@ -190,11 +185,7 @@
     </item>
     <separator/>
 
-    <menu id="common-utilities"/>
-
     <menu id="disk-utilities"/>
-
-    <menu id="network-utilities"/>
 
     <menu id="screenshot"/>
 
