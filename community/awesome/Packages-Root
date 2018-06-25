@@ -56,7 +56,7 @@ ntfs-3g
 os-prober
 pacman
 pciutils
-pcmciautils
+#pcmciautils
 perl
 procps-ng
 psmisc
@@ -90,5 +90,5 @@ vi
 wget
 which
 xfsprogs
-zd1211-firmware
+#zd1211-firmware
 zsh
