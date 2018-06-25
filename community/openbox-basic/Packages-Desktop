@@ -9,8 +9,8 @@ xfce4-settings-gtk3
 #####################
 ## edition theming and settings
 #####################
+grub-theme-manjaro-dev
 manjaro-openbox-basic-config
-manjaro-grub-theme-dev
 manjaro-openbox-scripts
 manjaro-openbox-settings
 

@@ -162,11 +162,13 @@ manjaro-settings-manager
 xfce4-settings-gtk3
 
 #---------=> edition theming and settings
->basic manjaro-openbox-minimal-config
->extra manjaro-openbox-config
-manjaro-grub-theme-dev
+grub-theme-manjaro-dev
 manjaro-openbox-scripts
 manjaro-openbox-settings
+
+>basic manjaro-openbox-minimal-config
+
+>extra manjaro-openbox-config
 
 #---------=> theme meta package
 # adapta-maia-theme
