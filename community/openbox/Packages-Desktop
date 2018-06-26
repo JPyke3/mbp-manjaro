@@ -88,8 +88,9 @@ sylpheed
 >extra thunderbird
 
 #---------=> text editor
-dash # dependency of micro-manjaro
+dash          # dependency of micro-manjaro
 micro-manjaro
+terminus-font # dependency of micro-manjaro
 vim
 xed
 

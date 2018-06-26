@@ -119,9 +119,8 @@
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
-
     <separator label="Install Manjaro Openbox"/>
-        <item label="Calamares Installer">
+    <item label="Calamares Installer">
         <action name="Execute">
             <command>sudo calamares</command>
         </action>
@@ -152,28 +151,18 @@
             <command>midori https://manjaro.org</command>
         </action>
     </item>
-    <item label="Text Editor">
-        <action name="Execute">
-            <command>mousepad</command>
-        </action>
-    </item>
     <separator/>
-    <menu id="disk-utilities">
+    <menu id="disk-utilities"/>
     <menu id="screenshot"/>
-
     <menu id="applications" label="Applications" execute="/usr/bin/obmenu-generator -S ~/.config/obmenu-generator/applications.pl"/>
     <separator/>
-
     <menu id="pipe-placesmenu" label="Places" execute="manjaro-places-pipemenu --recent ~/"/>
     <separator/>
-
     <menu id="preferences"/>
     <menu id="keybinds" label="Keybinds" execute="manjaro-kb-pipemenu"/>
     <separator/>
-
     <menu id="help" label="Help and Info" execute="manjaro-help-pipemenu"/>
     <separator/>
-    
     <item label="Switch Menu">
         <action name="Execute">
             <command>switchmenu -dynamic</command>
@@ -191,5 +180,4 @@
         </action>
     </item>
 </menu>
-
 </openbox_menu>
