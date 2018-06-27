@@ -5,7 +5,6 @@
 audacious-gtk3
 audacious-plugins-gtk3
 deadbeef
-mpv
 smplayer
 smplayer-skins
 smplayer-themes
@@ -80,10 +79,9 @@ yajl
 yay
 
 #---------=> internet apps
-midori
+chromium
 sylpheed
 
->extra chromium
 >extra firefox
 >extra thunderbird
 
@@ -123,12 +121,12 @@ networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
 openresolv
-ufw
 
 >extra avahi
 >extra gufw
 >extra nss-mdns
 >extra smbclient
+>extra ufw
 >extra usb_modeswitch
 
 #---------=> disk utilities
@@ -163,7 +161,7 @@ manjaro-settings-manager
 xfce4-settings-gtk3
 
 #---------=> edition theming and settings
-grub-theme-manjaro-dev
+manjaro-openbox-grub-theme-glassfield
 manjaro-openbox-scripts
 manjaro-openbox-settings
 

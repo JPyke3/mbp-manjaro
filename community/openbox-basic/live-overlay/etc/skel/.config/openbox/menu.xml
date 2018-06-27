@@ -40,17 +40,22 @@
 
 <menu id="preferences" label="Preferences">
     <menu id="openbox" label="Openbox">
-        <item label="Configuration">
+        <item label="Customize Look and Feel">
+            <action name="Execute">
+                <command>lxappearance</command>
+            </action>
+        </item>
+        <item label="Openbox Configuration">
             <action name="Execute">
                 <command>obconf</command>
             </action>
         </item>
-        <item label="Menu Editor">
+        <item label="GUI Menu Editor">
             <action name="Execute">
                 <command>kickshaw</command>
             </action>
         </item>
-        <item label="Keybind Editor">
+        <item label="GUI Keybind Editor">
             <action name="Execute">
                 <command>obkey</command>
             </action>
