@@ -2,12 +2,14 @@
 ##### OPENBOX PROFILE
 
 #---------=> media player
-audacious-gtk3
-audacious-plugins-gtk3
-deadbeef
 smplayer
 smplayer-skins
 smplayer-themes
+
+>basic deadbeef
+
+>extra audacious-gtk3
+>extra audacious-plugins-gtk3
 
 #---------=> sound support
 alsa-firmware
@@ -22,18 +24,11 @@ playerctl
 pulseaudio
 pulseaudio-alsa
 
->extra gst-libav
->extra gst-plugins-bad
->extra gst-plugins-base
->extra gst-plugins-good
->extra gst-plugins-ugly
-
 #---------=> graphic applications
 >extra gimp
->extra krita
 
 #---------=> connect packages
-blueman
+>extra blueman
 gvfs
 gvfs-afc
 gvfs-mtp
@@ -55,6 +50,7 @@ manjaro-documentation-en
 
 #---------=> package manager
 pamac
+yay
 
 #---------=> build support
 autoconf
@@ -75,36 +71,32 @@ patch
 pkg-config
 yajl
 
-#---------=> aur helpers
-yay
-
 #---------=> internet apps
-chromium
-sylpheed
+>basic chromium
+>basic sylpheed
 
 >extra firefox
 >extra thunderbird
 
 #---------=> text editor
-dash          # dependency of micro-manjaro
+dash
 micro-manjaro
-terminus-font # dependency of micro-manjaro
+terminus-font
 vim
 xed
 
 #---------=> filemanager
 lynx
 mc
-pcmanfm-gtk3
 ranger
-spacefm
 xarchiver
 
+>basic pcmanfm-gtk3
+>basic spacefm
+
 >extra catfish
->extra ffmpegthumbnailer  # tumbler - for video thumbnails
->extra freetype2          # tumbler - for font thumbnails
->extra libgsf             # tumbler - for ODF thumbnails
->extra libopenraw         # tumbler - for RAW thumbnails
+>extra ffmpegthumbnailer
+>extra mlocate
 >extra p7zip
 >extra thunar-archive-plugin-gtk3
 >extra thunar-gtk3
@@ -136,7 +128,6 @@ mintstick
 xfburn
 
 #---------=> basic utilities
-freetype2
 galculator
 gcolor2
 viewnior
@@ -207,7 +198,7 @@ kickshaw
 libmpdclient
 lxmenu-data
 lxsession-gtk3
-nitrogen
+>extra nitrogen
 numlockx
 ob-autostart
 obconf
@@ -238,10 +229,12 @@ gnome-themes-extra
 hicolor-icon-theme
 
 #---------=> system fonts
+freetype2
 ttf-dejavu
 ttf-roboto
 
 #---------=> system
+accountsservice
 gamin
 gksu-polkit
 gnome-keyring
