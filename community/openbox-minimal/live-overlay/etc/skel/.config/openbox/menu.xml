@@ -128,7 +128,7 @@
     </item>
     <item label="Wallpaper">
         <action name="Execute">
-            <command>nitrogen</command>
+            <command>pcmanfm --desktop-pref</command>
         </action>
     </item>
     <item label="Rofi Theme">

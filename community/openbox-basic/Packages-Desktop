@@ -1,14 +1,8 @@
-#####################
-## settings manager
-#####################
 lxappearance-gtk3
 lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
 
-#####################
-## edition theming and settings
-#####################
 manjaro-openbox-basic-config
 manjaro-openbox-grub-theme-glassfield
 manjaro-openbox-scripts
@@ -16,56 +10,37 @@ manjaro-openbox-settings
 
 ##-------------------
 ## theme meta package
-##-------------------
 # adapta-maia-theme
 # manjaro-openbox-adapta-maia
 # manjaro-openbox-wallpapers-18.0
 # papirus-maia-icon-theme
 # manjaro-wallpapers-18.0
 # xcursor-breeze
-##-------------------
 manjaro-openbox-theme-18.0
 
 ##-------------------
 ## fonts meta package
-##-------------------
 # manjaro-openbox-fonts
 # ttf-font-awesome
 # ttf-font-logos
 # ttf-icomoon-icons
 # ttf-material-icons
 # ttf-polybar-icons
-##-------------------
 manjaro-openbox-theme-fonts
 manjaro-zsh-config
 
-#####################
-## display manager and greeter
-#####################
 lightdm
 lightdm-slick-greeter
 
-#####################
-## text editor
-#####################
 xed
 
-#####################
-## web browser
-#####################
 lynx
 midori
 
-#####################
-## filemanager
-#####################
 mc
 pcmanfm-gtk3
 ranger
 
-#####################
-## network
-#####################
 network-manager-applet
 networkmanager
 networkmanager-dmenu
@@ -89,7 +64,6 @@ kickshaw
 libmpdclient
 lxmenu-data
 lxsession-gtk3
-nitrogen
 numlockx
 ob-autostart
 obconf
@@ -113,7 +87,6 @@ zenity
 
 #####################
 ## system icons
-#####################
 adwaita-icon-theme
 gnome-icon-theme
 gnome-icon-theme-extras
@@ -123,13 +96,11 @@ hicolor-icon-theme
 
 #####################
 ## system fonts
-#####################
 ttf-dejavu
 ttf-roboto
 
 #####################
 ## system
-#####################
 gamin
 gksu-polkit
 gnome-keyring
@@ -143,7 +114,6 @@ xdg-utils
 
 #####################
 ## xorg
-#####################
 xorg-server
 xorg-server-common
 xorg-xbacklight
