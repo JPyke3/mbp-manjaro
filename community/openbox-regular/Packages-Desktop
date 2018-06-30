@@ -144,7 +144,7 @@ xfce4-settings-gtk3
 #---------=> edition theming and settings
 manjaro-openbox-grub-theme-glassfield
 manjaro-openbox-scripts
-manjaro-openbox-config
+manjaro-openbox-regular-config
 
 #---------=> theme meta package
 # adapta-maia-theme
