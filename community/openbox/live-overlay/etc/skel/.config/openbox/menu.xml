@@ -141,7 +141,12 @@
 <menu id="root-menu" label="Openbox 3">
 
     <separator label="Install Manjaro Openbox"/>
-        <item label="Calamares Installer">
+    <item label="Manjaro User Guide">
+        <action name="Execute">
+            <command>qpdfview "/usr/share/doc/manjaro/Beginner_User_Guide.pdf"</command>
+        </action>
+    </item>
+    <item label="Calamares Installer">
         <action name="Execute">
             <command>sudo calamares</command>
         </action>
@@ -151,7 +156,7 @@
             <command>termite -e "sudo setup"</command>
         </action>
     </item>
-
+    
     <separator label="Manjaro Openbox"/>
     <item label="Terminal">
         <action name="Execute">
