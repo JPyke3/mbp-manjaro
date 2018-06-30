@@ -1,6 +1,9 @@
 #-------------------------------------------------
 ##### REGULAR OPENBOX PROFILE
 
+#---------=> printing support
+manjaro-printer
+
 #---------=> media player
 smplayer
 smplayer-skins
