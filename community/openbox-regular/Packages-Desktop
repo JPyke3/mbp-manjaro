@@ -27,7 +27,7 @@ pulseaudio
 pulseaudio-alsa
 
 #---------=> graphic applications
-gimp-gtk3
+gimp
 
 #---------=> connect packages
 blueman
