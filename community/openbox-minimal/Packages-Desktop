@@ -6,10 +6,7 @@ smplayer
 smplayer-skins
 smplayer-themes
 
->basic deadbeef
-
->extra audacious-gtk3
->extra audacious-plugins-gtk3
+deadbeef
 
 #---------=> sound support
 alsa-firmware
@@ -24,11 +21,7 @@ playerctl
 pulseaudio
 pulseaudio-alsa
 
-#---------=> graphic applications
->extra gimp
-
 #---------=> connect packages
->extra blueman
 gvfs
 gvfs-afc
 gvfs-mtp
@@ -36,15 +29,9 @@ gvfs-nfs
 gvfs-smb
 udiskie
 
-#---------=> extra fonts
->extra noto-fonts
->extra ttf-droid
-
 #---------=> office
->basic abiword
->basic gnumeric
-
->extra libreoffice-fresh
+abiword
+gnumeric
 
 #---------=> manjaro
 manjaro-documentation-en
@@ -73,11 +60,8 @@ pkg-config
 yajl
 
 #---------=> internet apps
->basic chromium
->basic sylpheed
-
->extra firefox
->extra thunderbird
+chromium
+sylpheed
 
 #---------=> text editor
 dash
@@ -93,35 +77,8 @@ p7zip
 ranger
 unarchiver
 xarchiver
-
->basic pcmanfm-gtk3
->basic spacefm
-
->extra catfish
->extra ffmpegthumbnailer
->extra mlocate
-
->extra thunar-archive-plugin-gtk3
->extra thunar-gtk3
->extra thunar-volman-gtk3
->extra tumbler
->extra poppler-data
->extra poppler-glib
->extra thunar-media-tags-plugin
-
-#---------=> network
-network-manager-applet
-networkmanager
-networkmanager-dmenu
-networkmanager-openvpn
-openresolv
-
->extra avahi
->extra gufw
->extra nss-mdns
->extra smbclient
->extra ufw
->extra usb_modeswitch
+pcmanfm-gtk3
+spacefm
 
 #---------=> disk utilities
 clonezilla
@@ -156,11 +113,7 @@ xfce4-settings-gtk3
 #---------=> edition theming and settings
 manjaro-openbox-grub-theme-glassfield
 manjaro-openbox-scripts
-#manjaro-openbox-settings
-
->basic manjaro-openbox-minimal-config
-
->extra manjaro-openbox-config
+manjaro-openbox-minimal-config
 
 #---------=> theme meta package
 # adapta-maia-theme
@@ -180,6 +133,13 @@ manjaro-openbox-theme-18.0
 # ttf-polybar-icons
 manjaro-openbox-theme-fonts
 manjaro-zsh-config
+
+#---------=> network
+network-manager-applet
+networkmanager
+networkmanager-dmenu
+networkmanager-openvpn
+openresolv
 
 #---------=> display manager and greeter
 lightdm

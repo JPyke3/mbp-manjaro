@@ -29,19 +29,17 @@ manjaro-openbox-theme-18.0
 manjaro-openbox-theme-fonts
 manjaro-zsh-config
 
+#####################
+## basic functions
+#####################
 gsimplecal
-
 manjaro-documentation-en
 qpdfview
-
 lightdm
 lightdm-slick-greeter
-
 xed
-
 lynx
 midori
-
 mc
 pcmanfm-gtk3
 ranger
