@@ -30,20 +30,24 @@ manjaro-openbox-theme-fonts
 manjaro-zsh-config
 
 #####################
-## basic functions
+## basic utilities
 #####################
+gpicview
 gsimplecal
-manjaro-documentation-en
-qpdfview
 lightdm
 lightdm-slick-greeter
-xed
 lynx
+manjaro-documentation-en
 midori
 mc
 pcmanfm-gtk3
+qpdfview
 ranger
+xed
 
+#####################
+## network
+#####################
 network-manager-applet
 networkmanager
 networkmanager-dmenu
@@ -66,7 +70,7 @@ jsoncpp
 kickshaw
 libmpdclient
 lxmenu-data
-lxsession-gtk3
+nitrogen
 numlockx
 ob-autostart
 obconf
@@ -121,6 +125,7 @@ xorg-server
 xorg-server-common
 xorg-xbacklight
 xorg-xinit
+xorg-xinput
 xorg-xkill
 xorg-xprop
 xf86-input-keyboard

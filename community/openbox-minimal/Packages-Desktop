@@ -89,9 +89,10 @@ xfburn
 #---------=> basic utilities
 galculator
 gcolor2
-viewnior
+gpicview
 gsimplecal
 qpdfview
+viewnior
 
 #---------=> network utilities
 arp-scan
@@ -159,7 +160,6 @@ jsoncpp
 kickshaw
 libmpdclient
 lxmenu-data
-lxsession-gtk3
 numlockx
 ob-autostart
 obconf
@@ -180,8 +180,6 @@ xcb-util-cursor
 xcmenu
 xdotool
 zenity
-
->extra nitrogen
 
 #---------=> system icons
 adwaita-icon-theme
@@ -214,6 +212,7 @@ xorg-server
 xorg-server-common
 xorg-xbacklight
 xorg-xinit
+xorg-xinput
 xorg-xkill
 xorg-xprop
 xf86-input-keyboard
