@@ -71,6 +71,7 @@ maia-console
 make
 >multilib manjaro-alsa
 manjaro-browser-settings
+manjaro-hello
 manjaro-hotfixes
 manjaro-i3-settings
 >extra manjaro-printer
