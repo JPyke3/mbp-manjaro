@@ -3,6 +3,7 @@ alsa-firmware
 alsa-plugins
 alsa-utils
 arandr
+>basic i3-default-artwork
 >extra artwork-i3
 autoconf
 automake
@@ -11,22 +12,22 @@ binutils
 bison
 >extra blueman
 bmenu
-cantarell-fonts
+>extra cantarell-fonts
 clipit
 >extra deluge
 dfc
 dmidecode
-downgrade
->extra epdfview
+>extra downgrade
+epdfview
 fakeroot
 >extra ffmpeg
 >extra ffmpegthumbnailer
 >extra flac
 flex
-gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
->extra gcolor2
+>extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
+gcolor2
 gconf
 >extra gimp
 >extra git
@@ -42,9 +43,8 @@ grub-theme-manjaro-dev
 >extra gst-plugins-ugly
 >extra gstreamer
 gtk3-classic
->multilib lib32-gtk3-classic
-gtksourceview-pkgbuild
-gufw
+>extra gtksourceview-pkgbuild
+>extra gufw
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -52,18 +52,17 @@ gvfs-mtp
 gvfs-smb
 >extra hexchat
 htop
-i3-default-artwork
 inxi
 >extra isousb
 json-c
 kvantum-manjaro
 >multilib lib32-flex
-libdvdcss
-libgpod
+>extra libdvdcss
+>extra libgpod
 libtool
 >extra lightdm-settings
 lightdm-slick-greeter
-lm_sensors
+>extra lm_sensors
 lxappearance
 lxinput
 m4
@@ -71,12 +70,12 @@ maia-console
 make
 >multilib manjaro-alsa
 manjaro-browser-settings
-manjaro-hello
+>extra manjaro-hello
 manjaro-hotfixes
 manjaro-i3-settings
 >extra manjaro-printer
-manjaro-settings-manager-notifier
->extra markdown_previewer
+>extra manjaro-settings-manager-notifier
+markdown_previewer
 mesa-demos
 mlocate
 mobile-broadband-provider-info
@@ -99,7 +98,7 @@ ntp
 open-fuse-iso
 openresolv
 openssh
->extra p7zip
+p7zip
 palemoon-bin
 pamac
 patch
@@ -114,21 +113,24 @@ powertop
 qt5ct
 qt5-styleplugins
 ranger
->extra sbxkb
+sbxkb
 screenfetch
 speedtest-cli
-subversion
+>extra subversion
 syslog-ng
 terminus-font
 tree
->extra ttf-bitstream-vera
+ttf-bitstream-vera
+>extra ttf-dejavu
 >extra ttf-droid
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
+>basic ufw
 upower
 >extra vertex-maia-themes
 vi
+>extra vibrancy-icons-teal
 viewnior
 vim
 >extra vlc
@@ -156,6 +158,6 @@ xorg-xinit
 xorg-xkill
 xorg-xprop
 xterm
-yaourt
+>extra yaourt
 xdg-user-dirs
 xorg-server
