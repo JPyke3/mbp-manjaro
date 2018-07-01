@@ -93,6 +93,7 @@ gpicview
 gsimplecal
 qpdfview
 viewnior
+xterm
 
 #---------=> network utilities
 arp-scan
