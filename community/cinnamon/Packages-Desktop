@@ -108,7 +108,6 @@ pkg-config
 >extra pragha
 >extra pulseaudio-bluetooth
 pulseaudio-ctl
-pulseaudio-gconf
 pulseaudio-zeroconf
 >extra pygtk # needed for deluge
 python2-ptyprocess
