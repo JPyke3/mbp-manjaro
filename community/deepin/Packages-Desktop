@@ -9,6 +9,7 @@ binutils
 bison
 >extra brasero
 >extra dconf-editor
+>extra deepin-anything
 deepin-calendar
 >extra deepin-calculator
 deepin-file-manager
@@ -33,9 +34,9 @@ fakeroot
 firefox
 flex
 >extra galculator
-gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
+>extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
 gedit
 >extra gimp
 >extra git
