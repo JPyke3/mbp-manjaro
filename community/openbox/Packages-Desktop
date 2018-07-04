@@ -1,5 +1,5 @@
 #-------------------------------------------------
-##### OPENBOX MINIMAL/BASIC PROFILE
+##### OPENBOX MINIMAL/FULL PROFILE
 
 #---------=> media player
 >extra smplayer
@@ -20,12 +20,14 @@
 >extra pulseaudio
 >extra pulseaudio-alsa
 
-#---------=> graphical
+#---------=> graphic applications
 >extra gcolor2
+>extra gimp
 gpicview
 viewnior
 
 #---------=> connect packages
+>extra blueman
 >extra gvfs
 >extra gvfs-afc
 >extra gvfs-mtp
@@ -33,9 +35,11 @@ viewnior
 >extra gvfs-smb
 >extra udiskie
 
+#---------=> extra fonts
+noto-fonts
+
 #---------=> office
->extra abiword
->extra gnumeric
+>extra libreoffice-fresh
 qpdfview
 
 #---------=> manjaro
@@ -77,16 +81,25 @@ xed
 
 #---------=> filemanager
 >extra catfish
+>extra ffmpegthumbnailer
 lynx
 mc
 >extra mlocate
+>extra poppler-data
+>extra poppler-glib
 >extra p7zip
 ranger
+>extra thunar-archive-plugin-gtk3
+>extra thunar-gtk3
+>extra thunar-media-tags-plugin
+>extra thunar-volman-gtk3
+>extra thumbler
 >extra unarchiver
 >extra xarchiver
-pcmanfm-gtk3
+>basic pcmanfm-gtk3
 
 #---------=> disk utilities
+>extra timeshift
 >extra clonezilla
 >extra gnome-disk-utility
 >extra mintstick
@@ -107,7 +120,7 @@ xterm
 
 #---------=> settings config package
 >basic manjaro-openbox-basic-config
->extra manjaro-openbox-minimal-config
+>extra manjaro-openbox-regular-config
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
@@ -222,6 +235,5 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xprop
-xf86-input-keyboard
 xf86-input-libinput
-xf86-input-mouse
+
