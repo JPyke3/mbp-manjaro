@@ -1,5 +1,5 @@
 #-------------------------------------------------
-##### OPENBOX PROFILE
+##### OPENBOX MINIMAL PROFILE
 
 #---------=> media player
 smplayer
@@ -71,14 +71,15 @@ vim
 xed
 
 #---------=> filemanager
+catfish
 lynx
 mc
+mlocate
 p7zip
 ranger
 unarchiver
 xarchiver
 pcmanfm-gtk3
-spacefm
 
 #---------=> disk utilities
 clonezilla
@@ -161,6 +162,7 @@ jsoncpp
 kickshaw
 libmpdclient
 lxmenu-data
+nitrogen
 numlockx
 ob-autostart
 obconf

@@ -1,15 +1,128 @@
+#-------------------------------------------------
+##### OPENBOX MINIMAL/BASIC PROFILE
+
+#---------=> media player
+>extra smplayer
+>extra smplayer-skins
+>extra smplayer-themes
+>extra deadbeef
+
+#---------=> sound support
+>extra alsa-firmware
+>extra alsa-utils
+>extra alsa-plugins
+
+#---------=> media controls/codecs/plugins
+>extra ffmpeg
+>extra pamixer
+>extra pavucontrol
+>extra playerctl
+>extra pulseaudio
+>extra pulseaudio-alsa
+
+#---------=> graphical
+>extra gcolor2
+gpicview
+viewnior
+
+#---------=> connect packages
+>extra gvfs
+>extra gvfs-afc
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra udiskie
+
+#---------=> office
+>extra abiword
+>extra gnumeric
+qpdfview
+
+#---------=> manjaro
+manjaro-documentation-en
+
+#---------=> package manager
+>extra pamac
+>extra yay
+
+#---------=> build support
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra flex
+>extra gc
+>extra gcc
+>extra git
+>extra guile
+>extra libatomic_ops
+>extra libmpc
+>extra m4
+>extra make
+>extra package-query
+>extra patch
+>extra pkg-config
+>extra yajl
+
+#---------=> internet apps
+>extra chromium
+midoro
+>extra sylpheed
+
+#---------=> text editor
+>extra dash
+>extra micro-manjaro
+>extra terminus-font
+xed
+
+#---------=> filemanager
+>extra catfish
+lynx
+mc
+>extra mlocate
+>extra p7zip
+ranger
+>extra unarchiver
+>extra xarchiver
+pcmanfm-gtk3
+
+#---------=> disk utilities
+>extra clonezilla
+>extra gnome-disk-utility
+>extra mintstick
+>extra xfburn
+
+#---------=> basic utilities
+>extra galculator
+gsimplecal
+xterm
+
+#---------=> network utilities
+>extra arp-scan
+>extra bind-tools
+>extra net-tools
+>extra openssh
+>extra traceroute
+>extra whois
+
+#---------=> settings config package
+>basic manjaro-openbox-basic-config
+>extra manjaro-openbox-minimal-config
+
+#-------------------------------------------------
+##### EDITION BASE PACKAGES
+
+#---------=> settings manager
 lxappearance-gtk3
 lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
 
-manjaro-openbox-basic-config
+#---------=> edition theming and settings
 manjaro-openbox-grub-theme-glassfield
 manjaro-openbox-scripts
-#manjaro-openbox-settings
 
-##-------------------
-## theme meta package
+#---------=> theme meta package
 # adapta-maia-theme
 # manjaro-openbox-adapta-maia
 # manjaro-openbox-wallpapers-18.0
@@ -18,8 +131,7 @@ manjaro-openbox-scripts
 # xcursor-breeze
 manjaro-openbox-theme-18.0
 
-##-------------------
-## fonts meta package
+#---------=> fonts meta package
 # manjaro-openbox-fonts
 # ttf-font-awesome
 # ttf-font-logos
@@ -29,35 +141,18 @@ manjaro-openbox-theme-18.0
 manjaro-openbox-theme-fonts
 manjaro-zsh-config
 
-#####################
-## basic utilities
-#####################
-gpicview
-gsimplecal
-lightdm
-lightdm-slick-greeter
-lynx
-manjaro-documentation-en
-midori
-mc
-pcmanfm-gtk3
-qpdfview
-ranger
-xed
-xterm
-
-#####################
-## network
-#####################
+#---------=> network
 network-manager-applet
 networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
 openresolv
 
-#####################
-## packages core
-#####################
+#---------=> display manager and greeter
+lightdm
+lightdm-slick-greeter
+
+#---------=> core
 arandr
 compton
 conky
@@ -93,8 +188,7 @@ xcmenu
 xdotool
 zenity
 
-#####################
-## system icons
+#---------=> system icons
 adwaita-icon-theme
 gnome-icon-theme
 gnome-icon-theme-extras
@@ -102,13 +196,13 @@ gnome-icon-theme-symbolic
 gnome-themes-extra
 hicolor-icon-theme
 
-#####################
-## system fonts
+#---------=> system fonts
+freetype2
 ttf-dejavu
 ttf-roboto
 
-#####################
-## system
+#---------=> system
+accountsservice
 gamin
 gksu-polkit
 gnome-keyring
@@ -120,8 +214,7 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 
-#####################
-## xorg
+#---------=> xorg
 xorg-server
 xorg-server-common
 xorg-xbacklight
