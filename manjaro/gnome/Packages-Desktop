@@ -20,6 +20,7 @@ gnome-desktop
 gnome-disk-utility
 gnome-font-viewer
 gnome-keyring
+fprintd #need for finger id reader
 >extra gnome-online-accounts
 >extra gnome-contacts
 gnome-screenshot
