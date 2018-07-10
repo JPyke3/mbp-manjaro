@@ -119,8 +119,10 @@ xterm
 >extra whois
 
 #---------=> settings config package
->basic manjaro-openbox-basic-config
->extra manjaro-openbox-regular-config
+openbox-desktop-settings
+openbox-common-desktop-settings
+>basic openbox-basic-desktop-settings
+>extra openbox-regular-desktop-settings
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
