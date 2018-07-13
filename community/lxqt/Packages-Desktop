@@ -1,20 +1,174 @@
-alsa-firmware
+## Connect Packages
+>extra android-tools
+>extra android-udev
+>extra gvfs
+>extra gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra mtpfs
+>extra udiskie
+>extra udisks2
+
+## Extra Fonts
+>extra ttf-bitstream-vera
+>extra ttf-droid
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+
+## Extra Network packages
+>extra avahi
+>extra mobile-broadband-provider-info
+>extra modemmanager-qt
+>extra networkmanager-dispatcher-ntpd
+>extra networkmanager-openconnect
+>extra networkmanager-openvpn
+>extra networkmanager-pptp
+>extra networkmanager-vpnc
+>extra nss-mdns
+>extra ntp
+>extra openssh
+>extra usb_modeswitch
+
+## Apps and Libraries for Sound/Audio/Video
+>extra alsa-firmware
+>extra alsa-utils
+>extra audacious
+>extra ffmpeg
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra libdvdcss
+>extra pulseaudio-bluetooth
+>extra pulseaudio-ctl
+>extra pulseaudio-zeroconf
+>extra manjaro-pulse
+>extra manjaro-alsa
+>extra vlc
+
+## Printer
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra manjaro-printer
+>extra simple-scan
+>extra splix
+
+## AUR Support/Development
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra pkg-config
+
+# AUR support
+>extra git
+>extra patchutils
+>extra subversion
+>extra yay
+
+## Package management
+>extra octopi
+>extra octopi-cachecleaner
+>extra octopi-notifier-qt5
+>extra octopi-repoeditor
+
+## Office
+>extra libreoffice-still
+qpdfview
+
+## Graphics
+lximage-qt
+>extra pinta
+
+## Internet applications
+falkon
+trojita
+
+## Text editor
+juffed-qt5
+
+## Terminal
+qterminal
+xterm
+st-manjaro
+
+## Disc utilities
+gparted
+imagewriter
+
+## File management
+ark
+pcmanfm-qt
+p7zip
+unarchiver
+unrar
+
+## Misc
+manjaro-hotfixes
+
+## Display manager
+sddm
+sddm-qt-manjaro-theme
+#lightdm
+#lightdm-slick-greeter
+
+## Desktop Settings
 >basic manjaro-lxqt-basic-settings
+>extra manjaro-lxqt-extra-settings
+
+## Theming and icons
+adapta-maia-theme
+manjaro-icons
+manjaro-openbox-adapta-maia
+manjaro-openbox-grub-theme-glassfield
+manjaro-wallpapers-18.0
+papirus-maia-icon-theme
+xcursor-breeze
+
+## Fonts
+terminus-font
+ttf-dejavu
+ttf-roboto
+
+## Manjaro packages
+manjaro-documentation-en
+>extra manjaro-hello
+manjaro-settings-manager
+>extra manjaro-settings-manager-notifier
+
+## Network
+network-manager-applet
+networkmanager-qt
+openresolv
+
+## Basic utilities
+dmidecode
+htop
+inxi
+numlockx
+powertop
+
+## Window manager and Desktop
 compton
 compton-conf
-dmidecode
->extra lximage-qt
->extra manjaro-lxqt-extra-settings
->extra octopi-cachecleaner
->extra octopi-repoeditor
->extra vlc
->extra qpdfview
-gvfs
-inxi
-juffed-qt5
+gksu-polkit
 lxqt-about
 lxqt-admin
-lxqt-themes
 lxqt-config
 lxqt-globalkeys
 lxqt-notificationd
@@ -26,43 +180,23 @@ lxqt-qtplugin
 lxqt-runner
 lxqt-session
 lxqt-sudo
-manjaro-hotfixes
-mobile-broadband-provider-info
-modemmanager
-network-manager-applet
-nss-mdns
 obconf-qt
 openbox
-pcmanfm-qt
-powertop
-qterminal
-octopi
-octopi-notifier-qt5
-falkon
-sddm-qt-manjaro-theme
-alsa-utils
-avahi
-networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-ntp
-openssh
-sddm
-syslog-ng
-xdg-user-dirs
-xorg-server
-terminus-font
-ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-usb_modeswitch
-xarchiver
+qt5-styleplugins
 xdg-su
+xdg-user-dirs
 xdg-utils
+
+## Xorg 
+xf86-input-synaptics
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xorg-server
 xorg-twm
 xorg-xinit
+xorg-xkill
+
