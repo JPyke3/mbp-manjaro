@@ -112,7 +112,7 @@ Theme=Papirus-Adapta-Maia
 ChangeCursor=true
 ColorScheme=Breath
 contrast=7
-LookAndFeelPackage=org.kde.breath.desktop
+LookAndFeelPackage=org.kde.adaptabreath.desktop
 widgetStyle=breeze
 
 [WM]
