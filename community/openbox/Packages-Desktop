@@ -121,7 +121,7 @@ xterm
 #---------=> settings config package
 openbox-desktop-settings
 openbox-common-desktop-settings
->basic openbox-basic-desktop-settings
+>basic openbox-minimal-desktop-settings
 >extra openbox-regular-desktop-settings
 
 #-------------------------------------------------
