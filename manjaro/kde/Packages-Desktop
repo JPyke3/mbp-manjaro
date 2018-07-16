@@ -150,11 +150,11 @@ breeze
 breeze-gtk
 gnome-icon-theme
 gnome-themes-standard
-gtk-theme-breath
+#gtk-theme-breath
 >extra oxygen
 >extra oxygen-kde4
 >extra oxygen-icons
-plasma5-themes-breath  # Default
+#plasma5-themes-breath  # Default
 sddm-breath-theme  # Default
 
 ## Better systray/notifications support
