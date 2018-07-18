@@ -1,9 +1,6 @@
 manjaro-live-skel
 mkinitcpio-nfs-utils
 nbd
->sonar sonar-calamares-branding
 squashfs-tools
 manjaro-live-systemd
->sonar thus
 >manjaro grub-theme-live-manjaro
->sonar grub-theme-live-sonar
