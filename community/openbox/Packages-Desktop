@@ -74,35 +74,41 @@ manjaro-documentation-en
 >extra sylpheed
 
 #---------=> text editor
->extra dash
->extra micro-manjaro
->extra terminus-font
+dash
+micro-manjaro
+terminus-font
 xed
 
 #---------=> filemanager
 >extra catfish
+engrampa
 >extra ffmpegthumbnailer
 lynx
 mc
 >extra mlocate
 >extra poppler-data
 >extra poppler-glib
->extra p7zip
+p7zip
 ranger
 >extra thunar-archive-plugin-gtk3
 >extra thunar-gtk3
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
->extra unarchiver
->extra xarchiver
 >basic pcmanfm-gtk3
+unace
+unarchiver
+unarj
+unrar
+unzip
 
 #---------=> disk utilities
 >extra timeshift
 >extra clonezilla
 >extra gnome-disk-utility
+gparted
 >extra mintstick
+testdisk
 >extra xfburn
 
 #---------=> basic utilities
