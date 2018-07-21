@@ -9,7 +9,6 @@ binutils
 bison
 >extra brasero
 >extra dconf-editor
->extra deepin-anything
 deepin-calendar
 >extra deepin-calculator
 deepin-file-manager
@@ -64,6 +63,7 @@ inxi
 >extra libimobiledevice
 >extra libreoffice-fresh
 libtool
+KERNEL-headers # needed for deepin-anything and its vfs_monitor dkms-module...
 m4
 make
 manjaro-alsa

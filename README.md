@@ -96,7 +96,6 @@ iso-profiles
 >nonfree_multilib
 
 >manjaro
->sonar
 
 >basic
 >extra

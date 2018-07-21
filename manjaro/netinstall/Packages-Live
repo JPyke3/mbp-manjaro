@@ -19,7 +19,6 @@ network-manager-applet
 open-vm-tools
 qt5ct
 sddm-andromeda-qt-theme
->sonar sonar-calamares-branding
 >systemd manjaro-live-systemd
 networkmanager
 >systemd sddm
@@ -48,4 +47,3 @@ xorg-server
 xorg-xinit
 xterm
 >manjaro grub-theme-live-manjaro
->sonar grub-theme-live-sonar
