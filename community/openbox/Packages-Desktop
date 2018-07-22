@@ -144,22 +144,27 @@ manjaro-openbox-grub-theme-glassfield
 manjaro-openbox-scripts
 
 #---------=> theme meta package
-# adapta-maia-theme
-# manjaro-openbox-adapta-maia
-# manjaro-openbox-wallpapers-18.0
-# papirus-maia-icon-theme
-# manjaro-wallpapers-18.0
-# xcursor-breeze
-manjaro-openbox-theme-18.0
+# metapkg: manjaro-openbox-theme-18.0
+# theme, icons, cursors, wallpapers
+adapta-maia-theme
+manjaro-openbox-adapta-maia
+manjaro-openbox-wallpapers-18.0
+papirus-maia-icon-theme
+manjaro-wallpapers-18.0
+xcursor-breeze
+
 
 #---------=> fonts meta package
-# manjaro-openbox-fonts
-# ttf-font-awesome
-# ttf-font-logos
-# ttf-icomoon-icons
-# ttf-material-icons
-# ttf-polybar-icons
-manjaro-openbox-theme-fonts
+# metapkg: manjaro-openbox-theme-fonts
+# fonts
+manjaro-openbox-fonts
+ttf-dejavu
+ttf-font-awesome
+ttf-font-logos
+ttf-icomoon-icons
+ttf-material-icons
+ttf-polybar-icons
+ttf-roboto
 manjaro-zsh-config
 
 #---------=> network
@@ -219,8 +224,6 @@ hicolor-icon-theme
 
 #---------=> system fonts
 freetype2
-ttf-dejavu
-ttf-roboto
 
 #---------=> system
 accountsservice
