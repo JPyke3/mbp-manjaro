@@ -5,7 +5,7 @@
 >extra smplayer
 >extra smplayer-skins
 >extra smplayer-themes
->extra deadbeef
+>extra audacious-gtk3
 
 #---------=> sound support
 >extra alsa-firmware
