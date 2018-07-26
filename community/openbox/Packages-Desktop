@@ -2,10 +2,11 @@
 ##### OPENBOX MINIMAL/FULL PROFILE
 
 #---------=> media player
+>extra audacious-gtk3
+>extra deadbeef
 >extra smplayer
 >extra smplayer-skins
 >extra smplayer-themes
->extra audacious-gtk3
 
 #---------=> sound support
 >extra alsa-firmware
