@@ -2,11 +2,13 @@
 update_info=fonts_global.upd:Fonts_Global,filepicker.upd:filepicker-remove-old-previews-entry,fonts_global_toolbar.upd:Fonts_Global_Toolbar
 
 [ColorEffects:Disabled]
+ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
+Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
