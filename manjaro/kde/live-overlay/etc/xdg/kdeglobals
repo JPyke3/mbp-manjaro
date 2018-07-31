@@ -94,7 +94,7 @@ ForegroundVisited=145,61,136
 [General]
 shadeSortColumn=true
 BrowserApplication=firefox
-ColorScheme=Breath
+ColorScheme=AdaptaBreath
 Name=AdaptaBreath
 fixed=Noto Mono,9,-1,0,50,0,0,0,0,0
 font=Noto Sans,10,-1,5,50,0,0,0,0,0
@@ -110,7 +110,7 @@ Theme=Papirus-Adapta-Maia
 
 [KDE]
 ChangeCursor=true
-ColorScheme=Breath
+ColorScheme=AdaptaBreath
 contrast=7
 LookAndFeelPackage=org.kde.adaptabreath.desktop
 widgetStyle=breeze
