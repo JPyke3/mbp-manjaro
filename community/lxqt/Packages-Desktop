@@ -186,6 +186,7 @@ qt5-styleplugins
 xdg-su
 xdg-user-dirs
 xdg-utils
+xscreensaver
 
 ## Xorg 
 xf86-input-synaptics
