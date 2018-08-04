@@ -1,141 +1,130 @@
 [$Version]
-update_info=fonts_global.upd:Fonts_Global,filepicker.upd:filepicker-remove-old-previews-entry,fonts_global_toolbar.upd:Fonts_Global_Toolbar
+update_info=fonts_global.upd:Fonts_Global
 
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
-Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025
-ColorEffect=2
-ContrastAmount=0.1
-ContrastEffect=2
+ColorAmount=-0.95000000000000007
+ColorEffect=0
+ContrastAmount=0.10000000000000001
+ContrastEffect=0
 Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=189,195,199
-BackgroundNormal=250,251,252
+BackgroundAlternate=224,223,222
+BackgroundNormal=236,236,236
 DecorationFocus=26,188,156
-DecorationHover=26,188,156
-ForegroundActive=26,188,156
-ForegroundInactive=102,113,118
-ForegroundLink=26,188,156
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=49,54,59
-ForegroundPositive=0,150,136
-ForegroundVisited=26,188,156
-
-[Colors:Complementary]
-BackgroundAlternate=59,64,69
-BackgroundNormal=49,54,59
-DecorationFocus=30,146,255
-DecorationHover=61,174,230
-ForegroundActive=246,116,0
-ForegroundInactive=175,176,179
-ForegroundLink=61,174,230
-ForegroundNegative=237,21,21
-ForegroundNeutral=201,206,59
-ForegroundNormal=239,240,241
-ForegroundPositive=17,209,22
-ForegroundVisited=61,174,230
+DecorationHover=54,215,183
+ForegroundActive=155,89,182
+ForegroundInactive=164,166,166
+ForegroundLink=76,107,138
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=41,47,52
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
 
 [Colors:Selection]
-BackgroundAlternate=29,153,243
+BackgroundAlternate=62,138,204
 BackgroundNormal=26,188,156
 DecorationFocus=26,188,156
-DecorationHover=26,188,156
-ForegroundActive=252,252,252
-ForegroundInactive=255,255,255
-ForegroundLink=253,188,75
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
+DecorationHover=54,215,183
+ForegroundActive=96,55,113
+ForegroundInactive=222,222,222
+ForegroundLink=0,98,218
+ForegroundNegative=231,76,60
+ForegroundNeutral=168,88,23
 ForegroundNormal=255,255,255
-ForegroundPositive=0,150,136
-ForegroundVisited=189,195,199
+ForegroundPositive=37,116,165
+ForegroundVisited=145,61,136
 
 [Colors:Tooltip]
-BackgroundAlternate=77,77,77
-BackgroundNormal=34,45,50
+BackgroundAlternate=196,224,255
+BackgroundNormal=41,47,52
 DecorationFocus=26,188,156
-DecorationHover=26,188,156
-ForegroundActive=61,174,233
-ForegroundInactive=102,113,118
-ForegroundLink=41,128,185
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=163,172,172
-ForegroundPositive=0,150,136
-ForegroundVisited=127,140,141
+DecorationHover=54,215,183
+ForegroundActive=155,89,182
+ForegroundInactive=164,166,166
+ForegroundLink=126,178,230
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=247,247,247
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
 
 [Colors:View]
-BackgroundAlternate=239,240,241
+BackgroundAlternate=248,247,246
 BackgroundNormal=255,255,255
 DecorationFocus=26,188,156
-DecorationHover=26,188,156
-ForegroundActive=61,174,233
-ForegroundInactive=102,113,118
-ForegroundLink=26,188,156
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=65,76,82
-ForegroundPositive=0,150,136
-ForegroundVisited=26,188,156
+DecorationHover=54,215,183
+ForegroundActive=155,89,182
+ForegroundInactive=164,166,166
+ForegroundLink=76,107,138
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=41,47,52
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
 
 [Colors:Window]
-BackgroundAlternate=189,195,199
-BackgroundNormal=250,251,252
-DecorationFocus=26,188,156
+BackgroundAlternate=218,217,216
+BackgroundNormal=236,236,236
+DecorationFocus=54,215,183
 DecorationHover=26,188,156
-ForegroundActive=61,174,233
-ForegroundInactive=102,113,118
-ForegroundLink=26,188,156
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=65,76,82
-ForegroundPositive=0,150,136
-ForegroundVisited=26,188,156
-
-[Directories]
-dir_pixmap=/usr/share/pixmaps
+ForegroundActive=155,89,182
+ForegroundInactive=164,166,166
+ForegroundLink=76,107,138
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=41,47,52
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
 
 [General]
+shadeSortColumn=true
 BrowserApplication=firefox
-ColorScheme=AdaptaBreath
-Name=AdaptaBreath
+ColorScheme=Breath
+Name=Breath
 fixed=Noto Mono,9,-1,0,50,0,0,0,0,0
 font=Noto Sans,10,-1,5,50,0,0,0,0,0
 menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
-shadeSortColumn=true
 smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
-toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
+XftAntialias=true
+XftHintStyle=hintmedium
+XftSubPixel=none
 
 [Icons]
-Theme=Papirus-Adapta-Maia
+Theme=breath
 
 [KDE]
 ChangeCursor=true
-ColorScheme=AdaptaBreath
-LookAndFeelPackage=org.kde.adaptabreath.desktop
-contrast=4
+ColorScheme=Breath
+contrast=7
+LookAndFeelPackage=org.kde.breath.desktop
 widgetStyle=breeze
+
+[WM]
+activeBackground=236,236,236
+activeBlend=236,236,236
+activeForeground=41,47,52
+inactiveBackground=236,236,236
+inactiveBlend=236,236,236
+inactiveForeground=159,185,202
 
 [KFileDialog Settings]
 Breadcrumb Navigation=true
-
-[Paths]
-Trash=$HOME/Desktop/Trash/
 
 [PreviewSettings]
 MaximumSize=3145728
@@ -143,10 +132,5 @@ camera=true
 file=true
 fonts=true
 
-[WM]
-activeBackground=34,45,50
-activeBlend=34,45,50
-activeForeground=163,172,172
-inactiveBackground=34,45,50
-inactiveBlend=34,45,50
-inactiveForeground=102,113,118
+[Directories]
+dir_pixmap=/usr/share/pixmaps
