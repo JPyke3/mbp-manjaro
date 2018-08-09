@@ -150,11 +150,11 @@ breeze
 breeze-gtk
 gnome-icon-theme
 gnome-themes-standard
-#gtk-theme-breath
+gtk-theme-breath
 >extra oxygen
 >extra oxygen-kde4
 >extra oxygen-icons
-#plasma5-themes-breath  # Default
+plasma5-themes-breath  # Default
 sddm-breath-theme  # Default
 
 ## Better systray/notifications support
@@ -238,6 +238,7 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 >extra python-pysmbc          # SMB browser support
 
 ## Applications
+appimagelauncher
 >extra cantata
 dmidecode # for inxi -m output
 htop
@@ -271,8 +272,8 @@ yakuake
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-kde-settings-18.0
->basic manjaro-kde-minimal-settings-18.0
+>extra manjaro-kde-settings
+>basic manjaro-kde-minimal-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers

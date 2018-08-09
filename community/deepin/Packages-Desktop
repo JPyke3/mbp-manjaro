@@ -14,7 +14,6 @@ deepin-calendar
 deepin-file-manager
 deepin-gtk-theme
 >extra deepin-draw
->extra deepin-help
 >extra deepin-image-viewer
 >extra deepin-movie
 >extra deepin-music
