@@ -105,6 +105,7 @@ pamac
 >extra hplip
 >extra splix
 >extra manjaro-printer
+#mattercontrol # 3d printing support
 
 ## Optional dependencies for hplip
 >extra pyqt5-common # For hplip
