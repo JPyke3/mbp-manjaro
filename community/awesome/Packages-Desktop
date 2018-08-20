@@ -1,106 +1,38 @@
-adwaita-maia-gtk3
-alsa-firmware
-alsa-plugins
-alsa-utils
-atool
-bc
-bmenu
-brandr
-breeze-maia-icon-themes
-chromium
-links
-clonezilla
-compton
-dash
-dbus-x11
-dconf
-delayed-hibernation
-desktop-file-utils
-dfc
-downgrade
-dunstify
-feh
-file-roller
-mousepad
-micro-manjaro
-gnome-disk-utility
-gtk3-classic
-gtk-theme-breath
-grub-theme-manjaro-dev
-gufw
-gvfs
-hibernator
-htop
-light-locker
-lightdm-slick-greeter
-inxi
-libdnet
->basic lxappearance-gtk3
-mate-polkit
-maia-console
-manjaro-architect
-manjaro-browser-settings-native
-manjaro-awesome-settings
-manjaro-pulse
-manjaro-zsh-config
-mhwd-tui
-moc
->basic mpv
-ncdu
-nerd-fonts-terminus
+###################################
+## Network
+###################################
+avahi
+network-manager-applet
 networkmanager
-networkmanager-dmenu
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+nss-mdns
+modemmanager
+usb_modeswitch
 openresolv
-yay
-pacui
-pavucontrol
-perl-file-mimeinfo
-poppler
-ps_mem
-pulseaudio-ctl
-ranger
-rofi
-rofi-scripts
-rootmenu
-thunar-gtk3
-thunar-archive-plugin-gtk3
-thunar-media-tags-plugin
-thunar-shares-plugin-manjaro
-thunar-volman-gtk3
-tumbler
-ffmpegthumbnailer
-speedtest-cli
-sterminal
-terminus-font
-testdisk
-thermald
-tree
-w3m
-xcape
-xcursor-breeze
-xdg-su
-xdg-user-dirs
-xdg-utils
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
-xf86-input-void
-xlogin
-light
-xorg-server
-xorg-xinit
-xorg-xprop
-xorg-xsetroot
-zathura-pdf-poppler
-gksu
-zsh-completions
 
+###################################
+## Libraries for Sound/Audio/Video
+###################################
+alsa-firmware
+alsa-utils
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libdvdcss
+manjaro-pulse
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+###################################
+## Connect Packages
+###################################
+android-udev
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -110,57 +42,108 @@ gvfs-smb
 mtpfs
 udiskie
 udisks2
-lightdm-settings
-accountsservice
-pamac
-xcursor-breeze
-adwaita-maia-gtk3
-breeze-maia-icon-themes
-gtk-theme-breath
-kvantum-manjaro
-qt5ct
-manjaro-backgrounds
-network-manager-applet
-manjaro-wallpapers-17.0
-lemonpanel
-xfce4-notifyd
-libnotify
-pa-applet
-xfce4-power-manager-gtk3
+
+###################################
+## AUR Support
+## Missing base-devel packages
+###################################
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+m4
+make
+patch
+pkgconf
+git
+yay
+
+###################################
+## Xorg
+###################################
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xorg-server
+xorg-xinit
+xorg-xprop
+
+###################################
+## Misc
+###################################
+gtk3-classic
+lightdm
+lightdm-slick-greeter
+accountsservice  # Enhanced user accounts
+python-dbus
+compton
 gnome-keyring
-rxvt-unicode
-rxvt-unicode-terminfo
-highlight
+grub-theme-manjaro-dev
+light-locker
+mate-polkit
+gksu-polkit
+perl-file-mimeinfo
+pavucontrol
+pa-applet
+rofi
+xcape
+xdg-su
+xdg-user-dirs
+xdg-utils
+xfce4-settings-gtk3
+xfce4-power-manager-gtk3
+manjaro-zsh-config
+manjaro-browser-settings-native
+manjaro-settings-manager
+manjaro-wallpapers-17.0
+manjaro-awesome-settings
+qt5ct
+kvantum-manjaro
 
->extra compton-conf
->extra xfce4-settings-gtk3
->extra vlc-nightly
->extra manjaro-settings-manager
->extra libreoffice-fresh
->extra gparted
+###################################
+## Apps and Optional dependencies
+###################################
+appimagelauncher
+downgrade
+inxi
+i3-scrot
+htop
+xfce4-terminal
+gufw
+gnome-disk-utility
+chromium
+catfish
+pamac
+thunar-gtk3
+thunar-archive-plugin-gtk3
+thunar-volman-gtk3
+tumbler
+libgsf
+ffmpegthumbnailer
+file-roller
+mousepad
+zathura-pdf-poppler
+zathura-djvu
+ristretto
+mpv
+
+## EXTRA
+>extra compton-conf 
 >extra gimp
+>extra guvcview
+>extra libreoffice-fresh
+>extra lightdm-settings
+>extra simple-scan
 >extra thunderbird
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gtk3-print-backends
->extra hplip
->extra splix
->extra gtk3-print-backends
->extra avahi
->extra manjaro-settings-samba
+>extra transmission-gtk
+>extra thunar-shares-plugin-gtk3
 >extra blueman
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra hplip
->extra splix
->extra gtk3-print-backends
->extra avahi
->extra manjaro-settings-samba
->extra blueman
-
+>extra pulseaudio-bluetooth
+>extra manjaro-printer
+>extra manjaro-settings-manjaro-notifier
