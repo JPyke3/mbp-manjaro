@@ -44,24 +44,6 @@ udiskie
 udisks2
 
 ###################################
-## AUR Support
-## Missing base-devel packages
-###################################
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
-m4
-make
-patch
-pkgconf
-git
-yay
-
-###################################
 ## Xorg
 ###################################
 xf86-input-elographics
@@ -80,6 +62,7 @@ xorg-xprop
 gtk3-classic
 lightdm
 lightdm-slick-greeter
+libappindicator-gtk3
 accountsservice  # Enhanced user accounts
 python-dbus
 compton
@@ -133,7 +116,20 @@ zathura-djvu
 ristretto
 mpv
 
-## EXTRA
+###################################
+############## EXTRA ##############
+
+###################################
+## AUR Support
+## Missing base-devel packages
+###################################
+>extra base-devel
+>extra git
+>extra yay
+
+###################################
+## Extra Misc and Apps
+###################################
 >extra compton-conf 
 >extra gimp
 >extra guvcview
@@ -146,4 +142,4 @@ mpv
 >extra blueman
 >extra pulseaudio-bluetooth
 >extra manjaro-printer
->extra manjaro-settings-manjaro-notifier
+>extra manjaro-settings-manager-notifier
