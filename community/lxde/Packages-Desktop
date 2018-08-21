@@ -11,17 +11,9 @@ network-manager-applet
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-networkmanager-dispatcher-ntpd
 nss-mdns
-ntp
-mobile-broadband-provider-info
-modemmanager
 openresolv
 openssh
-#samba
-usb_modeswitch
 
 ###################################
 ## Libraries for Sound/Audio/Video
@@ -102,7 +94,8 @@ gnome-icon-theme-symbolic
 gnome-themes-standard
 hicolor-icon-theme
 manjaro-lxde-logout-banner
-manjaro-lxde-settings-dev
+manjaro-lxde-settings
+manjaro-zsh-config
 ttf-dejavu
 ttf-roboto
 
@@ -120,7 +113,7 @@ lxrandr-gtk3
 lxsession-gtk3
 lxtask-gtk3
 lxterminal
-#obconf
+obconf
 
 ###################################
 ## Filemanager
