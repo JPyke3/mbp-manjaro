@@ -70,8 +70,7 @@ manjaro-documentation-en
 >extra yajl
 
 #---------=> internet apps
->extra chromium
->basic midori
+chromium
 >extra sylpheed
 
 #---------=> text editor

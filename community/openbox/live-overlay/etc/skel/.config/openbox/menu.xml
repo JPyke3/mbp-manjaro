@@ -123,7 +123,7 @@
     </item>
     <item label="Wallpaper">
         <action name="Execute">
-            <command>pcmanfm --desktop-pref</command>
+            <command>nitrogen</command>
         </action>
     </item>
     <item label="Rofi Theme">
@@ -156,9 +156,9 @@
             <command>termite</command>
         </action>
     </item>
-    <item label="Pcman FM">
+    <item label="Thunar">
         <action name="Execute">
-            <command>pcmanfm</command>
+            <command>thunar</command>
         </action>
     </item>
     <item label="Midnight Commander">
@@ -166,9 +166,9 @@
             <command>termite -e mc</command>
         </action>
     </item>
-    <item label="Midori Browser">
+    <item label="Chromium">
         <action name="Execute">
-            <command>midori https://manjaro.org</command>
+            <command>chromium https://manjaro.org</command>
         </action>
     </item>
     <separator/>
