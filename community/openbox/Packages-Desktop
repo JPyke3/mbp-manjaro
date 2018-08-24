@@ -2,24 +2,23 @@
 ##### OPENBOX MINIMAL/FULL PROFILE
 
 #---------=> media player
->extra audacious-gtk3
 >extra deadbeef
 >extra smplayer
 >extra smplayer-skins
 >extra smplayer-themes
 
 #---------=> sound support
->extra alsa-firmware
->extra alsa-utils
->extra alsa-plugins
+alsa-firmware
+alsa-utils
+alsa-plugins
 
 #---------=> media controls/codecs/plugins
->extra ffmpeg
->extra pamixer
->extra pavucontrol
->extra playerctl
->extra pulseaudio
->extra pulseaudio-alsa
+ffmpeg
+pamixer
+pavucontrol
+playerctl
+pulseaudio
+pulseaudio-alsa
 
 #---------=> graphic applications
 >extra gcolor2
@@ -105,7 +104,7 @@ unzip
 
 #---------=> disk utilities
 >extra timeshift
->extra clonezilla
+clonezilla
 >extra gnome-disk-utility
 gparted
 >extra mintstick
@@ -149,9 +148,9 @@ manjaro-openbox-scripts
 # theme, icons, cursors, wallpapers
 adapta-maia-theme
 manjaro-openbox-adapta-maia
-manjaro-openbox-wallpapers-18.0
 papirus-maia-icon-theme
 manjaro-wallpapers-18.0
+manjaro-zsh-config
 xcursor-breeze
 
 
@@ -166,7 +165,6 @@ ttf-icomoon-icons
 ttf-material-icons
 ttf-polybar-icons
 ttf-roboto
-manjaro-zsh-config
 
 #---------=> network
 network-manager-applet

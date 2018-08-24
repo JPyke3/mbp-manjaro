@@ -99,11 +99,6 @@
                 <command>xfce4-appearance-settings</command>
             </action>
         </item>
-        <item label="Add/Remove Software">
-            <action name="Execute">
-                <command>pamac-manager</command>
-            </action>
-        </item>
         <item label="Screen Layout">
             <action name="Execute">
                 <command>arandr</command>
@@ -115,22 +110,6 @@
             </action>
         </item>
     </menu>
-    <separator/>
-    <item label="Panel Chooser">
-        <action name="Execute">
-            <command>manjaro-panel-chooser</command>
-        </action>
-    </item>
-    <item label="Wallpaper">
-        <action name="Execute">
-            <command>pcmanfm --desktop-pref</command>
-        </action>
-    </item>
-    <item label="Rofi Theme">
-        <action name="Execute">
-            <command>rofi-theme-selector</command>
-        </action>
-    </item>
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
@@ -142,7 +121,7 @@
     </item>
     <item label="Calamares Installer">
         <action name="Execute">
-            <command>sudo calamares</command>
+            <command>calamares polkit</command>
         </action>
     </item>
     <item label="Architect Installer">
@@ -156,19 +135,9 @@
             <command>termite</command>
         </action>
     </item>
-    <item label="Pcman FM">
-        <action name="Execute">
-            <command>pcmanfm</command>
-        </action>
-    </item>
     <item label="Midnight Commander">
         <action name="Execute">
             <command>termite -e mc</command>
-        </action>
-    </item>
-    <item label="Midori Browser">
-        <action name="Execute">
-            <command>midori https://manjaro.org</command>
         </action>
     </item>
     <separator/>
