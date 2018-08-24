@@ -33,7 +33,6 @@ libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
 manjaro-pulse
->extra phonon-qt4-gstreamer
 phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
