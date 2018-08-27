@@ -9,9 +9,9 @@
 >extra smplayer-themes
 
 #---------=> sound support
->extra alsa-firmware
->extra alsa-utils
->extra alsa-plugins
+alsa-firmware
+alsa-utils
+alsa-plugins
 
 #---------=> media controls/codecs/plugins
 >extra ffmpeg
@@ -47,7 +47,8 @@ qpdfview
 manjaro-documentation-en
 
 #---------=> package manager
->extra pamac
+manjaro-application-utility
+pamac
 >extra yay
 
 #---------=> build support
@@ -103,8 +104,8 @@ unrar
 unzip
 
 #---------=> disk utilities
->extra timeshift
->extra clonezilla
+timeshift
+clonezilla
 >extra gnome-disk-utility
 gparted
 >extra mintstick
@@ -114,6 +115,7 @@ testdisk
 #---------=> basic utilities
 >extra galculator
 gsimplecal
+inxi
 xterm
 
 #---------=> network utilities
