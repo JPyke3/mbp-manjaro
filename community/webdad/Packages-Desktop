@@ -109,7 +109,7 @@ pamac
 
 # 3d Printing
 mattercontrol 
-avrdude
+#avrdude
 
 ## Optional dependencies for hplip
 >extra pyqt5-common # For hplip
@@ -183,14 +183,14 @@ gparted
 >extra kernel-alive
 geary
 gufw
->extra hexchat
+#>extra hexchat
 evince
 inxi
 >extra vlc-nightly
 >extra lollypop
 >extra empathy
->extra uget
-baobab
+#>extra uget
+#baobab
 >extra redshift
 
 # office
@@ -209,7 +209,7 @@ krita
 
 # code
 #pycharm-community-edition
-atom
+#atom
 
 # Compression
 p7zip  # 7Z and ARJ archive support
