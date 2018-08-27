@@ -33,11 +33,11 @@ libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
 manjaro-pulse
->extra phonon-qt4-gstreamer
 phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+grilo-plugins
 
 ## Connect Packages
 kdeconnect
@@ -82,6 +82,7 @@ noto-fonts
 ttf-roboto
 
 ## Games
+#gnome-games
 >extra steam-manjaro 
 pingus
 gnome-mahjongg
@@ -108,7 +109,7 @@ pamac
 
 # 3d Printing
 mattercontrol 
-avrdude
+#avrdude
 
 ## Optional dependencies for hplip
 >extra pyqt5-common # For hplip
@@ -122,8 +123,6 @@ lightdm
 lightdm-webkit2-greeter-manjaro
 accountsservice  # Enhanced user accounts handling
 
-# Themes
-
 # bluetooth
 bluez-cups
 bluez-firmware
@@ -136,18 +135,6 @@ irqbalance
 
 # Settings
 manjaro-settings-manager
-manjaro-settings-manager-kcm
-manjaro-settings-manager-notifier
-systemsettings
-kde-gtk-config
-kgamma5
-kinfocenter
-kscreen
-#kwayland-integration
-user-manager
-systemd-kcm
-kcm-wacomtablet
-kcron
 
 # WebDad desktop
 jade-desktop-mode
@@ -173,8 +160,8 @@ nautilus-admin
 #seahorse-nautilus
 sushi
 file-roller
-
 hyper
+#menulibre
 #fish
 
 cairo-dock
@@ -193,15 +180,36 @@ gedit
 nano
 chromium
 gparted
+>extra kernel-alive
 geary
 gufw
 #>extra hexchat
 evince
 inxi
->extra libreoffice-fresh
 >extra vlc-nightly
+>extra lollypop
+>extra empathy
+#>extra uget
+#baobab
+>extra redshift
+
+# office
+>extra libreoffice-fresh
 ms-office-online
-atom
+
+# extras
+deepin-screenshot
+pitivi
+obs-studio
+
+# design
+krita
+#inkscape
+#gimp
+
+# code
+#pycharm-community-edition
+#atom
 
 # Compression
 p7zip  # 7Z and ARJ archive support
@@ -238,6 +246,7 @@ xdg-su
 
 ## Misc
 manjaro-hotfixes
+
 
 
 
