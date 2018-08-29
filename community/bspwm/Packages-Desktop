@@ -37,7 +37,7 @@ grub-theme-manjaro-dev
 >extra gvfs
 hibernator
 htop
->extra i3lock
+>basic i3lock
 inxi
 libdnet
 libnotify
@@ -101,7 +101,7 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
-xlogin
+>basic xlogin
 light
 xorg-server
 xorg-xinit
@@ -113,3 +113,7 @@ zsh-completions
 ffmpegthumbnailer
 highlight
 
+>extra lightdm
+>extra lightdm-slick-greeter
+>extra accountsservice
+>extra light-locker
