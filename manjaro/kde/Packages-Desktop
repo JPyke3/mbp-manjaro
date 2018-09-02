@@ -31,7 +31,6 @@ libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
 manjaro-pulse
->extra phonon-qt4-gstreamer
 phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
@@ -146,13 +145,11 @@ user-manager
 
 ## Themes QT/GTK/SDDM
 breeze
->extra breeze-kde4
 breeze-gtk
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
 >extra oxygen
->extra oxygen-kde4
 >extra oxygen-icons
 plasma5-themes-breath  # Default
 sddm-breath-theme  # Default
