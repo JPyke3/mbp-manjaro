@@ -11,7 +11,7 @@ bspwm-manjaro
 bspwm-ruler
 bspwm-scripts
 bspwm-wallpapers
->extra chromium
+>extra firefox
 >basic links
 clonezilla
 >extra compton
@@ -46,7 +46,7 @@ limepanel
 >extra lxsession-gtk3
 maia-console
 manjaro-architect
->extra manjaro-browser-settings-native
+>extra manjaro-browser-settings
 >extra manjaro-bspwm-settings
 >basic manjaro-bspwm-settings-minimal
 >extra manjaro-pulse
