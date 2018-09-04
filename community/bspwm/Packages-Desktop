@@ -53,6 +53,7 @@ manjaro-architect
 >basic manjaro-alsa
 manjaro-zsh-config
 >extra mate-notification-daemon
+>extra mate-polki
 >basic dunst
 mhwd-tui
 moc
@@ -117,3 +118,8 @@ highlight
 >extra lightdm-slick-greeter
 >extra accountsservice
 >extra light-locker
+>extra gvfs
+>extra gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs-mtp
+>extra gvfs-smb
