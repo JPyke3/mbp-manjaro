@@ -70,7 +70,8 @@ pamac
 >extra yajl
 
 #---------=> internet apps
-chromium
+>basic chromium
+>extra firefox
 >extra sylpheed
 
 #---------=> text editor
