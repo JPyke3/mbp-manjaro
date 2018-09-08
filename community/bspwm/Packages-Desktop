@@ -1,4 +1,46 @@
+>basic dunst
+>basic i3lock
+>basic links
+>basic manjaro-alsa
+>basic manjaro-bspwm-settings-minimal
+>basic ufw
+>basic xlogin
+>extra accountsservice
+>extra adapta-maia-theme
 >extra adwaita-maia-gtk3
+>extra compton
+>extra dconf
+>extra file-roller
+>extra firefox
+>extra gnome-disk-utility
+>extra gtk2-compatibility
+>extra gtk3-classic
+>extra gufw
+>extra gvfs
+>extra gvfs
+>extra gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs-mtp
+>extra gvfs-smb
+>extra light-locker
+>extra lightdm
+>extra lightdm-slick-greeter
+>extra lxappearance-gtk3
+>extra lxsession-gtk3
+>extra manjaro-browser-settings
+>extra manjaro-bspwm-settings
+>extra manjaro-pulse
+>extra mate-notification-daemon
+>extra mate-polkit
+>extra morc_menu
+>extra mygtkmenui
+>extra papirus-maia-icon-theme
+>extra pavucontrol
+>extra pcmanfm-gtk3
+>extra pulseaudio-ctl
+>extra timeshift
+>extra zathura-pdf-poppler
+>multilib manjaro-alsa
 alsa-firmware
 alsa-plugins
 alsa-utils
@@ -11,56 +53,33 @@ bspwm-manjaro
 bspwm-ruler
 bspwm-scripts
 bspwm-wallpapers
->extra firefox
->basic links
 clonezilla
->extra compton
 dash
 dbus-x11
->extra dconf
 delayed-hibernation
 desktop-file-utils
 dfc
 downgrade
 dunstify
 feh
->extra file-roller
->extra gedit
->basic micro-manjaro
->extra gnome-disk-utility
->extra gtk3-classic
->extra gtk2-compatibility
-gtk-theme-breath
+ffmpegthumbnailer
 grub-theme-manjaro-dev
->extra gufw
->basic ufw
->extra gvfs
+gtk-theme-breath
 hibernator
+highlight
 htop
->basic i3lock
 inxi
 libdnet
 libnotify
+light
 limepanel
->extra lxappearance-gtk3
->extra lxsession-gtk3
 maia-console
 manjaro-architect
->extra manjaro-browser-settings
->extra manjaro-bspwm-settings
->basic manjaro-bspwm-settings-minimal
->extra manjaro-pulse
->basic manjaro-alsa
 manjaro-zsh-config
->extra mate-notification-daemon
->extra mate-polki
->basic dunst
 mhwd-tui
+micro-manjaro
 moc
->extra morc_menu
 mpv
->multilib manjaro-alsa
->extra mygtkmenui
 ncdu
 nerd-fonts-terminus
 networkmanager
@@ -70,18 +89,14 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 openresolv
-yay
 pacui
->extra pavucontrol
 perl-file-mimeinfo
 poppler
 ps_mem
->extra pulseaudio-ctl
 ranger
 rofi
 rofi-scripts
 rootmenu
->extra spacefm
 speedtest-cli
 sterminal
 sxhkd
@@ -102,24 +117,10 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
->basic xlogin
-light
 xorg-server
 xorg-xinit
 xorg-xprop
 xorg-xsetroot
->extra zathura-pdf-poppler
+yay
 zensu
 zsh-completions
-ffmpegthumbnailer
-highlight
-
->extra lightdm
->extra lightdm-slick-greeter
->extra accountsservice
->extra light-locker
->extra gvfs
->extra gvfs-afc
->extra gvfs-gphoto2
->extra gvfs-mtp
->extra gvfs-smb
