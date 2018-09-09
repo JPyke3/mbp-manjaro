@@ -49,6 +49,7 @@ manjaro-documentation-en
 manjaro-application-utility
 pamac
 >extra yay
+>extra pacui
 
 #---------=> build support
 >extra autoconf
@@ -71,7 +72,7 @@ pamac
 
 #---------=> internet apps
 >basic chromium
->extra firefox
+>extra firefox-developer-edition
 >extra sylpheed
 
 #---------=> text editor
@@ -96,7 +97,6 @@ ranger
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
->basic pcmanfm-gtk3
 unace
 unarchiver
 unarj
@@ -142,7 +142,7 @@ manjaro-settings-manager
 xfce4-settings-gtk3
 
 #---------=> edition theming and settings
-manjaro-openbox-grub-theme-glassfield
+grub-theme-glassfield
 manjaro-openbox-scripts
 
 #---------=> theme meta package
