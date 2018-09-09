@@ -71,8 +71,7 @@ pamac
 >extra yajl
 
 #---------=> internet apps
->basic chromium
->extra firefox-developer-edition
+firefox-developer-edition
 >extra sylpheed
 
 #---------=> text editor
@@ -93,7 +92,7 @@ mc
 p7zip
 ranger
 >extra thunar-archive-plugin-gtk3
->extra thunar-gtk3
+thunar-gtk3
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
@@ -127,8 +126,8 @@ xterm
 >extra whois
 
 #---------=> settings config package
-openbox-desktop-settings
 openbox-common-desktop-settings
+openbox-desktop-settings
 >basic openbox-minimal-desktop-settings
 >extra openbox-regular-desktop-settings
 
