@@ -99,31 +99,35 @@ inxi
 i3-scrot
 htop
 lxterminal
-galculator
-gufw
-gnome-disk-utility
 chromium
-catfish
+galculator
+gnome-disk-utility
+gufw
+mousepad
+mpv
 pamac
+ristretto
 thunar-gtk3
 thunar-volman-gtk3
 thunar-archive-plugin-gtk3
+catfish
 file-roller
 p7zip
 unrar
 unace
-tumbler
-libgsf
-libopenraw
-ffmpegthumbnailer
-mousepad
 zathura-pdf-poppler
 zathura-djvu
-ristretto
-mpv
 
 ###################################
 ############## EXTRA ##############
+
+###################################
+## Thunar thumbnails
+###################################
+>extra tumbler
+>extra ffmpegthumbnailer
+>extra libgsf
+>extra libopenraw
 
 ###################################
 ## AUR Support
