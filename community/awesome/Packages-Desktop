@@ -115,19 +115,15 @@ file-roller
 p7zip
 unrar
 unace
+tumbler
+ffmpegthumbnailer
+libgsf
+libopenraw
 zathura-pdf-poppler
 zathura-djvu
 
 ###################################
 ############## EXTRA ##############
-
-###################################
-## Thunar thumbnails
-###################################
->extra tumbler
->extra ffmpegthumbnailer
->extra libgsf
->extra libopenraw
 
 ###################################
 ## AUR Support
