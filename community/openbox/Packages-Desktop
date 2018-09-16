@@ -8,17 +8,17 @@
 >extra smplayer-themes
 
 #---------=> sound support
-alsa-firmware
-alsa-utils
-alsa-plugins
+>extra alsa-firmware
+>extra alsa-utils
+>extra alsa-plugins
 
 #---------=> media controls/codecs/plugins
-ffmpeg
-pamixer
-pavucontrol
-playerctl
-pulseaudio
-pulseaudio-alsa
+>extra ffmpeg
+>extra pamixer
+>extra pavucontrol
+>extra playerctl
+>extra pulseaudio
+>extra pulseaudio-alsa
 
 #---------=> graphic applications
 >extra gcolor2
@@ -36,20 +36,19 @@ viewnior
 >extra udiskie
 
 #---------=> extra fonts
-noto-fonts
+>extra noto-fonts
 
 #---------=> office
 >extra libreoffice-fresh
 qpdfview
 
 #---------=> manjaro
-manjaro-documentation-en
+>extra manjaro-documentation-en
 
 #---------=> package manager
 manjaro-application-utility
 pamac
->extra yay
->extra pacui
+pacui
 
 #---------=> build support
 >extra autoconf
@@ -192,6 +191,7 @@ jsoncpp
 kickshaw
 libmpdclient
 lxmenu-data
+lxsession-gtk3
 nitrogen
 numlockx
 ob-autostart
@@ -232,7 +232,6 @@ gksu-polkit
 gnome-keyring
 gtk3-classic
 polkit
-polkit-gnome
 python2-xdg
 xdg-user-dirs
 xdg-user-dirs-gtk
