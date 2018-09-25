@@ -23,8 +23,8 @@
 #---------=> graphic applications
 >extra gcolor2
 >extra gimp
-gpicview
-viewnior
+>extra gpicview
+>extra viewnior
 
 #---------=> connect packages
 >extra blueman
@@ -40,15 +40,15 @@ viewnior
 
 #---------=> office
 >extra libreoffice-fresh
-qpdfview
+>extra qpdfview
 
 #---------=> manjaro
 >extra manjaro-documentation-en
 
 #---------=> package manager
 manjaro-application-utility
-pamac
-pacui
+>extra pamac
+>extra pacui
 
 #---------=> build support
 >extra autoconf
@@ -74,32 +74,32 @@ firefox-developer-edition
 >extra sylpheed
 
 #---------=> text editor
-dash
-micro-manjaro
-terminus-font
+>extra dash
+>extra micro-manjaro
+>extra terminus-font
 xed
 
 #---------=> filemanager
 >extra catfish
-engrampa
+>extra engrampa
 >extra ffmpegthumbnailer
-lynx
-mc
+>extra lynx
+>extra mc
 >extra mlocate
 >extra poppler-data
 >extra poppler-glib
-p7zip
-ranger
+>extra p7zip
+>extra ranger
 >extra thunar-archive-plugin-gtk3
 thunar-gtk3
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
-unace
-unarchiver
-unarj
-unrar
-unzip
+>extra unace
+>extra unarchiver
+>extra unarj
+>extra unrar
+>extra unzip
 
 #---------=> disk utilities
 timeshift
@@ -117,12 +117,12 @@ inxi
 xterm
 
 #---------=> network utilities
->extra arp-scan
->extra bind-tools
->extra net-tools
->extra openssh
->extra traceroute
->extra whois
+arp-scan
+bind-tools
+net-tools
+openssh
+traceroute
+whois
 
 #---------=> settings config package
 openbox-common-desktop-settings
@@ -184,6 +184,7 @@ conky
 dunst
 exo-gtk3
 fakeroot
+feh
 i3lock
 imagemagick
 jgmenu
