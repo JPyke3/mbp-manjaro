@@ -1,258 +1,278 @@
-###################################
-# toolkit
-###################################
-gtk3-classic
+#-------------------------------------------------
+##### LXDE MINIMAL/FULL PROFILE
 
-###################################
-## Network
-###################################
-avahi
-network-manager-applet
-networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-nss-mdns
-openresolv
+#---------=> media player
+>extra deadbeef
+>extra smplayer
+>extra smplayer-skins
+>extra smplayer-themes
+
+#---------=> sound support
+>extra alsa-firmware
+>extra alsa-utils
+>extra alsa-plugins
+
+#---------=> media controls/codecs/plugins
+>extra ffmpeg
+>extra pamixer
+>extra pavucontrol
+>extra playerctl
+>extra pulseaudio
+>extra pulseaudio-alsa
+
+#---------=> graphic applications
+>extra gcolor2
+>extra gimp
+>extra gpicview
+>extra viewnior
+
+#---------=> connect packages
+>extra blueman
+>extra gvfs
+>extra gvfs-afc
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra udiskie
+
+#---------=> extra fonts
+>extra noto-fonts
+
+#---------=> office
+>extra libreoffice-fresh
+>extra jre10-openjdk
+>extra qpdfview
+
+#---------=> Printer
+## meta-pkg manjaro-printer
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gutenprint
+>extra hplip
+>extra python-gobject
+>extra python-pyqt5
+>extra splix
+>extra system-config-printer
+
+#---------=> Scanner
+>extra python-pillow
+>extra python-reportlab
+>extra sane
+>extra simple-scan
+>extra xsane
+
+#---------=> manjaro
+>extra manjaro-documentation-en
+
+#---------=> package manager
+manjaro-application-utility
+pamac
+>extra pacui
+
+#---------=> build support
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra flex
+>extra gc
+>extra gcc
+>extra git
+>extra guile
+>extra libatomic_ops
+>extra libmpc
+>extra m4
+>extra make
+>extra package-query
+>extra patch
+>extra pkg-config
+>extra yajl
+
+#---------=> internet apps
+firefox-developer-edition
+>extra sylpheed
+
+#---------=> text editor
+>extra dash
+>extra micro-manjaro
+>extra terminus-font
+xed
+
+#---------=> filemanager
+>extra catfish
+>extra engrampa
+>extra ffmpegthumbnailer
+>extra lynx
+>extra mc
+>extra mlocate
+>extra poppler-data
+>extra poppler-glib
+>extra p7zip
+>extra ranger
+>extra thunar-archive-plugin-gtk3
+thunar-gtk3
+>extra thunar-media-tags-plugin
+>extra thunar-volman-gtk3
+>extra tumbler
+>extra unace
+>extra unarchiver
+>extra unarj
+>extra unrar
+>extra unzip
+
+#---------=> network utilities
+arp-scan
+bind-tools
+net-tools
 openssh
+traceroute
+whois
 
-###################################
-## Libraries for Sound/Audio/Video
-###################################
-alsa-firmware
-alsa-utils
-ffmpeg
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-libdvdcss
-manjaro-pulse
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+#---------=> disk utilities
+timeshift
+clonezilla
+>extra gnome-disk-utility
+gparted
+>extra mintstick
+testdisk
+>extra xfburn
 
-###################################
-## Connect Packages
-###################################
-android-tools
-android-udev
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-mtpfs
-udiskie
-udisks2
+#---------=> basic utilities
+>extra galculator
+gsimplecal
+inxi
+powertop
+ps_mem
+xterm
 
-###################################
-# Multilib
-###################################
->multilib gcc-libs-multilib
->multilib gcc-multilib
->multilib lib32-flex
->multilib manjaro-alsa
-
-###################################
-## AUR Support/Development
-# Missing base-devel packages
-###################################
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
-libtool
-m4
-make
-patch
-pkg-config
-git
-patchutils
-subversion
-yaourt
-
-###################################
-## Display manager
-###################################
-lightdm
-lightdm-gtk-greeter
-lightdm-settings
-accountsservice  # Enhanced user accounts handling
-
-###################################
-## Theming
-###################################
-adwaita-icon-theme
-gnome-icon-theme
-gnome-icon-theme-extras
-gnome-icon-theme-symbolic
-gnome-themes-standard
-hicolor-icon-theme
-manjaro-lxde-logout-banner
-manjaro-lxde-settings
-manjaro-zsh-config
-ttf-dejavu
-ttf-roboto
-
-###################################
-## LXDE Group
-###################################
+#---------=> settings manager
 lxappearance-gtk3
 lxappearance-obconf-gtk3
+manjaro-settings-manager
+
+#---------=> lxde not in core
 lxde-common
 lxhotkey-gtk3
 lxinput-gtk3
 lxlauncher-gtk3
 lxpanel-gtk3
 lxrandr-gtk3
-lxsession-gtk3
 lxtask-gtk3
 lxterminal
+numlockx
 obconf
-
-###################################
-## Filemanager
-###################################
 pcmanfm-gtk3
-ffmpegthumbnailer  # tumbler - for video thumbnails
-file-roller
-freetype2          # tumbler - for font thumbnails
-libgsf             # tumbler - for ODF thumbnails
-libopenraw         # tumbler - for RAW thumbnails
+scrot
 
-###################################
-## Misc apps
-###################################
-blueman
-light-locker
-manjaro-lxde-xfce4-notifyd
-manjaro-lxde-xfce4-volumed-pulse
-poppler-data
-pamac
-pavucontrol
-qt5ct
-qt5-styleplugins
-xfce4-power-manager
+#-------------------------------------------------
+##### EDITION BASE PACKAGES
 
-###################################
-## Basic Applications
-###################################
-manjaro-hello
-manjaro-settings-manager
-manjaro-settings-manager-notifier
-gconf
+#---------=> edition theming and settings
+grub-theme-glassfield
+manjaro-openbox-scripts
+
+#---------=> theme meta package
+# metapkg: manjaro-openbox-theme-18.0
+# theme, icons, cursors, wallpapers
+adapta-maia-theme
+manjaro-openbox-adapta-maia
+papirus-maia-icon-theme
+manjaro-wallpapers-18.0
+manjaro-zsh-config
+xcursor-breeze
+
+#---------=> fonts meta package
+# metapkg: manjaro-openbox-theme-fonts
+# fonts
+manjaro-openbox-fonts
+ttf-dejavu
+ttf-font-awesome
+ttf-font-logos
+ttf-icomoon-icons
+ttf-material-icons
+ttf-polybar-icons
+ttf-roboto
+
+#---------=> network
+network-manager-applet
+networkmanager
+networkmanager-dmenu
+networkmanager-openvpn
+openresolv
+
+#---------=> core
+arandr
+compton
+conky
+dunst
+#exo-gtk3
+fakeroot
+feh
+i3lock
+imagemagick
+jgmenu
+jsoncpp
+kickshaw
+libmpdclient
+lxmenu-data
+lxsession-gtk3
+nitrogen
+numlockx
+ob-autostart
+obconf
+obkey-gtk3
+obmenu-generator
+openbox
+polybar
+rofi
+skippy-xd
+scrot
+termite
+termite-terminfo
+tint2
+wireless_tools
+wmctrl
+xcape
+xcb-util-cursor
+xcmenu
+xdotool
+zenity
+
+#---------=> system icons
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
+
+#---------=> system fonts
+freetype2
+
+#---------=> system
+accountsservice
+gamin
 gksu-polkit
 gnome-keyring
-gnome-disk-utility
-htop
-inxi
-dmidecode # optional dependency inxi
-leafpad
-scrot
-firefox
-#hexchat
-qpdfview
-gpicview-gtk3
-galculator
-mlocate
-numlockx
-powertop
-ps_mem
-
-###################################
-# Optional dependencies engrampa
-###################################
-p7zip  # 7Z and ARJ archive support
-unace  # ACE archive support
-unrar  # RAR archive support
-
-############7#######################
-## Documentation
-###################################
-manjaro-documentation-en
-
-###################################
-## Desktop Utils
-###################################
-perl-file-mimeinfo
-xdg-user-dirs
-xdg-utils
-xdg-su
-
-###################################
-## Misc
-###################################
+gtk3-classic
 manjaro-hotfixes
+polkit
+python2-xdg
+qt5ct
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
 
-###################################
-## Xorg
-###################################
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
-xf86-input-void
+#---------=> xorg
 xorg-server
-xorg-twm
+xorg-server-common
+xorg-xbacklight
 xorg-xinit
+xorg-xinput
 xorg-xkill
+xorg-xprop
+xf86-input-libinput
 
-###################################
-## Extra Themes/Artwork
-###################################
->extra manjaro-wallpapers-18.0
-
-###################################
-## Java
-###################################
->extra jre8-openjdk
-
-###################################
-## Printing Support
-###################################
->extra manjaro-printer
->extra gtk3-print-backends
->extra pyqt5-common # For hplip
->extra python-pillow # For hplip
->extra python-pip # For hplip
->extra python-reportlab # For hplip
-
-###################################
-## Scanner Support
-###################################
-#>extra simple-scan
-
-###################################
-## Extra Fonts
-###################################
-#>extra terminus-font
-#>extra ttf-bitstream-vera
-#>extra ttf-inconsolata
-#>extra ttf-indic-otf
-#>extra ttf-liberation
-#>extra ttf-droid
-
-##################################
-## Graphic demos
-###################################
-#mesa-demos
-#>multilib lib32-mesa-demos
-
-###################################
-## Extra Applications
-###################################
->extra gufw
->extra guvcview
->extra transmission-gtk
->extra gimp
->extra libreoffice-fresh
->extra vlc-nightly
->extra thunderbird
->extra xfburn
->extra yelp

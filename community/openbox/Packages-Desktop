@@ -114,6 +114,7 @@ testdisk
 >extra galculator
 gsimplecal
 inxi
+ps_mem
 xterm
 
 #---------=> network utilities
@@ -124,6 +125,17 @@ openssh
 traceroute
 whois
 
+#---------=> display manager and greeter
+lightdm
+lightdm-settings
+lightdm-slick-greeter
+
+#---------=> settings manager
+lxappearance-gtk3
+lxappearance-obconf-gtk3
+manjaro-settings-manager
+xfce4-settings-gtk3
+
 #---------=> settings config package
 openbox-common-desktop-settings
 openbox-desktop-settings
@@ -132,12 +144,6 @@ openbox-desktop-settings
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
-
-#---------=> settings manager
-lxappearance-gtk3
-lxappearance-obconf-gtk3
-manjaro-settings-manager
-xfce4-settings-gtk3
 
 #---------=> edition theming and settings
 grub-theme-glassfield
@@ -152,7 +158,6 @@ papirus-maia-icon-theme
 manjaro-wallpapers-18.0
 manjaro-zsh-config
 xcursor-breeze
-
 
 #---------=> fonts meta package
 # metapkg: manjaro-openbox-theme-fonts
@@ -172,10 +177,6 @@ networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
 openresolv
-
-#---------=> display manager and greeter
-lightdm
-lightdm-slick-greeter
 
 #---------=> core
 arandr
@@ -232,8 +233,10 @@ gamin
 gksu-polkit
 gnome-keyring
 gtk3-classic
+manjaro-hotfixes
 polkit
 python2-xdg
+qt5ct
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils

@@ -1,3 +1,6 @@
+#-------------------------------------------------
+##### LXQT MINIMAL/FULL PROFILE
+
 ## Connect Packages
 >extra android-tools
 >extra android-udev
@@ -12,10 +15,10 @@
 >extra udisks2
 
 ## Extra Fonts
+>extra noto-fonts
 >extra ttf-bitstream-vera
 >extra ttf-droid
 >extra ttf-inconsolata
->extra ttf-indic-otf
 
 ## Extra Network packages
 >extra avahi
@@ -27,7 +30,6 @@
 >extra networkmanager-pptp
 >extra networkmanager-vpnc
 >extra nss-mdns
->extra ntp
 >extra openssh
 >extra usb_modeswitch
 
@@ -50,16 +52,22 @@
 >extra vlc
 
 ## Printer
+## meta-pkg manjaro-printer
 >extra cups
 >extra cups-pdf
 >extra cups-pk-helper
 >extra ghostscript
 >extra gsfonts
->extra gtk3-print-backends
+>extra gutenprint
 >extra hplip
->extra manjaro-printer
->extra simple-scan
+>extra python-gobject
+>extra python-pyqt5
 >extra splix
+>extra system-config-printer
+>extra simple-scan
+
+## Gtk
+gtk3-classic
 
 ## AUR Support/Development
 >extra autoconf
@@ -79,13 +87,13 @@
 >extra git
 >extra patchutils
 >extra subversion
->extra yay
 
 ## Package management
 >extra octopi
 >extra octopi-cachecleaner
 >extra octopi-notifier-qt5
 >extra octopi-repoeditor
+pamac
 
 ## Office
 >extra libreoffice-still
@@ -101,8 +109,10 @@ trojita
 
 ## Text editor
 juffed-qt5
+micro-manjaro
 
 ## Terminal
+dash
 qterminal
 xterm
 st-manjaro
@@ -121,21 +131,11 @@ unrar
 ## Misc
 manjaro-hotfixes
 
-## Display manager
-sddm
-sddm-qt-manjaro-theme
-#lightdm
-#lightdm-slick-greeter
-
-## Desktop Settings
->basic manjaro-lxqt-basic-settings
->extra manjaro-lxqt-extra-settings
-
 ## Theming and icons
 adapta-maia-theme
+grub-theme-glassfield
 manjaro-icons
 manjaro-openbox-adapta-maia
-grub-theme-glassfield
 manjaro-zsh-config
 manjaro-wallpapers-18.0
 manjaro-zsh-config
@@ -158,14 +158,27 @@ network-manager-applet
 networkmanager-qt
 openresolv
 
-## Basic utilities
+
+#---------=> basic utilities
 dmidecode
 htop
 inxi
 numlockx
 powertop
 
-## Window manager and Desktop
+#---------=> display manager and greeter
+sddm
+sddm-qt-manjaro-theme
+#lightdm
+#lightdm-slick-greeter
+
+#---------=> settings manager
+manjaro-settings-manager
+obconf-qt
+qt5-styleplugins
+qt5ct
+
+#---------=> lxqt not in core
 compton
 compton-conf
 gksu-polkit
@@ -182,24 +195,118 @@ lxqt-qtplugin
 lxqt-runner
 lxqt-session
 lxqt-sudo
-obconf-qt
-openbox
-qt5-styleplugins
-xdg-su
-xdg-user-dirs
-xdg-utils
 xscreensaver
 
-## Xorg 
-xf86-input-synaptics
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
-xf86-input-void
+#---------=> settings config package
+>basic manjaro-lxqt-basic-settings
+>extra manjaro-lxqt-extra-settings
+
+#-------------------------------------------------
+##### EDITION BASE PACKAGES
+
+#---------=> edition theming and settings
+grub-theme-glassfield
+manjaro-openbox-scripts
+
+#---------=> theme meta package
+# metapkg: manjaro-openbox-theme-18.0
+# theme, icons, cursors, wallpapers
+adapta-maia-theme
+manjaro-openbox-adapta-maia
+papirus-maia-icon-theme
+manjaro-wallpapers-18.0
+manjaro-zsh-config
+xcursor-breeze
+
+#---------=> fonts meta package
+# metapkg: manjaro-openbox-theme-fonts
+# fonts
+manjaro-openbox-fonts
+ttf-dejavu
+ttf-font-awesome
+ttf-font-logos
+ttf-icomoon-icons
+ttf-material-icons
+ttf-polybar-icons
+ttf-roboto
+
+#---------=> network
+network-manager-applet
+networkmanager
+networkmanager-dmenu
+networkmanager-openvpn
+openresolv
+
+#---------=> core
+arandr
+compton
+conky
+dunst
+exo-gtk3
+fakeroot
+feh
+i3lock
+imagemagick
+jgmenu
+jsoncpp
+kickshaw
+libmpdclient
+lxmenu-data
+lxsession-gtk3
+nitrogen
+numlockx
+ob-autostart
+obconf
+obkey-gtk3
+obmenu-generator
+openbox
+polybar
+rofi
+skippy-xd
+scrot
+termite
+termite-terminfo
+tint2
+wireless_tools
+wmctrl
+xcape
+xcb-util-cursor
+xcmenu
+xdotool
+zenity
+
+#---------=> system icons
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
+
+#---------=> system fonts
+freetype2
+
+#---------=> system
+accountsservice
+gamin
+gksu-polkit
+gnome-keyring
+gtk3-classic
+manjaro-hotfixes
+polkit
+python2-xdg
+qc5ct
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+
+#---------=> xorg
 xorg-server
-xorg-twm
+xorg-server-common
+xorg-xbacklight
 xorg-xinit
+xorg-xinput
 xorg-xkill
+xorg-xprop
+xf86-input-libinput
 
