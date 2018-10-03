@@ -171,6 +171,7 @@ kfind
 kdeconnect
 okular
 >extra >x86_64 kget
+>extra >x86_64 libktorrent
 >extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
