@@ -283,12 +283,20 @@ xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+numlockx
 xdg-user-dirs
 xorg-server
 xorg-twm
 xorg-xinit
-mesa-demos
->multilib lib32-mesa-demos
+xorg-xkill
 
 ## Desktop Utils
 perl-file-mimeinfo
