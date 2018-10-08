@@ -82,7 +82,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra steam-manjaro
 
 ## Package management
-pamac-dev
+pamac
 
 ## Java
 >extra jdk8-openjdk
