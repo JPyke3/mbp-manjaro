@@ -13,6 +13,7 @@ manjaro-gdm-check #this check if nvidia closed drivers are installed and disable
 manjaro-gdm-theme #branding theme for GDM: 18.0 
 gedit 
 gtksourceview-pkgbuild #highlight for PKGBUILD
+manjaro-gnome-vanilla
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
