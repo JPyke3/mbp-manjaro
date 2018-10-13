@@ -160,6 +160,7 @@ gtk-theme-breath
 #>extra oxygen-icons
 plasma5-themes-breath  # Default
 sddm-breath-theme  # Default
+grub-theme-manjaro-dev
 
 ## Better systray/notifications support
 >extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
