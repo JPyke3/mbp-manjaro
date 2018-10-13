@@ -85,8 +85,8 @@ manjaro-zsh-config
 manjaro-browser-settings-native
 manjaro-hotfixes
 manjaro-settings-manager
-manjaro-wallpapers-17.0
-manjaro-awesome-settings
+manjaro-wallpapers-18.0
+manjaro-awesome-settings-18.0
 qt5ct
 kvantum-manjaro
 
@@ -99,7 +99,7 @@ inxi
 i3-scrot
 htop
 lxterminal
-chromium
+firefox
 galculator
 gnome-disk-utility
 gufw
