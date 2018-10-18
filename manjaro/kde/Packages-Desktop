@@ -91,10 +91,16 @@ terminus-font
 >extra steam-manjaro
 
 ## Package management
+packagekit-qt5
+discover
+flatpak
+fwupd 
 octopi
-octopi-notifier-frameworks
 octopi-cachecleaner
 octopi-repoeditor
+#octopi-notifier-frameworks
+#pamac
+#pamac-tray-appindicator
 
 ## Printing
 >extra cups
@@ -105,6 +111,7 @@ octopi-repoeditor
 >extra gtk3-print-backends
 >extra hplip
 >extra splix
+>extra system-config-printer
 
 ## Optional dependencies for hplip
 >extra pyqt5-common
@@ -144,15 +151,16 @@ systemsettings
 user-manager
 
 ## Themes QT/GTK/SDDM
-breeze
-breeze-gtk
+#breeze
+#breeze-gtk
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
->extra oxygen
->extra oxygen-icons
+#>extra oxygen
+#>extra oxygen-icons
 plasma5-themes-breath  # Default
 sddm-breath-theme  # Default
+grub-theme-manjaro-dev
 
 ## Better systray/notifications support
 >extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
@@ -171,6 +179,7 @@ kfind
 kdeconnect
 okular
 >extra >x86_64 kget
+>extra >x86_64 libktorrent
 >extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
@@ -236,7 +245,7 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
 appimagelauncher
->extra cantata
+#>extra cantata
 dmidecode # for inxi -m output
 htop
 imagewriter
@@ -250,7 +259,7 @@ manjaro-hello
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
->extra qbittorrent
+#>extra qbittorrent
 screenfetch
 systemd-kcm
 >extra thunderbird
@@ -258,12 +267,12 @@ vlc
 yakuake
 
 ## Optional dependencis for cantata
->extra mpd       # playback
->extra perl-uri  # dynamic playlist
+#>extra mpd       # playback
+#>extra perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
->extra jre8-openjdk
->extra jdk8-openjdk
+#>extra jre8-openjdk
+#>extra jdk8-openjdk
 
 ## Documentation
 manjaro-documentation-en
@@ -282,12 +291,20 @@ xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+numlockx
 xdg-user-dirs
 xorg-server
 xorg-twm
 xorg-xinit
-mesa-demos
->multilib lib32-mesa-demos
+xorg-xkill
 
 ## Desktop Utils
 perl-file-mimeinfo
@@ -298,6 +315,6 @@ xdg-su
 manjaro-hotfixes
 
 ## Flatpak support
->extra flatpak
->extra xdg-desktop-portal
->extra xdg-desktop-portal-kde
+#>extra flatpak
+#>extra xdg-desktop-portal
+#>extra xdg-desktop-portal-kde

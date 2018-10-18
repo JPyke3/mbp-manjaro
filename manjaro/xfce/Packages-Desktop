@@ -98,6 +98,7 @@ pamac
 >extra gtk3-print-backends
 >extra hplip
 >extra splix
+>extra system-config-printer
 
 ## Optional dependencies for hplip
 >extra pyqt5-common # For hplip
@@ -183,6 +184,8 @@ pavucontrol
 >extra manjaro-wallpapers-18.0
 gnome-icon-theme
 gnome-themes-standard
+grub-theme-manjaro-dev
+matcha-gtk-theme
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 
@@ -205,6 +208,7 @@ inxi
 >extra libreoffice-still
 ms-office-online
 manjaro-hello
+manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic midori
@@ -245,11 +249,17 @@ xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
-xdg-user-dirs
-xorg-server
-numlockx
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
 mesa-demos
 >multilib lib32-mesa-demos
+numlockx
+xdg-user-dirs
+xorg-server
 xorg-twm
 xorg-xinit
 xorg-xkill
