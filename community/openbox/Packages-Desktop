@@ -6,19 +6,15 @@
 >extra smplayer
 >extra smplayer-skins
 >extra smplayer-themes
-
-#---------=> sound support
->extra alsa-firmware
->extra alsa-utils
->extra alsa-plugins
+>extra smtube
 
 #---------=> media controls/codecs/plugins
 >extra ffmpeg
+>extra libmad
+>extra mpg123
 >extra pamixer
 >extra pavucontrol
 >extra playerctl
->extra pulseaudio
->extra pulseaudio-alsa
 
 #---------=> graphic applications
 >extra gcolor2
@@ -27,7 +23,8 @@
 >extra viewnior
 
 #---------=> connect packages
->extra blueman
+>extra blueberry
+>extra bluez
 >extra gvfs
 >extra gvfs-afc
 >extra gvfs-mtp
@@ -40,13 +37,23 @@
 
 #---------=> office
 >extra libreoffice-fresh
->extra qpdfview
+qpdfview
 
-#---------=> manjaro
->extra manjaro-documentation-en
+#---------=> office
+## metapackage manjaro-printer
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gutenprint
+>extra hplip
+>extra python-gobject
+>extra python-pyqt5
+>extra splix
+>extra system-config-printer
 
 #---------=> package manager
-manjaro-application-utility
 >extra pamac
 >extra pacui
 
@@ -69,29 +76,22 @@ manjaro-application-utility
 >extra pkg-config
 >extra yajl
 
-#---------=> internet apps
-firefox-developer-edition
->extra sylpheed
+#---------=> CLI internet apps
+>extra lynx
 
-#---------=> text editor
->extra dash
->extra micro-manjaro
->extra terminus-font
-xed
+#---------=> GUI internet apps
+chromium
+>extra thunderbird
 
-#---------=> filemanager
+#---------=> file utilities
 >extra catfish
 >extra engrampa
 >extra ffmpegthumbnailer
->extra lynx
->extra mc
 >extra mlocate
 >extra poppler-data
 >extra poppler-glib
 >extra p7zip
->extra ranger
 >extra thunar-archive-plugin-gtk3
-thunar-gtk3
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
@@ -101,9 +101,31 @@ thunar-gtk3
 >extra unrar
 >extra unzip
 
+#---------=> CLI text editor
+extra dash
+micro-manjaro
+terminus-font
+
+#---------=> GUI text editor
+xed
+
+#---------=> sound support
+alsa-firmware
+alsa-utils
+alsa-plugins
+pulseaudio
+pulseaudio-alsa
+volumeicon
+
+#---------=> CLI file manager
+mc
+ranger
+
+#---------=> GUI file manager
+thunar-gtk3
+
 #---------=> disk utilities
 timeshift
-clonezilla
 >extra gnome-disk-utility
 gparted
 >extra mintstick
@@ -130,23 +152,26 @@ lightdm
 lightdm-settings
 lightdm-slick-greeter
 
+#---------=> manjaro user infomartion
+manjaro-documentation-en
+manjaro-hello
+manjaro-application-utility
+
 #---------=> settings manager
 lxappearance-gtk3
 lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
 
-#---------=> settings config package
-openbox-common-desktop-settings
-openbox-desktop-settings
->basic openbox-minimal-desktop-settings
->extra openbox-regular-desktop-settings
+#---------=> desktop settings and config
+manjaro-openbox-desktop-settings
+manjaro-openbox-configuration
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
 #---------=> edition theming and settings
-grub-theme-glassfield
+manjaro-grub-theme-brown
 manjaro-openbox-scripts
 
 #---------=> theme meta package
@@ -193,7 +218,6 @@ jsoncpp
 kickshaw
 libmpdclient
 lxmenu-data
-lxsession-gtk3
 nitrogen
 numlockx
 ob-autostart
@@ -216,7 +240,7 @@ xcmenu
 xdotool
 zenity
 
-#---------=> system icons
+#---------=> system icon themes
 adwaita-icon-theme
 gnome-icon-theme
 gnome-icon-theme-extras
@@ -235,6 +259,7 @@ gnome-keyring
 gtk3-classic
 manjaro-hotfixes
 polkit
+polkit-gnome
 python2-xdg
 qt5ct
 xdg-user-dirs
@@ -242,9 +267,14 @@ xdg-user-dirs-gtk
 xdg-utils
 
 #---------=> xorg
+xorg-fonts-75dpi
+xorg-fonts-100dpi
+xorg-fonts-type1
 xorg-server
 xorg-server-common
+xorg-server-xephyr
 xorg-xbacklight
+xorg-xdpyinfo
 xorg-xinit
 xorg-xinput
 xorg-xkill
