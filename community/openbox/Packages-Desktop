@@ -85,6 +85,7 @@ chromium
 
 #---------=> file utilities
 >extra catfish
+>extra command-not-found
 >extra engrampa
 >extra ffmpegthumbnailer
 >extra mlocate
@@ -164,8 +165,8 @@ manjaro-settings-manager
 xfce4-settings-gtk3
 
 #---------=> desktop settings and config
-manjaro-openbox-desktop-settings
 manjaro-openbox-config
+manjaro-openbox-desktop-settings
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
