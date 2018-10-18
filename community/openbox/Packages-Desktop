@@ -102,7 +102,7 @@ chromium
 >extra unzip
 
 #---------=> CLI text editor
-extra dash
+dash
 micro-manjaro
 terminus-font
 
@@ -165,7 +165,7 @@ xfce4-settings-gtk3
 
 #---------=> desktop settings and config
 manjaro-openbox-desktop-settings
-manjaro-openbox-configuration
+manjaro-openbox-config
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
