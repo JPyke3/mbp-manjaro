@@ -100,6 +100,7 @@ nss-mdns
 numlockx
 openresolv
 pamac
+flatpak
 polkit-gnome
 powertop
 pulseaudio-bluetooth
