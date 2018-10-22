@@ -91,14 +91,14 @@ terminus-font
 >extra steam-manjaro
 
 ## Package management
-packagekit-qt5
-discover
+#packagekit-qt5
+#discover
 flatpak
-fwupd 
+#fwupd 
 octopi
 octopi-cachecleaner
 octopi-repoeditor
-#octopi-notifier-frameworks
+octopi-notifier-frameworks
 #pamac
 #pamac-tray-appindicator
 
