@@ -1,5 +1,5 @@
 #-------------------------------------------------
-##### OPENBOX MINIMAL/FULL PROFILE
+##### OPENBOX MINIMAL/EXTRA PROFILE
 
 #---------=> media player
 >extra deadbeef
@@ -26,7 +26,6 @@
 >extra blueberry
 >extra bluez
 >extra gvfs
->extra gvfs-afc
 >extra gvfs-mtp
 >extra gvfs-nfs
 >extra gvfs-smb
@@ -37,7 +36,6 @@
 
 #---------=> office
 >extra libreoffice-fresh
-qpdfview
 
 #---------=> office
 ## metapackage manjaro-printer
@@ -76,16 +74,8 @@ qpdfview
 >extra pkg-config
 >extra yajl
 
-#---------=> CLI internet apps
->extra lynx
-
-#---------=> GUI internet apps
-chromium
->extra thunderbird
-
 #---------=> file utilities
 >extra catfish
->extra command-not-found
 >extra engrampa
 >extra ffmpegthumbnailer
 >extra mlocate
@@ -101,6 +91,34 @@ chromium
 >extra unarj
 >extra unrar
 >extra unzip
+
+#---------=> disk utilities
+>extra gnome-disk-utility
+>extra mintstick
+>extra xfburn
+
+#---------=> GUI internet apps
+>extra thunderbird
+
+#---------=> basic utilities
+>extra galculator
+
+#-------------------------------------------------
+##### EDITION BASE PACKAGES
+
+#---------=> office
+qpdfview
+
+#---------=> manjaro user infomartion
+manjaro-application-utility
+manjaro-documentation-en
+manjaro-hello
+
+#---------=> CLI internet apps
+lynx
+
+#---------=> GUI internet apps
+chromium
 
 #---------=> CLI text editor
 dash
@@ -127,14 +145,10 @@ thunar-gtk3
 
 #---------=> disk utilities
 timeshift
->extra gnome-disk-utility
 gparted
->extra mintstick
 testdisk
->extra xfburn
 
 #---------=> basic utilities
->extra galculator
 gsimplecal
 inxi
 ps_mem
@@ -153,11 +167,6 @@ lightdm
 lightdm-settings
 lightdm-slick-greeter
 
-#---------=> manjaro user infomartion
-manjaro-documentation-en
-manjaro-hello
-manjaro-application-utility
-
 #---------=> settings manager
 lxappearance-gtk3
 lxappearance-obconf-gtk3
@@ -168,21 +177,19 @@ xfce4-settings-gtk3
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
 
-#-------------------------------------------------
-##### EDITION BASE PACKAGES
-
 #---------=> edition theming and settings
 manjaro-grub-theme-brown
 manjaro-openbox-scripts
+manjaro-openbox-wallpapers
 
 #---------=> theme meta package
 # metapkg: manjaro-openbox-theme-18.0
 # theme, icons, cursors, wallpapers
-adapta-maia-theme
-manjaro-openbox-adapta-maia
-papirus-maia-icon-theme
-manjaro-wallpapers-18.0
+illyria-wallpaper
+matcha-gtk-theme
+manjaro-openbox-maia-themes
 manjaro-zsh-config
+papirus-maia-icon-theme
 xcursor-breeze
 
 #---------=> fonts meta package
@@ -281,4 +288,3 @@ xorg-xinput
 xorg-xkill
 xorg-xprop
 xf86-input-libinput
-
