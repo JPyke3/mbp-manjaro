@@ -77,8 +77,8 @@ manjaro-artwork
 illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
-manjaro-gnome-assets-dev
-grub-theme-manjaro-dev #grub theme for installed S.O.
+manjaro-gnome-assets
+grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
