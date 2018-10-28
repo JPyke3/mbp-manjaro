@@ -161,6 +161,9 @@ gtk-theme-breath
 plasma5-themes-breath  # Default
 sddm-breath-theme  # Default
 grub-theme-manjaro-dev
+illyria-wallpaper
+>extra wallpapers-2018
+>extra manjaro-wallpapers-18.0
 
 ## Better systray/notifications support
 >extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
