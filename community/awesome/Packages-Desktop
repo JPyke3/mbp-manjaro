@@ -59,6 +59,7 @@ xorg-xprop
 ###################################
 ## Misc
 ###################################
+>basic ufw
 gtk3-classic
 lightdm
 lightdm-slick-greeter
@@ -67,7 +68,7 @@ accountsservice  # Enhanced user accounts
 python-dbus
 compton
 gnome-keyring
-grub-theme-manjaro-dev
+grub-theme-manjaro
 light-locker
 mate-polkit
 gksu-polkit
@@ -85,7 +86,6 @@ manjaro-zsh-config
 manjaro-browser-settings
 manjaro-hotfixes
 manjaro-settings-manager
-manjaro-wallpapers-18.0
 manjaro-awesome-settings-18.0
 qt5ct
 kvantum-manjaro
@@ -101,10 +101,7 @@ htop
 lxterminal
 firefox
 galculator
-gnome-disk-utility
-gufw
 mousepad
-mpv
 pamac
 ristretto
 thunar-gtk3
@@ -136,12 +133,12 @@ zathura-djvu
 ###################################
 ## Extra Misc and Apps
 ###################################
->extra compton-conf 
+>extra compton-conf
 >extra gimp
->extra guvcview
+>extra gufw
 >extra libreoffice-fresh
 >extra lightdm-settings
->extra simple-scan
+>extra mpv
 >extra thunderbird
 >extra transmission-gtk
 >extra thunar-shares-plugin-gtk3
@@ -149,3 +146,4 @@ zathura-djvu
 >extra pulseaudio-bluetooth
 >extra manjaro-printer
 >extra manjaro-settings-manager-notifier
+>extra manjaro-wallpapers-18.0
