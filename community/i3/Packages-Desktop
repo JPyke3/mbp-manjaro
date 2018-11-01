@@ -55,6 +55,7 @@ htop
 inxi
 >extra isousb
 json-c
+kvantum-manjaro
 >multilib lib32-flex
 >extra libdvdcss
 >extra libgpod
@@ -76,7 +77,7 @@ manjaro-i3-settings
 manjaro-ranger-settings
 >extra manjaro-settings-manager-notifier
 markdown_previewer
-matcha-gtk-theme
+>extra matcha-gtk-theme
 mesa-demos
 mlocate
 mobile-broadband-provider-info
