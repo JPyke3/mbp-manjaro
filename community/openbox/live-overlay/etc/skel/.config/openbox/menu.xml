@@ -121,7 +121,7 @@
     </item>
     <item label="Calamares Installer">
         <action name="Execute">
-            <command>sudo calamares</command>
+            <command>calamares_polkit</command>
         </action>
     </item>
     <item label="Architect Installer">

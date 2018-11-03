@@ -179,15 +179,18 @@ manjaro-openbox-desktop-settings
 
 #---------=> edition theming and settings
 manjaro-grub-theme-brown
+manjaro-slick-greeter-theme-brown
 manjaro-openbox-scripts
-manjaro-openbox-wallpapers
 
 #---------=> theme meta package
 # metapkg: manjaro-openbox-theme-18.0
 # theme, icons, cursors, wallpapers
-illyria-wallpaper
 matcha-gtk-theme
-manjaro-openbox-maia-themes
+manjaro-openbox-maia
+manjaro-openbox-wallpapers-18.0
+manjaro-wallpapers-18.0
+manjaro-wallpapers-by-lunix-cool-logo
+manjaro-wallpapers-by-lunix-manjaro
 manjaro-zsh-config
 papirus-maia-icon-theme
 xcursor-breeze
