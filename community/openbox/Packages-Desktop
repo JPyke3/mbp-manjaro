@@ -149,9 +149,13 @@ gparted
 testdisk
 
 #---------=> basic utilities
+dmidecode
 gsimplecal
+hddtemp
 inxi
+mesa-demos
 ps_mem
+tree
 xterm
 
 #---------=> network utilities
@@ -238,8 +242,9 @@ obmenu-generator
 openbox
 polybar
 rofi
-skippy-xd
 scrot
+skippy-xd
+synapse
 termite
 termite-terminfo
 tint2
