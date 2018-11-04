@@ -149,13 +149,18 @@ gparted
 testdisk
 
 #---------=> basic utilities
+catimg
 dmidecode
+feh
 gsimplecal
 hddtemp
 inxi
+jp2a
 mesa-demos
+neofetch
 ps_mem
 tree
+w3m
 xterm
 
 #---------=> network utilities
@@ -295,4 +300,5 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xprop
+xorg-xwininfo
 xf86-input-libinput
