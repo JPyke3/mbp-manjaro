@@ -123,6 +123,17 @@ thunar-gtk3
 >extra unrar
 >extra unzip
 
+#---------=> disk utilities
+>extra gnome-disk-utility
+>extra mintstick
+>extra xfburn
+
+#---------=> basic utilities
+>extra galculator
+
+#-------------------------------------------------
+##### EDITION BASE PACKAGES
+
 #---------=> network utilities
 arp-scan
 bind-tools
@@ -133,52 +144,28 @@ whois
 
 #---------=> disk utilities
 timeshift
-clonezilla
->extra gnome-disk-utility
 gparted
->extra mintstick
 testdisk
->extra xfburn
 
 #---------=> basic utilities
->extra galculator
 gsimplecal
 inxi
 powertop
 ps_mem
 xterm
 
-#---------=> settings manager
-lxappearance-gtk3
-lxappearance-obconf-gtk3
-manjaro-settings-manager
-
-#---------=> lxde not in core
-lxde-common
-lxhotkey-gtk3
-lxinput-gtk3
-lxlauncher-gtk3
-lxpanel-gtk3
-lxrandr-gtk3
-lxtask-gtk3
-lxterminal
-numlockx
-obconf
-pcmanfm-gtk3
-scrot
-
-#-------------------------------------------------
-##### EDITION BASE PACKAGES
-
 #---------=> edition theming and settings
-grub-theme-glassfield
+manjaro-grub-theme-glassfield
+manjaro-slick-greeter-theme-glassfield
+manjaro-openbox-common
+manjaro-openbox-config
 manjaro-openbox-scripts
 
 #---------=> theme meta package
 # metapkg: manjaro-openbox-theme-18.0
 # theme, icons, cursors, wallpapers
 adapta-maia-theme
-manjaro-openbox-adapta-maia
+manjaro-openbox-maia
 papirus-maia-icon-theme
 manjaro-wallpapers-18.0
 manjaro-zsh-config
@@ -202,6 +189,22 @@ networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
 openresolv
+
+#---------=> settings manager
+lxappearance-gtk3
+lxappearance-obconf-gtk3
+manjaro-settings-manager
+
+#---------=> lxde not in core
+lxde-common
+lxhotkey-gtk3
+lxinput-gtk3
+lxlauncher-gtk3
+lxpanel-gtk3
+lxrandr-gtk3
+lxtask-gtk3
+lxterminal
+pcmanfm-gtk3
 
 #---------=> core
 arandr

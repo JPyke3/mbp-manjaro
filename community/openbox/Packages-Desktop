@@ -12,9 +12,7 @@
 >extra ffmpeg
 >extra libmad
 >extra mpg123
->extra pamixer
 >extra pavucontrol
->extra playerctl
 
 #---------=> graphic applications
 >extra gcolor2
@@ -23,7 +21,7 @@
 >extra viewnior
 
 #---------=> connect packages
->extra blueberry
+>extra blueman
 >extra bluez
 >extra gvfs
 >extra gvfs-mtp
@@ -132,6 +130,8 @@ xed
 alsa-firmware
 alsa-utils
 alsa-plugins
+pamixer
+playerctl
 pulseaudio
 pulseaudio-alsa
 volumeicon
