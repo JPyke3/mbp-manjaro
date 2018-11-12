@@ -7,18 +7,9 @@
 >extra smplayer-skins
 >extra smplayer-themes
 
-#---------=> sound support
->extra alsa-firmware
->extra alsa-utils
->extra alsa-plugins
-
 #---------=> media controls/codecs/plugins
 >extra ffmpeg
->extra pamixer
 >extra pavucontrol
->extra playerctl
->extra pulseaudio
->extra pulseaudio-alsa
 
 #---------=> graphic applications
 >extra gcolor2
@@ -41,7 +32,6 @@
 #---------=> office
 >extra libreoffice-fresh
 >extra jre10-openjdk
->extra qpdfview
 
 #---------=> Printer
 ## meta-pkg manjaro-printer
@@ -64,12 +54,7 @@
 >extra simple-scan
 >extra xsane
 
-#---------=> manjaro
->extra manjaro-documentation-en
-
 #---------=> package manager
-manjaro-application-utility
-pamac
 >extra pacui
 
 #---------=> build support
@@ -92,28 +77,18 @@ pamac
 >extra yajl
 
 #---------=> internet apps
-firefox-developer-edition
->extra sylpheed
+>extra thunderbird
 
-#---------=> text editor
->extra dash
->extra micro-manjaro
->extra terminus-font
-xed
 
 #---------=> filemanager
 >extra catfish
 >extra engrampa
 >extra ffmpegthumbnailer
->extra lynx
->extra mc
 >extra mlocate
 >extra poppler-data
 >extra poppler-glib
 >extra p7zip
->extra ranger
 >extra thunar-archive-plugin-gtk3
-thunar-gtk3
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
@@ -134,6 +109,35 @@ thunar-gtk3
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
+lynx
+mc
+ranger
+
+#---------=> manjaro
+manjaro-documentation-en
+
+manjaro-application-utility
+pamac
+
+qpdfview
+thunar-gtk3
+xed
+firefox
+dash
+micro-manjaro
+terminus-font
+
+
+#---------=> sound support
+alsa-firmware
+alsa-utils
+alsa-plugins
+pamixer
+playerctl
+pulseaudio
+pulseaudio-alsa
+
+
 #---------=> network utilities
 arp-scan
 bind-tools
@@ -151,10 +155,12 @@ testdisk
 gsimplecal
 inxi
 powertop
+htop
 ps_mem
 xterm
 
 #---------=> edition theming and settings
+manjaro-lxde-settings-dev
 manjaro-grub-theme-glassfield
 manjaro-slick-greeter-theme-glassfield
 manjaro-openbox-common
@@ -278,4 +284,3 @@ xorg-xinput
 xorg-xkill
 xorg-xprop
 xf86-input-libinput
-
