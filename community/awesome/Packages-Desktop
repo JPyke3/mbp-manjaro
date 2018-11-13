@@ -66,7 +66,6 @@ lightdm-slick-greeter
 libappindicator-gtk3
 accountsservice  # Enhanced user accounts
 python-dbus
-compton
 gnome-keyring
 grub-theme-manjaro
 light-locker
@@ -133,6 +132,8 @@ zathura-djvu
 ###################################
 ## Extra Misc and Apps
 ###################################
+>extra bmenu
+>extra compton
 >extra compton-conf
 >extra gimp
 >extra gufw
@@ -140,6 +141,7 @@ zathura-djvu
 >extra mpv
 >extra thunderbird
 >extra transmission-gtk
+>extra manjaro-settings-samba
 >extra thunar-shares-plugin-gtk3
 >extra blueman
 >extra pulseaudio-bluetooth
