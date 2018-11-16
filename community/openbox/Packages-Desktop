@@ -49,10 +49,6 @@
 >extra splix
 >extra system-config-printer
 
-#---------=> package manager
->extra pamac
->extra pacui
-
 #---------=> build support
 >extra autoconf
 >extra automake
@@ -104,6 +100,10 @@
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
+#---------=> package manager
+pamac
+pacui
+
 #---------=> office
 qpdfview
 
@@ -111,9 +111,6 @@ qpdfview
 manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
-
-#---------=> CLI internet apps
-lynx
 
 #---------=> GUI internet apps
 chromium
@@ -135,6 +132,10 @@ playerctl
 pulseaudio
 pulseaudio-alsa
 volumeicon
+
+#---------=> CLI internet apps
+lynx
+w3m
 
 #---------=> CLI file manager
 mc
@@ -160,7 +161,6 @@ mesa-demos
 neofetch
 ps_mem
 tree
-w3m
 xterm
 
 #---------=> network utilities
