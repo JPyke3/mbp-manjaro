@@ -145,9 +145,10 @@ ranger
 thunar-gtk3
 
 #---------=> disk utilities
-timeshift
+clonezilla
 gparted
 testdisk
+timeshift
 
 #---------=> basic utilities
 catimg
@@ -188,26 +189,19 @@ manjaro-openbox-desktop-settings
 
 #---------=> edition theming and settings
 manjaro-grub-theme-brown
-manjaro-slick-greeter-theme-brown
 manjaro-openbox-scripts
-manjaro-openbox-wallpapers
-
-#---------=> theme meta package
-# metapkg: manjaro-openbox-theme-18.0
-# theme, icons, cursors, wallpapers
-matcha-gtk-theme
 manjaro-openbox-maia
-manjaro-openbox-wallpapers-18.0
+manjaro-openbox-wallpapers
+manjaro-slick-greeter-theme-brown
 manjaro-wallpapers-18.0
 manjaro-wallpapers-by-lunix-cool-logo
 manjaro-wallpapers-by-lunix-manjaro
 manjaro-zsh-config
+matcha-gtk-theme
 papirus-maia-icon-theme
 xcursor-breeze
 
-#---------=> fonts meta package
-# metapkg: manjaro-openbox-theme-fonts
-# fonts
+#---------=> fonts packages
 manjaro-openbox-fonts
 ttf-dejavu
 ttf-font-awesome
