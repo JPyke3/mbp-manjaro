@@ -1,7 +1,7 @@
 iso-profiles
 ==========================
 
-###### * profile.conf
+###### profile.conf
 
 ~~~
 ##########################################
@@ -80,7 +80,7 @@ iso-profiles
 # enable_openrc_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
 ~~~
 
-###### * New Packagelist tags
+###### New Packagelist tags
 
 ~~~
 >openrc
@@ -102,17 +102,21 @@ iso-profiles
 ~~~
 
 ###### Packages-Root
+
 * Contains root image packages
 * ideally no xorg
 
 ###### Packages-Desktop
+
 * Contains the desktop image packages
 * desktop environment packages go here
 
 ###### Packages-Mhwd
+
 * Contains the MHWD driver packages repo
 
 ###### Packages-Live
+
 * Contains packages you only want in live session but not installed on the target system with installer
 * default files are in shared folder and can be symlinked or defined in a real file
 
