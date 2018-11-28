@@ -162,11 +162,9 @@ ms-office-online
 >extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
-#>extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
->extra blueman
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra kernel-alive
