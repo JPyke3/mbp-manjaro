@@ -10,9 +10,11 @@ lightdm-slick-greeter
 lightdm-settings
 grub-theme-manjaro
 budgie-desktop
->extra budgie-extras
+budgie-extras
 manjaro-budgie-settings
 papirus-maia-icon-theme
+manjaro-wallpapers-18.0
+wallpapers-2018
 manjaro-icons
 libappindicator-gtk3
 baobab
@@ -68,6 +70,7 @@ manjaro-hotfixes
 manjaro-pulse
 manjaro-settings-manager-notifier
 manjaro-hello
+manjaro-application-utility
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
@@ -141,9 +144,8 @@ yelp
 >extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
->extra timeshift
+timeshift
 >extra kernel-alive
-# >extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
