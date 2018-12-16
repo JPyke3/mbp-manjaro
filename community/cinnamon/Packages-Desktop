@@ -11,6 +11,7 @@ bison
 cinnamon-sounds
 cinnamon-translations
 >extra cinnamon-wallpapers
+dbus-x11
 >extra dconf-editor
 >extra deluge
 dmidecode
@@ -64,7 +65,7 @@ m4
 make
 manjaro-alsa
 manjaro-browser-settings
-manjaro-cinnamon-settings-dev
+manjaro-cinnamon-settings
 >extra manjaro-documentation-en
 manjaro-hello
 manjaro-hotfixes
@@ -73,6 +74,7 @@ manjaro-pulse
 manjaro-settings-manager-notifier
 >extra mesa-demos
 >basic midori
+>extra mint-themes
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
@@ -96,6 +98,7 @@ openssh
 >extra openvpn
 >extra p7zip
 pamac
+papirus-maia-icon-theme
 >extra parcellite
 patch
 >extra patchutils

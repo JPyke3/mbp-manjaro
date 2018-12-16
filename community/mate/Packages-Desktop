@@ -127,7 +127,7 @@ caja-open-terminal
 >extra brasero
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
->extra timeshift 								#backup utility
+timeshift 								#backup utility
 >extra kernel-alive 							#after a kernel update this maintain usable the modules
 # >extra flashplugin
 >extra libdvdcss
