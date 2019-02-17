@@ -11,6 +11,7 @@ avahi
 binutils
 bison
 >extra blueman
+>extra bluez-utils
 bmenu
 >extra cantarell-fonts
 clipit
