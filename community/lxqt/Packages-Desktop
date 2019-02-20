@@ -133,7 +133,7 @@ manjaro-hotfixes
 
 ## Theming and icons
 adapta-maia-theme
-grub-theme-glassfield
+manjaro-grub-theme-glassfield
 manjaro-icons
 manjaro-openbox-adapta-maia
 manjaro-zsh-config
@@ -148,8 +148,9 @@ ttf-dejavu
 ttf-roboto
 
 ## Manjaro packages
+manjaro-application-utility
 manjaro-documentation-en
->extra manjaro-hello
+manjaro-hello
 manjaro-settings-manager
 >extra manjaro-settings-manager-notifier
 
@@ -205,7 +206,7 @@ xscreensaver
 ##### EDITION BASE PACKAGES
 
 #---------=> edition theming and settings
-grub-theme-glassfield
+manjaro-grub-theme-glassfield
 manjaro-openbox-scripts
 
 #---------=> theme meta package
@@ -295,7 +296,6 @@ gtk3-classic
 manjaro-hotfixes
 polkit
 python2-xdg
-qc5ct
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
