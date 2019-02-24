@@ -257,7 +257,8 @@ inxi
 >extra firefox
 >basic falkon
 ms-office-online
->extra libreoffice-fresh
+#>extra libreoffice-fresh
+>extra calligra
 manjaro-hello
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
