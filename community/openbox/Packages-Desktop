@@ -156,6 +156,7 @@ dmidecode
 feh
 gsimplecal
 hddtemp
+htop
 inxi
 jp2a
 mesa-demos
@@ -179,7 +180,7 @@ lightdm-slick-greeter
 
 #---------=> settings manager
 lxappearance-gtk3
-lxappearance-obconf-gtk3
+#lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
 
@@ -188,11 +189,11 @@ manjaro-openbox-config
 manjaro-openbox-desktop-settings
 
 #---------=> edition theming and settings
-manjaro-grub-theme-brown
+manjaro-grub-theme-glassfield
 manjaro-openbox-scripts
 manjaro-openbox-maia
 manjaro-openbox-wallpapers
-manjaro-slick-greeter-theme-brown
+manjaro-slick-greeter-theme-glassfield
 manjaro-wallpapers-18.0
 manjaro-wallpapers-by-lunix-cool-logo
 manjaro-wallpapers-by-lunix-manjaro
@@ -226,7 +227,6 @@ conky
 dunst
 exo-gtk3
 fakeroot
-feh
 i3lock
 imagemagick
 jgmenu
@@ -278,6 +278,7 @@ manjaro-hotfixes
 polkit
 polkit-gnome
 python2-xdg
+qt5-styleplugins
 qt5ct
 xdg-user-dirs
 xdg-user-dirs-gtk
