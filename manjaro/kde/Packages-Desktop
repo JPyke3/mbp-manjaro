@@ -91,6 +91,7 @@ terminus-font
 >extra steam-manjaro
 
 ## Package management
+appimagelauncher
 #packagekit-qt5
 #discover
 flatpak
@@ -101,6 +102,7 @@ octopi-repoeditor
 octopi-notifier-frameworks
 #pamac
 #pamac-tray-appindicator
+#manjaro-application-utility
 
 ## Printing
 >extra cups
@@ -111,7 +113,6 @@ octopi-notifier-frameworks
 >extra gtk3-print-backends
 >extra hplip
 >extra splix
->extra system-config-printer
 
 ## Optional dependencies for hplip
 >extra pyqt5-common
@@ -119,6 +120,10 @@ octopi-notifier-frameworks
 >extra python-pip
 >extra python-pyqt5
 >extra python-reportlab
+
+## Optional dependencies for print-manager
+>extra system-config-printer  # auto-detect the printer driver
+>extra python-pysmbc          # SMB browser support
 
 ## Display manager
 sddm
@@ -166,7 +171,7 @@ illyria-wallpaper
 >extra manjaro-wallpapers-18.0
 
 ## Better systray/notifications support
->extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
+#>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 
 ## KDE Applications
 ark
@@ -242,12 +247,7 @@ sshfs  # remote filesystem browser
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
-## Optional dependencies for print-manager
->extra system-config-printer  # auto-detect the printer driver
->extra python-pysmbc          # SMB browser support
-
 ## Applications
-appimagelauncher
 #>extra cantata
 dmidecode # for inxi -m output
 htop
@@ -267,7 +267,8 @@ powertop
 screenfetch
 systemd-kcm
 >extra thunderbird
-vlc
+#vlc
+vlc-nightly
 yakuake
 
 ## Optional dependencis for cantata
