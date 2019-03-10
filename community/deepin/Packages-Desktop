@@ -11,6 +11,7 @@ bison
 >extra dconf-editor
 deepin-calendar
 >extra deepin-calculator
+deepin-editor
 deepin-file-manager
 deepin-gtk-theme
 >extra deepin-draw
@@ -22,6 +23,8 @@ deepin-gtk-theme
 >extra deepin-screenshot
 >extra deepin-system-monitor
 deepin-terminal
+deepin-turbo
+>extra deepin-voice-recorder
 >extra deluge
 dmidecode
 >extra downgrade
@@ -35,7 +38,6 @@ flex
 >extra gcc
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
-gedit
 >extra gimp
 >extra git
 >extra gparted
@@ -106,6 +108,7 @@ screenfetch
 >extra sushi
 syslog-ng
 terminus-font
+>extra timeshift
 >extra ttf-bitstream-vera
 >extra ttf-dejavu
 >extra ttf-droid
