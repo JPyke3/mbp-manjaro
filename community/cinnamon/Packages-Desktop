@@ -11,7 +11,6 @@ bison
 cinnamon-sounds
 cinnamon-translations
 >extra cinnamon-wallpapers
-dbus-x11
 >extra dconf-editor
 >extra deluge
 dmidecode
@@ -80,7 +79,7 @@ manjaro-settings-manager-notifier
 >extra mousetweaks
 >extra mugshot
 >multilib lib32-mesa-demos
->extra nemo-bulk-rename
+# >extra nemo-bulk-rename
 >extra nemo-fileroller
 >extra nemo-preview
 >extra nemo-python
@@ -150,9 +149,9 @@ xorg-xinit
 >extra xplayer
 >extra xreader
 >extra xviewer-plugins
->extra yaourt
 xdg-user-dirs
 xorg-server
 xorg-xhost
 xorg-xkill
+>extra yay
 zensu

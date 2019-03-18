@@ -161,6 +161,6 @@ xorg-xinit
 xorg-xkill
 xorg-xprop
 xterm
->extra yaourt
 xdg-user-dirs
 xorg-server
+>extra yay

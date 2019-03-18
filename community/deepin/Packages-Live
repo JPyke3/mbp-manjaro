@@ -1,6 +1,6 @@
 calamares
 deepin-live
-grub-theme-live-manjaro-dev
+grub-theme-live-manjaro
 gsmartcontrol
 manjaro-architect
 manjaro-live-skel
@@ -8,4 +8,3 @@ manjaro-live-systemd
 mkinitcpio-nfs-utils
 nbd
 squashfs-tools
-clonezilla
