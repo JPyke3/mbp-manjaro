@@ -14,6 +14,7 @@ cinnamon-translations
 >extra dconf-editor
 >extra deluge
 dmidecode
+>extra etcher
 fakeroot
 >extra ffmpegthumbnailer
 >extra firefox
@@ -49,7 +50,6 @@ htop
 >extra hexchat
 icon-naming-utils
 inxi
->extra isousb
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 kvantum-manjaro
