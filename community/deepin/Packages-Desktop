@@ -70,6 +70,7 @@ make
 manjaro-alsa
 manjaro-browser-settings
 manjaro-deepin-settings
+manjaro-application-utility
 >extra manjaro-documentation-en
 manjaro-hello
 manjaro-hotfixes

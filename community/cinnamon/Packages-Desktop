@@ -42,6 +42,7 @@ grub-theme-manjaro-dev
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra gstreamer
+gtkhash-nemo
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
@@ -63,6 +64,7 @@ lightdm-slick-greeter
 m4
 make
 manjaro-alsa
+manjaro-application-utility
 manjaro-browser-settings
 manjaro-cinnamon-settings
 >extra manjaro-documentation-en
