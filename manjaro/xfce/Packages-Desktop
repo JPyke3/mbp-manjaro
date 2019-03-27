@@ -192,7 +192,7 @@ xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 
 ## Applications
->extra catfish
+catfish
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
