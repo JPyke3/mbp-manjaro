@@ -263,7 +263,6 @@ freetype2
 
 #---------=> system
 accountsservice
-gamin
 gksu-polkit
 gnome-keyring
 gtk3-classic

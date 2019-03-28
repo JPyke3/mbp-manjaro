@@ -175,7 +175,6 @@ sddm-qt-manjaro-theme
 #---------=> settings manager
 manjaro-settings-manager
 obconf-qt
-qt5-styleplugins
 qt5ct
 
 #---------=> lxqt not in core
@@ -288,7 +287,6 @@ freetype2
 
 #---------=> system
 accountsservice
-gamin
 gksu-polkit
 gnome-keyring
 gtk3-classic
