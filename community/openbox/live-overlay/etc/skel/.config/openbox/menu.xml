@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <openbox_menu>
-
+<!-- DISK TOOLS MENU -->
 <menu id="disk-utilities" label="Disk Tools">
     <item label="Clonezilla">
         <action name="Execute">
@@ -19,7 +19,7 @@
         </action>
     </item>
 </menu>
-
+<!-- SCREENSHOT MENU -->
 <menu id="screenshot" label="Screenshot">
     <item label="Screenshot in 5">
         <action name="Execute">
@@ -37,7 +37,7 @@
         </action>
     </item>
 </menu>
-
+<!-- PREFERENCES MENU -->
 <menu id="preferences" label="Preferences">
     <menu id="openbox" label="Openbox">
         <item label="Customize Look and Feel">
@@ -111,7 +111,7 @@
         </item>
     </menu>
 </menu>
-
+<!-- ROOT MENU -->
 <menu id="root-menu" label="Openbox 3">
     <separator label="Install Manjaro Openbox"/>
     <item label="Manjaro User Guide">
@@ -121,7 +121,7 @@
     </item>
     <item label="Calamares Installer">
         <action name="Execute">
-            <command>calamares polkit</command>
+            <command>calamares_polkit</command>
         </action>
     </item>
     <item label="Architect Installer">
@@ -133,6 +133,11 @@
     <item label="Terminal">
         <action name="Execute">
             <command>termite</command>
+        </action>
+    </item>
+    <item label="Filemanager">
+        <action name="Execute">
+            <command>exo-open --launch FileManager</command>
         </action>
     </item>
     <item label="Midnight Commander">
@@ -150,7 +155,7 @@
     <menu id="preferences"/>
     <menu id="keybinds" label="Keybinds" execute="manjaro-kb-pipemenu"/>
     <separator/>
-    <menu id="help" label="Help and Info" execute="manjaro-help-pipemenu"/>
+    <menu id="help" label="HELP &amp; INFO" execute="manjaro-help-pipemenu"/>
     <separator/>
     <item label="Switch Menu">
         <action name="Execute">

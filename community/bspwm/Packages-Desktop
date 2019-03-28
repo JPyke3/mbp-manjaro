@@ -10,13 +10,14 @@
 >extra adwaita-maia-gtk3
 >extra compton
 >extra dconf
+>extra dunstify
+>extra ffmpegthumbnailer
 >extra file-roller
 >extra firefox
+>extra gestures
 >extra gnome-disk-utility
->extra gtk2-compatibility
 >extra gtk3-classic
 >extra gufw
->extra gvfs
 >extra gvfs
 >extra gvfs-afc
 >extra gvfs-gphoto2
@@ -26,20 +27,20 @@
 >extra lightdm
 >extra lightdm-slick-greeter
 >extra lxappearance-gtk3
->extra lxsession-gtk3
+>extra lxrandr-gtk3
+>extra lxinput-gtk3
 >extra manjaro-browser-settings
 >extra manjaro-bspwm-settings
 >extra manjaro-pulse
 >extra mate-notification-daemon
 >extra mate-polkit
->extra morc_menu
 >extra mygtkmenui
->extra papirus-maia-icon-theme
 >extra pavucontrol
 >extra pcmanfm-gtk3
 >extra pulseaudio-ctl
 >extra timeshift
 >extra zathura-pdf-poppler
+>extra xreader
 >multilib manjaro-alsa
 alsa-firmware
 alsa-plugins
@@ -60,13 +61,11 @@ delayed-hibernation
 desktop-file-utils
 dfc
 downgrade
-dunstify
 feh
-ffmpegthumbnailer
 grub-theme-manjaro-dev
 gtk-theme-breath
+gtop
 hibernator
-highlight
 htop
 inxi
 libdnet
@@ -81,7 +80,7 @@ micro-manjaro
 moc
 mpv
 ncdu
-nerd-fonts-terminus
+nerd-fonts-noto-sans-mono
 networkmanager
 networkmanager-dmenu
 networkmanager-openconnect
@@ -89,11 +88,14 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 openresolv
+yay
 pacui
+papirus-maia-icon-theme
 perl-file-mimeinfo
 poppler
 ps_mem
 ranger
+manjaro-ranger-settings
 rofi
 rofi-scripts
 rootmenu
@@ -102,10 +104,8 @@ sterminal
 sxhkd
 terminus-font
 testdisk
-thermald
 tree
 udevil
-w3m
 xcape
 xcursor-breeze
 xdg-su
@@ -121,6 +121,6 @@ xorg-server
 xorg-xinit
 xorg-xprop
 xorg-xsetroot
-yay
 zensu
 zsh-completions
+highlight

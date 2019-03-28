@@ -59,15 +59,15 @@ xorg-xprop
 ###################################
 ## Misc
 ###################################
+>basic ufw
 gtk3-classic
 lightdm
 lightdm-slick-greeter
 libappindicator-gtk3
 accountsservice  # Enhanced user accounts
 python-dbus
-compton
 gnome-keyring
-grub-theme-manjaro-dev
+grub-theme-manjaro
 light-locker
 mate-polkit
 gksu-polkit
@@ -82,11 +82,10 @@ xdg-utils
 xfce4-settings-gtk3
 xfce4-power-manager-gtk3
 manjaro-zsh-config
-manjaro-browser-settings-native
+manjaro-browser-settings
 manjaro-hotfixes
 manjaro-settings-manager
-manjaro-wallpapers-17.0
-manjaro-awesome-settings
+manjaro-awesome-settings-18.0
 qt5ct
 kvantum-manjaro
 
@@ -99,28 +98,25 @@ inxi
 i3-scrot
 htop
 lxterminal
+firefox
 galculator
-gufw
-gnome-disk-utility
-chromium
-catfish
+mousepad
 pamac
+ristretto
 thunar-gtk3
 thunar-volman-gtk3
 thunar-archive-plugin-gtk3
+catfish
 file-roller
 p7zip
 unrar
 unace
 tumbler
+ffmpegthumbnailer
 libgsf
 libopenraw
-ffmpegthumbnailer
-mousepad
 zathura-pdf-poppler
 zathura-djvu
-ristretto
-mpv
 
 ###################################
 ############## EXTRA ##############
@@ -136,16 +132,19 @@ mpv
 ###################################
 ## Extra Misc and Apps
 ###################################
->extra compton-conf 
+>extra bmenu
+>extra compton
+>extra compton-conf
 >extra gimp
->extra guvcview
+>extra gufw
 >extra libreoffice-fresh
->extra lightdm-settings
->extra simple-scan
+>extra mpv
 >extra thunderbird
 >extra transmission-gtk
+>extra manjaro-settings-samba
 >extra thunar-shares-plugin-gtk3
 >extra blueman
 >extra pulseaudio-bluetooth
 >extra manjaro-printer
 >extra manjaro-settings-manager-notifier
+>extra manjaro-wallpapers-18.0

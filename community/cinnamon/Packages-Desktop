@@ -7,13 +7,14 @@ avahi
 >extra baobab
 binutils
 bison
->extra blueberry
+>extra blueman
 cinnamon-sounds
 cinnamon-translations
 >extra cinnamon-wallpapers
 >extra dconf-editor
 >extra deluge
 dmidecode
+>extra etcher
 fakeroot
 >extra ffmpegthumbnailer
 >extra firefox
@@ -41,6 +42,7 @@ grub-theme-manjaro-dev
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra gstreamer
+gtkhash-nemo
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
@@ -49,7 +51,6 @@ htop
 >extra hexchat
 icon-naming-utils
 inxi
->extra isousb
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 kvantum-manjaro
@@ -63,8 +64,9 @@ lightdm-slick-greeter
 m4
 make
 manjaro-alsa
+manjaro-application-utility
 manjaro-browser-settings
-manjaro-cinnamon-settings-dev
+manjaro-cinnamon-settings
 >extra manjaro-documentation-en
 manjaro-hello
 manjaro-hotfixes
@@ -73,12 +75,13 @@ manjaro-pulse
 manjaro-settings-manager-notifier
 >extra mesa-demos
 >basic midori
+>extra mint-themes
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
 >extra mugshot
 >multilib lib32-mesa-demos
->extra nemo-bulk-rename
+# >extra nemo-bulk-rename
 >extra nemo-fileroller
 >extra nemo-preview
 >extra nemo-python
@@ -96,6 +99,7 @@ openssh
 >extra openvpn
 >extra p7zip
 pamac
+papirus-maia-icon-theme
 >extra parcellite
 patch
 >extra patchutils
@@ -147,9 +151,9 @@ xorg-xinit
 >extra xplayer
 >extra xreader
 >extra xviewer-plugins
->extra yaourt
 xdg-user-dirs
 xorg-server
 xorg-xhost
 xorg-xkill
+>extra yay
 zensu

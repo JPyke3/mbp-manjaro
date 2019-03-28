@@ -12,9 +12,11 @@ lightdm-slick-greeter
 lightdm-settings
 grub-theme-manjaro
 mate-wallpapers
-manjaro-wallpapers-17.0
+manjaro-wallpapers-18.0
+wallpapers-2018
 mate-icon-theme
 papirus-maia-icon-theme
+matcha-gtk-theme
 xcursor-breeze
 mate
 marco
@@ -36,6 +38,7 @@ mozo
 gnome-disk-utility
 gnome-keyring
 manjaro-mate-settings
+manjaro-application-utility
 mc # Midnight Commander
 pacui
 mhwd-tui
@@ -125,7 +128,7 @@ caja-open-terminal
 >extra brasero
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
->extra timeshift 								#backup utility
+timeshift 								#backup utility
 >extra kernel-alive 							#after a kernel update this maintain usable the modules
 # >extra flashplugin
 >extra libdvdcss

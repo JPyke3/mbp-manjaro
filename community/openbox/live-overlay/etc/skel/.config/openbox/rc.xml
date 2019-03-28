@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
-    <strength>10</strength>
+    <strength>50</strength>
     <screen_edge_strength>20</screen_edge_strength>
   </resistance>
   <focus>
@@ -462,7 +462,7 @@
     </keybind>
     <keybind key="W-m">
       <action name="Execute">
-        <command>audacious</command>
+        <command>deadbeef</command>
       </action>
     </keybind>
     <keybind key="W-v">
@@ -482,7 +482,7 @@
     </keybind>
     <keybind key="C-space">
       <action name="Execute">
-        <command>rofr.sh -r</command>
+        <command>synapse</command>
       </action>
     </keybind>
     <keybind key="C-A-l">

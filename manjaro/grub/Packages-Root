@@ -1,0 +1,22 @@
+amd-ucode
+intel-ucode
+bash
+coreutils
+efibootmgr
+filesystem
+gcc-libs
+glibc
+grub-quiet
+KERNEL
+lsb-release
+>manjaro manjaro-release
+systemd-sysvcompat
+nbd
+nfs-utils
+util-linux
+gnupg
+curl
+ca-certificates-utils
+mkinitcpio-nfs-utils
+memtest86+
+licenses

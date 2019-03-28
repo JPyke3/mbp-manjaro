@@ -11,6 +11,7 @@ bison
 >extra dconf-editor
 deepin-calendar
 >extra deepin-calculator
+deepin-editor
 deepin-file-manager
 deepin-gtk-theme
 >extra deepin-draw
@@ -22,9 +23,12 @@ deepin-gtk-theme
 >extra deepin-screenshot
 >extra deepin-system-monitor
 deepin-terminal
+deepin-turbo
+>extra deepin-voice-recorder
 >extra deluge
 dmidecode
 >extra downgrade
+>extra etcher
 >extra evince
 >extra evolution
 fakeroot
@@ -35,7 +39,6 @@ flex
 >extra gcc
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
-gedit
 >extra gimp
 >extra git
 >extra gparted
@@ -54,7 +57,6 @@ gvfs-smb
 hexchat
 htop
 inxi
->extra isousb
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 >multilib lib32-flex
@@ -68,6 +70,7 @@ make
 manjaro-alsa
 manjaro-browser-settings
 manjaro-deepin-settings
+manjaro-application-utility
 >extra manjaro-documentation-en
 manjaro-hello
 manjaro-hotfixes
@@ -106,6 +109,7 @@ screenfetch
 >extra sushi
 syslog-ng
 terminus-font
+>extra timeshift
 >extra ttf-bitstream-vera
 >extra ttf-dejavu
 >extra ttf-droid
@@ -126,8 +130,8 @@ xorg-twm
 xorg-xinit
 >extra xsane
 >extra xsane-gimp
->extra yaourt
 xdg-user-dirs
 xorg-xhost
 xorg-server
+>extra yay
 zensu

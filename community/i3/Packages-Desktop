@@ -11,6 +11,7 @@ avahi
 binutils
 bison
 >extra blueman
+>extra bluez-utils
 bmenu
 >extra cantarell-fonts
 clipit
@@ -19,6 +20,7 @@ dfc
 dmidecode
 >extra downgrade
 epdfview
+>extra etcher
 fakeroot
 >extra ffmpeg
 >extra ffmpegthumbnailer
@@ -53,7 +55,6 @@ gvfs-smb
 >extra hexchat
 htop
 inxi
->extra isousb
 json-c
 kvantum-manjaro
 >multilib lib32-flex
@@ -69,13 +70,16 @@ m4
 maia-console
 make
 >multilib manjaro-alsa
+>extra manjaro-application-utility
 manjaro-browser-settings
 >extra manjaro-hello
 manjaro-hotfixes
 manjaro-i3-settings
 >extra manjaro-printer
+manjaro-ranger-settings
 >extra manjaro-settings-manager-notifier
 markdown_previewer
+>extra matcha-gtk-theme
 mesa-demos
 mlocate
 mobile-broadband-provider-info
@@ -158,6 +162,6 @@ xorg-xinit
 xorg-xkill
 xorg-xprop
 xterm
->extra yaourt
 xdg-user-dirs
 xorg-server
+>extra yay

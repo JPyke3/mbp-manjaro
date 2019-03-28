@@ -83,6 +83,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 
 ## Package management
 pamac
+flatpak
 
 ## Java
 >extra jdk8-openjdk
@@ -98,6 +99,7 @@ pamac
 >extra gtk3-print-backends
 >extra hplip
 >extra splix
+>extra system-config-printer
 
 ## Optional dependencies for hplip
 >extra pyqt5-common # For hplip
@@ -181,13 +183,16 @@ pavucontrol
 
 ## Themes
 >extra manjaro-wallpapers-18.0
+>extra wallpapers-2018
 gnome-icon-theme
 gnome-themes-standard
+grub-theme-manjaro
+matcha-gtk-theme
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 
 ## Applications
->extra catfish
+catfish
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
@@ -205,6 +210,7 @@ inxi
 >extra libreoffice-still
 ms-office-online
 manjaro-hello
+manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic midori
@@ -245,11 +251,17 @@ xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
-xdg-user-dirs
-xorg-server
-numlockx
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
 mesa-demos
 >multilib lib32-mesa-demos
+numlockx
+xdg-user-dirs
+xorg-server
 xorg-twm
 xorg-xinit
 xorg-xkill
@@ -260,4 +272,5 @@ xdg-utils
 xdg-su
 
 ## Misc
+gtkhash-thunar
 manjaro-hotfixes

@@ -51,7 +51,6 @@ man-pages
 memtest86+
 mhwd
 mhwd-db
-mhwd-i2c-syna3602
 mkinitcpio-openswap
 nano
 ntfs-3g
@@ -79,6 +78,7 @@ lvm2
 mdadm
 nfs-utils
 rsync
+systemd-fsck-silent
 systemd-sysvcompat
 tlp
 wpa_supplicant

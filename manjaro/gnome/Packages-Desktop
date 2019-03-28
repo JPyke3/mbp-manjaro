@@ -13,6 +13,7 @@ manjaro-gdm-check #this check if nvidia closed drivers are installed and disable
 manjaro-gdm-theme #branding theme for GDM: 18.0 
 gedit 
 gtksourceview-pkgbuild #highlight for PKGBUILD
+manjaro-gnome-vanilla
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
@@ -47,6 +48,7 @@ papirus-maia-icon-theme
 >extra gnome-weather
 >extra gnome-maps
 >extra gnome-todo
+gtkhash-nautilus
 >extra seahorse
 file-roller
 gparted
@@ -71,15 +73,17 @@ mhwd-tui
 ########
 manjaro-alsa
 manjaro-artwork
-manjaro-wallpapers-18.0
+>extra wallpapers-2018
+>extra manjaro-wallpapers-18.0
 illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
-manjaro-gnome-assets-dev
-grub-theme-manjaro-dev #grub theme for installed S.O.
+manjaro-gnome-assets
+grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
+manjaro-application-utility
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
@@ -98,6 +102,7 @@ nss-mdns
 numlockx
 openresolv
 pamac
+flatpak
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -114,6 +119,7 @@ terminus-font
 totem
 tracker
 tracker-miners
+>extra noto-fonts-compat
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -121,8 +127,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
-# arc-maia-icon-theme
-# firefox-arc-maia-settings #disable theming since upstream no adjust the theme
 vino
 xdg-su
 xdg-user-dirs
@@ -149,22 +153,19 @@ ms-office-online
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->extra libreoffice-fresh
+>extra libreoffice-still
 >extra evolution
 >extra lollypop
 >extra empathy
 >extra telepathy-accounts-signon
 >extra uget
 >extra transmission-gtk
-#>extra brasero
 >extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
-#>extra flashplugin
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
->extra blueman
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra kernel-alive
@@ -187,4 +188,3 @@ ms-office-online
 #>extra subversion
 #>extra yaourt
 manjaro-aur-support #introduce for testing in community
-

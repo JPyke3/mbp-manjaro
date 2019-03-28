@@ -91,10 +91,18 @@ terminus-font
 >extra steam-manjaro
 
 ## Package management
+appimagelauncher
+#packagekit-qt5
+#discover
+flatpak
+#fwupd 
 octopi
-octopi-notifier-frameworks
 octopi-cachecleaner
 octopi-repoeditor
+octopi-notifier-frameworks
+#pamac
+#pamac-tray-appindicator
+#manjaro-application-utility
 
 ## Printing
 >extra cups
@@ -112,6 +120,10 @@ octopi-repoeditor
 >extra python-pip
 >extra python-pyqt5
 >extra python-reportlab
+
+## Optional dependencies for print-manager
+>extra system-config-printer  # auto-detect the printer driver
+>extra python-pysmbc          # SMB browser support
 
 ## Display manager
 sddm
@@ -144,18 +156,22 @@ systemsettings
 user-manager
 
 ## Themes QT/GTK/SDDM
-breeze
-breeze-gtk
+#breeze
+#breeze-gtk
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
->extra oxygen
->extra oxygen-icons
+#>extra oxygen
+#>extra oxygen-icons
 plasma5-themes-breath  # Default
 sddm-breath-theme  # Default
+grub-theme-manjaro
+illyria-wallpaper
+>extra wallpapers-2018
+>extra manjaro-wallpapers-18.0
 
 ## Better systray/notifications support
->extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
+#>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 
 ## KDE Applications
 ark
@@ -171,6 +187,7 @@ kfind
 kdeconnect
 okular
 >extra >x86_64 kget
+>extra >x86_64 libktorrent
 >extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
@@ -230,13 +247,8 @@ sshfs  # remote filesystem browser
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
-## Optional dependencies for print-manager
->extra system-config-printer  # auto-detect the printer driver
->extra python-pysmbc          # SMB browser support
-
 ## Applications
-appimagelauncher
->extra cantata
+#>extra cantata
 dmidecode # for inxi -m output
 htop
 imagewriter
@@ -245,25 +257,27 @@ inxi
 >extra firefox
 >basic falkon
 ms-office-online
->extra libreoffice-fresh
+#>extra libreoffice-fresh
+>extra calligra
 manjaro-hello
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
->extra qbittorrent
+#>extra qbittorrent
 screenfetch
 systemd-kcm
 >extra thunderbird
-vlc
+#vlc
+vlc-nightly
 yakuake
 
 ## Optional dependencis for cantata
->extra mpd       # playback
->extra perl-uri  # dynamic playlist
+#>extra mpd       # playback
+#>extra perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
->extra jre8-openjdk
->extra jdk8-openjdk
+#>extra jre8-openjdk
+#>extra jdk8-openjdk
 
 ## Documentation
 manjaro-documentation-en
@@ -282,12 +296,20 @@ xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+numlockx
 xdg-user-dirs
 xorg-server
 xorg-twm
 xorg-xinit
-mesa-demos
->multilib lib32-mesa-demos
+xorg-xkill
 
 ## Desktop Utils
 perl-file-mimeinfo
@@ -298,6 +320,6 @@ xdg-su
 manjaro-hotfixes
 
 ## Flatpak support
->extra flatpak
->extra xdg-desktop-portal
->extra xdg-desktop-portal-kde
+#>extra flatpak
+#>extra xdg-desktop-portal
+#>extra xdg-desktop-portal-kde
