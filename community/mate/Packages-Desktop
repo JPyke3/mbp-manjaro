@@ -22,7 +22,6 @@ mate
 marco
 brisk-menu
 mate-notification-theme-slate
-mate-menu
 mate-control-center
 mate-calc
 mate-desktop
@@ -42,6 +41,7 @@ manjaro-application-utility
 mc # Midnight Commander
 pacui
 mhwd-tui
+xterm
 gparted
 grilo-plugins
 gst-libav
@@ -121,7 +121,7 @@ caja-open-terminal
 >extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
->extra vlc-nightly
+>extra vlc
 >extra empathy
 >extra uget
 >extra transmission-gtk
@@ -129,8 +129,7 @@ caja-open-terminal
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 timeshift 								#backup utility
->extra kernel-alive 							#after a kernel update this maintain usable the modules
-# >extra flashplugin
+>extra kernel-alive 					#after a kernel update this maintain usable the modules
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
@@ -138,7 +137,6 @@ timeshift 								#backup utility
 >extra vala-panel-appmenu-mate
 >extra mate-applet-dock
 >extra mate-applets
->extra mate-menu
 >extra plank
 >extra ffmpegthumbnailer
 #>extra autoconf
