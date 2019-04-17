@@ -1,4 +1,3 @@
-#-------------------------------------------------
 ##### OPENBOX MINIMAL/EXTRA PROFILE
 
 #---------=> media player
@@ -97,11 +96,14 @@
 #---------=> basic utilities
 >extra galculator
 
+#---------=> package manager
+pamac-gtk
+
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
 #---------=> package manager
-pamac
+pamac-cli
 pacui
 
 #---------=> office
@@ -274,7 +276,6 @@ freetype2
 
 #---------=> system
 accountsservice
-gamin
 gksu-polkit
 gnome-keyring
 gtk3-classic
