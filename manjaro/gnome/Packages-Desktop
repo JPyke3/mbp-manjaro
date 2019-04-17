@@ -48,6 +48,7 @@ papirus-maia-icon-theme
 >extra gnome-weather
 >extra gnome-maps
 >extra gnome-todo
+gtkhash-nautilus
 >extra seahorse
 file-roller
 gparted
@@ -118,6 +119,7 @@ terminus-font
 totem
 tracker
 tracker-miners
+>extra noto-fonts-compat
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -158,7 +160,6 @@ ms-office-online
 >extra telepathy-accounts-signon
 >extra uget
 >extra transmission-gtk
-#>extra brasero
 >extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
