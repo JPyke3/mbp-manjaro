@@ -99,7 +99,7 @@ flatpak
 #octopi-cachecleaner
 #octopi-repoeditor
 #octopi-notifier-frameworks
-pamac
+pamac-gtk
 pamac-tray-appindicator
 
 ## Printing

@@ -94,12 +94,12 @@ terminus-font
 #packagekit-qt5
 #discover
 flatpak
-#fwupd 
+#fwupd
 #octopi
 #octopi-cachecleaner
 #octopi-repoeditor
 #octopi-notifier-frameworks
-pamac
+pamac-gtk
 pamac-tray-appindicator
 
 ## Printing
@@ -256,7 +256,7 @@ inxi
 #>extra krita
 >extra firefox
 >basic falkon
-ms-office-online
+#ms-office-online
 >extra libreoffice-fresh
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier

@@ -97,7 +97,7 @@ openresolv
 openssh
 >extra openvpn
 >extra p7zip
-pamac
+pamac-gtk
 papirus-maia-icon-theme
 >extra parcellite
 patch
@@ -151,7 +151,6 @@ xorg-xinit
 >extra xplayer
 >extra xreader
 >extra xviewer-plugins
->extra yaourt
 xdg-user-dirs
 xorg-server
 xorg-xhost

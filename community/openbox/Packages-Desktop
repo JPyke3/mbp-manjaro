@@ -282,7 +282,6 @@ manjaro-hotfixes
 polkit
 polkit-gnome
 python2-xdg
-qt5-styleplugins
 qt5ct
 xdg-user-dirs
 xdg-user-dirs-gtk
