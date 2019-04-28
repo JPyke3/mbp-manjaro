@@ -148,7 +148,6 @@ xf86-input-mouse
 xf86-input-void
 xorg-twm
 xorg-xinit
->extra xplayer
 >extra xreader
 >extra xviewer-plugins
 xdg-user-dirs

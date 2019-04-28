@@ -104,7 +104,6 @@ sterminal
 sxhkd
 terminus-font
 testdisk
-thermald
 tree
 udevil
 xcape
@@ -125,4 +124,3 @@ xorg-xsetroot
 zensu
 zsh-completions
 highlight
-
