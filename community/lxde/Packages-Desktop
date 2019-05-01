@@ -64,7 +64,6 @@ pkg-config
 git
 patchutils
 subversion
-yaourt
 
 ## Display manager
 lightdm
@@ -89,7 +88,7 @@ pcmanfm
 xfce4-power-manager
 light-locker
 cantarell-fonts
-pamac
+pamac-gtk
 obconf
 blueman
 ffmpegthumbnailer  # tumbler - for video thumbnails
@@ -108,12 +107,14 @@ manjaro-lxde-xfce4-notifyd
 manjaro-lxde-xfce4-volumed-pulse
 poppler-data   #CKJ support for pdf
 qt5ct
-qt5-styleplugins
+
 
 # theming
 gnome-icon-theme
 gnome-themes-standard
+manjaro-zsh-config
 ttf-dejavu
+
 
 ## Basic Applications
 manjaro-hello

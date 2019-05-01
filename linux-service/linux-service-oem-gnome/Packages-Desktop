@@ -29,7 +29,7 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
-gnome-shell-extension-manjaro-update
+#gnome-shell-extension-manjaro-update
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
