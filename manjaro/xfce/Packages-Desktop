@@ -67,8 +67,8 @@ pkg-config
 
 ## Fonts
 cantarell-fonts
-# noto-fonts             # default font
-# noto-fonts-cjk         # big package, ~76 mb compressed
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 # >extra noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace

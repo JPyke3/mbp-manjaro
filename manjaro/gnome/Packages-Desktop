@@ -119,6 +119,8 @@ totem
 tracker
 tracker-miners
 >extra noto-fonts-compat
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
