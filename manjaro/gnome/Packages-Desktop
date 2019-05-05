@@ -29,7 +29,6 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
-gnome-shell-extension-manjaro-update
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
@@ -127,6 +126,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
+haveged
 vino
 xdg-su
 xdg-user-dirs
