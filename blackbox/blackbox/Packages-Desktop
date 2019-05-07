@@ -144,7 +144,8 @@ mc
 ranger
 
 #---------=> GUI file manager
-thunar-gtk3
+#thunar-gtk3
+pcmanfm-gtk3
 
 #---------=> disk utilities
 clonezilla
@@ -164,6 +165,7 @@ jp2a
 mesa-demos
 neofetch
 ps_mem
+speedcrunch
 tlp-rdw
 tlpui
 tree
