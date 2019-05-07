@@ -29,7 +29,6 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
-gnome-shell-extension-manjaro-update
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
@@ -120,6 +119,8 @@ totem
 tracker
 tracker-miners
 >extra noto-fonts-compat
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -127,6 +128,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
+haveged
 vino
 xdg-su
 xdg-user-dirs

@@ -76,7 +76,7 @@ pkg-config
 ## Fonts
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
-# noto-fonts-cjk         # big package, ~76 mb compressed
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
 terminus-font
 >extra ttf-bitstream-vera
@@ -96,12 +96,11 @@ appimagelauncher
 #discover
 flatpak
 #fwupd 
-octopi
-octopi-cachecleaner
-octopi-repoeditor
-octopi-notifier-frameworks
-#pamac
-#pamac-tray-appindicator
+#octopi
+#octopi-cachecleaner
+#octopi-repoeditor
+#octopi-notifier-frameworks
+pamac-qt
 #manjaro-application-utility
 
 ## Printing
@@ -267,8 +266,8 @@ powertop
 screenfetch
 systemd-kcm
 >extra thunderbird
-#vlc
-vlc-nightly
+vlc
+#vlc-nightly
 yakuake
 
 ## Optional dependencis for cantata
