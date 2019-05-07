@@ -1,7 +1,0 @@
-[Desktop Entry]
-Exec=kdeconnect-indicator
-Name=kdeconnect-indicator
-Type=Application
-Icon=kdeconnect-indicator
-Version=1.0
-X-LXQt-Need-Tray=true
