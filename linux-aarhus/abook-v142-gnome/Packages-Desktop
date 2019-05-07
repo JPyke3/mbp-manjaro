@@ -1,0 +1,159 @@
+adwaita-icon-theme
+alsa-firmware
+alsa-utils
+avahi
+baobab
+calamares-oem-modules
+calamares-oem-bldbk-settings
+dconf-editor
+dmidecode
+evince
+>extra bijiben
+>extra empathy
+>extra evolution
+>extra ffmpegthumbnailer
+>extra gnome-calendar
+>extra gnome-characters
+>extra gnome-clocks
+>extra gnome-contacts
+>extra gnome-getting-started-docs
+>extra gnome-maps
+>extra gnome-online-accounts
+>extra gnome-shell-extension-gsconnect
+>extra gnome-todo
+>extra gnome-weather
+>extra gtk3-print-backends
+>extra jre8-openjdk
+>extra jre8-openjdk-headless
+>extra kernel-alive
+>extra libdvdcss
+>extra libreoffice-fresh
+>extra lollypop
+>extra lrzip
+>extra manjaro-documentation-en
+>extra manjaro-printer
+>extra manjaro-wallpapers-18.0
+>extra p7zip
+>extra seahorse
+>extra simple-scan
+>extra steam-manjaro
+>extra telepathy-accounts-signon
+>extra timeshift
+>extra transmission-gtk
+>extra uget
+>extra unace
+>extra unrar
+>extra wallpapers-2018
+file-roller
+flatpak
+fprintd #need for finger id reader
+gdm
+gedit 
+gnome-backgrounds
+gnome-calculator
+gnome-control-center
+gnome-desktop
+gnome-disk-utility
+gnome-font-viewer
+gnome-keyring
+gnome-screensaver #if use lightdm we need a screensaver 
+gnome-screenshot
+gnome-session
+gnome-settings-daemon
+gnome-shell
+gnome-shell-extension-manjaro-update
+gnome-shell-extensions
+gnome-system-log
+gnome-system-monitor
+gnome-terminal
+gnome-themes-standard
+gnome-tweak-tool
+gnome-user-docs
+gnome-user-share
+gnome-wallpapers
+gparted
+grilo-plugins
+grub-theme-manjaro #grub theme for installed S.O.
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gthumb
+gtksourceview-pkgbuild #highlight for PKGBUILD
+gufw
+gvfs
+gvfs-afc
+gvfs-google
+gvfs-mtp
+gvfs-smb
+illyria-wallpaper
+imagewriter
+inxi
+KERNEL-rtl8723bu
+lightdm
+lightdm-slick-greeter
+manjaro-alsa
+manjaro-application-utility
+manjaro-artwork
+manjaro-browser-settings
+manjaro-gnome-assets
+manjaro-gnome-vanilla
+manjaro-hello
+manjaro-hotfixes
+manjaro-pulse
+manjaro-settings-manager-notifier
+mc
+mesa-demos
+mhwd-tui
+mousetweaks
+mutter
+nautilus
+nautilus-admin
+nautilus-empty-file
+netctl
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns
+ntp
+numlockx
+openresolv
+openssh
+opera
+pamac
+papirus-maia-icon-theme
+polkit-gnome
+powertop
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+snapd
+sushi
+terminus-font
+totem
+tracker
+tracker-miners
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-liberation
+vino
+xdg-su
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xorg-server
+xorg-twm
+xorg-xinit
+yelp
+
