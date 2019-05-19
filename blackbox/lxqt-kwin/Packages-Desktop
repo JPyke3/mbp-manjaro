@@ -1,0 +1,495 @@
+##### EDITION BASE PACKAGES
+
+#---------=> audio
+manjaro-alsa
+manjaro-pulse
+pavucontrol-qt
+pulseaudio-equalizer
+pulseaudio-equalizer-ladspa
+pulseaudio-bluetooth
+pulseaudio-jack
+pulseaudio-lirc
+pulseaudio-ctl
+pulseaudio-zeroconf 
+libcanberra
+libcanberra-pulse
+libcanberra-gstreamer 
+lib32-libcanberra
+lib32-libcanberra-pulse
+ 
+#-------->>gstreamer plugins
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+
+#---------->>hardware video acceleration
+gstreamer-vaapi
+libvdpau-va-gl
+
+#---------=> network
+avahi
+bluez
+bluez-tools
+bluez-utils
+bluez-plugins
+bluez-cups
+bluez-firmware
+bluez-hid2hci
+python-bluepy
+python-pybluez
+blueman
+pptpclient
+openvpn
+wpa_supplicant
+cmst
+connman
+sshfs
+strongswan 
+openconnect
+openresolv
+openssh
+openssl
+dnsmasq
+netctl
+arp-scan
+bind-tools
+traceroute
+whois
+net-tools
+ethtool
+apache
+mobile-broadband-provider-info
+nss-mdns
+usb_modeswitch
+rp-pppoe
+ntp
+vpnc
+openldap
+wireless_tools
+
+#---------=> file management
+ark
+p7zip
+unarchiver
+unrar
+unzip
+android-tools
+android-udev
+busybox
+gvfs-mtp
+mtpfs
+udiskie
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-nfs
+gvfs-smb
+
+#---------=> fonts
+freetype2
+noto-fonts               # default font
+terminus-font
+>extra noto-fonts-emoji
+ttf-indic-otf
+ttf-liberation
+ttf-opensans
+
+#---------=> system
+# improve responsiveness 
+systemd-swap
+#zramswap
+preload
+irqbalance
+kernel-alive
+accountsservice
+perl-file-mimeinfo
+gamin
+polkit-kde-agent
+polkit
+python2-xdg
+xdg-su
+xdg-user-dirs
+xdg-utils
+gtk3-classic
+
+#---------=> utilities
+libdvdcss
+hidapi
+dmidecode
+htop
+inxi
+numlockx
+powertop
+neofetch
+xwallpaper
+xsettingsd
+xbindkeys
+xcape
+xxkb
+xautolock
+ffmpegthumbnailer
+appimagelauncher
+libappimage
+dialog
+clonezilla
+testdisk
+hddtemp
+jp2a
+mesa-demos
+lib32-mesa-demos
+tree
+wmctrl
+xcb-util-cursor
+xdotool
+zenity
+macchanger
+mtools
+libldm 
+libstroke
+bolt
+fprint
+speech-dispatcher 
+partitionmanager
+fancontrol-gui
+imagewriter
+#livewallpaper
+xscreensaver
+open-fuse-iso
+v4l-utils
+gufw
+tlpui
+kwalletmanager
+systemdgenie
+ksystemlog
+easystroke
+flameshot
+variety
+filelight
+modem-manager-gui
+android-file-transfer
+qgit
+gwget
+qopenvpn
+#---------=> settings manager
+manjaro-settings-manager
+manjaro-settings-manager-knotifier
+manjaro-browser-settings
+manjaro-zsh-config
+manjaro-hotfixes
+manjaro-xdg-menu 
+manjaro-base-skel
+manjaro-application-utility
+manjaro-documentation-en
+manjaro-hello
+manjaro-settings-samba
+manjaro-printer 
+steam-manjaro
+skanlite
+
+#---------=> display manager and theme
+sddm
+#---------=> kwin window manager
+kwin
+#--------------->>>kwin sddm setting
+plasma-workspace
+sddm-kcm
+#---------=> lxqt core
+lxqt-about
+lxqt-admin
+lxqt-config
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-openssh-askpass
+lxqt-panel
+lxqt-policykit
+lxqt-powermanagement
+lxqt-qtplugin
+lxqt-runner
+lxqt-session
+lxqt-sudo
+lxqt-themes
+libstatgrab
+libsysstat
+pcmanfm-qt
+lximage-qt
+qterminal
+#screengrab
+ 
+## Better systray/notifications support
+#>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
+
+#---------=> edition theming and settings
+grub-theme-manjaro
+wallpapers-2018
+breeze-gtk
+gtk-theme-breath
+plasma5-themes-breath
+hicolor-icon-theme
+papirus-maia-icon-theme
+breath-icon-theme 
+breath-dark-icon-theme
+kvantum-manjaro
+qt5ct
+qt5-styleplugins
+qt5-virtualkeyboard
+qqc2-desktop-style
+arc-gtk-theme 
+gtk-engine-murrine
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xf86-input-wacom
+xf86-input-synaptics
+#---------=> xorg
+xorg-fonts-75dpi
+xorg-fonts-100dpi
+xorg-fonts-type1
+xorg-server
+xorg-server-devel
+xorg-server-common
+xorg-server-xephyr
+xorg-xbacklight
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xorg-xhost
+xorg-xsetroot
+xorg-xwininfo
+xorg-xdpyinfo
+xorg-xrefresh
+#---------extra xorg
+#xorg-iceauth
+#xorg-server-xdmx 
+#xorg-server-xephyr
+#xorg-server-xnest
+#xorg-server-xvfb 
+#xorg-server-xwayland
+#xorg-sessreg 
+#xorg-smproxy 
+#xorg-x11perf 
+#xorg-xcmsdb
+#xorg-xcursorgen
+#xorg-xdriinfo
+#xorg-xev
+#xorg-xgamma
+#xorg-xhost 
+#xorg-xinput
+#xorg-xkbevd
+#xorg-xkbutils
+#xorg-xlsatoms
+#xorg-xlsclients
+#xorg-xpr
+#xorg-xvinfo
+#xorg-xwd
+#xorg-xwininfo 
+#xorg-xwud
+#xorg-twm
+
+#---------=> Misc
+
+#---------=> applications
+>basic falkon
+>basic qmmp
+>basic mpv
+>basic trojita
+>basic speedcrunch
+>basic kolourpaint
+notepadqq
+pamac-qt
+pamac-tray-appindicator
+qpdfview
+poppler-data
+qbittorrent
+qvkbd  
+kmouth
+redshift
+flashplugin
+timeshift
+uget
+#copyq
+ksysguard
+kamoso
+kdeconnect
+simplescreenrecorder
+lib32-simplescreenrecorder
+keepassxc
+krdc
+krfb
+freerdp
+kdiff3
+krename
+grsync
+putty
+filezilla
+konversation
+#qownnotes
+#fingerprint-gui
+extra-cmake-modules
+#-----------=>smplayer opt deps
+>extra cantata
+>extra mpd
+>extra perl-uri
+>extra smplayer
+>extra smplayer-themes
+>extra smplayer-skins
+>extra smtube
+>extra youtube-dl
+>extra mplayer
+
+#---------->>extra
+>extra telegram-desktop
+libmythes
+libreoffice-fresh
+jre-openjdk
+jdk-openjdk
+gcc-multilib
+>extra thunderbird
+>extra kcalc
+>extra firefox
+>extra firefox-extension-https-everywhere
+>extra firefox-decentraleyes
+>extra firefox-extension-privacybadger
+>extra firefox-ublock-origin
+>extra firefox-dark-reader
+>extra kphotoalbum
+>extra goldendict
+>extra skrooge
+>extra kwave
+>extra krita
+>extra krita-plugin-gmic 
+>extra shotcut
+>extra inkscape
+>extra pulseeffects
+>extra fontforge
+>extra transmageddon
+>extra soundkonverter
+>extra pdfsam
+>extra kid3-qt
+>extra soundkonverter
+>extra pdf2img-c
+>extra converseen
+>extra k3b
+>extra lmms
+>extra blender
+>extra glfw-x11
+>extra mixxx
+>extra kodi
+>extra kodi-platform
+>extra kodi-addons
+>extra kodi-dev
+>extra kodi-eventclients
+>extra mediaelch
+## Optional dependencies for k3b
+>extra cdparanoia    # for cd ripping support
+>extra cdrdao        # for disk-at-once (DAO) mode support
+>extra dvd+rw-tools  # for dvd burning support
+>extra emovix        # for bootable multimedia cd/dvd support
+>extra transcode     # for advanced mpeg conversion support
+>extra vcdimager     # for vcd burning support
+>extra cdrtools      # for creation of DVD ISO images
+
+#---------->>virtualization
+>extra virt-manager 
+>extra ebtables 
+>extra bridge-utils 
+>extra gnu-netcat 
+>extra qemu
+>extra radvd 
+>extra ceph
+>extra ovmf
+#----------->package management
+>extra discover
+>extra flatpak 
+>extra xdg-desktop-portal-kde
+>extra fwupd
+#------->>aur support
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra gcc-libs-multilib
+>extra gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra pkg-config
+>extra lib32-flex
+# Extra packages for AUR support
+>extra git
+>extra patchutils
+>extra subversion
+>extra yay
+
+#--------------->>extra network security
+#vulscan
+#john
+#aircrack-ng
+
+
+#----------------extra wine-gaming stuff
+#>extra lib32-gst-plugins-base
+#>extra lib32-gst-plugins-good
+#>extra lib32-alsa-oss
+#>extra lib32-fluidsynth
+#>extra lib32-gtk3
+#>extra lib32-gamemode
+#>extra lib32-ocl-icd
+#>extra lib32-vulkan-validation-layers
+#>extra lib32-libxslt
+#>extra lib32-vkd3d
+#>extra ocl-icd 
+#>extra glfw-x11
+#>extra vkd3d
+#>extra qt5-gamepad
+#>extra linuxconsole
+#>extra wine-staging
+#>extra wine-mono
+#>extra wine_gecko
+#>extra winetricks
+#>extra playonlinux
+#>extra lutris 
+#>extra steam-native
+#>extra dosbox
+#>extra vulkan-devel
+#>extra dolphin-emu
+#>extra gens-gs
+#>extra higan
+#>extra mame
+#>extra qmc2
+#>extra desmume
+#>extra stella
+#>extra zsnes
+#>extra yabause-qt
+#>extra mgba-qt
+#>extra vbam-wx
+#>extra scummvm
+#>extra scummvm-tools
+#>extra pcsx2
+#>extra ppsspp-qt
+#>extra libretro
+
+#--------->>Games
+#>extra minetest-server
+#>extra minetest
+#>extra aisleriot
+#>extra knights
+#>extra gnuchess 
+#>extra kmahjongg
+#>extra supertuxkart
+#>extra supertux
+#>extra xonotic
+#>extra megaglest
+#>extra teeworlds
+#>extra pingus
