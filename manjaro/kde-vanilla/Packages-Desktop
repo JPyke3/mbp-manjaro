@@ -86,6 +86,9 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
+## Games
+#>extra steam-manjaro
+
 ## Package management
 #appimagelauncher
 #packagekit-qt5
@@ -250,8 +253,8 @@ htop
 #imagewriter
 inxi
 #>extra krita
-#>extra firefox
-falkon
+>extra firefox
+>basic falkon
 #ms-office-online
 #>extra libreoffice-fresh
 >extra calligra
@@ -280,7 +283,7 @@ yakuake
 
 ## Settings packages
 #>extra manjaro-kde-settings
-#manjaro-kde-minimal-settings
+#>basic manjaro-kde-minimal-settings
 #manjaro-browser-settings
 
 ## Xorg Input Drivers
