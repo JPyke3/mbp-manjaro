@@ -153,6 +153,7 @@ user-manager-git
 ## Themes QT/GTK/SDDM
 breeze-git
 breeze-gtk-git
+breeze-icons-git
 gnome-icon-theme
 gnome-themes-standard
 #gtk-theme-breath
@@ -279,7 +280,7 @@ yakuake
 
 ## Settings packages
 #>extra manjaro-kde-settings
-#>basic manjaro-kde-minimal-settings
+#manjaro-kde-minimal-settings
 #manjaro-browser-settings
 
 ## Xorg Input Drivers
