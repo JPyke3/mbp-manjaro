@@ -75,7 +75,6 @@ manjaro-pulse
 manjaro-settings-manager-notifier
 >extra mesa-demos
 >basic midori
->extra mint-themes
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
@@ -132,7 +131,6 @@ ttf-bitstream-vera
 >extra ttf-indic-otf
 >extra ttf-liberation
 >extra udiskie
->extra vertex-maia-themes
 vi
 >extra vlc
 >extra xcursor-chameleon-pearl-deepin
