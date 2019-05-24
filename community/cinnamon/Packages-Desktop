@@ -53,7 +53,6 @@ icon-naming-utils
 inxi
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
-kvantum-manjaro
 >multilib lib32-flex
 libtool
 >extra libdvdcss
@@ -115,7 +114,6 @@ pulseaudio-zeroconf
 >extra pygtk # needed for deluge
 python2-ptyprocess
 python-ptyprocess
-qt5ct
 qt5-styleplugins
 screenfetch
 >extra subversion
