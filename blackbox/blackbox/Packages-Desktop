@@ -36,36 +36,17 @@
 
 #---------=> office
 ## metapackage manjaro-printer
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gutenprint
->extra hplip
->extra python-gobject
->extra python-pyqt5
->extra splix
->extra system-config-printer
-
-#---------=> build support
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra flex
->extra gc
->extra gcc
->extra git
->extra guile
->extra libatomic_ops
->extra libmpc
->extra m4
->extra make
->extra package-query
->extra patch
->extra pkg-config
->extra yajl
+#>extra cups
+#>extra cups-pdf
+#>extra cups-pk-helper
+#>extra ghostscript
+#>extra gsfonts
+#>extra gutenprint
+#>extra hplip
+#>extra python-gobject
+#>extra python-pyqt5
+#>extra splix
+#>extra system-config-printer
 
 #---------=> file utilities
 >extra catfish
@@ -75,9 +56,9 @@
 >extra poppler-data
 >extra poppler-glib
 >extra p7zip
->extra thunar-archive-plugin-gtk3
+>extra thunar-archive-plugin
 >extra thunar-media-tags-plugin
->extra thunar-volman-gtk3
+>extra thunar-volman
 >extra tumbler
 >extra unace
 >extra unarchiver
@@ -95,12 +76,32 @@
 
 #---------=> basic utilities
 >extra galculator
+>extra speedcrunch
 
 #---------=> package manager
-pamac-gtk
+>extra pamac-gtk
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
+
+#---------=> build support
+autoconf
+automake
+binutils
+bison
+flex
+gc
+gcc
+git
+guile
+libatomic_ops
+libmpc
+m4
+make
+package-query
+patch
+pkg-config
+yajl
 
 #---------=> package manager
 pamac-cli
@@ -144,8 +145,7 @@ mc
 ranger
 
 #---------=> GUI file manager
-#thunar-gtk3
-pcmanfm-gtk3
+thunar
 
 #---------=> disk utilities
 clonezilla
@@ -165,7 +165,6 @@ jp2a
 mesa-demos
 neofetch
 ps_mem
-speedcrunch
 tlp-rdw
 tlpui
 tree
@@ -186,11 +185,11 @@ lightdm-settings
 lightdm-slick-greeter
 
 #---------=> settings manager
-lxappearance-gtk3
-#lxappearance-obconf-gtk3
+lxappearance
+lxappearance-obconf
 manjaro-settings-manager
-xfce4-settings-gtk3
-#xfce4-power-manager-gtk3
+xfce4-settings
+xfce4-power-manager
 
 #---------=> desktop settings and config
 manjaro-openbox-config
@@ -200,12 +199,8 @@ manjaro-openbox-desktop-settings
 manjaro-grub-theme-glassfield
 manjaro-openbox-scripts
 manjaro-openbox-maia
-manjaro-openbox-wallpapers
 manjaro-slick-greeter-theme-glassfield
 manjaro-wallpapers-18.0
-manjaro-wallpapers-by-lunix-cool-logo
-manjaro-wallpapers-by-lunix-manjaro
-manjaro-wallpapers-by-lunix-openbox
 manjaro-zsh-config
 matcha-gtk-theme
 papirus-maia-icon-theme
@@ -233,7 +228,7 @@ arandr
 compton
 conky
 dunst
-exo-gtk3
+exo
 fakeroot
 i3lock
 imagemagick
@@ -257,7 +252,6 @@ synapse
 termite
 termite-terminfo
 tint2
-wireless_tools
 wmctrl
 xcape
 xcb-util-cursor

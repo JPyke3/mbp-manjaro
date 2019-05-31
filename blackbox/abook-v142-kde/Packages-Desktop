@@ -141,7 +141,7 @@ illyria-wallpaper
 >extra manjaro-wallpapers-18.0
 
 ## Better systray/notifications support
->extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
+#>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 
 ## KDE Applications
 ark
