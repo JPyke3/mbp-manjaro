@@ -91,7 +91,7 @@ terminus-font
 
 ## Package management
 appimagelauncher
-#packagekit-qt5
+packagekit-qt5
 discover-git
 flatpak
 #fwupd 

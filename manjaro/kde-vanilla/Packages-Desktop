@@ -86,18 +86,17 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
+## Games
+#>extra steam-manjaro
+
 ## Package management
 #appimagelauncher
-#packagekit-qt5
+packagekit-qt5
 discover-git
-#flatpak
-#fwupd 
-octopi
-octopi-cachecleaner
-octopi-repoeditor
-#octopi-notifier-frameworks
-pamac-qt
-#manjaro-application-utility
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-kde
+fwupd
 
 ## Printing
 #>extra cups
@@ -153,6 +152,7 @@ user-manager-git
 ## Themes QT/GTK/SDDM
 breeze-git
 breeze-gtk-git
+breeze-icons-git
 gnome-icon-theme
 gnome-themes-standard
 #gtk-theme-breath
@@ -249,8 +249,8 @@ htop
 #imagewriter
 inxi
 #>extra krita
-#>extra firefox
-falkon
+>extra firefox
+>basic falkon
 #ms-office-online
 #>extra libreoffice-fresh
 >extra calligra
@@ -313,8 +313,3 @@ xdg-su
 
 ## Misc
 manjaro-hotfixes
-
-## Flatpak support
-#>extra flatpak
-#>extra xdg-desktop-portal
-#>extra xdg-desktop-portal-kde

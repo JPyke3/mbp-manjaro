@@ -53,7 +53,6 @@ icon-naming-utils
 inxi
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
-kvantum-manjaro
 >multilib lib32-flex
 libtool
 >extra libdvdcss
@@ -75,7 +74,6 @@ manjaro-pulse
 manjaro-settings-manager-notifier
 >extra mesa-demos
 >basic midori
->extra mint-themes
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
@@ -116,7 +114,6 @@ pulseaudio-zeroconf
 >extra pygtk # needed for deluge
 python2-ptyprocess
 python-ptyprocess
-qt5ct
 qt5-styleplugins
 screenfetch
 >extra subversion
@@ -132,7 +129,6 @@ ttf-bitstream-vera
 >extra ttf-indic-otf
 >extra ttf-liberation
 >extra udiskie
->extra vertex-maia-themes
 vi
 >extra vlc
 >extra xcursor-chameleon-pearl-deepin
