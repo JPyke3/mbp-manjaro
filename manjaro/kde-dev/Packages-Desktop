@@ -147,6 +147,7 @@ milou-git
 plasma-desktop-git
 plasma-nm-git
 plasma-pa-git
+plasma-wayland-session-git
 plasma-workspace-git
 >extra plasma-workspace-wallpapers-git
 powerdevil-git
