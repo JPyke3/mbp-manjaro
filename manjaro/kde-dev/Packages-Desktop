@@ -96,8 +96,8 @@ discover-git
 flatpak
 #fwupd 
 octopi
-octopi-cachecleaner
-octopi-repoeditor
+#octopi-cachecleaner
+#octopi-repoeditor
 #octopi-notifier-frameworks
 pamac-qt
 #manjaro-application-utility
