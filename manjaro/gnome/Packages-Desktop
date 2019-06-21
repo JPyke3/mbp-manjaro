@@ -100,6 +100,7 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
+snapd
 pamac
 flatpak
 polkit-gnome
@@ -128,7 +129,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
-haveged
 vino
 xdg-su
 xdg-user-dirs
