@@ -6,8 +6,11 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nss-mdns # NSS support for mDNS (optdepend for avahi)
+mobile-broadband-provider-info
 modemmanager
 openresolv
+openssh
+samba
 usb_modeswitch
 
 ## Libraries for Sound/Audio/Video
@@ -21,7 +24,7 @@ gst-plugins-good
 gst-plugins-ugly
 libdvdcss
 manjaro-pulse
->extra pulseaudio-bluetooth
+pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 
@@ -40,11 +43,26 @@ udisks2
 ## AUR Support/Development
 # Missing base-devel packages
 >extra base-devel
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+libtool
+m4
+make
+patch
+pkg-config
 # Extra packages for AUR support
 >extra git
 >extra yay
 
 ## Fonts
+cantarell-fonts
+noto-fonts               # default font
+# >extra noto-fonts-emoji
 
 ## Games
 
@@ -56,8 +74,18 @@ appimagelauncher
 
 ## Printing
 >extra manjaro-printer
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra hplip
+>extra splix
+>extra system-config-printer
 
 ## Optional dependencies for hplip
+>extra pyqt5-common # For hplip
+>extra python-pyqt5  # For hplip gui
 
 ## Display manager
 lightdm
@@ -68,22 +96,27 @@ accountsservice  # Enhanced user accounts handling
 gtk3-classic
 
 ## XFCE Group
+exo-gtk3
+garcon-gtk3
 thunar-gtk3
 thunar-volman-gtk3
 tumbler
 xfce4-power-manager-gtk3
 xfce4-settings-gtk3
 lxterminal
+xfconf-gtk3
 
 ## XFCE Extras
->extra blueman
+blueman
 ffmpegthumbnailer  # tumbler - for video thumbnails
+freetype2          # tumbler - for font thumbnails
 gksu-polkit
 gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
 light-locker
 network-manager-applet
+poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin-gtk3
 >extra thunar-shares-plugin-gtk3
 file-roller
@@ -92,15 +125,18 @@ pavucontrol
 
 ## Themes
 >extra manjaro-wallpapers-18.0
+gnome-icon-theme
 grub-theme-manjaro
 kvantum-manjaro
 
 ## Applications
 catfish
-galculator
+dmidecode # optional dependency inxi
 firefox
+# >extra flashplugin
+galculator
 >extra gimp
->extra gufw
+gufw
 >extra mpv     # instead of audacious
 htop
 zathura-pdf-poppler
@@ -108,7 +144,7 @@ zathura-djvu
 inxi
 >extra libreoffice-fresh
 manjaro-settings-manager
->extra manjaro-settings-manager-notifier
+manjaro-settings-manager-notifier
 mousepad
 >extra thunderbird
 ristretto          # instead of viewnior
