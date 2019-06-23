@@ -1,21 +1,16 @@
-###################################
 ## Network
-###################################
 avahi
-network-manager-applet
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
-nss-mdns
+nss-mdns # NSS support for mDNS (optdepend for avahi)
 modemmanager
-usb_modeswitch
 openresolv
+usb_modeswitch
 
-###################################
 ## Libraries for Sound/Audio/Video
-###################################
 alsa-firmware
 alsa-utils
 ffmpeg
@@ -26,12 +21,11 @@ gst-plugins-good
 gst-plugins-ugly
 libdvdcss
 manjaro-pulse
+>extra pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 
-###################################
 ## Connect Packages
-###################################
 android-udev
 gvfs
 gvfs-afc
@@ -43,108 +37,126 @@ mtpfs
 udiskie
 udisks2
 
-###################################
-## Xorg
-###################################
+## AUR Support/Development
+# Missing base-devel packages
+>extra base-devel
+# Extra packages for AUR support
+>extra git
+>extra yay
+
+## Fonts
+
+## Games
+
+## Package management
+pamac
+appimagelauncher
+
+## Java
+
+## Printing
+>extra manjaro-printer
+
+## Optional dependencies for hplip
+
+## Display manager
+lightdm
+lightdm-slick-greeter
+accountsservice  # Enhanced user accounts handling
+
+## GTK3
+gtk3-classic
+
+## XFCE Group
+thunar-gtk3
+thunar-volman-gtk3
+tumbler
+xfce4-power-manager-gtk3
+xfce4-settings-gtk3
+lxterminal
+
+## XFCE Extras
+>extra blueman
+ffmpegthumbnailer  # tumbler - for video thumbnails
+gksu-polkit
+gnome-keyring      # fix wlan segfault
+libgsf             # tumbler - for ODF thumbnails
+libopenraw         # tumbler - for RAW thumbnails
+light-locker
+network-manager-applet
+thunar-archive-plugin-gtk3
+>extra thunar-shares-plugin-gtk3
+file-roller
+i3-scrot           # instead of xfce4-screenshooter?
+pavucontrol
+
+## Themes
+>extra manjaro-wallpapers-18.0
+grub-theme-manjaro
+kvantum-manjaro
+
+## Applications
+catfish
+galculator
+firefox
+>extra gimp
+>extra gufw
+>extra mpv     # instead of audacious
+htop
+zathura-pdf-poppler
+zathura-djvu
+inxi
+>extra libreoffice-fresh
+manjaro-settings-manager
+>extra manjaro-settings-manager-notifier
+mousepad
+>extra thunderbird
+ristretto          # instead of viewnior
+
+# Optional dependencies engrampa
+p7zip  # 7Z and ARJ archive support
+unace  # ACE archive support
+unrar  # RAR archive support
+
+## Documentation
+
+## Settings packages
+manjaro-browser-settings
+>extra manjaro-settings-samba
+manjaro-awesome-settings-18.0
+
+## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
+
+## Xorg Server and Graphics
+xdg-user-dirs
 xorg-server
 xorg-xinit
 xorg-xprop
 
-###################################
-## Misc
-###################################
->basic ufw
-gtk3-classic
-lightdm
-lightdm-slick-greeter
-libappindicator-gtk3
-accountsservice  # Enhanced user accounts
-python-dbus
-gnome-keyring
-grub-theme-manjaro
-light-locker
-mate-polkit
-gksu-polkit
+## Desktop Utils
 perl-file-mimeinfo
-pavucontrol
+xdg-utils
+xdg-su
+
+## Misc
+>basic ufw
+libappindicator-gtk3
+python-dbus
+mate-polkit
 pa-applet
 rofi
 xcape
-xdg-su
-xdg-user-dirs
-xdg-utils
-xfce4-settings-gtk3
-xfce4-power-manager-gtk3
 manjaro-zsh-config
-manjaro-browser-settings
 manjaro-hotfixes
-manjaro-settings-manager
-manjaro-awesome-settings-18.0
 qt5ct
-kvantum-manjaro
-
-###################################
-## Apps and Optional dependencies
-###################################
-appimagelauncher
 downgrade
-inxi
-i3-scrot
-htop
-lxterminal
-firefox
-galculator
-mousepad
-pamac
-ristretto
-thunar-gtk3
-thunar-volman-gtk3
-thunar-archive-plugin-gtk3
-catfish
-file-roller
-p7zip
-unrar
-unace
-tumbler
-ffmpegthumbnailer
-libgsf
-libopenraw
-zathura-pdf-poppler
-zathura-djvu
-
-###################################
-############## EXTRA ##############
-
-###################################
-## AUR Support
-## Missing base-devel packages
-###################################
->extra base-devel
->extra git
->extra yay
-
-###################################
-## Extra Misc and Apps
-###################################
 >extra bmenu
 >extra compton
 >extra compton-conf
->extra gimp
->extra gufw
->extra libreoffice-fresh
->extra mpv
->extra thunderbird
 >extra transmission-gtk
->extra manjaro-settings-samba
->extra thunar-shares-plugin-gtk3
->extra blueman
->extra pulseaudio-bluetooth
->extra manjaro-printer
->extra manjaro-settings-manager-notifier
->extra manjaro-wallpapers-18.0
