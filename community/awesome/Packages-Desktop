@@ -6,6 +6,7 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nss-mdns # NSS support for mDNS (optdepend for avahi)
+ntp
 mobile-broadband-provider-info
 modemmanager
 openresolv
@@ -23,12 +24,14 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 libdvdcss
+>multilib manjaro-alsa
 manjaro-pulse
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 
 ## Connect Packages
+android-tools
 android-udev
 gvfs
 gvfs-afc
@@ -50,27 +53,46 @@ bison
 fakeroot
 flex
 gcc
+>multilib gcc-libs-multilib
+>multilib gcc-multilib
 libtool
 m4
 make
 patch
 pkg-config
+>multilib lib32-flex
 # Extra packages for AUR support
 >extra git
+>extra patchutils
+>extra subversion
 >extra yay
 
 ## Fonts
 cantarell-fonts
 noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 # >extra noto-fonts-emoji
+terminus-font
+ttf-bitstream-vera       # xfce4-terminal default Monospace
+# ttf-dejavu             # Installed as gnome-themes-standard dependency
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
 
 ## Games
+>extra steam-manjaro
 
 ## Package management
 pamac
+flatpak
+snapd
 appimagelauncher
 
 ## Java
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
 
 ## Printing
 >extra manjaro-printer
@@ -79,13 +101,17 @@ appimagelauncher
 >extra cups-pk-helper
 >extra ghostscript
 >extra gsfonts
+>extra gtk3-print-backends
 >extra hplip
 >extra splix
 >extra system-config-printer
 
 ## Optional dependencies for hplip
 >extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
 >extra python-pyqt5  # For hplip gui
+>extra python-reportlab # For hplip
 
 ## Display manager
 lightdm
@@ -94,6 +120,7 @@ accountsservice  # Enhanced user accounts handling
 
 ## GTK3
 gtk3-classic
+>multilib lib32-gtk3-classic
 
 ## XFCE Group
 exo-gtk3
@@ -116,38 +143,67 @@ libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
 light-locker
 network-manager-applet
+menulibre
+orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin-gtk3
 >extra thunar-shares-plugin-gtk3
 file-roller
+thunar-media-tags-plugin
 i3-scrot           # instead of xfce4-screenshooter?
+xfce4-taskmanager
 pavucontrol
 
 ## Themes
 >extra manjaro-wallpapers-18.0
+>extra wallpapers-2018
 gnome-icon-theme
+gnome-themes-standard
 grub-theme-manjaro
+matcha-gtk-theme
+xcursor-simpleandsoft
+xcursor-vanilla-dmz-aa
 kvantum-manjaro
 
 ## Applications
 catfish
 dmidecode # optional dependency inxi
+engrampa
 firefox
 # >extra flashplugin
 galculator
+gcolor2
 >extra gimp
+gparted
 gufw
->extra mpv     # instead of audacious
+>extra audacious
+>extra mpv
+>extra hexchat
 htop
 zathura-pdf-poppler
 zathura-djvu
 inxi
 >extra libreoffice-fresh
+ms-office-online
+manjaro-hello
+manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
+>basic midori
+>extra mlocate
 mousepad
+mugshot
+>basic parole # media player
+>extra pidgin
+powertop
+screenfetch
+>extra poppler-data  # CKJ support for pdf
+>basic sylpheed # mail client
 >extra thunderbird
-ristretto          # instead of viewnior
+>extra vlc
+ristretto
+>extra xfburn
+>extra yelp
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -155,11 +211,12 @@ unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
+manjaro-documentation-en
 
 ## Settings packages
+manjaro-awesome-settings-18.0
 manjaro-browser-settings
 >extra manjaro-settings-samba
-manjaro-awesome-settings-18.0
 
 ## Xorg Input Drivers
 xf86-input-elographics
@@ -170,10 +227,21 @@ xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+numlockx
 xdg-user-dirs
 xorg-server
+xorg-twm
 xorg-xinit
 xorg-xprop
+xorg-xkill
 
 ## Desktop Utils
 perl-file-mimeinfo
@@ -181,6 +249,8 @@ xdg-utils
 xdg-su
 
 ## Misc
+gtkhash-thunar
+manjaro-hotfixes
 >basic ufw
 libappindicator-gtk3
 python-dbus
@@ -189,7 +259,6 @@ pa-applet
 rofi
 xcape
 manjaro-zsh-config
-manjaro-hotfixes
 qt5ct
 downgrade
 >extra bmenu
