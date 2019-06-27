@@ -96,8 +96,8 @@ discover-git
 flatpak
 #fwupd 
 octopi
-octopi-cachecleaner
-octopi-repoeditor
+#octopi-cachecleaner
+#octopi-repoeditor
 #octopi-notifier-frameworks
 pamac-qt
 #manjaro-application-utility
@@ -147,6 +147,7 @@ milou-git
 plasma-desktop-git
 plasma-nm-git
 plasma-pa-git
+plasma-wayland-session-git
 plasma-workspace-git
 >extra plasma-workspace-wallpapers-git
 powerdevil-git
@@ -198,7 +199,7 @@ konversation
 ksystemlog
 kwalletmanager
 gwenview
-partitionmanager
+partitionmanager3
 >extra print-manager
 >extra skanlite
 spectacle

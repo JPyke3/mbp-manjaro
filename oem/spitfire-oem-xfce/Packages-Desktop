@@ -28,6 +28,7 @@ libdvdcss
 manjaro-pulse
 pulseaudio-bluetooth
 pulseaudio-ctl
+pulseaudio-equalizer-ladspa
 pulseaudio-zeroconf
 
 ## Connect Packages
@@ -64,11 +65,13 @@ pkg-config
 >extra git
 >extra patchutils
 >extra subversion
+>extra yay
+>extra manjaro-aur-support
 
 ## Fonts
 cantarell-fonts
-noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+noto-fonts             # default font
+# noto-fonts-cjk         # big package, ~76 mb compressed
 # >extra noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace
@@ -83,8 +86,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 
 ## Package management
 pamac
-flatpak
-snapd
+#flatpak
 
 ## Java
 >extra jdk8-openjdk
@@ -97,7 +99,7 @@ snapd
 >extra cups-pk-helper
 >extra ghostscript
 >extra gsfonts
->extra gtk3-print-backends
+#>extra gtk3-print-backends
 >extra hplip
 >extra splix
 >extra system-config-printer
@@ -111,8 +113,8 @@ snapd
 
 ## Display manager
 lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+lightdm-slick-greeter
+lightdm-settings
 accountsservice  # Enhanced user accounts handling
 
 ## GTK3
@@ -137,9 +139,10 @@ xfwm4-gtk3
 
 ## XFCE Extras
 blueman
+bluez-utils
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
-gksu
+gksu-polkit
 gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
@@ -187,18 +190,21 @@ pavucontrol
 >extra wallpapers-2018
 gnome-icon-theme
 gnome-themes-standard
+kvantum-manjaro
 grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
+>extra vibrancy-icons-teal
+>extra xfce-theme-greybird
 
 ## Applications
-catfish
+>extra catfish
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
 # >extra flashplugin
->extra galculator-gtk2
+>extra galculator
 gcolor2
 >extra gimp
 gparted
@@ -228,6 +234,7 @@ screenfetch
 >extra vlc
 >extra viewnior
 >extra xfburn
+xreader
 >extra yelp
 
 # Optional dependencies engrampa
@@ -239,8 +246,7 @@ unrar  # RAR archive support
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-xfce-gtk3-settings
->basic manjaro-xfce-gtk3-minimal-settings
+xfce-sx-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -273,5 +279,19 @@ xdg-utils
 xdg-su
 
 ## Misc
-gtkhash-thunar
 manjaro-hotfixes
+lm_sensors
+#thermald
+powertop
+tlpui
+#x86_energy_perf_policy
+ethtool
+smartmontools
+stationx-driver
+indicator-sensors
+hdparm
+sx-sf-hdparm-sdb-idle
+
+## OEM
+calamares-oem-modules
+calamares-oem-sx-settings
