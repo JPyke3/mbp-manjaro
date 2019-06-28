@@ -92,15 +92,17 @@ terminus-font
 
 ## Package management
 appimagelauncher
-#packagekit-qt5
+packagekit-qt5
+snapd
+discover-snap
 #discover
-flatpak
-#fwupd 
+#flatpak
+fwupd 
 #octopi
 #octopi-cachecleaner
 #octopi-repoeditor
 #octopi-notifier-frameworks
-pamac-qt
+#pamac-qt
 #manjaro-application-utility
 
 ## Printing
@@ -319,6 +321,6 @@ xdg-su
 manjaro-hotfixes
 
 ## Flatpak support
-#>extra flatpak
-#>extra xdg-desktop-portal
-#>extra xdg-desktop-portal-kde
+>extra flatpak
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-kde
