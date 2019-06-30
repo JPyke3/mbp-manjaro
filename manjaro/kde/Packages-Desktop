@@ -92,13 +92,15 @@ terminus-font
 
 ## Package management
 appimagelauncher
+pamac-cli
 packagekit-qt5
+apparmor
 snapd
 discover-snap
 #discover
 #flatpak
 fwupd 
-#octopi
+octopi
 #octopi-cachecleaner
 #octopi-repoeditor
 #octopi-notifier-frameworks

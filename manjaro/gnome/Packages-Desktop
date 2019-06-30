@@ -101,7 +101,7 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-snapd
+gnome-software-snap
 pamac
 flatpak
 polkit-gnome
