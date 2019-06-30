@@ -85,7 +85,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 pamac
 flatpak
 snapd
-apparmor-profiles
+apparmor
 
 ## Java
 >extra jdk8-openjdk
