@@ -84,9 +84,10 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra steam-manjaro
 
 ## Package management
+gnome-software-snap
 pamac
 flatpak
-snapd
+apparmor
 appimagelauncher
 
 ## Java
