@@ -65,7 +65,6 @@ pkg-config
 >extra git
 >extra patchutils
 >extra subversion
->extra yay
 
 ## Fonts
 cantarell-fonts
@@ -179,7 +178,6 @@ gcolor2
 gparted
 gufw
 >extra audacious
->extra mpv
 >extra hexchat
 htop
 zathura-pdf-poppler
@@ -202,7 +200,7 @@ screenfetch
 >extra poppler-data  # CKJ support for pdf
 >basic sylpheed # mail client
 >extra thunderbird
->extra vlc
+>extra mpv
 ristretto
 >extra xfburn
 >extra yelp
@@ -213,7 +211,7 @@ unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-manjaro-documentation-en
+# manjaro-documentation-en  # no use for Awesome edition
 
 ## Settings packages
 manjaro-awesome-settings-18.0
