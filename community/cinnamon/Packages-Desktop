@@ -14,7 +14,6 @@ cinnamon-translations
 >extra dconf-editor
 >extra deluge
 dmidecode
->extra etcher
 fakeroot
 >extra ffmpegthumbnailer
 >extra firefox
