@@ -1,21 +1,20 @@
-###################################
 ## Network
-###################################
 avahi
-network-manager-applet
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
-nss-mdns
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+ntp
+mobile-broadband-provider-info
 modemmanager
-usb_modeswitch
 openresolv
+openssh
+samba
+usb_modeswitch
 
-###################################
 ## Libraries for Sound/Audio/Video
-###################################
 alsa-firmware
 alsa-utils
 ffmpeg
@@ -25,13 +24,14 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 libdvdcss
+>multilib manjaro-alsa
 manjaro-pulse
+pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 
-###################################
 ## Connect Packages
-###################################
+android-tools
 android-udev
 gvfs
 gvfs-afc
@@ -43,108 +43,224 @@ mtpfs
 udiskie
 udisks2
 
-###################################
-## Xorg
-###################################
+## AUR Support/Development
+# Missing base-devel packages
+>extra base-devel
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+>multilib gcc-libs-multilib
+>multilib gcc-multilib
+libtool
+m4
+make
+patch
+pkg-config
+>multilib lib32-flex
+# Extra packages for AUR support
+>extra git
+>extra patchutils
+>extra subversion
+
+## Fonts
+cantarell-fonts
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+# >extra noto-fonts-emoji
+terminus-font
+ttf-bitstream-vera       # xfce4-terminal default Monospace
+# ttf-dejavu             # Installed as gnome-themes-standard dependency
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Games
+>extra steam-manjaro
+
+## Package management
+gnome-software-snap
+pamac
+flatpak
+apparmor
+appimagelauncher
+
+## Java
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
+
+## Printing
+>extra manjaro-printer
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra splix
+>extra system-config-printer
+
+## Optional dependencies for hplip
+>extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
+>extra python-pyqt5  # For hplip gui
+>extra python-reportlab # For hplip
+
+## Display manager
+lightdm
+lightdm-slick-greeter
+accountsservice  # Enhanced user accounts handling
+
+## GTK3
+gtk3-classic
+>multilib lib32-gtk3-classic
+
+## XFCE Group
+exo-gtk3
+garcon-gtk3
+thunar-gtk3
+thunar-volman
+tumbler
+xfce4-power-manager-gtk3
+xfce4-settings-gtk3
+lxterminal
+xfconf-gtk3
+
+## XFCE Extras
+blueman
+ffmpegthumbnailer  # tumbler - for video thumbnails
+freetype2          # tumbler - for font thumbnails
+gksu
+gnome-keyring      # fix wlan segfault
+libgsf             # tumbler - for ODF thumbnails
+libopenraw         # tumbler - for RAW thumbnails
+light-locker
+network-manager-applet
+menulibre
+orage
+poppler-glib       # tumbler - for PDF thumbnails
+thunar-archive-plugin
+>extra thunar-shares-plugin
+file-roller
+thunar-media-tags-plugin
+i3-scrot
+xfce4-screenshooter
+xfce4-taskmanager
+pavucontrol
+
+## Themes
+>extra manjaro-wallpapers-18.0
+>extra wallpapers-2018
+gnome-icon-theme
+gnome-themes-standard
+grub-theme-manjaro
+matcha-gtk-theme
+xcursor-simpleandsoft
+xcursor-vanilla-dmz-aa
+kvantum-manjaro
+
+## Applications
+catfish
+dmidecode # optional dependency inxi
+engrampa
+>extra firefox
+# >extra flashplugin
+>extra galculator-gtk2
+gcolor2
+>extra gimp
+gparted
+gufw
+>extra audacious
+>extra hexchat
+htop
+zathura-pdf-poppler
+zathura-djvu
+inxi
+>extra libreoffice-still
+ms-office-online
+manjaro-hello
+manjaro-application-utility
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+>basic midori
+>extra mlocate
+mousepad
+mugshot
+>basic parole # media player
+>extra pidgin
+powertop
+screenfetch
+>extra poppler-data  # CKJ support for pdf
+>basic sylpheed # mail client
+>extra thunderbird
+>extra mpv
+ristretto
+>extra xfburn
+>extra yelp
+
+# Optional dependencies engrampa
+p7zip  # 7Z and ARJ archive support
+unace  # ACE archive support
+unrar  # RAR archive support
+
+## Documentation
+# manjaro-documentation-en  # no use for Awesome edition
+
+## Settings packages
+manjaro-awesome-settings-18.0
+manjaro-browser-settings
+>extra manjaro-settings-samba
+manjaro-zsh-config
+
+## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
+
+## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+numlockx
+xdg-user-dirs
 xorg-server
+xorg-twm
 xorg-xinit
 xorg-xprop
+xorg-xkill
 
-###################################
-## Misc
-###################################
->basic ufw
-gtk3-classic
-lightdm
-lightdm-slick-greeter
-libappindicator-gtk3
-accountsservice  # Enhanced user accounts
-python-dbus
-gnome-keyring
-grub-theme-manjaro
-light-locker
-mate-polkit
-gksu-polkit
+## Desktop Utils
 perl-file-mimeinfo
-pavucontrol
+xdg-utils
+xdg-su
+
+## Misc
+gtkhash-thunar
+manjaro-hotfixes
+>basic ufw
+libappindicator-gtk3
+mate-polkit
 pa-applet
 rofi
 xcape
-xdg-su
-xdg-user-dirs
-xdg-utils
-xfce4-settings-gtk3
-xfce4-power-manager-gtk3
-manjaro-zsh-config
-manjaro-browser-settings
-manjaro-hotfixes
-manjaro-settings-manager
-manjaro-awesome-settings-18.0
 qt5ct
-kvantum-manjaro
-
-###################################
-## Apps and Optional dependencies
-###################################
-appimagelauncher
 downgrade
-inxi
-i3-scrot
-htop
-lxterminal
-firefox
-galculator
-mousepad
-pamac
-ristretto
-thunar-gtk3
-thunar-volman-gtk3
-thunar-archive-plugin-gtk3
-catfish
-file-roller
-p7zip
-unrar
-unace
-tumbler
-ffmpegthumbnailer
-libgsf
-libopenraw
-zathura-pdf-poppler
-zathura-djvu
-
-###################################
-############## EXTRA ##############
-
-###################################
-## AUR Support
-## Missing base-devel packages
-###################################
->extra base-devel
->extra git
->extra yay
-
-###################################
-## Extra Misc and Apps
-###################################
 >extra bmenu
 >extra compton
 >extra compton-conf
->extra gimp
->extra gufw
->extra libreoffice-fresh
->extra mpv
->extra thunderbird
 >extra transmission-gtk
->extra manjaro-settings-samba
->extra thunar-shares-plugin-gtk3
->extra blueman
->extra pulseaudio-bluetooth
->extra manjaro-printer
->extra manjaro-settings-manager-notifier
->extra manjaro-wallpapers-18.0
