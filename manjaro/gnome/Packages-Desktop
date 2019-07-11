@@ -10,7 +10,7 @@ evince
 >basic epiphany
 >extra firefox
 gdm
-manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
+manjaro-gdm-tweak
 manjaro-gdm-theme #branding theme for GDM: 18.0 
 gedit 
 gtksourceview-pkgbuild #highlight for PKGBUILD
