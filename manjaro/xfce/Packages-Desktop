@@ -209,8 +209,9 @@ gufw
 htop
 qpdfview
 inxi
->extra libreoffice-still
-ms-office-online
+#>extra libreoffice-still
+#ms-office-online
+freeoffice
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
@@ -276,3 +277,6 @@ xdg-su
 ## Misc
 gtkhash-thunar
 manjaro-hotfixes
+
+## Workarounds
+boost-libs # needed to fix systemd-journal on live-boot
