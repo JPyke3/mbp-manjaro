@@ -16,8 +16,7 @@
 #---------=> graphic applications
 >extra gcolor2
 >extra gimp
->extra gpicview
->extra viewnior
+>extra xviewer
 
 #---------=> connect packages
 >extra blueman
@@ -36,17 +35,36 @@
 
 #---------=> office
 ## metapackage manjaro-printer
-#>extra cups
-#>extra cups-pdf
-#>extra cups-pk-helper
-#>extra ghostscript
-#>extra gsfonts
-#>extra gutenprint
-#>extra hplip
-#>extra python-gobject
-#>extra python-pyqt5
-#>extra splix
-#>extra system-config-printer
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gutenprint
+>extra hplip
+>extra python-gobject
+>extra python-pyqt5
+>extra splix
+>extra system-config-printer
+
+#---------=> build support
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra flex
+>extra gc
+>extra gcc
+>extra git
+>extra guile
+>extra libatomic_ops
+>extra libmpc
+>extra m4
+>extra make
+>extra package-query
+>extra patch
+>extra pkg-config
+>extra yajl
 
 #---------=> file utilities
 >extra catfish
@@ -56,9 +74,9 @@
 >extra poppler-data
 >extra poppler-glib
 >extra p7zip
->extra thunar-archive-plugin
+>extra thunar-archive-plugin-gtk3
 >extra thunar-media-tags-plugin
->extra thunar-volman
+>extra thunar-volman-gtk3
 >extra tumbler
 >extra unace
 >extra unarchiver
@@ -75,40 +93,19 @@
 >extra thunderbird
 
 #---------=> basic utilities
->extra galculator
 >extra speedcrunch
 
 #---------=> package manager
->extra pamac-gtk
+pamac-gtk
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
-#---------=> build support
-autoconf
-automake
-binutils
-bison
-flex
-gc
-gcc
-git
-guile
-libatomic_ops
-libmpc
-m4
-make
-package-query
-patch
-pkg-config
-yajl
-
 #---------=> package manager
 pamac-cli
-pacui
 
 #---------=> office
-qpdfview
+xreader
 
 #---------=> manjaro user infomartion
 manjaro-application-utility
@@ -145,7 +142,7 @@ mc
 ranger
 
 #---------=> GUI file manager
-thunar
+thunar-gtk3
 
 #---------=> disk utilities
 clonezilla
@@ -185,11 +182,11 @@ lightdm-settings
 lightdm-slick-greeter
 
 #---------=> settings manager
-lxappearance
-lxappearance-obconf
+lxappearance-gtk3
+#lxappearance-obconf-gtk3
 manjaro-settings-manager
-xfce4-settings
-xfce4-power-manager
+xfce4-settings-gtk3
+xfce4-power-manager-gtk3
 
 #---------=> desktop settings and config
 manjaro-openbox-config
@@ -199,8 +196,12 @@ manjaro-openbox-desktop-settings
 manjaro-grub-theme-glassfield
 manjaro-openbox-scripts
 manjaro-openbox-maia
+manjaro-openbox-wallpapers
 manjaro-slick-greeter-theme-glassfield
 manjaro-wallpapers-18.0
+#manjaro-wallpapers-by-lunix-cool-logo
+#manjaro-wallpapers-by-lunix-manjaro
+#manjaro-wallpapers-by-lunix-openbox
 manjaro-zsh-config
 matcha-gtk-theme
 papirus-maia-icon-theme
@@ -228,7 +229,7 @@ arandr
 compton
 conky
 dunst
-exo
+exo-gtk3
 fakeroot
 i3lock
 imagemagick
@@ -252,6 +253,7 @@ synapse
 termite
 termite-terminfo
 tint2
+wireless_tools
 wmctrl
 xcape
 xcb-util-cursor

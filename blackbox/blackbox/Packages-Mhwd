@@ -1,0 +1,31 @@
+KERNEL-zfs
+zfs-utils
+KERNEL-virtualbox-guest-modules
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+libxaw
+libxpm
+libxvmc
+mesa-vdpau
+>nonfree_default KERNEL-nvidia
+>nonfree_default KERNEL-nvidia-340xx
+>nonfree_default KERNEL-nvidia-390xx
+>nonfree_default nvidia-340xx-utils
+>nonfree_default nvidia-390xx-utils
+>nonfree_default nvidia-utils
+opencl-mesa
+open-vm-tools
+pangox-compat
+primus
+bumblebee
+virtualbox-guest-utils
+vulkan-radeon
+vulkan-intel
+xf86-input-vmmouse
+xf86-video-dummy
+xf86-video-fbdev
+xf86-video-intel
+xf86-video-nouveau
+xf86-video-vesa
+xf86-video-vmware

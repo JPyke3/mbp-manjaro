@@ -1,0 +1,23 @@
+---
+componentName:  manjaro
+
+strings:
+    productName:         Blackbox Linux
+    shortProductName:    Blackbox
+    version:             19.07.23
+    shortVersion:        19.07.23
+    versionedName:       Blackbox Linux 19.07.23
+    shortVersionedName:  Blackbox 19.07.23
+    bootloaderEntryName: Manjaro
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      "languages.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#454948"
+   sidebarText:          "#efefef"
+   sidebarTextSelect:    "#9E4F5D"

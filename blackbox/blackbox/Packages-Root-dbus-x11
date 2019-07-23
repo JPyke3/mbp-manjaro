@@ -1,19 +1,14 @@
-manjaro-release
 acpi
-acpid
 amd-ucode
+>i686 archlinux32-keyring
 b43-fwcutter
-bash-completion
+bash
 btrfs-progs
 bzip2
 coreutils
-cpupower
 crda
-cronie
-cryptsetup
-device-mapper
+dbus-x11
 dhclient
-dhcpcd
 diffutils
 dmraid
 dnsmasq
@@ -28,12 +23,13 @@ filesystem
 findutils
 gawk
 gcc-libs
+>multilib gcc-libs-multilib
 gettext
 glibc
 grep
 grub
+#grub-quiet # seems we are not ready yet
 gzip
-haveged
 inetutils
 intel-ucode
 iproute2
@@ -48,18 +44,16 @@ licenses
 linux-firmware
 logrotate
 lsb-release
-lvm2
 man-db
-man-pages
 manjaro-firmware
+>manjaro manjaro-release
 manjaro-system
-mdadm
+man-pages
 memtest86+
 mhwd
 mhwd-db
 mkinitcpio-openswap
 nano
-nfs-utils
 ntfs-3g
 os-prober
 pacman
@@ -68,23 +62,33 @@ perl
 procps-ng
 psmisc
 reiserfsprogs
-rsync
-s-nail
 sed
 shadow
 spectre-meltdown-checker
+s-nail
 sudo
 sysfsutils
-systemd-fsck-silent
+acpid
+cpupower
+cronie
+cryptsetup
+device-mapper
+dhcpcd
+haveged
+lvm2
+mdadm
+nfs-utils
+rsync
+#systemd-fsck-silent # only needed with grub-quiet
 systemd-sysvcompat
+tlp
+wpa_supplicant
 tar
 texinfo
-tlp
 usbutils
 util-linux
 vi
 wget
 which
-wpa_supplicant
 xfsprogs
 zsh
