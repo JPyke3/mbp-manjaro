@@ -86,22 +86,18 @@
 
 #---------=> disk utilities
 >extra gnome-disk-utility
->extra mintstick
 >extra xfburn
 
 #---------=> GUI internet apps
 >extra thunderbird
 
-#---------=> basic utilities
->extra speedcrunch
-
-#---------=> package manager
-pamac-gtk
-
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
-#---------=> package manager
+#---------=> GUI package manager
+pamac-gtk
+
+#---------=> CLI package manager
 pamac-cli
 
 #---------=> office
@@ -113,7 +109,7 @@ manjaro-documentation-en
 manjaro-hello
 
 #---------=> GUI internet apps
-chromium
+palemoon-bin
 
 #---------=> CLI text editor
 dash
@@ -142,12 +138,16 @@ mc
 ranger
 
 #---------=> GUI file manager
+pcmanfm-gtk3
 thunar-gtk3
 
 #---------=> disk utilities
-clonezilla
 gparted
+mintstick
 testdisk
+
+#---------=> backup
+clonezilla
 timeshift
 
 #---------=> basic utilities
@@ -159,9 +159,9 @@ hddtemp
 htop
 inxi
 jp2a
-mesa-demos
 neofetch
 ps_mem
+speedcrunch
 tlp-rdw
 tlpui
 tree
@@ -183,7 +183,6 @@ lightdm-slick-greeter
 
 #---------=> settings manager
 lxappearance-gtk3
-#lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
 xfce4-power-manager-gtk3
@@ -249,7 +248,7 @@ polybar
 rofi
 scrot
 skippy-xd
-synapse
+#synapse
 termite
 termite-terminfo
 tint2
