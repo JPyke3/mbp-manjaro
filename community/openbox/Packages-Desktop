@@ -48,25 +48,6 @@
 >extra splix
 >extra system-config-printer
 
-#---------=> build support
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra flex
->extra gc
->extra gcc
->extra git
->extra guile
->extra libatomic_ops
->extra libmpc
->extra m4
->extra make
->extra package-query
->extra patch
->extra pkg-config
->extra yajl
-
 #---------=> file utilities
 >extra catfish
 >extra engrampa
@@ -93,16 +74,16 @@
 #---------=> GUI internet apps
 >extra thunderbird
 
-#---------=> basic utilities
->extra galculator
-
-#---------=> package manager
-pamac-gtk
-
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
-#---------=> package manager
+#---------=> BUI basic utilities
+speedcrunch
+
+#---------=> GUI package manager
+pamac-gtk
+
+#---------=> CLI package manager
 pamac-cli
 pacui
 
@@ -115,7 +96,7 @@ manjaro-documentation-en
 manjaro-hello
 
 #---------=> GUI internet apps
-chromium
+palemoon-bin
 
 #---------=> CLI text editor
 dash
@@ -152,7 +133,7 @@ gparted
 testdisk
 timeshift
 
-#---------=> basic utilities
+#---------=> CLI basic utilities
 catimg
 dmidecode
 feh
@@ -220,6 +201,7 @@ ttf-polybar-icons
 ttf-roboto
 
 #---------=> network
+firewalld
 network-manager-applet
 networkmanager
 networkmanager-dmenu
@@ -262,6 +244,25 @@ xcb-util-cursor
 xcmenu
 xdotool
 zenity
+
+#---------=> build support
+autoconf
+automake
+binutils
+bison
+flex
+gc
+gcc
+git
+guile
+libatomic_ops
+libmpc
+m4
+make
+package-query
+patch
+pkg-config
+yajl
 
 #---------=> system icon themes
 adwaita-icon-theme
