@@ -1,77 +1,77 @@
 ## Network
-avahi
+>extra avahi
 networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-nss-mdns # NSS support for mDNS (optdepend for avahi)
-ntp
-mobile-broadband-provider-info
-modemmanager
-openresolv
-openssh
-samba
-usb_modeswitch
+>extra networkmanager-openconnect
+>extra networkmanager-openvpn
+>extra networkmanager-pptp
+>extra networkmanager-vpnc
+>extra nss-mdns # NSS support for mDNS (optdepend for avahi)
+>extra ntp
+>extra mobile-broadband-provider-info
+>extra modemmanager
+>extra openresolv
+>extra openssh
+>extra samba
+>extra usb_modeswitch
 
 ## Libraries for Sound/Audio/Video
-alsa-firmware
-alsa-utils
-ffmpeg
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-libdvdcss
->multilib manjaro-alsa
-manjaro-pulse
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+>extra alsa-firmware
+>extra alsa-utils
+>extra ffmpeg
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra libdvdcss
+>extra >multilib manjaro-alsa
+>extra manjaro-pulse
+>extra pulseaudio-bluetooth
+>extra pulseaudio-ctl
+>extra pulseaudio-zeroconf
 
 ## Connect Packages
-android-tools
-android-udev
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-mtpfs
-udiskie
-udisks2
+>extra android-tools
+>extra android-udev
+>extra gvfs
+>extra gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra mtpfs
+>extra udiskie
+>extra udisks2
 
 ## AUR Support/Development
 # Missing base-devel packages
 >extra base-devel
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
-libtool
-m4
-make
-patch
-pkg-config
->multilib lib32-flex
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra pkg-config
+>extra >multilib lib32-flex
 # Extra packages for AUR support
 >extra git
 >extra patchutils
 >extra subversion
 
 ## Fonts
-cantarell-fonts
-noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra cantarell-fonts
+>extra noto-fonts               # default font
+# >extra noto-fonts-cjk  # removed to reduce iso size (-184MB)
 # >extra noto-fonts-emoji
-terminus-font
+>extra terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace
 # ttf-dejavu             # Installed as gnome-themes-standard dependency
 >extra ttf-inconsolata
@@ -80,19 +80,20 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra ttf-droid
 
 ## Games
->extra steam-manjaro
+# >extra steam-manjaro  # removed to reduce iso size (-74MB)
 
 ## Package management
-gnome-software-snap
+>extra gnome-software-snap
 pamac
-flatpak
-apparmor
-appimagelauncher
+>extra flatpak
+>extra apparmor
+>extra appimagelauncher
 
 ## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
+# removed to reduce iso size (-36MB)
+# >extra jdk8-openjdk
+# >extra jre8-openjdk-headless
+# >extra jre8-openjdk
 
 ## Printing
 >extra manjaro-printer
@@ -120,146 +121,146 @@ accountsservice  # Enhanced user accounts handling
 
 ## GTK3
 gtk3-classic
->multilib lib32-gtk3-classic
+>extra >multilib lib32-gtk3-classic
 
 ## XFCE Group
 exo-gtk3
-garcon-gtk3
+>extra garcon-gtk3
 thunar-gtk3
-thunar-volman
-tumbler
-xfce4-power-manager-gtk3
-xfce4-settings-gtk3
+>extra thunar-volman
+>extra tumbler
+>extra xfce4-power-manager-gtk3
+>extra xfce4-settings-gtk3
 lxterminal
-xfconf-gtk3
+>extra xfconf-gtk3
 
 ## XFCE Extras
-blueman
-ffmpegthumbnailer  # tumbler - for video thumbnails
-freetype2          # tumbler - for font thumbnails
-gksu
-gnome-keyring      # fix wlan segfault
-libgsf             # tumbler - for ODF thumbnails
-libopenraw         # tumbler - for RAW thumbnails
-light-locker
+>extra blueman
+>extra ffmpegthumbnailer  # tumbler - for video thumbnails
+>extra freetype2          # tumbler - for font thumbnails
+>extra gksu
+>extra gnome-keyring      # fix wlan segfault
+>extra libgsf             # tumbler - for ODF thumbnails
+>extra libopenraw         # tumbler - for RAW thumbnails
+>extra light-locker
 network-manager-applet
-menulibre
-orage
-poppler-glib       # tumbler - for PDF thumbnails
-thunar-archive-plugin
+>extra menulibre
+>extra orage
+>extra poppler-glib       # tumbler - for PDF thumbnails
+>extra thunar-archive-plugin
 >extra thunar-shares-plugin
-file-roller
-thunar-media-tags-plugin
-i3-scrot
-xfce4-screenshooter
-xfce4-taskmanager
-pavucontrol
+>extra file-roller
+>extra thunar-media-tags-plugin
+>extra i3-scrot
+>extra xfce4-screenshooter
+>extra xfce4-taskmanager
+>extra pavucontrol
 
 ## Themes
 >extra manjaro-wallpapers-18.0
->extra wallpapers-2018
-gnome-icon-theme
-gnome-themes-standard
+# >extra wallpapers-2018  # removed to reduce iso size (-15MB)
+>extra gnome-icon-theme
+>extra gnome-themes-standard
 grub-theme-manjaro
-matcha-gtk-theme
-xcursor-simpleandsoft
-xcursor-vanilla-dmz-aa
-kvantum-manjaro
+>extra matcha-gtk-theme
+>extra xcursor-simpleandsoft
+>extra xcursor-vanilla-dmz-aa
+>extra kvantum-manjaro
 
 ## Applications
-catfish
-dmidecode # optional dependency inxi
-engrampa
+>extra catfish
+>extra dmidecode # optional dependency inxi
+# >extra engrampa  # redundant with file-roller
 >extra firefox
 # >extra flashplugin
 >extra galculator-gtk2
-gcolor2
+>extra gcolor2
 >extra gimp
-gparted
-gufw
+>extra gparted
+>extra gufw
 >extra audacious
 >extra hexchat
-htop
-zathura-pdf-poppler
-zathura-djvu
-inxi
+>extra htop
+>extra zathura-pdf-poppler
+>extra zathura-djvu
+>extra inxi
 >extra libreoffice-still
-ms-office-online
-manjaro-hello
-manjaro-application-utility
-manjaro-settings-manager
-manjaro-settings-manager-notifier
->basic midori
+>extra ms-office-online
+>extra manjaro-hello
+>extra manjaro-application-utility
+>extra manjaro-settings-manager
+>extra manjaro-settings-manager-notifier
+# >basic midori  # no browser in minimal iso
 >extra mlocate
 mousepad
-mugshot
->basic parole # media player
+>extra mugshot
+# >basic parole # no media player in minimal iso
 >extra pidgin
-powertop
-screenfetch
+>extra powertop
+>extra screenfetch
 >extra poppler-data  # CKJ support for pdf
->basic sylpheed # mail client
+# >basic sylpheed # no mail client in minimal iso
 >extra thunderbird
 >extra mpv
-ristretto
+>extra ristretto
 >extra xfburn
 >extra yelp
 
 # Optional dependencies engrampa
-p7zip  # 7Z and ARJ archive support
-unace  # ACE archive support
-unrar  # RAR archive support
+>extra p7zip  # 7Z and ARJ archive support
+>extra unace  # ACE archive support
+>extra unrar  # RAR archive support
 
 ## Documentation
 # manjaro-documentation-en  # no use for Awesome edition
 
 ## Settings packages
 manjaro-awesome-settings-18.0
-manjaro-browser-settings
+>extra manjaro-browser-settings
 >extra manjaro-settings-samba
 manjaro-zsh-config
 
 ## Xorg Input Drivers
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
-xf86-input-void
+>extra xf86-input-elographics
+>extra xf86-input-evdev
+>extra xf86-input-keyboard
+>extra xf86-input-libinput
+>extra xf86-input-mouse
+>extra xf86-input-void
 
 ## Xorg Server and Graphics
->multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
-libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
-mesa-demos
->multilib lib32-mesa-demos
-numlockx
-xdg-user-dirs
+>extra >multilib lib32-libva-intel-driver
+>extra >multilib lib32-libva-mesa-driver
+>extra >multilib lib32-libva-vdpau-driver
+>extra libva-intel-driver
+>extra libva-mesa-driver
+>extra libva-vdpau-driver
+>extra mesa-demos
+>extra >multilib lib32-mesa-demos
+>extra numlockx
+>extra xdg-user-dirs
 xorg-server
-xorg-twm
-xorg-xinit
-xorg-xprop
-xorg-xkill
+>extra xorg-twm
+>extra xorg-xinit
+>extra xorg-xprop
+>extra xorg-xkill
 
 ## Desktop Utils
-perl-file-mimeinfo
-xdg-utils
-xdg-su
+>extra perl-file-mimeinfo
+>extra xdg-utils
+>extra xdg-su
 
 ## Misc
-gtkhash-thunar
+>extra gtkhash-thunar
 manjaro-hotfixes
->basic ufw
-libappindicator-gtk3
-mate-polkit
-pa-applet
-rofi
-xcape
-qt5ct
-downgrade
+ufw  # firewall needs to be in every iso
+>extra libappindicator-gtk3
+>extra mate-polkit
+>extra pa-applet
+>extra rofi
+>extra xcape
+>extra qt5ct
+>extra downgrade
 >extra bmenu
 >extra compton
 >extra compton-conf

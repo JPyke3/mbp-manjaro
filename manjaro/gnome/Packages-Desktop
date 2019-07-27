@@ -10,7 +10,7 @@ evince
 >basic epiphany
 >extra firefox
 gdm
-manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
+manjaro-gdm-tweak
 manjaro-gdm-theme #branding theme for GDM: 18.0 
 gedit 
 gtksourceview-pkgbuild #highlight for PKGBUILD
@@ -147,7 +147,8 @@ xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 yelp
 
-ms-office-online
+#ms-office-online
+freeoffice
 
 #extra depends for file-roller
 >extra gnome-getting-started-docs
@@ -156,7 +157,7 @@ ms-office-online
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->extra libreoffice-still
+#>extra libreoffice-still
 >extra evolution
 >extra lollypop
 >extra empathy

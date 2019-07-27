@@ -259,9 +259,10 @@ inxi
 #>extra krita
 >extra firefox
 >basic falkon
-ms-office-online
+#ms-office-online
+freeoffice
 #>extra libreoffice-fresh
->extra calligra
+#>extra calligra
 manjaro-hello
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
