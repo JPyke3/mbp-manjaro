@@ -91,16 +91,22 @@ terminus-font
 >extra steam-manjaro
 
 ## Package management
-appimagelauncher
-#packagekit-qt5
+#appimagelauncher
+pamac
+#pamac-cli
+apparmor
+snapd
+#discover-snap
 #discover
+#packagekit-qt5
 flatpak
-#fwupd 
+fpakman
+fwupd 
 #octopi
 #octopi-cachecleaner
 #octopi-repoeditor
 #octopi-notifier-frameworks
-pamac-qt
+#pamac-qt
 #manjaro-application-utility
 
 ## Printing
@@ -255,9 +261,10 @@ inxi
 #>extra krita
 >extra firefox
 >basic falkon
-ms-office-online
+#ms-office-online
+freeoffice
 #>extra libreoffice-fresh
->extra calligra
+#>extra calligra
 manjaro-hello
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
@@ -319,6 +326,6 @@ xdg-su
 manjaro-hotfixes
 
 ## Flatpak support
-#>extra flatpak
-#>extra xdg-desktop-portal
-#>extra xdg-desktop-portal-kde
+>extra flatpak
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-kde

@@ -82,8 +82,11 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra steam-manjaro
 
 ## Package management
-pamac
+apparmor
+#gnome-software-snap
 flatpak
+fpakman
+pamac
 snapd
 
 ## Java
@@ -208,8 +211,9 @@ gufw
 htop
 qpdfview
 inxi
->extra libreoffice-still
-ms-office-online
+#>extra libreoffice-still
+microsoft-office-online-jak
+>extra freeoffice
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
@@ -275,3 +279,10 @@ xdg-su
 ## Misc
 gtkhash-thunar
 manjaro-hotfixes
+
+## Handshake tools
+#faucet-tool
+#hnsd-git
+#hsd-git
+#veracrypt
+#cryptoseed
