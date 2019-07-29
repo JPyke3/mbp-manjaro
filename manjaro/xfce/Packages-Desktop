@@ -82,10 +82,12 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra steam-manjaro
 
 ## Package management
-gnome-software-snap
-pamac
-flatpak
 apparmor
+#gnome-software-snap
+flatpak
+fpakman
+pamac
+snapd
 
 ## Java
 >extra jdk8-openjdk
@@ -210,7 +212,7 @@ htop
 qpdfview
 inxi
 #>extra libreoffice-still
-#microsoft-office-online-jak
+microsoft-office-online-jak
 >extra freeoffice
 manjaro-hello
 manjaro-application-utility

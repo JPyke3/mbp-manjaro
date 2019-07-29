@@ -91,16 +91,18 @@ terminus-font
 >extra steam-manjaro
 
 ## Package management
-appimagelauncher
-pamac-cli
-packagekit-qt5
+#appimagelauncher
+pamac
+#pamac-cli
 apparmor
 snapd
-discover-snap
+#discover-snap
 #discover
-#flatpak
+#packagekit-qt5
+flatpak
+fpakman
 fwupd 
-octopi
+#octopi
 #octopi-cachecleaner
 #octopi-repoeditor
 #octopi-notifier-frameworks
