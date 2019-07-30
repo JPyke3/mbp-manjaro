@@ -16,7 +16,6 @@
 #---------=> graphic applications
 >extra gcolor2
 >extra gimp
->extra xviewer
 
 #---------=> connect packages
 >extra blueman
@@ -29,6 +28,9 @@
 
 #---------=> extra fonts
 >extra noto-fonts
+>extra noto-fonts-cjk
+>extra noto-fonts-emoji
+>extra noto-fonts-extra
 
 #---------=> office
 >extra libreoffice-fresh
@@ -47,25 +49,6 @@
 >extra splix
 >extra system-config-printer
 
-#---------=> build support
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra flex
->extra gc
->extra gcc
->extra git
->extra guile
->extra libatomic_ops
->extra libmpc
->extra m4
->extra make
->extra package-query
->extra patch
->extra pkg-config
->extra yajl
-
 #---------=> file utilities
 >extra catfish
 >extra engrampa
@@ -73,23 +56,15 @@
 >extra mlocate
 >extra poppler-data
 >extra poppler-glib
->extra p7zip
+>extra synapse
 >extra thunar-archive-plugin-gtk3
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
->extra unace
->extra unarchiver
->extra unarj
->extra unrar
->extra unzip
 
 #---------=> disk utilities
 >extra gnome-disk-utility
 >extra xfburn
-
-#---------=> GUI internet apps
->extra thunderbird
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
@@ -100,6 +75,10 @@ pamac-gtk
 #---------=> CLI package manager
 pamac-cli
 
+#---------=> images
+pix
+xviewer
+
 #---------=> office
 xreader
 
@@ -109,7 +88,8 @@ manjaro-documentation-en
 manjaro-hello
 
 #---------=> GUI internet apps
-palemoon-bin
+chromium
+thunderbird
 
 #---------=> CLI text editor
 dash
@@ -160,12 +140,16 @@ htop
 inxi
 jp2a
 neofetch
+p7zip
 ps_mem
 speedcrunch
 tlp-rdw
 tlpui
 tree
+unarchiver
+unzip
 upower
+xarchiver
 xterm
 
 #---------=> network utilities
@@ -196,11 +180,10 @@ manjaro-grub-theme-glassfield
 manjaro-openbox-scripts
 manjaro-openbox-maia
 manjaro-openbox-wallpapers
+manjaro-openbox-wallpapers-matrix
 manjaro-slick-greeter-theme-glassfield
 manjaro-wallpapers-18.0
-#manjaro-wallpapers-by-lunix-cool-logo
-#manjaro-wallpapers-by-lunix-manjaro
-#manjaro-wallpapers-by-lunix-openbox
+manjaro-wallpapers-by-lunix-openbox
 manjaro-zsh-config
 matcha-gtk-theme
 papirus-maia-icon-theme
@@ -259,6 +242,25 @@ xcb-util-cursor
 xcmenu
 xdotool
 zenity
+
+#---------=> build support
+autoconf
+automake
+binutils
+bison
+flex
+gc
+gcc
+git
+guile
+libatomic_ops
+libmpc
+m4
+make
+package-query
+patch
+pkg-config
+yajl
 
 #---------=> system icon themes
 adwaita-icon-theme
