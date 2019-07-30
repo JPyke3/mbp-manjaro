@@ -1,6 +1,7 @@
 adapta-maia-theme
 alsa-firmware
 alsa-utils
+apparmor
 autoconf
 automake
 avahi
@@ -17,7 +18,10 @@ dmidecode
 fakeroot
 >extra ffmpegthumbnailer
 >extra firefox
+flatpak
 flex
+fpakman
+>extra freeoffice
 >extra galculator
 >extra gcc
 >extra >multilib gcc-libs-multilib
@@ -56,7 +60,6 @@ inxi
 libtool
 >extra libdvdcss
 >extra libgsf
->extra libreoffice-fresh
 lightdm-settings
 lightdm-slick-greeter
 m4
@@ -115,6 +118,7 @@ python2-ptyprocess
 python-ptyprocess
 qt5-styleplugins
 screenfetch
+snapd
 >extra subversion
 >extra system-config-printer
 >extra terminus-font
@@ -129,7 +133,6 @@ ttf-bitstream-vera
 >extra ttf-liberation
 >extra udiskie
 vi
->extra vlc
 >extra xcursor-chameleon-pearl-deepin
 xdg-su
 xdg-user-dirs-gtk
@@ -143,6 +146,7 @@ xf86-input-mouse
 xf86-input-void
 xorg-twm
 xorg-xinit
+>extra xplayer
 >extra xreader
 >extra xviewer-plugins
 xdg-user-dirs
@@ -150,4 +154,5 @@ xorg-server
 xorg-xhost
 xorg-xkill
 >extra yay
+yelp
 zensu

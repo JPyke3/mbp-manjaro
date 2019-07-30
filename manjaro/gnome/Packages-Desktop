@@ -101,9 +101,11 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-gnome-software-snap
-pamac
+#gnome-software-snap
 flatpak
+fpakman
+pamac
+snapd
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -147,7 +149,7 @@ xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 yelp
 
-#ms-office-online
+ms-office-online
 freeoffice
 
 #extra depends for file-roller

@@ -82,10 +82,12 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra steam-manjaro
 
 ## Package management
-gnome-software-snap
-pamac
-flatpak
 apparmor
+#gnome-software-snap
+flatpak
+fpakman
+pamac
+snapd
 
 ## Java
 >extra jdk8-openjdk
@@ -210,8 +212,8 @@ htop
 qpdfview
 inxi
 #>extra libreoffice-still
-#ms-office-online
-freeoffice
+microsoft-office-online-jak
+>extra freeoffice
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
@@ -278,5 +280,9 @@ xdg-su
 gtkhash-thunar
 manjaro-hotfixes
 
-## Workarounds
-boost-libs # needed to fix systemd-journal on live-boot
+## Handshake tools
+#faucet-tool
+#hnsd-git
+#hsd-git
+#veracrypt
+#cryptoseed
