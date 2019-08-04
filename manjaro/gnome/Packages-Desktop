@@ -1,6 +1,6 @@
 adwaita-icon-theme
 alsa-firmware
-apparmor
+>extra apparmor
 baobab
 dconf-editor
 dmidecode
@@ -102,10 +102,10 @@ nss-mdns
 numlockx
 openresolv
 #gnome-software-snap
-flatpak
-fpakman
+>extra flatpak
+>extra fpakman
 pamac
-snapd
+>extra snapd
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -149,8 +149,9 @@ xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 yelp
 
-ms-office-online
-freeoffice
+#>extra ms-office-online
+#>extra freeoffice
+#>extra libreoffice-still
 
 #extra depends for file-roller
 >extra gnome-getting-started-docs
@@ -193,4 +194,4 @@ freeoffice
 #>extra patch
 #>extra subversion
 #>extra yaourt
-manjaro-aur-support #introduce for testing in community
+>extra manjaro-aur-support #introduce for testing in community

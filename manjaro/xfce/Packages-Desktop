@@ -45,21 +45,21 @@ udisks2
 
 ## AUR Support/Development
 # Missing base-devel packages
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
-libtool
-m4
-make
-patch
-pkg-config
->multilib lib32-flex
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra pkg-config
+>extra >multilib lib32-flex
 # Extra packages for AUR support
 >extra git
 >extra patchutils
@@ -82,12 +82,12 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra steam-manjaro
 
 ## Package management
-apparmor
-#gnome-software-snap
-flatpak
-fpakman
+>extra apparmor
+#>extra gnome-software-snap
+>extra flatpak
+>extra fpakman
 pamac
-snapd
+>extra snapd
 
 ## Java
 >extra jdk8-openjdk
@@ -212,8 +212,8 @@ htop
 qpdfview
 inxi
 #>extra libreoffice-still
-microsoft-office-online-jak
->extra freeoffice
+#>extra microsoft-office-online-jak
+#>extra freeoffice
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
@@ -227,7 +227,7 @@ mugshot
 powertop
 screenfetch
 >extra poppler-data  # CKJ support for pdf
->basic sylpheed # mail client
+#>basic sylpheed # mail client
 >extra thunderbird
 >extra vlc
 >extra viewnior
