@@ -16,8 +16,8 @@
 #---------=> graphic applications
 >extra gcolor2
 >extra gimp
->extra gpicview
->extra viewnior
+>extra pix
+>extra xviewer
 
 #---------=> connect packages
 >extra blueman
@@ -30,6 +30,8 @@
 
 #---------=> extra fonts
 >extra noto-fonts
+>extra noto-fonts-cjk
+>extra noto-fonts-emoji
 
 #---------=> office
 >extra libreoffice-fresh
@@ -96,7 +98,7 @@ manjaro-documentation-en
 manjaro-hello
 
 #---------=> GUI internet apps
-palemoon-bin
+chromium
 
 #---------=> CLI text editor
 dash
@@ -237,7 +239,7 @@ synapse
 termite
 termite-terminfo
 tint2
-wireless_tools
+#wireless_tools
 wmctrl
 xcape
 xcb-util-cursor
