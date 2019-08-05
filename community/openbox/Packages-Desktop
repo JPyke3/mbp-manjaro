@@ -116,7 +116,7 @@ xed
 alsa-firmware
 alsa-utils
 alsa-plugins
-amixer
+alsa-tools
 playerctl
 
 #---------=> CLI internet apps
