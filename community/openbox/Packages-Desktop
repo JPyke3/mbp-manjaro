@@ -12,6 +12,10 @@
 >extra libmad
 >extra mpg123
 >extra pavucontrol
+>extra pamixer
+>extra pulseaudio
+>extra pulseaudio-alsa
+>extra volumeicon
 
 #---------=> graphic applications
 >extra gcolor2
@@ -76,6 +80,7 @@
 >extra poppler-glib
 >extra p7zip
 >extra thunar-archive-plugin-gtk3
+>extra thunar-gtk3
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
@@ -91,31 +96,28 @@
 >extra xfburn
 
 #---------=> GUI internet apps
+>extra chromium
 >extra thunderbird
 
 #---------=> basic utilities
 >extra galculator
 
 #---------=> package manager
-pamac-gtk
+>extra pamac-gtk
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
 #---------=> package manager
 pamac-cli
-pacui
 
-#---------=> office
-qpdfview
+#---------=> pdf reader
+xreader
 
 #---------=> manjaro user infomartion
 manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
-
-#---------=> GUI internet apps
-chromium
 
 #---------=> CLI text editor
 dash
@@ -129,11 +131,8 @@ xed
 alsa-firmware
 alsa-utils
 alsa-plugins
-pamixer
+amixer
 playerctl
-pulseaudio
-pulseaudio-alsa
-volumeicon
 
 #---------=> CLI internet apps
 lynx
@@ -144,7 +143,7 @@ mc
 ranger
 
 #---------=> GUI file manager
-thunar-gtk3
+pcmanfm
 
 #---------=> disk utilities
 clonezilla
@@ -161,11 +160,11 @@ hddtemp
 htop
 inxi
 jp2a
-mesa-demos
+#mesa-demos
 neofetch
 ps_mem
-tlp-rdw
-tlpui
+#tlp-rdw
+#tlpui
 tree
 upower
 xterm
