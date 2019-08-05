@@ -23,17 +23,17 @@
 <menu id="screenshot" label="Screenshot">
     <item label="Screenshot in 5">
         <action name="Execute">
-            <command>scrot -d 5 &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
+            <command>scrot -d 5 &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; xviewer $$(xdg-user-dir PICTURES)/$f&apos;</command>
         </action>
     </item>
     <item label="Screenshot in 10">
         <action name="Execute">
-            <command>scrot -d 10 &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
+            <command>scrot -d 10 &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; xviewer $$(xdg-user-dir PICTURES)/$f&apos;</command>
         </action>
     </item>
     <item label="Screenshot With Selection">
         <action name="Execute">
-            <command>scrot -s &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f&apos;</command>
+            <command>scrot -s &apos;%Y%m%d-%H%M%S_$wx$h_screenshot.png&apos; -e &apos;mv $f $$(xdg-user-dir PICTURES) ; xviewer $$(xdg-user-dir PICTURES)/$f&apos;</command>
         </action>
     </item>
 </menu>

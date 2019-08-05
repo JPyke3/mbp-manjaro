@@ -12,12 +12,16 @@
 >extra libmad
 >extra mpg123
 >extra pavucontrol
+>extra pamixer
+>extra pulseaudio
+>extra pulseaudio-alsa
+>extra volumeicon
+
 
 #---------=> graphic applications
 >extra gcolor2
 >extra gimp
 >extra pix
->extra xviewer
 
 #---------=> connect packages
 >extra blueman
@@ -74,7 +78,12 @@
 >extra xfburn
 
 #---------=> GUI internet apps
+>extra chromium
 >extra thunderbird
+
+#---------=> GUI package manager
+>extra pamac-gtk
+
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
@@ -82,23 +91,18 @@
 #---------=> BUI basic utilities
 speedcrunch
 
-#---------=> GUI package manager
-pamac-gtk
-
 #---------=> CLI package manager
 pamac-cli
 pacui
 
 #---------=> office
-qpdfview
+xreader
+xviewer
 
 #---------=> manjaro user infomartion
 manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
-
-#---------=> GUI internet apps
-chromium
 
 #---------=> CLI text editor
 dash
@@ -112,11 +116,8 @@ xed
 alsa-firmware
 alsa-utils
 alsa-plugins
-pamixer
+amixer
 playerctl
-pulseaudio
-pulseaudio-alsa
-volumeicon
 
 #---------=> CLI internet apps
 lynx
