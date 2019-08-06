@@ -63,6 +63,7 @@
 >extra poppler-glib
 >extra p7zip
 >extra thunar-archive-plugin-gtk3
+>extra thunar-gtk3
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
@@ -123,12 +124,13 @@ playerctl
 lynx
 w3m
 
+#---------=> GUI file manager
+pcmanfm-gtk3
+
 #---------=> CLI file manager
 mc
 ranger
 
-#---------=> GUI file manager
-thunar-gtk3
 
 #---------=> disk utilities
 clonezilla
