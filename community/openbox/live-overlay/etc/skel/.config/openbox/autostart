@@ -10,7 +10,7 @@ pcmanfm --desktop &
 
 ### launch tint2 and polybar
 sleep 1; manjaro-tint2-session &
-sleep 1; polybar -c ~/.config/polybar/config
+sleep 1; polybar -c ~/.config/polybar/config openbox-bar
 
 ### launch conky
 manjaro-conky-session &
