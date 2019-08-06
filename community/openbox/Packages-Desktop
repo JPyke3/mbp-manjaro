@@ -89,10 +89,7 @@
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
-#---------=> BUI basic utilities
-speedcrunch
-
-#---------=> CLI package manager
+#---------=> package manager
 pamac-cli
 pacui
 
@@ -147,11 +144,11 @@ hddtemp
 htop
 inxi
 jp2a
-mesa-demos
+#mesa-demos
 neofetch
 ps_mem
-tlp-rdw
-tlpui
+#tlp-rdw
+#tlpui
 tree
 upower
 xterm
