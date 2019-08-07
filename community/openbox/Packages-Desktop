@@ -183,9 +183,9 @@ manjaro-openbox-wallpapers
 manjaro-openbox-wallpapers-matrix
 manjaro-slick-greeter-theme-glassfield
 manjaro-wallpapers-18.0
-manjaro-wallpapers-by-lunix-cool-logo
-manjaro-wallpapers-by-lunix-manjaro
-manjaro-wallpapers-by-lunix-openbox
+>extra manjaro-wallpapers-by-lunix-cool-logo
+>extra manjaro-wallpapers-by-lunix-manjaro
+>extra manjaro-wallpapers-by-lunix-openbox
 manjaro-zsh-config
 matcha-gtk-theme
 papirus-maia-icon-theme

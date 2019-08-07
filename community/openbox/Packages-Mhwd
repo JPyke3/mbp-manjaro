@@ -10,11 +10,14 @@ KERNEL-broadcom-wl
 KERNEL-zfs
 zfs-utils
 #KERNEL-rt3562sta
+# ------- virtualbox
 KERNEL-virtualbox-guest-modules
+virtualbox-guest-utils
+# ------- \virtualbox
 libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
->multilib lib32-libva-vdpau-driver 
+>multilib lib32-libva-vdpau-driver
 libxaw
 libxpm
 libxvmc
@@ -39,7 +42,6 @@ open-vm-tools
 pangox-compat
 primus
 bumblebee
-virtualbox-guest-utils
 vulkan-radeon
 >multilib lib32-vulkan-radeon
 vulkan-intel
