@@ -13,6 +13,7 @@
 >extra mpg123
 >extra pavucontrol
 >extra pamixer
+>extra playerctl
 >extra pulseaudio
 >extra pulseaudio-alsa
 >extra volumeicon
@@ -34,8 +35,6 @@
 
 #---------=> extra fonts
 >extra noto-fonts
->extra noto-fonts-cjk
->extra noto-fonts-emoji
 
 #---------=> office
 >extra libreoffice-fresh
@@ -63,7 +62,6 @@
 >extra poppler-glib
 >extra p7zip
 >extra thunar-archive-plugin-gtk3
->extra thunar-gtk3
 >extra thunar-media-tags-plugin
 >extra thunar-volman-gtk3
 >extra tumbler
@@ -114,15 +112,14 @@ xed
 alsa-firmware
 alsa-utils
 alsa-plugins
-alsa-tools
-playerctl
 
 #---------=> CLI internet apps
 lynx
 w3m
 
 #---------=> GUI file manager
-pcmanfm-gtk3
+#pcmanfm-gtk3
+thunar-gtk3
 
 #---------=> CLI file manager
 mc
@@ -178,10 +175,12 @@ manjaro-openbox-config
 manjaro-openbox-desktop-settings
 
 #---------=> edition theming and settings
+kvantum-theme-matcha
 manjaro-grub-theme-glassfield
 manjaro-openbox-scripts
 manjaro-openbox-maia
 manjaro-openbox-wallpapers
+manjaro-openbox-wallpapers-matrix
 manjaro-slick-greeter-theme-glassfield
 manjaro-wallpapers-18.0
 manjaro-wallpapers-by-lunix-cool-logo
@@ -191,6 +190,10 @@ manjaro-zsh-config
 matcha-gtk-theme
 papirus-maia-icon-theme
 xcursor-breeze
+
+#---------=> qt5 theme handling
+kvantum-qt5
+qt5ct
 
 #---------=> fonts packages
 manjaro-openbox-fonts
@@ -204,7 +207,7 @@ ttf-roboto
 
 #---------=> network
 firewalld
-network-manager-applet
+# network-manager-applet
 networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
@@ -286,7 +289,6 @@ manjaro-hotfixes
 polkit
 polkit-gnome
 python2-xdg
-qt5ct
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils

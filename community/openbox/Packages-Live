@@ -1,1 +1,11 @@
-../../shared/Packages-Live
+calamares-git
+>manjaro grub-theme-live-manjaro
+gsmartcontrol
+manjaro-architect
+manjaro-live-skel
+manjaro-live-systemd
+mkinitcpio-nfs-utils
+nbd
+pcmanfm
+squashfs-tools
+clonezilla
