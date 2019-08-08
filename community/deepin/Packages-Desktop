@@ -61,7 +61,6 @@ inxi
 >multilib lib32-flex
 >extra libdvdcss
 >extra libimobiledevice
->extra libreoffice-fresh
 libtool
 KERNEL-headers # needed for deepin-anything and its vfs_monitor dkms-module...
 m4

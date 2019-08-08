@@ -2,6 +2,7 @@ accountsservice
 alsa-firmware
 alsa-plugins
 alsa-utils
+>extra apparmor
 arandr
 >basic i3-default-artwork
 >extra artwork-i3
@@ -118,6 +119,7 @@ qt5-styleplugins
 ranger
 sbxkb
 screenfetch
+>extra snapd
 speedtest-cli
 >extra subversion
 syslog-ng
