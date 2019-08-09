@@ -153,6 +153,7 @@ xdg-user-dirs
 xorg-server
 xorg-xhost
 xorg-xkill
+>extra xorg-xrandr
 >extra yay
 yelp
 zensu
