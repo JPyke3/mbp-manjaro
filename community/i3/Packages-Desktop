@@ -2,6 +2,7 @@ accountsservice
 alsa-firmware
 alsa-plugins
 alsa-utils
+>extra apparmor
 arandr
 >basic i3-default-artwork
 >extra artwork-i3
@@ -25,6 +26,7 @@ fakeroot
 >extra ffmpegthumbnailer
 >extra flac
 flex
+>extra fpakman
 >extra gcc
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
@@ -118,6 +120,7 @@ qt5-styleplugins
 ranger
 sbxkb
 screenfetch
+>extra snapd
 speedtest-cli
 >extra subversion
 syslog-ng

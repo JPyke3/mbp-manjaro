@@ -1,7 +1,7 @@
 adapta-maia-theme
 alsa-firmware
 alsa-utils
-apparmor
+>extra apparmor
 autoconf
 automake
 avahi
@@ -21,7 +21,7 @@ fakeroot
 flatpak
 flex
 fpakman
->extra freeoffice
+#>extra freeoffice
 >extra galculator
 >extra gcc
 >extra >multilib gcc-libs-multilib
@@ -118,7 +118,7 @@ python2-ptyprocess
 python-ptyprocess
 qt5-styleplugins
 screenfetch
-snapd
+>extra snapd
 >extra subversion
 >extra system-config-printer
 >extra terminus-font
@@ -153,6 +153,7 @@ xdg-user-dirs
 xorg-server
 xorg-xhost
 xorg-xkill
+>extra xorg-xrandr
 >extra yay
 yelp
 zensu
