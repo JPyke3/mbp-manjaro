@@ -37,7 +37,8 @@
 >extra noto-fonts
 
 #---------=> office
->extra libreoffice-fresh
+# moved to mhwd
+#>extra libreoffice-fresh
 
 #---------=> office
 ## metapackage manjaro-printer
@@ -80,14 +81,33 @@
 >extra chromium
 >extra thunderbird
 
+#---------=> flatpak snap
+#>extra apparmor
+#>extra flatpak
+#>extra fpakman
+#>extra snapd
+
+#---------=> firewall
+>extra firewalld
+
+#---------=> powermanager
+>extra xfce4-power-manager-gtk3
+#>extra tlp-rdw
+>extra tlpui
+
+#---------=> wallpapers
+>extra manjaro-wallpapers-by-lunix-cool-logo
+>extra manjaro-wallpapers-by-lunix-manjaro
+>extra manjaro-wallpapers-by-lunix-openbox
+
 #---------=> GUI package manager
 >extra pamac-gtk
-
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
 #---------=> package manager
+pamac-common
 pamac-cli
 pacui
 
@@ -113,12 +133,15 @@ alsa-firmware
 alsa-utils
 alsa-plugins
 
+#---------=> GUI internet app
+>basic midori
+
 #---------=> CLI internet apps
 lynx
 w3m
 
 #---------=> GUI file manager
-#pcmanfm-gtk3
+pcmanfm-gtk3
 thunar-gtk3
 
 #---------=> CLI file manager
@@ -144,8 +167,6 @@ jp2a
 #mesa-demos
 neofetch
 ps_mem
-#tlp-rdw
-#tlpui
 tree
 upower
 xterm
@@ -168,7 +189,6 @@ lxappearance-gtk3
 #lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
-#xfce4-power-manager-gtk3
 
 #---------=> desktop settings and config
 manjaro-openbox-config
@@ -183,9 +203,6 @@ manjaro-openbox-wallpapers
 manjaro-openbox-wallpapers-matrix
 manjaro-slick-greeter-theme-glassfield
 manjaro-wallpapers-18.0
->extra manjaro-wallpapers-by-lunix-cool-logo
->extra manjaro-wallpapers-by-lunix-manjaro
->extra manjaro-wallpapers-by-lunix-openbox
 manjaro-zsh-config
 matcha-gtk-theme
 papirus-maia-icon-theme
@@ -206,7 +223,6 @@ ttf-polybar-icons
 ttf-roboto
 
 #---------=> network
-firewalld
 # network-manager-applet
 networkmanager
 networkmanager-dmenu
