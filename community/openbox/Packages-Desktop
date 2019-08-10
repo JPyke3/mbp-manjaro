@@ -37,8 +37,7 @@
 >extra noto-fonts
 
 #---------=> office
-# moved to mhwd
-#>extra libreoffice-fresh
+>extra libreoffice-fresh
 
 #---------=> office
 ## metapackage manjaro-printer
