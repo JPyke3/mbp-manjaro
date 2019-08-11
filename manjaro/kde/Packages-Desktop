@@ -93,6 +93,7 @@ terminus-font
 ## Package management
 #appimagelauncher
 pamac
+pamac-tray-appindicator
 #pamac-cli
 >extra apparmor
 >extra snapd
