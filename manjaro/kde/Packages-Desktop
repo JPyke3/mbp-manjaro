@@ -93,6 +93,7 @@ terminus-font
 ## Package management
 #appimagelauncher
 pamac
+pamac-tray-appindicator
 #pamac-cli
 >extra apparmor
 >extra snapd
@@ -107,7 +108,7 @@ pamac
 #octopi-repoeditor
 #octopi-notifier-frameworks
 #pamac-qt
-#manjaro-application-utility
+manjaro-application-utility
 
 ## Printing
 >extra cups
