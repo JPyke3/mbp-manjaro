@@ -4,3 +4,4 @@ community/openbox-dev
 *.tar.xz
 .kateproject.d
 *.sig
+/blackbox/

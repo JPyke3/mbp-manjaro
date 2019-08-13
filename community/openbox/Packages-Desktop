@@ -77,6 +77,7 @@
 >extra xfburn
 
 #---------=> GUI internet apps
+>basic midori
 >extra chromium
 >extra thunderbird
 
@@ -119,21 +120,19 @@ manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
 
+#---------=> GUI text editor
+xed
+
 #---------=> CLI text editor
 dash
 micro-manjaro
 terminus-font
-
-#---------=> GUI text editor
-xed
+vim
 
 #---------=> sound support
 alsa-firmware
 alsa-utils
 alsa-plugins
-
-#---------=> GUI internet app
->basic midori
 
 #---------=> CLI internet apps
 lynx
