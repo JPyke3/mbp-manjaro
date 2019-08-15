@@ -103,7 +103,7 @@ numlockx
 openresolv
 #gnome-software-snap
 >extra flatpak
->extra fpakman
+>extra bauh
 pamac
 >extra snapd
 polkit-gnome

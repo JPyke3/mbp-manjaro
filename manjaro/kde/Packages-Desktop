@@ -101,7 +101,7 @@ pamac-tray-appindicator
 #discover
 #packagekit-qt5
 >extra flatpak
->extra fpakman
+>extra bauh
 >extra fwupd 
 #octopi
 #octopi-cachecleaner

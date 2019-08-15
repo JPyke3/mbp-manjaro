@@ -85,7 +85,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra apparmor
 #>extra gnome-software-snap
 >extra flatpak
->extra fpakman
+>extra bauh
 pamac
 >extra snapd
 
