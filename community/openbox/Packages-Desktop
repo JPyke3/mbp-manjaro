@@ -77,8 +77,8 @@
 >extra xfburn
 
 #---------=> GUI internet apps
->basic midori
 >extra chromium
+>extra firefox
 >extra thunderbird
 
 #---------=> flatpak snap
@@ -93,7 +93,7 @@
 #---------=> powermanager
 >extra xfce4-power-manager-gtk3
 #>extra tlp-rdw
->extra tlpui
+#>extra tlpui
 
 #---------=> wallpapers
 >extra manjaro-wallpapers-by-lunix-cool-logo
@@ -106,6 +106,34 @@
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
+#---------=> i3
+artwork-i3
+bmenu
+brandr
+conky-i3
+dmenu-manjaro
+i3exit
+i3status
+i3-gaps
+i3-help
+i3-scripts
+i3-scrot
+ncdu
+nerd-fonts-terminus
+morc_menu
+sbxkbd
+#terminus-font
+#ttf-bitstream-vera
+urxvt-perls
+
+wmutils
+xautolock
+xsel
+xdg-su
+xorg-twm
+xorg-xhost
+
+
 #---------=> package manager
 pamac-common
 pamac-cli
@@ -116,9 +144,9 @@ xreader
 xviewer
 
 #---------=> manjaro user infomartion
-manjaro-application-utility
-manjaro-documentation-en
-manjaro-hello
+>extra manjaro-application-utility
+>extra manjaro-documentation-en
+>extra manjaro-hello
 
 #---------=> GUI text editor
 xed
@@ -162,8 +190,9 @@ hddtemp
 htop
 inxi
 jp2a
-#mesa-demos
+mesa-demos
 neofetch
+pastebinit
 ps_mem
 tree
 upower
@@ -195,8 +224,8 @@ manjaro-openbox-desktop-settings
 #---------=> edition theming and settings
 kvantum-theme-matcha
 manjaro-grub-theme-glassfield
+manjaro-openbox-matcha
 manjaro-openbox-scripts
-manjaro-openbox-maia
 manjaro-openbox-wallpapers
 manjaro-openbox-wallpapers-matrix
 manjaro-slick-greeter-theme-glassfield
