@@ -88,7 +88,7 @@ terminus-font
 >extra ttf-droid
 
 ## Games
->extra steam-manjaro
+>x86_64 >extra steam-manjaro
 
 ## Package management
 #appimagelauncher

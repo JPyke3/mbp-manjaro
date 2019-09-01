@@ -79,7 +79,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra ttf-droid
 
 ## Games
->extra steam-manjaro
+>x86_64 >extra steam-manjaro
 
 ## Package management
 >extra apparmor

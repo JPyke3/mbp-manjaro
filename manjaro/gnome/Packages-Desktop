@@ -171,7 +171,7 @@ yelp
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 >extra libdvdcss
->extra steam-manjaro
+>x86_64 >extra steam-manjaro
 >extra manjaro-printer
 >extra ffmpegthumbnailer
 >extra timeshift
