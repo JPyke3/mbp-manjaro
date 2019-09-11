@@ -4,6 +4,7 @@ alsa-plugins
 alsa-utils
 >extra apparmor
 arandr
+>extra bauh
 >basic i3-default-artwork
 >extra artwork-i3
 autoconf
@@ -26,7 +27,6 @@ fakeroot
 >extra ffmpegthumbnailer
 >extra flac
 flex
->extra fpakman
 >extra gcc
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
@@ -141,6 +141,7 @@ vim
 >extra vlc
 volumeicon
 w3m
+>extra wallpapers-juhraya
 wmutils
 >extra xarchiver
 xautolock
