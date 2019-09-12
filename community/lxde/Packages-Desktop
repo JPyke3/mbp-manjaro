@@ -1,77 +1,212 @@
-## Network
-avahi
-networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-networkmanager-dispatcher-ntpd
-nss-mdns # NSS support for mDNS (optdepend for avahi)
-ntp
-mobile-broadband-provider-info
-modemmanager
-openresolv
-openssh
-samba
-usb_modeswitch
+##################################333
+## extra packages
 
-## Libraries for Sound/Audio/Video
+##------------> Java
+#>extra jdk8-openjdk
+#>extra jre8-openjdk-headless
+#>extra jre8-openjdk
+
+##------------> Printing Support
+## manjaro-printer meta package
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gutenprint
+>extra hplip
+>extra python-gobject
+>extra python-pyqt5
+>extra splix
+>extra system-config-printer
+
+##------------> Scanner Support
+>extra simple-scan
+
+##------------> Extra Fonts
+#>extra ttf-bitstream-vera
+#>extra ttf-inconsolata
+#>extra ttf-indic-otf
+#>extra ttf-liberation
+#>extra ttf-droid
+
+##------------> Extra Themes/Artwork
+>extra manjaro-wallpapers-17.0
+
+##------------> Extra Applications
+>extra gufw
+>extra guvcview
+>extra transmission-gtk
+>extra gimp
+>extra libreoffice-fresh
+>extra vlc
+>extra thunderbird
+>extra xfburn
+>extra yelp
+
+##------------> Network
+>extra avahi
+>extra networkmanager-openconnect
+>extra networkmanager-pptp
+>extra networkmanager-vpnc
+>extra networkmanager-dispatcher-ntpd
+>extra nss-mdns # NSS support for mDNS (optdepend for avahi)
+>extra mobile-broadband-provider-info
+>extra modemmanager
+>extra openssh
+>extra samba
+>extra usb_modeswitch
+
+##------------> Libraries for Sound/Audio/Video
+>extra ffmpeg
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra libdvdcss
+>multilib manjaro-alsa
+>extra manjaro-pulse
+>extra pavucontrol
+>extra pulseaudio-bluetooth
+>extra pulseaudio-ctl
+>extra pulseaudio-zeroconf
+
+
+##------------> Connect Packages
+>extra android-tools
+>extra android-udev
+>extra gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra mtpfs
+>extra udiskie
+>extra udisks2
+
+##------------> screen lock
+>extra light-locker
+
+##------------> network
+>extra blueberry
+>extra bluez
+>extra bluez-libs
+
+##------------> file utilites
+>extra ffmpegthumbnailer  # tumbler - for video thumbnails
+>extra gconf              # fix qt-theme
+>extra libgsf             # tumbler - for ODF thumbnails
+>extra libopenraw         # tumbler - for RAW thumbnails
+>extra poppler-data   #CKJ support for pdf
+
+##------------> Optional dependencies engrampa
+>extra p7zip  # 7Z and ARJ archive support
+>extra unace  # ACE archive support
+>extra unrar  # RAR archive support
+>extra mesa-demos
+>multilib lib32-mesa-demos
+
+
+##------------> xfce utils
+>extra manjaro-lxde-xfce4-notifyd
+>extra manjaro-lxde-xfce4-volumed-pulse
+>extra xfce4-notifyd
+>extra xfce4-power-manager
+>extra xfce4-volumed-pulse
+
+############################################3
+## minimal / base packages
+
+##------------> theming and settings
+kvantum-theme-matcha
+manjaro-lxde-config
+manjaro-lxde-desktop-settings
+manjaro-lxde-logout-banner
+manjaro-openbox-matcha
+manjaro-zsh-config
+matcha-gtk-theme
+papirus-icon-theme
+papirus-maia-icon-theme
+xcursor-breeze
+
+##------------> utilities
+engrampa
+galculator-gtk2
+gnome-disk-utility
+gparted
+
+##------------> gui package manager
+pamac-gtk
+
+##------------> package manager
+pamac-common
+pamac-cli
+pacui
+
+##------------> office
+epdfview
+gpicview
+
+##------------> text editor gui
+leafpad
+
+##------------> text editor cli
+dash
+micro-manjaro
+terminus-font
+vim
+
+##------------> user information
+manjaro-application-utility
+manjaro-documentation-en
+manjaro-hello
+
+##------------> Sound support
 alsa-firmware
 alsa-utils
-ffmpeg
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-libdvdcss
->multilib manjaro-alsa
-manjaro-pulse
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+alsa-plugins
 
-## Connect Packages
-android-tools
-android-udev
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-mtpfs
-udiskie
-udisks2
-
-## AUR Support/Development
-# Missing base-devel packages
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
-libtool
-m4
-make
-patch
-pkg-config
->multilib lib32-flex
-git
-patchutils
-subversion
-
-## Display manager
+##------------> Display manager
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
-accountsservice  # Enhanced user accounts handling
 
-## LXDE Group
+##------------> browser
+firefox
+
+##------------> base cli apps
+inxi
+dmidecode
+scrot
+numlockx
+powertop
+htop
+mlocate
+
+##------------> settings manager
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+
+##------------> qt5 theme handling
+kvantum-qt5
+qt5ct
+
+##------------> font packages
+ttf-dejavu
+ttf-roboto
+
+##------------> network
+network-manager-applet
+networkmanager
+networkmanager-openvpn
+openresolv
+
+##------------> filemanager
+pcmanfm
+
+##------------> core
 lxappearance-obconf
 lxde-common
 lxhotkey
@@ -82,135 +217,61 @@ lxrandr
 lxsession
 lxtask
 lxterminal
-pcmanfm
+perl-file-mimeinfo
 
-## Essential stuff for good LXDE experience
-xfce4-power-manager
-light-locker
-cantarell-fonts
-pamac-gtk
-obconf
-blueman
-ffmpegthumbnailer  # tumbler - for video thumbnails
-freetype2          # tumbler - for font thumbnails
-gconf              # fix qt-theme
-gksu
-gnome-keyring      # fix wlan segfault
-gtk3-classic
-libgsf             # tumbler - for ODF thumbnails
-libopenraw         # tumbler - for RAW thumbnails
-network-manager-applet
-pavucontrol
-manjaro-lxde-logout-banner
-manjaro-lxde-settings
-manjaro-lxde-xfce4-notifyd
-manjaro-lxde-xfce4-volumed-pulse
-poppler-data   #CKJ support for pdf
-qt5ct
+##------------> AUR Support/Development
+# Missing base-devel packages
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+libtool
+m4
+make
+patch
+pkg-config
+>multilib lib32-flex
+git
+patchutils
+subversion
 
 
-# theming
+##------------> system icon themes
 gnome-icon-theme
 gnome-themes-standard
-manjaro-zsh-config
-ttf-dejavu
+
+##------------> system fonts
+freetype2
 
 
-## Basic Applications
-manjaro-hello
-manjaro-settings-manager
-manjaro-settings-manager-notifier
-engrampa
-gnome-disk-utility
-gparted
-inxi
-dmidecode # optional dependency inxi
-leafpad
-scrot
-firefox
-hexchat
-
-epdfview
-gpicview
-galculator-gtk2
-
-# Optional dependencies engrampa
-p7zip  # 7Z and ARJ archive support
-unace  # ACE archive support
-unrar  # RAR archive support
-
-## Documentation
-manjaro-documentation-en
-
-## Xorg Input Drivers
-xf86-input-synaptics
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
-xf86-input-void
-
-## Xorg Server and Graphics
-numlockx
-mesa-demos
->multilib lib32-mesa-demos
-xorg-server
-xorg-twm
-xorg-xinit
-xorg-xkill
-
-## Desktop Utils
-perl-file-mimeinfo
+##------------> System
+#polkit is provided by lxsession
+accountsservice
+gksu-polkit
+gnome-keyring
+gtk3-classic
+manjaro-hotfixes
+python2-xdg
 xdg-user-dirs
 xdg-utils
 xdg-su
 
-## Misc
-manjaro-hotfixes
+##------------> Xorg Input Drivers
+xf86-input-libinput
 
-##### EXTRA - TO BE INCLUDED IN NETGROUPS #####
-
-## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
-
-## Printing Support
->extra manjaro-printer
->extra gtk3-print-backends
->extra pyqt5-common # For hplip
->extra python-pillow # For hplip
->extra python-pip # For hplip
->extra python-reportlab # For hplip
-
-## Scanner Support
->extra simple-scan
-
-## Extra Fonts
->extra terminus-font
->extra ttf-bitstream-vera
->extra ttf-inconsolata
->extra ttf-indic-otf
->extra ttf-liberation
->extra ttf-droid
-
-## Extra Themes/Artwork
->extra manjaro-wallpapers-17.0
-
-## Extra Cli Applications
->extra pacui
->extra powertop
->extra htop
->extra mlocate
-
-## Extra Applications
->extra gufw
->extra guvcview
->extra transmission-gtk
->extra gimp
->extra libreoffice-fresh
->extra vlc
->extra thunderbird
->extra xfburn
->extra yelp
+##------------> Xorg Server and Graphics
+xorg-fonts-75-dpi
+xorg-fonts-100dpi
+xorg-fonts-type1
+xorg-server
+xorg-server-common
+xorg-server-xephyr
+xorg-xbacklight
+xorg-xdpyinfo
+xorg-xinit
+xorg-xkill
+xorg-xprop
+xorg-xwininfo

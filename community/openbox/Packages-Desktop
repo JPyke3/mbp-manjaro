@@ -37,7 +37,7 @@
 >extra noto-fonts
 
 #---------=> office
->extra libreoffice-fresh
+#>extra libreoffice-fresh
 
 #---------=> office
 ## metapackage manjaro-printer
@@ -77,7 +77,7 @@
 >extra xfburn
 
 #---------=> GUI internet apps
->extra chromium
+chromium
 >extra firefox
 >extra thunderbird
 
@@ -106,33 +106,19 @@
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
-#---------=> i3
-artwork-i3
-bmenu
-brandr
-conky-i3
-dmenu-manjaro
-i3exit
-i3status
-i3-gaps
-i3-help
-i3-scripts
-i3-scrot
-ncdu
-nerd-fonts-terminus
-morc_menu
-sbxkb
-#terminus-font
-#ttf-bitstream-vera
-urxvt-perls
-
-wmutils
-xautolock
-xsel
-xdg-su
-xorg-twm
-xorg-xhost
-
+#---------=> edition theming and settings
+kvantum-theme-matcha
+manjaro-grub-theme-glassfield
+manjaro-openbox-matcha
+manjaro-openbox-scripts
+manjaro-openbox-wallpapers
+manjaro-openbox-wallpapers-matrix
+manjaro-slick-greeter-theme-glassfield
+manjaro-wallpapers-18.0
+manjaro-zsh-config
+matcha-gtk-theme
+papirus-maia-icon-theme
+xcursor-breeze
 
 #---------=> package manager
 pamac-common
@@ -144,9 +130,9 @@ xreader
 xviewer
 
 #---------=> manjaro user infomartion
->extra manjaro-application-utility
->extra manjaro-documentation-en
->extra manjaro-hello
+manjaro-application-utility
+manjaro-documentation-en
+manjaro-hello
 
 #---------=> GUI text editor
 xed
@@ -167,7 +153,6 @@ lynx
 w3m
 
 #---------=> GUI file manager
-pcmanfm-gtk3
 thunar-gtk3
 
 #---------=> CLI file manager
@@ -220,20 +205,6 @@ xfce4-settings-gtk3
 #---------=> desktop settings and config
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
-
-#---------=> edition theming and settings
-kvantum-theme-matcha
-manjaro-grub-theme-glassfield
-manjaro-openbox-matcha
-manjaro-openbox-scripts
-manjaro-openbox-wallpapers
-manjaro-openbox-wallpapers-matrix
-manjaro-slick-greeter-theme-glassfield
-manjaro-wallpapers-18.0
-manjaro-zsh-config
-matcha-gtk-theme
-papirus-maia-icon-theme
-xcursor-breeze
 
 #---------=> qt5 theme handling
 kvantum-qt5

@@ -19,7 +19,7 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>Adapta-Openbox-Maia</name>
+    <name>Manjaro-Openbox-Matcha-dark-sea</name>
     <titleLayout>NLIMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
