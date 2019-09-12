@@ -142,7 +142,6 @@ blueman
 bluez-utils
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
-gksu-polkit
 gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
@@ -184,6 +183,7 @@ xfce4-whiskermenu-plugin-gtk3
 xfce4-xkb-plugin
 xfce4-pulseaudio-plugin
 pavucontrol
+zensu
 
 ## Themes
 >extra manjaro-wallpapers-18.0

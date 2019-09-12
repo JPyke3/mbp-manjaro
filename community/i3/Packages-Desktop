@@ -34,7 +34,6 @@ gcolor2
 gconf
 >extra gimp
 >extra git
-gksu-polkit
 gnome-keyring
 >extra gparted
 groff
@@ -167,3 +166,4 @@ xterm
 xdg-user-dirs
 xorg-server
 >extra yay
+zensu
