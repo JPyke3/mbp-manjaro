@@ -276,6 +276,7 @@ xdg-su
 ## Misc
 gtkhash-thunar
 manjaro-hotfixes
+>basic squashfs-tools
 
 ## Handshake tools
 #faucet-tool
