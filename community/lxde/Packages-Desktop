@@ -30,9 +30,6 @@
 #>extra ttf-liberation
 #>extra ttf-droid
 
-##------------> Extra Themes/Artwork
->extra manjaro-wallpapers-17.0
-
 ##------------> Extra Applications
 >extra gufw
 >extra guvcview
@@ -116,17 +113,23 @@
 >extra xfce4-power-manager
 >extra xfce4-volumed-pulse
 
-############################################3
+############################################
 ## minimal / base packages
 
+##------------> Extra Themes/Artwork
+lxde-wallpapers
+
 ##------------> theming and settings
-kvantum-theme-matcha
 manjaro-lxde-config
 manjaro-lxde-desktop-settings
+
 manjaro-lxde-logout-banner
-manjaro-openbox-matcha
 manjaro-zsh-config
+
+kvantum-theme-matcha
 matcha-gtk-theme
+manjaro-openbox-matcha
+
 papirus-icon-theme
 papirus-maia-icon-theme
 xcursor-breeze
@@ -238,14 +241,12 @@ git
 patchutils
 subversion
 
-
 ##------------> system icon themes
 gnome-icon-theme
 gnome-themes-standard
 
 ##------------> system fonts
 freetype2
-
 
 ##------------> System
 #polkit is provided by lxsession
@@ -263,7 +264,7 @@ xdg-su
 xf86-input-libinput
 
 ##------------> Xorg Server and Graphics
-xorg-fonts-75-dpi
+xorg-fonts-75dpi
 xorg-fonts-100dpi
 xorg-fonts-type1
 xorg-server

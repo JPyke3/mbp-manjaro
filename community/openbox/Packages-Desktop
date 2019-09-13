@@ -1,13 +1,13 @@
 ##### OPENBOX MINIMAL/EXTRA PROFILE
 
-#---------=> media player
+##---------> media player
 >extra deadbeef
 >extra smplayer
 >extra smplayer-skins
 >extra smplayer-themes
 >extra smtube
 
-#---------=> media controls/codecs/plugins
+##---------> media controls/codecs/plugins
 >extra ffmpeg
 >extra libmad
 >extra mpg123
@@ -19,12 +19,12 @@
 >extra volumeicon
 
 
-#---------=> graphic applications
+##---------> graphic applications
 >extra gcolor2
 >extra gimp
 >extra pix
 
-#---------=> connect packages
+##---------> connect packages
 >extra blueman
 >extra bluez
 >extra gvfs
@@ -33,13 +33,13 @@
 >extra gvfs-smb
 >extra udiskie
 
-#---------=> extra fonts
+##---------> extra fonts
 >extra noto-fonts
 
-#---------=> office
+##---------> office
 #>extra libreoffice-fresh
 
-#---------=> office
+##---------> office
 ## metapackage manjaro-printer
 >extra cups
 >extra cups-pdf
@@ -53,7 +53,7 @@
 >extra splix
 >extra system-config-printer
 
-#---------=> file utilities
+##---------> file utilities
 >extra catfish
 >extra engrampa
 >extra ffmpegthumbnailer
@@ -71,42 +71,48 @@
 >extra unrar
 >extra unzip
 
-#---------=> disk utilities
+##---------> disk utilities
 >extra gnome-disk-utility
 >extra mintstick
 >extra xfburn
 
-#---------=> GUI internet apps
+##---------> GUI internet apps
 chromium
 >extra firefox
 >extra thunderbird
 
-#---------=> flatpak snap
+##---------> flatpak snap
 #>extra apparmor
 #>extra flatpak
 #>extra fpakman
 #>extra snapd
 
-#---------=> firewall
+##---------> firewall
 >extra firewalld
 
-#---------=> powermanager
+##---------> powermanager
 >extra xfce4-power-manager-gtk3
 #>extra tlp-rdw
 #>extra tlpui
 
-#---------=> wallpapers
+##---------> wallpapers
 >extra manjaro-wallpapers-by-lunix-cool-logo
 >extra manjaro-wallpapers-by-lunix-manjaro
 >extra manjaro-wallpapers-by-lunix-openbox
 
-#---------=> GUI package manager
+##---------> GUI package manager
 >extra pamac-gtk
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
-#---------=> edition theming and settings
+##---------> xapps
+xed
+xpad
+xreader
+xviewer
+
+##---------> edition theming and settings
 kvantum-theme-matcha
 manjaro-grub-theme-glassfield
 manjaro-openbox-matcha
@@ -120,53 +126,46 @@ matcha-gtk-theme
 papirus-maia-icon-theme
 xcursor-breeze
 
-#---------=> package manager
+##---------> package manager
 pamac-common
 pamac-cli
 pacui
 
-#---------=> office
-xreader
-xviewer
-
-#---------=> manjaro user infomartion
+##---------> manjaro user infomartion
 manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
 
-#---------=> GUI text editor
-xed
-
-#---------=> CLI text editor
+##---------> CLI text editor
 dash
 micro-manjaro
 terminus-font
 vim
 
-#---------=> sound support
+##---------> sound support
 alsa-firmware
 alsa-utils
 alsa-plugins
 
-#---------=> CLI internet apps
+##---------> CLI internet apps
 lynx
 w3m
 
-#---------=> GUI file manager
+##---------> GUI file manager
 thunar-gtk3
 
-#---------=> CLI file manager
+##---------> CLI file manager
 mc
 ranger
 
 
-#---------=> disk utilities
+##---------> disk utilities
 clonezilla
 gparted
 testdisk
 timeshift
 
-#---------=> CLI basic utilities
+##---------> CLI basic utilities
 catimg
 dmidecode
 feh
@@ -183,7 +182,7 @@ tree
 upower
 xterm
 
-#---------=> network utilities
+##---------> network utilities
 arp-scan
 bind-tools
 net-tools
@@ -191,26 +190,26 @@ openssh
 traceroute
 whois
 
-#---------=> display manager and greeter
+##---------> display manager and greeter
 lightdm
 lightdm-settings
 lightdm-slick-greeter
 
-#---------=> settings manager
+##---------> settings manager
 lxappearance-gtk3
 #lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
 
-#---------=> desktop settings and config
+##---------> desktop settings and config
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
 
-#---------=> qt5 theme handling
+##---------> qt5 theme handling
 kvantum-qt5
 qt5ct
 
-#---------=> fonts packages
+##---------> fonts packages
 manjaro-openbox-fonts
 ttf-dejavu
 ttf-font-awesome
@@ -220,14 +219,14 @@ ttf-material-icons
 ttf-polybar-icons
 ttf-roboto
 
-#---------=> network
+##---------> network
 # network-manager-applet
 networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
 openresolv
 
-#---------=> core
+##---------> core
 arandr
 compton
 conky
@@ -264,7 +263,7 @@ xcmenu
 xdotool
 zenity
 
-#---------=> build support
+##---------> build support
 autoconf
 automake
 binutils
@@ -283,7 +282,7 @@ patch
 pkg-config
 yajl
 
-#---------=> system icon themes
+##---------> system icon themes
 adwaita-icon-theme
 gnome-icon-theme
 gnome-icon-theme-extras
@@ -291,10 +290,10 @@ gnome-icon-theme-symbolic
 gnome-themes-extra
 hicolor-icon-theme
 
-#---------=> system fonts
+##---------> system fonts
 freetype2
 
-#---------=> system
+##---------> system
 accountsservice
 gksu-polkit
 gnome-keyring
@@ -307,7 +306,7 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 
-#---------=> xorg
+##---------> xorg
 xorg-fonts-75dpi
 xorg-fonts-100dpi
 xorg-fonts-type1
