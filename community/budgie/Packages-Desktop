@@ -135,7 +135,7 @@ yelp
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->extra libreoffice-fresh
+#>extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
 >extra empathy

@@ -17,6 +17,7 @@ wallpapers-2018
 mate-icon-theme
 papirus-maia-icon-theme
 matcha-gtk-theme
+kvantum-theme-matcha
 xcursor-breeze
 mate
 marco
@@ -43,6 +44,7 @@ pacui
 mhwd-tui
 xterm
 gparted
+squashfs-tools
 grilo-plugins
 gst-libav
 gst-plugins-bad
@@ -118,7 +120,7 @@ caja-open-terminal
 >extra mate-themes
 >extra mate-tweak
 >extra mate-screensaver
->extra libreoffice-fresh
+#>extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
 >extra vlc
