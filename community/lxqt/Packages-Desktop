@@ -66,9 +66,6 @@
 >extra system-config-printer
 >extra simple-scan
 
-## Gtk
-gtk3-classic
-
 ## AUR Support/Development
 >extra autoconf
 >extra automake
@@ -77,111 +74,101 @@ gtk3-classic
 >extra fakeroot
 >extra flex
 >extra gcc
+>extra git
 >extra libtool
 >extra m4
 >extra make
 >extra patch
->extra pkg-config
-
-# AUR support
->extra git
 >extra patchutils
+>extra pkg-config
 >extra subversion
 
 ## Package management
->extra octopi
->extra octopi-cachecleaner
->extra octopi-notifier-qt5
->extra octopi-repoeditor
-pamac
+>extra pamac-qt
 
 ## Office
->extra libreoffice-still
-qpdfview
+#>extra libreoffice-still
 
 ## Graphics
-lximage-qt
 >extra pinta
 
 ## Internet applications
-falkon
-trojita
+>extra trojita
 
 ## Text editor
-juffed-qt5
-micro-manjaro
-
-## Terminal
-dash
-qterminal
-xterm
-st-manjaro
+>extra juffed-qt5
 
 ## Disc utilities
-gparted
-imagewriter
+#>extra gparted
+#>extra imagewriter
 
 ## File management
-ark
-pcmanfm-qt
-p7zip
-unarchiver
-unrar
+>extra ark
+>extra p7zip
+>extra unarchiver
+>extra unrar
 
-## Misc
-manjaro-hotfixes
+#-------------------------------------------------
+##### EDITION BASE PACKAGES
 
-## Theming and icons
-adapta-maia-theme
-manjaro-grub-theme-glassfield
+##------------> edition theming and settings
+kvantum-theme-matcha
+manjaro-grub-theme-blurred
 manjaro-icons
-manjaro-openbox-adapta-maia
+manjaro-lxqt-config
+manjaro-lxqt-desktop-settings
+manjaro-openbox-matcha
+manjaro-slick-greeter-theme-sunset
 manjaro-zsh-config
-manjaro-wallpapers-18.0
-manjaro-zsh-config
+matcha-gtk-theme
+papirus-icon-theme
 papirus-maia-icon-theme
+wallpapers-juhraya
 xcursor-breeze
 
-## Fonts
-terminus-font
+##------------> display manager and greeter
+lightdm
+lightdm-slick-greeter
+
+##------------> office
+qpdfview
+lximage-qt
+
+##------------> fonts
 ttf-dejavu
 ttf-roboto
 
-## Manjaro packages
-manjaro-application-utility
-manjaro-documentation-en
-manjaro-hello
-manjaro-settings-manager
->extra manjaro-settings-manager-notifier
+##------------> filemanager
+pcmanfm-qt
 
-## Network
-network-manager-applet
-networkmanager-qt
-openresolv
+##------------> text editor cli
+dash
+micro-manjaro
+terminus-font
+vim
 
+##------------> Terminal
+qterminal
 
-#---------=> basic utilities
+##------------> package manager
+pamac-cli
+pacui
+
+##------------> basic utilities
 dmidecode
 htop
 inxi
 numlockx
 powertop
 
-#---------=> display manager and greeter
-sddm
-sddm-qt-manjaro-theme
-#lightdm
-#lightdm-slick-greeter
+##------------> network
+network-manager-applet
+networkmanager-qt
+openresolv
 
-#---------=> settings manager
-manjaro-settings-manager
-obconf-qt
-qt5ct
-
-#---------=> lxqt not in core
+##------------> core
 compton
 compton-conf
-gksu-polkit
 lxqt-about
 lxqt-admin
 lxqt-config
@@ -197,85 +184,15 @@ lxqt-session
 lxqt-sudo
 xscreensaver
 
-#---------=> settings config package
->basic manjaro-lxqt-basic-settings
->extra manjaro-lxqt-extra-settings
+##------------> settings manager
+manjaro-application-utility
+manjaro-documentation-en
+manjaro-hello
+manjaro-settings-manager
+obconf-qt
+qt5ct
 
-#-------------------------------------------------
-##### EDITION BASE PACKAGES
-
-#---------=> edition theming and settings
-manjaro-grub-theme-glassfield
-manjaro-openbox-scripts
-
-#---------=> theme meta package
-# metapkg: manjaro-openbox-theme-18.0
-# theme, icons, cursors, wallpapers
-adapta-maia-theme
-manjaro-openbox-adapta-maia
-papirus-maia-icon-theme
-manjaro-wallpapers-18.0
-manjaro-zsh-config
-xcursor-breeze
-
-#---------=> fonts meta package
-# metapkg: manjaro-openbox-theme-fonts
-# fonts
-manjaro-openbox-fonts
-ttf-dejavu
-ttf-font-awesome
-ttf-font-logos
-ttf-icomoon-icons
-ttf-material-icons
-ttf-polybar-icons
-ttf-roboto
-
-#---------=> network
-network-manager-applet
-networkmanager
-networkmanager-dmenu
-networkmanager-openvpn
-openresolv
-
-#---------=> core
-arandr
-compton
-conky
-dunst
-exo-gtk3
-fakeroot
-feh
-i3lock
-imagemagick
-jgmenu
-jsoncpp
-kickshaw
-libmpdclient
-lxmenu-data
-lxsession-gtk3
-nitrogen
-numlockx
-ob-autostart
-obconf
-obkey-gtk3
-obmenu-generator
-openbox
-polybar
-rofi
-skippy-xd
-scrot
-termite
-termite-terminfo
-tint2
-wireless_tools
-wmctrl
-xcape
-xcb-util-cursor
-xcmenu
-xdotool
-zenity
-
-#---------=> system icons
+##------------> system icons
 adwaita-icon-theme
 gnome-icon-theme
 gnome-icon-theme-extras
@@ -283,28 +200,31 @@ gnome-icon-theme-symbolic
 gnome-themes-extra
 hicolor-icon-theme
 
-#---------=> system fonts
+##------------> system fonts
 freetype2
 
-#---------=> system
+##------------> system
 accountsservice
 gksu-polkit
 gnome-keyring
 gtk3-classic
 manjaro-hotfixes
+perl-file-mimeinfo
 polkit
 python2-xdg
+xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 
-#---------=> xorg
+##------------> xorg
 xorg-server
 xorg-server-common
+xorg-twm
 xorg-xbacklight
 xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xprop
 xf86-input-libinput
-
+xterm
