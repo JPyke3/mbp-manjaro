@@ -120,6 +120,7 @@ sbxkb
 screenfetch
 >extra snapd
 speedtest-cli
+>basic squashfs-tools
 >extra subversion
 syslog-ng
 terminus-font
