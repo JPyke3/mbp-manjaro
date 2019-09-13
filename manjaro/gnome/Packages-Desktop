@@ -75,6 +75,7 @@ manjaro-alsa
 manjaro-artwork
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
+>extra wallpapers-juhraya
 illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
@@ -112,6 +113,7 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 >extra simple-scan
+>basic squashfs-tools
 sushi
 alsa-utils
 avahi
@@ -171,7 +173,7 @@ yelp
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 >extra libdvdcss
->extra steam-manjaro
+>x86_64 >extra steam-manjaro
 >extra manjaro-printer
 >extra ffmpegthumbnailer
 >extra timeshift

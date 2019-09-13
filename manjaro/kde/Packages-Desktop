@@ -88,7 +88,7 @@ terminus-font
 >extra ttf-droid
 
 ## Games
->extra steam-manjaro
+>x86_64 >extra steam-manjaro
 
 ## Package management
 #appimagelauncher
@@ -173,6 +173,7 @@ plasma5-themes-breath  # Default
 sddm-breath-theme  # Default
 grub-theme-manjaro
 illyria-wallpaper
+>extra wallpapers-juhraya
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
 
@@ -325,6 +326,7 @@ xdg-su
 
 ## Misc
 manjaro-hotfixes
+>basic squashfs-tools
 
 ## Flatpak support
 >extra flatpak

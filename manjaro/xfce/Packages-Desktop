@@ -79,7 +79,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra ttf-droid
 
 ## Games
->extra steam-manjaro
+>x86_64 >extra steam-manjaro
 
 ## Package management
 >extra apparmor
@@ -184,6 +184,7 @@ pavucontrol
 ## Themes
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
+>extra wallpapers-juhraya
 gnome-icon-theme
 gnome-themes-standard
 grub-theme-manjaro
@@ -275,6 +276,7 @@ xdg-su
 ## Misc
 gtkhash-thunar
 manjaro-hotfixes
+>basic squashfs-tools
 
 ## Handshake tools
 #faucet-tool
