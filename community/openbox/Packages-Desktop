@@ -302,6 +302,7 @@ manjaro-hotfixes
 polkit
 polkit-gnome
 python2-xdg
+squashfs-tools
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils

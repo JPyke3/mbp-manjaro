@@ -256,6 +256,7 @@ gnome-keyring
 gtk3-classic
 manjaro-hotfixes
 python2-xdg
+squashfs-tools
 xdg-user-dirs
 xdg-utils
 xdg-su

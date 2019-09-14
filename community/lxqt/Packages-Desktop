@@ -212,6 +212,7 @@ manjaro-hotfixes
 perl-file-mimeinfo
 polkit
 python2-xdg
+squashfs-tools
 xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
