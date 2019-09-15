@@ -6,9 +6,11 @@ autoconf
 automake
 avahi
 >extra baobab
+>extra bauh
 binutils
 bison
 >extra blueman
+cinnamon-panel-chooser
 cinnamon-sounds
 cinnamon-translations
 >extra cinnamon-wallpapers
@@ -20,8 +22,6 @@ fakeroot
 >extra firefox
 flatpak
 flex
-fpakman
-#>extra freeoffice
 >extra galculator
 >extra gcc
 >extra >multilib gcc-libs-multilib
@@ -46,6 +46,7 @@ grub-theme-manjaro-dev
 >extra gst-plugins-ugly
 >extra gstreamer
 gtkhash-nemo
+>extra gufw
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
@@ -79,6 +80,7 @@ manjaro-settings-manager-notifier
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
+>extra ms-office-online
 >extra mugshot
 >multilib lib32-mesa-demos
 # >extra nemo-bulk-rename
@@ -119,6 +121,7 @@ python-ptyprocess
 qt5-styleplugins
 screenfetch
 >extra snapd
+>basic squashfs-tools
 >extra subversion
 >extra system-config-printer
 >extra terminus-font
