@@ -92,10 +92,12 @@ chromium
 
 ##---------> powermanager
 >extra xfce4-power-manager-gtk3
-#>extra tlp-rdw
-#>extra tlpui
+>extra tlp-rdw
+>extra tlpui
 
 ##---------> wallpapers
+>extra manjaro-openbox-wallpapers
+>extra manjaro-openbox-wallpapers-matrix
 >extra manjaro-wallpapers-by-lunix-cool-logo
 >extra manjaro-wallpapers-by-lunix-manjaro
 >extra manjaro-wallpapers-by-lunix-openbox
@@ -112,22 +114,21 @@ xpad
 xreader
 xviewer
 
+##---------> wallpapers
+wallpapers-juhraya
+
 ##---------> edition theming and settings
 kvantum-theme-matcha
 manjaro-grub-theme-glassfield
 manjaro-openbox-matcha
 manjaro-openbox-scripts
-manjaro-openbox-wallpapers
-manjaro-openbox-wallpapers-matrix
 manjaro-slick-greeter-theme-glassfield
-manjaro-wallpapers-18.0
 manjaro-zsh-config
 matcha-gtk-theme
 papirus-maia-icon-theme
 xcursor-breeze
 
 ##---------> package manager
-pamac-common
 pamac-cli
 pacui
 
