@@ -6,6 +6,5 @@ manjaro-live-skel
 manjaro-live-systemd
 mkinitcpio-nfs-utils
 nbd
-pcmanfm-gtk3
-squashfs-tools
+pcmanfm
 clonezilla
