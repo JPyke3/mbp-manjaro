@@ -1,4 +1,4 @@
-calamares-git
+calamares
 cinnamon-live
 clonezilla
 grub-theme-live-manjaro
@@ -8,4 +8,3 @@ manjaro-live-skel
 manjaro-live-systemd
 mkinitcpio-nfs-utils
 nbd
-squashfs-tools
