@@ -153,6 +153,7 @@ lynx
 w3m
 
 ##---------> GUI file manager
+pcmanfm-gtk3
 thunar-gtk3
 
 ##---------> CLI file manager
