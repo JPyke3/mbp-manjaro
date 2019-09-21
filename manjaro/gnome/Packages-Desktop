@@ -79,7 +79,7 @@ manjaro-artwork
 illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
-manjaro-gnome-assets
+#manjaro-gnome-assets #currently broken due arc-menu https://gitlab.com/LinxGem33/Arc-Menu/issues/121
 grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
@@ -106,7 +106,7 @@ openresolv
 >extra flatpak
 >extra bauh
 pamac
->extra snapd
+>extra pamac-snap-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth
