@@ -79,12 +79,12 @@ manjaro-artwork
 illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
-#manjaro-gnome-assets #currently broken due arc-menu https://gitlab.com/LinxGem33/Arc-Menu/issues/121
+manjaro-gnome-assets
 grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
-manjaro-application-utility
+#manjaro-application-utility #not compatible to pamac 9.0 yet
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
