@@ -1,4 +1,4 @@
-##################################333
+##################################
 ## extra packages
 
 ##------------> Java
@@ -31,11 +31,9 @@
 #>extra ttf-droid
 
 ##------------> Extra Applications
->extra gufw
 >extra guvcview
 >extra transmission-gtk
 >extra gimp
->extra libreoffice-fresh
 >extra vlc
 >extra thunderbird
 >extra xfburn
@@ -93,7 +91,7 @@
 
 ##------------> file utilites
 >extra ffmpegthumbnailer  # tumbler - for video thumbnails
->extra gconf              # fix qt-theme
+#>extra gconf              # fix qt-theme
 >extra libgsf             # tumbler - for ODF thumbnails
 >extra libopenraw         # tumbler - for RAW thumbnails
 >extra poppler-data   #CKJ support for pdf
@@ -109,8 +107,10 @@
 ##------------> xfce utils
 >extra manjaro-lxde-xfce4-notifyd
 >extra manjaro-lxde-xfce4-volumed-pulse
->extra xfce4-notifyd
->extra xfce4-power-manager
+#>extra xfce4-notifyd
+>extra xfce4-notifyd-gtk3
+#>extra xfce4-power-manager
+>extra xfce4-power-manager-gtk3
 >extra xfce4-volumed-pulse
 
 ############################################
@@ -182,11 +182,12 @@ firefox
 ##------------> base cli apps
 inxi
 dmidecode
-scrot
-numlockx
-powertop
 htop
 mlocate
+numlockx
+pastebinit
+powertop
+scrot
 
 ##------------> settings manager
 manjaro-settings-manager
@@ -201,24 +202,35 @@ ttf-dejavu
 ttf-roboto
 
 ##------------> network
+firewalld
 network-manager-applet
 networkmanager
 networkmanager-openvpn
 openresolv
 
 ##------------> filemanager
-pcmanfm
+#pcmanfm
+pcmanfm-gtk3
 
 ##------------> core
-lxappearance-obconf
+#lxappearance
+lxappearance-gtk3
+#lxappearance-obconf
+lxappearance-obconf-gtk3
 lxde-common
 lxhotkey
-lxinput
-lxlauncher
-lxpanel
-lxrandr
-lxsession
-lxtask
+#lxinput
+lxinput-gtk3
+#lxlauncher
+lxlauncher-gtk3
+#lxpanel
+lxpanel-gtk3
+#lxrandr
+lxrandr-gtk3
+#lxsession
+lxsession-gtk3
+#lxtask
+lxtask-gtk3
 lxterminal
 perl-file-mimeinfo
 
@@ -251,6 +263,7 @@ freetype2
 ##------------> System
 #polkit is provided by lxsession
 accountsservice
+dconf
 gksu-polkit
 gnome-keyring
 gtk3-classic

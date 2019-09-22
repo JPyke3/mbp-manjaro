@@ -108,6 +108,9 @@ chromium
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
+##---------> launcher/indexer
+albert
+
 ##---------> xapps
 xed
 xpad
@@ -159,7 +162,6 @@ thunar-gtk3
 ##---------> CLI file manager
 mc
 ranger
-
 
 ##---------> disk utilities
 clonezilla
@@ -253,7 +255,6 @@ polybar
 rofi
 scrot
 skippy-xd
-synapse
 termite
 termite-terminfo
 tint2
