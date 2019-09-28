@@ -201,7 +201,7 @@ lightdm-slick-greeter
 
 ##---------> settings manager
 lxappearance-gtk3
-#lxappearance-obconf-gtk3
+# lxappearance-obconf-gtk3
 manjaro-settings-manager
 xfce4-settings-gtk3
 
@@ -224,7 +224,7 @@ ttf-polybar-icons
 ttf-roboto
 
 ##---------> network
-# network-manager-applet
+network-manager-applet
 networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
@@ -233,7 +233,7 @@ openresolv
 ##---------> core
 arandr
 compton
-conky
+conky-lua-nv
 dunst
 exo-gtk3
 fakeroot
@@ -246,7 +246,7 @@ libmpdclient
 lxmenu-data
 nitrogen
 numlockx
-ob-autostart
+# ob-autostart
 obconf
 obkey-gtk3
 obmenu-generator
@@ -258,7 +258,7 @@ skippy-xd
 termite
 termite-terminfo
 tint2
-#wireless_tools
+# wireless_tools
 wmctrl
 xcape
 xcb-util-cursor
