@@ -116,6 +116,10 @@
 ############################################
 ## minimal / base packages
 
+##------------> Power manager
+tlp-rdw
+tlpui
+
 ##------------> Extra Themes/Artwork
 lxde-wallpapers
 
