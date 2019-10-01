@@ -39,8 +39,6 @@ gnome-user-docs
 gnome-user-share
 gnome-wallpapers
 papirus-maia-icon-theme
-#gnome-screensaver #if use lightdm we need a screensaver 
-#gnome-initial-setup
 >extra gnome-calendar
 >extra bijiben
 >extra gnome-characters
@@ -84,7 +82,7 @@ grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
-manjaro-application-utility
+#manjaro-application-utility #not compatible to pamac 9.0 yet
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
@@ -106,7 +104,7 @@ openresolv
 >extra flatpak
 >extra bauh
 pamac
->extra snapd
+>extra pamac-snap-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -162,7 +160,6 @@ yelp
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
-#>extra libreoffice-still
 >extra evolution
 >extra lollypop
 >extra empathy
