@@ -39,8 +39,6 @@ gnome-user-docs
 gnome-user-share
 gnome-wallpapers
 papirus-maia-icon-theme
-#gnome-screensaver #if use lightdm we need a screensaver 
-#gnome-initial-setup
 >extra gnome-calendar
 >extra bijiben
 >extra gnome-characters
@@ -163,7 +161,6 @@ yelp
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
-#>extra libreoffice-still
 >extra evolution
 >extra lollypop
 >extra empathy

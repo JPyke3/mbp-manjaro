@@ -1,10 +1,12 @@
 >extra adapta-maia-theme
 alsa-firmware
 alsa-utils
+>extra apparmor
 autoconf
 automake
 avahi
 >extra baobab
+>extra bauh
 binutils
 bison
 >extra brasero
@@ -16,6 +18,7 @@ deepin-file-manager
 deepin-gtk-theme
 >extra deepin-draw
 >extra deepin-image-viewer
+deepin-kwin
 >extra deepin-movie
 >extra deepin-music
 >extra deepin-picker
@@ -79,6 +82,7 @@ mesa-demos
 mlocate
 mobile-broadband-provider-info
 modemmanager
+>extra ms-office-online
 >multilib lib32-mesa-demos
 netctl
 networkmanager
@@ -90,6 +94,7 @@ nss-mdns
 ntp
 openresolv
 pamac
+>extra pamac-snap-plugin
 patch
 >extra patchutils
 pkg-config
@@ -103,6 +108,7 @@ pulseaudio-zeroconf
 >extra qpdfview
 >extra redshift
 screenfetch
+>basic squashfs-tools
 >extra subversion
 >extra sushi
 syslog-ng
