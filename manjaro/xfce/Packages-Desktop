@@ -88,6 +88,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra bauh
 pamac
 >extra snapd
+#>extra pamac-snap-plugin
 
 ## Java
 >extra jdk8-openjdk

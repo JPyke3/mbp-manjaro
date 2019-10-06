@@ -84,7 +84,7 @@ grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
-#manjaro-application-utility #not compatible to pamac 9.0 yet
+manjaro-application-utility
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
@@ -106,7 +106,8 @@ openresolv
 >extra flatpak
 >extra bauh
 pamac
->extra pamac-snap-plugin
+>extra snapd
+#>extra pamac-snap-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth
