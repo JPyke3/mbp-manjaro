@@ -105,6 +105,7 @@ openresolv
 >extra bauh
 pamac
 >extra snapd
+>extra snapd-glib
 #>extra pamac-snap-plugin
 polkit-gnome
 powertop

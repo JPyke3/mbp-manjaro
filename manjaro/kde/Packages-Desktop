@@ -97,6 +97,7 @@ pamac-tray-appindicator
 #pamac-cli
 >extra apparmor
 >extra snapd
+>extra snapd-glib
 #>extra pamac-snap-plugin
 #discover-snap
 #discover
