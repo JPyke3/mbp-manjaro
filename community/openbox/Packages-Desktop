@@ -18,20 +18,10 @@
 >extra pulseaudio-alsa
 >extra volumeicon
 
-
 ##---------> graphic applications
 >extra gcolor2
 >extra gimp
 >extra pix
-
-##---------> connect packages
->extra blueman
->extra bluez
->extra gvfs
->extra gvfs-mtp
->extra gvfs-nfs
->extra gvfs-smb
->extra udiskie
 
 ##---------> extra fonts
 >extra noto-fonts
@@ -74,21 +64,20 @@
 ##---------> disk utilities
 >extra gnome-disk-utility
 >extra mintstick
->extra xfburn
+#>extra xfburn
 
 ##---------> GUI internet apps
 chromium
 >extra firefox
 >extra thunderbird
 
-##---------> flatpak snap
-#>extra apparmor
+##---------> flatpak support
 #>extra flatpak
-#>extra fpakman
-#>extra snapd
 
-##---------> firewall
->extra firewalld
+##---------> snap support
+#>extra apparmor
+#>extra snapd
+#>extra snapd-glib
 
 ##---------> powermanager
 >extra xfce4-power-manager-gtk3
@@ -104,6 +93,7 @@ chromium
 
 ##---------> GUI package manager
 >extra pamac-gtk
+>extra bauh
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
@@ -155,6 +145,17 @@ alsa-plugins
 lynx
 w3m
 
+##---------> connect packages
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+
 ##---------> GUI file manager
 pcmanfm-gtk3
 thunar-gtk3
@@ -193,6 +194,16 @@ openssh
 traceroute
 whois
 
+##---------> network
+blueman
+bluez
+firewalld
+network-manager-applet
+networkmanager
+networkmanager-dmenu
+networkmanager-openvpn
+openresolv
+
 ##---------> display manager and greeter
 lightdm
 lightdm-settings
@@ -221,13 +232,6 @@ ttf-icomoon-icons
 ttf-material-icons
 ttf-polybar-icons
 ttf-roboto
-
-##---------> network
-network-manager-applet
-networkmanager
-networkmanager-dmenu
-networkmanager-openvpn
-openresolv
 
 ##---------> core
 arandr
