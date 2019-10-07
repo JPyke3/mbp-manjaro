@@ -88,6 +88,8 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra bauh
 pamac
 >extra snapd
+>extra snapd-glib
+#>extra pamac-snap-plugin
 
 ## Java
 >extra jdk8-openjdk
@@ -277,6 +279,7 @@ xdg-su
 gtkhash-thunar
 manjaro-hotfixes
 >basic squashfs-tools
+xiccd # enable color profile settings
 
 ## Handshake tools
 #faucet-tool

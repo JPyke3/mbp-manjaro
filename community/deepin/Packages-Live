@@ -1,4 +1,4 @@
-calamares-git
+calamares
 deepin-live
 grub-theme-live-manjaro
 gsmartcontrol
@@ -7,4 +7,3 @@ manjaro-live-skel
 manjaro-live-systemd
 mkinitcpio-nfs-utils
 nbd
-squashfs-tools
