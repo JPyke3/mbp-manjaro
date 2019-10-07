@@ -54,7 +54,7 @@
 >extra system-config-printer
 
 ##---------> file utilities
->extra catfish
+#>extra catfish
 >extra engrampa
 >extra ffmpegthumbnailer
 >extra mlocate
@@ -122,10 +122,10 @@ wallpapers-juhraya
 
 ##---------> edition theming and settings
 kvantum-theme-matcha
-manjaro-grub-theme-glassfield
+manjaro-grub-theme-sunset
 manjaro-openbox-matcha
 manjaro-openbox-scripts
-manjaro-slick-greeter-theme-glassfield
+manjaro-slick-greeter-theme-sunset
 manjaro-zsh-config
 matcha-gtk-theme
 papirus-maia-icon-theme
@@ -184,7 +184,6 @@ pastebinit
 ps_mem
 tree
 upower
-xterm
 
 ##---------> network utilities
 arp-scan
@@ -300,7 +299,7 @@ freetype2
 accountsservice
 gksu-polkit
 gnome-keyring
-gtk3-classic
+gtk3
 manjaro-hotfixes
 polkit
 polkit-gnome
@@ -325,3 +324,4 @@ xorg-xkill
 xorg-xprop
 xorg-xwininfo
 xf86-input-libinput
+xterm
