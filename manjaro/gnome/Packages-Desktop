@@ -106,7 +106,7 @@ openresolv
 pamac
 >extra snapd
 >extra snapd-glib
-#>extra pamac-snap-plugin
+>extra pamac-snap-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth

@@ -94,11 +94,11 @@ terminus-font
 #appimagelauncher
 pamac
 pamac-tray-appindicator
-#pamac-cli
+pamac-cli
 >extra apparmor
 >extra snapd
 >extra snapd-glib
-#>extra pamac-snap-plugin
+>extra pamac-snap-plugin
 #discover-snap
 #discover
 #packagekit-qt5
