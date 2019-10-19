@@ -79,6 +79,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra ttf-droid
 
 ## Package management
+pamac-gtk
 pamac-snap-plugin
 flatpak
 
