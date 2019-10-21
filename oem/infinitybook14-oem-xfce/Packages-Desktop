@@ -190,7 +190,6 @@ xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 manjaro-icons-tx
 wallpapers-tuxedo
-wallpapers-infinity-book
 
 ## Applications
 >extra catfish
@@ -239,8 +238,7 @@ unrar  # RAR archive support
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-xfce-gtk3-settings
->basic manjaro-xfce-gtk3-minimal-settings
+>extra manjaro-xfce-tx-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
