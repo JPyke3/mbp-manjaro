@@ -150,6 +150,8 @@ xorg-twm
 xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 yelp
+>extra caffeine-ng
+>extra libappindicator-gtk3
 
 #>extra ms-office-online
 #>extra freeoffice
