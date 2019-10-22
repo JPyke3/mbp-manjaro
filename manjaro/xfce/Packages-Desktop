@@ -274,6 +274,8 @@ xorg-xkill
 perl-file-mimeinfo
 xdg-utils
 xdg-su
+>extra timeshift
+>extra kernel-alive
 
 ## Misc
 gtkhash-thunar

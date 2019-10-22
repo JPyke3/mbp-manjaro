@@ -169,8 +169,8 @@ user-manager
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
-#>extra oxygen
-#>extra oxygen-icons
+oxygen # needed to provide KDE system sounds
+oxygen-icons
 plasma5-themes-breath  # Default
 sddm-breath-theme  # Default
 grub-theme-manjaro
@@ -325,6 +325,8 @@ xorg-xkill
 perl-file-mimeinfo
 xdg-utils
 xdg-su
+>extra timeshift
+>extra kernel-alive
 
 ## Misc
 manjaro-hotfixes
