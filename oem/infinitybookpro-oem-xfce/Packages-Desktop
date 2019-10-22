@@ -239,8 +239,7 @@ unrar  # RAR archive support
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-xfce-gtk3-settings
->basic manjaro-xfce-gtk3-minimal-settings
+manjaro-xfce-tx-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -275,7 +274,8 @@ xdg-su
 ## Misc
 manjaro-hotfixes
 tuxedo-keyboard-dkms
+KERNEL-headers
 
 ## OEM
 calamares-oem-modules
-calamares-oem-infbk14-xfce-settings
+calamares-oem-infbkpro-xfce-settings
