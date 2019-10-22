@@ -89,7 +89,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 pamac
 >extra snapd
 >extra snapd-glib
-#>extra pamac-snap-plugin
+>extra pamac-snap-plugin
 
 ## Java
 >extra jdk8-openjdk
@@ -274,6 +274,8 @@ xorg-xkill
 perl-file-mimeinfo
 xdg-utils
 xdg-su
+>extra timeshift
+>extra kernel-alive
 
 ## Misc
 gtkhash-thunar

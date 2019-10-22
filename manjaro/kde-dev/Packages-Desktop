@@ -99,7 +99,7 @@ octopi
 #octopi-cachecleaner
 #octopi-repoeditor
 #octopi-notifier-frameworks
-pamac-qt
+#pamac-qt
 #manjaro-application-utility
 
 ## Printing
