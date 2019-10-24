@@ -78,6 +78,7 @@ illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
+>extra gnome-layout-switcher
 grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
@@ -152,10 +153,6 @@ xorg-xinit
 yelp
 >extra caffeine-ng
 >extra libappindicator-gtk3
-
-#>extra ms-office-online
-#>extra freeoffice
-#>extra libreoffice-still
 
 #extra depends for file-roller
 >extra gnome-getting-started-docs
