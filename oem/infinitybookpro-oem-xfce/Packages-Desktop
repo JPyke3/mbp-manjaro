@@ -118,6 +118,7 @@ exo
 garcon
 thunar
 thunar-volman
+gtkhash-thunar
 tumbler
 xfce4-appfinder
 xfce4-panel
@@ -272,6 +273,7 @@ xdg-su
 manjaro-hotfixes
 tuxedo-keyboard-dkms
 KERNEL-headers
+timeshift
 
 ## OEM
 calamares-oem-modules
