@@ -82,6 +82,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 pamac-gtk
 pamac-snap-plugin
 flatpak
+bauh
 
 ## Java
 >extra jdk8-openjdk
@@ -111,10 +112,6 @@ lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 accountsservice  # Enhanced user accounts handling
-
-## GTK3
-gtk3-classic
->multilib lib32-gtk3-classic
 
 ## XFCE Group
 exo
