@@ -336,3 +336,7 @@ manjaro-hotfixes
 >extra flatpak
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde
+
+## OEM
+calamares-oem-modules
+calamares-oem-infbkpro-kde-settings
