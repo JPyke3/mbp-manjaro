@@ -294,8 +294,7 @@ yakuake
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-kde-settings
->basic manjaro-kde-minimal-settings
+manjaro-kde-tx-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
