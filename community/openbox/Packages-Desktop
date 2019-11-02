@@ -91,7 +91,7 @@
 >extra pamac-gtk
 
 ##---------> launcher/indexer
-#>extra albert
+>extra albert
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
@@ -195,9 +195,11 @@ openssh
 traceroute
 whois
 
-##---------> network
+##---------> bluetooth
 blueman
 bluez
+
+##---------> network
 firewalld
 network-manager-applet
 networkmanager
@@ -211,17 +213,16 @@ lightdm-settings
 lightdm-slick-greeter
 
 ##---------> settings manager
+kvantum-qt5
 lxappearance-gtk3
 manjaro-settings-manager
+obconf
+qt5ct
 xfce4-settings-gtk3
 
 ##---------> desktop settings and config
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
-
-##---------> qt5 theme handling
-kvantum-qt5
-qt5ct
 
 ##---------> fonts packages
 manjaro-openbox-fonts
@@ -249,7 +250,6 @@ libmpdclient
 lxmenu-data
 nitrogen
 numlockx
-obconf
 obkey-gtk3
 obmenu-generator
 openbox
@@ -299,7 +299,7 @@ freetype2
 
 ##---------> system
 accountsservice
-gksu-polkit
+zensu
 gnome-keyring
 gtk3
 manjaro-hotfixes
