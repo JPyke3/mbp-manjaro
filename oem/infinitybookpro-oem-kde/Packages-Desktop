@@ -178,6 +178,7 @@ illyria-wallpaper
 >extra wallpapers-juhraya
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
+wallpapers-tuxedo
 
 ## Better systray/notifications support
 #>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
@@ -293,8 +294,7 @@ yakuake
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-kde-settings
->basic manjaro-kde-minimal-settings
+manjaro-kde-tx-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -336,3 +336,7 @@ manjaro-hotfixes
 >extra flatpak
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde
+
+## OEM
+calamares-oem-modules
+calamares-oem-infbkpro-kde-settings

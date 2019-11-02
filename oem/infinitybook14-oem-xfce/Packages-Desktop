@@ -45,21 +45,21 @@ udisks2
 
 ## AUR Support/Development
 # Missing base-devel packages
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra pkg-config
->extra >multilib lib32-flex
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+>multilib gcc-libs-multilib
+>multilib gcc-multilib
+libtool
+m4
+make
+patch
+pkg-config
+>multilib lib32-flex
 # Extra packages for AUR support
 >extra git
 >extra patchutils
@@ -67,8 +67,8 @@ udisks2
 
 ## Fonts
 cantarell-fonts
-noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+# noto-fonts             # default font
+# noto-fonts-cjk         # big package, ~76 mb compressed
 # >extra noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace
@@ -78,18 +78,11 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra ttf-liberation
 >extra ttf-droid
 
-## Games
->x86_64 >extra steam-manjaro
-
 ## Package management
->extra apparmor
-#>extra gnome-software-snap
->extra flatpak
->extra bauh
-pamac
->extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
+pamac-gtk
+pamac-snap-plugin
+flatpak
+bauh
 
 ## Java
 >extra jdk8-openjdk
@@ -125,6 +118,7 @@ exo
 garcon
 thunar
 thunar-volman
+gtkhash-thunar
 tumbler
 xfce4-appfinder
 xfce4-panel
@@ -186,16 +180,18 @@ pavucontrol
 ## Themes
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
->extra wallpapers-juhraya
+wallpapers-juhraya
 gnome-icon-theme
 gnome-themes-standard
 grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
+manjaro-icons-tx
+wallpapers-tuxedo
 
 ## Applications
-catfish
+>extra catfish
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
@@ -210,9 +206,8 @@ gufw
 htop
 qpdfview
 inxi
-#>extra libreoffice-still
-#>extra microsoft-office-online-jak
-#>extra freeoffice
+>extra libreoffice-still
+ms-office-online
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
@@ -226,7 +221,7 @@ mugshot
 powertop
 screenfetch
 >extra poppler-data  # CKJ support for pdf
-#>basic sylpheed # mail client
+>basic sylpheed # mail client
 >extra thunderbird
 >extra vlc
 >extra viewnior
@@ -242,8 +237,7 @@ unrar  # RAR archive support
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-xfce-gtk3-settings
->basic manjaro-xfce-gtk3-minimal-settings
+manjaro-xfce-tx-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -274,18 +268,11 @@ xorg-xkill
 perl-file-mimeinfo
 xdg-utils
 xdg-su
->extra timeshift
->extra kernel-alive
 
 ## Misc
-gtkhash-thunar
 manjaro-hotfixes
->basic squashfs-tools
-xiccd # enable color profile settings
+timeshift
 
-## Handshake tools
-#faucet-tool
-#hnsd-git
-#hsd-git
-#veracrypt
-#cryptoseed
+## OEM
+calamares-oem-modules
+calamares-oem-infbk14-xfce-settings

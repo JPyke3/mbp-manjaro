@@ -87,12 +87,9 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
-## Games
->x86_64 >extra steam-manjaro
-
 ## Package management
 #appimagelauncher
-pamac
+pamac-gtk
 pamac-tray-appindicator
 pamac-cli
 >extra apparmor
@@ -169,6 +166,7 @@ user-manager
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
+manjaro-icons-tx
 oxygen # needed to provide KDE system sounds
 oxygen-icons
 plasma5-themes-breath  # Default
@@ -178,6 +176,7 @@ illyria-wallpaper
 >extra wallpapers-juhraya
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
+wallpapers-tuxedo
 
 ## Better systray/notifications support
 #>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
@@ -265,9 +264,9 @@ inxi
 #>extra krita
 >extra firefox
 >basic falkon
-#ms-office-online
+ms-office-online
 #>extra freeoffice
-#>extra libreoffice-still
+>extra libreoffice-still
 #>extra calligra
 manjaro-hello
 manjaro-settings-manager-kcm
@@ -293,8 +292,7 @@ yakuake
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-kde-settings
->basic manjaro-kde-minimal-settings
+manjaro-kde-tx-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -326,7 +324,6 @@ perl-file-mimeinfo
 xdg-utils
 xdg-su
 >extra timeshift
->extra kernel-alive
 
 ## Misc
 manjaro-hotfixes
@@ -336,3 +333,7 @@ manjaro-hotfixes
 >extra flatpak
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde
+
+calamares-oem-modules
+calamares-oem-infbkpro-kde-settings
+grub-theme-live-manjaro

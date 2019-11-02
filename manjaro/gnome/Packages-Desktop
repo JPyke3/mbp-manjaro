@@ -78,6 +78,7 @@ illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
+>extra gnome-layout-switcher
 grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
@@ -106,7 +107,7 @@ openresolv
 pamac
 >extra snapd
 >extra snapd-glib
-#>extra pamac-snap-plugin
+>extra pamac-snap-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -150,10 +151,8 @@ xorg-twm
 xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 yelp
-
-#>extra ms-office-online
-#>extra freeoffice
-#>extra libreoffice-still
+>extra caffeine-ng
+>extra libappindicator-gtk3
 
 #extra depends for file-roller
 >extra gnome-getting-started-docs
