@@ -330,7 +330,8 @@ xdg-su
 
 ## Misc
 manjaro-hotfixes
->basic squashfs-tools
+tuxedo-keyboard-dkms
+KERNEL-headers
 
 ## Flatpak support
 >extra flatpak
