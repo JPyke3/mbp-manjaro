@@ -140,7 +140,8 @@ xcursor-breeze
 
 ##------------> utilities
 engrampa
-galculator-gtk2
+#galculator-gtk2
+galculator
 gnome-disk-utility
 gparted
 
@@ -220,7 +221,8 @@ pcmanfm-gtk3
 #lxappearance
 lxappearance-gtk3
 #lxappearance-obconf
-lxappearance-obconf-gtk3
+#lxappearance-obconf-gtk3
+obconf
 lxde-common
 lxhotkey
 #lxinput
@@ -268,9 +270,9 @@ freetype2
 #polkit is provided by lxsession
 accountsservice
 dconf
-gksu-polkit
+zensu
 gnome-keyring
-gtk3-classic
+gtk3
 manjaro-hotfixes
 python2-xdg
 squashfs-tools

@@ -27,9 +27,6 @@
 >extra noto-fonts
 
 ##---------> office
-#>extra libreoffice-fresh
-
-##---------> office
 ## metapackage manjaro-printer
 >extra cups
 >extra cups-pdf
@@ -44,7 +41,6 @@
 >extra system-config-printer
 
 ##---------> file utilities
-#>extra catfish
 >extra engrampa
 >extra ffmpegthumbnailer
 >extra mlocate
@@ -63,16 +59,16 @@
 
 ##---------> disk utilities
 >extra gnome-disk-utility
->extra mintstick
-#>extra xfburn
 
 ##---------> GUI internet apps
-chromium
 >extra firefox
 >extra thunderbird
 
 ##---------> flatpak support
 #>extra flatpak
+
+##---------> snap/flatpak manager
+#>extra bauh
 
 ##---------> snap support
 #>extra apparmor
@@ -93,13 +89,15 @@ chromium
 
 ##---------> GUI package manager
 >extra pamac-gtk
->extra bauh
+
+##---------> launcher/indexer
+>extra albert
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
-##---------> launcher/indexer
-albert
+##---------> internet browser
+chromium
 
 ##---------> xapps
 xed
@@ -165,10 +163,13 @@ mc
 ranger
 
 ##---------> disk utilities
-clonezilla
 gparted
-testdisk
+mintstick
 timeshift
+
+##---------> cloning and recovery
+clonezilla
+testdisk
 
 ##---------> CLI basic utilities
 catimg
@@ -194,9 +195,11 @@ openssh
 traceroute
 whois
 
-##---------> network
+##---------> bluetooth
 blueman
 bluez
+
+##---------> network
 firewalld
 network-manager-applet
 networkmanager
@@ -210,18 +213,16 @@ lightdm-settings
 lightdm-slick-greeter
 
 ##---------> settings manager
+kvantum-qt5
 lxappearance-gtk3
-# lxappearance-obconf-gtk3
 manjaro-settings-manager
+obconf
+qt5ct
 xfce4-settings-gtk3
 
 ##---------> desktop settings and config
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
-
-##---------> qt5 theme handling
-kvantum-qt5
-qt5ct
 
 ##---------> fonts packages
 manjaro-openbox-fonts
@@ -249,8 +250,6 @@ libmpdclient
 lxmenu-data
 nitrogen
 numlockx
-# ob-autostart
-obconf
 obkey-gtk3
 obmenu-generator
 openbox
@@ -261,7 +260,6 @@ skippy-xd
 termite
 termite-terminfo
 tint2
-# wireless_tools
 wmctrl
 xcape
 xcb-util-cursor
@@ -301,7 +299,7 @@ freetype2
 
 ##---------> system
 accountsservice
-gksu-polkit
+zensu
 gnome-keyring
 gtk3
 manjaro-hotfixes
