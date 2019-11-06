@@ -80,13 +80,17 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra ttf-droid
 
 ## Games
-# >extra steam-manjaro  # removed to reduce iso size (-74MB)
+# >x86_64 >extra steam-manjaro  # removed to reduce iso size (-74MB)
 
 ## Package management
->extra gnome-software-snap
-pamac
->extra flatpak
 >extra apparmor
+#>extra gnome-software-snap
+>extra flatpak
+>extra bauh
+pamac
+>extra snapd
+>extra snapd-glib
+>extra pamac-snap-plugin
 >extra appimagelauncher
 
 ## Java
@@ -119,20 +123,16 @@ lightdm
 lightdm-slick-greeter
 accountsservice  # Enhanced user accounts handling
 
-## GTK3
-gtk3-classic
->extra >multilib lib32-gtk3-classic
-
 ## XFCE Group
-exo-gtk3
->extra garcon-gtk3
-thunar-gtk3
+exo
+>extra garcon
+thunar
 >extra thunar-volman
 >extra tumbler
->extra xfce4-power-manager-gtk3
->extra xfce4-settings-gtk3
+>extra xfce4-power-manager
+>extra xfce4-settings
 lxterminal
->extra xfconf-gtk3
+>extra xfconf
 
 ## XFCE Extras
 >extra blueman
@@ -159,6 +159,7 @@ network-manager-applet
 ## Themes
 >extra manjaro-wallpapers-18.0
 # >extra wallpapers-2018  # removed to reduce iso size (-15MB)
+# >extra wallpapers-juhraya  # removed to reduce iso size (~20MB)
 >extra gnome-icon-theme
 >extra gnome-themes-standard
 grub-theme-manjaro
@@ -184,8 +185,9 @@ grub-theme-manjaro
 >extra zathura-pdf-poppler
 >extra zathura-djvu
 >extra inxi
->extra libreoffice-still
->extra ms-office-online
+#>extra libreoffice-still
+#>extra microsoft-office-online-jak
+#>extra freeoffice
 >extra manjaro-hello
 >extra manjaro-application-utility
 >extra manjaro-settings-manager
@@ -249,12 +251,15 @@ xorg-server
 >extra perl-file-mimeinfo
 >extra xdg-utils
 >extra xdg-su
+>extra timeshift
+>extra kernel-alive
 
 ## Misc
 >extra gtkhash-thunar
 manjaro-hotfixes
+>basic squashfs-tools
+>extra xiccd # enable color profile settings
 ufw  # firewall needs to be in every iso
->extra libappindicator-gtk3
 >extra mate-polkit
 >extra pa-applet
 >extra rofi
