@@ -9,10 +9,11 @@ gthumb
 evince
 >basic epiphany
 >extra firefox
+>extra rygel
 gdm
 manjaro-gdm-tweak
-manjaro-gdm-theme #branding theme for GDM: 18.0 
-gedit 
+manjaro-gdm-theme-dev #branding theme for GDM: 18.0 
+gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
 manjaro-gnome-vanilla
 gnome-backgrounds
@@ -77,7 +78,7 @@ manjaro-artwork
 illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
-manjaro-gnome-assets
+manjaro-gnome-assets-19.0
 >extra gnome-layout-switcher
 grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
