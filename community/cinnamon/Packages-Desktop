@@ -32,6 +32,7 @@ flex
 >extra git
 >extra gnome-disk-utility
 gnome-keyring
+>extra gnome-online-accounts
 >extra gnome-screenshot
 gnome-system-log
 >extra gnome-system-monitor
