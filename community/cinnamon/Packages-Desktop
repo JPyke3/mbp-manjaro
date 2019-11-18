@@ -37,6 +37,7 @@ gnome-system-log
 >extra gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
+gnu-free-fonts
 >extra gparted
 >extra gprename
 grub-theme-manjaro-dev
