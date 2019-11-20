@@ -171,8 +171,7 @@ gnome-themes-standard
 gtk-theme-breath
 oxygen # needed to provide KDE system sounds
 oxygen-icons
-plasma5-themes-breath  # Default
-sddm-breath-theme  # Default
+sddm-breath2-theme-dev
 grub-theme-manjaro
 illyria-wallpaper
 >extra wallpapers-juhraya
