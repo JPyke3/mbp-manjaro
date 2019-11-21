@@ -87,9 +87,12 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
+## Games
+>x86_64 >extra steam-manjaro
+
 ## Package management
 #appimagelauncher
-pamac-gtk
+pamac
 pamac-tray-appindicator
 pamac-cli
 >extra apparmor
@@ -166,11 +169,9 @@ user-manager
 gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
-manjaro-icons-tx
 oxygen # needed to provide KDE system sounds
 oxygen-icons
-plasma5-themes-breath  # Default
-sddm-breath-theme  # Default
+sddm-breath2-theme-dev
 grub-theme-manjaro
 illyria-wallpaper
 >extra wallpapers-juhraya
@@ -264,9 +265,9 @@ inxi
 #>extra krita
 >extra firefox
 >basic falkon
-ms-office-online
+#ms-office-online
 #>extra freeoffice
->extra libreoffice-still
+#>extra libreoffice-still
 #>extra calligra
 manjaro-hello
 manjaro-settings-manager-kcm
@@ -324,16 +325,16 @@ perl-file-mimeinfo
 xdg-utils
 xdg-su
 >extra timeshift
+>extra kernel-alive
 
 ## Misc
 manjaro-hotfixes
->basic squashfs-tools
 
 ## Flatpak support
 >extra flatpak
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde
 
+## OEM
 calamares-oem-modules
 calamares-oem-infbkpro-kde-settings
-grub-theme-live-manjaro
