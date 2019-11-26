@@ -207,7 +207,6 @@ freetype2
 accountsservice
 gksu-polkit
 gnome-keyring
-gtk3-classic
 manjaro-hotfixes
 perl-file-mimeinfo
 polkit
