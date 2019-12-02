@@ -12,10 +12,10 @@ evince
 >extra rygel
 gdm
 manjaro-gdm-tweak
-manjaro-gdm-theme-dev #branding theme for GDM: 18.0 
+manjaro-gdm-theme-dev #branding theme for GDM: 19.0 
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
-manjaro-gnome-vanilla
+#manjaro-gnome-vanilla
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
@@ -79,7 +79,7 @@ illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
 manjaro-gnome-assets-19.0
->extra gnome-layout-switcher
+>extra gnome-layout-switcher-dev
 grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
