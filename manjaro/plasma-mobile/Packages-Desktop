@@ -107,6 +107,7 @@ mesa-demos
 numlockx
 xdg-user-dirs
 xorg-server
+xorg-server-xwayland
 xorg-twm
 xorg-xinit
 xorg-xkill
