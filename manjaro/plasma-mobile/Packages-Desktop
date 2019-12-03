@@ -87,8 +87,38 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+
+## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+numlockx
+xdg-user-dirs
+xorg-server
+xorg-twm
+xorg-xinit
+xorg-xkill
+
+## Themes
+
+breath-icon-theme
+plasma5-themes-breath
+sddm-breath-theme
+
 ## Display manager
-#sddm
+sddm
 #sddm-kcm
 
 ## Plasma5
@@ -113,7 +143,7 @@ index # File manager.
 keysmith # OTP client.
 
 ## Plasma phone components
-simplelogin # Display manager for launching the plasma-phone shell
+#simplelogin # Display manager for launching the plasma-phone shell
 plasma-phone-components # Dialer and Phone shell QtQuick code, application launcher model, etc.
 kpeoplevcard # Provides the vCard based contact management backend used by the dialer, plasma-phonebook and others.
 plasma-phonebook # Contact management application.
