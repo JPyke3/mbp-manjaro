@@ -1,0 +1,126 @@
+## Network
+avahi
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+ntp
+mobile-broadband-provider-info
+modemmanager
+openresolv
+openssh
+samba
+usb_modeswitch
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libcanberra
+>multilib lib32-libcanberra
+libcanberra-pulse
+>multilib lib32-libcanberra-pulse
+libcanberra-gstreamer
+libdvdcss
+manjaro-alsa
+manjaro-pulse
+phonon-qt5-gstreamer
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+kamera
+mtpfs
+udiskie
+udisks2
+
+## AUR Support/Development
+# Missing base-devel packages
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra pkg-config
+>extra >multilib lib32-flex
+# Extra packages for AUR support
+>extra git
+>extra patchutils
+>extra subversion
+#yaourt
+
+## Fonts
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-emoji
+terminus-font
+>extra ttf-bitstream-vera
+# ttf-dejavu             # Installed as gnome-themes-standard dependency
+# ttf-hack               # Installed as plasma-integration dependency
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Display manager
+#sddm
+#sddm-kcm
+
+## Plasma5
+plasma-settings # Settings application and modules.
+plasma-camera # Camera application.
+marble # Maps application.
+koko # Gallery application.
+#vvave # Music player.
+okular # Document Viewer.
+#discover # Software Center.
+plasma-angelfish # Webbrowser for phones.
+#plasma-samegame # Small example game, pure QML.
+#mtp-server # Fork of Ubuntu’s MTP server
+kaidan # XMPP based Messenger.
+qmlkonsole # Terminal application.
+peruse # A comic book viewer.
+calindori # Calendar and todo management application.
+#plasmatube # Work-in-progress youtube client.
+index # File manager.
+#plasma-pix # Maui Image Gallery.
+#qrca # QR Code scanner.
+keysmith # OTP client.
+
+## Plasma phone components
+simplelogin # Display manager for launching the plasma-phone shell
+plasma-phone-components # Dialer and Phone shell QtQuick code, application launcher model, etc.
+kpeoplevcard # Provides the vCard based contact management backend used by the dialer, plasma-phonebook and others.
+plasma-phonebook # Contact management application.
+#spacebar # Work-in-progress SMS application.
+
+## Maui Applications
+dialer
+
+## Optional dependencies for okular
+poppler-data  # encoding data to display PDF documents containing CJK characters
