@@ -150,6 +150,9 @@ kpeoplevcard # Provides the vCard based contact management backend used by the d
 plasma-phonebook # Contact management application.
 #spacebar # Work-in-progress SMS application.
 
+## Applications
+qt5-virtualkeyboard
+
 ## Maui Applications
 dialer
 
