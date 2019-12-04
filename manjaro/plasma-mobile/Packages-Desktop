@@ -1,10 +1,10 @@
 ## Network
 avahi
 networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
+#networkmanager-openconnect
+#networkmanager-openvpn
+#networkmanager-pptp
+#networkmanager-vpnc
 nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
@@ -142,16 +142,21 @@ index # File manager.
 #plasma-pix # Maui Image Gallery.
 #qrca # QR Code scanner.
 keysmith # OTP client.
+plasma-nano
 
 ## Plasma phone components
 #simplelogin # Display manager for launching the plasma-phone shell
 plasma-phone-components # Dialer and Phone shell QtQuick code, application launcher model, etc.
 kpeoplevcard # Provides the vCard based contact management backend used by the dialer, plasma-phonebook and others.
 plasma-phonebook # Contact management application.
-#spacebar # Work-in-progress SMS application.
+spacebar # Work-in-progress SMS application.
 
 ## Applications
 qt5-virtualkeyboard
+phonesim
+ofono
+libqofono
+konsole
 
 ## Maui Applications
 dialer
