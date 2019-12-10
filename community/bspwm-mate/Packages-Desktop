@@ -45,7 +45,6 @@ dconf-editor
 feh
 gnome-keyring
 gksu
-gtk3-classic
 android-tools
 android-udev
 gvfs

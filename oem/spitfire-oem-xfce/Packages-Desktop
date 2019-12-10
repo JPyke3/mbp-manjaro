@@ -117,10 +117,6 @@ lightdm-slick-greeter
 lightdm-settings
 accountsservice  # Enhanced user accounts handling
 
-## GTK3
-gtk3-classic
->multilib lib32-gtk3-classic
-
 ## XFCE Group
 exo-gtk3
 garcon-gtk3

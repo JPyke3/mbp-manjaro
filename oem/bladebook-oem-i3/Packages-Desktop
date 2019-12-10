@@ -44,7 +44,6 @@ grub-theme-manjaro-dev
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra gstreamer
-gtk3-classic
 >extra gtksourceview-pkgbuild
 >extra gufw
 gvfs
