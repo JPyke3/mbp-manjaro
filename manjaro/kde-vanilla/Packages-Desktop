@@ -97,6 +97,8 @@ flatpak
 xdg-desktop-portal
 xdg-desktop-portal-kde
 fwupd
+pamac-cli
+octopi
 
 ## Printing
 #>extra cups
@@ -109,7 +111,6 @@ fwupd
 #>extra splix
 
 ## Optional dependencies for hplip
-#>extra pyqt5-common
 #>extra python-pillow
 #>extra python-pip
 #>extra python-pyqt5
@@ -157,8 +158,8 @@ breeze-icons-git
 gnome-icon-theme
 gnome-themes-standard
 #gtk-theme-breath
->extra oxygen-git
->extra oxygen-icons-git
+oxygen-git
+oxygen-icons-git
 #plasma5-themes-breath  # Default
 #sddm-breath-theme  # Default
 grub-theme-manjaro
@@ -256,15 +257,14 @@ inxi
 #>extra libreoffice-fresh
 >extra calligra
 #manjaro-hello
-#manjaro-settings-manager-kcm
-#manjaro-settings-manager-knotifier
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
 powertop
 #>extra qbittorrent
 screenfetch
 systemd-kcm
 #>extra thunderbird
 vlc
-#vlc-nightly
 yakuake
 
 ## Optional dependencis for cantata

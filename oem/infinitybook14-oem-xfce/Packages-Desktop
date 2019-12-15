@@ -101,7 +101,6 @@ bauh
 >extra system-config-printer
 
 ## Optional dependencies for hplip
->extra pyqt5-common # For hplip
 >extra python-pillow # For hplip
 >extra python-pip # For hplip
 >extra python-pyqt5  # For hplip gui
@@ -176,6 +175,7 @@ xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 xfce4-pulseaudio-plugin
 pavucontrol
+xcape
 
 ## Themes
 >extra manjaro-wallpapers-18.0

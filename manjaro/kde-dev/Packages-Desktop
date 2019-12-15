@@ -113,7 +113,6 @@ octopi
 >extra splix
 
 ## Optional dependencies for hplip
->extra pyqt5-common
 >extra python-pillow
 >extra python-pip
 >extra python-pyqt5

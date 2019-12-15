@@ -108,7 +108,6 @@ pamac
 >extra system-config-printer
 
 ## Optional dependencies for hplip
->extra pyqt5-common # For hplip
 >extra python-pillow # For hplip
 >extra python-pip # For hplip
 >extra python-pyqt5  # For hplip gui

@@ -127,7 +127,7 @@ plasma-settings # Settings application and modules.
 plasma-camera # Camera application.
 marble # Maps application.
 koko # Gallery application.
-#vvave # Music player.
+vvave # Music player.
 okular # Document Viewer.
 #discover # Software Center.
 plasma-angelfish # Webbrowser for phones.
@@ -139,7 +139,7 @@ peruse # A comic book viewer.
 calindori # Calendar and todo management application.
 #plasmatube # Work-in-progress youtube client.
 index # File manager.
-#plasma-pix # Maui Image Gallery.
+plasma-pix # Maui Image Gallery.
 #qrca # QR Code scanner.
 keysmith # OTP client.
 plasma-nano
