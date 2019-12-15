@@ -162,6 +162,7 @@ numlockx
 powertop
 
 ##------------> network
+firewalld
 network-manager-applet
 networkmanager-qt
 openresolv
