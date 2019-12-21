@@ -87,40 +87,38 @@ terminus-font
 >extra ttf-droid
 
 ## Games
->extra steam-manjaro
+#>extra steam-manjaro
 
 ## Package management
-appimagelauncher
+#appimagelauncher
 packagekit-qt5
 discover-git
 flatpak
-#fwupd 
+xdg-desktop-portal
+xdg-desktop-portal-kde
+fwupd
+pamac-cli
 octopi
-#octopi-cachecleaner
-#octopi-repoeditor
-#octopi-notifier-frameworks
-#pamac-qt
-#manjaro-application-utility
 
 ## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gtk3-print-backends
->extra hplip
->extra splix
+#>extra cups
+#>extra cups-pdf
+#>extra cups-pk-helper
+#>extra ghostscript
+#>extra gsfonts
+#>extra gtk3-print-backends
+#>extra hplip
+#>extra splix
 
 ## Optional dependencies for hplip
->extra python-pillow
->extra python-pip
->extra python-pyqt5
->extra python-reportlab
+#>extra python-pillow
+#>extra python-pip
+#>extra python-pyqt5
+#>extra python-reportlab
 
 ## Optional dependencies for print-manager
->extra system-config-printer  # auto-detect the printer driver
->extra python-pysmbc          # SMB browser support
+#>extra system-config-printer  # auto-detect the printer driver
+#>extra python-pysmbc          # SMB browser support
 
 ## Display manager
 sddm
@@ -156,17 +154,18 @@ user-manager-git
 ## Themes QT/GTK/SDDM
 breeze-git
 breeze-gtk-git
+breeze-icons-git
 gnome-icon-theme
 gnome-themes-standard
-gtk-theme-breath
->extra oxygen-git
->extra oxygen-icons-git
-plasma5-themes-breath  # Default
-sddm-breath-theme  # Default
+#gtk-theme-breath
+oxygen-git
+oxygen-icons-git
+#plasma5-themes-breath  # Default
+#sddm-breath-theme  # Default
 grub-theme-manjaro
-illyria-wallpaper
->extra wallpapers-2018
->extra manjaro-wallpapers-18.0
+#illyria-wallpaper
+#>extra wallpapers-2018
+#>extra manjaro-wallpapers-18.0
 
 ## Better systray/notifications support
 #>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
@@ -197,9 +196,9 @@ konsole
 konversation
 ksystemlog
 kwalletmanager
-gwenview
+#gwenview
 partitionmanager3
->extra print-manager
+#>extra print-manager
 >extra skanlite
 spectacle
 
@@ -217,8 +216,8 @@ ffmpegthumbs              # video thumbnails
 ruby                      # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
-kimageformats     # support for dds, xcf, exr, psd, and more image formats
-qt5-imageformats  # support for tiff, webp, and more image formats
+#kimageformats     # support for dds, xcf, exr, psd, and more image formats
+#qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for k3b
 #>extra cdparanoia    # for cd ripping support
@@ -249,24 +248,23 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 #>extra cantata
 dmidecode # for inxi -m output
 htop
-imagewriter
+#imagewriter
 inxi
 #>extra krita
 >extra firefox
 >basic falkon
-ms-office-online
+#ms-office-online
 #>extra libreoffice-fresh
 >extra calligra
-manjaro-hello
+#manjaro-hello
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
 #>extra qbittorrent
 screenfetch
 systemd-kcm
->extra thunderbird
+#>extra thunderbird
 vlc
-#vlc-nightly
 yakuake
 
 ## Optional dependencis for cantata
@@ -278,12 +276,12 @@ yakuake
 #>extra jdk8-openjdk
 
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-kde-settings
->basic manjaro-kde-minimal-settings
-manjaro-browser-settings
+#>extra manjaro-kde-settings
+#>basic manjaro-kde-minimal-settings
+#manjaro-browser-settings
 
 ## Xorg Input Drivers
 xf86-input-elographics
@@ -314,8 +312,3 @@ xdg-su
 
 ## Misc
 manjaro-hotfixes
-
-## Flatpak support
-#>extra flatpak
-#>extra xdg-desktop-portal
-#>extra xdg-desktop-portal-kde
