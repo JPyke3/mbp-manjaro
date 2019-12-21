@@ -224,9 +224,7 @@ manjaro-zsh-config
 ## Xorg Input Drivers
 >extra xf86-input-elographics
 >extra xf86-input-evdev
->extra xf86-input-keyboard
 >extra xf86-input-libinput
->extra xf86-input-mouse
 >extra xf86-input-void
 
 ## Xorg Server and Graphics
