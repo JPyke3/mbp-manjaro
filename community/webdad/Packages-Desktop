@@ -112,7 +112,6 @@ mattercontrol
 #avrdude
 
 ## Optional dependencies for hplip
->extra pyqt5-common # For hplip
 >extra python-pillow # For hplip
 >extra python-pip # For hplip
 >extra python-pyqt5  # For hplip gui
@@ -226,9 +225,7 @@ manjaro-browser-settings-native
 ## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
-xf86-input-keyboard
 xf86-input-libinput
-xf86-input-mouse
 xf86-input-void
 xf86-input-wacom
 xf86-input-synaptics

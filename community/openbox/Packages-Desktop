@@ -236,7 +236,7 @@ ttf-roboto
 
 ##---------> core
 arandr
-compton
+picom
 conky-lua-nv
 dunst
 exo-gtk3

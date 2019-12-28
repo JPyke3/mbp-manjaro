@@ -114,7 +114,6 @@ pamac-tray-appindicator
 >extra system-config-printer
 
 ## Optional dependencies for hplip
->extra pyqt5-common
 >extra python-pillow
 >extra python-pip
 >extra python-pyqt5
@@ -287,9 +286,7 @@ manjaro-browser-settings
 ## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
-xf86-input-keyboard
 xf86-input-libinput
-xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
@@ -319,4 +316,4 @@ manjaro-hotfixes
 
 ## OEM
 calamares-oem-modules
-calamares-oem-bldbk-settings
+calamares-oem-bldbk-kde-settings

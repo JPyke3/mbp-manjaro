@@ -105,7 +105,6 @@ pamac
 >extra system-config-printer
 
 ## Optional dependencies for hplip
->extra pyqt5-common # For hplip
 >extra python-pillow # For hplip
 >extra python-pip # For hplip
 >extra python-pyqt5  # For hplip gui
@@ -116,10 +115,6 @@ lightdm
 lightdm-slick-greeter
 lightdm-settings
 accountsservice  # Enhanced user accounts handling
-
-## GTK3
-gtk3-classic
->multilib lib32-gtk3-classic
 
 ## XFCE Group
 exo-gtk3
@@ -252,9 +247,7 @@ manjaro-browser-settings
 ## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
-xf86-input-keyboard
 xf86-input-libinput
-xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics

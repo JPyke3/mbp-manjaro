@@ -16,7 +16,6 @@
 >extra firefox
 >extra gestures
 >extra gnome-disk-utility
->extra gtk3-classic
 >extra gufw
 >extra gvfs
 >extra gvfs-afc
@@ -113,9 +112,7 @@ xdg-user-dirs
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
-xf86-input-keyboard
 xf86-input-libinput
-xf86-input-mouse
 xf86-input-void
 xorg-server
 xorg-xinit

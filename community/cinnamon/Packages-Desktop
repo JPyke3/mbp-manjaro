@@ -32,11 +32,13 @@ flex
 >extra git
 >extra gnome-disk-utility
 gnome-keyring
+>extra gnome-online-accounts
 >extra gnome-screenshot
 gnome-system-log
 >extra gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
+gnu-free-fonts
 >extra gparted
 >extra gprename
 grub-theme-manjaro-dev
@@ -144,9 +146,7 @@ xdg-utils
 xed
 xf86-input-elographics
 xf86-input-evdev
-xf86-input-keyboard
 xf86-input-libinput
-xf86-input-mouse
 xf86-input-void
 xorg-twm
 xorg-xinit
