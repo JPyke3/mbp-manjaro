@@ -163,15 +163,12 @@ systemsettings
 user-manager
 
 ## Themes QT/GTK/SDDM
-#breeze
-#breeze-gtk
 gnome-icon-theme
 gnome-themes-standard
-gtk-theme-breath
 oxygen # needed to provide KDE system sounds
 oxygen-icons
-plasma5-themes-breath  # Default
-sddm-breath-theme  # Default
+plasma5-themes-breath2
+sddm-breath2-theme
 grub-theme-manjaro
 illyria-wallpaper
 >extra wallpapers-juhraya
@@ -292,8 +289,8 @@ yakuake
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-kde-settings
->basic manjaro-kde-minimal-settings
+>extra manjaro-kde-settings-dev
+>basic manjaro-kde-minimal-settings-dev
 manjaro-browser-settings
 
 ## Xorg Input Drivers
