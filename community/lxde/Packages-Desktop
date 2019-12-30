@@ -1,11 +1,6 @@
 ##################################
 ## extra packages
 
-##------------> Java
-#>extra jdk8-openjdk
-#>extra jre8-openjdk-headless
-#>extra jre8-openjdk
-
 ##------------> Printing Support
 ## manjaro-printer meta package
 >extra cups
@@ -23,13 +18,6 @@
 ##------------> Scanner Support
 >extra simple-scan
 
-##------------> Extra Fonts
-#>extra ttf-bitstream-vera
-#>extra ttf-inconsolata
-#>extra ttf-indic-otf
-#>extra ttf-liberation
-#>extra ttf-droid
-
 ##------------> Extra Applications
 >extra guvcview
 >extra transmission-gtk
@@ -41,16 +29,7 @@
 
 ##------------> Network
 >extra avahi
->extra networkmanager-openconnect
->extra networkmanager-pptp
->extra networkmanager-vpnc
->extra networkmanager-dispatcher-ntpd
 >extra nss-mdns # NSS support for mDNS (optdepend for avahi)
->extra mobile-broadband-provider-info
->extra modemmanager
->extra openssh
->extra samba
->extra usb_modeswitch
 
 ##------------> Libraries for Sound/Audio/Video
 >extra ffmpeg
@@ -67,23 +46,6 @@
 >extra pulseaudio-ctl
 >extra pulseaudio-zeroconf
 
-
-##------------> Connect Packages
->extra android-tools
->extra android-udev
->extra gvfs-afc
->extra gvfs-gphoto2
->extra gvfs
->extra gvfs-mtp
->extra gvfs-nfs
->extra gvfs-smb
->extra mtpfs
->extra udiskie
->extra udisks2
-
-##------------> screen lock
->extra light-locker
-
 ##------------> network
 >extra blueberry
 >extra bluez
@@ -91,10 +53,9 @@
 
 ##------------> file utilites
 >extra ffmpegthumbnailer  # tumbler - for video thumbnails
-#>extra gconf              # fix qt-theme
 >extra libgsf             # tumbler - for ODF thumbnails
 >extra libopenraw         # tumbler - for RAW thumbnails
->extra poppler-data   #CKJ support for pdf
+>extra poppler-data       # CKJ support for pdf
 
 ##------------> Optional dependencies engrampa
 >extra p7zip  # 7Z and ARJ archive support
@@ -107,26 +68,39 @@
 ##------------> xfce utils
 >extra manjaro-lxde-xfce4-notifyd
 >extra manjaro-lxde-xfce4-volumed-pulse
-#>extra xfce4-notifyd
->extra xfce4-notifyd-gtk3
-#>extra xfce4-power-manager
->extra xfce4-power-manager-gtk3
+>extra xfce4-notifyd
+>extra xfce4-power-manager
 >extra xfce4-volumed-pulse
 
 ############################################
 ## minimal / base packages
 
+##------------> screen lock
+light-locker
+
+##------------> Connect Packages
+android-tools
+android-udev
+gvfs-afc
+gvfs-gphoto2
+gvfs
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+
 ##------------> Power manager
 tlp-rdw
 tlpui
 
-##------------> Extra Themes/Artwork
+##------------> Artwork
 lxde-wallpapers
 
 ##------------> theming and settings
 manjaro-lxde-config
 manjaro-lxde-desktop-settings
-
 manjaro-lxde-logout-banner
 manjaro-zsh-config
 
@@ -140,7 +114,6 @@ xcursor-breeze
 
 ##------------> utilities
 engrampa
-#galculator-gtk2
 galculator
 gnome-disk-utility
 gparted
@@ -161,9 +134,6 @@ gpicview
 leafpad
 
 ##------------> text editor cli
-dash
-micro-manjaro
-terminus-font
 vim
 
 ##------------> user information
@@ -212,30 +182,21 @@ network-manager-applet
 networkmanager
 networkmanager-openvpn
 openresolv
+openssh
 
 ##------------> filemanager
-#pcmanfm
 pcmanfm-gtk3
 
 ##------------> core
-#lxappearance
 lxappearance-gtk3
-#lxappearance-obconf
-#lxappearance-obconf-gtk3
 obconf
 lxde-common
 lxhotkey
-#lxinput
 lxinput-gtk3
-#lxlauncher
 lxlauncher-gtk3
-#lxpanel
 lxpanel-gtk3
-#lxrandr
 lxrandr-gtk3
-#lxsession
 lxsession-gtk3
-#lxtask
 lxtask-gtk3
 lxterminal
 perl-file-mimeinfo
