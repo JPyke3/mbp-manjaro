@@ -183,6 +183,7 @@ networkmanager
 networkmanager-openvpn
 openresolv
 openssh
+python-pyqt5    # firewalld applet dependency
 
 ##------------> filemanager
 pcmanfm-gtk3
@@ -236,10 +237,10 @@ gnome-keyring
 gtk3
 manjaro-hotfixes
 python2-xdg
+python-xdg
 squashfs-tools
 xdg-user-dirs
 xdg-utils
-xdg-su
 
 ##------------> Xorg Input Drivers
 xf86-input-libinput

@@ -36,7 +36,6 @@
 >extra gutenprint
 >extra hplip
 >extra python-gobject
->extra python-pyqt5
 >extra splix
 >extra system-config-printer
 
@@ -156,7 +155,7 @@ udisks2
 
 ##---------> GUI file manager
 pcmanfm-gtk3
-thunar-gtk3
+thunar
 
 ##---------> CLI file manager
 mc
@@ -206,6 +205,7 @@ networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
 openresolv
+python-pyqt5   # for firewalld applet dependency
 
 ##---------> display manager and greeter
 lightdm
@@ -305,7 +305,7 @@ gtk3
 manjaro-hotfixes
 polkit
 polkit-gnome
-python2-xdg
+python-xdg
 squashfs-tools
 xdg-user-dirs
 xdg-user-dirs-gtk
