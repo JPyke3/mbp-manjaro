@@ -251,12 +251,11 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 ## Applications
 >extra cantata
 dmidecode # for inxi -m output
+firefox
 htop
 imagewriter
 inxi
->extra krita
->extra firefox
->basic falkon
+#>extra krita
 ms-office-online
 #>extra freeoffice
 #>extra libreoffice-still
