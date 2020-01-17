@@ -259,8 +259,7 @@ htop
 imagewriter
 inxi
 #>extra krita
->extra firefox
->basic falkon
+firefox
 #ms-office-online
 #>extra freeoffice
 #>extra libreoffice-still
