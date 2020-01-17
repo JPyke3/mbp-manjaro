@@ -71,7 +71,6 @@ udisks2
 >extra git
 >extra patchutils
 >extra subversion
-#yaourt
 
 ## Fonts
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
@@ -91,7 +90,7 @@ terminus-font
 >x86_64 >extra steam-manjaro
 
 ## Package management
-#appimagelauncher
+>extra appimagelauncher
 pamac
 pamac-tray-appindicator
 pamac-cli
@@ -156,6 +155,7 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
+plasma-simplemenu
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
@@ -167,7 +167,6 @@ gnome-icon-theme
 gnome-themes-standard
 oxygen # needed to provide KDE system sounds
 oxygen-icons
-plasma5-themes-breath2
 sddm-breath2-theme
 grub-theme-manjaro
 illyria-wallpaper
@@ -175,16 +174,13 @@ illyria-wallpaper
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
 
-## Better systray/notifications support
-#>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
-
 ## KDE Applications
 ark
 #>extra digikam
 dolphin
 dolphin-plugins
 >extra filelight
-#>extra k3b
+>extra k3b
 kate
 kcalc
 >extra keditbookmarks
@@ -253,7 +249,7 @@ sshfs  # remote filesystem browser
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
-#>extra cantata
+>extra cantata
 dmidecode # for inxi -m output
 htop
 imagewriter
@@ -263,22 +259,20 @@ firefox
 #ms-office-online
 #>extra freeoffice
 #>extra libreoffice-still
-#>extra calligra
 manjaro-hello
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
-#>extra qbittorrent
+>extra qbittorrent
 screenfetch
 systemd-kcm
 >extra thunderbird
 >extra vlc
-#vlc-nightly
 yakuake
 
 ## Optional dependencis for cantata
-#>extra mpd       # playback
-#>extra perl-uri  # dynamic playlist
+>extra mpd       # playback
+>extra perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
 #>extra jre8-openjdk
@@ -288,8 +282,7 @@ yakuake
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-kde-settings-dev
->basic manjaro-kde-minimal-settings-dev
+manjaro-kde-settings-dev
 manjaro-browser-settings
 
 ## Xorg Input Drivers
