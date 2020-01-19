@@ -9,12 +9,13 @@ gthumb
 evince
 >basic epiphany
 >extra firefox
+>extra rygel
 gdm
 manjaro-gdm-tweak
-manjaro-gdm-theme #branding theme for GDM: 18.0 
-gedit 
+manjaro-gdm-theme-dev #branding theme for GDM: 19.0 
+gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
-manjaro-gnome-vanilla
+#manjaro-gnome-vanilla
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
@@ -77,12 +78,12 @@ manjaro-artwork
 illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
-manjaro-gnome-assets
->extra gnome-layout-switcher
+manjaro-gnome-assets-19.0
+>extra gnome-layout-switcher-dev
 grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
-manjaro-hello
+manjaro-hello-dev
 manjaro-application-utility
 mesa-demos
 mobile-broadband-provider-info
@@ -175,21 +176,4 @@ yelp
 >extra timeshift
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
-
-#AUR complete support ( base devel + yaourt )
-#>extra autoconf
-#>extra automake
-#>extra binutils
-#>extra bison
-#>extra fakeroot
-#>extra flex
-#>extra gcc
-#>extra >multilib gcc-libs-multilib
-#>extra >multilib gcc-multilib
-#>extra libtool
-#>extra m4
-#>extra make
-#>extra patch
-#>extra subversion
-#>extra yaourt
 >extra manjaro-aur-support #introduce for testing in community
