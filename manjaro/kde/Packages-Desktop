@@ -266,6 +266,7 @@ powertop
 >extra qbittorrent
 screenfetch
 systemd-kcm
+>extra plasma5-applets-redshift-control
 >extra thunderbird
 >extra vlc
 yakuake
