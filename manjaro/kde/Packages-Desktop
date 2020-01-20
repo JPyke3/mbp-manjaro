@@ -316,7 +316,6 @@ xdg-su
 >extra kernel-alive
 
 ## Misc
-bashrc-manjaro-plasma # workaround for envars not being exported from ~/.profile in plasma
 manjaro-hotfixes
 >basic squashfs-tools
 
