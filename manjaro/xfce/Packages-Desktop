@@ -149,7 +149,6 @@ menulibre
 orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
-file-roller
 thunar-media-tags-plugin
 # >extra xfce4-artwork
 xfce4-battery-plugin
