@@ -17,7 +17,7 @@ wallpapers-2018
 mate-icon-theme
 papirus-maia-icon-theme
 matcha-gtk-theme
-kvantum-theme-matcha
+kvantum-theme-matchama
 xcursor-breeze
 mate
 marco
@@ -118,7 +118,7 @@ caja-open-terminal
 >extra gtk3-print-backends
 >extra manjaro-documentation-en
 >extra mate-themes
->extra mate-tweak
+#>extra mate-tweak
 >extra mate-screensaver
 #>extra libreoffice-fresh
 >extra thunderbird
