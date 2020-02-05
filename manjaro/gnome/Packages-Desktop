@@ -172,9 +172,11 @@ yelp
 >extra jre8-openjdk-headless
 >extra libdvdcss
 >x86_64 >extra steam-manjaro
->extra manjaro-printer
+#>extra manjaro-printer
+>extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 >extra manjaro-aur-support #introduce for testing in community
+
