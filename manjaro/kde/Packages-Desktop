@@ -112,14 +112,8 @@ pamac-cli
 manjaro-application-utility
 
 ## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
+>extra manjaro-printer
 >extra gtk3-print-backends
->extra hplip
->extra splix
 
 ## Optional dependencies for hplip
 >extra python-pillow
