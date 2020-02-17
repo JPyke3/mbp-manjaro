@@ -223,6 +223,7 @@ screenfetch
 >extra poppler-data  # CKJ support for pdf
 >basic sylpheed # mail client
 >extra thunderbird
+tlpui
 >extra vlc
 >extra viewnior
 >extra xfburn
