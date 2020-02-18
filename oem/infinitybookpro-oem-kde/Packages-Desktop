@@ -113,24 +113,7 @@ pamac-cli
 manjaro-application-utility
 
 ## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gtk3-print-backends
->extra hplip
->extra splix
-
-## Optional dependencies for hplip
->extra python-pillow
->extra python-pip
->extra python-pyqt5
->extra python-reportlab
-
-## Optional dependencies for print-manager
->extra system-config-printer  # auto-detect the printer driver
->extra python-pysmbc          # SMB browser support
+manjaro-printer
 
 ## Display manager
 sddm
@@ -258,6 +241,8 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
 >extra cantata
+crossover
+crossover-extras
 dmidecode # for inxi -m output
 htop
 imagewriter
