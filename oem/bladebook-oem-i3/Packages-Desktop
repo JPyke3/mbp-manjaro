@@ -33,7 +33,7 @@ gcolor2
 gconf
 >extra gimp
 >extra git
-gksu-polkit
+zensu
 gnome-keyring
 >extra gparted
 groff

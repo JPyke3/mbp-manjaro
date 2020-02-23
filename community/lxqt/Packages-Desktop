@@ -189,7 +189,7 @@ freetype2
 
 ##------------> system
 accountsservice
-gksu-polkit
+zensu
 gnome-keyring
 manjaro-hotfixes
 perl-file-mimeinfo
