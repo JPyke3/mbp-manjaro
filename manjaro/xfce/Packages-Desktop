@@ -97,21 +97,7 @@ pamac
 >extra jre8-openjdk
 
 ## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gtk3-print-backends
->extra hplip
->extra splix
->extra system-config-printer
-
-## Optional dependencies for hplip
->extra python-pillow # For hplip
->extra python-pip # For hplip
->extra python-pyqt5  # For hplip gui
->extra python-reportlab # For hplip
+>extra manjaro-printer
 
 ## Display manager
 lightdm
@@ -149,7 +135,6 @@ menulibre
 orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
-file-roller
 thunar-media-tags-plugin
 # >extra xfce4-artwork
 xfce4-battery-plugin

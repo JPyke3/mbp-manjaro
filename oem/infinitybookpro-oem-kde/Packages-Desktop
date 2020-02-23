@@ -113,24 +113,7 @@ pamac-cli
 manjaro-application-utility
 
 ## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gtk3-print-backends
->extra hplip
->extra splix
-
-## Optional dependencies for hplip
->extra python-pillow
->extra python-pip
->extra python-pyqt5
->extra python-reportlab
-
-## Optional dependencies for print-manager
->extra system-config-printer  # auto-detect the printer driver
->extra python-pysmbc          # SMB browser support
+manjaro-printer
 
 ## Display manager
 sddm
@@ -156,6 +139,7 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
+plasma-simplemenu
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
@@ -187,7 +171,7 @@ ark
 dolphin
 dolphin-plugins
 >extra filelight
-#>extra k3b
+>extra k3b
 kate
 kcalc
 >extra keditbookmarks
@@ -231,12 +215,12 @@ kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for k3b
-#>extra cdparanoia    # for cd ripping support
-#>extra cdrdao        # for disk-at-once (DAO) mode support
-#>extra dvd+rw-tools  # for dvd burning support
-#>extra emovix        # for bootable multimedia cd/dvd support
-#>extra transcode     # for advanced mpeg conversion support
-#>extra vcdimager     # for vcd burning support
+>extra cdparanoia    # for cd ripping support
+>extra cdrdao        # for disk-at-once (DAO) mode support
+>extra dvd+rw-tools  # for dvd burning support
+>extra emovix        # for bootable multimedia cd/dvd support
+>extra transcode     # for advanced mpeg conversion support
+>extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -256,14 +240,15 @@ sshfs  # remote filesystem browser
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
-#>extra cantata
+>extra cantata
+crossover
+crossover-extras
 dmidecode # for inxi -m output
 htop
 imagewriter
 inxi
 #>extra krita
->extra firefox
->basic falkon
+firefox
 #ms-office-online
 #>extra freeoffice
 #>extra libreoffice-still
@@ -272,7 +257,7 @@ manjaro-hello
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
-#>extra qbittorrent
+>extra qbittorrent
 screenfetch
 systemd-kcm
 >extra thunderbird
@@ -281,8 +266,8 @@ systemd-kcm
 yakuake
 
 ## Optional dependencis for cantata
-#>extra mpd       # playback
-#>extra perl-uri  # dynamic playlist
+>extra mpd       # playback
+>extra perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
 #>extra jre8-openjdk
@@ -325,7 +310,10 @@ xdg-su
 >extra kernel-alive
 
 ## Misc
+bootsplash-theme-manjaro
+bootsplash-systemd
 manjaro-hotfixes
+tlpui
 tuxedo-keyboard-dkms
 KERNEL-headers
 

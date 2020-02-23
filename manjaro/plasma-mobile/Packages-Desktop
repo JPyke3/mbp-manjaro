@@ -1,117 +1,17 @@
-## Network
-avahi
-networkmanager
-#networkmanager-openconnect
-#networkmanager-openvpn
-#networkmanager-pptp
-#networkmanager-vpnc
-nss-mdns # NSS support for mDNS (optdepend for avahi)
-ntp
-mobile-broadband-provider-info
-modemmanager
-openresolv
+# Minimal packages
+sudo
+parted
 openssh
-samba
-usb_modeswitch
-
-## Libraries for Sound/Audio/Video
-alsa-firmware
-alsa-utils
-ffmpeg
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-libcanberra
->multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
-libcanberra-gstreamer
-libdvdcss
-manjaro-alsa
-manjaro-pulse
-phonon-qt5-gstreamer
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
-
-## Connect Packages
-android-tools
-android-udev
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-kamera
-mtpfs
-udiskie
-udisks2
-
-## AUR Support/Development
-# Missing base-devel packages
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra pkg-config
->extra >multilib lib32-flex
-# Extra packages for AUR support
->extra git
->extra patchutils
->extra subversion
-#yaourt
-
-## Fonts
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
-noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
->extra noto-fonts-emoji
-terminus-font
->extra ttf-bitstream-vera
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
-# ttf-hack               # Installed as plasma-integration dependency
->extra ttf-inconsolata
->extra ttf-indic-otf
->extra ttf-liberation
->extra ttf-droid
-
-## Xorg Input Drivers
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-libinput
-xf86-input-void
-
-## Xorg Server and Graphics
->multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
-libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
-mesa-demos
->multilib lib32-mesa-demos
-numlockx
-xdg-user-dirs
-xorg-server
-xorg-server-xwayland
-xorg-twm
-xorg-xinit
-xorg-xkill
+haveged
+inxi
+ncdu
+nano
+dhcpcd
+man-pages
+manjaro-icons
 
 ## Themes
-
+breeze
 breath-icon-theme
 plasma5-themes-breath
 sddm-breath-theme
@@ -141,6 +41,17 @@ plasma-pix # Maui Image Gallery.
 #qrca # QR Code scanner.
 keysmith # OTP client.
 plasma-nano
+plasma-mobile-nm
+plasma-pa
+
+# Regular Plasma packages
+bluedevil
+kirigami-gallery
+#kwallet-pam
+polkit-kde-agent
+powerdevil
+kscreen
+xdg-desktop-portal-kde
 
 ## Plasma phone components
 #simplelogin # Display manager for launching the plasma-phone shell
@@ -159,5 +70,11 @@ konsole
 ## Maui Applications
 dialer
 
-## Optional dependencies for okular
-poppler-data  # encoding data to display PDF documents containing CJK characters
+# Wayland stuff
+kwayland
+kwayland-integration
+xorg-server-xwayland
+qt5-virtualkeyboard
+
+# Other
+tlp

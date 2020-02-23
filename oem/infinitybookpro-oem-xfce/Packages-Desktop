@@ -90,21 +90,7 @@ bauh
 >extra jre8-openjdk
 
 ## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gtk3-print-backends
->extra hplip
->extra splix
->extra system-config-printer
-
-## Optional dependencies for hplip
->extra python-pillow # For hplip
->extra python-pip # For hplip
->extra python-pyqt5  # For hplip gui
->extra python-reportlab # For hplip
+>extra manjaro-printer
 
 ## Display manager
 lightdm
@@ -192,6 +178,8 @@ wallpapers-tuxedo
 
 ## Applications
 >extra catfish
+crossover
+crossover-extra
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
@@ -223,6 +211,7 @@ screenfetch
 >extra poppler-data  # CKJ support for pdf
 >basic sylpheed # mail client
 >extra thunderbird
+tlpui
 >extra vlc
 >extra viewnior
 >extra xfburn

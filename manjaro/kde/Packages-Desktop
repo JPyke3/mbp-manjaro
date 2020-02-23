@@ -71,7 +71,6 @@ udisks2
 >extra git
 >extra patchutils
 >extra subversion
-#yaourt
 
 ## Fonts
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
@@ -91,7 +90,7 @@ terminus-font
 >x86_64 >extra steam-manjaro
 
 ## Package management
-#appimagelauncher
+>extra appimagelauncher
 pamac
 pamac-tray-appindicator
 pamac-cli
@@ -113,14 +112,8 @@ pamac-cli
 manjaro-application-utility
 
 ## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
+>extra manjaro-printer
 >extra gtk3-print-backends
->extra hplip
->extra splix
 
 ## Optional dependencies for hplip
 >extra python-pillow
@@ -156,6 +149,7 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
+plasma-simplemenu
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
@@ -163,23 +157,16 @@ systemsettings
 user-manager
 
 ## Themes QT/GTK/SDDM
-#breeze
-#breeze-gtk
 gnome-icon-theme
 gnome-themes-standard
-gtk-theme-breath
 oxygen # needed to provide KDE system sounds
 oxygen-icons
-plasma5-themes-breath  # Default
-sddm-breath-theme  # Default
+sddm-breath2-theme
 grub-theme-manjaro
 illyria-wallpaper
 >extra wallpapers-juhraya
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
-
-## Better systray/notifications support
-#>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 
 ## KDE Applications
 ark
@@ -187,7 +174,7 @@ ark
 dolphin
 dolphin-plugins
 >extra filelight
-#>extra k3b
+>extra k3b
 kate
 kcalc
 >extra keditbookmarks
@@ -201,6 +188,7 @@ kdenetwork-filesharing
 #>extra kdenlive
 kde-servicemenus-rootactions
 khelpcenter
+khotkeys
 kio-extras
 #>extra kleopatra
 konsole
@@ -208,7 +196,7 @@ konversation
 ksystemlog
 kwalletmanager
 gwenview
-partitionmanager3
+partitionmanager
 >extra print-manager
 >extra skanlite
 spectacle
@@ -231,12 +219,12 @@ kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for k3b
-#>extra cdparanoia    # for cd ripping support
-#>extra cdrdao        # for disk-at-once (DAO) mode support
-#>extra dvd+rw-tools  # for dvd burning support
-#>extra emovix        # for bootable multimedia cd/dvd support
-#>extra transcode     # for advanced mpeg conversion support
-#>extra vcdimager     # for vcd burning support
+>extra cdparanoia    # for cd ripping support
+>extra cdrdao        # for disk-at-once (DAO) mode support
+>extra dvd+rw-tools  # for dvd burning support
+>extra emovix        # for bootable multimedia cd/dvd support
+>extra transcode     # for advanced mpeg conversion support
+>extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -256,33 +244,31 @@ sshfs  # remote filesystem browser
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
-#>extra cantata
+>extra cantata
 dmidecode # for inxi -m output
+firefox
 htop
 imagewriter
 inxi
 #>extra krita
->extra firefox
->basic falkon
 #ms-office-online
 #>extra freeoffice
 #>extra libreoffice-still
-#>extra calligra
 manjaro-hello
+manjaro-application-utility
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
-#>extra qbittorrent
+>extra qbittorrent
 screenfetch
 systemd-kcm
 >extra thunderbird
 >extra vlc
-#vlc-nightly
 yakuake
 
 ## Optional dependencis for cantata
-#>extra mpd       # playback
-#>extra perl-uri  # dynamic playlist
+>extra mpd       # playback
+>extra perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
 #>extra jre8-openjdk
@@ -292,8 +278,7 @@ yakuake
 manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-kde-settings
->basic manjaro-kde-minimal-settings
+manjaro-kde-settings-19.0
 manjaro-browser-settings
 
 ## Xorg Input Drivers

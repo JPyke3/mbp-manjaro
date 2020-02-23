@@ -1,4 +1,5 @@
 adwaita-icon-theme
+adwaita-maia
 alsa-firmware
 >extra apparmor
 baobab
@@ -9,12 +10,14 @@ gthumb
 evince
 >basic epiphany
 >extra firefox
+>extra firefox-gnome-theme-maia
+>extra rygel
 gdm
 manjaro-gdm-tweak
-manjaro-gdm-theme #branding theme for GDM: 18.0 
-gedit 
+manjaro-gdm-theme-19.0 #branding theme for GDM: 19.0 
+gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
-manjaro-gnome-vanilla
+#manjaro-gnome-vanilla
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
@@ -30,6 +33,8 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
+gnome-shell-extension-nightshellswitcher
+gnome-shell-extension-nightthemeswitcher
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
@@ -76,10 +81,10 @@ manjaro-artwork
 >extra wallpapers-juhraya
 illyria-wallpaper
 manjaro-browser-settings
+manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
-manjaro-gnome-assets
+manjaro-gnome-assets-19.0
 >extra gnome-layout-switcher
-grub-theme-manjaro #grub theme for installed S.O.
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
@@ -170,26 +175,11 @@ yelp
 >extra jre8-openjdk-headless
 >extra libdvdcss
 >x86_64 >extra steam-manjaro
->extra manjaro-printer
+#>extra manjaro-printer
+>extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
-
-#AUR complete support ( base devel + yaourt )
-#>extra autoconf
-#>extra automake
-#>extra binutils
-#>extra bison
-#>extra fakeroot
-#>extra flex
-#>extra gcc
-#>extra >multilib gcc-libs-multilib
-#>extra >multilib gcc-multilib
-#>extra libtool
-#>extra m4
-#>extra make
-#>extra patch
-#>extra subversion
-#>extra yaourt
 >extra manjaro-aur-support #introduce for testing in community
+
