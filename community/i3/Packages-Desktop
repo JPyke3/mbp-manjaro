@@ -31,7 +31,7 @@ flex
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
 gcolor2
-gconf
+#gconf
 >extra gimp
 >extra git
 gnome-keyring
