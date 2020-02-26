@@ -52,68 +52,74 @@ udisks2
 
 ## AUR Support/Development
 # Missing base-devel packages
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra pkg-config
->extra >multilib lib32-flex
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+>multilib gcc-libs-multilib
+>multilib gcc-multilib
+libtool
+m4
+make
+patch
+pkg-config
+>multilib lib32-flex
 # Extra packages for AUR support
->extra git
->extra patchutils
->extra subversion
-#yaourt
+git
+patchutils
+subversion
 
 ## Fonts
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
->extra noto-fonts-emoji
+noto-fonts-emoji
 terminus-font
->extra ttf-bitstream-vera
+ttf-bitstream-vera
 # ttf-dejavu             # Installed as gnome-themes-standard dependency
 # ttf-hack               # Installed as plasma-integration dependency
->extra ttf-inconsolata
->extra ttf-indic-otf
->extra ttf-liberation
->extra ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+ttf-droid
 
 ## Games
->x86_64 >extra steam-manjaro
+>x86_64 steam-manjaro
 
 ## Package management
-#appimagelauncher
+appimagelauncher
 pamac
 pamac-tray-appindicator
 pamac-cli
->extra apparmor
->extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
+apparmor
+snapd
+snapd-glib
+pamac-snap-plugin
 #discover-snap
 #discover
 #packagekit-qt5
->extra flatpak
->extra bauh
->extra fwupd 
-#octopi
-#octopi-cachecleaner
-#octopi-repoeditor
-#octopi-notifier-frameworks
+flatpak
+bauh
+fwupd
 #pamac-qt
 manjaro-application-utility
 
 ## Printing
 manjaro-printer
+gtk3-print-backends
+
+## Optional dependencies for hplip
+python-pillow
+python-pip
+python-pyqt5
+python-reportlab
+
+## Optional dependencies for print-manager
+system-config-printer  # auto-detect the printer driver
+python-pysmbc          # SMB browser support
 
 ## Display manager
 sddm
@@ -141,7 +147,7 @@ plasma-nm
 plasma-pa
 plasma-simplemenu
 plasma-workspace
->extra plasma-workspace-wallpapers
+plasma-workspace-wallpapers
 powerdevil
 systemsettings
 user-manager
@@ -157,44 +163,45 @@ oxygen-icons
 sddm-breath2-theme
 grub-theme-manjaro
 illyria-wallpaper
->extra wallpapers-juhraya
->extra wallpapers-2018
->extra manjaro-wallpapers-18.0
+wallpapers-juhraya
+wallpapers-2018
+manjaro-wallpapers-18.0
 wallpapers-tuxedo
 
 ## Better systray/notifications support
-#>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
+#sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 
 ## KDE Applications
 ark
-#>extra digikam
+#digikam
 dolphin
 dolphin-plugins
->extra filelight
->extra k3b
+filelight
+k3b
 kate
 kcalc
->extra keditbookmarks
+keditbookmarks
 kfind
 kdeconnect
 okular
->extra >x86_64 kget
->extra >x86_64 libktorrent
->extra >i686 kdenetwork-kget
+>x86_64 kget
+>x86_64 libktorrent
+>i686 kdenetwork-kget
 kdenetwork-filesharing
-#>extra kdenlive
+#kdenlive
 kde-servicemenus-rootactions
 khelpcenter
+khotkeys
 kio-extras
-#>extra kleopatra
+#kleopatra
 konsole
 konversation
 ksystemlog
 kwalletmanager
 gwenview
-partitionmanager3
->extra print-manager
->extra skanlite
+partitionmanager
+print-manager
+skanlite
 spectacle
 
 ## Optional dependencies for ark
@@ -202,8 +209,8 @@ p7zip  # 7Z format support
 unarchiver  # RAR format support
 
 ## Optional dependency for digikam
-#>extra kipi-plugins  # export to various online services
-#>extra hugin         # panorama tool
+#kipi-plugins  # export to various online services
+#hugin         # panorama tool
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -215,12 +222,12 @@ kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for k3b
->extra cdparanoia    # for cd ripping support
->extra cdrdao        # for disk-at-once (DAO) mode support
->extra dvd+rw-tools  # for dvd burning support
->extra emovix        # for bootable multimedia cd/dvd support
->extra transcode     # for advanced mpeg conversion support
->extra vcdimager     # for vcd burning support
+cdparanoia    # for cd ripping support
+cdrdao        # for disk-at-once (DAO) mode support
+dvd+rw-tools  # for dvd burning support
+emovix        # for bootable multimedia cd/dvd support
+transcode     # for advanced mpeg conversion support
+vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -229,49 +236,49 @@ kaccounts-providers
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
-#>extra cdrtools         # for creation of DVD ISO images
-#>extra dvdauthor        # for creation of DVD
-#>extra dvgrab           # for firewire capture
-#>extra recordmydesktop  # for screen capture
-#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
-#>extra movit            # for GPU video processing
+#cdrtools         # for creation of DVD ISO images
+#dvdauthor        # for creation of DVD
+#dvgrab           # for firewire capture
+#recordmydesktop  # for screen capture
+#vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
+#movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
->extra cantata
+cantata
 crossover
 crossover-extras
 dmidecode # for inxi -m output
 htop
 imagewriter
 inxi
-#>extra krita
+#krita
 firefox
-#ms-office-online
-#>extra freeoffice
-#>extra libreoffice-still
-#>extra calligra
+ms-office-online
+#freeoffice
+libreoffice-still
+#calligra
 manjaro-hello
+manjaro-application-utility
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
->extra qbittorrent
+qbittorrent
 screenfetch
 systemd-kcm
->extra thunderbird
->extra vlc
-#vlc-nightly
+thunderbird
+vlc
 yakuake
 
 ## Optional dependencis for cantata
->extra mpd       # playback
->extra perl-uri  # dynamic playlist
+mpd       # playback
+perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
-#>extra jre8-openjdk
-#>extra jdk8-openjdk
+jre8-openjdk
+jdk8-openjdk
 
 ## Documentation
 manjaro-documentation-en
@@ -306,8 +313,8 @@ xorg-xkill
 perl-file-mimeinfo
 xdg-utils
 xdg-su
->extra timeshift
->extra kernel-alive
+timeshift
+kernel-alive
 
 ## Misc
 bootsplash-theme-manjaro
@@ -318,9 +325,9 @@ tuxedo-keyboard-dkms
 KERNEL-headers
 
 ## Flatpak support
->extra flatpak
->extra xdg-desktop-portal
->extra xdg-desktop-portal-kde
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-kde
 
 ## OEM
 calamares-oem-modules

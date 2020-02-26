@@ -61,22 +61,22 @@ patch
 pkg-config
 >multilib lib32-flex
 # Extra packages for AUR support
->extra git
->extra patchutils
->extra subversion
+git
+patchutils
+subversion
 
 ## Fonts
 cantarell-fonts
-# noto-fonts             # default font
-# noto-fonts-cjk         # big package, ~76 mb compressed
-# >extra noto-fonts-emoji
+noto-fonts             # default font
+noto-fonts-cjk         # big package, ~76 mb compressed
+noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace
 # ttf-dejavu             # Installed as gnome-themes-standard dependency
->extra ttf-inconsolata
->extra ttf-indic-otf
->extra ttf-liberation
->extra ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+ttf-droid
 
 ## Package management
 pamac-gtk
@@ -85,12 +85,12 @@ flatpak
 bauh
 
 ## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
+jdk8-openjdk
+jre8-openjdk-headless
+jre8-openjdk
 
 ## Printing
->extra manjaro-printer
+manjaro-printer
 
 ## Display manager
 lightdm
@@ -129,34 +129,33 @@ menulibre
 orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
-file-roller
 thunar-media-tags-plugin
-# >extra xfce4-artwork
+# xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
->extra xfce4-cpufreq-plugin
->extra xfce4-cpugraph-plugin
+xfce4-cpufreq-plugin
+xfce4-cpugraph-plugin
 # xfce4-datetime-plugin
->extra xfce4-dict
->extra xfce4-diskperf-plugin
->extra xfce4-fsguard-plugin
->extra xfce4-genmon-plugin
->extra xfce4-mailwatch-plugin
->extra xfce4-mount-plugin
->extra xfce4-mpc-plugin
->extra xfce4-netload-plugin
->extra xfce4-notes-plugin
+xfce4-dict
+xfce4-diskperf-plugin
+xfce4-fsguard-plugin
+xfce4-genmon-plugin
+xfce4-mailwatch-plugin
+xfce4-mount-plugin
+xfce4-mpc-plugin
+xfce4-netload-plugin
+xfce4-notes-plugin
 xfce4-notifyd
 xfce4-screenshooter
->extra xfce4-sensors-plugin
->extra xfce4-smartbookmark-plugin
->extra xfce4-systemload-plugin
+xfce4-sensors-plugin
+xfce4-smartbookmark-plugin
+xfce4-systemload-plugin
 xfce4-taskmanager
->extra xfce4-time-out-plugin
->extra xfce4-timer-plugin
->extra xfce4-verve-plugin
->extra xfce4-wavelan-plugin
->extra xfce4-weather-plugin
+xfce4-time-out-plugin
+xfce4-timer-plugin
+xfce4-verve-plugin
+xfce4-wavelan-plugin
+xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 xfce4-pulseaudio-plugin
@@ -164,8 +163,8 @@ pavucontrol
 xcape
 
 ## Themes
->extra manjaro-wallpapers-18.0
->extra wallpapers-2018
+manjaro-wallpapers-18.0
+wallpapers-2018
 wallpapers-juhraya
 gnome-icon-theme
 gnome-themes-standard
@@ -177,45 +176,42 @@ manjaro-icons-tx
 wallpapers-tuxedo
 
 ## Applications
->extra catfish
+catfish
 crossover
 crossover-extra
 dmidecode # optional dependency inxi
 engrampa
->extra firefox
-# >extra flashplugin
->extra galculator-gtk2
+firefox
+# flashplugin
+galculator-gtk2
 gcolor2
->extra gimp
+gimp
 gparted
 gufw
->extra audacious
->extra hexchat
+audacious
+hexchat
 htop
 qpdfview
 inxi
->extra libreoffice-still
+libreoffice-still
 ms-office-online
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
->basic midori
->extra mlocate
+mlocate
 mousepad
 mugshot
->basic parole # media player
->extra pidgin
+pidgin
 powertop
 screenfetch
->extra poppler-data  # CKJ support for pdf
->basic sylpheed # mail client
->extra thunderbird
+poppler-data  # CKJ support for pdf
+thunderbird
 tlpui
->extra vlc
->extra viewnior
->extra xfburn
->extra yelp
+vlc
+viewnior
+xfburn
+yelp
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -261,6 +257,7 @@ manjaro-hotfixes
 tuxedo-keyboard-dkms
 KERNEL-headers
 timeshift
+kernel-alive
 
 ## OEM
 calamares-oem-modules
