@@ -1,0 +1,9 @@
+## LXQt ISO $RELEASE $BRANCH Branch
+
+[![dl-button|300x77](upload://9L9lBQgcowFEzxZAGSRCSGVlko3.png)](https://osdn.net/projects/manjaro-community/storage/lxqt/)
+
+### Full ISO
+<kbd>[direct](https://osdn.net/dl/manjaro-community/manjaro-lxqt-$RELEASE-$BRANCH-x86_64.iso)</kbd> | <kbd>[sig](https://osdn.net/projects/manjaro-community/storage/lxqt/$RELEASE/manjaro-lxqt-$RELEASE-$BRANCH-x86_64.iso.sig)</kbd> | <kbd>[sha1](https://osdn.net/projects/manjaro-community/storage/lxqt/$RELEASE/manjaro-lxqt-$RELEASE-$BRANCH-x86_64.iso.sha1)</kbd> | <kbd>[sha256](https://osdn.net/projects/manjaro-community/storage/lxqt/$RELEASE/manjaro-lxqt-$RELEASE-$BRANCH-x86_64.iso.sha256)</kbd> | <kbd>[torrent](https://osdn.net/projects/manjaro-community/storage/lxqt/$RELEASE/manjaro-lxqt-$RELEASE-$BRANCH-x86_64.iso.torrent)</kbd>
+
+### Minimal ISO
+<kbd>[direct](https://osdn.net/dl/manjaro-community/manjaro-lxqt-$RELEASE-$BRANCH-minimal-x86_64.iso)</kbd> | <kbd>[sig](https://osdn.net/projects/manjaro-community/storage/lxqt/$RELEASE/manjaro-lxqt-$RELEASE-$BRANCH-minimal-x86_64.iso.sig)</kbd> | <kbd>[sha1](https://osdn.net/projects/manjaro-community/storage/lxqt/$RELEASE/manjaro-lxqt-$RELEASE-$BRANCH-minimal-x86_64.iso.sha1)</kbd> | <kbd>[sha256](https://osdn.net/projects/manjaro-community/storage/lxqt/$RELEASE/manjaro-lxqt-$RELEASE-$BRANCH-minimal-x86_64.iso.sha256)</kbd> | <kbd>[torrent](https://osdn.net/projects/manjaro-community/storage/lxqt/$RELEASE/manjaro-lxqt-$RELEASE-$BRANCH-minimal-x86_64.iso.torrent)</kbd>
