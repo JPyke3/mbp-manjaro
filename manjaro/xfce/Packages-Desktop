@@ -179,7 +179,7 @@ xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 
 ## Applications
-catfish
+>extra catfish
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
