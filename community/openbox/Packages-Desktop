@@ -5,7 +5,6 @@ firefox
 
 ## xapps
 xed
-xpad
 xreader
 xviewer
 
@@ -20,6 +19,10 @@ manjaro-openbox-config
 manjaro-openbox-desktop-settings
 manjaro-openbox-fonts
 manjaro-openbox-scripts
+manjaro-pacbang-grub-theme
+manjaro-pacbang-gtk-theme
+manjaro-pacbang-lxdm-theme
+manjaro-pacbang-wallpapers
 manjaro-zsh-config
 terminus-font
 ttf-dejavu
@@ -36,8 +39,9 @@ kvantum-qt5
 lxappearance-gtk3
 manjaro-settings-manager
 obconf
+qt5-styleplugins
 qt5ct
-xfce4-settings-gtk3
+xfce4-settings
 
 ## package manager
 pamac-cli
@@ -53,8 +57,8 @@ manjaro-hello
 
 ## GUI file manager
 engrampa
-thunar-gtk3
-xfce4-power-manager-gtk3
+thunar
+xfce4-power-manager
 
 ## CLI file manager
 mc
@@ -74,7 +78,6 @@ gsimplecal
 hddtemp
 htop
 inxi
-mesa-demos
 pastebinit
 ps_mem
 tree
@@ -101,10 +104,6 @@ openssh
 traceroute
 whois
 
-## bluetooth
-blueman
-bluez
-
 ## network
 firewalld
 python-pyqt5  # dep of firewall-applet
@@ -118,7 +117,7 @@ openresolv
 arandr
 conky-lua-nv
 dunst
-exo-gtk3
+exo
 i3lock
 imagemagick
 jgmenu

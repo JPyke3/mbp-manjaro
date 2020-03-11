@@ -40,7 +40,7 @@
 <!-- PREFERENCES MENU -->
 <menu id="preferences" label="Preferences">
 	<menu id="appearance-config" label="Customize Look and Feel">
-		<item label="Gtk Theme">
+		<item label="Gtk2 Theme">
 			<action name="Execute">
 				<command>lxappearance</command>
 			</action>
@@ -50,7 +50,17 @@
 				<command>xfce4-appearance-settings</command>
 			</action>
 		</item>
-		<item label="Window Manager">
+		<item label="Kvantum Manager">
+			<action name="Execute">
+				<command>kvantummanager</command>
+			</action>
+		</item>
+		<item label="Qt5 Settings">
+			<action name="Execute">
+				<command>qt5ct</command>
+			</action>
+		</item>
+		<item label="Openbox">
 			<action name="Execute">
 				<command>obconf</command>
 			</action>
