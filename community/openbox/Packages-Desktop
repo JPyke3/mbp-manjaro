@@ -48,7 +48,7 @@ pamac-cli
 pamac-gtk
 
 ## display manager and greeter
-lxdm
+lxdm-gtk3
 
 ## manjaro user infomartion
 manjaro-application-utility
@@ -150,6 +150,7 @@ freetype2
 ## system
 accountsservice
 gnome-keyring
+gtk-engine-murrine
 gtk3
 manjaro-hotfixes
 polkit
