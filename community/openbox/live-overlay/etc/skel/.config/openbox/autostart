@@ -4,14 +4,14 @@ sleep 0.5; xfsettingsd &
 ### compositor
 sleep 1; manjaro-compositor --start &
 
-sleep 1; pcmanfm --desktop &
+sleep 1; nitrogen --restore &
 
 ### launch tint2 and polybar
 sleep 1; manjaro-tint2-session &
 sleep 1; polybar -c ~/.config/polybar/config openbox-bar &
 
 ### launch conky
-manjaro-conky-session &
+sleeep 1; conky -c ~/.config/conky/PacBang.conkyrc &
 
 ## skippy
 sleep 1; skippy-xd --config ~/.config/skippy-xd/skippy-xd.rc --start-daemon &

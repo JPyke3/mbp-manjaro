@@ -24,6 +24,7 @@ manjaro-pacbang-gtk-theme
 manjaro-pacbang-lxdm-theme
 manjaro-pacbang-wallpapers
 manjaro-zsh-config
+moka-icon-theme
 terminus-font
 ttf-dejavu
 ttf-font-awesome
@@ -64,6 +65,7 @@ xfce4-power-manager
 mc
 
 ## disk utilities
+gnome-disk-utility
 gparted
 mintstick
 timeshift
@@ -87,6 +89,7 @@ upower
 alsa-firmware
 alsa-utils
 alsa-plugins
+pavucontrol
 volumeicon
 
 ## connect packages
@@ -106,12 +109,12 @@ whois
 
 ## network
 firewalld
-python-pyqt5  # dep of firewall-applet
 network-manager-applet
 networkmanager
 networkmanager-dmenu
 networkmanager-openvpn
 openresolv
+python-pyqt5  # dep of firewall-applet
 
 ## core
 arandr

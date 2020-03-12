@@ -61,13 +61,10 @@
     </font>
   </theme>
   <desktops>
-    <number>4</number>
+    <number>1</number>
     <firstdesk>0</firstdesk>
     <names>
       <name>1</name>
-      <name>2</name>
-      <name>3</name>
-      <name>4</name>
     </names>
     <popupTime>800</popupTime>
   </desktops>
