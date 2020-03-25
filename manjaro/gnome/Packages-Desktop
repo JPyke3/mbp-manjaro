@@ -185,3 +185,5 @@ xorg-xinit
 
 >basic lighter-gnome
 >basic disable-tracker
+
+gnome-initial-setup # Package to create user account, set keyboard and locale.
