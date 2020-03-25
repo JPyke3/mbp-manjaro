@@ -2,7 +2,7 @@ adwaita-icon-theme
 adwaita-maia
 alsa-firmware
 >extra apparmor
-baobab
+>extra baobab
 >extra dconf-editor
 dmidecode
 >extra hexchat
@@ -171,8 +171,8 @@ xorg-xinit
 >extra uget
 >extra transmission-gtk
 >extra manjaro-documentation-en
->extra jre8-openjdk
->extra jre8-openjdk-headless
+#>extra jre8-openjdk
+#>extra jre8-openjdk-headless
 >extra libdvdcss
 >x86_64 >extra steam-manjaro
 >extra manjaro-printer
@@ -183,3 +183,5 @@ xorg-xinit
 >extra gnome-shell-extension-gsconnect
 >extra manjaro-aur-support #introduce for testing in community
 
+>basic lighter-gnome
+>basic disable-tracker
