@@ -3,9 +3,9 @@ adwaita-maia
 alsa-firmware
 >extra apparmor
 baobab
-dconf-editor
+>extra dconf-editor
 dmidecode
-hexchat
+>extra hexchat
 gthumb
 evince
 >basic epiphany
@@ -23,7 +23,7 @@ gnome-calculator
 gnome-control-center
 gnome-desktop
 gnome-disk-utility
-gnome-font-viewer
+>extra gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
 >extra gnome-online-accounts
@@ -40,8 +40,8 @@ gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
 gnome-tweak-tool
-gnome-user-docs
-gnome-user-share
+>extra gnome-user-docs
+>extra gnome-user-share
 gnome-wallpapers
 papirus-maia-icon-theme
 >extra gnome-calendar
@@ -51,10 +51,9 @@ papirus-maia-icon-theme
 >extra gnome-weather
 >extra gnome-maps
 >extra gnome-todo
-gtkhash-nautilus
+>extra gtkhash-nautilus
 >extra seahorse
 file-roller
-gparted
 grilo-plugins
 gst-libav
 gst-plugins-bad
@@ -68,16 +67,16 @@ gvfs-mtp
 gvfs-google
 gvfs-smb
 inxi
-imagewriter
+>extra imagewriter
 #cli tool#
 pacui
 mc
-mhwd-tui
+bmenu
 ########
 manjaro-alsa
 manjaro-artwork
->extra wallpapers-2018
->extra manjaro-wallpapers-18.0
+#>extra wallpapers-2018
+#>extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 illyria-wallpaper
 manjaro-browser-settings
@@ -108,7 +107,7 @@ numlockx
 openresolv
 #gnome-software-snap
 >extra flatpak
->extra bauh
+#>extra bauh
 pamac
 >extra snapd
 >extra snapd-glib
@@ -126,13 +125,13 @@ avahi
 networkmanager
 ntp
 openssh
-terminus-font
+terminus-font-otb
 totem
 tracker
 tracker-miners
 >extra noto-fonts-compat
 noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -140,7 +139,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
-vino
+>extra vino
 xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
@@ -153,7 +152,7 @@ xorg-server
 xorg-twm
 xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
-yelp
+>extra yelp
 >extra caffeine-ng
 >extra libappindicator-gtk3
 
@@ -164,7 +163,8 @@ yelp
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->extra evolution
+>extra geary
+>extra gnome-calendar
 >extra lollypop
 >extra empathy
 >extra telepathy-accounts-signon
