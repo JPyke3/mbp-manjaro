@@ -8,6 +8,9 @@ xed
 xreader
 xviewer
 
+## power management
+xfce4-power-manager
+
 ## fonts, theming, icons, cursors
 adwaita-icon-theme
 gnome-icon-theme
@@ -56,13 +59,22 @@ manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
 
-## GUI file manager
+## file management
+catfish
 engrampa
-thunar
-xfce4-power-manager
-
-## CLI file manager
+ffmpegthumbnailer
 mc
+mlocate
+p7zip
+poppler-data
+poppler-glib
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman
+tumbler
+unarchiver
+unzip
 
 ## disk utilities
 gnome-disk-utility
@@ -155,7 +167,6 @@ accountsservice
 gnome-keyring
 gtk-engine-murrine
 gtk3
-manjaro-hotfixes
 polkit
 polkit-gnome
 python-xdg
@@ -166,7 +177,7 @@ xdg-utils
 zensu
 
 ## xorg
-xf86-input-libinput
+xorg-drivers
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-type1
