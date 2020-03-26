@@ -67,6 +67,7 @@ gvfs
 gvfs-mtp
 gvfs-google
 gvfs-smb
+ibus
 inxi
 >extra imagewriter
 #cli tool#
