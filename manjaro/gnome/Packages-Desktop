@@ -2,10 +2,10 @@ adwaita-icon-theme
 adwaita-maia
 alsa-firmware
 >extra apparmor
-baobab
-dconf-editor
+>extra baobab
+>extra dconf-editor
 dmidecode
-hexchat
+>extra hexchat
 gthumb
 evince
 >basic epiphany
@@ -14,7 +14,7 @@ evince
 >extra rygel
 gdm
 manjaro-gdm-tweak
-manjaro-gdm-theme-19.0 #branding theme for GDM: 19.0 
+manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
 #manjaro-gnome-vanilla
@@ -23,7 +23,7 @@ gnome-calculator
 gnome-control-center
 gnome-desktop
 gnome-disk-utility
-gnome-font-viewer
+>extra gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
 >extra gnome-online-accounts
@@ -40,9 +40,10 @@ gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
 gnome-tweak-tool
-gnome-user-docs
-gnome-user-share
+>extra gnome-user-docs
+>extra gnome-user-share
 gnome-wallpapers
+gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
 >extra bijiben
@@ -51,10 +52,9 @@ papirus-maia-icon-theme
 >extra gnome-weather
 >extra gnome-maps
 >extra gnome-todo
-gtkhash-nautilus
+>extra gtkhash-nautilus
 >extra seahorse
 file-roller
-gparted
 grilo-plugins
 gst-libav
 gst-plugins-bad
@@ -68,16 +68,16 @@ gvfs-mtp
 gvfs-google
 gvfs-smb
 inxi
-imagewriter
+>extra imagewriter
 #cli tool#
 pacui
 mc
-mhwd-tui
+bmenu
 ########
 manjaro-alsa
 manjaro-artwork
->extra wallpapers-2018
->extra manjaro-wallpapers-18.0
+#>extra wallpapers-2018
+#>extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 illyria-wallpaper
 manjaro-browser-settings
@@ -107,12 +107,13 @@ nss-mdns
 numlockx
 openresolv
 #gnome-software-snap
->extra flatpak
->extra bauh
-pamac
+#>extra flatpak
+#>extra bauh
+pamac-gtk
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -126,13 +127,13 @@ avahi
 networkmanager
 ntp
 openssh
-terminus-font
+terminus-font-otb
 totem
 tracker
 tracker-miners
 >extra noto-fonts-compat
 noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -140,7 +141,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
-vino
+>extra vino
 xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
@@ -153,7 +154,7 @@ xorg-server
 xorg-twm
 xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
-yelp
+>extra yelp
 >extra caffeine-ng
 >extra libappindicator-gtk3
 
@@ -164,15 +165,16 @@ yelp
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->extra evolution
+>extra geary
+>extra gnome-calendar
 >extra lollypop
 >extra empathy
 >extra telepathy-accounts-signon
 >extra uget
 >extra transmission-gtk
 >extra manjaro-documentation-en
->extra jre8-openjdk
->extra jre8-openjdk-headless
+#>extra jre8-openjdk
+#>extra jre8-openjdk-headless
 >extra libdvdcss
 >x86_64 >extra steam-manjaro
 >extra manjaro-printer
@@ -183,3 +185,7 @@ yelp
 >extra gnome-shell-extension-gsconnect
 >extra manjaro-aur-support #introduce for testing in community
 
+>basic lighter-gnome
+>basic disable-tracker
+
+gnome-initial-setup # Package to create user account, set keyboard and locale.
