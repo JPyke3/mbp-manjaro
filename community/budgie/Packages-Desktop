@@ -61,6 +61,8 @@ gvfs-mtp
 gvfs-smb
 inxi
 imagewriter
+kvantum-theme-matcha
+kvantum-theme-matchama
 mc # Midnight Commander
 #pacui
 mhwd-tui
@@ -92,7 +94,8 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac
+pamac-gtk
+pamac-snap-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth

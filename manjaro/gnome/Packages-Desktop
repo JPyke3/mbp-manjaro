@@ -14,7 +14,7 @@ evince
 >extra rygel
 gdm
 manjaro-gdm-tweak
-manjaro-gdm-theme-19.0 #branding theme for GDM: 19.0 
+manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
 #manjaro-gnome-vanilla
@@ -106,12 +106,13 @@ nss-mdns
 numlockx
 openresolv
 #gnome-software-snap
->extra flatpak
+#>extra flatpak
 #>extra bauh
-pamac
+pamac-gtk
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth
