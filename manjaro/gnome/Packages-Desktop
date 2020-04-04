@@ -22,7 +22,7 @@ gnome-backgrounds
 gnome-calculator
 gnome-control-center
 gnome-desktop
-gnome-disk-utility
+#gnome-disk-utility
 >extra gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
@@ -110,11 +110,12 @@ openresolv
 #gnome-software-snap
 #>extra flatpak
 #>extra bauh
-pamac-gtk
->extra snapd
+pamac-gtk-dev
+#>extra snapd
 >extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+>extra pamac-snap-plugin-dev
+>extra pamac-flatpak-plugin-dev
+>extra pamac-gnome-integration-dev
 polkit-gnome
 powertop
 pulseaudio-bluetooth
