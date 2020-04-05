@@ -1,0 +1,153 @@
+adwaita-icon-theme
+alsa-firmware
+dconf-editor
+dmidecode
+hexchat
+eom
+atril
+engrampa
+firefox
+lightdm
+lightdm-slick-greeter
+lightdm-settings
+grub-theme-manjaro
+manjaro-wallpapers-18.0
+wallpapers-2018
+gnome-disk-utility
+gnome-keyring
+manjaro-application-utility
+mc # Midnight Commander
+pacui
+mhwd-tui
+xterm
+gparted
+squashfs-tools
+grilo-plugins
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gucharmap
+gufw
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+inxi
+imagewriter
+libappindicator-gtk3
+manjaro-alsa
+manjaro-artwork
+manjaro-browser-settings
+manjaro-hotfixes
+manjaro-pulse
+manjaro-settings-manager-notifier
+manjaro-hello
+>extra bauh
+>extra snapd
+mesa-demos
+mobile-broadband-provider-info
+modemmanager
+usb_modeswitch
+>multilib lib32-mesa-demos
+netctl
+network-manager-applet
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns
+numlockx
+openresolv
+pamac-gtk
+powertop
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+alsa-utils
+avahi
+networkmanager
+ntp
+openssh
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+vino
+xdg-su
+xdg-user-dirs-gtk
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+xorg-twm
+xorg-xinit
+yelp
+>extra gtk3-print-backends
+>extra manjaro-documentation-en
+#>extra libreoffice-fresh
+>extra thunderbird
+>extra lollypop
+>extra vlc
+>extra empathy
+>extra uget
+>extra transmission-gtk
+>extra brasero
+>extra jre8-openjdk
+>extra jre8-openjdk-headless
+timeshift 								#backup utility
+>extra kernel-alive 					#after a kernel update this maintain usable the modules
+>extra libdvdcss
+>extra steam-manjaro
+>extra manjaro-printer
+>extra blueman
+#>extra ffmpegthumbnailer
+#>extra autoconf
+#>extra automake
+#>extra binutils
+#>extra bison
+#>extra fakeroot
+#>extra flex
+#>extra gcc
+#>extra >multilib gcc-libs-multilib
+#>extra >multilib gcc-multilib
+#>extra libtool
+#>extra m4
+#>extra make
+#>extra patch
+#>extra subversion
+#>extra yaourt
+#manjaro-aur-support
+
+xdg-user-dirs
+xorg-server
+
+ttf-ubuntu-font-family
+
+gufw
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+inxi
+redshift
+
+ukui
+atril
+dconf-editor
+engrampa
+eom
+ffmpegthumbnailer
+gnome-keyring
+gnome-screenshot
+mate-calc
+pluma
+mate-terminal
+mate-desktop
+mate-polkit
+mate-notification-daemon
