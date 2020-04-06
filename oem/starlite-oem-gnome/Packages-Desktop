@@ -193,3 +193,4 @@ xorg-xinit
 ## OEM
 calamares-oem-modules
 calamares-oem-starlite-gnome-settings
+kde-cli-tools
