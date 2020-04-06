@@ -98,11 +98,10 @@ pamac-cli
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
 #discover-snap
 #discover
 #packagekit-qt5
->extra flatpak
->extra bauh
 >extra fwupd 
 #octopi
 #octopi-cachecleaner
@@ -315,6 +314,5 @@ manjaro-hotfixes
 >basic squashfs-tools
 
 ## Flatpak support
->extra flatpak
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde

@@ -147,6 +147,7 @@ gnome-keyring
 gnome-screenshot
 mate-calc
 pluma
+mate-system-monitor
 mate-terminal
 mate-polkit
 mate-notification-daemon
