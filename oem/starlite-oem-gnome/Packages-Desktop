@@ -191,5 +191,6 @@ xorg-xinit
 >basic disable-tracker
 
 ## OEM
+calamares-git
 calamares-oem-modules
 calamares-oem-starlite-gnome-settings
