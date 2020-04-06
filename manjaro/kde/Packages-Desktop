@@ -91,7 +91,7 @@ terminus-font
 
 ## Package management
 >extra appimagelauncher
-pamac
+pamac-gtk
 pamac-tray-appindicator
 pamac-cli
 >extra apparmor
@@ -245,9 +245,9 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 ## Applications
 >extra cantata
 dmidecode # for inxi -m output
+>extra etcher
 firefox
 htop
-imagewriter
 inxi
 #>extra krita
 #ms-office-online

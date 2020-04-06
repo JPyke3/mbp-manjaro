@@ -5,8 +5,8 @@ alsa-firmware
 >extra baobab
 >extra dconf-editor
 dmidecode
->extra hexchat
 gthumb
+>extra etcher
 evince
 >basic epiphany
 >extra firefox
@@ -46,7 +46,6 @@ gnome-wallpapers
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
->extra bijiben
 >extra gnome-characters
 >extra gnome-clocks
 >extra gnome-weather
@@ -69,7 +68,6 @@ gvfs-google
 gvfs-smb
 ibus
 inxi
->extra imagewriter
 #cli tool#
 pacui
 mc
@@ -171,7 +169,7 @@ xorg-xinit
 >extra gnome-calendar
 >extra lollypop
 >extra empathy
->extra telepathy-accounts-signon
+>extra telepathy
 >extra uget
 >extra transmission-gtk
 >extra manjaro-documentation-en
