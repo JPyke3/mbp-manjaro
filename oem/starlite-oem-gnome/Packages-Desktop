@@ -70,7 +70,7 @@ gvfs-google
 gvfs-smb
 ibus
 inxi
->extra imagewriter
+>extra etcher
 #cli tool#
 pacui
 mc
@@ -116,7 +116,7 @@ pamac-gtk-dev
 >extra snapd-glib
 >extra pamac-snap-plugin-dev
 >extra pamac-flatpak-plugin-dev
->extra pamac-gnome-integration-dev
+pamac-gnome-integration-dev
 polkit-gnome
 powertop
 pulseaudio-bluetooth
