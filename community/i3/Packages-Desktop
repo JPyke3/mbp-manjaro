@@ -112,7 +112,6 @@ pkg-config
 polkit-gnome
 >extra poppler-data
 powertop
->extra pygtk # needed for deluge
 qt5ct
 qt5-styleplugins
 ranger

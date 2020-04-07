@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Deactive lock screen
+Comment=Deactive the Mate lock screen in the live session
+Type=Application
+Icon=caja
+Exec=sh -c "gsettings set org.mate.screensaver lock-enabled false"
+

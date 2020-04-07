@@ -5,8 +5,8 @@ alsa-firmware
 >extra baobab
 >extra dconf-editor
 dmidecode
+>extra hexchat
 gthumb
->extra etcher
 evince
 >basic epiphany
 >extra firefox
@@ -23,6 +23,7 @@ gnome-calculator
 gnome-control-center
 gnome-desktop
 #gnome-disk-utility
+gnome-firmware
 >extra gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
@@ -46,6 +47,7 @@ gnome-wallpapers
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
+>extra bijiben
 >extra gnome-characters
 >extra gnome-clocks
 >extra gnome-weather
@@ -68,6 +70,7 @@ gvfs-google
 gvfs-smb
 ibus
 inxi
+>extra imagewriter
 #cli tool#
 pacui
 mc
@@ -169,7 +172,7 @@ xorg-xinit
 >extra gnome-calendar
 >extra lollypop
 >extra empathy
->extra telepathy
+>extra telepathy-accounts-signon
 >extra uget
 >extra transmission-gtk
 >extra manjaro-documentation-en
@@ -187,3 +190,8 @@ xorg-xinit
 
 >basic lighter-gnome
 >basic disable-tracker
+
+## OEM
+calamares-git
+calamares-oem-modules
+calamares-oem-starlite-gnome-settings

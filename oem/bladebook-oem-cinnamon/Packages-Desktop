@@ -112,7 +112,6 @@ pkg-config
 >extra pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
->extra pygtk # needed for deluge
 python2-ptyprocess
 python-ptyprocess
 qt5ct

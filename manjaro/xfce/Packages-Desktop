@@ -84,12 +84,11 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 ## Package management
 >extra apparmor
 #>extra gnome-software-snap
->extra flatpak
->extra bauh
-pamac
+pamac-gtk
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
 
 ## Java
 >extra jdk8-openjdk
@@ -182,6 +181,7 @@ xcursor-vanilla-dmz-aa
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
+>extra etcher
 >extra firefox
 # >extra flashplugin
 >extra galculator-gtk2

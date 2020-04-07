@@ -91,18 +91,17 @@ terminus-font
 
 ## Package management
 >extra appimagelauncher
-pamac
+pamac-gtk
 pamac-tray-appindicator
 pamac-cli
 >extra apparmor
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
 #discover-snap
 #discover
 #packagekit-qt5
->extra flatpak
->extra bauh
 >extra fwupd 
 #octopi
 #octopi-cachecleaner
@@ -246,9 +245,9 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 ## Applications
 >extra cantata
 dmidecode # for inxi -m output
+>extra etcher
 firefox
 htop
-imagewriter
 inxi
 #>extra krita
 #ms-office-online
@@ -315,6 +314,5 @@ manjaro-hotfixes
 >basic squashfs-tools
 
 ## Flatpak support
->extra flatpak
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde
