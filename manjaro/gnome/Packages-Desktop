@@ -108,12 +108,12 @@ openresolv
 #gnome-software-snap
 #>extra flatpak
 #>extra bauh
-pamac-gtk-dev
+pamac-gtk
 #>extra snapd
 >extra snapd-glib
->extra pamac-snap-plugin-dev
->extra pamac-flatpak-plugin-dev
-pamac-gnome-integration-dev
+>extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
+pamac-gnome-integration
 polkit-gnome
 powertop
 pulseaudio-bluetooth
