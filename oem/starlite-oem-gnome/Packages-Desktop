@@ -23,6 +23,7 @@ gnome-calculator
 gnome-control-center
 gnome-desktop
 #gnome-disk-utility
+gnome-firmware
 >extra gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
