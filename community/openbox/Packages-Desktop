@@ -140,6 +140,7 @@ jsoncpp
 kickshaw
 libmpdclient
 lxmenu-data
+lxsession-gtk3
 nitrogen
 numlockx
 obkey-gtk3
@@ -168,7 +169,6 @@ gnome-keyring
 gtk-engine-murrine
 gtk3
 polkit
-polkit-gnome
 python-xdg
 squashfs-tools
 xdg-user-dirs
