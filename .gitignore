@@ -5,3 +5,4 @@ community/openbox-dev
 .kateproject.d
 *.sig
 /blackbox/
+/pacbang-linux/
