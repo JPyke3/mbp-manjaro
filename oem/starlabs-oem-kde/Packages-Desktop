@@ -308,6 +308,7 @@ xdg-utils
 xdg-su
 >extra timeshift
 >extra kernel-alive
+gnome-firmware
 
 ## Misc
 manjaro-hotfixes
