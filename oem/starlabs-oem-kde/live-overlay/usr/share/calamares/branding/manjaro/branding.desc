@@ -1,0 +1,23 @@
+---
+componentName:  manjaro
+
+strings:
+    productName:         Manjaro Linux
+    shortProductName:    Manjaro
+    version:             19.0.2 OEM
+    shortVersion:        19.0.2 OEM
+    versionedName:       Manjaro Linux 19.0.2 "Kyria" OEM
+    shortVersionedName:  Manjaro 19.0.2 OEM
+    bootloaderEntryName: Manjaro
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      "languages.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#454948"
+   sidebarText:          "#efefef"
+   sidebarTextSelect:    "#9E4F5D"
