@@ -1,0 +1,178 @@
+diff -rupN manjaro/gnome/live-overlay/etc/skel/.config/autostart/calamares.desktop oem/starlite-oem-gnome/live-overlay/etc/skel/.config/autostart/calamares.desktop
+--- manjaro/gnome/live-overlay/etc/skel/.config/autostart/calamares.desktop	1970-01-01 01:00:00.000000000 +0100
++++ oem/starlite-oem-gnome/live-overlay/etc/skel/.config/autostart/calamares.desktop	2020-01-06 20:00:26.000000000 +0100
+@@ -0,0 +1,14 @@
++[Desktop Entry]
++Type=Application
++Version=1.0
++Name=Install Manjaro Linux
++GenericName=Live Installer
++Comment=Install the operating system to disk
++Comment[de]=Manjaro Linux installieren
++X-GNOME-Autostart-enabled=true
++Exec=kstart5 --fullscreen calamares_polkit
++Icon=calamares
++Terminal=false
++StartupNotify=true
++Type=Application
++Categories=Qt;System;
+diff -rupN manjaro/gnome/live-overlay/usr/share/calamares/branding/manjaro/branding.desc oem/starlite-oem-gnome/live-overlay/usr/share/calamares/branding/manjaro/branding.desc
+--- manjaro/gnome/live-overlay/usr/share/calamares/branding/manjaro/branding.desc	1970-01-01 01:00:00.000000000 +0100
++++ oem/starlite-oem-gnome/live-overlay/usr/share/calamares/branding/manjaro/branding.desc	2020-04-06 12:50:05.018055214 +0200
+@@ -0,0 +1,23 @@
++---
++componentName:  manjaro
++
++strings:
++    productName:         Manjaro Linux
++    shortProductName:    Manjaro
++    version:             19.0.2 OEM
++    shortVersion:        19.0.2 OEM
++    versionedName:       Manjaro Linux 19.0.2 "Kyria" OEM
++    shortVersionedName:  Manjaro 19.0.2 OEM
++    bootloaderEntryName: Manjaro
++
++images:
++    productLogo:         "logo.png"
++    productIcon:         "logo.png"
++    productWelcome:      "languages.png"
++
++slideshow:               "show.qml"
++
++style:
++   sidebarBackground:    "#454948"
++   sidebarText:          "#efefef"
++   sidebarTextSelect:    "#9E4F5D"
+diff -rupN manjaro/gnome/Packages-Desktop oem/starlite-oem-gnome/Packages-Desktop
+--- manjaro/gnome/Packages-Desktop	2020-04-07 22:28:02.611539427 +0200
++++ oem/starlite-oem-gnome/Packages-Desktop	2020-04-07 22:28:02.611539427 +0200
+@@ -187,3 +188,8 @@ xorg-xinit
+ 
+ >basic lighter-gnome
+ >basic disable-tracker
++
++## OEM
++calamares-git
++calamares-oem-modules
++calamares-oem-starlite-gnome-settings
+diff -rupN manjaro/gnome/Packages-Live oem/starlite-oem-gnome/Packages-Live
+--- manjaro/gnome/Packages-Live	2020-04-08 09:38:11.053630984 +0200
++++ oem/starlite-oem-gnome/Packages-Live	2020-04-04 11:22:15.000000000 +0200
+@@ -1,9 +1,5 @@
+-calamares-git
+ grub-theme-live-manjaro
+-gsmartcontrol
+-manjaro-architect
+ manjaro-live-skel
+ manjaro-live-systemd
+ mkinitcpio-nfs-utils
+ nbd
+-clonezilla
+diff -rupN manjaro/gnome/Packages-Mhwd oem/starlite-oem-gnome/Packages-Mhwd
+--- manjaro/gnome/Packages-Mhwd	2020-04-04 11:22:15.645595953 +0200
++++ oem/starlite-oem-gnome/Packages-Mhwd	1970-01-01 01:00:00.000000000 +0100
+@@ -1,63 +0,0 @@
+-## The following is only temp for 18.1-rc7
+->extra libreoffice-still
+->extra freeoffice
+-
+-## Normal MHWD package list
+-
+-KERNEL-bbswitch
+-KERNEL-broadcom-wl
+-#KERNEL-r8168
+-#KERNEL-zfs
+-zfs-utils
+-#KERNEL-rt3562sta
+-KERNEL-virtualbox-guest-modules
+-KERNEL-headers
+-zfs-dkms
+-libva-intel-driver
+-libva-mesa-driver
+-libva-vdpau-driver
+->multilib lib32-libva-vdpau-driver
+-libxaw
+-libxpm
+-libxvmc
+-mesa-vdpau
+->multilib lib32-mesa-vdpau
+->multilib lib32-libxvmc
+->multilib lib32-primus
+-#>nonfree_default catalyst-utils
+-#>nonfree_default KERNEL-catalyst
+-#>nonfree_default KERNEL-nvidia-340xx
+->nonfree_default KERNEL-nvidia-390xx
+->nonfree_x86_64 KERNEL-nvidia-440xx
+->nonfree_default nvidia-340xx-utils
+->nonfree_default nvidia-390xx-utils
+->nonfree_x86_64 nvidia-440xx-utils
+-#>nonfree_multilib lib32-catalyst-utils
+->nonfree_multilib lib32-nvidia-440xx-utils
+-#>nonfree_multilib lib32-nvidia-340xx-utils
+->nonfree_multilib lib32-nvidia-390xx-utils
+-opencl-mesa
+-open-vm-tools
+-pangox-compat
+-primus
+-bumblebee
+-nvidia-prime
+-gtkmm3
+-spice-vdagent
+-virtualbox-guest-utils
+-vulkan-radeon
+->multilib lib32-vulkan-radeon
+-vulkan-intel
+->multilib lib32-vulkan-intel
+-xf86-input-vmmouse
+-xf86-video-amdgpu
+-xf86-video-ati
+-xf86-video-dummy
+-xf86-video-fbdev
+-xf86-video-intel
+-xf86-video-nouveau
+-xf86-video-openchrome
+-xf86-video-sisusb
+-xf86-video-vesa
+-xf86-video-vmware
+-xf86-video-voodoo
+diff -rupN manjaro/gnome/profile.conf oem/starlite-oem-gnome/profile.conf
+--- manjaro/gnome/profile.conf	2020-04-05 16:30:12.251311211 +0200
++++ oem/starlite-oem-gnome/profile.conf	2020-04-06 12:58:01.865141618 +0200
+@@ -32,17 +32,19 @@ displaymanager="gdm"
+ # use geoip
+ # geoip="true"
+ 
++# configure calamares for mhwd
++mhwd_used="false"
++
++# configure calamares for oem
++oem_used="true"
++
++windowexp=fullscreen
++
+ # unset defaults to given values
+ # names must match systemd service names
+-enable_systemd=('bluetooth' 'ModemManager' 'NetworkManager' 'org.cups.cupsd' 'tlp' 'avahi-demon' 'haveged' 'ufw' 'apparmor' 'snapd.apparmor' 'snapd')
+-#enable_systemd=('bluetooth' 'ModemManager' 'NetworkManager' 'org.cups.cupsd' 'tlp' 'tlp-sleep' 'avahi-demon' 'haveged' 'ufw')
++enable_systemd=('avahi-daemon' 'bluetooth' 'cronie' 'fstrim.timer' 'ModemManager' 'NetworkManager' 'org.cups.cupsd' 'systemd-timesyncd' 'tlp' 'ufw' 'apparmor' 'snapd.apparmor' 'snapd')
+ disable_systemd=('pacman-init')
+ 
+-# unset defaults to given values,
+-# names must match openrc service names
+-# enable_openrc=('acpid' 'bluetooth' 'elogind' 'cronie' 'cupsd' 'dbus' 'syslog-ng' 'NetworkManager')
+-# disable_openrc=()
+-
+ # unset defaults to given values
+ # addgroups="lp,network,power,wheel"
+ 
+@@ -74,9 +76,4 @@ login_shell=/usr/bin/zsh
+ # unset defaults to given values
+ # names must match systemd service names
+ # services in enable_systemd array don't need to be listed here
+-# enable_systemd_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
+-
+-# unset defaults to given values,
+-# names must match openrc service names
+-# services in enable_openrc array don't need to be listed here
+-# enable_openrc_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
++enable_systemd_live=('manjaro-live' 'pacman-init' 'mirrors-live')
