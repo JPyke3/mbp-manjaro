@@ -71,6 +71,7 @@ inxi
 #cli tool#
 pacui
 mc
+manjaro-ranger-settings
 bmenu
 ########
 manjaro-alsa
@@ -168,9 +169,9 @@ xorg-xinit
 >extra geary
 >extra gnome-calendar
 >extra lollypop
->extra empathy
->extra telepathy
->extra uget
+#>extra empathy
+#>extra telepathy
+#>extra uget
 >extra transmission-gtk
 >extra manjaro-documentation-en
 #>extra jre8-openjdk
