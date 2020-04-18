@@ -274,14 +274,14 @@ zensu
 gnome-keyring
 gtk3
 manjaro-hotfixes
-python2-xdg
+python-xdg
 squashfs-tools
 xdg-user-dirs
 xdg-utils
 xdg-su
 
 ##------------> Xorg Input Drivers
-xf86-input-libinput
+xorg-drivers
 
 ##------------> Xorg Server and Graphics
 xorg-fonts-75dpi

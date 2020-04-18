@@ -2,101 +2,101 @@
 ##### LXQT MINIMAL/FULL PROFILE
 
 ## Connect Packages
-#>extra android-tools
-#>extra android-udev
-#>extra gvfs-afc
-#>extra gvfs-gphoto2
-#>extra gvfs-mtp
-#>extra mtpfs
+>extra android-tools
+>extra android-udev
+>extra gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs-mtp
+>extra mtpfs
 
 ## Extra Fonts
-#>extra noto-fonts
-#>extra ttf-bitstream-vera
-#>extra ttf-droid
-#>extra ttf-inconsolata
+>extra noto-fonts
+>extra ttf-bitstream-vera
+>extra ttf-droid
+>extra ttf-inconsolata
 
 ## Extra Network packages
-#>extra avahi
-#>extra mobile-broadband-provider-info
-#>extra modemmanager-qt
-#>extra networkmanager-dispatcher-ntpd
-#>extra networkmanager-openconnect
-#>extra networkmanager-pptp
-#>extra networkmanager-vpnc
-#>extra nss-mdns
-#>extra usb_modeswitch
+>extra avahi
+>extra mobile-broadband-provider-info
+>extra modemmanager-qt
+>extra networkmanager-dispatcher-ntpd
+>extra networkmanager-openconnect
+>extra networkmanager-pptp
+>extra networkmanager-vpnc
+>extra nss-mdns
+>extra usb_modeswitch
 
 ## Apps and Libraries for Sound/Audio/Video
-#>extra audacious
-#>extra ffmpeg
-#>extra gst-libav
-#>extra gst-plugins-bad
-#>extra gst-plugins-base
-#>extra gst-plugins-good
-#>extra gst-plugins-ugly
-#>extra libdvdcss
-#>extra pulseaudio-bluetooth
-#>extra pulseaudio-ctl
-#>extra pulseaudio-zeroconf
-#>extra manjaro-pulse
-#>extra manjaro-alsa
-#>extra vlc
+>extra audacious
+>extra ffmpeg
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra libdvdcss
+>extra pulseaudio-bluetooth
+>extra pulseaudio-ctl
+>extra pulseaudio-zeroconf
+>extra manjaro-pulse
+>extra manjaro-alsa
+>extra vlc
 
 ## Printer
 ## meta-pkg manjaro-printer
-#>extra cups
-#>extra cups-pdf
-#>extra cups-pk-helper
-#>extra ghostscript
-#>extra gsfonts
-#>extra gutenprint
-#>extra hplip
-#>extra python-gobject
-#>extra python-pyqt5
-#>extra splix
-#>extra system-config-printer
-#>extra simple-scan
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gutenprint
+>extra hplip
+>extra python-gobject
+>extra python-pyqt5
+>extra splix
+>extra system-config-printer
+>extra simple-scan
 
 ## AUR Support/Development
-#>extra autoconf
-#>extra automake
-#>extra binutils
-#>extra bison
-#>extra fakeroot
-#>extra flex
-#>extra gcc
-#>extra git
-#>extra libtool
-#>extra m4
-#>extra make
-#>extra patch
-#>extra patchutils
-#>extra pkg-config
-#>extra subversion
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra git
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra patchutils
+>extra pkg-config
+>extra subversion
 
 ## Package management
-#>extra pamac-qt
+>extra pamac-gtk
 
 ## Office
-##>extra libreoffice-still
+#>extra libreoffice-still
 
 ## Graphics
-#>extra pinta
+>extra pinta
 
 ## Internet applications
-#>extra trojita
+>extra trojita
 
 ## Text editor
-#>extra juffed-qt5
+>extra juffed-qt5
 
 ## Disc utilities
-##>extra gparted
-##>extra imagewriter
+#>extra gparted
+#>extra imagewriter
 
 ## File management
-#>extra p7zip
-#>extra unarchiver
-#>extra unrar
+>extra p7zip
+>extra unarchiver
+>extra unrar
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
@@ -211,14 +211,16 @@ gnome-keyring
 manjaro-hotfixes
 perl-file-mimeinfo
 polkit
-python2-xdg
+python-xdg
 squashfs-tools
+udisks2
 xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 
 ## xorg
+xorg-drivers
 xorg-server
 xorg-server-common
 xorg-twm
@@ -227,5 +229,4 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xprop
-xf86-input-libinput
 xterm
