@@ -46,6 +46,7 @@ gnome-wallpapers
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
+>extra evolution-data-server
 >extra gnome-characters
 >extra gnome-clocks
 >extra gnome-weather
