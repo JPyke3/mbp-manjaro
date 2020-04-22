@@ -166,10 +166,11 @@ freetype2
 ## system
 accountsservice
 gnome-keyring
+gtk-engines
 gtk-engine-murrine
 gtk3
 polkit
-python-xdg
+python-pyxdg
 squashfs-tools
 xdg-user-dirs
 xdg-user-dirs-gtk
@@ -177,7 +178,7 @@ xdg-utils
 zensu
 
 ## xorg
-xorg-drivers
+xf86-input-libinput
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-type1

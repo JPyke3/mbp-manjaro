@@ -11,7 +11,7 @@ sleep 1; manjaro-tint2-session &
 sleep 1; polybar -c ~/.config/polybar/config openbox-bar &
 
 ### launch conky
-sleeep 1; conky -c ~/.config/conky/PacBang.conkyrc &
+sleeep 1; manjaro-conky-session &
 
 ## skippy
 sleep 1; skippy-xd --config ~/.config/skippy-xd/skippy-xd.rc --start-daemon &
@@ -20,4 +20,4 @@ sleep 1; skippy-xd --config ~/.config/skippy-xd/skippy-xd.rc --start-daemon &
 sleep 1; xcape -e 'Super_L=Alt_L|F1' &
 
 ### PolicyKit authentication
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+/usr/bin/lxpolkit &
