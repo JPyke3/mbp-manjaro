@@ -46,6 +46,7 @@ gnome-wallpapers
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
+>extra evolution-data-server
 >extra gnome-characters
 >extra gnome-clocks
 >extra gnome-weather
@@ -71,6 +72,7 @@ inxi
 #cli tool#
 pacui
 mc
+manjaro-ranger-settings
 bmenu
 ########
 manjaro-alsa
@@ -108,12 +110,12 @@ openresolv
 #gnome-software-snap
 #>extra flatpak
 #>extra bauh
-pamac-gtk-dev
+pamac-gtk
 #>extra snapd
 >extra snapd-glib
->extra pamac-snap-plugin-dev
->extra pamac-flatpak-plugin-dev
->extra pamac-gnome-integration-dev
+>extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
+pamac-gnome-integration
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -168,9 +170,9 @@ xorg-xinit
 >extra geary
 >extra gnome-calendar
 >extra lollypop
->extra empathy
->extra telepathy
->extra uget
+#>extra empathy
+#>extra telepathy
+#>extra uget
 >extra transmission-gtk
 >extra manjaro-documentation-en
 #>extra jre8-openjdk
@@ -181,6 +183,7 @@ xorg-xinit
 >extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
+>extra deja-dup
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 >extra manjaro-aur-support #introduce for testing in community
