@@ -6,7 +6,6 @@ alsa-firmware
 >extra dconf-editor
 dmidecode
 gthumb
->extra etcher
 evince
 >basic epiphany
 >extra firefox
