@@ -1,12 +1,12 @@
 ##################################
 ## extra packages
 
-##------------> Java
+## Java
 #>extra jdk8-openjdk
 #>extra jre8-openjdk-headless
 #>extra jre8-openjdk
 
-##------------> Printing Support
+## Printing Support
 ## manjaro-printer meta package
 >extra cups
 >extra cups-pdf
@@ -20,39 +20,31 @@
 >extra splix
 >extra system-config-printer
 
-##------------> Scanner Support
+## Scanner Support
 >extra simple-scan
 
-##------------> Extra Fonts
-#>extra ttf-bitstream-vera
-#>extra ttf-inconsolata
-#>extra ttf-indic-otf
-#>extra ttf-liberation
-#>extra ttf-droid
+## Extra Fonts
+>extra ttf-bitstream-vera
+>extra ttf-droid
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
 
-##------------> Extra Applications
->extra guvcview
->extra transmission-gtk
+## Extra Applications
 >extra gimp
->extra vlc
+>extra guvcview
 >extra thunderbird
+>extra transmission-gtk
+>extra vlc
 >extra xfburn
 >extra yelp
 
-##------------> Network
+## Network
 >extra avahi
->extra networkmanager-openconnect
->extra networkmanager-pptp
->extra networkmanager-vpnc
->extra networkmanager-dispatcher-ntpd
 >extra nss-mdns # NSS support for mDNS (optdepend for avahi)
->extra mobile-broadband-provider-info
->extra modemmanager
 >extra openssh
->extra samba
->extra usb_modeswitch
 
-##------------> Libraries for Sound/Audio/Video
+## Libraries for Sound/Audio/Video
 >extra ffmpeg
 >extra gst-libav
 >extra gst-plugins-bad
@@ -60,131 +52,111 @@
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra libdvdcss
->multilib manjaro-alsa
 >extra manjaro-pulse
 >extra pavucontrol
 >extra pulseaudio-bluetooth
 >extra pulseaudio-ctl
 >extra pulseaudio-zeroconf
 
-
-##------------> Connect Packages
+## Connect Packages
 >extra android-tools
 >extra android-udev
 >extra gvfs-afc
 >extra gvfs-gphoto2
->extra gvfs
 >extra gvfs-mtp
->extra gvfs-nfs
->extra gvfs-smb
 >extra mtpfs
->extra udiskie
->extra udisks2
 
-##------------> screen lock
+## screen lock
 >extra light-locker
 
-##------------> network
+## network
 >extra blueberry
 >extra bluez
 >extra bluez-libs
 
-##------------> file utilites
+## file utilites
 >extra ffmpegthumbnailer  # tumbler - for video thumbnails
-#>extra gconf              # fix qt-theme
 >extra libgsf             # tumbler - for ODF thumbnails
 >extra libopenraw         # tumbler - for RAW thumbnails
 >extra poppler-data   #CKJ support for pdf
 
-##------------> Optional dependencies engrampa
+## Optional dependencies engrampa
 >extra p7zip  # 7Z and ARJ archive support
 >extra unace  # ACE archive support
 >extra unrar  # RAR archive support
 >extra mesa-demos
->multilib lib32-mesa-demos
 
-
-##------------> xfce utils
+## xfce utils
 >extra manjaro-lxde-xfce4-notifyd
 >extra manjaro-lxde-xfce4-volumed-pulse
-#>extra xfce4-notifyd
->extra xfce4-notifyd-gtk3
-#>extra xfce4-power-manager
->extra xfce4-power-manager-gtk3
+>extra xfce4-notifyd
+>extra xfce4-power-manager
 >extra xfce4-volumed-pulse
 
 ############################################
 ## minimal / base packages
 
-##------------> Power manager
-tlp-rdw
+## external filesystems
+gvfs
+gvfs-nfs
+gvfs-smb
+udiskie
+udisks2
+
+## browser
+firefox
+
+## Power manager
 tlpui
 
-##------------> Extra Themes/Artwork
+## Themes and arwork
+kvantum-theme-matcha
 lxde-wallpapers
-
-##------------> theming and settings
 manjaro-lxde-config
 manjaro-lxde-desktop-settings
-
 manjaro-lxde-logout-banner
-manjaro-zsh-config
-
-kvantum-theme-matcha
-matcha-gtk-theme
 manjaro-openbox-matcha
-
+manjaro-zsh-config
+matcha-gtk-theme
 papirus-icon-theme
 papirus-maia-icon-theme
 xcursor-breeze
 
-##------------> utilities
+## utilities
 engrampa
-#galculator-gtk2
 galculator
 gnome-disk-utility
 gparted
 
-##------------> gui package manager
+## package manager
 pamac-gtk
-
-##------------> package manager
 pamac-common
 pamac-cli
 pacui
 
-##------------> office
+## office
 epdfview
 gpicview
 
-##------------> text editor gui
+## text editor gui
 leafpad
 
-##------------> text editor cli
-dash
-micro-manjaro
-terminus-font
-vim
-
-##------------> user information
+## user information
 manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
 
-##------------> Sound support
+## Sound support
 alsa-firmware
 alsa-utils
 alsa-plugins
 
-##------------> Display manager
+## Display manager
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 
-##------------> browser
-firefox
-
-##------------> base cli apps
+## base cli apps
 inxi
 dmidecode
 htop
@@ -194,96 +166,67 @@ pastebinit
 powertop
 scrot
 
-##------------> settings manager
+## settings manager
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 
-##------------> qt5 theme handling
+## qt5 theme handling
 kvantum-qt5
 qt5ct
 
-##------------> font packages
+## font packages
 ttf-dejavu
 ttf-roboto
 
-##------------> network
+## network
 firewalld
 network-manager-applet
 networkmanager
 networkmanager-openvpn
 openresolv
 
-##------------> filemanager
-#pcmanfm
+## filemanager
 pcmanfm-gtk3
 
-##------------> core
-#lxappearance
+## core
 lxappearance-gtk3
-#lxappearance-obconf
-#lxappearance-obconf-gtk3
 obconf
 lxde-common
 lxhotkey
-#lxinput
 lxinput-gtk3
-#lxlauncher
 lxlauncher-gtk3
-#lxpanel
 lxpanel-gtk3
-#lxrandr
 lxrandr-gtk3
-#lxsession
 lxsession-gtk3
-#lxtask
 lxtask-gtk3
 lxterminal
 perl-file-mimeinfo
 
-##------------> AUR Support/Development
-# Missing base-devel packages
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
-libtool
-m4
-make
-patch
-pkg-config
->multilib lib32-flex
-git
-patchutils
-subversion
-
-##------------> system icon themes
+## system icon themes
 gnome-icon-theme
 gnome-themes-standard
 
-##------------> system fonts
+## system fonts
 freetype2
 
-##------------> System
+## System
 #polkit is provided by lxsession
 accountsservice
 dconf
-zensu
 gnome-keyring
 gtk3
-manjaro-hotfixes
-python-xdg
+gtk-engine-murrine
+gtk-engines
+polkit
+python-pyxdg
 squashfs-tools
+xdg-su
 xdg-user-dirs
 xdg-utils
-xdg-su
+zensu
 
-##------------> Xorg Input Drivers
-xorg-drivers
-
-##------------> Xorg Server and Graphics
+## Xorg Input Drivers
+xf86-input-libinput
 xorg-fonts-75dpi
 xorg-fonts-100dpi
 xorg-fonts-type1

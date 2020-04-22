@@ -7,7 +7,6 @@
 >extra gvfs-afc
 >extra gvfs-gphoto2
 >extra gvfs-mtp
->extra mtpfs
 
 ## Extra Fonts
 >extra noto-fonts
@@ -27,7 +26,6 @@
 >extra usb_modeswitch
 
 ## Apps and Libraries for Sound/Audio/Video
->extra audacious
 >extra ffmpeg
 >extra gst-libav
 >extra gst-plugins-bad
@@ -74,9 +72,6 @@
 >extra pkg-config
 >extra subversion
 
-## Package management
->extra pamac-gtk
-
 ## Office
 #>extra libreoffice-still
 
@@ -100,6 +95,9 @@
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
+
+## webbrowser
+firefox
 
 ## basic audio support
 alsa-firmware
@@ -134,24 +132,19 @@ ttf-roboto
 
 ## filemanager
 ark
-udiskie
 gvfs
 gvfs-nfs
 gvfs-smb
 pcmanfm-qt
-
-## text editor cli
-dash
-micro-manjaro
-terminus-font
-vim
+udiskie
+udisks2
 
 ## Terminal
 qterminal
 
 ## package manager
+pamac-gtk
 pamac-cli
-pacui
 
 ## basic utilities
 dmidecode
@@ -168,8 +161,6 @@ networkmanager-openvpn
 openssh
 
 ## core
-picom
-compton-conf
 lxqt-about
 lxqt-admin
 lxqt-config
@@ -183,6 +174,7 @@ lxqt-qtplugin
 lxqt-runner
 lxqt-session
 lxqt-sudo
+picom
 xscreensaver
 
 ## settings manager
@@ -206,21 +198,19 @@ freetype2
 
 ## system
 accountsservice
-zensu
 gnome-keyring
-manjaro-hotfixes
 perl-file-mimeinfo
 polkit
-python-xdg
+python-pyxdg
 squashfs-tools
-udisks2
 xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+zensu
 
 ## xorg
-xorg-drivers
+xf86-input-libinput
 xorg-server
 xorg-server-common
 xorg-twm
@@ -230,3 +220,4 @@ xorg-xinput
 xorg-xkill
 xorg-xprop
 xterm
+
