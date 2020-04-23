@@ -181,7 +181,6 @@ xcursor-vanilla-dmz-aa
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
->extra etcher
 >extra firefox
 # >extra flashplugin
 >extra galculator-gtk2
