@@ -150,8 +150,11 @@ pamac-cli
 dmidecode
 htop
 inxi
+micro
 numlockx
 powertop
+xclip
+xsel
 
 ## network
 network-manager-applet

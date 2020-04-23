@@ -92,10 +92,13 @@ gsimplecal
 hddtemp
 htop
 inxi
+micro
 pastebinit
 ps_mem
 tree
 upower
+xclip
+xsel
 
 ## sound support
 alsa-firmware
