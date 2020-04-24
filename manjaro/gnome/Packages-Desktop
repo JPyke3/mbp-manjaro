@@ -1,12 +1,12 @@
 adwaita-icon-theme
 adwaita-maia
 alsa-firmware
+>extra alacarte
 >extra apparmor
 >extra baobab
 >extra dconf-editor
 dmidecode
 gthumb
->extra etcher
 evince
 >basic epiphany
 >extra firefox

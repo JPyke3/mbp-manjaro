@@ -245,7 +245,6 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 ## Applications
 >extra cantata
 dmidecode # for inxi -m output
->extra etcher
 firefox
 htop
 inxi
