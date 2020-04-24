@@ -22,7 +22,7 @@ gnome-backgrounds
 gnome-calculator
 gnome-control-center
 gnome-desktop
-#gnome-disk-utility
+gnome-disk-utility
 >extra gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
