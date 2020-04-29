@@ -22,7 +22,7 @@ gnome-backgrounds
 gnome-calculator
 gnome-control-center
 gnome-desktop
-#gnome-disk-utility
+gnome-disk-utility
 >extra gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
@@ -77,14 +77,14 @@ bmenu
 ########
 manjaro-alsa
 manjaro-artwork
-#>extra wallpapers-2018
-#>extra manjaro-wallpapers-18.0
+>extra wallpapers-2018
+>extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 illyria-wallpaper
 manjaro-browser-settings
 manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
-manjaro-gnome-assets-19.0
+manjaro-gnome-assets
 >extra gnome-layout-switcher
 manjaro-hotfixes
 manjaro-pulse

@@ -6,7 +6,7 @@ autoconf
 automake
 avahi
 >extra baobab
->extra bauh
+#>extra bauh
 binutils
 bison
 >extra blueman
@@ -17,7 +17,7 @@ cinnamon-translations
 >extra dconf-editor
 >extra deluge
 dmidecode
->extra etcher
+#>extra etcher
 fakeroot
 >extra ffmpegthumbnailer
 >extra firefox
@@ -66,6 +66,7 @@ libtool
 >extra libgsf
 lightdm-settings
 lightdm-slick-greeter
+>extra lollypop
 m4
 make
 manjaro-alsa
@@ -113,8 +114,9 @@ pavucontrol
 >extra pix
 pkg-config
 >extra poppler-data
+>extra popsicle
 >extra powertop
->extra pragha
+#>extra pragha
 >extra pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf

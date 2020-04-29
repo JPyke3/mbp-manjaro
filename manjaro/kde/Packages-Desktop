@@ -245,7 +245,6 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 ## Applications
 >extra cantata
 dmidecode # for inxi -m output
->extra etcher
 firefox
 htop
 inxi
@@ -277,7 +276,7 @@ yakuake
 manjaro-documentation-en
 
 ## Settings packages
-manjaro-kde-settings-19.0
+manjaro-kde-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
