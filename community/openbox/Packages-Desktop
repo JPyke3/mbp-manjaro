@@ -1,4 +1,29 @@
-##### EDITION PACKAGES
+##### OPENBOX PROFILE
+
+## multimedia
+alsa-firmware
+alsa-plugins
+alsa-utils
+deadbeef
+faad2
+ffmpeg
+flac
+imlib2
+libmad
+libvorbis
+mpg123
+pamixer
+paprefs
+pasystray
+pavucontrol
+playerctl
+pulseaudio
+pulseaudio-alsa
+smplayer
+smplayer-skins
+smplayer-themes
+smtube
+zlib
 
 ## internet browser
 firefox
@@ -75,6 +100,12 @@ thunar-volman
 tumbler
 unarchiver
 unzip
+gvfs
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+udiskie
+udisks2
 
 ## disk utilities
 gnome-disk-utility
@@ -99,20 +130,6 @@ tree
 upower
 xclip
 xsel
-
-## sound support
-alsa-firmware
-alsa-utils
-alsa-plugins
-pavucontrol
-volumeicon
-
-## connect packages
-gvfs
-gvfs-nfs
-gvfs-smb
-udiskie
-udisks2
 
 ## network utilities
 arp-scan
