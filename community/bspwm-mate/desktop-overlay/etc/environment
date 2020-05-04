@@ -4,4 +4,4 @@
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
 GTK_CSD=1
-QT_QPA_PLATFORMTHEME=qt5ct
+QT_QPA_PLATFORMTHEME=kvantum

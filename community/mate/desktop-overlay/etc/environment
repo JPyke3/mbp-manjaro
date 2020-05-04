@@ -4,5 +4,5 @@
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
 
-QT_QPA_PLATFORMTHEME="qt5ct"
+QT_QPA_PLATFORMTHEME="kvantum"
 EDITOR=/usr/bin/nano
