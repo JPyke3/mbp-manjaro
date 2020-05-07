@@ -21,7 +21,7 @@ gnome-backgrounds
 gnome-calculator
 gnome-control-center
 gnome-desktop
-#gnome-disk-utility
+gnome-disk-utility
 gnome-firmware
 >extra gnome-font-viewer
 gnome-keyring
@@ -68,7 +68,7 @@ gvfs-google
 gvfs-smb
 ibus
 inxi
->extra etcher
+#>extra etcher
 #cli tool#
 pacui
 mc
@@ -76,15 +76,15 @@ bmenu
 ########
 manjaro-alsa
 manjaro-artwork
-#>extra wallpapers-2018
-#>extra manjaro-wallpapers-18.0
+>extra wallpapers-2018
+>extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 illyria-wallpaper
 >extra libreoffice-still
 manjaro-browser-settings
 manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
-manjaro-gnome-assets-19.0
+manjaro-gnome-assets
 >extra gnome-layout-switcher
 manjaro-hotfixes
 manjaro-pulse
