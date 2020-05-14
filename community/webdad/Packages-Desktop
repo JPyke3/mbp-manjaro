@@ -1,261 +1,134 @@
-## Network
-avahi
-networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-nss-mdns # NSS support for mDNS (optdepend for avahi)
-ntp
-mobile-broadband-provider-info
-modemmanager
-openresolv
-openssh
-samba
-usb_modeswitch
-networkmanager-dispatcher-ntpd
-manjaro-settings-samba
-
-## Libraries for Sound/Audio/Video
+lightdm
+lightdm-slick-greeter
+guake
+bootsplash-systemd
+bootsplash-theme-manjaro
+manjaro-jade-settings
+ttf-roboto
+dunst-notify-speech
+adwaita-icon-theme
+adwaita-maia
 alsa-firmware
-alsa-utils
-ffmpeg
+>extra apparmor
+>extra dconf-editor
+dmidecode
+gthumb
+evince
+>extra chromium
+gedit
+gtksourceview-pkgbuild #highlight for PKGBUILD
+gnome-keyring
+fprintd #need for finger id reader
+>extra gtkhash-nautilus
+file-roller
+grilo-plugins
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-libcanberra
->multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
-libcanberra-gstreamer
-libdvdcss
+gufw
+gvfs-afc
+gvfs
+gvfs-mtp
+gvfs-google
+gvfs-smb
+ibus
+inxi
+#cli tool#
+pacui
+mc
+########
 manjaro-alsa
+manjaro-artwork
+#>extra wallpapers-2018
+#>extra manjaro-wallpapers-18.0
+#>extra wallpapers-juhraya
+#illyria-wallpaper
+manjaro-browser-settings
+manjaro-settings-manager-notifier
+manjaro-hotfixes
 manjaro-pulse
-phonon-qt5-gstreamer
+manjaro-hello
+mesa-demos
+mobile-broadband-provider-info
+modemmanager
+mousetweaks
+>multilib lib32-mesa-demos
+nautilus
+nautilus-admin
+nautilus-empty-file
+netctl
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns
+numlockx
+openresolv
+#>extra flatpak
+pamac-gtk
+#>extra snapd
+>extra snapd-glib
+>extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
+powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-grilo-plugins
-
-## Connect Packages
-kdeconnect
-android-tools
-android-udev
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-#gvfs-nfs
-gvfs-smb
-#gvfs-google
-mtpfs
-udiskie
-udisks2
-
-## AUR Support/Development
-# Missing base-devel packages
-#autoconf
-#automake
-#binutils
-#bison
-#fakeroot
-#flex
-#gcc
-#>multilib gcc-libs-multilib
-#>multilib gcc-multilib
-#libtool
-#m4
-#make
-#patch
-#pkg-config
-#>multilib lib32-flex
-
-# Extra packages for AUR support
->extra git
-#>extra patchutils
-#extra subversion
-
-## Fonts
-noto-fonts
-ttf-roboto
-
-## Games
-#gnome-games
->extra steam-manjaro 
-pingus
-gnome-mahjongg
-aisleriot
-
-## Package management
-pamac
-
-## Java
-#>extra jdk8-openjdk
-#>extra jre8-openjdk-headless
-#>extra jre8-openjdk
-
-## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gtk3-print-backends
->extra hplip
->extra splix
->extra manjaro-printer
-
-# 3d Printing
-mattercontrol 
-#avrdude
-
-## Optional dependencies for hplip
->extra python-pillow # For hplip
->extra python-pip # For hplip
->extra python-pyqt5  # For hplip gui
->extra python-reportlab # For hplip
-
-## Display manager
-lightdm
-lightdm-webkit2-greeter-manjaro
-accountsservice  # Enhanced user accounts handling
-
-# bluetooth
-bluez-cups
-bluez-firmware
-bluez-hid2hci
-bluez-plugins
-
-# improve responsiveness 
-preload
-irqbalance
-
-# Settings
-manjaro-settings-manager
-
-# WebDad desktop
-jade-desktop-mode
-manjaro-webdad-settings
-webdad-speech
-jade-dashboard
-kwin
-pa-applet
-blueman
-dunst
-dex
-polkit-gnome
-manjaro-hello
-network-manager-applet
-pavucontrol
-gnome-keyring      
-nautilus
-nautilus-empty-file
-nautilus-sendto
-nautilus-share
-nautilus-admin
-#seahorse
-#seahorse-nautilus
-sushi
-file-roller
-hyper
-#menulibre
-#fish
-
-cairo-dock
-cairo-dock-plug-ins
-zeitgeist            # needed for cairo-dock events
-#ruby # cairo-dock plugins
-
-## Applications
-webdad-webapps
-timeshift
-gthumb
 >extra simple-scan
-etcher
-dmidecode # optional dependency inxi
-gedit
-nano
-chromium
-gparted
->extra kernel-alive
-geary
-gufw
-#>extra hexchat
-evince
-inxi
->extra vlc-nightly
->extra lollypop
->extra empathy
-#>extra uget
-#baobab
->extra redshift
-
-# office
->extra libreoffice-fresh
-ms-office-online
-
-# extras
-deepin-screenshot
-pitivi
-obs-studio
-
-# design
-krita
-#inkscape
-#gimp
-
-# code
-#pycharm-community-edition
-#atom
-
-# Compression
-p7zip  # 7Z and ARJ archive support
-unace  # ACE archive support
-unrar  # RAR archive support
->extra lrzip
-
-## Documentation
-manjaro-documentation-en
-
-## Settings packages
-manjaro-browser-settings-native
-
-## Xorg Input Drivers
+>basic squashfs-tools
+alsa-utils
+avahi
+networkmanager
+ntp
+openssh
+terminus-font-otb
+tracker
+tracker-miners
+>extra noto-fonts-compat
+noto-fonts               # default font
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+usb_modeswitch
+xdg-su
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
-xf86-input-wacom
-xf86-input-synaptics
-
-## Xorg Server and Graphics
-xdg-user-dirs
 xorg-server
+xorg-twm
 xorg-xinit
-xorg-xkill
+>extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
+>extra yelp
 
-## Desktop Utils
-perl-file-mimeinfo
-xdg-utils
-xdg-su
+#extra depends for file-roller
+>extra gnome-getting-started-docs
+>extra p7zip
+>extra unrar
+>extra unace
+>extra lrzip
+>extra gtk3-print-backends
+>extra geary
+>extra manjaro-documentation-en
+#>extra jre8-openjdk
+#>extra jre8-openjdk-headless
+>extra libdvdcss
+#>x86_64 >extra steam-manjaro
+>extra manjaro-printer
+#>extra simple-scan 
+>extra ffmpegthumbnailer
+>extra timeshift
+>extra deja-dup
+>extra kernel-alive
+>extra manjaro-aur-support #introduce for testing in community
 
-## Misc
-manjaro-hotfixes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+>basic disable-tracker
