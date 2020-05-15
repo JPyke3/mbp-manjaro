@@ -188,7 +188,6 @@ okular
 >extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
-kde-servicemenus-rootactions
 khelpcenter
 kio-extras
 #>extra kleopatra

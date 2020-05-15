@@ -168,6 +168,7 @@ user-manager
 fonts-nx-desktop
 #grub2-theme-nitrux
 #qt5-style-kvantum
+latte-dock-git
 luv-icon-theme
 nx-audio-applet
 nx-clock-applet
@@ -188,7 +189,7 @@ index
 vvave
 plasma-pix
 plasma-nota
-nx-appimages
+#nx-appimages
 startup-notification # needed for waterfox
 
 ## Themes QT/GTK/SDDM
