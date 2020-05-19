@@ -92,6 +92,7 @@ terminus-font
 
 ## Package management
 #appimagelauncher
+bauh
 pamac
 pamac-tray-appindicator
 pamac-cli
@@ -99,6 +100,7 @@ pamac-cli
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
 #discover-snap
 #discover
 #packagekit-qt5
@@ -168,6 +170,7 @@ user-manager
 fonts-nx-desktop
 #grub2-theme-nitrux
 #qt5-style-kvantum
+latte-dock-git
 luv-icon-theme
 nx-audio-applet
 nx-clock-applet
@@ -188,8 +191,18 @@ index
 vvave
 plasma-pix
 plasma-nota
-nx-appimages
+#nx-appimages
 startup-notification # needed for waterfox
+
+## Extra Demo Apps
+obs-studio
+signal-desktop
+telegram-desktop
+microsoft-office-web-jak
+skype-web-jak
+slack-web-jak
+onlyoffice-desktopeditors
+elisa
 
 ## Themes QT/GTK/SDDM
 #breeze
@@ -290,13 +303,13 @@ dmidecode # for inxi -m output
 htop
 #imagewriter
 inxi
-#>extra krita
-#>extra firefox
+>extra krita
+>extra firefox
 #>basic falkon
 #ms-office-online
 #>extra freeoffice
 #>extra libreoffice-still
-#>extra calligra
+>extra calligra
 #manjaro-hello
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
@@ -304,9 +317,9 @@ powertop
 #>extra qbittorrent
 #screenfetch
 systemd-kcm
-#>extra thunderbird
-#>extra vlc
-#vlc-nightly
+>extra thunderbird
+>extra vlc
+#vlcy
 #yakuake
 
 ## Optional dependencis for cantata
