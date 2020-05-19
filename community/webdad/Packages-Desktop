@@ -1,9 +1,10 @@
 lightdm
-lightdm-slick-greeter
+lightdm-webkit2-greeter
 guake
 bootsplash-systemd
 bootsplash-theme-manjaro
 manjaro-jade-settings
+accountsservice
 ttf-roboto
 dunst-notify-speech
 adwaita-icon-theme
@@ -14,7 +15,7 @@ alsa-firmware
 dmidecode
 gthumb
 evince
->extra chromium
+chromium
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
 gnome-keyring
@@ -38,23 +39,17 @@ inxi
 #cli tool#
 pacui
 mc
+
 ########
 manjaro-alsa
-manjaro-artwork
-#>extra wallpapers-2018
-#>extra manjaro-wallpapers-18.0
-#>extra wallpapers-juhraya
-#illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
 manjaro-hotfixes
 manjaro-pulse
 manjaro-hello
-mesa-demos
 mobile-broadband-provider-info
 modemmanager
 mousetweaks
->multilib lib32-mesa-demos
 nautilus
 nautilus-admin
 nautilus-empty-file
@@ -88,6 +83,7 @@ tracker
 tracker-miners
 >extra noto-fonts-compat
 noto-fonts               # default font
+ttf-roboto
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 ttf-bitstream-vera
 ttf-dejavu
@@ -96,7 +92,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
-xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -105,7 +100,6 @@ xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
 xorg-server
-xorg-twm
 xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 >extra yelp
@@ -127,7 +121,7 @@ xorg-xinit
 #>extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
->extra deja-dup
+#>extra deja-dup
 >extra kernel-alive
 >extra manjaro-aur-support #introduce for testing in community
 
