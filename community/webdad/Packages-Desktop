@@ -1,27 +1,11 @@
-lightdm
-lightdm-webkit2-greeter
-guake
-bootsplash-systemd
-bootsplash-theme-manjaro
 manjaro-jade-settings
-accountsservice
-ttf-roboto
 dunst-notify-speech
 adwaita-icon-theme
 adwaita-maia
-alsa-firmware
->extra apparmor
->extra dconf-editor
 dmidecode
-gthumb
-evince
-chromium
-gedit
-gtksourceview-pkgbuild #highlight for PKGBUILD
-gnome-keyring
-fprintd #need for finger id reader
 >extra gtkhash-nautilus
-file-roller
+gtksourceview-pkgbuild #highlight for PKGBUILD
+fprintd #need for finger id reader
 grilo-plugins
 gst-libav
 gst-plugins-bad
@@ -36,11 +20,35 @@ gvfs-google
 gvfs-smb
 ibus
 inxi
-#cli tool#
-pacui
-mc
 
-########
+
+# Applications
+>extra simple-scan
+gthumb
+evince
+chromium
+geary
+gedit
+file-roller
+guake
+nautilus
+nautilus-admin
+nautilus-empty-file
+>extra dconf-editor
+
+
+## Startup and shutdown
+lightdm
+lightdm-gtk-greeter
+bootsplash-systemd
+bootsplash-theme-manjaro
+accountsservice
+
+
+## Needed packages
+gnome-keyring
+alsa-firmware
+>extra apparmor
 manjaro-alsa
 manjaro-browser-settings
 manjaro-settings-manager-notifier
@@ -50,9 +58,6 @@ manjaro-hello
 mobile-broadband-provider-info
 modemmanager
 mousetweaks
-nautilus
-nautilus-admin
-nautilus-empty-file
 netctl
 networkmanager-openconnect
 networkmanager-openvpn
@@ -71,26 +76,26 @@ powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
->extra simple-scan
 >basic squashfs-tools
 alsa-utils
 avahi
 networkmanager
 ntp
 openssh
-terminus-font-otb
 tracker
 tracker-miners
->extra noto-fonts-compat
-noto-fonts               # default font
+
+
+## Fonts
 ttf-roboto
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
+
+
 usb_modeswitch
 xdg-user-dirs
 xdg-user-dirs-gtk
@@ -103,6 +108,7 @@ xorg-server
 xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 >extra yelp
+
 
 #extra depends for file-roller
 >extra gnome-getting-started-docs
@@ -124,5 +130,9 @@ xorg-xinit
 #>extra deja-dup
 >extra kernel-alive
 >extra manjaro-aur-support #introduce for testing in community
-
 >basic disable-tracker
+
+
+# CLI tools
+pacui
+mc

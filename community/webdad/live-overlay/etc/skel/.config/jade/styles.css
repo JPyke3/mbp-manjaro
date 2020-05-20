@@ -1,0 +1,8 @@
+#search-icon {
+    filter: brightness(0.4);
+    }
+    
+body {
+    background-image: url("backgrounds/background.jpg") !important;
+    background-size: contain;
+    }
