@@ -35,11 +35,17 @@ nautilus
 nautilus-admin
 nautilus-empty-file
 >extra dconf-editor
+slack-web-jak
+skype-web-jak
+whatsapp-web-jak
+microsoft-office-web-jak
 
 
 ## Startup and shutdown
 lightdm
 lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+grub-customizer
 bootsplash-systemd
 bootsplash-theme-manjaro
 accountsservice
@@ -66,9 +72,9 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-#>extra flatpak
+>extra flatpak
 pamac-gtk
-#>extra snapd
+>extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
@@ -124,10 +130,10 @@ xorg-xinit
 >extra libdvdcss
 #>x86_64 >extra steam-manjaro
 >extra manjaro-printer
-#>extra simple-scan 
+>extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
-#>extra deja-dup
+>extra deja-dup
 >extra kernel-alive
 >extra manjaro-aur-support #introduce for testing in community
 >basic disable-tracker
