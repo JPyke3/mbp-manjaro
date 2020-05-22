@@ -39,8 +39,6 @@ gnome-screenshot
 grilo-plugins
 gucharmap
 mousetweaks
-nautilus
-nautilus-empty-file
 file-roller
 sushi
 vino
@@ -74,7 +72,6 @@ manjaro-pulse
 manjaro-settings-manager-notifier
 manjaro-hello
 manjaro-application-utility
->extra bauh
 >extra snapd
 mesa-demos
 mobile-broadband-provider-info
@@ -141,7 +138,7 @@ yelp
 #>extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
->extra empathy
+>extra pidgin
 >extra uget
 >extra transmission-gtk
 >extra brasero
@@ -155,7 +152,7 @@ timeshift
 >extra manjaro-printer
 >extra blueman
 >extra ffmpegthumbnailer
-#AUR complete support ( base devel + yaourt )
+#AUR complete support ( base devel )
 #>extra autoconf
 #>extra automake
 #>extra binutils
@@ -170,5 +167,4 @@ timeshift
 #>extra make
 #>extra patch
 #>extra subversion
-#>extra yaourt
 manjaro-aur-support
