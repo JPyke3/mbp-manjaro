@@ -307,7 +307,7 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+zensu
 
 ## Misc
 manjaro-hotfixes

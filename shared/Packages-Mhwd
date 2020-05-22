@@ -1,14 +1,15 @@
+## The following is only temp until we find a better solution
+>office libreoffice-still
+>office freeoffice
+
 ## Normal MHWD package list
 
 KERNEL-bbswitch
 KERNEL-broadcom-wl
 #KERNEL-r8168
-KERNEL-zfs
-zfs-utils
 #KERNEL-rt3562sta
 KERNEL-virtualbox-guest-modules
 KERNEL-headers
-zfs-dkms
 libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
