@@ -1,7 +1,5 @@
 manjaro-jade-settings
-dunst-notify-speech
-adwaita-icon-theme
-adwaita-maia
+>extra dunst-notify-speech
 dmidecode
 >extra gtkhash-nautilus
 gtksourceview-pkgbuild #highlight for PKGBUILD
@@ -23,11 +21,10 @@ inxi
 
 
 # Applications
->extra simple-scan
 gthumb
 evince
 chromium
-geary
+>extra geary
 gedit
 file-roller
 guake
@@ -35,17 +32,19 @@ nautilus
 nautilus-admin
 nautilus-empty-file
 >extra dconf-editor
-slack-web-jak
-skype-web-jak
-whatsapp-web-jak
-microsoft-office-web-jak
+>extra slack-web-jak
+>extra skype-web-jak
+>extra whatsapp-web-jak
+>extra microsoft-office-web-jak
+>extra lxrandr
+vlc
+>extra lightdm-gtk-greeter-settings
+>extra grub-customizer
 
 
 ## Startup and shutdown
 lightdm
 lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
-grub-customizer
 bootsplash-systemd
 bootsplash-theme-manjaro
 accountsservice
@@ -94,12 +93,7 @@ tracker-miners
 
 ## Fonts
 ttf-roboto
-ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
+adobe-source-code-pro-fonts
 
 
 usb_modeswitch
@@ -123,7 +117,6 @@ xorg-xinit
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->extra geary
 >extra manjaro-documentation-en
 #>extra jre8-openjdk
 #>extra jre8-openjdk-headless
@@ -133,7 +126,7 @@ xorg-xinit
 >extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
->extra deja-dup
+#>extra deja-dup
 >extra kernel-alive
 >extra manjaro-aur-support #introduce for testing in community
 >basic disable-tracker
