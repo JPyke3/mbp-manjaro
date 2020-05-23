@@ -2,7 +2,7 @@ GRUB_DEFAULT=saved
 GRUB_TIMEOUT=10
 GRUB_TIMEOUT_STYLE=hidden
 GRUB_DISTRIBUTOR="Manjaro"
-GRUB_CMDLINE_LINUX_DEFAULT="acpi_osi= bootsplash.bootfile=bootsplash-themes/manjaro/bootsplash"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet bootsplash.bootfile=bootsplash-themes/manjaro/bootsplash"
 GRUB_CMDLINE_LINUX=""
 
 # If you want to enable the save default function, uncomment the following

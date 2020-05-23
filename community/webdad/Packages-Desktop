@@ -1,23 +1,34 @@
-manjaro-jade-settings
->extra dunst-notify-speech
-dmidecode
->extra gtkhash-nautilus
-gtksourceview-pkgbuild #highlight for PKGBUILD
-fprintd #need for finger id reader
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-google
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+ffmpeg
 grilo-plugins
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-gufw
-gvfs-afc
-gvfs
-gvfs-mtp
-gvfs-google
-gvfs-smb
-ibus
-inxi
+libdvdcss
+>multilib manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
 
 
 # Applications
@@ -40,55 +51,69 @@ nautilus-empty-file
 vlc
 >extra lightdm-gtk-greeter-settings
 >extra grub-customizer
+gufw
+>extra timeshift
+#>extra deja-dup
 
 
 ## Startup and shutdown
 lightdm
 lightdm-gtk-greeter
-bootsplash-systemd
-bootsplash-theme-manjaro
+>extra bootsplash-systemd
+>extra bootsplash-theme-manjaro
 accountsservice
 
 
-## Needed packages
-gnome-keyring
-alsa-firmware
->extra apparmor
-manjaro-alsa
-manjaro-browser-settings
-manjaro-settings-manager-notifier
-manjaro-hotfixes
-manjaro-pulse
-manjaro-hello
-mobile-broadband-provider-info
-modemmanager
-mousetweaks
+## Network
 netctl
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+mobile-broadband-provider-info
+modemmanager
+avahi
+networkmanager
+ntp
+openresolv
+
+
+## Base
+manjaro-jade-settings
+gnome-keyring
+manjaro-browser-settings
+manjaro-settings-manager-notifier
+manjaro-hotfixes
+manjaro-hello
+mousetweaks
 nss-mdns
 numlockx
-openresolv
->extra flatpak
+powertop
+>basic squashfs-tools
+openssh
+tracker
+tracker-miners
+>basic disable-tracker
+inxi
+>extra dunst-notify-speech
+dmidecode
+>extra gtkhash-nautilus
+fprintd #need for finger id reader
+
+
+## Package management
+>extra apparmor
 pamac-gtk
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
-powertop
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
->basic squashfs-tools
-alsa-utils
-avahi
-networkmanager
-ntp
-openssh
-tracker
-tracker-miners
+
+
+## Java
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
 
 
 ## Fonts
@@ -118,20 +143,34 @@ xorg-xinit
 >extra lrzip
 >extra gtk3-print-backends
 >extra manjaro-documentation-en
-#>extra jre8-openjdk
-#>extra jre8-openjdk-headless
->extra libdvdcss
 #>x86_64 >extra steam-manjaro
 >extra manjaro-printer
 >extra simple-scan 
 >extra ffmpegthumbnailer
->extra timeshift
-#>extra deja-dup
 >extra kernel-alive
->extra manjaro-aur-support #introduce for testing in community
->basic disable-tracker
 
 
-# CLI tools
-pacui
-mc
+## AUR Support/Development
+# Missing base-devel packages
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra pkg-config
+>extra >multilib lib32-flex
+# Extra packages for AUR support
+>extra manjaro-aur-support
+>extra git
+>extra patchutils
+>extra subversion
+
+

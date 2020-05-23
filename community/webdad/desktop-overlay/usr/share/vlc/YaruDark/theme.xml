@@ -1,0 +1,114 @@
+<!DOCTYPE Theme PUBLIC "-//VideoLAN//DTD VLC Skins V2.0//EN" "skin.dtd">
+<Theme version="2.0">
+  <ThemeInfo name="Yaru Dark for Ubuntu" author="vincent" email="vincent.jpainchaud@gmail.com" webpage="http://www.videolan.org/vlc/"/>
+
+  <!-- Created using the VLC Skin Editor 0.8.5.dev (http://www.videolan.org/vlc/skineditor.html)-->
+
+  <Bitmap id="Icones_Close_c" file="Icones/Close_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_Close_n" file="Icones/Close_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_Close_s" file="Icones/Close_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_full_c" file="Icones/full_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_full_n" file="Icones/full_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_full_s" file="Icones/full_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_minimise_c" file="Icones/minimise_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_minimise_n" file="Icones/minimise_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_minimise_s" file="Icones/minimise_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_mute_c" file="Icones/mute_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_mute_n" file="Icones/mute_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_mute_on" file="Icones/mute_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_mute_s" file="Icones/mute_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_next_c" file="Icones/next_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_next_n" file="Icones/next_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_next_s" file="Icones/next_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_pause_c" file="Icones/pause_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_pause_n" file="Icones/pause_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_pause_s" file="Icones/pause_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_play_c" file="Icones/play_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_play_n" file="Icones/play_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_play_s" file="Icones/play_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_playlist_c" file="Icones/playlist_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_playlist_n" file="Icones/playlist_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_playlist_s" file="Icones/playlist_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_prev_c" file="Icones/prev_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_prev_n" file="Icones/prev_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_prev_s" file="Icones/prev_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_settings_c" file="Icones/settings_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_settings_n" file="Icones/settings_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_settings_s" file="Icones/settings_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Interfaces_Fond" file="Interfaces/Fond.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Interfaces_Barre" file="Interfaces/Barre.png" alphacolor="#000000"/>
+  <Font id="UbuntuMono-R" file="Icones/UbuntuMono-R.ttf"/>
+  <Font id="UbuntuMono-B" file="Icones/UbuntuMono-B.ttf"/>
+  <Bitmap id="slider_Slider_blank" file="slider/Slider_blank.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slider_time_gripper_n" file="slider/time_gripper_n.png" alphacolor="#000000"/>
+  <Bitmap id="slider_time_gripper_s" file="slider/time_gripper_s.png" alphacolor="#000000"/>
+  <Bitmap id="slider_time_gripper_c" file="slider/time_gripper_c.png" alphacolor="#000000"/>
+  <Bitmap id="slider_slider_bg_v" file="slider/slider_bg_v.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slider_Gtime_gripper_c" file="slider/Gtime_gripper_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slider_Gtime_gripper_n" file="slider/Gtime_gripper_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slider_Gtime_gripper_s" file="slider/Gtime_gripper_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="fullscreen_main" file="fullscreen/main.png" alphacolor="#FF00FF"/>
+  <Bitmap id="resize_resize_HV" file="resize/resize_HV.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_no_media_sign" file="Icones/no_media_sign.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_mute_on_c" file="Icones/mute_on_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_mute_on_n" file="Icones/mute_on_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_mute_on_s" file="Icones/mute_on_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slider_vol_slider" file="slider/vol_slider.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slider_vol_anim" file="slider/vol_anim.png" alphacolor="#000000"/>
+  <Bitmap id="slider_Volume_Blank" file="slider/Volume_Blank.png" alphacolor="#FF00FF"/>
+  <Bitmap id="slider_vol_anim2" file="slider/vol_anim2.png" alphacolor="#FF00FF"/>
+  <Bitmap id="resize_Grande_barre" file="resize/Grande_barre.png" alphacolor="#FF00FF"/>
+  <Bitmap id="resize_Grande_barre_noir" file="resize/Grande_barre_noir.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_no_media_sign_noir" file="Icones/no_media_sign_noir.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Interfaces_Fond_noir" file="Interfaces/Fond_noir.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_Window_c" file="Icones/Window_c.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_Window_n" file="Icones/Window_n.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Icones_Window_s" file="Icones/Window_s.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Interfaces_Fond_large" file="Interfaces/Fond_large.png" alphacolor="#FF00FF"/>
+
+  <Window id="Panneaux">
+    <Layout id="Ecran principal" width="1280" height="780" minwidth="1280" maxwidth="1920" minheight="780" maxheight="1060">
+      <Video id="Video" y="40" width="1280" height="720" autoresize="false" rightbottom="rightbottom"/>
+      <Image id="Fond_video" y="40" image="Interfaces_Fond_noir" resize="scale" rightbottom="rightbottom"/>
+      <Image id="Barr1" image="Interfaces_Barre" action="move" resize="scale" rightbottom="righttop"/>
+      <Button up="Icones_Close_n" down="Icones_Close_c" over="Icones_Close_s" action="vlc.quit()" id="Quitter" x="1243" y="7" lefttop="righttop"/>
+      <Button up="Icones_minimise_n" down="Icones_minimise_c" over="Icones_minimise_s" action="vlc.minimize()" id="Minimiser" x="1206" y="7" lefttop="righttop"/>
+      <Button up="Icones_settings_n" down="Icones_settings_c" over="Icones_settings_s" action="dialogs.popup()" id="Preferences" x="1163" y="6" lefttop="righttop"/>
+      <Button up="Icones_full_n" down="Icones_full_c" over="Icones_full_s" action="vlc.fullscreen()" id="Plein Ecran" x="1123" y="6" lefttop="righttop"/>
+      <Button up="Icones_playlist_n" down="Icones_playlist_c" over="Icones_playlist_s" action="dialogs.playlist()" id="Playlist" x="1078" y="6" lefttop="righttop"/>
+      <Checkbox state="vlc.isPaused" up1="Icones_pause_n" up2="Icones_play_n" down1="Icones_pause_c" down2="Icones_play_c" over1="Icones_pause_s" over2="Icones_play_s" action1="vlc.pause()" action2="vlc.play()" id="Play Pause" x="45" y="6"/>
+      <Button up="Icones_next_n" down="Icones_next_c" over="Icones_next_s" action="playlist.next()" id="Next" x="89" y="6"/>
+      <Button up="Icones_prev_n" down="Icones_prev_c" over="Icones_prev_s" action="playlist.previous()" id="Preview" x="4" y="6"/>
+      <Text text="$T" font="UbuntuMono-B" color="#ffffff" id="Temps restant" x="440" y="15" width="50" lefttop="righttop" xkeepratio="true" visible="not dvd.isActive"/>
+      <Text text="$D" font="UbuntuMono-B" color="#ffffff" id="Temps total" x="810" y="15" width="75" lefttop="righttop" xkeepratio="true" help="$H" visible="not dvd.isActive"/>
+      <Slider id="Slider2" x="492" y="12" points="(0,10),(298,10)" value="time" tooltiptext="" up="slider_Gtime_gripper_n" down="slider_Gtime_gripper_c" over="slider_Gtime_gripper_s" lefttop="righttop" xkeepratio="true" help="$H">
+        <SliderBackground id="Background" image="slider_slider_bg_v" nbvert="301"/>
+      </Slider>
+      <Image id="Barre_bas" y="760" image="resize_Grande_barre_noir" action="resizeSE" resize="scale" rightbottom="rightbottom" ykeepratio="true"/>
+      <Image id="Fond_large" y="40" image="Interfaces_Fond_large" action="resizeSE" resize="scale" rightbottom="rightbottom" visible="not vlc.hasVout"/>
+      <Image id="LogoVLC" x="575" y="341" image="Icones_no_media_sign" lefttop="rightbottom" xkeepratio="true" ykeepratio="true"/>
+      <Checkbox state="vlc.isMute" up1="Icones_mute_on_n" up2="Icones_mute_n" down1="Icones_mute_on_c" down2="Icones_mute_c" over1="Icones_mute_on_s" over2="Icones_mute_s" action1="vlc.mute()" action2="vlc.mute()" id="Mute" x="144" y="6"/>
+      <Image id="Volume blank" x="179" y="13" image="slider_Volume_Blank"/>
+      <Slider id="Volume" x="179" y="14" points="(0,7),(57,7)" value="volume" tooltiptext="" up="slider_vol_slider">
+        <SliderBackground id="UNNAMED" image="slider_vol_anim" nbvert="59"/>
+      </Slider>
+      <Text text="$V%" font="UbuntuMono-B" color="#ffffff" id="Volumepourcentage" x="250" y="15" width="50" visible="not dvd.isActive"/>
+    </Layout>
+  </Window>
+  <Window id="fullscreenController">
+    <Layout id="fswindow" width="435" height="82" minwidth="435" maxwidth="435" minheight="82" maxheight="82">
+      <Image id="Fond" image="fullscreen_main"/>
+      <Checkbox state="vlc.isPaused" up1="Icones_pause_n" up2="Icones_play_n" down1="Icones_pause_c" down2="Icones_play_c" over1="Icones_pause_s" over2="Icones_play_s" action1="vlc.pause()" action2="vlc.play()" id="Full_PlayPause" x="201" y="10"/>
+      <Button up="Icones_prev_n" down="Icones_prev_c" over="Icones_prev_s" action="playlist.previous()" id="Full_prev" x="156" y="10"/>
+      <Button up="Icones_next_n" down="Icones_next_n" over="Icones_next_n" action="playlist.next()" id="Full_next" x="246" y="10"/>
+      <Slider id="Full_slider" x="67" y="42" points="(0,10),(298,10)" value="time" tooltiptext="" up="slider_Gtime_gripper_n" down="slider_Gtime_gripper_c" over="slider_Gtime_gripper_s" help="$H">
+        <SliderBackground id="Full_background" image="slider_slider_bg_v" nbvert="301"/>
+      </Slider>
+      <Text text="$T" font="UbuntuMono-B" color="#ffffff" id="Full_Temps_restant" x="17" y="45" width="50" help="not dvd.is.active"/>
+      <Text text="$D" font="UbuntuMono-B" color="#ffffff" id="Full_temps_total" x="371" y="45" width="60" help="$H" visible="not dvd.isActive"/>
+      <Button up="Icones_settings_n" down="Icones_settings_c" over="Icones_settings_s" action="dialogs.popup()" id="Settings_full" x="110" y="10"/>
+      <Button up="Icones_Window_n" down="Icones_Window_c" over="Icones_Window_s" action="vlc.fullscreen()" id="Windowed" x="300" y="10"/>
+    </Layout>
+  </Window>
+
+</Theme>
