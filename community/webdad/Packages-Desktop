@@ -50,7 +50,7 @@ nautilus-empty-file
 >extra lxrandr
 vlc
 >extra lightdm-gtk-greeter-settings
->extra grub-customizer
+#>extra grub-customizer
 gufw
 >extra timeshift
 #>extra deja-dup
