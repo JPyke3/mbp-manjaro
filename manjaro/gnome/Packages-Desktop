@@ -13,7 +13,6 @@ evince
 >extra firefox-gnome-theme-maia
 >extra rygel
 gdm
-manjaro-gdm-tweak
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
