@@ -92,12 +92,7 @@ terminus-font
 
 ## Package management
 #appimagelauncher
-<<<<<<< HEAD
-pamac
-=======
-bauh
 pamac-gtk
->>>>>>> ce5f3cd... [prepare] 20.0.2
 pamac-tray-appindicator
 pamac-cli
 >extra apparmor
