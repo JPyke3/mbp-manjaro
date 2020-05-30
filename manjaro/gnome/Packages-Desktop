@@ -144,7 +144,6 @@ ttf-indic-otf
 ttf-liberation
 usb_modeswitch
 >extra vino
-xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -178,7 +177,7 @@ xorg-xinit
 #>extra jre8-openjdk
 #>extra jre8-openjdk-headless
 >extra libdvdcss
->x86_64 >extra steam-manjaro
+#>x86_64 >extra steam-manjaro
 >extra manjaro-printer
 >extra simple-scan 
 >extra ffmpegthumbnailer
