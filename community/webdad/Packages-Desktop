@@ -54,6 +54,9 @@ vlc
 gufw
 >extra timeshift
 #>extra deja-dup
+>extra syncthing-gtk
+#>extra kdeconnect
+software-center-web-jak # for url handler's and discover
 
 
 ## Startup and shutdown

@@ -177,7 +177,7 @@ launcher_item_app = /usr/share/applications/org.jade.desktop.toggleSettings.desk
 launcher_item_app = /usr/share/applications/org.jade.desktop.show.desktop
 launcher_item_app = /usr/share/applications/org.jade.desktop.toggleSearch.desktop
 launcher_item_app = /usr/share/applications/calamares.desktop
-launcher_item_app = /usr/share/applications/manjaro-architect.desktop
+launcher_item_app = /usr/share/applications/architect.desktop
 
 #-------------------------------------
 # Clock
