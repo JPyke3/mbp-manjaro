@@ -98,7 +98,6 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 ntp
-open-fuse-iso
 openresolv
 openssh
 p7zip
@@ -146,7 +145,6 @@ wmutils
 xautolock
 >extra xcursor-chameleon-pearl
 >extra xcursor-maia
-xdg-su
 xdg-utils
 xdotool
 xf86-input-elographics
