@@ -57,6 +57,8 @@ gufw
 >extra syncthing-gtk
 #>extra kdeconnect
 software-center-web-jak # for url handler's and discover
+>extra hardinfo
+>extra gparted
 
 
 ## Startup and shutdown
@@ -114,9 +116,9 @@ pamac-gtk
 
 
 ## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
+#>extra jdk8-openjdk
+#>extra jre8-openjdk-headless
+#>extra jre8-openjdk
 
 
 ## Fonts
