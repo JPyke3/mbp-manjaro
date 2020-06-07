@@ -188,7 +188,6 @@ okular
 >extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
-kde-servicemenus-rootactions
 khelpcenter
 kio-extras
 #>extra kleopatra
@@ -308,7 +307,7 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+zensu
 
 ## Misc
 manjaro-hotfixes

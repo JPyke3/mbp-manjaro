@@ -1,0 +1,11 @@
+#search-icon {
+    filter: brightness(0.4);
+    }
+    
+body {
+    background-image: url("backgrounds/background.jpg") !important;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    }

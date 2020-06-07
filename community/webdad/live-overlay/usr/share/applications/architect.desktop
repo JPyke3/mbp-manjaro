@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Manjaro-Architect
+GenericName=CLI Installer
+Keywords=architect;system;installer
+TryExec=manjaro-architect
+Exec=guake --show -e "sudo /usr/bin/setup"
+Comment=Manjaro-Architect — CLI System Installer
+Icon=manjaro-architect
+Terminal=true
+StartupNotify=true
+Categories=System;

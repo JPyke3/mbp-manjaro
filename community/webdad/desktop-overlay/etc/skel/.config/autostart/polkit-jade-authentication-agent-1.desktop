@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=PolicyKit Authentication Agent
+Name[en_GB]=polkit-jade-authentication-agent-1
+Comment=PolicyKit Authentication Agent
+Comment[en_GB]=PolicyKit Authentication Agent
+Exec=/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+Terminal=false
+Type=Application
+Categories=
+NoDisplay=true
+OnlyShowIn=JADE;

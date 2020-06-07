@@ -84,7 +84,7 @@ manjaro-settings-manager-notifier
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
->extra ms-office-online
+>extra microsoft-office-web-jak
 >extra mugshot
 >multilib lib32-mesa-demos
 # >extra nemo-bulk-rename
@@ -141,7 +141,6 @@ ttf-bitstream-vera
 >extra udiskie
 vi
 >extra xcursor-chameleon-pearl-deepin
-xdg-su
 xdg-user-dirs-gtk
 xdg-utils
 xed

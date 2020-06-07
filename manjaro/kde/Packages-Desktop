@@ -87,7 +87,7 @@ terminus-font
 >extra ttf-droid
 
 ## Games
->x86_64 >extra steam-manjaro
+#>x86_64 >extra steam-manjaro
 
 ## Package management
 >extra appimagelauncher
@@ -303,7 +303,7 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+zensu
 >extra timeshift
 >extra kernel-alive
 

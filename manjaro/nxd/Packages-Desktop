@@ -92,7 +92,7 @@ terminus-font
 
 ## Package management
 #appimagelauncher
-pamac
+pamac-gtk
 pamac-tray-appindicator
 pamac-cli
 >extra apparmor
@@ -168,6 +168,7 @@ user-manager
 fonts-nx-desktop
 #grub2-theme-nitrux
 #qt5-style-kvantum
+latte-dock-git
 luv-icon-theme
 nx-audio-applet
 nx-clock-applet
@@ -188,7 +189,7 @@ index
 vvave
 plasma-pix
 plasma-nota
-nx-appimages
+#nx-appimages
 startup-notification # needed for waterfox
 
 ## Themes QT/GTK/SDDM
@@ -350,7 +351,7 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+#xdg-su
 >extra timeshift
 >extra kernel-alive
 

@@ -1,261 +1,181 @@
-## Network
-avahi
-networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-nss-mdns # NSS support for mDNS (optdepend for avahi)
-ntp
-mobile-broadband-provider-info
-modemmanager
-openresolv
-openssh
-samba
-usb_modeswitch
-networkmanager-dispatcher-ntpd
-manjaro-settings-samba
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-google
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
 alsa-utils
 ffmpeg
+grilo-plugins
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-libcanberra
->multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
-libcanberra-gstreamer
 libdvdcss
-manjaro-alsa
+>multilib manjaro-alsa
 manjaro-pulse
-phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-grilo-plugins
 
-## Connect Packages
-kdeconnect
-android-tools
-android-udev
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-#gvfs-nfs
-gvfs-smb
-#gvfs-google
-mtpfs
-udiskie
-udisks2
 
-## AUR Support/Development
-# Missing base-devel packages
-#autoconf
-#automake
-#binutils
-#bison
-#fakeroot
-#flex
-#gcc
-#>multilib gcc-libs-multilib
-#>multilib gcc-multilib
-#libtool
-#m4
-#make
-#patch
-#pkg-config
-#>multilib lib32-flex
+# Applications
+gthumb
+evince
+chromium
+>extra geary
+gedit
+file-roller
+guake
+nautilus
+nautilus-admin
+nautilus-empty-file
+>extra dconf-editor
+>extra slack-web-jak
+>extra skype-web-jak
+>extra whatsapp-web-jak
+>extra microsoft-office-web-jak
+>extra lxrandr
+vlc
+>extra lightdm-gtk-greeter-settings
+#>extra grub-customizer
+gufw
+>extra timeshift
+#>extra deja-dup
+>extra syncthing-gtk
+#>extra kdeconnect
+software-center-web-jak # for url handler's and discover
+>extra hardinfo
+>extra gparted
 
-# Extra packages for AUR support
->extra git
-#>extra patchutils
-#extra subversion
 
-## Fonts
-noto-fonts
-ttf-roboto
+## Startup and shutdown
+lightdm
+lightdm-gtk-greeter
+>extra bootsplash-systemd
+>extra bootsplash-theme-manjaro
+accountsservice
 
-## Games
-#gnome-games
->extra steam-manjaro 
-pingus
-gnome-mahjongg
-aisleriot
+
+## Network
+netctl
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+mobile-broadband-provider-info
+modemmanager
+avahi
+networkmanager
+ntp
+openresolv
+
+
+## Base
+manjaro-jade-settings
+gnome-keyring
+manjaro-browser-settings
+manjaro-settings-manager-notifier
+manjaro-hotfixes
+manjaro-hello
+mousetweaks
+nss-mdns
+numlockx
+powertop
+>basic squashfs-tools
+openssh
+tracker
+tracker-miners
+>basic disable-tracker
+inxi
+>extra dunst-notify-speech
+dmidecode
+>extra gtkhash-nautilus
+fprintd #need for finger id reader
+
 
 ## Package management
-pamac
+>extra apparmor
+pamac-gtk
+>extra snapd
+>extra snapd-glib
+>extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
+
 
 ## Java
 #>extra jdk8-openjdk
 #>extra jre8-openjdk-headless
 #>extra jre8-openjdk
 
-## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gtk3-print-backends
->extra hplip
->extra splix
->extra manjaro-printer
 
-# 3d Printing
-mattercontrol 
-#avrdude
+## Fonts
+ttf-roboto
+adobe-source-code-pro-fonts
 
-## Optional dependencies for hplip
->extra python-pillow # For hplip
->extra python-pip # For hplip
->extra python-pyqt5  # For hplip gui
->extra python-reportlab # For hplip
 
-## Display manager
-lightdm
-lightdm-webkit2-greeter-manjaro
-accountsservice  # Enhanced user accounts handling
-
-# bluetooth
-bluez-cups
-bluez-firmware
-bluez-hid2hci
-bluez-plugins
-
-# improve responsiveness 
-preload
-irqbalance
-
-# Settings
-manjaro-settings-manager
-
-# WebDad desktop
-jade-desktop-mode
-manjaro-webdad-settings
-webdad-speech
-jade-dashboard
-kwin
-pa-applet
-blueman
-dunst
-dex
-polkit-gnome
-manjaro-hello
-network-manager-applet
-pavucontrol
-gnome-keyring      
-nautilus
-nautilus-empty-file
-nautilus-sendto
-nautilus-share
-nautilus-admin
-#seahorse
-#seahorse-nautilus
-sushi
-file-roller
-hyper
-#menulibre
-#fish
-
-cairo-dock
-cairo-dock-plug-ins
-zeitgeist            # needed for cairo-dock events
-#ruby # cairo-dock plugins
-
-## Applications
-webdad-webapps
-timeshift
-gthumb
->extra simple-scan
-etcher
-dmidecode # optional dependency inxi
-gedit
-nano
-chromium
-gparted
->extra kernel-alive
-geary
-gufw
-#>extra hexchat
-evince
-inxi
->extra vlc-nightly
->extra lollypop
->extra empathy
-#>extra uget
-#baobab
->extra redshift
-
-# office
->extra libreoffice-fresh
-ms-office-online
-
-# extras
-deepin-screenshot
-pitivi
-obs-studio
-
-# design
-krita
-#inkscape
-#gimp
-
-# code
-#pycharm-community-edition
-#atom
-
-# Compression
-p7zip  # 7Z and ARJ archive support
-unace  # ACE archive support
-unrar  # RAR archive support
->extra lrzip
-
-## Documentation
-manjaro-documentation-en
-
-## Settings packages
-manjaro-browser-settings-native
-
-## Xorg Input Drivers
+usb_modeswitch
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
-xf86-input-wacom
-xf86-input-synaptics
-
-## Xorg Server and Graphics
-xdg-user-dirs
 xorg-server
 xorg-xinit
-xorg-xkill
-
-## Desktop Utils
-perl-file-mimeinfo
-xdg-utils
-xdg-su
-
-## Misc
-manjaro-hotfixes
+>extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
+>extra yelp
 
 
+#extra depends for file-roller
+>extra gnome-getting-started-docs
+>extra p7zip
+>extra unrar
+>extra unace
+>extra lrzip
+>extra gtk3-print-backends
+>extra manjaro-documentation-en
+#>x86_64 >extra steam-manjaro
+>extra manjaro-printer
+>extra simple-scan 
+>extra ffmpegthumbnailer
+>extra kernel-alive
 
 
-
-
-
-
-
-
-
-
-
-
+## AUR Support/Development
+# Missing base-devel packages
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
+>extra libtool
+>extra m4
+>extra make
+>extra patch
+>extra pkg-config
+>extra >multilib lib32-flex
+# Extra packages for AUR support
+>extra manjaro-aur-support
+>extra git
+>extra patchutils
+>extra subversion
 
 
