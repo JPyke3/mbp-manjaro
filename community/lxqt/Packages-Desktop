@@ -177,7 +177,9 @@ manjaro-documentation-en
 manjaro-hello
 manjaro-settings-manager
 obconf-qt
-qt5ct
+# https://github.com/lxqt/lxqt/issues/1368#issuecomment-340221833
+# https://forum.manjaro.org/t/lxqt-error-with-qt5ct/145431
+# qt5ct
 
 ## system icons
 adwaita-icon-theme
