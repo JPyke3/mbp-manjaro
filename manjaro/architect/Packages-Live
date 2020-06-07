@@ -13,11 +13,10 @@ manjaro-live-systemd
 networkmanager
 terminus-font
 virtualbox-guest-utils
+xdg-user-dirs
 xf86-input-elographics
 xf86-input-evdev
-#xf86-input-keyboard # deprecated
 xf86-input-libinput
-#xf86-input-mouse # deprecated
 xf86-input-vmmouse
 xf86-input-void
 grub-theme-live-manjaro-dev
