@@ -4,9 +4,7 @@
 ## Connect Packages
 >extra android-tools
 >extra android-udev
->extra gvfs-afc
 >extra gvfs-gphoto2
->extra gvfs-mtp
 
 ## Extra Fonts
 >extra noto-fonts
@@ -33,11 +31,6 @@
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra libdvdcss
->extra pulseaudio-bluetooth
->extra pulseaudio-ctl
->extra pulseaudio-zeroconf
->extra manjaro-pulse
->extra manjaro-alsa
 >extra vlc
 
 ## Printer
@@ -55,26 +48,6 @@
 >extra system-config-printer
 >extra simple-scan
 
-## AUR Support/Development
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra git
->extra libtool
->extra m4
->extra make
->extra patch
->extra patchutils
->extra pkg-config
->extra subversion
-
-## Office
-#>extra libreoffice-still
-
 ## Graphics
 >extra pinta
 
@@ -85,8 +58,8 @@
 >extra juffed-qt5
 
 ## Disc utilities
-#>extra gparted
-#>extra imagewriter
+>extra gparted
+>extra mintstick
 
 ## File management
 >extra p7zip
@@ -99,9 +72,24 @@
 ## webbrowser
 firefox
 
-## basic audio support
+## bluetooth device management
+blueman
+pulseaudio-bluetooth
+
+## text edit and notes
+featherpad
+feathernotes
+
+## audio support
 alsa-firmware
 alsa-utils
+paprefs
+pasystray
+pavucontrol-qt
+pulseaudio
+pulseaudio-ctl
+pulseaudio-zeroconf
+
 
 ## edition theming and settings
 kvantum-theme-matcha
@@ -133,6 +121,8 @@ ttf-roboto
 ## filemanager
 ark
 gvfs
+gvfs-afc
+gvfs-mtp
 gvfs-nfs
 gvfs-smb
 pcmanfm-qt
@@ -140,7 +130,7 @@ udiskie
 udisks2
 
 ## Terminal
-qterminal
+termite
 
 ## package manager
 pamac-gtk
@@ -162,6 +152,7 @@ networkmanager-qt
 openresolv
 networkmanager-openvpn
 openssh
+blueman
 
 ## core
 lxqt-about
@@ -186,7 +177,9 @@ manjaro-documentation-en
 manjaro-hello
 manjaro-settings-manager
 obconf-qt
-qt5ct
+# https://github.com/lxqt/lxqt/issues/1368#issuecomment-340221833
+# https://forum.manjaro.org/t/lxqt-error-with-qt5ct/145431
+# qt5ct
 
 ## system icons
 adwaita-icon-theme
