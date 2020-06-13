@@ -1,17 +1,32 @@
 ##### OPENBOX PROFILE
 
-## multimedia
-alsa-firmware
-alsa-plugins
-alsa-utils
-deadbeef
+## codecs
 faad2
 ffmpeg
 flac
 imlib2
+libdvdcss
+libdvdnav
+libdvdread
 libmad
+libmicrodns
 libvorbis
 mpg123
+protobuf
+twolame
+zlib
+
+## media players
+deadbeef
+smplayer
+smplayer-skins
+smplayer-themes
+smtube
+
+## audio support
+alsa-firmware
+alsa-plugins
+alsa-utils
 pamixer
 paprefs
 pasystray
@@ -19,11 +34,6 @@ pavucontrol
 playerctl
 pulseaudio
 pulseaudio-alsa
-smplayer
-smplayer-skins
-smplayer-themes
-smtube
-zlib
 
 ## internet browser
 firefox
@@ -37,12 +47,6 @@ xviewer
 xfce4-power-manager
 
 ## fonts, theming, icons, cursors
-adwaita-icon-theme
-gnome-icon-theme
-gnome-icon-theme-extras
-gnome-icon-theme-symbolic
-gnome-themes-extra
-hicolor-icon-theme
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
 manjaro-openbox-fonts
@@ -88,6 +92,10 @@ manjaro-hello
 catfish
 engrampa
 ffmpegthumbnailer
+gvfs
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
 mc
 mlocate
 p7zip
@@ -98,14 +106,10 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 tumbler
-unarchiver
-unzip
-gvfs
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
 udiskie
 udisks2
+unarchiver
+unzip
 
 ## disk utilities
 gnome-disk-utility
@@ -179,6 +183,14 @@ xcape
 xcb-util-cursor
 xdotool
 zenity
+
+## system icon themes
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
 
 ## system fonts
 freetype2

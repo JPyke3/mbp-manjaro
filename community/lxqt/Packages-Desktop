@@ -1,13 +1,7 @@
 #-------------------------------------------------
 # LXQT MINIMAL/FULL PROFILE
 
-## Connect Packages
->extra android-tools
->extra android-udev
->extra gvfs-gphoto2
-
 ## Extra Network packages
->extra avahi
 >extra mobile-broadband-provider-info
 >extra modemmanager-qt
 >extra networkmanager-dispatcher-ntpd
@@ -16,7 +10,6 @@
 >extra networkmanager-vpnc
 >extra nss-mdns
 >extra usb_modeswitch
->extra firewalld
 
 ## Apps and Libraries for Sound/Audio/Video
 >extra faad2
@@ -24,6 +17,8 @@
 >extra flac
 >extra imlib2
 >extra libdvdcss
+>extra libdvdread
+>extra libdvdnav
 >extra libmad
 >extra libmicrodns
 >extra libvorbis
@@ -52,12 +47,12 @@
 ## Internet applications
 >extra trojita
 
-## Disc utilities
->extra gparted
->extra mintstick
-
 #-------------------------------------------------
 # EDITION BASE PACKAGES
+
+## gui tools
+gparted
+mintstick
 
 ## webbrowser
 otter-browser-nowebengine
@@ -116,8 +111,11 @@ lximage-qt
 ttf-dejavu
 
 ## filemanager
+android-tools
+android-udev
 gvfs
 gvfs-afc
+gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
@@ -144,12 +142,13 @@ xclip
 xsel
 
 ## network
+blueman
+firewalld
 network-manager-applet
+networkmanager-openvpn
 networkmanager-qt
 openresolv
-networkmanager-openvpn
 openssh
-blueman
 
 ## core
 lxqt-about
