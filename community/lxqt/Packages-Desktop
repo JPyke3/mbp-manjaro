@@ -16,17 +16,24 @@
 >extra networkmanager-vpnc
 >extra nss-mdns
 >extra usb_modeswitch
+>extra firewalld
 
 ## Apps and Libraries for Sound/Audio/Video
+>extra faad2
 >extra ffmpeg
+>extra flac
+>extra imlib2
 >extra libdvdcss
+>extra libmad
 >extra libmicrodns
+>extra libvorbis
 >extra mpg123
->extra phonon-qt5
->extra phonon-qt5-vlc
 >extra protobuf
+>extra smplayer
+>extra smplayer-skins
+>extra smplayer-themes
+>extra smtube
 >extra twolame
->extra vlc
 
 ## Printer
 ## meta-pkg manjaro-printer
@@ -38,7 +45,6 @@
 >extra gutenprint
 >extra hplip
 >extra python-gobject
->extra python-pyqt5
 >extra splix
 >extra system-config-printer
 >extra simple-scan
@@ -49,6 +55,7 @@
 ## Disc utilities
 >extra gparted
 >extra mintstick
+
 
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
@@ -67,28 +74,34 @@ feathernotes
 
 ## audio support
 alsa-firmware
+alsa-plugins
 alsa-utils
+pamixer
 paprefs
 pasystray
 pavucontrol-qt
+playerctl
 pulseaudio
+pulseaudio-alsa
 pulseaudio-ctl
 pulseaudio-zeroconf
-
 
 ## edition theming and settings
 arc-themes-maia
 kvantum-manjaro
-papirus-icon-theme
-papirus-maia-icon-theme
-wallpapers-juhraya
-xcursor-breeze
-
-manjaro-grub-theme-blurred
+manjaro-grub-theme-sunset
 manjaro-icons
 manjaro-lxqt-config
 manjaro-lxqt-desktop-settings
+manjaro-lxqt-theme-arc-maia
 manjaro-slick-greeter-theme-sunset
+papirus-icon-theme
+papirus-maia-icon-theme
+ttf-fira-code
+ttf-fira-mono
+ttf-fira-sans
+wallpapers-juhraya
+xcursor-breeze
 
 ## display manager and greeter
 lightdm
@@ -102,9 +115,6 @@ lximage-qt
 
 ## fonts
 ttf-dejavu
-ttf-fira-code
-ttf-fira-mono
-ttf-fira-sans
 
 ## filemanager
 gvfs
@@ -158,6 +168,7 @@ lxqt-runner
 lxqt-session
 lxqt-sudo
 picom
+python-pyqt5
 xscreensaver
 
 ## settings manager
@@ -189,6 +200,7 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 zensu
+zlib
 
 ## xorg
 xf86-input-libinput
@@ -202,4 +214,3 @@ xorg-xkill
 xorg-xprop
 xsettingsd
 xterm
-
