@@ -6,12 +6,6 @@
 >extra android-udev
 >extra gvfs-gphoto2
 
-## Extra Fonts
->extra noto-fonts
->extra ttf-bitstream-vera
->extra ttf-droid
->extra ttf-inconsolata
-
 ## Extra Network packages
 >extra avahi
 >extra mobile-broadband-provider-info
@@ -25,12 +19,13 @@
 
 ## Apps and Libraries for Sound/Audio/Video
 >extra ffmpeg
->extra gst-libav
->extra gst-plugins-bad
->extra gst-plugins-base
->extra gst-plugins-good
->extra gst-plugins-ugly
 >extra libdvdcss
+>extra libmicrodns
+>extra mpg123
+>extra phonon-qt5
+>extra phonon-qt5-vlc
+>extra protobuf
+>extra twolame
 >extra vlc
 
 ## Printer
@@ -48,28 +43,18 @@
 >extra system-config-printer
 >extra simple-scan
 
-## Graphics
->extra pinta
-
 ## Internet applications
 >extra trojita
-
-## Text editor
->extra juffed-qt5
 
 ## Disc utilities
 >extra gparted
 >extra mintstick
 
-## File management
->extra p7zip
->extra unarchiver
->extra unrar
-
 #-------------------------------------------------
 ##### EDITION BASE PACKAGES
 
 ## webbrowser
+otter-browser-nowebengine
 firefox
 
 ## bluetooth device management
@@ -92,23 +77,24 @@ pulseaudio-zeroconf
 
 
 ## edition theming and settings
-kvantum-theme-matcha
-manjaro-grub-theme-blurred
-manjaro-icons
-manjaro-lxqt-config
-manjaro-lxqt-desktop-settings
-manjaro-openbox-matcha
-manjaro-slick-greeter-theme-sunset
-manjaro-zsh-config
-matcha-gtk-theme
+arc-themes-maia
+kvantum-manjaro
 papirus-icon-theme
 papirus-maia-icon-theme
 wallpapers-juhraya
 xcursor-breeze
 
+manjaro-grub-theme-blurred
+manjaro-icons
+manjaro-lxqt-config
+manjaro-lxqt-desktop-settings
+manjaro-slick-greeter-theme-sunset
+
 ## display manager and greeter
 lightdm
 lightdm-slick-greeter
+lightdm-settings
+light-locker
 
 ## office
 qpdfview
@@ -116,10 +102,11 @@ lximage-qt
 
 ## fonts
 ttf-dejavu
-ttf-roboto
+ttf-fira-code
+ttf-fira-mono
+ttf-fira-sans
 
 ## filemanager
-ark
 gvfs
 gvfs-afc
 gvfs-mtp
@@ -130,6 +117,7 @@ udiskie
 udisks2
 
 ## Terminal
+qterminal
 termite
 
 ## package manager
@@ -157,6 +145,7 @@ blueman
 ## core
 lxqt-about
 lxqt-admin
+lxqt-archiver
 lxqt-config
 lxqt-globalkeys
 lxqt-notificationd
@@ -177,9 +166,6 @@ manjaro-documentation-en
 manjaro-hello
 manjaro-settings-manager
 obconf-qt
-# https://github.com/lxqt/lxqt/issues/1368#issuecomment-340221833
-# https://forum.manjaro.org/t/lxqt-error-with-qt5ct/145431
-# qt5ct
 
 ## system icons
 adwaita-icon-theme
@@ -199,7 +185,6 @@ perl-file-mimeinfo
 polkit
 python-pyxdg
 squashfs-tools
-xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -215,5 +200,6 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xprop
+xsettingsd
 xterm
 
