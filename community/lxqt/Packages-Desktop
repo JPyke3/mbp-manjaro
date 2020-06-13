@@ -1,5 +1,5 @@
 #-------------------------------------------------
-##### LXQT MINIMAL/FULL PROFILE
+# LXQT MINIMAL/FULL PROFILE
 
 ## Connect Packages
 >extra android-tools
@@ -56,9 +56,8 @@
 >extra gparted
 >extra mintstick
 
-
 #-------------------------------------------------
-##### EDITION BASE PACKAGES
+# EDITION BASE PACKAGES
 
 ## webbrowser
 otter-browser-nowebengine
