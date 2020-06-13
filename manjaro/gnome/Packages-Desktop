@@ -8,6 +8,8 @@ alsa-firmware
 dmidecode
 gthumb
 evince
+manjaro-log-helper
+>extra mntray
 >basic epiphany
 >extra firefox
 >extra firefox-gnome-theme-maia
@@ -132,7 +134,7 @@ totem
 tracker
 tracker-miners
 >extra noto-fonts-compat
-noto-fonts               # default font
+noto-fonts               		# default font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 qgnomeplatform
 ttf-bitstream-vera
@@ -153,7 +155,7 @@ xf86-input-void
 xorg-server
 xorg-twm
 xorg-xinit
->extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
+>extra xf86-input-wacom 		#support for tablet and pen display ( wacom ecc. )
 >extra yelp
 >extra caffeine-ng
 >extra libappindicator-gtk3

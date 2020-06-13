@@ -59,6 +59,7 @@ gufw
 software-center-web-jak # for url handler's and discover
 >extra hardinfo
 >extra gparted
+#>extra dconf
 
 
 ## Startup and shutdown
