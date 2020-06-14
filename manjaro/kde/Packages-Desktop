@@ -50,28 +50,6 @@ mtpfs
 udiskie
 udisks2
 
-## AUR Support/Development
-# Missing base-devel packages
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra pkg-config
->extra >multilib lib32-flex
-# Extra packages for AUR support
->extra git
->extra patchutils
->extra subversion
-
 ## Fonts
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
@@ -87,7 +65,7 @@ terminus-font
 >extra ttf-droid
 
 ## Games
-#>x86_64 >extra steam-manjaro
+>x86_64 >extra steam-manjaro
 
 ## Package management
 >extra appimagelauncher
