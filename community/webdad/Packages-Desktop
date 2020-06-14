@@ -50,16 +50,11 @@ nautilus-empty-file
 >extra lxrandr
 vlc
 >extra lightdm-gtk-greeter-settings
-#>extra grub-customizer
 gufw
 >extra timeshift
-#>extra deja-dup
 >extra syncthing-gtk
-#>extra kdeconnect
 software-center-web-jak # for url handler's and discover
 >extra hardinfo
->extra gparted
-#>extra dconf
 
 
 ## Startup and shutdown
@@ -105,6 +100,19 @@ inxi
 dmidecode
 >extra gtkhash-nautilus
 fprintd #need for finger id reader
+lxqt-powermanagement
+blueberry
+usb_modeswitch
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+xorg-server
+xorg-xinit
+>extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 
 
 ## Package management
@@ -127,20 +135,6 @@ ttf-roboto
 adobe-source-code-pro-fonts
 
 
-usb_modeswitch
-xdg-user-dirs
-xdg-user-dirs-gtk
-xdg-utils
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-libinput
-xf86-input-void
-xorg-server
-xorg-xinit
->extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
->extra yelp
-
-
 #extra depends for file-roller
 >extra gnome-getting-started-docs
 >extra p7zip
@@ -158,25 +152,23 @@ xorg-xinit
 
 ## AUR Support/Development
 # Missing base-devel packages
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra pkg-config
->extra >multilib lib32-flex
+#>extra autoconf
+#>extra automake
+#>extra binutils
+#>extra bison
+#>extra fakeroot
+#>extra flex
+#>extra gcc
+#>extra >multilib gcc-libs-multilib
+#>extra >multilib gcc-multilib
+#>extra libtool
+#>extra m4
+#>extra make
+#>extra patch
+#>extra pkg-config
+#>extra >multilib lib32-flex
 # Extra packages for AUR support
->extra manjaro-aur-support
->extra git
->extra patchutils
->extra subversion
-
+#>extra git
+#>extra patchutils
+#>extra subversion
 
