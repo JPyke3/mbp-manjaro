@@ -216,7 +216,7 @@ mousepad
 # manjaro-documentation-en  # no use for Awesome edition
 
 ## Settings packages
-manjaro-awesome-settings-18.0
+manjaro-awesome-settings
 >extra manjaro-browser-settings
 >extra manjaro-settings-samba
 manjaro-zsh-config
@@ -247,7 +247,7 @@ xorg-server
 ## Desktop Utils
 >extra perl-file-mimeinfo
 >extra xdg-utils
->extra xdg-su
+#>extra xdg-su
 >extra timeshift
 >extra kernel-alive
 

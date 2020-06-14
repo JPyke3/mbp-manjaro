@@ -1,19 +1,7 @@
 #-------------------------------------------------
-##### LXQT MINIMAL/FULL PROFILE
-
-## Connect Packages
->extra android-tools
->extra android-udev
->extra gvfs-gphoto2
-
-## Extra Fonts
->extra noto-fonts
->extra ttf-bitstream-vera
->extra ttf-droid
->extra ttf-inconsolata
+# LXQT MINIMAL/FULL PROFILE
 
 ## Extra Network packages
->extra avahi
 >extra mobile-broadband-provider-info
 >extra modemmanager-qt
 >extra networkmanager-dispatcher-ntpd
@@ -24,14 +12,23 @@
 >extra usb_modeswitch
 
 ## Apps and Libraries for Sound/Audio/Video
+>extra faad2
 >extra ffmpeg
->extra gst-libav
->extra gst-plugins-bad
->extra gst-plugins-base
->extra gst-plugins-good
->extra gst-plugins-ugly
+>extra flac
+>extra imlib2
 >extra libdvdcss
->extra vlc
+>extra libdvdread
+>extra libdvdnav
+>extra libmad
+>extra libmicrodns
+>extra libvorbis
+>extra mpg123
+>extra protobuf
+>extra smplayer
+>extra smplayer-skins
+>extra smplayer-themes
+>extra smtube
+>extra twolame
 
 ## Printer
 ## meta-pkg manjaro-printer
@@ -43,33 +40,22 @@
 >extra gutenprint
 >extra hplip
 >extra python-gobject
->extra python-pyqt5
 >extra splix
 >extra system-config-printer
 >extra simple-scan
 
-## Graphics
->extra pinta
-
 ## Internet applications
 >extra trojita
 
-## Text editor
->extra juffed-qt5
-
-## Disc utilities
->extra gparted
->extra mintstick
-
-## File management
->extra p7zip
->extra unarchiver
->extra unrar
-
 #-------------------------------------------------
-##### EDITION BASE PACKAGES
+# EDITION BASE PACKAGES
+
+## gui tools
+gparted
+mintstick
 
 ## webbrowser
+otter-browser-nowebengine
 firefox
 
 ## bluetooth device management
@@ -82,33 +68,40 @@ feathernotes
 
 ## audio support
 alsa-firmware
+alsa-plugins
 alsa-utils
+pamixer
 paprefs
 pasystray
 pavucontrol-qt
+playerctl
 pulseaudio
+pulseaudio-alsa
 pulseaudio-ctl
 pulseaudio-zeroconf
 
-
 ## edition theming and settings
-kvantum-theme-matcha
-manjaro-grub-theme-blurred
+arc-themes-maia
+kvantum-manjaro
+manjaro-grub-theme-sunset
 manjaro-icons
 manjaro-lxqt-config
 manjaro-lxqt-desktop-settings
-manjaro-openbox-matcha
+manjaro-lxqt-theme-arc-maia
 manjaro-slick-greeter-theme-sunset
-manjaro-zsh-config
-matcha-gtk-theme
 papirus-icon-theme
 papirus-maia-icon-theme
+ttf-fira-code
+ttf-fira-mono
+ttf-fira-sans
 wallpapers-juhraya
 xcursor-breeze
 
 ## display manager and greeter
 lightdm
 lightdm-slick-greeter
+lightdm-settings
+light-locker
 
 ## office
 qpdfview
@@ -116,12 +109,13 @@ lximage-qt
 
 ## fonts
 ttf-dejavu
-ttf-roboto
 
 ## filemanager
-ark
+android-tools
+android-udev
 gvfs
 gvfs-afc
+gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
@@ -130,6 +124,7 @@ udiskie
 udisks2
 
 ## Terminal
+qterminal
 termite
 
 ## package manager
@@ -147,16 +142,18 @@ xclip
 xsel
 
 ## network
+blueman
+firewalld
 network-manager-applet
+networkmanager-openvpn
 networkmanager-qt
 openresolv
-networkmanager-openvpn
 openssh
-blueman
 
 ## core
 lxqt-about
 lxqt-admin
+lxqt-archiver
 lxqt-config
 lxqt-globalkeys
 lxqt-notificationd
@@ -169,6 +166,7 @@ lxqt-runner
 lxqt-session
 lxqt-sudo
 picom
+python-pyqt5
 xscreensaver
 
 ## settings manager
@@ -177,9 +175,6 @@ manjaro-documentation-en
 manjaro-hello
 manjaro-settings-manager
 obconf-qt
-# https://github.com/lxqt/lxqt/issues/1368#issuecomment-340221833
-# https://forum.manjaro.org/t/lxqt-error-with-qt5ct/145431
-# qt5ct
 
 ## system icons
 adwaita-icon-theme
@@ -199,11 +194,11 @@ perl-file-mimeinfo
 polkit
 python-pyxdg
 squashfs-tools
-xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 zensu
+zlib
 
 ## xorg
 xf86-input-libinput
@@ -215,5 +210,5 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xprop
+xsettingsd
 xterm
-
