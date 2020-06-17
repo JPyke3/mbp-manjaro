@@ -51,7 +51,7 @@ nautilus-empty-file
 vlc
 >extra lightdm-gtk-greeter-settings
 gufw
->extra timeshift
+>extra deja-dup
 >extra syncthing-gtk
 software-center-web-jak # for url handler's and discover
 >extra hardinfo
