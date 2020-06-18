@@ -1,68 +1,63 @@
 ## Connect Packages
-android-tools
-android-udev
-gvfs
-gvfs-google
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-mtpfs
-udiskie
-udisks2
+>extra android-tools
+>extra android-udev
+>extra gvfs
+>extra gvfs-google
+>extra gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra mtpfs
+>extra udiskie
+>extra udisks2
 
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
 alsa-utils
-ffmpeg
-grilo-plugins
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-libdvdcss
 >multilib manjaro-alsa
 manjaro-pulse
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+>extra ffmpeg
+>extra grilo-plugins
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra libdvdcss
 
 
 # Applications
-gthumb
-evince
-chromium
->extra geary
-gedit
-file-roller
 guake
 nautilus
-nautilus-admin
-nautilus-empty-file
+software-center-web-jak # for url handler's and discover
+>extra nautilus-admin
+>extra nautilus-empty-file
 >extra dconf-editor
->extra slack-web-jak
->extra skype-web-jak
->extra whatsapp-web-jak
->extra microsoft-office-web-jak
 >extra lxrandr
-vlc
+>extra vlc
 >extra lightdm-gtk-greeter-settings
-gufw
+>extra gufw
 >extra deja-dup
 >extra syncthing-gtk
-software-center-web-jak # for url handler's and discover
 >extra hardinfo
+>extra gthumb
+>extra evince
+>extra geary
+>extra gedit
+>extra file-roller
 
 
 ## Startup and shutdown
 lightdm
 lightdm-gtk-greeter
+accountsservice
 >extra bootsplash-systemd
 >extra bootsplash-theme-manjaro
-accountsservice
 
 
 ## Network
@@ -73,36 +68,19 @@ networkmanager-pptp
 networkmanager-vpnc
 mobile-broadband-provider-info
 modemmanager
-avahi
 networkmanager
 ntp
 openresolv
+>extra avahi
 
 
 ## Base
 manjaro-jade-settings
 gnome-keyring
-manjaro-browser-settings
-manjaro-settings-manager-notifier
 manjaro-hotfixes
 manjaro-hello
-mousetweaks
-nss-mdns
-numlockx
-powertop
 >basic squashfs-tools
-openssh
-tracker
-tracker-miners
 >basic disable-tracker
-inxi
->extra dunst-notify-speech
-dmidecode
->extra gtkhash-nautilus
-fprintd #need for finger id reader
-lxqt-powermanagement
-blueberry
-usb_modeswitch
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -113,15 +91,43 @@ xf86-input-void
 xorg-server
 xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
+>extra manjaro-settings-manager-notifier
+>extra mousetweaks
+>extra nss-mdns
+>extra numlockx
+>extra powertop
+>extra inxi
+>extra dunst-notify-speech
+>extra dmidecode
+>extra gtkhash-nautilus
+>extra fprintd #need for finger id reader
+>extra lxqt-powermanagement
+>extra blueberry
+>extra usb_modeswitch
+>extra openssh
+>extra manjaro-browser-settings
+
+#extra depends for file-roller
+>extra gnome-getting-started-docs
+>extra p7zip
+>extra unrar
+>extra unace
+>extra lrzip
+>extra gtk3-print-backends
+>extra manjaro-documentation-en
+>extra manjaro-printer
+>extra simple-scan 
+>extra ffmpegthumbnailer
+>extra kernel-alive
 
 
 ## Package management
->extra apparmor
 pamac-gtk
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
+>extra apparmor
 
 
 ## Java
@@ -133,21 +139,6 @@ pamac-gtk
 ## Fonts
 ttf-roboto
 adobe-source-code-pro-fonts
-
-
-#extra depends for file-roller
->extra gnome-getting-started-docs
->extra p7zip
->extra unrar
->extra unace
->extra lrzip
->extra gtk3-print-backends
->extra manjaro-documentation-en
-#>x86_64 >extra steam-manjaro
->extra manjaro-printer
->extra simple-scan 
->extra ffmpegthumbnailer
->extra kernel-alive
 
 
 ## AUR Support/Development
