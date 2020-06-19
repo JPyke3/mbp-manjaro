@@ -1,3 +1,6 @@
+# All extra packages are also part of netinstaller
+# https://gitlab.manjaro.org/packages/community/jade/calamares/-/blob/master/netinstall-applications.yaml
+
 ## Connect Packages
 >extra android-tools
 >extra android-udev
@@ -31,7 +34,7 @@ pulseaudio-zeroconf
 >extra libdvdcss
 
 
-# Applications
+## Applications
 guake
 nautilus
 software-center-web-jak # for url handler's and discover
@@ -62,19 +65,20 @@ accountsservice
 
 ## Network
 netctl
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
 mobile-broadband-provider-info
 modemmanager
 networkmanager
 ntp
 openresolv
 >extra avahi
+>extra networkmanager-openconnect
+>extra networkmanager-openvpn
+>extra networkmanager-pptp
+>extra networkmanager-vpnc
 
 
 ## Base
+manjaro-settings-manager-notifier
 manjaro-jade-settings
 gnome-keyring
 manjaro-hotfixes
@@ -90,7 +94,7 @@ xf86-input-libinput
 xf86-input-void
 xorg-server
 xorg-xinit
->extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
+>extra xf86-input-wacom # Support for tablet and pen display ( wacom ecc. )
 >extra manjaro-settings-manager-notifier
 >extra mousetweaks
 >extra nss-mdns
@@ -107,7 +111,7 @@ xorg-xinit
 >extra openssh
 >extra manjaro-browser-settings
 
-#extra depends for file-roller
+# Dependencies for file-roller
 >extra gnome-getting-started-docs
 >extra p7zip
 >extra unrar
@@ -139,27 +143,4 @@ pamac-gtk
 ## Fonts
 ttf-roboto
 adobe-source-code-pro-fonts
-
-
-## AUR Support/Development
-# Missing base-devel packages
-#>extra autoconf
-#>extra automake
-#>extra binutils
-#>extra bison
-#>extra fakeroot
-#>extra flex
-#>extra gcc
-#>extra >multilib gcc-libs-multilib
-#>extra >multilib gcc-multilib
-#>extra libtool
-#>extra m4
-#>extra make
-#>extra patch
-#>extra pkg-config
-#>extra >multilib lib32-flex
-# Extra packages for AUR support
-#>extra git
-#>extra patchutils
-#>extra subversion
 
