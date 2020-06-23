@@ -56,9 +56,6 @@ noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
 terminus-font
->extra ttf-bitstream-vera
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
-# ttf-hack               # Installed as plasma-integration dependency
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
