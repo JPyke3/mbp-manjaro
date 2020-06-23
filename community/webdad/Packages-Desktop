@@ -94,6 +94,7 @@ xf86-input-libinput
 xf86-input-void
 xorg-server
 xorg-xinit
+manjaro-browser-settings
 >extra xf86-input-wacom # Support for tablet and pen display ( wacom ecc. )
 >extra manjaro-settings-manager-notifier
 >extra mousetweaks
@@ -106,10 +107,10 @@ xorg-xinit
 >extra gtkhash-nautilus
 >extra fprintd #need for finger id reader
 >extra lxqt-powermanagement
+>extra lxappearance-gtk3
 >extra blueberry
 >extra usb_modeswitch
 >extra openssh
->extra manjaro-browser-settings
 
 # Dependencies for file-roller
 >extra gnome-getting-started-docs
