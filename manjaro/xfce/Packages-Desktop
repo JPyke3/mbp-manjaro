@@ -49,8 +49,6 @@ noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 # >extra noto-fonts-emoji
 terminus-font
-ttf-bitstream-vera       # xfce4-terminal default Monospace
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation

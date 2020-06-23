@@ -137,7 +137,6 @@ tracker-miners
 noto-fonts               		# default font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 qgnomeplatform
-ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
 ttf-inconsolata
