@@ -1,0 +1,9 @@
+[Desktop Entry]
+Terminal=false
+Name=mntray
+Type=Application
+Exec=/usr/bin/mntray --delay
+Icon=mntray
+Comment=A Manjaro Linux announcements notification app
+X-GNOME-Autostart-enabled=false
+
