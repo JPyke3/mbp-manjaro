@@ -44,7 +44,8 @@ udiskie
 udisks2
 
 ## Fonts
-cantarell-fonts
+ttf-dejavu
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 # >extra noto-fonts-emoji
