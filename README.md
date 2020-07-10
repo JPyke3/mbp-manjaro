@@ -93,3 +93,13 @@ Arch MBP 2018 (Out of Date): https://gist.github.com/TRPB/437f663b545d23cc8a2073
 * Ubuntu: https://github.com/marcosfad/mbp-ubuntu
 * Fedora: https://github.com/mikeeq/mbp-fedora
 * Arch: https://github.com/aunali1/linux-mbp-arch
+
+## TODO
+- [ ] Fix KDE and Budgie Versions
+- [ ] Automate WiFi Installation
+- [ ] Test Installer on Every Edition
+  - [ ] xfce
+  - [ ] GNOME
+  - [ ] KDE-Plasma
+  - [ ] Cinnamon
+  - [ ] Budige
