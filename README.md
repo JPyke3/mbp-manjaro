@@ -17,7 +17,7 @@ All Drivers/Patches Featured:
 
 ## Releases
 
-As th ISO files are too large to host on github, All the files will be hosted on google drive. ~Coming Soon~
+[Download the latest releases here](https://drive.google.com/drive/folders/16BK16Ig2BX3MzktFFPaX04-B2PTAhd8R?usp=sharing)
 
 ## Installation Proccess
 Flash your iso to a USB Stick, If you want a easy way to do this. Use [Balena Etcher](https://www.balena.io/etcher/). For a more command line way of doing this, use dd.
