@@ -1,137 +1,64 @@
-iso-profiles
-==========================
+# mbp-manjaro
 
-###### profile.conf
+This repository contains the build scripts for compiling isos using the mbp-manjaro-kernel. With these iso files you can run Manjaro on 2018+ Macbook models with the T2 Chip.
 
-~~~
-##########################################
-###### use this file in the profile ######
-##########################################
+Kernel Source: https://github.com/JPyke3/mbp-manjaro-kernel
+Extra Modules that are loaded: https://github.com/JPyke3/extramodules-mbp-manjaro
+repository: http://jacobpyke.xyz:8080/archlinux/
 
-# use multilib packages; x86_64 only
-# multilib="true"
+All Drivers/Patches Featured:
 
-# use extra packages as defined in pkglist to activate a full profile
-# extra="false"
+* Keyboard, Trackpad, Audio and Suspend: https://github.com/MCMrARM/mbp2018-bridge-drv
+* Arch Linux Kernel Patches: https://github.com/aunali1/linux-mbp-arch
+* DKMS Module for loading Patches: https://github.com/aunali1/apple-bce-arch
+* Most Recent WiFi Patch: https://github.com/mikeeq/mbp-fedora-kernel
 
-################ install ################
+## Releases
 
-# default displaymanager: none
-# supported; lightdm, sddm, gdm, lxdm, mdm
-# displaymanager="none"
+As th ISO files are too large to host on github, All the files will be hosted on google drive. ~Coming Soon~
 
-# Set to false to disable autologin in the livecd
-# autologin="true"
+## Installation Proccess
+Flash your iso to a USB Stick, If you want a easy way to do this. Use [Balena Etcher](https://www.balena.io/etcher/). For a more command line way of doing this, use dd.
 
-# nonfree xorg drivers
-# nonfree_mhwd="true"
+**More In-Depth Installation Steps Coming Soon, in the meantime consult [mbp-fedora](https://github.com/mikeeq/mbp-fedora) Specifically Regarding Bootloader, and WiFi**
 
-# possible values: grub;systemd-boot
-# efi_boot_loader="grub"
+## Building for yourself
+Clone the repository to your home directory
+```
+git clone https://github.com/JPyke3/mbp-manjaro ~/iso-profiles
+```
+run a command corrisponding to your preferred version of Manjaro:
+##### xfce
+```
+buildiso -f -p xfce -k linux56-mbp
+```
+##### GNOME
+```
+buildiso -f -p gnome -k linux56-mbp
+```
+##### KDE-Plasma
+```
+buildiso -f -p kde -k linux56-mbp
+```
+##### i3wm
+```
+buildiso -f -p i3 -k linux56-mbp
+```
+##### Cinnamon
+```
+buildiso -f -p cinnamon -k linux56-mbp
+```
+##### Budgie
+```
+buildiso -f -p budgie -k linux56-mbp
+```
 
-# configure calamares for netinstall
-# netinstall="false"
-
-# configure calamares to use chrootcfg instead of unpackfs; default: unpackfs
-# chrootcfg="false"
-
-# use geoip
-# geoip="true"
-
-# unset defaults to given values
-# names must match systemd service names
-# enable_systemd=('bluetooth' 'cronie' 'ModemManager' 'NetworkManager' 'org.cups.cupsd' 'tlp' 'tlp-sleep')
-# disable_systemd=()
-
-# unset defaults to given values,
-# names must match openrc service names
-# enable_openrc=('acpid' 'bluetooth' 'elogind' 'cronie' 'cupsd' 'dbus' 'syslog-ng' 'NetworkManager')
-# disable_openrc=()
-
-# unset defaults to given values
-# addgroups="video,power,disk,storage,optical,network,lp,scanner,wheel"
-
-# the same workgroup name if samba is used
-# smb_workgroup="Manjaro"
-
-################# live-session #################
-
-# unset defaults to given value
-# hostname="manjaro"
-
-# unset defaults to given value
-# username="manjaro"
-
-# unset defaults to given value
-# password="manjaro"
-
-# the login shell
-# defaults to bash
-# login_shell=/bin/bash
-
-# unset defaults to given values
-# names must match systemd service names
-# services in enable_systemd array don't need to be listed here
-# enable_systemd_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
-
-# unset defaults to given values,
-# names must match openrc service names
-# services in enable_openrc array don't need to be listed here
-# enable_openrc_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
-~~~
-
-###### New Packagelist tags
-
-~~~
->openrc
->systemd
-
->i686
->x86_64
->multilib
-
->nonfree_default
->nonfree_i686
->nonfree_x86_64
->nonfree_multilib
-
->manjaro
-
->basic
->extra
-~~~
-
-###### Packages-Root
-
-* Contains root image packages
-* ideally no xorg
-
-###### Packages-Desktop
-
-* Contains the desktop image packages
-* desktop environment packages go here
-
-###### Packages-Mhwd
-
-* Contains the MHWD driver packages repo
-
-###### Packages-Live
-
-* Contains packages you only want in live session but not installed on the target system with installer
-* default files are in shared folder and can be symlinked or defined in a real file
-
-###### buildiso can be configured to use custom repos
-
-* create a user-repos.conf
-
-~~~
-${profile_dir}/user-repos.conf
-~~~
-
-**Add only your repos to user-repos.conf!**
-
-**Important**: Only online repos is allowed in the user-repos.conf. Buildiso will fail on file-based repos.
-
-
-###### Calamares
-* netgroups definitions go in [this](https://github.com/manjaro/calamares-netgroups) repo please
+#### File Locations 
+Navigate to the directory for your iso file. If Using xfce GNOME or KDE go to:
+```
+cd /var/cache/manjaro-tools/iso/manjaro/{NAME_OF_EDITION}/20.0.3/
+```
+If on i3wm Cinnamon or Budige navigate to:
+```
+cd /var/cache/manjaro-tools/iso/community/{NAME_OF_EDITION}/20.0.3/
+```
