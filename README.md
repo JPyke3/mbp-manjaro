@@ -25,6 +25,12 @@ Flash your iso to a USB Stick, If you want a easy way to do this. Use [Balena Et
 **More In-Depth Installation Steps Coming Soon, in the meantime consult [mbp-fedora](https://github.com/mikeeq/mbp-fedora) Specifically Regarding Bootloader, and WiFi**
 
 ## Building for yourself
+
+First Install Manjaro Tools:
+```
+pamac install manjaro-tools-iso git
+```
+
 Clone the repository to your home directory
 ```
 git clone https://github.com/JPyke3/mbp-manjaro ~/iso-profiles
