@@ -163,3 +163,13 @@ xdg-user-dirs
 xorg-server
 >extra yay
 zensu
+
+# mbp
+linux56-mbp-headers
+linux56-mbp-docs
+linux56-mbp-zfs
+linux56-mbp-bbswitch
+linux56-mbp-broadcom-wl
+linux56-mbp-virtualbox-guest-modules
+linux56-mbp-virtualbox-host-modules
+apple-bce-dkms-git
