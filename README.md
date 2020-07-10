@@ -3,8 +3,10 @@
 This repository contains the build scripts for compiling isos using the mbp-manjaro-kernel. With these iso files you can run Manjaro on 2018+ Macbook models with the T2 Chip.
 
 Kernel Source: https://github.com/JPyke3/mbp-manjaro-kernel
-Extra Modules that are loaded: https://github.com/JPyke3/extramodules-mbp-manjaro
-repository: http://jacobpyke.xyz:8080/archlinux/
+
+Extra Modules: https://github.com/JPyke3/extramodules-mbp-manjaro
+
+Repository: http://jacobpyke.xyz:8080/archlinux/
 
 All Drivers/Patches Featured:
 
