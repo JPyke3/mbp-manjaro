@@ -13,7 +13,6 @@ All Drivers/Patches Featured:
 * Keyboard, Trackpad, Audio and Suspend: https://github.com/MCMrARM/mbp2018-bridge-drv
 * Arch Linux Kernel Patches: https://github.com/aunali1/linux-mbp-arch
 * DKMS Module for loading Patches: https://github.com/aunali1/apple-bce-arch
-* Most Recent WiFi Patch: https://github.com/mikeeq/mbp-fedora-kernel
 
 ## Releases
 
@@ -22,9 +21,117 @@ All Drivers/Patches Featured:
 ## Installation Proccess
 Flash your iso to a USB Stick, If you want a easy way to do this. Use [Balena Etcher](https://www.balena.io/etcher/). For a more command line way of doing this, use dd.
 
-**I do not recommend installing this just yet. There are still a few bootloader issues to work out at this stage.**
+#### Hardware requirements: 
+* USB-C to ethernet cable adapter.
+  * Whilst you can install this over WiFi, it would make it alot easier to use an Adapter. If you would like to use the WiFi to set up Manjaro then refer to the "In order to get WiFi working" Section after you have booted Manjaro
+* USB-C to USB Adapter
 
-**More In-Depth Installation Steps Coming Soon, in the meantime consult [mbp-fedora](https://github.com/mikeeq/mbp-fedora) Specifically Regarding Bootloader, and WiFi**
+### Steps
+1. Partition your drive in MacOS ready for a linux install. You can either use Disk Utility or use Bootcamp, important thing is, is that you have two partitions (Your MacOS partition and your new linux one) (It isn't recommended that you totally delete MacOS as firmware updates are applied through it).
+2. Take ISO and flash to a USB stick
+3. Disable MacOS secure boot. [Apple's Documentation](https://support.apple.com/en-au/HT208330)
+  a. Turn on your Mac, then press and hold Command (⌘)-R immediately after you see the Apple logo to start up from macOS Recovery.  
+  b. When you see the macOS Utilities window, choose Utilities > Startup Security Utility from the menu bar.
+  c. When you're asked to authenticate, click Enter macOS Password, then choose an administrator account and enter its password.
+  d. Set the first option to "No Security", and the second to "Allow booting from External Media".
+  d. Reboot your Mac.
+4. Hold the option key whilst booting. 
+5. Select the yellow EFI System using the arrow keys and hit enter.
+5. When the USB menu first appears, use your arrows to go to the blank option below Boot and type in the following (Keep in mind you cannot use backspace here):
+```
+efi=noruntime
+```
+6. Hit enter scroll to boot and boot Manjaro.
+7. After booting into Manjaro, set the system time using the Manjaro settings
+8. Open the installer and proceed normally until you hit the partitioning stage
+9. Click Manual Partitioning
+10. Click on /dev/nvme0n1p1 then click edit at the bottom of the install window theen change the Change the Mount Point: /boot, after that click okay.
+11. Usually, the MacOS partition is mounted to /dev/nvme0n1p2, ignore this partition
+13. Delete your Linux partition on /dev/nvme0n1p3.
+14. Create a 51200 MiB partition with ext4 as the file system. Change the mount point to / and click okay.
+15. Use the remaining disk space to create an ext4 file system. Change the mount point to /home
+16. Click Next, on the next screen a warning will appear about EFI System Partition Configuration. Just ignore it and click okay.
+17. Continue the rest of the setup as normal. Once the installer has finished do not restart the system. 
+18. Open a terminal, and type: 
+```
+sudo fdisk -l. 
+```
+The root password is 'manjaro'
+
+19. Scroll up to the disk named /dev/nvme0n1. Note down the names of the 50G Linux partition and the 300M EFI SYSTEM partition.
+In my case these were mounted at /dev/nvme0n1p1 (EFI System) and /dev/nvme0n1p3 (Linux Filesystem).
+20. Copy this command into a terminal, substitute the two fields in { } with your EFI System and Linux Filesystem names
+```
+sudo mount {Linux Filesystem} /mnt; sudo mount {EFI System} /mnt/boot
+```
+21. Run this command, take note of the UUID
+```
+cat /mnt/etc/fstab | grep "/ "
+```
+22. Open a new terminal, and run this command
+```
+manjaro-chroot /mnt
+```
+23. Run this command to install systemd-boot
+```
+bootctl --path=/boot --no-variables install 
+```
+24. and then this one to mask systemd from not touching a EFI var (Causes a kernel panic)
+```
+systemctl mask systemd-boot-system-token.service 
+```
+25. Open the file /boot/loader/entries/manjaro.conf in your favorite text editor (If you are a beginner use the command below)
+```
+nano /boot/loader/entries/manjaro.conf
+```
+26. Paste in the block of text below (Note for beginners to paste into a terminal its usually control + shift + v)
+```
+title   Manjaro Linux
+linux   /vmlinuz-linux56-mbp
+initrd  /intel-ucode.img
+initrd  /initramfs-linux56-mbp.img
+options root="UUID={change_this_value}" rw
+```
+27. Change back to your other terminal with the values, And copy the UUID from the other terminal, replacing {change_this_value} (Including the brackets). 
+28. Save the file (Use ctrl+x if you copied my command from above, press the y button and then press enter).
+29. Run the command below:
+```
+echo -e 'default manjaro.conf\rtimeout 4\rconsole-mode max\reditor no'  > /boot/loader/loader.conf
+```
+30. Press control + d
+31. Run this command:
+```
+sudo umount -R /mnt
+```
+
+Reboot your computer, Remembering to move the USB boot flash drive, and welcome to Manjaro :)
+
+## In order to get WiFi working
+1. Boot into OSX and run the following in terminal: `ioreg -l | grep C-4364`
+
+It will show something like:
+```
+"RequestedFiles" = ({"Firmware"="C-4364__s-B2/kauai.trx","TxCap"="C-4364__s-B2/kauai-X3.txcb","Regulatory"="C-4364__s-B2/kauai-X3.clmb","NVRAM"="C-4364__s-B2/P-kauai-X3_M-HRPN_V-u__m-7.5.txt"})
+
+    | |   |         |       "images" = {"C-4364__s-B2/kauai-X3.txcb"={"imagetype"="TxCap","required"=No,"imagename"="C-4364__s-B2/kauai-X3.txcb"},"C-4364__s-B2/P-kauai-X3_M-HRPN_V-u__m-7.5.txt"={"imagetype"="NVRAM","required"=Yes,"imagename"="C-4364__s-B2/P-kauai-X3_M-HRPN_V-u__m-7.5.txt"},"C-4364__s-B2/kauai-X3.clmb"={"imagetype"="Regulatory","required"=Yes,"imagename"="C-4364__s-B2/kauai-X3.clmb"},"C-4364__s-B2/kauai.trx"={"imagetype"="Firmware","required"=Yes,"imagename"="C-4364__s-B2/kauai.trx"}}
+```
+It'll be different depending on your exact model.
+
+2. There are three files to note down. A `.trx` (for me: `C-4364__s-B2/kauai.trx`), a `.clmb` (for me: `C-4364__s-B2/kauai-X3.clmb` and a `.txt` (for me: `C-4364__s-B2/P-kauai-X3_M-HRPN_V-u__m-7.5.txt`
+3. Look for the corrisponding files in this repository: https://packages.aunali1.com/apple/wifi-fw/18G2022/ (Thank you Aunali1)
+4. Boot back into linux and place the files in the following locations:
+5. Copy the trx to `/lib/firmware/brcm/brcmfmac4364-pcie.bin` (e.g. `sudo cp kauai.trx /lib/firmware/brcm/brcmfmac4364-pcie.bin`)
+6. The clmb to `/lib/firmware/brcm/brcmfmac4364-pcie.clm_blob` (e.g. `sudo cp kauai-X3.clmb /lib/firmware/brcm/brcmfmac4364-pcie.clm_blob`)
+7. The txt to something like `/lib/firmware/brcm/brcmfmac4364-pcie.Apple Inc.-MacBookPro15,1.txt`. You will need to replace `15,1` with your model number. (e.g. `sudo cp P-kauai-X3_M-HRPN_V-u__m-7.5.txt /lib/firmware/brcm/brcmfmac4364-pcie.Apple Inc.-MacBookPro15,1.txt`).
+  a. [Identifying your MacBook Pro Model](https://support.apple.com/en-us/HT201300) or [Identifying your MacBook Air Model](https://support.apple.com/en-au/HT201862)
+
+
+## FAQ
+#### Issues Updating Because of the MBP Repository
+When you update the system, you may recieve errors about my key being corrupted, if that occurs open a terminal and run this
+```
+sudo pacman-key --recv-key 2BA2DFA128BBD111034F7626C7833DB15753380A --keyserver keyserver.ubuntu.com
+```
 
 ## Building for yourself
 
