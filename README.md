@@ -112,6 +112,14 @@ sudo umount -R /mnt
 
 Reboot your computer, Remembering to move the USB boot flash drive, and welcome to Manjaro :)
 
+#### Footnote - Touchbar
+
+Small Footnote to the install setup. At this stage I forgot to compile the ISO images with the images to include the touchbar package, this will be fixed upon next release. In the meantime run this on your new system to get your touchbar working:
+
+```
+sudo pacman -S macbook12-spi-driver-dkms; sudo modprobe apple-ibridge; sudo modprobe apple-ib-tb; sudo modprobe apple-ib-als
+```
+
 ## In order to get WiFi working
 1. Boot into OSX and run the following in terminal: `ioreg -l | grep C-4364`
 
