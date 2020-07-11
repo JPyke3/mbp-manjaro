@@ -112,13 +112,14 @@ sudo umount -R /mnt
 
 Reboot your computer, Remembering to move the USB boot flash drive, and welcome to Manjaro :)
 
-#### Footnote - Touchbar
+#### Footnote - Touchbar & AUDIO
 
-Small Footnote to the install setup. At this stage I forgot to compile the ISO images with the images to include the touchbar package, this will be fixed upon next release. In the meantime run this on your new system to get your touchbar working:
+Small Footnote to the install setup. At this stage I forgot to compile the ISO images with the images to include the touchbar & audio package, this will be fixed upon next release. In the meantime run this on your new system to get your touchbar and audio working:
 
 ```
-sudo pacman -S macbook12-spi-driver-dkms; sudo modprobe apple-ibridge; sudo modprobe apple-ib-tb; sudo modprobe apple-ib-als
+sudo pacman -S macbook12-spi-driver-dkms audio-fix-mbp
 ```
+then reboot.
 
 ## In order to get WiFi working
 1. Boot into OSX and run the following in terminal: `ioreg -l | grep C-4364`
@@ -140,6 +141,12 @@ It'll be different depending on your exact model.
 
    a. [Identifying your MacBook Pro Model](https://support.apple.com/en-us/HT201300) or [Identifying your MacBook Air Model](https://support.apple.com/en-au/HT201862)
 
+#### Footnote - WiFi after reboot
+In the next release this will not be required, but in order to have the wifi work after reboot run the following commands:
+```
+sudo pacman -S wifi-fix-mbp
+systemctl start wifi-fix.service; systemctl enable wifi-fix.service
+```
 
 ## FAQ
 #### Issues Updating Because of the MBP Repository
@@ -223,7 +230,7 @@ Arch MBP 2018 (Out of Date): https://gist.github.com/TRPB/437f663b545d23cc8a2073
 - [ ] Automate WiFi Installation
 - [ ] Test Installer on Every Edition
   - [ ] xfce
-  - [ ] GNOME
+  - [*] GNOME
   - [ ] KDE-Plasma
   - [ ] Cinnamon
   - [ ] Budige
