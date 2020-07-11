@@ -30,11 +30,17 @@ Flash your iso to a USB Stick, If you want a easy way to do this. Use [Balena Et
 1. Partition your drive in MacOS ready for a linux install. You can either use Disk Utility or use Bootcamp, important thing is, is that you have two partitions (Your MacOS partition and your new linux one) (It isn't recommended that you totally delete MacOS as firmware updates are applied through it).
 2. Take ISO and flash to a USB stick
 3. Disable MacOS secure boot. [Apple's Documentation](https://support.apple.com/en-au/HT208330)
-  a. Turn on your Mac, then press and hold Command (⌘)-R immediately after you see the Apple logo to start up from macOS Recovery.  
-  b. When you see the macOS Utilities window, choose Utilities > Startup Security Utility from the menu bar.
-  c. When you're asked to authenticate, click Enter macOS Password, then choose an administrator account and enter its password.
-  d. Set the first option to "No Security", and the second to "Allow booting from External Media".
-  d. Reboot your Mac.
+
+   a. Turn on your Mac, then press and hold Command (⌘)-R immediately after you see the Apple logo to start up from macOS Recovery.  
+  
+   b. When you see the macOS Utilities window, choose Utilities > Startup Security Utility from the menu bar.
+  
+   c. When you're asked to authenticate, click Enter macOS Password, then choose an administrator account and enter its password.
+  
+   d. Set the first option to "No Security", and the second to "Allow booting from External Media".
+  
+   e. Reboot your Mac.
+  
 4. Hold the option key whilst booting. 
 5. Select the yellow EFI System using the arrow keys and hit enter.
 5. When the USB menu first appears, use your arrows to go to the blank option below Boot and type in the following (Keep in mind you cannot use backspace here):
@@ -123,7 +129,8 @@ It'll be different depending on your exact model.
 5. Copy the trx to `/lib/firmware/brcm/brcmfmac4364-pcie.bin` (e.g. `sudo cp kauai.trx /lib/firmware/brcm/brcmfmac4364-pcie.bin`)
 6. The clmb to `/lib/firmware/brcm/brcmfmac4364-pcie.clm_blob` (e.g. `sudo cp kauai-X3.clmb /lib/firmware/brcm/brcmfmac4364-pcie.clm_blob`)
 7. The txt to something like `/lib/firmware/brcm/brcmfmac4364-pcie.Apple Inc.-MacBookPro15,1.txt`. You will need to replace `15,1` with your model number. (e.g. `sudo cp P-kauai-X3_M-HRPN_V-u__m-7.5.txt /lib/firmware/brcm/brcmfmac4364-pcie.Apple Inc.-MacBookPro15,1.txt`).
-  a. [Identifying your MacBook Pro Model](https://support.apple.com/en-us/HT201300) or [Identifying your MacBook Air Model](https://support.apple.com/en-au/HT201862)
+
+   a. [Identifying your MacBook Pro Model](https://support.apple.com/en-us/HT201300) or [Identifying your MacBook Air Model](https://support.apple.com/en-au/HT201862)
 
 
 ## FAQ
