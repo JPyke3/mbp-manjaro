@@ -22,7 +22,7 @@ All Drivers/Patches Featured:
 ## Installation Proccess
 Flash your iso to a USB Stick, If you want a easy way to do this. Use [Balena Etcher](https://www.balena.io/etcher/). For a more command line way of doing this, use dd.
 
-**I do not recommend installing this just yet. There are still a few bootloader issues to work out at this stage. **
+**I do not recommend installing this just yet. There are still a few bootloader issues to work out at this stage.**
 
 **More In-Depth Installation Steps Coming Soon, in the meantime consult [mbp-fedora](https://github.com/mikeeq/mbp-fedora) Specifically Regarding Bootloader, and WiFi**
 
