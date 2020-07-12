@@ -141,8 +141,27 @@ It'll be different depending on your exact model.
 
    a. [Identifying your MacBook Pro Model](https://support.apple.com/en-us/HT201300) or [Identifying your MacBook Air Model](https://support.apple.com/en-au/HT201862)
 
-#### Footnote - WiFi after reboot
-In the next release this will not be required, but in order to have the wifi work after reboot run the following commands:
+#### Footnote - WiFi using iwd (Recommended!)
+The way I recommend getting WiFi to work in linux is using iwd instead of wpa_supplicant. Below is how you would configure iwd.
+```
+sudo pacman -S iwd
+systemctl stop wpa_supplicant
+systemctl mask wpa_supplicant
+sudo nano /etc/NetworkManager/NetworkManager.conf
+```
+paste in this at the end:
+```
+[device]
+wifi.backend=iwd
+```
+Run:
+```
+systemctl enable iwd
+```
+then reboot.
+
+#### Footnote - WiFi using wpa_supplicant
+In the next release this will not be required, but in order to have the wifi work after reboot run the following commands (NOTE: This is a bit tempremental as wpa_supplicant really doesn't work that well with the chips in the MacBooks):
 ```
 sudo pacman -S wifi-fix-mbp
 systemctl start wifi-fix.service; systemctl enable wifi-fix.service
