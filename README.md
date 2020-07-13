@@ -6,7 +6,14 @@ Kernel Source: https://github.com/JPyke3/mbp-manjaro-kernel
 
 Extra Modules: https://github.com/JPyke3/extramodules-mbp-manjaro
 
-Repository: http://jacobpyke.xyz:8080/archlinux/
+Repository: https://jacobpyke.xyz/archlinux/
+
+** NOTE: The old repository was on port 8080, this is no longer how I want to move forward and this repo will soon be taken down and off this port. The repo will remain up until the 31st of july, this should give people enough time to switch to the new repo.**
+
+In order to switch to the new repository run this in a terminal:
+```
+sudo sed -i 's/http:\/\/jacobpyke.xyz:8080/https:\/\/jacobpyke.xyz/' /etc/pacman.conf
+```
 
 All Drivers/Patches Featured:
 
