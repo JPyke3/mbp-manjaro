@@ -8,7 +8,7 @@ Extra Modules: https://github.com/JPyke3/extramodules-mbp-manjaro
 
 Repository: https://jacobpyke.xyz/archlinux/
 
-** NOTE: The old repository was on port 8080, this is no longer how I want to move forward and this repo will soon be taken down and off this port. The repo will remain up until the 31st of july, this should give people enough time to switch to the new repo.**
+**NOTE: The old repository was on port 8080, this is no longer how I want to move forward and this repo will soon be taken down and off this port. The repo will remain up until the 31st of july, this should give people enough time to switch to the new repo.**
 
 In order to switch to the new repository run this in a terminal:
 ```
