@@ -100,9 +100,9 @@ nano /boot/loader/entries/manjaro.conf
 26. Paste in the block of text below (Note for beginners to paste into a terminal its usually control + shift + v)
 ```
 title   Manjaro Linux
-linux   /vmlinuz-linux56-mbp
+linux   /vmlinuz-5.6-x86_64-mbp
 initrd  /intel-ucode.img
-initrd  /initramfs-linux56-mbp.img
+initrd  /initramfs-5.6-x86_64-mbp.img
 options root="UUID={change_this_value}" rw
 ```
 27. Change back to your other terminal with the values, And copy the UUID from the other terminal, replacing {change_this_value} (Including the brackets). 
@@ -180,6 +180,31 @@ When you update the system, you may recieve errors about my key being corrupted,
 ```
 sudo pacman-key --recv-key 2BA2DFA128BBD111034F7626C7833DB15753380A --keyserver keyserver.ubuntu.com
 ```
+
+#### When I click on the EFI Partition I boot into MacOS!
+
+Yes, sadly I made a mistake in the very early builds. This is because the earlier builds used a different naming scheme before i adopted the manjaro standard of naming the kernel `linuxXX-mbp` 
+
+In order to fix this fire up the live usb again. Once you boot into manjaro mount your EFI partition mount `/dev/nvme0n1p1 /mnt` edit the file `nano /mnt/loader/entries/manjaro.conf` and chane the line:
+```
+linux   /vmlinuz-linux56-mbp
+```
+to
+```
+linux   /vmlinuz-5.6-x86_64-mbp
+```
+and also change line:
+```
+initrd  /initramfs-linux56-mbp.img
+```
+to
+```
+initrd  /initramfs-5.6-x86_64-mbp.img
+```
+After that try the EFI System partition again.
+
+**Note, after your first update with pacman the kernel will revert back to the old names, in order to ensure you still get the latest updates revert these lines back after runing sudo pacman -Syu once.**
+
 #### Switch Touchbar to Function Keys
 Run this in your terminal:
 ```
