@@ -148,6 +148,8 @@ It'll be different depending on your exact model.
 
    a. [Identifying your MacBook Pro Model](https://support.apple.com/en-us/HT201300) or [Identifying your MacBook Air Model](https://support.apple.com/en-au/HT201862)
 
+- Credit to [@mikeeq](https://github.com/mikeeq) for the write up.
+
 #### Footnote - WiFi using iwd (Recommended!)
 The way I recommend getting WiFi to work in linux is using iwd instead of wpa_supplicant. Below is how you would configure iwd.
 ```
@@ -285,8 +287,8 @@ Arch MBP 2018 (Out of Date): https://gist.github.com/TRPB/437f663b545d23cc8a2073
 - [ ] Fix KDE and Budgie Versions
 - [ ] Automate WiFi Installation
 - [ ] Test Installer on Every Edition
-  - [ ] xfce
-  - [*] GNOME
+  - [x] xfce
+  - [x] GNOME
   - [ ] KDE-Plasma
   - [ ] Cinnamon
   - [ ] Budige
