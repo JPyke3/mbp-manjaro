@@ -200,3 +200,4 @@ linux56-mbp-virtualbox-guest-modules
 linux56-mbp-virtualbox-host-modules
 apple-bce-dkms-git
 macbook12-spi-driver-dkms
+audio-fix-mbp
