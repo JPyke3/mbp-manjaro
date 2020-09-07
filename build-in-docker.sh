@@ -21,8 +21,8 @@ run_docker() {
     # Docker command
     docker run --privileged \
         -v ~/manjaro-mbp-iso:/root/out \
-        -e KERNEL=$KERNEL
-        -e EDITION=$EDITION
+        --env KERNEL=$KERNEL\
+        --env EDITION=$EDITION\
         jpyke3/mbp-manjaro-buildiso
 }
 
