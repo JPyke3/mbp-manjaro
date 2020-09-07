@@ -215,6 +215,39 @@ sudo bash -c "echo 2 > /sys/class/input/*/device/fnmode"
 
 ## Building for yourself
 
+### Option 1: Docker
+First, you need to ensure that docker isn't using `overlay` or `overlay2` filesystems. This can be verified by running `docker info`. And will be shown next to `Storage Driver`.
+
+In the event that you are running `overlay`, [Look at this docker documentation](https://docs.docker.com/storage/storagedriver/aufs-driver/) on how to switch to AUFS.
+
+**Quick Docker Install Script - Tested on Arch**
+```
+sh -c "$(curl -fsSL "https://raw.githubusercontent.com/JPyke3/mbp-manjaro/master/build-in-docker.sh")"
+```
+
+**Docker Command**
+
+```
+docker run --privileged \
+          -v ~/manjaro-mbp-iso:/root/out \
+          --env KERNEL=linux57-mbp\
+          --env EDITION=gnome\
+          jpyke3/mbp-manjaro-buildiso
+```
+
+#### Command Breakdown
+ - `--privileged`
+   - This is required for allowing the filesystems to be created. (This is a security risk! Read for yourself the documentation on this flag)
+ - `-v`
+   - Create a folder on your host filesystem to retrieve the compiled files from the container
+ - `--env`
+   - There are two environment variables:
+     - `KERNEL`: This is used for defining which kernel version to use. All packages will follow the `-mbp` naming scheme.
+     - `EDITION`: This is used for defining which edition of manjaro you would like to install.
+
+
+## Option 2: Manually on an existing Manjaro Install
+
 First Install Manjaro Tools:
 ```
 pamac install manjaro-tools-iso git
