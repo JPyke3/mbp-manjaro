@@ -18,17 +18,12 @@ print_help() {
 # Function to run the docker commands
 run_docker() {
     
-    # Make an out dir for the compiled ISO
-    mkdir ~/manjaro-mbp-iso
-
     # Docker command
     docker run --privileged \
         -v ~/manjaro-mbp-iso:/root/out \
-        jpyke3/mbp-manjaro-buildiso\
-        buildiso -f\
-        -p $EDITION\
-        -k $KERNEL\
-        -t /root/out
+        -e KERNEL=$KERNEL
+        -e EDITION=$EDITION
+        jpyke3/mbp-manjaro-buildiso
 }
 
 # Check to make sure docker is installed
