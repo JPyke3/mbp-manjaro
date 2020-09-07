@@ -6,10 +6,7 @@ FROM manjarolinux/base
 MAINTAINER jpyke3
 
 # Update System
-RUN [ "pacman", "-Syyu", "--noconfirm" ]
-
-# Install manjaro-tools and depends
-RUN [ "pacman", "-S", "manjaro-tools-iso-git",\ 
+RUN [ "pacman", "-Syu", "manjaro-tools-iso-git",\ 
     "manjaro-tools-base-git",\
     "manjaro-tools-yaml-git",\
     "manjaro-tools-pkg-git",\
