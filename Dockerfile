@@ -21,8 +21,7 @@ RUN [ "pacman", "-S", "manjaro-tools-iso-git",\
 # Import my Pacman GPG key
 RUN [ "pacman-key", "--recv-key", "2BA2DFA128BBD111034F7626C7833DB15753380A", "--keyserver", "keyserver.ubuntu.com" ]
 
-COPY docker-commands.sh /scripts/docker-commands.sh
+# Clone the repository to the root home dir
+RUN [ "git", "clone", "https://github.com/JPyke3/mbp-manjaro", "/root/iso-profiles"]
 
-RUN ["chmod", "+x", "/scripts/docker-commands.sh"]
-
-ENTRYPOINT [ "/scripts/docker-commands.sh" ] 
+ENTRYPOINT buildiso -f -p $EDITION -k $KERNEL -t /root/out 
