@@ -292,13 +292,13 @@ manjaro-hotfixes
 >extra xdg-desktop-portal-kde
 
 # mbp
-linux56-mbp-headers
-linux56-mbp-docs
-linux56-mbp-zfs
-linux56-mbp-bbswitch
-linux56-mbp-broadcom-wl
-linux56-mbp-virtualbox-guest-modules
-linux56-mbp-virtualbox-host-modules
+linux57-mbp-headers
+linux57-mbp-docs
+linux57-mbp-zfs
+linux57-mbp-bbswitch
+linux57-mbp-broadcom-wl
+linux57-mbp-virtualbox-guest-modules
+linux57-mbp-virtualbox-host-modules
 apple-bce-dkms-git
 macbook12-spi-driver-dkms
 audio-fix-mbp
