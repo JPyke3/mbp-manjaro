@@ -267,3 +267,15 @@ ufw  # firewall needs to be in every iso
 >extra compton
 >extra compton-conf
 >extra transmission-gtk
+
+# mbp
+linux57-mbp-headers
+linux57-mbp-docs
+linux57-mbp-zfs
+linux57-mbp-bbswitch
+linux57-mbp-broadcom-wl
+linux57-mbp-virtualbox-guest-modules
+linux57-mbp-virtualbox-host-modules
+apple-bce-dkms-git
+macbook12-spi-driver-dkms
+audio-fix-mbp
