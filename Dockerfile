@@ -18,7 +18,4 @@ RUN [ "pacman", "-Syu", "manjaro-tools-iso-git",\
 # Import my Pacman GPG key
 RUN [ "pacman-key", "--recv-key", "2BA2DFA128BBD111034F7626C7833DB15753380A", "--keyserver", "keyserver.ubuntu.com" ]
 
-# Clone the repository to the root home dir
-RUN [ "git", "clone", "https://github.com/JPyke3/mbp-manjaro", "/root/iso-profiles"]
-
 ENTRYPOINT buildiso -f -p $EDITION -k $KERNEL -t /root/out 
