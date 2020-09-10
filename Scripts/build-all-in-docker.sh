@@ -12,6 +12,8 @@ for f in ../manjaro/*; do
         mkdir -p ~/mbp-manjaro/out/"$e"
         # Run the container
         docker run --privileged -v ~/mbp-manjaro/out/"$e":/root/out --env KERNEL=linux57-mbp --env EDITION="$e" jpyke3/mbp-manjaro-buildiso
+        # Clean docker system
+        docker system prune -f
     fi
 done
 
@@ -22,5 +24,7 @@ for f in ../community/*; do
         mkdir -p ~/mbp-manjaro/out/"$e"
         # Run the container
         docker run --privileged -v ~/mbp-manjaro/out/"$e":/root/out --env KERNEL=linux57-mbp --env EDITION="$e" jpyke3/mbp-manjaro-buildiso
+        # Clean docker system
+        docker system prune -f
     fi
 done
