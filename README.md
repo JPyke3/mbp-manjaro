@@ -218,7 +218,9 @@ sudo bash -c "echo 2 > /sys/class/input/*/device/fnmode"
 ### Option 1: Docker
 First, you need to ensure that docker isn't using `overlay` or `overlay2` filesystems. This can be verified by running `docker info`. And will be shown next to `Storage Driver`.
 
-In the event that you are running `overlay`, [Look at this docker documentation](https://docs.docker.com/storage/storagedriver/aufs-driver/) on how to switch to AUFS.
+In the event that you are running `overlay`, [Look at this docker documentation](https://docs.docker.com/storage/storagedriver/vfs-driver/) on how to switch to VFS.
+
+*Note, this doesn't work on OSX or Windows, I am working closely with the Manjaro Devs on this one.*
 
 **Quick Docker Install Script - Tested on Arch**
 ```
@@ -230,6 +232,7 @@ sh -c "$(curl -fsSL "https://raw.githubusercontent.com/JPyke3/mbp-manjaro/master
 ```
 docker run --privileged \
           -v ~/manjaro-mbp-iso:/root/out \
+          -v {PATH-TO-REPO}:/root/iso-profiles\
           --env KERNEL=linux57-mbp\
           --env EDITION=gnome\
           jpyke3/mbp-manjaro-buildiso
@@ -240,6 +243,7 @@ docker run --privileged \
    - This is required for allowing the filesystems to be created. (This is a security risk! Read for yourself the documentation on this flag)
  - `-v`
    - Create a folder on your host filesystem to retrieve the compiled files from the container
+   - Ensure that `{PATH-TO-REPO}` is replaced by the absolute path to this repo's files.
  - `--env`
    - There are two environment variables:
      - `KERNEL`: This is used for defining which kernel version to use. All packages will follow the `-mbp` naming scheme.
@@ -323,5 +327,5 @@ Arch MBP 2018 (Out of Date): https://gist.github.com/TRPB/437f663b545d23cc8a2073
   - [x] xfce
   - [x] GNOME
   - [ ] KDE-Plasma
-  - [ ] Cinnamon
+  - [x] Cinnamon
   - [ ] Budige
