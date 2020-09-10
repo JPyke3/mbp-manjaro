@@ -7,18 +7,20 @@
 
 for f in ../manjaro/*; do
     if [ -d "$f" ]; then
+        e=$(echo -e "$f" | sed 's/\.\.\/manjaro\///')
         # Make out directory
-        mkdir -p ~/mbp-manjaro/out/"$f"
+        mkdir -p ~/mbp-manjaro/out/"$e"
         # Run the container
-        docker run --privileged -v ~/mbp-manjaro/out/"$f":/root/out --env KERNEL=linux57-mbp --env EDITION="$f" jpyke3/mbp-manjaro-buildiso
+        docker run --privileged -v ~/mbp-manjaro/out/"$e":/root/out --env KERNEL=linux57-mbp --env EDITION="$e" jpyke3/mbp-manjaro-buildiso
     fi
 done
 
 for f in ../community/*; do
     if [ -d "$f" ]; then
+        e=$(echo -e "$f" | sed 's/\.\.\/community\///')
         # Make out directory
-        mkdir -p ~/mbp-manjaro/out/"$f"
+        mkdir -p ~/mbp-manjaro/out/"$e"
         # Run the container
-        docker run --privileged -v ~/mbp-manjaro/out/"$f":/root/out --env KERNEL=linux57-mbp --env EDITION="$f" jpyke3/mbp-manjaro-buildiso
+        docker run --privileged -v ~/mbp-manjaro/out/"$e":/root/out --env KERNEL=linux57-mbp --env EDITION="$e" jpyke3/mbp-manjaro-buildiso
     fi
 done
