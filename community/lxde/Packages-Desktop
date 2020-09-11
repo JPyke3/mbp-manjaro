@@ -223,7 +223,6 @@ gtk-engines
 polkit
 python-pyxdg
 squashfs-tools
-xdg-su
 xdg-user-dirs
 xdg-utils
 zensu
