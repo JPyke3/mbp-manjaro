@@ -82,7 +82,6 @@ mesa-demos
 mlocate
 mobile-broadband-provider-info
 modemmanager
->extra ms-office-online
 >multilib lib32-mesa-demos
 netctl
 networkmanager
@@ -121,7 +120,6 @@ terminus-font
 >extra ttf-liberation
 >extra xarchiver
 >extra xcursor-breeze
-xdg-su
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
