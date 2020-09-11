@@ -297,6 +297,10 @@ If on i3wm Cinnamon or Budige navigate to:
 cd /var/cache/manjaro-tools/iso/community/{NAME_OF_EDITION}/20.0.3/
 ```
 
+## Known Limitations
+### Architect / TTY
+All TTY's will overscan on these models. This is known and being actively worked on.
+
 ## Notable Resources
 Build Manjaro ISOs with Buildiso: https://wiki.manjaro.org/Build_Manjaro_ISOs_with_buildiso
 
@@ -329,3 +333,4 @@ Arch MBP 2018 (Out of Date): https://gist.github.com/TRPB/437f663b545d23cc8a2073
   - [ ] KDE-Plasma
   - [x] Cinnamon
   - [ ] Budige
+
