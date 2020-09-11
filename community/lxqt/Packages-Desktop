@@ -4,7 +4,6 @@
 ## Extra Network packages
 >extra mobile-broadband-provider-info
 >extra modemmanager-qt
->extra networkmanager-dispatcher-ntpd
 >extra networkmanager-openconnect
 >extra networkmanager-pptp
 >extra networkmanager-vpnc
