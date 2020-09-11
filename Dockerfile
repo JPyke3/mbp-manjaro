@@ -13,6 +13,7 @@ RUN [ "pacman", "-Syu", "manjaro-tools-iso-git",\
     "base-devel",\
     "git",\
     "lsb-release",\
+    "fontconfig",\
     "--noconfirm" ]
 
 # Import my Pacman GPG key
