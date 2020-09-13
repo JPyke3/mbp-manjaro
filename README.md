@@ -1,4 +1,4 @@
-# mbp-manjaro
+# Manjaro for T2 MacBooks
 
 This repository contains the build scripts for compiling isos using the mbp-manjaro-kernel. With these iso files you can run Manjaro on 2018+ Macbook models with the T2 Chip.
 
