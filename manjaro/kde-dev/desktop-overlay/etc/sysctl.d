@@ -1,1 +1,0 @@
-../../../kde/desktop-overlay/etc/sysctl.d/
