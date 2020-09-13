@@ -8,25 +8,11 @@ Extra Modules: https://github.com/JPyke3/extramodules-mbp-manjaro
 
 Repository: https://jacobpyke.xyz/archlinux/
 
-**NOTE: The old repository was on port 8080, this is no longer how I want to move forward and this repo will soon be taken down and off this port. The repo will remain up until the 31st of july, this should give people enough time to switch to the new repo.**
-
-In order to switch to the new repository run this in a terminal:
-```
-sudo sed -i 's/http:\/\/jacobpyke.xyz:8080/https:\/\/jacobpyke.xyz/' /etc/pacman.conf
-```
-
-All Drivers/Patches Featured:
-
-* Keyboard, Trackpad, Audio and Suspend: https://github.com/MCMrARM/mbp2018-bridge-drv
-* Arch Linux Kernel Patches: https://github.com/aunali1/linux-mbp-arch
-* DKMS Module for loading Patches: https://github.com/aunali1/apple-bce-arch
-
 ## Releases
 
-[Download the latest releases here](https://drive.google.com/drive/folders/16BK16Ig2BX3MzktFFPaX04-B2PTAhd8R?usp=sharing)
+### [Download the latest releases here](https://drive.google.com/drive/folders/16BK16Ig2BX3MzktFFPaX04-B2PTAhd8R?usp=sharing)
 
 ## Installation Proccess
-Flash your iso to a USB Stick, If you want a easy way to do this. Use [Balena Etcher](https://www.balena.io/etcher/). For a more command line way of doing this, use dd.
 
 #### Hardware requirements: 
 * USB-C to ethernet cable adapter.
@@ -35,7 +21,7 @@ Flash your iso to a USB Stick, If you want a easy way to do this. Use [Balena Et
 
 ### Steps
 1. Partition your drive in MacOS ready for a linux install. You can either use Disk Utility or use Bootcamp, important thing is, is that you have two partitions (Your MacOS partition and your new linux one) (It isn't recommended that you totally delete MacOS as firmware updates are applied through it).
-2. Take ISO and flash to a USB stick
+2. Flash your iso to a USB Stick, If you want a easy way to do this. Use [Balena Etcher](https://www.balena.io/etcher/). For a more command line way of doing this, use dd.
 3. Disable MacOS secure boot. [Apple's Documentation](https://support.apple.com/en-au/HT208330)
 
    a. Turn on your Mac, then press and hold Command (⌘)-R immediately after you see the Apple logo to start up from macOS Recovery.  
@@ -48,85 +34,78 @@ Flash your iso to a USB Stick, If you want a easy way to do this. Use [Balena Et
   
    e. Reboot your Mac.
   
-4. Hold the option key whilst booting. 
+4. Once Secure boot is diabled, fully shutdown your Computer and Power it on again whilst holding the Option (⌥) key.
 5. Select the yellow EFI System using the arrow keys and hit enter.
-5. When the USB menu first appears, use your arrows to go to the blank option below Boot and type in the following (Keep in mind you cannot use backspace here):
+6. Scroll down to `Boot x86 64 {Your Edition}` using the arrow keys and press enter.
+7. After booting into Manjaro, open a terminal window and run this command:
 ```
-efi=noruntime
+systemctl start systemd-timesyncd.service
 ```
-6. Hit enter scroll to boot and boot Manjaro.
-7. After booting into Manjaro, set the system time using the Manjaro settings
 8. Open the installer and proceed normally until you hit the partitioning stage
 9. Click Manual Partitioning
-10. Click on /dev/nvme0n1p1 then click edit at the bottom of the install window theen change the Change the Mount Point: /boot, after that click okay.
-11. Usually, the MacOS partition is mounted to /dev/nvme0n1p2, ignore this partition
-13. Delete your Linux partition on /dev/nvme0n1p3.
-14. Create a 51200 MiB partition with ext4 as the file system. Change the mount point to / and click okay.
-15. Use the remaining disk space to create an ext4 file system. Change the mount point to /home
-16. Click Next, on the next screen a warning will appear about EFI System Partition Configuration. Just ignore it and click okay.
-17. Continue the rest of the setup as normal. Once the installer has finished do not restart the system. 
-18. Open a terminal, and type: 
+10. Click on `/dev/nvme0n1p1` then press edit at the bottom of the install window, change the Change the Mount Point: `/boot`, after that click okay.
+11. Usually, the MacOS partition is mounted to `/dev/nvme0n1p2` (Double check this, the Installer should recognize this partition as an `Apple APFS` Partition). Ignore the MacOS partition.
+12. Delete the partition you created before, this is usually mounted to `/dev/nvme0n1p3`.
+13. These next steps involve partitioning the `/`(Root) and `/home`(Home) partitions of your Linux filesystem, if you know what you are doing feel free to skip to the next step (15).
+
+  - Create a `51200 MiB` partition with `ext4` as the file system. Change the mount point to `/` and click okay.
+  - Use the remaining disk space to create an `ext4` file system. Change the mount point to `/home`.
+    
+14. Click Next, on the next screen a warning will appear about EFI System Partition Configuration. Just ignore it and click okay.
+15. Continue the rest of the setup as normal. Once the installer has finished do not restart the system. 
+16. Open a terminal, and type: 
 ```
 sudo fdisk -l. 
 ```
 The root password is 'manjaro'
 
-19. Scroll up to the disk named /dev/nvme0n1. Note down the names of the 50G Linux partition and the 300M EFI SYSTEM partition.
+17. Scroll up to the disk named /dev/nvme0n1. Note down the names of the 50G Linux partition and the 300M EFI SYSTEM partition.
 In my case these were mounted at /dev/nvme0n1p1 (EFI System) and /dev/nvme0n1p3 (Linux Filesystem).
-20. Copy this command into a terminal, substitute the two fields in { } with your EFI System and Linux Filesystem names
+18. Copy this command into a terminal, substitute the two fields in { } with your EFI System and Linux Filesystem names
 ```
 sudo mount {Linux Filesystem} /mnt; sudo mount {EFI System} /mnt/boot
 ```
-21. Run this command, take note of the UUID
+19. Run this command, take note of the UUID (Note this command has a space in the grep command `"/ "`, It is there for a reason)
 ```
 cat /mnt/etc/fstab | grep "/ "
 ```
-22. Open a new terminal, and run this command
+20. Open a new terminal, and run this command
 ```
 manjaro-chroot /mnt
 ```
-23. Run this command to install systemd-boot
+21. Run this command to install systemd-boot
 ```
 bootctl --path=/boot --no-variables install 
 ```
-24. and then this one to mask systemd from not touching a EFI var (Causes a kernel panic)
+22. and then this one to mask systemd from not touching a EFI var (Causes a kernel panic)
 ```
 systemctl mask systemd-boot-system-token.service 
 ```
-25. Open the file /boot/loader/entries/manjaro.conf in your favorite text editor (If you are a beginner use the command below)
+23. Open the file /boot/loader/entries/manjaro.conf in your favorite text editor (If you are a beginner use the command below)
 ```
 nano /boot/loader/entries/manjaro.conf
 ```
-26. Paste in the block of text below (Note for beginners to paste into a terminal its usually control + shift + v)
+24. Paste in the block of text below (Note for beginners to paste into a terminal its usually control + shift + v)
 ```
 title   Manjaro Linux
-linux   /vmlinuz-5.6-x86_64-mbp
+linux   /vmlinuz-5.7-x86_64-mbp
 initrd  /intel-ucode.img
-initrd  /initramfs-5.6-x86_64-mbp.img
+initrd  /initramfs-5.7-x86_64-mbp.img
 options root="UUID={change_this_value}" rw
 ```
-27. Change back to your other terminal with the values, And copy the UUID from the other terminal, replacing {change_this_value} (Including the brackets). 
-28. Save the file (Use ctrl+x if you copied my command from above, press the y button and then press enter).
-29. Run the command below:
+25. Change back to your other terminal with the values, And copy the UUID from the other terminal, replacing {change_this_value} (Including the brackets). 
+26. Save the file (Use ctrl+x if you copied my command from above, press the y button and then press enter).
+27. Run the command below:
 ```
 echo -e 'default manjaro.conf\rtimeout 4\rconsole-mode max\reditor no'  > /boot/loader/loader.conf
 ```
-30. Press control + d
-31. Run this command:
+28. Press control + d
+29. Run this command:
 ```
 sudo umount -R /mnt
 ```
 
 Reboot your computer, Remembering to move the USB boot flash drive, and welcome to Manjaro :)
-
-#### Footnote - Touchbar & AUDIO
-
-Small Footnote to the install setup. At this stage I forgot to compile the ISO images with the images to include the touchbar & audio package, this will be fixed upon next release. In the meantime run this on your new system to get your touchbar and audio working:
-
-```
-sudo pacman -S macbook12-spi-driver-dkms audio-fix-mbp
-```
-then reboot.
 
 ## In order to get WiFi working
 1. Boot into OSX and run the following in terminal: `ioreg -l | grep C-4364`
@@ -176,6 +155,13 @@ sudo pacman -S wifi-fix-mbp
 systemctl start wifi-fix.service; systemctl enable wifi-fix.service
 ```
 
+## Useful Packages:
+ - `audio-fix-mbp`
+   - Installs files needed for pulseaudio rules
+ - `wifi-fix-mbp`
+   - Usage: `systemctl start wifi-fix.service; systemctl enable wifi-fix.service`
+   - Fixes a bug where the wifi firmware won't load on boot
+
 ## FAQ
 #### Issues Updating Because of the MBP Repository
 When you update the system, you may recieve errors about my key being corrupted, if that occurs open a terminal and run this
@@ -213,16 +199,25 @@ Run this in your terminal:
 sudo bash -c "echo 2 > /sys/class/input/*/device/fnmode"
 ```
 
+#### The Repo doesn't work!
+
+The old repository was on port 8080, this is no longer how I want to move forward and this repo has been taken down and off this port.
+
+In order to switch to the new repository run this in a terminal:
+```
+sudo sed -i 's/http:\/\/jacobpyke.xyz:8080/https:\/\/jacobpyke.xyz/' /etc/pacman.conf
+```
+
 ## Building for yourself
 
-### Option 1: Docker
+### Option 1: Docker - All Linux Distros
 First, you need to ensure that docker isn't using `overlay` or `overlay2` filesystems. This can be verified by running `docker info`. And will be shown next to `Storage Driver`.
 
 In the event that you are running `overlay`, [Look at this docker documentation](https://docs.docker.com/storage/storagedriver/vfs-driver/) on how to switch to VFS.
 
 *Note, this doesn't work on OSX or Windows, I am working closely with the Manjaro Devs on this one.*
 
-**Quick Docker Install Script - Tested on Arch**
+**Quick Docker Install Script - For Linux**
 ```
 sh -c "$(curl -fsSL "https://raw.githubusercontent.com/JPyke3/mbp-manjaro/master/build-in-docker.sh")"
 ```
@@ -262,37 +257,22 @@ Clone the repository to your home directory
 git clone https://github.com/JPyke3/mbp-manjaro ~/iso-profiles
 ```
 run a command corrisponding to your preferred version of Manjaro:
-##### xfce
+
 ```
-buildiso -f -p xfce -k linux56-mbp
+buildiso -f -p {edition} -k linux57-mbp
 ```
-##### GNOME
+
+*Available Options are:*
 ```
-buildiso -f -p gnome -k linux56-mbp
-```
-##### KDE-Plasma
-```
-buildiso -f -p kde -k linux56-mbp
-```
-##### i3wm
-```
-buildiso -f -p i3 -k linux56-mbp
-```
-##### Cinnamon
-```
-buildiso -f -p cinnamon -k linux56-mbp
-```
-##### Budgie
-```
-buildiso -f -p budgie -k linux56-mbp
+architect  gnome  kde nxd  xfce awesome  bspwm-mate  cinnamon  i3    lxqt  openbox  webdad bspwm    budgie      deepin    lxde  mate  ukui
 ```
 
 #### File Locations 
-Navigate to the directory for your iso file. If Using xfce GNOME or KDE go to:
+Navigate to the directory for your iso file. If Using a official edition go to:
 ```
 cd /var/cache/manjaro-tools/iso/manjaro/{NAME_OF_EDITION}/20.0.3/
 ```
-If on i3wm Cinnamon or Budige navigate to:
+If using a community edition to:
 ```
 cd /var/cache/manjaro-tools/iso/community/{NAME_OF_EDITION}/20.0.3/
 ```
@@ -302,15 +282,11 @@ cd /var/cache/manjaro-tools/iso/community/{NAME_OF_EDITION}/20.0.3/
 All TTY's will overscan on these models. This is known and being actively worked on.
 
 ## Notable Resources
-Build Manjaro ISOs with Buildiso: https://wiki.manjaro.org/Build_Manjaro_ISOs_with_buildiso
-
-Apple BCE DKMS Git: https://aur.archlinux.org/packages/apple-bce-dkms-git/
-
-Manjaro Core Packages: https://gitlab.manjaro.org/packages/core
-
-2018+ MBP Discord Server: https://discord.gg/fgDd8Vr
-
-Arch MBP 2018 (Out of Date): https://gist.github.com/TRPB/437f663b545d23cc8a2073253c774be3
+* Build Manjaro ISOs with Buildiso: https://wiki.manjaro.org/Build_Manjaro_ISOs_with_buildiso
+* Apple BCE DKMS Git: https://aur.archlinux.org/packages/apple-bce-dkms-git/
+* Manjaro Core Packages: https://gitlab.manjaro.org/packages/core
+* 2018+ MBP Discord Server: https://discord.gg/fgDd8Vr
+* Arch MBP 2018 (Out of Date): https://gist.github.com/TRPB/437f663b545d23cc8a2073253c774be3
 
 ## Noteworthy Helpers
 * Aunali1 (Arch Linux MBP and DKMS Modules): https://github.com/aunali1
@@ -319,18 +295,12 @@ Arch MBP 2018 (Out of Date): https://gist.github.com/TRPB/437f663b545d23cc8a2073
 * TRPB (Original Arch Linux Guide): https://github.com/TRPB
 * marcosfad (Ubuntu MBP): https://github.com/marcosfad
 
+## Noteworthy GitHub Repo's
+* Keyboard, Trackpad, Audio and Suspend: https://github.com/MCMrARM/mbp2018-bridge-drv
+* Arch Linux Kernel Patches: https://github.com/aunali1/linux-mbp-arch
+* DKMS Module for loading Patches: https://github.com/aunali1/apple-bce-arch
+
 ## Other MBP Distributions
 * Ubuntu: https://github.com/marcosfad/mbp-ubuntu
 * Fedora: https://github.com/mikeeq/mbp-fedora
 * Arch: https://github.com/aunali1/linux-mbp-arch
-
-## TODO
-- [ ] Fix KDE and Budgie Versions
-- [ ] Automate WiFi Installation
-- [ ] Test Installer on Every Edition
-  - [x] xfce
-  - [x] GNOME
-  - [ ] KDE-Plasma
-  - [x] Cinnamon
-  - [ ] Budige
-
