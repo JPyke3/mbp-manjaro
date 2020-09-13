@@ -108,15 +108,6 @@ sudo umount -R /mnt
 
 Reboot your computer, Remembering to move the USB boot flash drive, and welcome to Manjaro :)
 
-#### Footnote - Touchbar & AUDIO
-
-Small Footnote to the install setup. At this stage I forgot to compile the ISO images with the images to include the touchbar & audio package, this will be fixed upon next release. In the meantime run this on your new system to get your touchbar and audio working:
-
-```
-sudo pacman -S macbook12-spi-driver-dkms audio-fix-mbp
-```
-then reboot.
-
 ## In order to get WiFi working
 1. Boot into OSX and run the following in terminal: `ioreg -l | grep C-4364`
 
@@ -164,6 +155,13 @@ In the next release this will not be required, but in order to have the wifi wor
 sudo pacman -S wifi-fix-mbp
 systemctl start wifi-fix.service; systemctl enable wifi-fix.service
 ```
+
+## Useful Packages:
+ - `audio-fix-mbp`
+   - Installs files needed for pulseaudio rules
+ - `wifi-fix-mbp`
+   - Usage: `systemctl start wifi-fix.service; systemctl enable wifi-fix.service`
+   - Fixes a bug where the wifi firmware won't load on boot
 
 ## FAQ
 #### Issues Updating Because of the MBP Repository
