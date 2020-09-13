@@ -1,9 +1,7 @@
-#!/bin/bash
+# Maintainer: github.com/JPyke3 <Jacob Pyke, pyke.jacob1@gmail.com>
+# build-in-docker.sh
 
-# docker run --privileged  --mount type=bind,source="$HOME"/manjaro-mbp-iso,target=/root/out \
-#          -v ~/tmp/buildiso:/var/lib/manjaro-tools/buildiso --env KERNEL=linux57-mbp\
-#          --env EDITION=gnome\
-#          jpyke3/mbp-manjaro-buildiso
+#!/bin/bash
 
 for f in ../manjaro/*; do
     if [ -d "$f" ]; then
@@ -11,7 +9,7 @@ for f in ../manjaro/*; do
         # Make out directory
         mkdir -p ~/mbp-manjaro/out/"$e"
         # Run the container
-        docker run --privileged -v $PWD/../:/root/iso-profiles -v ~/mbp-manjaro/out/"$e":/root/out --env KERNEL=linux57-mbp --env EDITION="$e" jpyke3/mbp-manjaro-buildiso:dev
+        docker run --privileged -v $PWD/../:/root/iso-profiles -v ~/mbp-manjaro/out/"$e":/root/out --env KERNEL=linux57-mbp --env EDITION="$e" jpyke3/mbp-manjaro-buildiso
         # Clean docker system
         docker system prune -f
     fi
@@ -23,7 +21,7 @@ for f in ../community/*; do
         # Make out directory
         mkdir -p ~/mbp-manjaro/out/"$e"
         # Run the container
-        docker run --privileged -v $PWD/../:/root/iso-profiles -v ~/mbp-manjaro/out/"$e":/root/out --env KERNEL=linux57-mbp --env EDITION="$e" jpyke3/mbp-manjaro-buildiso:dev
+        docker run --privileged -v $PWD/../:/root/iso-profiles -v ~/mbp-manjaro/out/"$e":/root/out --env KERNEL=linux57-mbp --env EDITION="$e" jpyke3/mbp-manjaro-buildiso
         # Clean docker system
         docker system prune -f
     fi
