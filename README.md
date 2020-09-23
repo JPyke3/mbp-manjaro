@@ -278,8 +278,10 @@ cd /var/cache/manjaro-tools/iso/community/{NAME_OF_EDITION}/20.0.3/
 ```
 
 ## Known Limitations
-### Architect / TTY
-All TTY's will overscan on these models. This is known and being actively worked on.
+
+### No Openbox
+
+At this stage the packages for openbox are really out of date, when their respective packages are updated Openbox will be added back in
 
 ## Notable Resources
 * Build Manjaro ISOs with Buildiso: https://wiki.manjaro.org/Build_Manjaro_ISOs_with_buildiso
