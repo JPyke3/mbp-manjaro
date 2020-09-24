@@ -27,7 +27,6 @@ deepin-kwin
 >extra deepin-system-monitor
 deepin-terminal
 deepin-turbo
->extra deepin-voice-recorder
 >extra deluge
 dmidecode
 >extra downgrade
