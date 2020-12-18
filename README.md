@@ -44,75 +44,27 @@ sudo sed -i 's/https:\/\/jacobpyke.xyz/http:\/\/mbp-repo.jacobpyke.xyz/' /etc/pa
 4. Once Secure boot is diabled, fully shutdown your Computer and Power it on again whilst holding the Option (⌥) key.
 5. Select the yellow EFI System using the arrow keys and hit enter.
 6. Scroll down to `Boot x86 64 {Your Edition}` using the arrow keys and press enter.
-7. After booting into Manjaro, open a terminal window and run this command:
+7. After booting into Manjaro, open a terminal window and run the following commands:
 ```
 systemctl start systemd-timesyncd.service
+sudo sed -i 's/https:\/\/jacobpyke.xyz/http:\/\/mbp-repo.jacobpyke.xyz/' /etc/pacman.conf
+sudo pacman -R calamares
+sudo pacman -S calamares-mbp
 ```
 8. Open the installer and proceed normally until you hit the partitioning stage
 9. Click Manual Partitioning
-10. Click on `/dev/nvme0n1p1` then press edit at the bottom of the install window, change the Change the Mount Point: `/boot`, after that click okay.
+10. Click on `/dev/nvme0n1p1` then press edit at the bottom of the install window, change the Change the Mount Point: `/boot/efi`, after that click okay.
 11. Usually, the MacOS partition is mounted to `/dev/nvme0n1p2` (Double check this, the Installer should recognize this partition as an `Apple APFS` Partition). Ignore the MacOS partition.
 12. Delete the partition you created before, this is usually mounted to `/dev/nvme0n1p3`.
-13. These next steps involve partitioning the `/`(Root) and `/home`(Home) partitions of your Linux filesystem, if you know what you are doing feel free to skip to the next step (15).
+13. These next steps involve partitioning the `/boot`(boot), `/`(Root) and `/home`(Home) partitions of your Linux filesystem, if you know what you are doing feel free to skip to the next step (15).
 
+  - Create a `2000 MiB` partition with `ext4` as the file system. Change the mount point to `/boot` and click okay.
   - Create a `51200 MiB` partition with `ext4` as the file system. Change the mount point to `/` and click okay.
   - Use the remaining disk space to create an `ext4` file system. Change the mount point to `/home`.
     
-14. Click Next, on the next screen a warning will appear about EFI System Partition Configuration. Just ignore it and click okay.
-15. Continue the rest of the setup as normal. Once the installer has finished do not restart the system. 
-16. Open a terminal, and type: 
-```
-sudo fdisk -l. 
-```
-The root password is 'manjaro'
-
-17. Scroll up to the disk named /dev/nvme0n1. Note down the names of the 50G Linux partition and the 300M EFI SYSTEM partition.
-In my case these were mounted at /dev/nvme0n1p1 (EFI System) and /dev/nvme0n1p3 (Linux Filesystem).
-18. Copy this command into a terminal, substitute the two fields in { } with your EFI System and Linux Filesystem names
-```
-sudo mount {Linux Filesystem} /mnt; sudo mount {EFI System} /mnt/boot
-```
-19. Run this command, take note of the UUID (Note this command has a space in the grep command `"/ "`, It is there for a reason)
-```
-cat /mnt/etc/fstab | grep "/ "
-```
-20. Open a new terminal, and run this command
-```
-manjaro-chroot /mnt
-```
-21. Run this command to install systemd-boot
-```
-bootctl --path=/boot --no-variables install 
-```
-22. and then this one to mask systemd from not touching a EFI var (Causes a kernel panic)
-```
-systemctl mask systemd-boot-system-token.service 
-```
-23. Open the file /boot/loader/entries/manjaro.conf in your favorite text editor (If you are a beginner use the command below)
-```
-nano /boot/loader/entries/manjaro.conf
-```
-24. Paste in the block of text below (Note for beginners to paste into a terminal its usually control + shift + v)
-```
-title   Manjaro Linux
-linux   /vmlinuz-5.7-x86_64-mbp
-initrd  /intel-ucode.img
-initrd  /initramfs-5.7-x86_64-mbp.img
-options root="UUID={change_this_value}" rw
-```
-25. Change back to your other terminal with the values, And copy the UUID from the other terminal, replacing {change_this_value} (Including the brackets). 
-26. Save the file (Use ctrl+x if you copied my command from above, press the y button and then press enter).
-27. Run the command below:
-```
-echo -e 'default manjaro.conf\rtimeout 4\rconsole-mode max\reditor no'  > /boot/loader/loader.conf
-```
-28. Press control + d
-29. Run this command:
-```
-sudo umount -R /mnt
-```
-
-Reboot your computer, Remembering to move the USB boot flash drive, and welcome to Manjaro :)
+15. Continue the rest of the setup as normal. Once the setup process is complete, restart your computer remembering to remove the install medium once powered off
+16. Once again, Power on your computer whilst holding the Option (⌥) key. Then select EFI Boot
+17. Welcome to Manjaro :)
 
 ## In order to get WiFi working
 1. Boot into OSX and run the following in terminal: `ioreg -l | grep C-4364`
@@ -139,7 +91,7 @@ It'll be different depending on your exact model.
 #### Footnote - WiFi using iwd (Recommended!)
 The way I recommend getting WiFi to work in linux is using iwd instead of wpa_supplicant. Below is how you would configure iwd.
 ```
-sudo pacman -S iwd
+sudo pacman -S iwd wifi-fix-mbp
 systemctl stop wpa_supplicant
 systemctl mask wpa_supplicant
 sudo nano /etc/NetworkManager/NetworkManager.conf
@@ -152,15 +104,9 @@ wifi.backend=iwd
 Run:
 ```
 systemctl enable iwd
+systemctl enable wifi-fix.service
 ```
 then reboot.
-
-#### Footnote - WiFi using wpa_supplicant
-In the next release this will not be required, but in order to have the wifi work after reboot run the following commands (NOTE: This is a bit tempremental as wpa_supplicant really doesn't work that well with the chips in the MacBooks):
-```
-sudo pacman -S wifi-fix-mbp
-systemctl start wifi-fix.service; systemctl enable wifi-fix.service
-```
 
 ## Useful Packages:
  - `audio-fix-mbp`
@@ -180,30 +126,6 @@ When you update the system, you may recieve errors about my key being corrupted,
 ```
 sudo pacman-key --recv-key 2BA2DFA128BBD111034F7626C7833DB15753380A --keyserver keyserver.ubuntu.com
 ```
-
-#### When I click on the EFI Partition I boot into MacOS!
-
-Yes, sadly I made a mistake in the very early builds. This is because the earlier builds used a different naming scheme before i adopted the manjaro standard of naming the kernel `linuxXX-mbp` 
-
-In order to fix this fire up the live usb again. Once you boot into manjaro mount your EFI partition mount `/dev/nvme0n1p1 /mnt` edit the file `nano /mnt/loader/entries/manjaro.conf` and chane the line:
-```
-linux   /vmlinuz-linux56-mbp
-```
-to
-```
-linux   /vmlinuz-5.6-x86_64-mbp
-```
-and also change line:
-```
-initrd  /initramfs-linux56-mbp.img
-```
-to
-```
-initrd  /initramfs-5.6-x86_64-mbp.img
-```
-After that try the EFI System partition again.
-
-**Note, after your first update with pacman the kernel will revert back to the old names, in order to ensure you still get the latest updates revert these lines back after runing sudo pacman -Syu once.**
 
 #### Switch Touchbar to Function Keys
 Run this in your terminal:
