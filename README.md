@@ -6,7 +6,14 @@ Kernel Source: https://github.com/JPyke3/mbp-manjaro-kernel
 
 Extra Modules: https://github.com/JPyke3/extramodules-mbp-manjaro
 
-Repository: https://jacobpyke.xyz/archlinux/
+Repository: http://mbp-repo.jacobpyke.xyz/archlinux/
+
+## Important Notice for all users!
+
+My repository has changed due to issues with my previous content delivery network. You can replace the repository by opening a terminal and running the following command:
+```
+sudo sed -i 's/https:\/\/jacobpyke.xyz/http:\/\/mbp-repo.jacobpyke.xyz/' /etc/pacman.conf
+```
 
 ## Releases
 
@@ -202,15 +209,6 @@ After that try the EFI System partition again.
 Run this in your terminal:
 ```
 sudo bash -c "echo 2 > /sys/class/input/*/device/fnmode"
-```
-
-#### The Repo doesn't work!
-
-The old repository was on port 8080, this is no longer how I want to move forward and this repo has been taken down and off this port.
-
-In order to switch to the new repository run this in a terminal:
-```
-sudo sed -i 's/http:\/\/jacobpyke.xyz:8080/https:\/\/jacobpyke.xyz/' /etc/pacman.conf
 ```
 
 ## Building for yourself
