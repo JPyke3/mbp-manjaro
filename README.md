@@ -8,6 +8,8 @@ Extra Modules: https://github.com/JPyke3/extramodules-mbp-manjaro
 
 Repository: http://mbp-repo.jacobpyke.xyz/archlinux/
 
+Roadmap: https://github.com/JPyke3/mbp-manjaro/projects/1
+
 ## Important Notice for all users!
 
 My repository has changed due to issues with my previous content delivery network. You can replace the repository by opening a terminal and running the following command:
