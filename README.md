@@ -17,11 +17,11 @@ My repository has changed due to issues with my previous content delivery networ
 sudo sed -i 's/https:\/\/jacobpyke.xyz/http:\/\/mbp-repo.jacobpyke.xyz/' /etc/pacman.conf
 ```
 
-## Releases
-
-### [Download the latest releases here](https://drive.google.com/drive/folders/16BK16Ig2BX3MzktFFPaX04-B2PTAhd8R?usp=sharing)
-
 ## Installation Proccess
+
+#### Releases
+
+[See releases](https://github.com/JPyke3/mbp-manjaro/releases)
 
 #### Hardware requirements: 
 * USB-C to ethernet cable adapter.
