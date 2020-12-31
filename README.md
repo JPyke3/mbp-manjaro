@@ -54,8 +54,20 @@ sudo sed -i 's/https:\/\/jacobpyke.xyz/http:\/\/mbp-repo.jacobpyke.xyz/' /etc/pa
 * Keyboard, Trackpad, Audio and Suspend: https://github.com/MCMrARM/mbp2018-bridge-drv
 * Arch Linux Kernel Patches: https://github.com/aunali1/linux-mbp-arch
 * DKMS Module for loading Patches: https://github.com/aunali1/apple-bce-arch
-
 ## Other MBP Distributions
 * Ubuntu: https://github.com/marcosfad/mbp-ubuntu
 * Fedora: https://github.com/mikeeq/mbp-fedora
 * Arch: https://github.com/aunali1/linux-mbp-arch
+
+# Donations
+*There is absolutley no obligation to donate, this software is free and will remain that way, this is just if you wanna help support my caffeine addiction ☕️*
+
+I accept donations either through Patreon (See the right hand side bar). Or via crypto (BTC and Lightning).
+
+### On Chain
+My On Chain address is: `36MMVwfxRyZKA4SJyUkB8QptMvBip9jLzS`
+
+![btc-on-chain](https://s3.eu-central-1.wasabisys.com/mbp-repo.jacobpyke.xyz/images/btc-address.png)
+
+### Lightning
+[tippin.me](https://tippin.me) is currently not accepting sign ups, once they do I will create an account then I will accept tips via Lightning
