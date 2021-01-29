@@ -40,7 +40,7 @@ sudo sed -i 's/https:\/\/jacobpyke.xyz/http:\/\/mbp-repo.jacobpyke.xyz/' /etc/pa
 * Build Manjaro ISOs with Buildiso: https://wiki.manjaro.org/Build_Manjaro_ISOs_with_buildiso
 * Apple BCE DKMS Git: https://aur.archlinux.org/packages/apple-bce-dkms-git/
 * Manjaro Core Packages: https://gitlab.manjaro.org/packages/core
-* 2018+ MBP Discord Server: https://discord.gg/fgDd8Vr
+* Linux on T2 Macs (2018+) Discord Server: https://discord.gg/fgDd8Vr
 * Arch MBP 2018 (Out of Date): https://gist.github.com/TRPB/437f663b545d23cc8a2073253c774be3
 
 ## Noteworthy Helpers
@@ -54,6 +54,7 @@ sudo sed -i 's/https:\/\/jacobpyke.xyz/http:\/\/mbp-repo.jacobpyke.xyz/' /etc/pa
 * Keyboard, Trackpad, Audio and Suspend: https://github.com/MCMrARM/mbp2018-bridge-drv
 * Arch Linux Kernel Patches: https://github.com/aunali1/linux-mbp-arch
 * DKMS Module for loading Patches: https://github.com/aunali1/apple-bce-arch
+
 ## Other MBP Distributions
 * Ubuntu: https://github.com/marcosfad/mbp-ubuntu
 * Fedora: https://github.com/mikeeq/mbp-fedora
